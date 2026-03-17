@@ -1,0 +1,339 @@
+{
+  "scannedDocs": 159,
+  "checkedInternalReferences": 390,
+  "internalFailures": [
+    {
+      "url": "http://127.0.0.1:3000/%7B%7Bthis%7D%7D",
+      "from": [
+        "/tutorials/building-a-web-file-store"
+      ],
+      "raw": [
+        "/{{this}}"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/broken-reference",
+      "from": [
+        "/products"
+      ],
+      "raw": [
+        "broken-reference/"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/code-capsules-cli/commands",
+      "from": [
+        "/cli"
+      ],
+      "raw": [
+        "code-capsules-cli/commands/"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/database/mongodb/django-%2B-mongodb",
+      "from": [
+        "/products/database-capsule/overview"
+      ],
+      "raw": [
+        "/database/mongodb/django-%2B-mongodb"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/database/mongodb/express-%2B-mongodb",
+      "from": [
+        "/products/database-capsule/overview"
+      ],
+      "raw": [
+        "/database/mongodb/express-%2B-mongodb"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/database/mongodb/flask-%2B-mongodb",
+      "from": [
+        "/products/database-capsule/overview"
+      ],
+      "raw": [
+        "/database/mongodb/flask-%2B-mongodb"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/database/mysql/django-%2B-mysql",
+      "from": [
+        "/products/database-capsule/overview"
+      ],
+      "raw": [
+        "/database/mysql/django-%2B-mysql"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/database/mysql/flask-%2B-mysql",
+      "from": [
+        "/products/database-capsule/overview"
+      ],
+      "raw": [
+        "/database/mysql/flask-%2B-mysql"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/database/mysql/java-%2B-mysql",
+      "from": [
+        "/products/database-capsule/overview"
+      ],
+      "raw": [
+        "/database/mysql/java-%2B-mysql"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/agent-capsule/templates%20%22mention%22",
+      "from": [
+        "/products/agent-capsule/deploy"
+      ],
+      "raw": [
+        "/products/agent-capsule/templates \"mention\""
+      ]
+    }
+  ],
+  "checkedExternalReferences": 235,
+  "externalFailures": [
+    {
+      "url": "http://localhost:3005/",
+      "status": 0,
+      "error": "fetch failed",
+      "from": [
+        "/tutorials/white-label-your-app-with-code-capsules"
+      ]
+    },
+    {
+      "url": "http://www.passportjs.org/docs/basic-digest",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/building-a-game-catalogue-api"
+      ]
+    },
+    {
+      "url": "http://www.passportjs.org/docs/logout",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/building-a-web-file-store"
+      ]
+    },
+    {
+      "url": "https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/157e95dcd81da273043773a95905652dbf93006cff02555c2a4a5234bb652251.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20260213%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260213T110851Z&X-Amz-Expires=172800&X-Amz-Signature=d167a230b7ddc95d4cedd6e56d834f066c0f410620b5f3e0b522406fa672adbe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "status": 403,
+      "error": null,
+      "from": [
+        "/products/agent-capsule/chat"
+      ]
+    },
+    {
+      "url": "https://cc-agent-fork-setx.ovh-test.ccdns.co/swagger.json",
+      "status": 401,
+      "error": null,
+      "from": [
+        "/products/agent-capsule/chat/agent-api-sample"
+      ]
+    },
+    {
+      "url": "https://codahale.com/a-lesson-in-timing-attacks",
+      "status": 0,
+      "error": "fetch failed",
+      "from": [
+        "/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/doc/how-to-deploy-a-vue-application-to-production-on-code-capsules",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/nuxt3-and-nitro"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/docs/tutorials/generative-art",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/wp-content/uploads/2023/07/backend-capsule-build-logs-5.png",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/building-a-game-catalogue-api"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/wp-content/uploads/2023/07/bind-persistent-1.png",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/building-a-web-file-store"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/wp-content/uploads/2023/07/sql-bind-env-3.png",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/building-a-game-catalogue-api"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/wp-content/uploads/2023/08/backend-capsule-build-logs-1.png",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/white-label-your-app-with-code-capsules"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/wp-content/uploads/2023/08/bind-persistent-1.png",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/white-label-your-app-with-code-capsules"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/wp-content/uploads/2023/08/env-variables-persistent-storage-1.png",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/white-label-your-app-with-code-capsules"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/wp-content/uploads/2023/08/view-application.png",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/white-label-your-app-with-code-capsules"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/wp-content/uploads/2023/11/code-capsules-captule-details.png",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/best-practices-for-structuring-mean-mern-mevn-projects"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/wp-content/uploads/2023/11/code-capsules-create-new-space.jpg",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/best-practices-for-structuring-mean-mern-mevn-projects"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/wp-content/uploads/2023/11/code-capsules-create-new-team.png",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/best-practices-for-structuring-mean-mern-mevn-projects"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/wp-content/uploads/2023/11/code-capsules-login-existing-account.png",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/best-practices-for-structuring-mean-mern-mevn-projects"
+      ]
+    },
+    {
+      "url": "https://codecapsules.io/wp-content/uploads/2023/11/code-capsules-register-new-account.png",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/best-practices-for-structuring-mean-mern-mevn-projects"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Polling_/(computer_science",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules"
+      ]
+    },
+    {
+      "url": "https://github.com/codecapsules-io/codecapsules-docs/blob/main/tutorials/link/README.md",
+      "status": 404,
+      "error": null,
+      "from": [
+        "/tutorials/how-to-simply-host-a-production-wordpress-blog"
+      ]
+    },
+    {
+      "url": "https://openai.com/index/openai-api",
+      "status": 403,
+      "error": null,
+      "from": [
+        "/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules"
+      ]
+    },
+    {
+      "url": "https://www.mysql.com/",
+      "status": 403,
+      "error": null,
+      "from": [
+        "/tutorials/building-a-game-catalogue-api"
+      ]
+    },
+    {
+      "url": "https://www.npmjs.com/package/body-parser",
+      "status": 403,
+      "error": null,
+      "from": [
+        "/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications"
+      ]
+    },
+    {
+      "url": "https://www.npmjs.com/package/express-fileupload",
+      "status": 403,
+      "error": null,
+      "from": [
+        "/tutorials/building-a-web-file-store"
+      ]
+    },
+    {
+      "url": "https://www.npmjs.com/package/express-session",
+      "status": 403,
+      "error": null,
+      "from": [
+        "/tutorials/building-a-web-file-store"
+      ]
+    },
+    {
+      "url": "https://www.npmjs.com/package/mysql2",
+      "status": 403,
+      "error": null,
+      "from": [
+        "/tutorials/building-a-game-catalogue-api"
+      ]
+    },
+    {
+      "url": "https://www.npmjs.com/package/passport-local",
+      "status": 403,
+      "error": null,
+      "from": [
+        "/tutorials/building-a-web-file-store"
+      ]
+    },
+    {
+      "url": "https://www.npmjs.com/package/superagent",
+      "status": 403,
+      "error": null,
+      "from": [
+        "/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications"
+      ]
+    }
+  ]
+}

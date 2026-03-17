@@ -1,0 +1,14 @@
+[
+  {
+    "from": [
+      "/readme"
+    ],
+    "to": "/"
+  },
+  {
+    "from": [
+      "/cli/readme"
+    ],
+    "to": "/cli"
+  }
+]

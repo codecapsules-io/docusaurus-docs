@@ -1,0 +1,3266 @@
+[
+  {
+    "from": "/gitbook-assets/cli/image.png",
+    "to": "/gitbook-assets/cli/image.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/add-bot-token-env-var.png",
+    "to": "/gitbook-assets/get-started/add-bot-token-env-var.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/add-bot.png",
+    "to": "/gitbook-assets/get-started/add-bot.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/add-capsule.png",
+    "to": "/gitbook-assets/get-started/add-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/angular hero.png",
+    "to": "/gitbook-assets/get-started/angular-hero.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/angular-build-logs.png",
+    "to": "/gitbook-assets/get-started/angular-build-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Angular.png",
+    "to": "/gitbook-assets/get-started/angular.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/backend-capsule-build-logs (1).png",
+    "to": "/gitbook-assets/get-started/backend-capsule-build-logs-1.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/backend-capsule-build-logs.png",
+    "to": "/gitbook-assets/get-started/backend-capsule-build-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/backend-url.png",
+    "to": "/gitbook-assets/get-started/backend-url.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/banner.png",
+    "to": "/gitbook-assets/get-started/banner.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/bind-flask-htmx-file-storage.png",
+    "to": "/gitbook-assets/get-started/bind-flask-htmx-file-storage.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/bind-mongodb-capsule-env.png",
+    "to": "/gitbook-assets/get-started/bind-mongodb-capsule-env.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/bind-mongodb.png",
+    "to": "/gitbook-assets/get-started/bind-mongodb.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/bind-persistent (1).png",
+    "to": "/gitbook-assets/get-started/bind-persistent-1.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/bind-persistent-capsule-backend.png",
+    "to": "/gitbook-assets/get-started/bind-persistent-capsule-backend.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/bind-persistent.png",
+    "to": "/gitbook-assets/get-started/bind-persistent.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/bootstrap-site.png",
+    "to": "/gitbook-assets/get-started/bootstrap-site.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/bot-option.png",
+    "to": "/gitbook-assets/get-started/bot-option.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/bot-token-env-variable.png",
+    "to": "/gitbook-assets/get-started/bot-token-env-variable.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Build a Slackbot With Node.js to Monitor Your Applications.png",
+    "to": "/gitbook-assets/get-started/build-a-slackbot-with-node-js-to-monitor-your-applications.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Building a Book Recommendations App With PHP, SQLite, and Docker.png",
+    "to": "/gitbook-assets/get-started/building-a-book-recommendations-app-with-php-sqlite-and-docker.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Building a Hex Color Identifier API With PHP, Laravel, and Docker.png",
+    "to": "/gitbook-assets/get-started/building-a-hex-color-identifier-api-with-php-laravel-and-docker.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/caddy-docker-site.png",
+    "to": "/gitbook-assets/get-started/caddy-docker-site.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/capsule-domain.png",
+    "to": "/gitbook-assets/get-started/capsule-domain.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/CC Docs Banner (1).png",
+    "to": "/gitbook-assets/get-started/cc-docs-banner-1.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/CC Docs Banner.png",
+    "to": "/gitbook-assets/get-started/cc-docs-banner.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-angular-app.png",
+    "to": "/gitbook-assets/get-started/cc-angular-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-django-app (1).png",
+    "to": "/gitbook-assets/get-started/cc-django-app-1.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-django-app.png",
+    "to": "/gitbook-assets/get-started/cc-django-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-django-mongodb-app.png",
+    "to": "/gitbook-assets/get-started/cc-django-mongodb-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-express-app.png",
+    "to": "/gitbook-assets/get-started/cc-express-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-express-mongo-app.png",
+    "to": "/gitbook-assets/get-started/cc-express-mongo-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-flask-app (1).png",
+    "to": "/gitbook-assets/get-started/cc-flask-app-1.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-flask-app.png",
+    "to": "/gitbook-assets/get-started/cc-flask-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-flask-mongo-app.png",
+    "to": "/gitbook-assets/get-started/cc-flask-mongo-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-go-app.png",
+    "to": "/gitbook-assets/get-started/cc-go-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-html-site.png",
+    "to": "/gitbook-assets/get-started/cc-html-site.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-java-app.png",
+    "to": "/gitbook-assets/get-started/cc-java-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-mean-app.png",
+    "to": "/gitbook-assets/get-started/cc-mean-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-mern-stack.png",
+    "to": "/gitbook-assets/get-started/cc-mern-stack.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-next-mongo-app.png",
+    "to": "/gitbook-assets/get-started/cc-next-mongo-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-react-app.png",
+    "to": "/gitbook-assets/get-started/cc-react-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/cc-vue-app.png",
+    "to": "/gitbook-assets/get-started/cc-vue-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/channel-env-variable.png",
+    "to": "/gitbook-assets/get-started/channel-env-variable.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/choose-slash-command.png",
+    "to": "/gitbook-assets/get-started/choose-slash-command.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/connection-string.png",
+    "to": "/gitbook-assets/get-started/connection-string.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Contact Sales.png",
+    "to": "/gitbook-assets/get-started/contact-sales.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/copy-channel-link.png",
+    "to": "/gitbook-assets/get-started/copy-channel-link.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Create and Host a Telegram Bot With Node.js.png",
+    "to": "/gitbook-assets/get-started/create-and-host-a-telegram-bot-with-node-js.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/create-command.png",
+    "to": "/gitbook-assets/get-started/create-command.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/create-mongodb-capsule.png",
+    "to": "/gitbook-assets/get-started/create-mongodb-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/create-persistent-capsule.png",
+    "to": "/gitbook-assets/get-started/create-persistent-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/create-postgresql-capsule.png",
+    "to": "/gitbook-assets/get-started/create-postgresql-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/create-redis-capsule.png",
+    "to": "/gitbook-assets/get-started/create-redis-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/create-sql-capsule.png",
+    "to": "/gitbook-assets/get-started/create-sql-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/dcoker-port-5000.png",
+    "to": "/gitbook-assets/get-started/dcoker-port-5000.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/docker hero.png",
+    "to": "/gitbook-assets/get-started/docker-hero.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/docker-build.png",
+    "to": "/gitbook-assets/get-started/docker-build.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/docker-laravel.png",
+    "to": "/gitbook-assets/get-started/docker-laravel.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/docker-php.png",
+    "to": "/gitbook-assets/get-started/docker-php.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/docker-port-80.png",
+    "to": "/gitbook-assets/get-started/docker-port-80.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/docker-port-8000.png",
+    "to": "/gitbook-assets/get-started/docker-port-8000.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/docker.png",
+    "to": "/gitbook-assets/get-started/docker.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/edit-database-url.png",
+    "to": "/gitbook-assets/get-started/edit-database-url.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/env-variables-persistent-storage.png",
+    "to": "/gitbook-assets/get-started/env-variables-persistent-storage.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/flask-docker-application.png",
+    "to": "/gitbook-assets/get-started/flask-docker-application.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/flask-htmx.png",
+    "to": "/gitbook-assets/get-started/flask-htmx.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/flask-mysql-app.png",
+    "to": "/gitbook-assets/get-started/flask-mysql-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/flask-mysql-edit-db-url.png",
+    "to": "/gitbook-assets/get-started/flask-mysql-edit-db-url.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/frontend-build-logs.png",
+    "to": "/gitbook-assets/get-started/frontend-build-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/generic-docs-banner.png",
+    "to": "/gitbook-assets/get-started/generic-docs-banner.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Get Started for Free.png",
+    "to": "/gitbook-assets/get-started/get-started-for-free.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/go.png",
+    "to": "/gitbook-assets/get-started/go.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/hero 1.png",
+    "to": "/gitbook-assets/get-started/hero-1.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/How to Deploy a React Token dApp to Code Capsules react.png",
+    "to": "/gitbook-assets/get-started/how-to-deploy-a-react-token-dapp-to-code-capsules-react.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/How to Deploy a React Token dApp to Code Capsules.png",
+    "to": "/gitbook-assets/get-started/how-to-deploy-a-react-token-dapp-to-code-capsules.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/html5up-site.png",
+    "to": "/gitbook-assets/get-started/html5up-site.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/invite-bot.png",
+    "to": "/gitbook-assets/get-started/invite-bot.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/java-mysql-app.png",
+    "to": "/gitbook-assets/get-started/java-mysql-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/mongo.png",
+    "to": "/gitbook-assets/get-started/mongo.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/mysql.png",
+    "to": "/gitbook-assets/get-started/mysql.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/network-port-80.png",
+    "to": "/gitbook-assets/get-started/network-port-80.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/network-port-8000.png",
+    "to": "/gitbook-assets/get-started/network-port-8000.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/network-port.png",
+    "to": "/gitbook-assets/get-started/network-port.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/next-app.png",
+    "to": "/gitbook-assets/get-started/next-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/next-express-app.png",
+    "to": "/gitbook-assets/get-started/next-express-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/node hero.png",
+    "to": "/gitbook-assets/get-started/node-hero.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/node js.png",
+    "to": "/gitbook-assets/get-started/node-js.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Nuxt3 and Nitro.png",
+    "to": "/gitbook-assets/get-started/nuxt3-and-nitro.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Optimizing Performance in MERN Stack_ Tips and Techniques.png",
+    "to": "/gitbook-assets/get-started/optimizing-performance-in-mern-stack-tips-and-techniques.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/persistent storage.png",
+    "to": "/gitbook-assets/get-started/persistent-storage.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/PHP Laravel.png",
+    "to": "/gitbook-assets/get-started/php-laravel.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/plus-icon.png",
+    "to": "/gitbook-assets/get-started/plus-icon.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/PostGres.png",
+    "to": "/gitbook-assets/get-started/postgres.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/postgresql-connection-string.png",
+    "to": "/gitbook-assets/get-started/postgresql-connection-string.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/psql-mysql-url.png",
+    "to": "/gitbook-assets/get-started/psql-mysql-url.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/python hero.png",
+    "to": "/gitbook-assets/get-started/python-hero.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/python.png",
+    "to": "/gitbook-assets/get-started/python.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/react hero.png",
+    "to": "/gitbook-assets/get-started/react-hero.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/react.png",
+    "to": "/gitbook-assets/get-started/react.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/redis-bind-env.png",
+    "to": "/gitbook-assets/get-started/redis-bind-env.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/sandbox-config.png",
+    "to": "/gitbook-assets/get-started/sandbox-config.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/sandbox-participants.png",
+    "to": "/gitbook-assets/get-started/sandbox-participants.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/see-your-files.png",
+    "to": "/gitbook-assets/get-started/see-your-files.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/set-network-port.png",
+    "to": "/gitbook-assets/get-started/set-network-port.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/signing-env-variable.png",
+    "to": "/gitbook-assets/get-started/signing-env-variable.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/slack-bot-token.png",
+    "to": "/gitbook-assets/get-started/slack-bot-token.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/slack-channel-id.png",
+    "to": "/gitbook-assets/get-started/slack-channel-id.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/slack-scopes.png",
+    "to": "/gitbook-assets/get-started/slack-scopes.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/slack-signing-secret (1).png",
+    "to": "/gitbook-assets/get-started/slack-signing-secret-1.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/slack-signing-secret.png",
+    "to": "/gitbook-assets/get-started/slack-signing-secret.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/space-name (1).png",
+    "to": "/gitbook-assets/get-started/space-name-1.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/space-name.png",
+    "to": "/gitbook-assets/get-started/space-name.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/sql-bind-env.png",
+    "to": "/gitbook-assets/get-started/sql-bind-env.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Static HTML.png",
+    "to": "/gitbook-assets/get-started/static-html.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/svelte-app.png",
+    "to": "/gitbook-assets/get-started/svelte-app.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/text-permissions.png",
+    "to": "/gitbook-assets/get-started/text-permissions.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/toggle-public-access.png",
+    "to": "/gitbook-assets/get-started/toggle-public-access.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/token-env-var.png",
+    "to": "/gitbook-assets/get-started/token-env-var.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/token-env-variable (1).png",
+    "to": "/gitbook-assets/get-started/token-env-variable-1.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/token-env-variable.png",
+    "to": "/gitbook-assets/get-started/token-env-variable.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/token.png",
+    "to": "/gitbook-assets/get-started/token.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/upload-download.png",
+    "to": "/gitbook-assets/get-started/upload-download.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/url-env-var.png",
+    "to": "/gitbook-assets/get-started/url-env-var.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/url-env-variable.png",
+    "to": "/gitbook-assets/get-started/url-env-variable.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/url.png",
+    "to": "/gitbook-assets/get-started/url.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Video Guides Angular.png",
+    "to": "/gitbook-assets/get-started/video-guides-angular.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Video Guides python.png",
+    "to": "/gitbook-assets/get-started/video-guides-python.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/Video Guides react.png",
+    "to": "/gitbook-assets/get-started/video-guides-react.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/vue.png",
+    "to": "/gitbook-assets/get-started/vue.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/wordpress-capsule-type.png",
+    "to": "/gitbook-assets/get-started/wordpress-capsule-type.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/wordpress-choose-plan.png",
+    "to": "/gitbook-assets/get-started/wordpress-choose-plan.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/wordpress-configure-capsule.png",
+    "to": "/gitbook-assets/get-started/wordpress-configure-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/wordpress-git-managed.png",
+    "to": "/gitbook-assets/get-started/wordpress-git-managed.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/wordpress-logs.png",
+    "to": "/gitbook-assets/get-started/wordpress-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/wordpress-setup.png",
+    "to": "/gitbook-assets/get-started/wordpress-setup.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/wordpress-url.png",
+    "to": "/gitbook-assets/get-started/wordpress-url.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/wordpress-version.png",
+    "to": "/gitbook-assets/get-started/wordpress-version.png"
+  },
+  {
+    "from": "/gitbook-assets/get-started/wordpress-welcome.png",
+    "to": "/gitbook-assets/get-started/wordpress-welcome.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/add-capsule.png",
+    "to": "/gitbook-assets/platform/add-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/add-domain.png",
+    "to": "/gitbook-assets/platform/add-domain.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/add-repo.png",
+    "to": "/gitbook-assets/platform/add-repo.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/add-team-member.png",
+    "to": "/gitbook-assets/platform/add-team-member.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/Can I Use Third-Party Services and Integrations_.png",
+    "to": "/gitbook-assets/platform/can-i-use-third-party-services-and-integrations.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/capsule-toggle-button.png",
+    "to": "/gitbook-assets/platform/capsule-toggle-button.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/card-details.png",
+    "to": "/gitbook-assets/platform/card-details.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/CC Docs Banner.png",
+    "to": "/gitbook-assets/platform/cc-docs-banner.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/choose-version-control-providers.png",
+    "to": "/gitbook-assets/platform/choose-version-control-providers.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/common hero.png",
+    "to": "/gitbook-assets/platform/common-hero.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/create-team (1).png",
+    "to": "/gitbook-assets/platform/create-team-1.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/create-team.png",
+    "to": "/gitbook-assets/platform/create-team.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/delete-capsule.png",
+    "to": "/gitbook-assets/platform/delete-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/email.png",
+    "to": "/gitbook-assets/platform/email.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/generic-docs-banner.png",
+    "to": "/gitbook-assets/platform/generic-docs-banner.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/github-integration.png",
+    "to": "/gitbook-assets/platform/github-integration.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/hero platform 2.png",
+    "to": "/gitbook-assets/platform/hero-platform-2.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/How Do I Add Payment Details_.png",
+    "to": "/gitbook-assets/platform/how-do-i-add-payment-details.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/How Do I Apply for an Agency Account_.png",
+    "to": "/gitbook-assets/platform/how-do-i-apply-for-an-agency-account.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/How Do I Enable 2FA_.png",
+    "to": "/gitbook-assets/platform/how-do-i-enable-2fa.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/How Do I Handle Updates and Maintenance_.png",
+    "to": "/gitbook-assets/platform/how-do-i-handle-updates-and-maintenance.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/How Do I Sign Up_.png",
+    "to": "/gitbook-assets/platform/how-do-i-sign-up.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/new-team (1).png",
+    "to": "/gitbook-assets/platform/new-team-1.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/new-team.png",
+    "to": "/gitbook-assets/platform/new-team.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/payment-methods.png",
+    "to": "/gitbook-assets/platform/payment-methods.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/account/account-2fa.png",
+    "to": "/gitbook-assets/platform/platform/account/account-2fa.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/account/account-password.png",
+    "to": "/gitbook-assets/platform/platform/account/account-password.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/billing/capsule-plan (1).png",
+    "to": "/gitbook-assets/platform/platform/billing/capsule-plan-1.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/billing/capsule-plan.png",
+    "to": "/gitbook-assets/platform/platform/billing/capsule-plan.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/billing/change-billing-details.png",
+    "to": "/gitbook-assets/platform/platform/billing/change-billing-details.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/billing/view-invoices.png",
+    "to": "/gitbook-assets/platform/platform/billing/view-invoices.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/capsules/capsule-details.png",
+    "to": "/gitbook-assets/platform/platform/capsules/capsule-details.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/capsules/capsule-specific-settings.png",
+    "to": "/gitbook-assets/platform/platform/capsules/capsule-specific-settings.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/capsules/connect-a-repo.png",
+    "to": "/gitbook-assets/platform/platform/capsules/connect-a-repo.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/regions/region-options.png",
+    "to": "/gitbook-assets/platform/platform/regions/region-options.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/security/https-setup.png",
+    "to": "/gitbook-assets/platform/platform/security/https-setup.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/spaces/remove-space.png",
+    "to": "/gitbook-assets/platform/platform/spaces/remove-space.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/platform/teams/remove-team.png",
+    "to": "/gitbook-assets/platform/platform/teams/remove-team.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/simple-and-complex-projects.png",
+    "to": "/gitbook-assets/platform/simple-and-complex-projects.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/slack.png",
+    "to": "/gitbook-assets/platform/slack.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/space-name.png",
+    "to": "/gitbook-assets/platform/space-name.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/teamspacecapsule.png",
+    "to": "/gitbook-assets/platform/teamspacecapsule.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/url-makeup.png",
+    "to": "/gitbook-assets/platform/url-makeup.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/What Happens If I Want to Migrate to a Different PaaS or Cloud Provider_.png",
+    "to": "/gitbook-assets/platform/what-happens-if-i-want-to-migrate-to-a-different-paas-or-cloud-provider.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/What Is Code Capsules_ hero.png",
+    "to": "/gitbook-assets/platform/what-is-code-capsules-hero.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/What Is Code Capsules_.png",
+    "to": "/gitbook-assets/platform/what-is-code-capsules.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/What Is Code Capsules’ Uptime and Reliability_.png",
+    "to": "/gitbook-assets/platform/what-is-code-capsules-uptime-and-reliability.png"
+  },
+  {
+    "from": "/gitbook-assets/platform/What Support and Documentation Resources Are Available_.png",
+    "to": "/gitbook-assets/platform/what-support-and-documentation-resources-are-available.png"
+  },
+  {
+    "from": "/gitbook-assets/products/add-capsule.png",
+    "to": "/gitbook-assets/products/add-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/products/add-domain.png",
+    "to": "/gitbook-assets/products/add-domain.png"
+  },
+  {
+    "from": "/gitbook-assets/products/AgentAccessLogs_Edited.png",
+    "to": "/gitbook-assets/products/agentaccesslogs-edited.png"
+  },
+  {
+    "from": "/gitbook-assets/products/AgentBuildLogs_Edited.png",
+    "to": "/gitbook-assets/products/agentbuildlogs-edited.png"
+  },
+  {
+    "from": "/gitbook-assets/products/AgentChatPage_Edited.png",
+    "to": "/gitbook-assets/products/agentchatpage-edited.png"
+  },
+  {
+    "from": "/gitbook-assets/products/AgentConfigPage_Edited.png",
+    "to": "/gitbook-assets/products/agentconfigpage-edited.png"
+  },
+  {
+    "from": "/gitbook-assets/products/AgentEditScalePage_Edited.png",
+    "to": "/gitbook-assets/products/agenteditscalepage-edited.png"
+  },
+  {
+    "from": "/gitbook-assets/products/AgentLogsPage_Edited.png",
+    "to": "/gitbook-assets/products/agentlogspage-edited.png"
+  },
+  {
+    "from": "/gitbook-assets/products/AgentMetricsPage_Edited.png",
+    "to": "/gitbook-assets/products/agentmetricspage-edited.png"
+  },
+  {
+    "from": "/gitbook-assets/products/AgentScalePage_Edited.png",
+    "to": "/gitbook-assets/products/agentscalepage-edited.png"
+  },
+  {
+    "from": "/gitbook-assets/products/alert-settings.png",
+    "to": "/gitbook-assets/products/alert-settings.png"
+  },
+  {
+    "from": "/gitbook-assets/products/backend-capsule/backend-capsule-build-logs.png",
+    "to": "/gitbook-assets/products/backend-capsule/backend-capsule-build-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/products/backend-capsule/config/backend-config.png",
+    "to": "/gitbook-assets/products/backend-capsule/config/backend-config.png"
+  },
+  {
+    "from": "/gitbook-assets/products/backend-capsule/monitor/backend-capsule-metrics.png",
+    "to": "/gitbook-assets/products/backend-capsule/monitor/backend-capsule-metrics.png"
+  },
+  {
+    "from": "/gitbook-assets/products/backend-capsule/scale/backend-scale-custom.png",
+    "to": "/gitbook-assets/products/backend-capsule/scale/backend-scale-custom.png"
+  },
+  {
+    "from": "/gitbook-assets/products/backend-capsule/scale/backend-scale-edit.png",
+    "to": "/gitbook-assets/products/backend-capsule/scale/backend-scale-edit.png"
+  },
+  {
+    "from": "/gitbook-assets/products/bind-persistent.png",
+    "to": "/gitbook-assets/products/bind-persistent.png"
+  },
+  {
+    "from": "/gitbook-assets/products/configure-tab-run-command.png",
+    "to": "/gitbook-assets/products/configure-tab-run-command.png"
+  },
+  {
+    "from": "/gitbook-assets/products/configure-tab.png",
+    "to": "/gitbook-assets/products/configure-tab.png"
+  },
+  {
+    "from": "/gitbook-assets/products/create-persistent-capsule.png",
+    "to": "/gitbook-assets/products/create-persistent-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/products/CreateAgentCapsule_Edited.png",
+    "to": "/gitbook-assets/products/createagentcapsule-edited.png"
+  },
+  {
+    "from": "/gitbook-assets/products/CreateAgentConfig_Edited.png",
+    "to": "/gitbook-assets/products/createagentconfig-edited.png"
+  },
+  {
+    "from": "/gitbook-assets/products/CreateAgentScale_Edited.png",
+    "to": "/gitbook-assets/products/createagentscale-edited.png"
+  },
+  {
+    "from": "/gitbook-assets/products/database-capsule/backups/backups.png",
+    "to": "/gitbook-assets/products/database-capsule/backups/backups.png"
+  },
+  {
+    "from": "/gitbook-assets/products/database-capsule/config/mongo-details.png",
+    "to": "/gitbook-assets/products/database-capsule/config/mongo-details.png"
+  },
+  {
+    "from": "/gitbook-assets/products/database-capsule/config/mysql-config.png",
+    "to": "/gitbook-assets/products/database-capsule/config/mysql-config.png"
+  },
+  {
+    "from": "/gitbook-assets/products/database-capsule/config/mysql-details.png",
+    "to": "/gitbook-assets/products/database-capsule/config/mysql-details.png"
+  },
+  {
+    "from": "/gitbook-assets/products/database-capsule/monitor/database-capsule-metrics.png",
+    "to": "/gitbook-assets/products/database-capsule/monitor/database-capsule-metrics.png"
+  },
+  {
+    "from": "/gitbook-assets/products/database-capsule/scale/database-scale-custom.png",
+    "to": "/gitbook-assets/products/database-capsule/scale/database-scale-custom.png"
+  },
+  {
+    "from": "/gitbook-assets/products/database-capsule/scale/database-scale-edit.png",
+    "to": "/gitbook-assets/products/database-capsule/scale/database-scale-edit.png"
+  },
+  {
+    "from": "/gitbook-assets/products/env-variables-persistent-storage.png",
+    "to": "/gitbook-assets/products/env-variables-persistent-storage.png"
+  },
+  {
+    "from": "/gitbook-assets/products/frontend-capsule/config/frontend-config.png",
+    "to": "/gitbook-assets/products/frontend-capsule/config/frontend-config.png"
+  },
+  {
+    "from": "/gitbook-assets/products/frontend-capsule/deploy/build-logs.png",
+    "to": "/gitbook-assets/products/frontend-capsule/deploy/build-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/products/frontend-capsule/monitor/frontend-capsule-metrics.png",
+    "to": "/gitbook-assets/products/frontend-capsule/monitor/frontend-capsule-metrics.png"
+  },
+  {
+    "from": "/gitbook-assets/products/frontend-capsule/scale/frontend-scale-custom.png",
+    "to": "/gitbook-assets/products/frontend-capsule/scale/frontend-scale-custom.png"
+  },
+  {
+    "from": "/gitbook-assets/products/frontend-capsule/scale/frontend-scale-edit.png",
+    "to": "/gitbook-assets/products/frontend-capsule/scale/frontend-scale-edit.png"
+  },
+  {
+    "from": "/gitbook-assets/products/generic-docs-banner.png",
+    "to": "/gitbook-assets/products/generic-docs-banner.png"
+  },
+  {
+    "from": "/gitbook-assets/products/memory-capsule/deployment/bind-persistent.png",
+    "to": "/gitbook-assets/products/memory-capsule/deployment/bind-persistent.png"
+  },
+  {
+    "from": "/gitbook-assets/products/memory-capsule/monitor/storage-metrics (1).png",
+    "to": "/gitbook-assets/products/memory-capsule/monitor/storage-metrics-1.png"
+  },
+  {
+    "from": "/gitbook-assets/products/memory-capsule/monitor/storage-metrics.png",
+    "to": "/gitbook-assets/products/memory-capsule/monitor/storage-metrics.png"
+  },
+  {
+    "from": "/gitbook-assets/products/memory-capsule/scale/storage-scale-custom (1).png",
+    "to": "/gitbook-assets/products/memory-capsule/scale/storage-scale-custom-1.png"
+  },
+  {
+    "from": "/gitbook-assets/products/memory-capsule/scale/storage-scale-custom.png",
+    "to": "/gitbook-assets/products/memory-capsule/scale/storage-scale-custom.png"
+  },
+  {
+    "from": "/gitbook-assets/products/memory-capsule/scale/storage-scale-edit (1).png",
+    "to": "/gitbook-assets/products/memory-capsule/scale/storage-scale-edit-1.png"
+  },
+  {
+    "from": "/gitbook-assets/products/memory-capsule/scale/storage-scale-edit.png",
+    "to": "/gitbook-assets/products/memory-capsule/scale/storage-scale-edit.png"
+  },
+  {
+    "from": "/gitbook-assets/products/run-command.png",
+    "to": "/gitbook-assets/products/run-command.png"
+  },
+  {
+    "from": "/gitbook-assets/products/see-your-files.png",
+    "to": "/gitbook-assets/products/see-your-files.png"
+  },
+  {
+    "from": "/gitbook-assets/products/shared/access-logs.png",
+    "to": "/gitbook-assets/products/shared/access-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/products/shared/logs.png",
+    "to": "/gitbook-assets/products/shared/logs.png"
+  },
+  {
+    "from": "/gitbook-assets/products/sql-files.png",
+    "to": "/gitbook-assets/products/sql-files.png"
+  },
+  {
+    "from": "/gitbook-assets/products/storage-capsule/backups/backups.png",
+    "to": "/gitbook-assets/products/storage-capsule/backups/backups.png"
+  },
+  {
+    "from": "/gitbook-assets/products/storage-capsule/config/storage-details.png",
+    "to": "/gitbook-assets/products/storage-capsule/config/storage-details.png"
+  },
+  {
+    "from": "/gitbook-assets/products/storage-capsule/config/storage-public-access.png",
+    "to": "/gitbook-assets/products/storage-capsule/config/storage-public-access.png"
+  },
+  {
+    "from": "/gitbook-assets/products/toggle-public-access.png",
+    "to": "/gitbook-assets/products/toggle-public-access.png"
+  },
+  {
+    "from": "/gitbook-assets/products/url-makeup.png",
+    "to": "/gitbook-assets/products/url-makeup.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule-type.png",
+    "to": "/gitbook-assets/products/wordpress-capsule-type.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/config/wordpress-config.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/config/wordpress-config.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/deploy/add-capsule.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/deploy/add-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-capsule-type.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-capsule-type.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-choose-plan.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-choose-plan.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-configure-capsule.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-configure-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-deployment-type.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-deployment-type.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-git-managed.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-git-managed.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-logs.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-setup.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-setup.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-url.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-url.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-version.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-version.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-welcome.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/deploy/wordpress-welcome.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/domain/add-custom-domain-button.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/domain/add-custom-domain-button.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/domain/custom-domain-entry.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/domain/custom-domain-entry.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/domain/wordpress-default-url.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/domain/wordpress-default-url.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/migrate/wordpress-migration-in-progress.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/migrate/wordpress-migration-in-progress.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/migrate/wordpress-migration-source-selection.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/migrate/wordpress-migration-source-selection.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/monitor/wordpress-capsule-metrics.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/monitor/wordpress-capsule-metrics.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/scale/wordpress-scale-custom.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/scale/wordpress-scale-custom.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-capsule/scale/wordpress-scale-edit.png",
+    "to": "/gitbook-assets/products/wordpress-capsule/scale/wordpress-scale-edit.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-choose-plan.png",
+    "to": "/gitbook-assets/products/wordpress-choose-plan.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-configure-capsule.png",
+    "to": "/gitbook-assets/products/wordpress-configure-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-git-managed.png",
+    "to": "/gitbook-assets/products/wordpress-git-managed.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-logs.png",
+    "to": "/gitbook-assets/products/wordpress-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-setup.png",
+    "to": "/gitbook-assets/products/wordpress-setup.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-url.png",
+    "to": "/gitbook-assets/products/wordpress-url.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-version.png",
+    "to": "/gitbook-assets/products/wordpress-version.png"
+  },
+  {
+    "from": "/gitbook-assets/products/wordpress-welcome.png",
+    "to": "/gitbook-assets/products/wordpress-welcome.png"
+  },
+  {
+    "from": "/gitbook-assets/root/401-auth.png",
+    "to": "/gitbook-assets/root/401-auth.png"
+  },
+  {
+    "from": "/gitbook-assets/root/add-bot-token-env-var.png",
+    "to": "/gitbook-assets/root/add-bot-token-env-var.png"
+  },
+  {
+    "from": "/gitbook-assets/root/add-bot.png",
+    "to": "/gitbook-assets/root/add-bot.png"
+  },
+  {
+    "from": "/gitbook-assets/root/add-domain (1).png",
+    "to": "/gitbook-assets/root/add-domain-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/add-domain.png",
+    "to": "/gitbook-assets/root/add-domain.png"
+  },
+  {
+    "from": "/gitbook-assets/root/add-repo (1).png",
+    "to": "/gitbook-assets/root/add-repo-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/add-repo.png",
+    "to": "/gitbook-assets/root/add-repo.png"
+  },
+  {
+    "from": "/gitbook-assets/root/add-team-member (1).png",
+    "to": "/gitbook-assets/root/add-team-member-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/add-team-member.png",
+    "to": "/gitbook-assets/root/add-team-member.png"
+  },
+  {
+    "from": "/gitbook-assets/root/angular.png",
+    "to": "/gitbook-assets/root/angular.png"
+  },
+  {
+    "from": "/gitbook-assets/root/app-no-nav.png",
+    "to": "/gitbook-assets/root/app-no-nav.png"
+  },
+  {
+    "from": "/gitbook-assets/root/app.png",
+    "to": "/gitbook-assets/root/app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/auth-error.png",
+    "to": "/gitbook-assets/root/auth-error.png"
+  },
+  {
+    "from": "/gitbook-assets/root/auth-settings.png",
+    "to": "/gitbook-assets/root/auth-settings.png"
+  },
+  {
+    "from": "/gitbook-assets/root/auth-success.png",
+    "to": "/gitbook-assets/root/auth-success.png"
+  },
+  {
+    "from": "/gitbook-assets/root/auth.png",
+    "to": "/gitbook-assets/root/auth.png"
+  },
+  {
+    "from": "/gitbook-assets/root/backend-capsule-build-logs (1).png",
+    "to": "/gitbook-assets/root/backend-capsule-build-logs-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/backend-capsule-build-logs-2.gif",
+    "to": "/gitbook-assets/root/backend-capsule-build-logs-2.gif"
+  },
+  {
+    "from": "/gitbook-assets/root/backend-capsule-build-logs.png",
+    "to": "/gitbook-assets/root/backend-capsule-build-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/root/backend-capsule-tabs-2.gif",
+    "to": "/gitbook-assets/root/backend-capsule-tabs-2.gif"
+  },
+  {
+    "from": "/gitbook-assets/root/best-practices-cover.jpg",
+    "to": "/gitbook-assets/root/best-practices-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/bind-flask-htmx-file-storage.png",
+    "to": "/gitbook-assets/root/bind-flask-htmx-file-storage.png"
+  },
+  {
+    "from": "/gitbook-assets/root/bind-mongodb-capsule-env (1).png",
+    "to": "/gitbook-assets/root/bind-mongodb-capsule-env-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/bind-mongodb-capsule-env (2).png",
+    "to": "/gitbook-assets/root/bind-mongodb-capsule-env-2.png"
+  },
+  {
+    "from": "/gitbook-assets/root/bind-mongodb-capsule-env.png",
+    "to": "/gitbook-assets/root/bind-mongodb-capsule-env.png"
+  },
+  {
+    "from": "/gitbook-assets/root/bind-mongodb.png",
+    "to": "/gitbook-assets/root/bind-mongodb.png"
+  },
+  {
+    "from": "/gitbook-assets/root/bind-persistent (1).png",
+    "to": "/gitbook-assets/root/bind-persistent-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/bind-persistent (2).png",
+    "to": "/gitbook-assets/root/bind-persistent-2.png"
+  },
+  {
+    "from": "/gitbook-assets/root/bind-persistent.png",
+    "to": "/gitbook-assets/root/bind-persistent.png"
+  },
+  {
+    "from": "/gitbook-assets/root/blank-files.png",
+    "to": "/gitbook-assets/root/blank-files.png"
+  },
+  {
+    "from": "/gitbook-assets/root/book-app.png",
+    "to": "/gitbook-assets/root/book-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/bootstrap-site.png",
+    "to": "/gitbook-assets/root/bootstrap-site.png"
+  },
+  {
+    "from": "/gitbook-assets/root/bootstrap.png",
+    "to": "/gitbook-assets/root/bootstrap.png"
+  },
+  {
+    "from": "/gitbook-assets/root/bot-option.png",
+    "to": "/gitbook-assets/root/bot-option.png"
+  },
+  {
+    "from": "/gitbook-assets/root/caddy-docker-site.png",
+    "to": "/gitbook-assets/root/caddy-docker-site.png"
+  },
+  {
+    "from": "/gitbook-assets/root/caddy-docker.png",
+    "to": "/gitbook-assets/root/caddy-docker.png"
+  },
+  {
+    "from": "/gitbook-assets/root/calendar-assistant-cover.jpg",
+    "to": "/gitbook-assets/root/calendar-assistant-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/capsule-domain (1).png",
+    "to": "/gitbook-assets/root/capsule-domain-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/capsule-domain.png",
+    "to": "/gitbook-assets/root/capsule-domain.png"
+  },
+  {
+    "from": "/gitbook-assets/root/capsule-metrics.png",
+    "to": "/gitbook-assets/root/capsule-metrics.png"
+  },
+  {
+    "from": "/gitbook-assets/root/capsule-toggle-button.png",
+    "to": "/gitbook-assets/root/capsule-toggle-button.png"
+  },
+  {
+    "from": "/gitbook-assets/root/CapViewNew.png",
+    "to": "/gitbook-assets/root/capviewnew.png"
+  },
+  {
+    "from": "/gitbook-assets/root/card-details (1).png",
+    "to": "/gitbook-assets/root/card-details-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/card-details (2).png",
+    "to": "/gitbook-assets/root/card-details-2.png"
+  },
+  {
+    "from": "/gitbook-assets/root/card-details.png",
+    "to": "/gitbook-assets/root/card-details.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-angular-app.png",
+    "to": "/gitbook-assets/root/cc-angular-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-django-app.png",
+    "to": "/gitbook-assets/root/cc-django-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-django-mongodb-app.png",
+    "to": "/gitbook-assets/root/cc-django-mongodb-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-express-app.png",
+    "to": "/gitbook-assets/root/cc-express-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-express-mongo-app.png",
+    "to": "/gitbook-assets/root/cc-express-mongo-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-flask-app.png",
+    "to": "/gitbook-assets/root/cc-flask-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-flask-mongo-app.png",
+    "to": "/gitbook-assets/root/cc-flask-mongo-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-go-app.png",
+    "to": "/gitbook-assets/root/cc-go-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-html-site.png",
+    "to": "/gitbook-assets/root/cc-html-site.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-java-app.png",
+    "to": "/gitbook-assets/root/cc-java-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-mean-app.png",
+    "to": "/gitbook-assets/root/cc-mean-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-mern-stack.png",
+    "to": "/gitbook-assets/root/cc-mern-stack.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-next-mongo-app.png",
+    "to": "/gitbook-assets/root/cc-next-mongo-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-react-app.png",
+    "to": "/gitbook-assets/root/cc-react-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cc-vue-app.png",
+    "to": "/gitbook-assets/root/cc-vue-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/channel-env-variable.png",
+    "to": "/gitbook-assets/root/channel-env-variable.png"
+  },
+  {
+    "from": "/gitbook-assets/root/choose-slash-command.png",
+    "to": "/gitbook-assets/root/choose-slash-command.png"
+  },
+  {
+    "from": "/gitbook-assets/root/choose-version-control-providers.png",
+    "to": "/gitbook-assets/root/choose-version-control-providers.png"
+  },
+  {
+    "from": "/gitbook-assets/root/code_capsules_sleep_tracker.jpg",
+    "to": "/gitbook-assets/root/code-capsules-sleep-tracker.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/code-capsules-slack.png",
+    "to": "/gitbook-assets/root/code-capsules-slack.png"
+  },
+  {
+    "from": "/gitbook-assets/root/CodeCapsules_SlackBot.jpg",
+    "to": "/gitbook-assets/root/codecapsules-slackbot.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/color-identifier.png",
+    "to": "/gitbook-assets/root/color-identifier.png"
+  },
+  {
+    "from": "/gitbook-assets/root/configuration.png",
+    "to": "/gitbook-assets/root/configuration.png"
+  },
+  {
+    "from": "/gitbook-assets/root/configure-tab (1).png",
+    "to": "/gitbook-assets/root/configure-tab-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/configure-tab-run-command (1).png",
+    "to": "/gitbook-assets/root/configure-tab-run-command-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/configure-tab-run-command.png",
+    "to": "/gitbook-assets/root/configure-tab-run-command.png"
+  },
+  {
+    "from": "/gitbook-assets/root/configure-tab.png",
+    "to": "/gitbook-assets/root/configure-tab.png"
+  },
+  {
+    "from": "/gitbook-assets/root/connection-string (1).png",
+    "to": "/gitbook-assets/root/connection-string-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/connection-string.png",
+    "to": "/gitbook-assets/root/connection-string.png"
+  },
+  {
+    "from": "/gitbook-assets/root/conversation.png",
+    "to": "/gitbook-assets/root/conversation.png"
+  },
+  {
+    "from": "/gitbook-assets/root/copy-channel-link.png",
+    "to": "/gitbook-assets/root/copy-channel-link.png"
+  },
+  {
+    "from": "/gitbook-assets/root/cover.png",
+    "to": "/gitbook-assets/root/cover.png"
+  },
+  {
+    "from": "/gitbook-assets/root/create-command.png",
+    "to": "/gitbook-assets/root/create-command.png"
+  },
+  {
+    "from": "/gitbook-assets/root/create-indexjs (1).gif",
+    "to": "/gitbook-assets/root/create-indexjs-1.gif"
+  },
+  {
+    "from": "/gitbook-assets/root/create-indexjs.gif",
+    "to": "/gitbook-assets/root/create-indexjs.gif"
+  },
+  {
+    "from": "/gitbook-assets/root/create-mongodb-capsule (1).png",
+    "to": "/gitbook-assets/root/create-mongodb-capsule-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/create-mongodb-capsule.png",
+    "to": "/gitbook-assets/root/create-mongodb-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/root/create-persistent-capsule (1).png",
+    "to": "/gitbook-assets/root/create-persistent-capsule-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/create-persistent-capsule.png",
+    "to": "/gitbook-assets/root/create-persistent-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/root/create-redis-capsule (1).png",
+    "to": "/gitbook-assets/root/create-redis-capsule-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/create-redis-capsule.png",
+    "to": "/gitbook-assets/root/create-redis-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/root/create-sql-capsule (1).png",
+    "to": "/gitbook-assets/root/create-sql-capsule-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/create-sql-capsule.png",
+    "to": "/gitbook-assets/root/create-sql-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/root/create-team (1).png",
+    "to": "/gitbook-assets/root/create-team-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/create-team.png",
+    "to": "/gitbook-assets/root/create-team.png"
+  },
+  {
+    "from": "/gitbook-assets/root/CreateCapsuleCCNew.png",
+    "to": "/gitbook-assets/root/createcapsuleccnew.png"
+  },
+  {
+    "from": "/gitbook-assets/root/creating-backend-capsule-2.gif",
+    "to": "/gitbook-assets/root/creating-backend-capsule-2.gif"
+  },
+  {
+    "from": "/gitbook-assets/root/creating-flask-api-cover.jpg",
+    "to": "/gitbook-assets/root/creating-flask-api-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/creating-frontend-capsule-2.gif",
+    "to": "/gitbook-assets/root/creating-frontend-capsule-2.gif"
+  },
+  {
+    "from": "/gitbook-assets/root/custom-heading.png",
+    "to": "/gitbook-assets/root/custom-heading.png"
+  },
+  {
+    "from": "/gitbook-assets/root/customising-domain-cover.jpg",
+    "to": "/gitbook-assets/root/customising-domain-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/delete-capsule.png",
+    "to": "/gitbook-assets/root/delete-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/root/delete-game.png",
+    "to": "/gitbook-assets/root/delete-game.png"
+  },
+  {
+    "from": "/gitbook-assets/root/DigitalOceans1.png",
+    "to": "/gitbook-assets/root/digitaloceans1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/DigitalOceans2.png.png",
+    "to": "/gitbook-assets/root/digitaloceans2-png.png"
+  },
+  {
+    "from": "/gitbook-assets/root/django-mongo.png",
+    "to": "/gitbook-assets/root/django-mongo.png"
+  },
+  {
+    "from": "/gitbook-assets/root/django-mysql.png",
+    "to": "/gitbook-assets/root/django-mysql.png"
+  },
+  {
+    "from": "/gitbook-assets/root/django.png",
+    "to": "/gitbook-assets/root/django.png"
+  },
+  {
+    "from": "/gitbook-assets/root/docker-laravel.png",
+    "to": "/gitbook-assets/root/docker-laravel.png"
+  },
+  {
+    "from": "/gitbook-assets/root/docker-php-cover.png",
+    "to": "/gitbook-assets/root/docker-php-cover.png"
+  },
+  {
+    "from": "/gitbook-assets/root/docker-php.png",
+    "to": "/gitbook-assets/root/docker-php.png"
+  },
+  {
+    "from": "/gitbook-assets/root/download-file.png",
+    "to": "/gitbook-assets/root/download-file.png"
+  },
+  {
+    "from": "/gitbook-assets/root/download-links.png",
+    "to": "/gitbook-assets/root/download-links.png"
+  },
+  {
+    "from": "/gitbook-assets/root/driveroptions.png",
+    "to": "/gitbook-assets/root/driveroptions.png"
+  },
+  {
+    "from": "/gitbook-assets/root/edit-database-url.png",
+    "to": "/gitbook-assets/root/edit-database-url.png"
+  },
+  {
+    "from": "/gitbook-assets/root/env_var.png",
+    "to": "/gitbook-assets/root/env-var.png"
+  },
+  {
+    "from": "/gitbook-assets/root/env-active.png",
+    "to": "/gitbook-assets/root/env-active.png"
+  },
+  {
+    "from": "/gitbook-assets/root/env-user-password.png",
+    "to": "/gitbook-assets/root/env-user-password.png"
+  },
+  {
+    "from": "/gitbook-assets/root/env-var.png",
+    "to": "/gitbook-assets/root/env-var-2.png"
+  },
+  {
+    "from": "/gitbook-assets/root/env-variables-persistent-storage (1).png",
+    "to": "/gitbook-assets/root/env-variables-persistent-storage-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/env-variables-persistent-storage.png",
+    "to": "/gitbook-assets/root/env-variables-persistent-storage.png"
+  },
+  {
+    "from": "/gitbook-assets/root/envactive.png",
+    "to": "/gitbook-assets/root/envactive.png"
+  },
+  {
+    "from": "/gitbook-assets/root/enviro_vars.png",
+    "to": "/gitbook-assets/root/enviro-vars.png"
+  },
+  {
+    "from": "/gitbook-assets/root/enviro-set.png",
+    "to": "/gitbook-assets/root/enviro-set.png"
+  },
+  {
+    "from": "/gitbook-assets/root/express-backend-capsule.png",
+    "to": "/gitbook-assets/root/express-backend-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/root/express-htmx-cover.jpg",
+    "to": "/gitbook-assets/root/express-htmx-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/express-htmx-cover.png",
+    "to": "/gitbook-assets/root/express-htmx-cover.png"
+  },
+  {
+    "from": "/gitbook-assets/root/express-mongo.png",
+    "to": "/gitbook-assets/root/express-mongo.png"
+  },
+  {
+    "from": "/gitbook-assets/root/express.png",
+    "to": "/gitbook-assets/root/express.png"
+  },
+  {
+    "from": "/gitbook-assets/root/failed-upload.png",
+    "to": "/gitbook-assets/root/failed-upload.png"
+  },
+  {
+    "from": "/gitbook-assets/root/file-delete.png",
+    "to": "/gitbook-assets/root/file-delete.png"
+  },
+  {
+    "from": "/gitbook-assets/root/file-store-cover.jpg",
+    "to": "/gitbook-assets/root/file-store-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/final-app.gif",
+    "to": "/gitbook-assets/root/final-app.gif"
+  },
+  {
+    "from": "/gitbook-assets/root/final-app.png",
+    "to": "/gitbook-assets/root/final-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/finished_port.png",
+    "to": "/gitbook-assets/root/finished-port.png"
+  },
+  {
+    "from": "/gitbook-assets/root/flask_local_run.png",
+    "to": "/gitbook-assets/root/flask-local-run.png"
+  },
+  {
+    "from": "/gitbook-assets/root/flask-api-cover.jpg",
+    "to": "/gitbook-assets/root/flask-api-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/flask-docker-application.png",
+    "to": "/gitbook-assets/root/flask-docker-application.png"
+  },
+  {
+    "from": "/gitbook-assets/root/flask-docker.png",
+    "to": "/gitbook-assets/root/flask-docker.png"
+  },
+  {
+    "from": "/gitbook-assets/root/flask-htmx-cover (1).png",
+    "to": "/gitbook-assets/root/flask-htmx-cover-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/flask-htmx-cover.jpg",
+    "to": "/gitbook-assets/root/flask-htmx-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/flask-htmx-cover.png",
+    "to": "/gitbook-assets/root/flask-htmx-cover.png"
+  },
+  {
+    "from": "/gitbook-assets/root/flask-htmx.png",
+    "to": "/gitbook-assets/root/flask-htmx.png"
+  },
+  {
+    "from": "/gitbook-assets/root/flask-mongo.png",
+    "to": "/gitbook-assets/root/flask-mongo.png"
+  },
+  {
+    "from": "/gitbook-assets/root/flask-mysql-app.png",
+    "to": "/gitbook-assets/root/flask-mysql-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/flask-mysql-edit-db-url.png",
+    "to": "/gitbook-assets/root/flask-mysql-edit-db-url.png"
+  },
+  {
+    "from": "/gitbook-assets/root/flask-mysql.png",
+    "to": "/gitbook-assets/root/flask-mysql.png"
+  },
+  {
+    "from": "/gitbook-assets/root/flask.png",
+    "to": "/gitbook-assets/root/flask.png"
+  },
+  {
+    "from": "/gitbook-assets/root/founder-fridays.jpg",
+    "to": "/gitbook-assets/root/founder-fridays.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/frontend-capsule-build-logs-1.gif",
+    "to": "/gitbook-assets/root/frontend-capsule-build-logs-1.gif"
+  },
+  {
+    "from": "/gitbook-assets/root/frontend-with-form.png",
+    "to": "/gitbook-assets/root/frontend-with-form.png"
+  },
+  {
+    "from": "/gitbook-assets/root/frontend.png",
+    "to": "/gitbook-assets/root/frontend.png"
+  },
+  {
+    "from": "/gitbook-assets/root/game-catalogue-cover.jpg",
+    "to": "/gitbook-assets/root/game-catalogue-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/generative-art-cover.jpg",
+    "to": "/gitbook-assets/root/generative-art-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/generative-art-cover.png",
+    "to": "/gitbook-assets/root/generative-art-cover.png"
+  },
+  {
+    "from": "/gitbook-assets/root/get-results.png",
+    "to": "/gitbook-assets/root/get-results.png"
+  },
+  {
+    "from": "/gitbook-assets/root/github-integration (1).png",
+    "to": "/gitbook-assets/root/github-integration-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/github-integration.png",
+    "to": "/gitbook-assets/root/github-integration.png"
+  },
+  {
+    "from": "/gitbook-assets/root/go.png",
+    "to": "/gitbook-assets/root/go.png"
+  },
+  {
+    "from": "/gitbook-assets/root/graphic.png",
+    "to": "/gitbook-assets/root/graphic.png"
+  },
+  {
+    "from": "/gitbook-assets/root/heroku-migration-cover.jpg",
+    "to": "/gitbook-assets/root/heroku-migration-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/HerokuConnectToGit.png",
+    "to": "/gitbook-assets/root/herokuconnecttogit.png"
+  },
+  {
+    "from": "/gitbook-assets/root/HerokuCreateApp.png",
+    "to": "/gitbook-assets/root/herokucreateapp.png"
+  },
+  {
+    "from": "/gitbook-assets/root/hex-identifier.jpg",
+    "to": "/gitbook-assets/root/hex-identifier.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/homepage.png",
+    "to": "/gitbook-assets/root/homepage.png"
+  },
+  {
+    "from": "/gitbook-assets/root/html.png",
+    "to": "/gitbook-assets/root/html.png"
+  },
+  {
+    "from": "/gitbook-assets/root/html5up-site.png",
+    "to": "/gitbook-assets/root/html5up-site.png"
+  },
+  {
+    "from": "/gitbook-assets/root/html5up.png",
+    "to": "/gitbook-assets/root/html5up.png"
+  },
+  {
+    "from": "/gitbook-assets/root/iaas-diagram.svg",
+    "to": "/gitbook-assets/root/iaas-diagram.svg"
+  },
+  {
+    "from": "/gitbook-assets/root/image-api-cover.png",
+    "to": "/gitbook-assets/root/image-api-cover.png"
+  },
+  {
+    "from": "/gitbook-assets/root/image10.png",
+    "to": "/gitbook-assets/root/image10.png"
+  },
+  {
+    "from": "/gitbook-assets/root/image11.png",
+    "to": "/gitbook-assets/root/image11.png"
+  },
+  {
+    "from": "/gitbook-assets/root/image2 (1).png",
+    "to": "/gitbook-assets/root/image2-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/image2.png",
+    "to": "/gitbook-assets/root/image2.png"
+  },
+  {
+    "from": "/gitbook-assets/root/image3 (1).png",
+    "to": "/gitbook-assets/root/image3-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/image3.png",
+    "to": "/gitbook-assets/root/image3.png"
+  },
+  {
+    "from": "/gitbook-assets/root/image4 (1).png",
+    "to": "/gitbook-assets/root/image4-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/image4.png",
+    "to": "/gitbook-assets/root/image4.png"
+  },
+  {
+    "from": "/gitbook-assets/root/init-repo.png",
+    "to": "/gitbook-assets/root/init-repo.png"
+  },
+  {
+    "from": "/gitbook-assets/root/initial-app.png",
+    "to": "/gitbook-assets/root/initial-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/introducing-code-capsules.png",
+    "to": "/gitbook-assets/root/introducing-code-capsules.png"
+  },
+  {
+    "from": "/gitbook-assets/root/invite-bot.png",
+    "to": "/gitbook-assets/root/invite-bot.png"
+  },
+  {
+    "from": "/gitbook-assets/root/java-mysql-app.png",
+    "to": "/gitbook-assets/root/java-mysql-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/job-board-ui.png",
+    "to": "/gitbook-assets/root/job-board-ui.png"
+  },
+  {
+    "from": "/gitbook-assets/root/laravel-docker.jpg",
+    "to": "/gitbook-assets/root/laravel-docker.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/loading_screen.png",
+    "to": "/gitbook-assets/root/loading-screen.png"
+  },
+  {
+    "from": "/gitbook-assets/root/login.png",
+    "to": "/gitbook-assets/root/login.png"
+  },
+  {
+    "from": "/gitbook-assets/root/mailing_lists.png",
+    "to": "/gitbook-assets/root/mailing-lists.png"
+  },
+  {
+    "from": "/gitbook-assets/root/MainScreenCCNew.png",
+    "to": "/gitbook-assets/root/mainscreenccnew.png"
+  },
+  {
+    "from": "/gitbook-assets/root/mean-stack-cover.jpg",
+    "to": "/gitbook-assets/root/mean-stack-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/mean.png",
+    "to": "/gitbook-assets/root/mean.png"
+  },
+  {
+    "from": "/gitbook-assets/root/mern_job_board.jpg",
+    "to": "/gitbook-assets/root/mern-job-board.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/mern-job-board-cover.jpg",
+    "to": "/gitbook-assets/root/mern-job-board-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/mern-optimization-cover.jpg",
+    "to": "/gitbook-assets/root/mern-optimization-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/mern-stack.png",
+    "to": "/gitbook-assets/root/mern-stack.png"
+  },
+  {
+    "from": "/gitbook-assets/root/mern.png",
+    "to": "/gitbook-assets/root/mern.png"
+  },
+  {
+    "from": "/gitbook-assets/root/movie-app.png",
+    "to": "/gitbook-assets/root/movie-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/network-port-80.png",
+    "to": "/gitbook-assets/root/network-port-80.png"
+  },
+  {
+    "from": "/gitbook-assets/root/network-port-8000.png",
+    "to": "/gitbook-assets/root/network-port-8000.png"
+  },
+  {
+    "from": "/gitbook-assets/root/network-port.png",
+    "to": "/gitbook-assets/root/network-port.png"
+  },
+  {
+    "from": "/gitbook-assets/root/new-team (1).png",
+    "to": "/gitbook-assets/root/new-team-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/new-team.png",
+    "to": "/gitbook-assets/root/new-team.png"
+  },
+  {
+    "from": "/gitbook-assets/root/news-reader.png",
+    "to": "/gitbook-assets/root/news-reader.png"
+  },
+  {
+    "from": "/gitbook-assets/root/next-app.png",
+    "to": "/gitbook-assets/root/next-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/next-express-app.png",
+    "to": "/gitbook-assets/root/next-express-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/next-express-mongo-app.png",
+    "to": "/gitbook-assets/root/next-express-mongo-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/next-express-mongo.png",
+    "to": "/gitbook-assets/root/next-express-mongo.png"
+  },
+  {
+    "from": "/gitbook-assets/root/next-express.png",
+    "to": "/gitbook-assets/root/next-express.png"
+  },
+  {
+    "from": "/gitbook-assets/root/next-mongo.png",
+    "to": "/gitbook-assets/root/next-mongo.png"
+  },
+  {
+    "from": "/gitbook-assets/root/next.png",
+    "to": "/gitbook-assets/root/next.png"
+  },
+  {
+    "from": "/gitbook-assets/root/node-telegram-bot.png",
+    "to": "/gitbook-assets/root/node-telegram-bot.png"
+  },
+  {
+    "from": "/gitbook-assets/root/nodejs-discord.png",
+    "to": "/gitbook-assets/root/nodejs-discord.png"
+  },
+  {
+    "from": "/gitbook-assets/root/nuxt3-nitro-cover.jpg",
+    "to": "/gitbook-assets/root/nuxt3-nitro-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/output.png",
+    "to": "/gitbook-assets/root/output.png"
+  },
+  {
+    "from": "/gitbook-assets/root/paas-diagram-1.svg",
+    "to": "/gitbook-assets/root/paas-diagram-1.svg"
+  },
+  {
+    "from": "/gitbook-assets/root/paas-diagram-2.svg",
+    "to": "/gitbook-assets/root/paas-diagram-2.svg"
+  },
+  {
+    "from": "/gitbook-assets/root/pagination.png",
+    "to": "/gitbook-assets/root/pagination.png"
+  },
+  {
+    "from": "/gitbook-assets/root/parcel-architecture.png",
+    "to": "/gitbook-assets/root/parcel-architecture.png"
+  },
+  {
+    "from": "/gitbook-assets/root/payment-methods (1).png",
+    "to": "/gitbook-assets/root/payment-methods-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/payment-methods.png",
+    "to": "/gitbook-assets/root/payment-methods.png"
+  },
+  {
+    "from": "/gitbook-assets/root/php-book-app-cover.jpg",
+    "to": "/gitbook-assets/root/php-book-app-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/php-docker.png",
+    "to": "/gitbook-assets/root/php-docker.png"
+  },
+  {
+    "from": "/gitbook-assets/root/pizza-app.png",
+    "to": "/gitbook-assets/root/pizza-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/plus-icon.png",
+    "to": "/gitbook-assets/root/plus-icon.png"
+  },
+  {
+    "from": "/gitbook-assets/root/portfolio-1.jpg",
+    "to": "/gitbook-assets/root/portfolio-1.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/post-game.png",
+    "to": "/gitbook-assets/root/post-game.png"
+  },
+  {
+    "from": "/gitbook-assets/root/postman-slash-command.png",
+    "to": "/gitbook-assets/root/postman-slash-command.png"
+  },
+  {
+    "from": "/gitbook-assets/root/put-game.png",
+    "to": "/gitbook-assets/root/put-game.png"
+  },
+  {
+    "from": "/gitbook-assets/root/py-discord-bot.png",
+    "to": "/gitbook-assets/root/py-discord-bot.png"
+  },
+  {
+    "from": "/gitbook-assets/root/py-telegram-bot.png",
+    "to": "/gitbook-assets/root/py-telegram-bot.png"
+  },
+  {
+    "from": "/gitbook-assets/root/react-frontend-capsule.png",
+    "to": "/gitbook-assets/root/react-frontend-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/root/react.png",
+    "to": "/gitbook-assets/root/react.png"
+  },
+  {
+    "from": "/gitbook-assets/root/redis_server_output.png",
+    "to": "/gitbook-assets/root/redis-server-output.png"
+  },
+  {
+    "from": "/gitbook-assets/root/redis-bind-env (1).png",
+    "to": "/gitbook-assets/root/redis-bind-env-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/redis-bind-env.png",
+    "to": "/gitbook-assets/root/redis-bind-env.png"
+  },
+  {
+    "from": "/gitbook-assets/root/results_page.png",
+    "to": "/gitbook-assets/root/results-page.png"
+  },
+  {
+    "from": "/gitbook-assets/root/rq_worker_output.png",
+    "to": "/gitbook-assets/root/rq-worker-output.png"
+  },
+  {
+    "from": "/gitbook-assets/root/run-command (1).png",
+    "to": "/gitbook-assets/root/run-command-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/run-command-setup.png",
+    "to": "/gitbook-assets/root/run-command-setup.png"
+  },
+  {
+    "from": "/gitbook-assets/root/run-command.png",
+    "to": "/gitbook-assets/root/run-command.png"
+  },
+  {
+    "from": "/gitbook-assets/root/saas-diagram.svg",
+    "to": "/gitbook-assets/root/saas-diagram.svg"
+  },
+  {
+    "from": "/gitbook-assets/root/sandbox-config.png",
+    "to": "/gitbook-assets/root/sandbox-config.png"
+  },
+  {
+    "from": "/gitbook-assets/root/sandbox-participants.png",
+    "to": "/gitbook-assets/root/sandbox-participants.png"
+  },
+  {
+    "from": "/gitbook-assets/root/scale-capsule.png",
+    "to": "/gitbook-assets/root/scale-capsule.png"
+  },
+  {
+    "from": "/gitbook-assets/root/setup-logs.png",
+    "to": "/gitbook-assets/root/setup-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/root/signing-env-variable.png",
+    "to": "/gitbook-assets/root/signing-env-variable.png"
+  },
+  {
+    "from": "/gitbook-assets/root/simple-and-complex-projects.png",
+    "to": "/gitbook-assets/root/simple-and-complex-projects.png"
+  },
+  {
+    "from": "/gitbook-assets/root/slack-scopes.png",
+    "to": "/gitbook-assets/root/slack-scopes.png"
+  },
+  {
+    "from": "/gitbook-assets/root/slack-signing-secret.png",
+    "to": "/gitbook-assets/root/slack-signing-secret.png"
+  },
+  {
+    "from": "/gitbook-assets/root/slackbot-cover.jpg",
+    "to": "/gitbook-assets/root/slackbot-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/slackbot.png",
+    "to": "/gitbook-assets/root/slackbot.png"
+  },
+  {
+    "from": "/gitbook-assets/root/slash-command-test.png",
+    "to": "/gitbook-assets/root/slash-command-test.png"
+  },
+  {
+    "from": "/gitbook-assets/root/sleep.png",
+    "to": "/gitbook-assets/root/sleep.png"
+  },
+  {
+    "from": "/gitbook-assets/root/space-name (1).png",
+    "to": "/gitbook-assets/root/space-name-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/space-name.png",
+    "to": "/gitbook-assets/root/space-name.png"
+  },
+  {
+    "from": "/gitbook-assets/root/spring-mysql.png",
+    "to": "/gitbook-assets/root/spring-mysql.png"
+  },
+  {
+    "from": "/gitbook-assets/root/spring.png",
+    "to": "/gitbook-assets/root/spring.png"
+  },
+  {
+    "from": "/gitbook-assets/root/sql-bind-env (1).png",
+    "to": "/gitbook-assets/root/sql-bind-env-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/sql-bind-env.png",
+    "to": "/gitbook-assets/root/sql-bind-env.png"
+  },
+  {
+    "from": "/gitbook-assets/root/sql-files.png",
+    "to": "/gitbook-assets/root/sql-files.png"
+  },
+  {
+    "from": "/gitbook-assets/root/starter_template.png",
+    "to": "/gitbook-assets/root/starter-template.png"
+  },
+  {
+    "from": "/gitbook-assets/root/startup-message.png",
+    "to": "/gitbook-assets/root/startup-message.png"
+  },
+  {
+    "from": "/gitbook-assets/root/stripe_dashboard.png",
+    "to": "/gitbook-assets/root/stripe-dashboard.png"
+  },
+  {
+    "from": "/gitbook-assets/root/stripe-checkout-cover.jpg",
+    "to": "/gitbook-assets/root/stripe-checkout-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/svelte-app.png",
+    "to": "/gitbook-assets/root/svelte-app.png"
+  },
+  {
+    "from": "/gitbook-assets/root/svelte.png",
+    "to": "/gitbook-assets/root/svelte.png"
+  },
+  {
+    "from": "/gitbook-assets/root/team-tabs-2.gif",
+    "to": "/gitbook-assets/root/team-tabs-2.gif"
+  },
+  {
+    "from": "/gitbook-assets/root/teamspacecapsule (1).png",
+    "to": "/gitbook-assets/root/teamspacecapsule-1.png"
+  },
+  {
+    "from": "/gitbook-assets/root/teamspacecapsule.png",
+    "to": "/gitbook-assets/root/teamspacecapsule.png"
+  },
+  {
+    "from": "/gitbook-assets/root/telegram-bot-cover-go.jpg",
+    "to": "/gitbook-assets/root/telegram-bot-cover-go.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/telegram-bot-cover-nodejs.jpg",
+    "to": "/gitbook-assets/root/telegram-bot-cover-nodejs.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/telegram-bot-cover-python.jpg",
+    "to": "/gitbook-assets/root/telegram-bot-cover-python.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/telegram-bot-cover.jpg",
+    "to": "/gitbook-assets/root/telegram-bot-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/telegrambot.jpg",
+    "to": "/gitbook-assets/root/telegrambot.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/text-permissions.png",
+    "to": "/gitbook-assets/root/text-permissions.png"
+  },
+  {
+    "from": "/gitbook-assets/root/token-env-var.png",
+    "to": "/gitbook-assets/root/token-env-var.png"
+  },
+  {
+    "from": "/gitbook-assets/root/token-env-variable.png",
+    "to": "/gitbook-assets/root/token-env-variable.png"
+  },
+  {
+    "from": "/gitbook-assets/root/token.png",
+    "to": "/gitbook-assets/root/token.png"
+  },
+  {
+    "from": "/gitbook-assets/root/upload-download.png",
+    "to": "/gitbook-assets/root/upload-download.png"
+  },
+  {
+    "from": "/gitbook-assets/root/upload-section.png",
+    "to": "/gitbook-assets/root/upload-section.png"
+  },
+  {
+    "from": "/gitbook-assets/root/url-env-var.png",
+    "to": "/gitbook-assets/root/url-env-var.png"
+  },
+  {
+    "from": "/gitbook-assets/root/url-makeup.png",
+    "to": "/gitbook-assets/root/url-makeup.png"
+  },
+  {
+    "from": "/gitbook-assets/root/url.png",
+    "to": "/gitbook-assets/root/url.png"
+  },
+  {
+    "from": "/gitbook-assets/root/username-env.png",
+    "to": "/gitbook-assets/root/username-env.png"
+  },
+  {
+    "from": "/gitbook-assets/root/venvactive.png",
+    "to": "/gitbook-assets/root/venvactive.png"
+  },
+  {
+    "from": "/gitbook-assets/root/virtual_env.png",
+    "to": "/gitbook-assets/root/virtual-env.png"
+  },
+  {
+    "from": "/gitbook-assets/root/VirtualEnvSETUP.png",
+    "to": "/gitbook-assets/root/virtualenvsetup.png"
+  },
+  {
+    "from": "/gitbook-assets/root/vue.png",
+    "to": "/gitbook-assets/root/vue.png"
+  },
+  {
+    "from": "/gitbook-assets/root/web_file_store.png",
+    "to": "/gitbook-assets/root/web-file-store.png"
+  },
+  {
+    "from": "/gitbook-assets/root/website_init.png",
+    "to": "/gitbook-assets/root/website-init.png"
+  },
+  {
+    "from": "/gitbook-assets/root/whatsapp-bot.png",
+    "to": "/gitbook-assets/root/whatsapp-bot.png"
+  },
+  {
+    "from": "/gitbook-assets/root/white-label-cover.jpg",
+    "to": "/gitbook-assets/root/white-label-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/root/wordpress-hosting-cover.jpg",
+    "to": "/gitbook-assets/root/wordpress-hosting-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/add-custom-domain-button.png",
+    "to": "/gitbook-assets/tutorials/add-custom-domain-button.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/add-environment-variables (1).png",
+    "to": "/gitbook-assets/tutorials/add-environment-variables-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/add-environment-variables.png",
+    "to": "/gitbook-assets/tutorials/add-environment-variables.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/app.svg",
+    "to": "/gitbook-assets/tutorials/app.svg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/appAccount.webp",
+    "to": "/gitbook-assets/tutorials/appaccount.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/appComponents.webp",
+    "to": "/gitbook-assets/tutorials/appcomponents.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/appEmailer.webp",
+    "to": "/gitbook-assets/tutorials/appemailer.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/appRegister.webp",
+    "to": "/gitbook-assets/tutorials/appregister.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/backend-capsule-build-logs (1).png",
+    "to": "/gitbook-assets/tutorials/backend-capsule-build-logs-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/backend-capsule-build-logs.png",
+    "to": "/gitbook-assets/tutorials/backend-capsule-build-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/backend-url (1).png",
+    "to": "/gitbook-assets/tutorials/backend-url-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/backend-url.png",
+    "to": "/gitbook-assets/tutorials/backend-url.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/best-practices-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/best-practices-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/best-practices-cover.jpg",
+    "to": "/gitbook-assets/tutorials/best-practices-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/book-app (1).png",
+    "to": "/gitbook-assets/tutorials/book-app-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/book-app.png",
+    "to": "/gitbook-assets/tutorials/book-app.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/bot-api-key-env (1).png",
+    "to": "/gitbook-assets/tutorials/bot-api-key-env-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/bot-api-key-env.png",
+    "to": "/gitbook-assets/tutorials/bot-api-key-env.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/bot-token-env-variable (1).png",
+    "to": "/gitbook-assets/tutorials/bot-token-env-variable-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/bot-token-env-variable.png",
+    "to": "/gitbook-assets/tutorials/bot-token-env-variable.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx/app.png",
+    "to": "/gitbook-assets/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx/app.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx/envactive.png",
+    "to": "/gitbook-assets/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx/envactive.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx/graphic.png",
+    "to": "/gitbook-assets/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx/graphic.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/build-a-mern-job-board/job-board-ui.png",
+    "to": "/gitbook-assets/tutorials/build-a-mern-job-board/job-board-ui.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/build-a-mern-job-board/mern-stack.png",
+    "to": "/gitbook-assets/tutorials/build-a-mern-job-board/mern-stack.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications/401-auth.png",
+    "to": "/gitbook-assets/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications/401-auth.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications/create-indexjs.gif",
+    "to": "/gitbook-assets/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications/create-indexjs.gif"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications/postman-slash-command.png",
+    "to": "/gitbook-assets/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications/postman-slash-command.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications/slash-command-test.png",
+    "to": "/gitbook-assets/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications/slash-command-test.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications/startup-message.png",
+    "to": "/gitbook-assets/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications/startup-message.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/Building Real-Time Applications With Socket.IO in the MEAN Stack (1).png",
+    "to": "/gitbook-assets/tutorials/building-real-time-applications-with-socket-io-in-the-mean-stack-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/Building Real-Time Applications With Socket.IO in the MEAN Stack.png",
+    "to": "/gitbook-assets/tutorials/building-real-time-applications-with-socket-io-in-the-mean-stack.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker/configuration.png",
+    "to": "/gitbook-assets/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker/configuration.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker/final-app.png",
+    "to": "/gitbook-assets/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker/final-app.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker/frontend-with-form.png",
+    "to": "/gitbook-assets/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker/frontend-with-form.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker/frontend.png",
+    "to": "/gitbook-assets/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker/frontend.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-full-stack-application-with-flask-and-htmx/flask-htmx.png",
+    "to": "/gitbook-assets/tutorials/building-a-full-stack-application-with-flask-and-htmx/flask-htmx.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-full-stack-application-with-flask-and-htmx/venvactive.png",
+    "to": "/gitbook-assets/tutorials/building-a-full-stack-application-with-flask-and-htmx/venvactive.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-game-catalogue-api/auth-error.png",
+    "to": "/gitbook-assets/tutorials/building-a-game-catalogue-api/auth-error.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-game-catalogue-api/auth-settings.png",
+    "to": "/gitbook-assets/tutorials/building-a-game-catalogue-api/auth-settings.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-game-catalogue-api/auth-success.png",
+    "to": "/gitbook-assets/tutorials/building-a-game-catalogue-api/auth-success.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-game-catalogue-api/delete-game.png",
+    "to": "/gitbook-assets/tutorials/building-a-game-catalogue-api/delete-game.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-game-catalogue-api/env-user-password.png",
+    "to": "/gitbook-assets/tutorials/building-a-game-catalogue-api/env-user-password.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-game-catalogue-api/get-results.png",
+    "to": "/gitbook-assets/tutorials/building-a-game-catalogue-api/get-results.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-game-catalogue-api/post-game.png",
+    "to": "/gitbook-assets/tutorials/building-a-game-catalogue-api/post-game.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-game-catalogue-api/put-game.png",
+    "to": "/gitbook-assets/tutorials/building-a-game-catalogue-api/put-game.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-game-catalogue-api/run-command-setup.png",
+    "to": "/gitbook-assets/tutorials/building-a-game-catalogue-api/run-command-setup.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-game-catalogue-api/setup-logs.png",
+    "to": "/gitbook-assets/tutorials/building-a-game-catalogue-api/setup-logs.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-web-file-store/auth.png",
+    "to": "/gitbook-assets/tutorials/building-a-web-file-store/auth.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-web-file-store/blank-files.png",
+    "to": "/gitbook-assets/tutorials/building-a-web-file-store/blank-files.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-web-file-store/download-file.png",
+    "to": "/gitbook-assets/tutorials/building-a-web-file-store/download-file.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-web-file-store/env-variables-persistent-storage.png",
+    "to": "/gitbook-assets/tutorials/building-a-web-file-store/env-variables-persistent-storage.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-web-file-store/file-delete.png",
+    "to": "/gitbook-assets/tutorials/building-a-web-file-store/file-delete.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-web-file-store/upload-section.png",
+    "to": "/gitbook-assets/tutorials/building-a-web-file-store/upload-section.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/building-a-web-file-store/username-env.png",
+    "to": "/gitbook-assets/tutorials/building-a-web-file-store/username-env.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/calendar-assistant-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/calendar-assistant-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/CC Docs Banner (1).png",
+    "to": "/gitbook-assets/tutorials/cc-docs-banner-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/CC Docs Banner.png",
+    "to": "/gitbook-assets/tutorials/cc-docs-banner.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/cc-docs-banner.png",
+    "to": "/gitbook-assets/tutorials/cc-docs-banner-2.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccAvailableCapsules.webp",
+    "to": "/gitbook-assets/tutorials/ccavailablecapsules.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccCapsuleCheap.webp",
+    "to": "/gitbook-assets/tutorials/cccapsulecheap.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccCapsuleCommand.webp",
+    "to": "/gitbook-assets/tutorials/cccapsulecommand.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccCapsuleConfig.webp",
+    "to": "/gitbook-assets/tutorials/cccapsuleconfig.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccCapsuleConfig2.webp",
+    "to": "/gitbook-assets/tutorials/cccapsuleconfig2.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccCapsulePath.webp",
+    "to": "/gitbook-assets/tutorials/cccapsulepath.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccCli.webp",
+    "to": "/gitbook-assets/tutorials/cccli.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccDbSetup.webp",
+    "to": "/gitbook-assets/tutorials/ccdbsetup.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccEmailer.webp",
+    "to": "/gitbook-assets/tutorials/ccemailer.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccGithub.webp",
+    "to": "/gitbook-assets/tutorials/ccgithub.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccGithubError.webp",
+    "to": "/gitbook-assets/tutorials/ccgithuberror.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccInstallGithub.webp",
+    "to": "/gitbook-assets/tutorials/ccinstallgithub.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccInstallGithubNew.webp",
+    "to": "/gitbook-assets/tutorials/ccinstallgithubnew.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccNewCapsule.webp",
+    "to": "/gitbook-assets/tutorials/ccnewcapsule.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccNewCapsuleDown.webp",
+    "to": "/gitbook-assets/tutorials/ccnewcapsuledown.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccQuickstart.webp",
+    "to": "/gitbook-assets/tutorials/ccquickstart.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/ccSpace.webp",
+    "to": "/gitbook-assets/tutorials/ccspace.webp"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/choose-slash-command (1).png",
+    "to": "/gitbook-assets/tutorials/choose-slash-command-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/choose-slash-command.png",
+    "to": "/gitbook-assets/tutorials/choose-slash-command.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/CleanShot 2025-06-02 at 16.31.45@2x.png",
+    "to": "/gitbook-assets/tutorials/cleanshot-2025-06-02-at-16-31-45-2x.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/code-capsules-captule-details.png",
+    "to": "/gitbook-assets/tutorials/code-capsules-captule-details.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/code-capsules-create-new-space.jpg",
+    "to": "/gitbook-assets/tutorials/code-capsules-create-new-space.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/code-capsules-create-new-team.png",
+    "to": "/gitbook-assets/tutorials/code-capsules-create-new-team.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/code-capsules-login-existing-account.png",
+    "to": "/gitbook-assets/tutorials/code-capsules-login-existing-account.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/code-capsules-register-new-account.png",
+    "to": "/gitbook-assets/tutorials/code-capsules-register-new-account.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/code-capsules-wordpress-architecture (1).png",
+    "to": "/gitbook-assets/tutorials/code-capsules-wordpress-architecture-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/code-capsules-wordpress-architecture.png",
+    "to": "/gitbook-assets/tutorials/code-capsules-wordpress-architecture.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/copy-slack-channel-id.png",
+    "to": "/gitbook-assets/tutorials/copy-slack-channel-id.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/cover.png",
+    "to": "/gitbook-assets/tutorials/cover.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/create-capsule-button.png",
+    "to": "/gitbook-assets/tutorials/create-capsule-button.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/create-command (1).png",
+    "to": "/gitbook-assets/tutorials/create-command-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/create-command.png",
+    "to": "/gitbook-assets/tutorials/create-command.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/create-space-button.png",
+    "to": "/gitbook-assets/tutorials/create-space-button.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/creating-flask-api-cover.jpg",
+    "to": "/gitbook-assets/tutorials/creating-flask-api-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/custom-domain-entry.png",
+    "to": "/gitbook-assets/tutorials/custom-domain-entry.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/customising-domain-cover.jpg",
+    "to": "/gitbook-assets/tutorials/customising-domain-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/developer-workflow (1).png",
+    "to": "/gitbook-assets/tutorials/developer-workflow-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/developer-workflow.png",
+    "to": "/gitbook-assets/tutorials/developer-workflow.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/docker-php-cover.png",
+    "to": "/gitbook-assets/tutorials/docker-php-cover.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/env-active (1).png",
+    "to": "/gitbook-assets/tutorials/env-active-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/env-active (2).png",
+    "to": "/gitbook-assets/tutorials/env-active-2.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/env-active.png",
+    "to": "/gitbook-assets/tutorials/env-active.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/express-htmx-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/express-htmx-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/express-htmx-cover.jpg",
+    "to": "/gitbook-assets/tutorials/express-htmx-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/express-htmx-cover.png",
+    "to": "/gitbook-assets/tutorials/express-htmx-cover.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/file-store-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/file-store-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/file-store-cover.jpg",
+    "to": "/gitbook-assets/tutorials/file-store-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/flask-api-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/flask-api-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/flask-api-cover.jpg",
+    "to": "/gitbook-assets/tutorials/flask-api-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/flask-htmx (1).png",
+    "to": "/gitbook-assets/tutorials/flask-htmx-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/flask-htmx-cover (1).png",
+    "to": "/gitbook-assets/tutorials/flask-htmx-cover-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/flask-htmx-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/flask-htmx-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/flask-htmx-cover.jpg",
+    "to": "/gitbook-assets/tutorials/flask-htmx-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/flask-htmx-cover.png",
+    "to": "/gitbook-assets/tutorials/flask-htmx-cover.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/flask-htmx.png",
+    "to": "/gitbook-assets/tutorials/flask-htmx.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/game-catalogue-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/game-catalogue-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/game-catalogue-cover.jpg",
+    "to": "/gitbook-assets/tutorials/game-catalogue-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/generative-art-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/generative-art-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/generative-art-cover.jpg",
+    "to": "/gitbook-assets/tutorials/generative-art-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/generative-art-cover.png",
+    "to": "/gitbook-assets/tutorials/generative-art-cover.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/generic-docs-banner.png",
+    "to": "/gitbook-assets/tutorials/generic-docs-banner.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/Getting Started With MEAN Stack_ A Step-by-Step Tutorial (1).png",
+    "to": "/gitbook-assets/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/Getting Started With MEAN Stack_ A Step-by-Step Tutorial.png",
+    "to": "/gitbook-assets/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/hero tutorials (1).png",
+    "to": "/gitbook-assets/tutorials/hero-tutorials-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/hero tutorials.png",
+    "to": "/gitbook-assets/tutorials/hero-tutorials.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/heroku-migration-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/heroku-migration-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/heroku-migration-cover.jpg",
+    "to": "/gitbook-assets/tutorials/heroku-migration-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/How to Deploy a React Token dApp to Code Capsules (1).png",
+    "to": "/gitbook-assets/tutorials/how-to-deploy-a-react-token-dapp-to-code-capsules-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/How to Deploy a React Token dApp to Code Capsules.png",
+    "to": "/gitbook-assets/tutorials/how-to-deploy-a-react-token-dapp-to-code-capsules.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/image-api-cover.png",
+    "to": "/gitbook-assets/tutorials/image-api-cover.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/invite-bot (1).png",
+    "to": "/gitbook-assets/tutorials/invite-bot-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/invite-bot.png",
+    "to": "/gitbook-assets/tutorials/invite-bot.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/mean-stack-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/mean-stack-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/mean-stack-cover.jpg",
+    "to": "/gitbook-assets/tutorials/mean-stack-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/mern-job-board-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/mern-job-board-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/mern-job-board-cover.jpg",
+    "to": "/gitbook-assets/tutorials/mern-job-board-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/mern-optimization-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/mern-optimization-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/mern-optimization-cover.jpg",
+    "to": "/gitbook-assets/tutorials/mern-optimization-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/Nuxt3 and Nitro (1).png",
+    "to": "/gitbook-assets/tutorials/nuxt3-and-nitro-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/Nuxt3 and Nitro.png",
+    "to": "/gitbook-assets/tutorials/nuxt3-and-nitro.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/nuxt3-nitro-cover (1).jpg",
+    "to": "/gitbook-assets/tutorials/nuxt3-nitro-cover-1.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/nuxt3-nitro-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/nuxt3-nitro-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/nuxt3-nitro-cover.jpg",
+    "to": "/gitbook-assets/tutorials/nuxt3-nitro-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/Optimizing Performance in MERN Stack_ Tips and Techniques (1).png",
+    "to": "/gitbook-assets/tutorials/optimizing-performance-in-mern-stack-tips-and-techniques-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/Optimizing Performance in MERN Stack_ Tips and Techniques.png",
+    "to": "/gitbook-assets/tutorials/optimizing-performance-in-mern-stack-tips-and-techniques.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/php-book-app-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/php-book-app-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/php-book-app-cover.jpg",
+    "to": "/gitbook-assets/tutorials/php-book-app-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/Scaling MEAN Stack Applications_ Strategies & Considerations (1).png",
+    "to": "/gitbook-assets/tutorials/scaling-mean-stack-applications-strategies-and-considerations-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/Scaling MEAN Stack Applications_ Strategies & Considerations.png",
+    "to": "/gitbook-assets/tutorials/scaling-mean-stack-applications-strategies-and-considerations.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/single-server-wordpress (1).png",
+    "to": "/gitbook-assets/tutorials/single-server-wordpress-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/single-server-wordpress.png",
+    "to": "/gitbook-assets/tutorials/single-server-wordpress.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slack-bot-cover.jpg",
+    "to": "/gitbook-assets/tutorials/slack-bot-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slack-bot-token (1).png",
+    "to": "/gitbook-assets/tutorials/slack-bot-token-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slack-bot-token.png",
+    "to": "/gitbook-assets/tutorials/slack-bot-token.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slack-channel-id (1).png",
+    "to": "/gitbook-assets/tutorials/slack-channel-id-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slack-channel-id.png",
+    "to": "/gitbook-assets/tutorials/slack-channel-id.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slack-scopes (1).png",
+    "to": "/gitbook-assets/tutorials/slack-scopes-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slack-scopes.png",
+    "to": "/gitbook-assets/tutorials/slack-scopes.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slack-signing-secret (1) (1).png",
+    "to": "/gitbook-assets/tutorials/slack-signing-secret-1-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slack-signing-secret (1).png",
+    "to": "/gitbook-assets/tutorials/slack-signing-secret-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slack-signing-secret (2).png",
+    "to": "/gitbook-assets/tutorials/slack-signing-secret-2.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slack-signing-secret.png",
+    "to": "/gitbook-assets/tutorials/slack-signing-secret.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slackbot-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/slackbot-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/slackbot-cover.jpg",
+    "to": "/gitbook-assets/tutorials/slackbot-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/space-details-form.png",
+    "to": "/gitbook-assets/tutorials/space-details-form.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/space-name (1).png",
+    "to": "/gitbook-assets/tutorials/space-name-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/space-name.png",
+    "to": "/gitbook-assets/tutorials/space-name.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/stripe-checkout-cover.jpg",
+    "to": "/gitbook-assets/tutorials/stripe-checkout-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-auth-success.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-auth-success.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-bot-add-event.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-bot-add-event.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-bot-auth-prompt.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-bot-auth-prompt.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-bot-calendar-list.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-bot-calendar-list.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-botfather-create-bot.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-botfather-create-bot.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-capsule-env-vars.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-capsule-env-vars.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-capsule-full-env-vars.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-capsule-full-env-vars.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-capsule-public-uri.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-capsule-public-uri.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-chat-auth-link.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-chat-auth-link.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-chat-calendar-response.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-chat-calendar-response.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-code-capsules-architecture.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-code-capsules-architecture.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-google-calendar-api-enabled.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-google-calendar-api-enabled.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-google-calendar-enable-api.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-google-calendar-enable-api.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-google-oauth-clients.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-google-oauth-clients.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-google-oauth-consent-screen.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-google-oauth-consent-screen.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-agent-redis-connection-string.png",
+    "to": "/gitbook-assets/tutorials/telegram-agent-redis-connection-string.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-bot-chat (1).png",
+    "to": "/gitbook-assets/tutorials/telegram-bot-chat-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-bot-chat.png",
+    "to": "/gitbook-assets/tutorials/telegram-bot-chat.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-bot-cover-go (1).jpg",
+    "to": "/gitbook-assets/tutorials/telegram-bot-cover-go-1.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-bot-cover-go-2 (1).png",
+    "to": "/gitbook-assets/tutorials/telegram-bot-cover-go-2-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-bot-cover-go-2.png",
+    "to": "/gitbook-assets/tutorials/telegram-bot-cover-go-2.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-bot-cover-go-v2.jpg",
+    "to": "/gitbook-assets/tutorials/telegram-bot-cover-go-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-bot-cover-nodejs (1).jpg",
+    "to": "/gitbook-assets/tutorials/telegram-bot-cover-nodejs-1.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-bot-cover-nodejs-v2.jpg",
+    "to": "/gitbook-assets/tutorials/telegram-bot-cover-nodejs-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-bot-cover-nodejs.jpg",
+    "to": "/gitbook-assets/tutorials/telegram-bot-cover-nodejs.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-bot-cover-python-v2.jpg",
+    "to": "/gitbook-assets/tutorials/telegram-bot-cover-python-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-bot-cover-python.jpg",
+    "to": "/gitbook-assets/tutorials/telegram-bot-cover-python.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/telegram-bot-cover.jpg",
+    "to": "/gitbook-assets/tutorials/telegram-bot-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/tutorial common hero (1).png",
+    "to": "/gitbook-assets/tutorials/tutorial-common-hero-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/tutorial common hero.png",
+    "to": "/gitbook-assets/tutorials/tutorial-common-hero.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/update-git-branch (1).png",
+    "to": "/gitbook-assets/tutorials/update-git-branch-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/update-git-branch.png",
+    "to": "/gitbook-assets/tutorials/update-git-branch.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/white-label-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/white-label-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/white-label-cover.jpg",
+    "to": "/gitbook-assets/tutorials/white-label-cover.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/white-label-your-app-with-code-capsules/app-no-nav.png",
+    "to": "/gitbook-assets/tutorials/white-label-your-app-with-code-capsules/app-no-nav.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/white-label-your-app-with-code-capsules/custom-heading.png",
+    "to": "/gitbook-assets/tutorials/white-label-your-app-with-code-capsules/custom-heading.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/white-label-your-app-with-code-capsules/initial-app.png",
+    "to": "/gitbook-assets/tutorials/white-label-your-app-with-code-capsules/initial-app.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/white-label-your-app-with-code-capsules/movie-app.png",
+    "to": "/gitbook-assets/tutorials/white-label-your-app-with-code-capsules/movie-app.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/white-label-your-app-with-code-capsules/pizza-app.png",
+    "to": "/gitbook-assets/tutorials/white-label-your-app-with-code-capsules/pizza-app.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-access-logs-view.png",
+    "to": "/gitbook-assets/tutorials/wordpress-access-logs-view.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-add-new-post.png",
+    "to": "/gitbook-assets/tutorials/wordpress-add-new-post.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-add-new-user-button.png",
+    "to": "/gitbook-assets/tutorials/wordpress-add-new-user-button.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-admin-account-setup.png",
+    "to": "/gitbook-assets/tutorials/wordpress-admin-account-setup.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-admin-dashboard.png",
+    "to": "/gitbook-assets/tutorials/wordpress-admin-dashboard.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-aws-architecture (1).png",
+    "to": "/gitbook-assets/tutorials/wordpress-aws-architecture-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-aws-architecture.png",
+    "to": "/gitbook-assets/tutorials/wordpress-aws-architecture.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-capsule-logs-interface.png",
+    "to": "/gitbook-assets/tutorials/wordpress-capsule-logs-interface.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-capsule-selection.png",
+    "to": "/gitbook-assets/tutorials/wordpress-capsule-selection.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-complexity-vs-simplicity.png",
+    "to": "/gitbook-assets/tutorials/wordpress-complexity-vs-simplicity.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-configuration-overview.png",
+    "to": "/gitbook-assets/tutorials/wordpress-configuration-overview.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-data-storage-split (1).png",
+    "to": "/gitbook-assets/tutorials/wordpress-data-storage-split-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-data-storage-split.png",
+    "to": "/gitbook-assets/tutorials/wordpress-data-storage-split.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-database-configuration.png",
+    "to": "/gitbook-assets/tutorials/wordpress-database-configuration.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-default-homepage.png",
+    "to": "/gitbook-assets/tutorials/wordpress-default-homepage.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-default-url.png",
+    "to": "/gitbook-assets/tutorials/wordpress-default-url.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-deployment-method.png",
+    "to": "/gitbook-assets/tutorials/wordpress-deployment-method.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-hosting-cover-v2.jpg",
+    "to": "/gitbook-assets/tutorials/wordpress-hosting-cover-v2.jpg"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-installation-success.png",
+    "to": "/gitbook-assets/tutorials/wordpress-installation-success.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-language-selection.png",
+    "to": "/gitbook-assets/tutorials/wordpress-language-selection.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-metrics-dashboard.png",
+    "to": "/gitbook-assets/tutorials/wordpress-metrics-dashboard.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-migration-in-progress.png",
+    "to": "/gitbook-assets/tutorials/wordpress-migration-in-progress.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-migration-process (1).png",
+    "to": "/gitbook-assets/tutorials/wordpress-migration-process-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-migration-process.png",
+    "to": "/gitbook-assets/tutorials/wordpress-migration-process.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-migration-source-selection (1).png",
+    "to": "/gitbook-assets/tutorials/wordpress-migration-source-selection-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-migration-source-selection.png",
+    "to": "/gitbook-assets/tutorials/wordpress-migration-source-selection.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-pricing-plan.png",
+    "to": "/gitbook-assets/tutorials/wordpress-pricing-plan.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-scale-tab-custom-resources.png",
+    "to": "/gitbook-assets/tutorials/wordpress-scale-tab-custom-resources.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-storage-configuration.png",
+    "to": "/gitbook-assets/tutorials/wordpress-storage-configuration.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-themes-page.png",
+    "to": "/gitbook-assets/tutorials/wordpress-themes-page.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-user-role-form.png",
+    "to": "/gitbook-assets/tutorials/wordpress-user-role-form.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-workflow (1).png",
+    "to": "/gitbook-assets/tutorials/wordpress-workflow-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wordpress-workflow.png",
+    "to": "/gitbook-assets/tutorials/wordpress-workflow.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/working-telegram-bot (1).png",
+    "to": "/gitbook-assets/tutorials/working-telegram-bot-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/working-telegram-bot.png",
+    "to": "/gitbook-assets/tutorials/working-telegram-bot.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-access-key (1).png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-access-key-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-access-key.png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-access-key.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-add-license (1).png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-add-license-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-add-license.png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-add-license.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-add-migration (1).png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-add-migration-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-add-migration.png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-add-migration.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-license-key (1).png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-license-key-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-license-key.png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-license-key.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-migration-conflicts (1).png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-migration-conflicts-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-migration-conflicts.png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-migration-conflicts.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-migration-options (1).png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-migration-options-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-migration-options.png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-migration-options.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-plugin-upload (1).png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-plugin-upload-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-plugin-upload.png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-plugin-upload.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-upload-zip (1).png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-upload-zip-1.png"
+  },
+  {
+    "from": "/gitbook-assets/tutorials/wp-synchro-upload-zip.png",
+    "to": "/gitbook-assets/tutorials/wp-synchro-upload-zip.png"
+  }
+]

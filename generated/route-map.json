@@ -1,0 +1,797 @@
+[
+  {
+    "route": "/",
+    "targetRel": "index.md",
+    "source": "../get-started/README.md"
+  },
+  {
+    "route": "/frontend",
+    "targetRel": "frontend/index.md",
+    "source": "../get-started/frontend/README.md"
+  },
+  {
+    "route": "/frontend/angular",
+    "targetRel": "frontend/angular.md",
+    "source": "../get-started/frontend/angular.md"
+  },
+  {
+    "route": "/frontend/react",
+    "targetRel": "frontend/react.md",
+    "source": "../get-started/frontend/react.md"
+  },
+  {
+    "route": "/frontend/vue",
+    "targetRel": "frontend/vue.md",
+    "source": "../get-started/frontend/vue.md"
+  },
+  {
+    "route": "/frontend/next.js",
+    "targetRel": "frontend/next.js.md",
+    "source": "../get-started/frontend/next.js.md"
+  },
+  {
+    "route": "/frontend/svelte",
+    "targetRel": "frontend/svelte.md",
+    "source": "../get-started/frontend/svelte.md"
+  },
+  {
+    "route": "/frontend/static-html",
+    "targetRel": "frontend/static-html.md",
+    "source": "../get-started/frontend/static-html.md"
+  },
+  {
+    "route": "/backend",
+    "targetRel": "backend/index.md",
+    "source": "../get-started/backend/README.md"
+  },
+  {
+    "route": "/backend/python",
+    "targetRel": "backend/python/index.md",
+    "source": "../get-started/backend/python/README.md"
+  },
+  {
+    "route": "/backend/python/python",
+    "targetRel": "backend/python/python.md",
+    "source": "../get-started/backend/python/python.md"
+  },
+  {
+    "route": "/backend/python/django",
+    "targetRel": "backend/python/django.md",
+    "source": "../get-started/backend/python/django.md"
+  },
+  {
+    "route": "/backend/python/flask",
+    "targetRel": "backend/python/flask.md",
+    "source": "../get-started/backend/python/flask.md"
+  },
+  {
+    "route": "/backend/python/python-discord-bot",
+    "targetRel": "backend/python/python-discord-bot.md",
+    "source": "../get-started/backend/python/python-discord-bot.md"
+  },
+  {
+    "route": "/backend/python/python-telegram-bot",
+    "targetRel": "backend/python/python-telegram-bot.md",
+    "source": "../get-started/backend/python/python-telegram-bot.md"
+  },
+  {
+    "route": "/backend/python/whatsapp-bot",
+    "targetRel": "backend/python/whatsapp-bot.md",
+    "source": "../get-started/backend/python/whatsapp-bot.md"
+  },
+  {
+    "route": "/backend/node.js",
+    "targetRel": "backend/node.js/index.md",
+    "source": "../get-started/backend/node.js/README.md"
+  },
+  {
+    "route": "/backend/node.js/express.js",
+    "targetRel": "backend/node.js/express.js.md",
+    "source": "../get-started/backend/node.js/express.js.md"
+  },
+  {
+    "route": "/backend/node.js/node.js-discord-bot",
+    "targetRel": "backend/node.js/node.js-discord-bot.md",
+    "source": "../get-started/backend/node.js/node.js-discord-bot.md"
+  },
+  {
+    "route": "/backend/node.js/node.js-telegram-bot",
+    "targetRel": "backend/node.js/node.js-telegram-bot.md",
+    "source": "../get-started/backend/node.js/node.js-telegram-bot.md"
+  },
+  {
+    "route": "/backend/node.js/slack-bot",
+    "targetRel": "backend/node.js/slack-bot.md",
+    "source": "../get-started/backend/node.js/slack-bot.md"
+  },
+  {
+    "route": "/backend/java",
+    "targetRel": "backend/java.md",
+    "source": "../get-started/backend/java.md"
+  },
+  {
+    "route": "/backend/go",
+    "targetRel": "backend/go/index.md",
+    "source": "../get-started/backend/go/README.md"
+  },
+  {
+    "route": "/backend/go/go",
+    "targetRel": "backend/go/go.md",
+    "source": "../get-started/backend/go/go.md"
+  },
+  {
+    "route": "/backend/go/go-telegram-bot",
+    "targetRel": "backend/go/go-telegram-bot.md",
+    "source": "../get-started/backend/go/go-telegram-bot.md"
+  },
+  {
+    "route": "/backend/docker",
+    "targetRel": "backend/docker/index.md",
+    "source": "../get-started/backend/docker/README.md"
+  },
+  {
+    "route": "/backend/docker/caddy-docker-site",
+    "targetRel": "backend/docker/caddy-docker-site.md",
+    "source": "../get-started/backend/docker/caddy-docker-site.md"
+  },
+  {
+    "route": "/backend/docker/docker-laravel-app",
+    "targetRel": "backend/docker/docker-laravel-app.md",
+    "source": "../get-started/backend/docker/docker-laravel-app.md"
+  },
+  {
+    "route": "/backend/docker/docker-php-app",
+    "targetRel": "backend/docker/docker-php-app.md",
+    "source": "../get-started/backend/docker/docker-php-app.md"
+  },
+  {
+    "route": "/backend/docker/flask-docker-app",
+    "targetRel": "backend/docker/flask-docker-app.md",
+    "source": "../get-started/backend/docker/flask-docker-app.md"
+  },
+  {
+    "route": "/database",
+    "targetRel": "database/index.md",
+    "source": "../get-started/database/README.md"
+  },
+  {
+    "route": "/database/mysql",
+    "targetRel": "database/mysql/index.md",
+    "source": "../get-started/database/mysql/README.md"
+  },
+  {
+    "route": "/database/mysql/django-+-mysql",
+    "targetRel": "database/mysql/django-+-mysql.md",
+    "source": "../get-started/database/mysql/django-+-mysql.md"
+  },
+  {
+    "route": "/database/mysql/flask-+-mysql",
+    "targetRel": "database/mysql/flask-+-mysql.md",
+    "source": "../get-started/database/mysql/flask-+-mysql.md"
+  },
+  {
+    "route": "/database/mysql/java-+-mysql",
+    "targetRel": "database/mysql/java-+-mysql.md",
+    "source": "../get-started/database/mysql/java-+-mysql.md"
+  },
+  {
+    "route": "/database/mongodb",
+    "targetRel": "database/mongodb/index.md",
+    "source": "../get-started/database/mongodb/README.md"
+  },
+  {
+    "route": "/database/mongodb/django-+-mongodb",
+    "targetRel": "database/mongodb/django-+-mongodb.md",
+    "source": "../get-started/database/mongodb/django-+-mongodb.md"
+  },
+  {
+    "route": "/database/mongodb/express-+-mongodb",
+    "targetRel": "database/mongodb/express-+-mongodb.md",
+    "source": "../get-started/database/mongodb/express-+-mongodb.md"
+  },
+  {
+    "route": "/database/mongodb/flask-+-mongodb",
+    "targetRel": "database/mongodb/flask-+-mongodb.md",
+    "source": "../get-started/database/mongodb/flask-+-mongodb.md"
+  },
+  {
+    "route": "/database/postgres",
+    "targetRel": "database/postgres.md",
+    "source": "../get-started/database/postgres.md"
+  },
+  {
+    "route": "/database/redis",
+    "targetRel": "database/redis.md",
+    "source": "../get-started/database/redis.md"
+  },
+  {
+    "route": "/full-stack",
+    "targetRel": "full-stack/index.md",
+    "source": "../get-started/full-stack/README.md"
+  },
+  {
+    "route": "/full-stack/next.js",
+    "targetRel": "full-stack/next.js/index.md",
+    "source": "../get-started/full-stack/next.js/README.md"
+  },
+  {
+    "route": "/full-stack/next.js/next.js-+-express.js",
+    "targetRel": "full-stack/next.js/next.js-+-express.js.md",
+    "source": "../get-started/full-stack/next.js/next.js-+-express.js.md"
+  },
+  {
+    "route": "/full-stack/next.js/next.js-+-mongodb",
+    "targetRel": "full-stack/next.js/next.js-+-mongodb.md",
+    "source": "../get-started/full-stack/next.js/next.js-+-mongodb.md"
+  },
+  {
+    "route": "/full-stack/next.js/static-file-share-with-flask-and-caddy",
+    "targetRel": "full-stack/next.js/static-file-share-with-flask-and-caddy.md",
+    "source": "../get-started/full-stack/next.js/static-file-share-with-flask-and-caddy.md"
+  },
+  {
+    "route": "/full-stack/flask-+-htmx",
+    "targetRel": "full-stack/flask-+-htmx.md",
+    "source": "../get-started/full-stack/flask-+-htmx.md"
+  },
+  {
+    "route": "/full-stack/mean-stack",
+    "targetRel": "full-stack/mean-stack.md",
+    "source": "../get-started/full-stack/mean-stack.md"
+  },
+  {
+    "route": "/full-stack/mern-stack",
+    "targetRel": "full-stack/mern-stack.md",
+    "source": "../get-started/full-stack/mern-stack.md"
+  },
+  {
+    "route": "/persistent-storage",
+    "targetRel": "persistent-storage.md",
+    "source": "../get-started/persistent-storage.md"
+  },
+  {
+    "route": "/wordpress",
+    "targetRel": "wordpress.md",
+    "source": "../get-started/wordpress.md"
+  },
+  {
+    "route": "/platform",
+    "targetRel": "platform/index.md",
+    "source": "../platform/README.md"
+  },
+  {
+    "route": "/platform/readme",
+    "targetRel": "platform/readme.md",
+    "source": "../platform/README (1).md"
+  },
+  {
+    "route": "/platform/what-is-code-capsules",
+    "targetRel": "platform/what-is-code-capsules.md",
+    "source": "../platform/what-is-code-capsules.md"
+  },
+  {
+    "route": "/platform/platform",
+    "targetRel": "platform/platform.md",
+    "source": "../platform/platform.md"
+  },
+  {
+    "route": "/platform/account/how-do-i-add-a-payment-method",
+    "targetRel": "platform/account/how-do-i-add-a-payment-method.md",
+    "source": "../platform/account/how-do-i-add-a-payment-method.md"
+  },
+  {
+    "route": "/platform/account/how-do-i-reset-my-password",
+    "targetRel": "platform/account/how-do-i-reset-my-password.md",
+    "source": "../platform/account/how-do-i-reset-my-password.md"
+  },
+  {
+    "route": "/platform/account/how-do-i-enable-2fa",
+    "targetRel": "platform/account/how-do-i-enable-2fa.md",
+    "source": "../platform/account/how-do-i-enable-2fa.md"
+  },
+  {
+    "route": "/platform/account/connect-version-control",
+    "targetRel": "platform/account/connect-version-control.md",
+    "source": "../platform/account/connect-version-control.md"
+  },
+  {
+    "route": "/platform/billing/how-do-i-change-my-billing-details",
+    "targetRel": "platform/billing/how-do-i-change-my-billing-details.md",
+    "source": "../platform/billing/how-do-i-change-my-billing-details.md"
+  },
+  {
+    "route": "/platform/billing/how-do-i-view-my-invoices",
+    "targetRel": "platform/billing/how-do-i-view-my-invoices.md",
+    "source": "../platform/billing/how-do-i-view-my-invoices.md"
+  },
+  {
+    "route": "/platform/billing/how-does-the-pricing-work",
+    "targetRel": "platform/billing/how-does-the-pricing-work.md",
+    "source": "../platform/billing/how-does-the-pricing-work.md"
+  },
+  {
+    "route": "/platform/teams/what-is-a-team",
+    "targetRel": "platform/teams/what-is-a-team.md",
+    "source": "../platform/teams/what-is-a-team.md"
+  },
+  {
+    "route": "/platform/teams/how-do-i-add-remove-teams",
+    "targetRel": "platform/teams/how-do-i-add-remove-teams.md",
+    "source": "../platform/teams/how-do-i-add-remove-teams.md"
+  },
+  {
+    "route": "/platform/teams/how-do-i-add-team-members",
+    "targetRel": "platform/teams/how-do-i-add-team-members.md",
+    "source": "../platform/teams/how-do-i-add-team-members.md"
+  },
+  {
+    "route": "/platform/teams/share-a-repo-with-a-team",
+    "targetRel": "platform/teams/share-a-repo-with-a-team.md",
+    "source": "../platform/teams/share-a-repo-with-a-team.md"
+  },
+  {
+    "route": "/platform/spaces/what-is-a-space",
+    "targetRel": "platform/spaces/what-is-a-space.md",
+    "source": "../platform/spaces/what-is-a-space.md"
+  },
+  {
+    "route": "/platform/spaces/how-do-i-add-remove-a-space",
+    "targetRel": "platform/spaces/how-do-i-add-remove-a-space.md",
+    "source": "../platform/spaces/how-do-i-add-remove-a-space.md"
+  },
+  {
+    "route": "/platform/capsules/what-is-a-capsule",
+    "targetRel": "platform/capsules/what-is-a-capsule.md",
+    "source": "../platform/capsules/what-is-a-capsule.md"
+  },
+  {
+    "route": "/platform/capsules/how-do-i-add-remove-stop-capsules",
+    "targetRel": "platform/capsules/how-do-i-add-remove-stop-capsules.md",
+    "source": "../platform/capsules/how-do-i-add-remove-stop-capsules.md"
+  },
+  {
+    "route": "/platform/capsules/how-to-add-a-custom-domain",
+    "targetRel": "platform/capsules/how-to-add-a-custom-domain.md",
+    "source": "../platform/capsules/how-to-add-a-custom-domain.md"
+  },
+  {
+    "route": "/platform/regions/what-regions-does-code-capsules-support",
+    "targetRel": "platform/regions/what-regions-does-code-capsules-support.md",
+    "source": "../platform/regions/what-regions-does-code-capsules-support.md"
+  },
+  {
+    "route": "/platform/security/basic-auth",
+    "targetRel": "platform/security/basic-auth.md",
+    "source": "../platform/security/basic-auth.md"
+  },
+  {
+    "route": "/products",
+    "targetRel": "products/index.md",
+    "source": "../products/README.md"
+  },
+  {
+    "route": "/products/backend-capsule/backend-capsule",
+    "targetRel": "products/backend-capsule/backend-capsule.md",
+    "source": "../products/backend-capsule/backend-capsule.md"
+  },
+  {
+    "route": "/products/backend-capsule/configure",
+    "targetRel": "products/backend-capsule/configure.md",
+    "source": "../products/backend-capsule/configure.md"
+  },
+  {
+    "route": "/products/backend-capsule/scale",
+    "targetRel": "products/backend-capsule/scale.md",
+    "source": "../products/backend-capsule/scale.md"
+  },
+  {
+    "route": "/products/backend-capsule/monitor",
+    "targetRel": "products/backend-capsule/monitor.md",
+    "source": "../products/backend-capsule/monitor.md"
+  },
+  {
+    "route": "/products/backend-capsule/logs",
+    "targetRel": "products/backend-capsule/logs.md",
+    "source": "../products/backend-capsule/logs.md"
+  },
+  {
+    "route": "/products/backend-capsule/alerting",
+    "targetRel": "products/backend-capsule/alerting.md",
+    "source": "../products/backend-capsule/alerting.md"
+  },
+  {
+    "route": "/products/backend-capsule/add-procfile",
+    "targetRel": "products/backend-capsule/add-procfile.md",
+    "source": "../products/backend-capsule/add-procfile.md"
+  },
+  {
+    "route": "/products/database-capsule/overview",
+    "targetRel": "products/database-capsule/overview.md",
+    "source": "../products/database-capsule/overview.md"
+  },
+  {
+    "route": "/products/database-capsule/configure",
+    "targetRel": "products/database-capsule/configure.md",
+    "source": "../products/database-capsule/configure.md"
+  },
+  {
+    "route": "/products/database-capsule/scale",
+    "targetRel": "products/database-capsule/scale.md",
+    "source": "../products/database-capsule/scale.md"
+  },
+  {
+    "route": "/products/database-capsule/backups",
+    "targetRel": "products/database-capsule/backups.md",
+    "source": "../products/database-capsule/backups.md"
+  },
+  {
+    "route": "/products/database-capsule/monitor",
+    "targetRel": "products/database-capsule/monitor.md",
+    "source": "../products/database-capsule/monitor.md"
+  },
+  {
+    "route": "/products/database-capsule/logs",
+    "targetRel": "products/database-capsule/logs.md",
+    "source": "../products/database-capsule/logs.md"
+  },
+  {
+    "route": "/products/alerting",
+    "targetRel": "products/alerting.md",
+    "source": "../products/alerting.md"
+  },
+  {
+    "route": "/products/database-capsule/migrations",
+    "targetRel": "products/database-capsule/migrations.md",
+    "source": "../products/database-capsule/migrations.md"
+  },
+  {
+    "route": "/products/frontend-capsule/deploy",
+    "targetRel": "products/frontend-capsule/deploy.md",
+    "source": "../products/frontend-capsule/deploy.md"
+  },
+  {
+    "route": "/products/frontend-capsule/configure",
+    "targetRel": "products/frontend-capsule/configure.md",
+    "source": "../products/frontend-capsule/configure.md"
+  },
+  {
+    "route": "/products/frontend-capsule/scale",
+    "targetRel": "products/frontend-capsule/scale.md",
+    "source": "../products/frontend-capsule/scale.md"
+  },
+  {
+    "route": "/products/frontend-capsule/monitor",
+    "targetRel": "products/frontend-capsule/monitor.md",
+    "source": "../products/frontend-capsule/monitor.md"
+  },
+  {
+    "route": "/products/frontend-capsule/logs",
+    "targetRel": "products/frontend-capsule/logs.md",
+    "source": "../products/frontend-capsule/logs.md"
+  },
+  {
+    "route": "/products/alerting-1",
+    "targetRel": "products/alerting-1.md",
+    "source": "../products/alerting-1.md"
+  },
+  {
+    "route": "/products/frontend-capsule/custom-domains",
+    "targetRel": "products/frontend-capsule/custom-domains.md",
+    "source": "../products/frontend-capsule/custom-domains.md"
+  },
+  {
+    "route": "/products/storage-capsule/deploy",
+    "targetRel": "products/storage-capsule/deploy.md",
+    "source": "../products/storage-capsule/deploy.md"
+  },
+  {
+    "route": "/products/storage-capsule/configure",
+    "targetRel": "products/storage-capsule/configure.md",
+    "source": "../products/storage-capsule/configure.md"
+  },
+  {
+    "route": "/products/storage-capsule/scale",
+    "targetRel": "products/storage-capsule/scale.md",
+    "source": "../products/storage-capsule/scale.md"
+  },
+  {
+    "route": "/products/storage-capsule/backups",
+    "targetRel": "products/storage-capsule/backups.md",
+    "source": "../products/storage-capsule/backups.md"
+  },
+  {
+    "route": "/products/storage-capsule/monitor",
+    "targetRel": "products/storage-capsule/monitor.md",
+    "source": "../products/storage-capsule/monitor.md"
+  },
+  {
+    "route": "/products/storage-capsule/logs",
+    "targetRel": "products/storage-capsule/logs.md",
+    "source": "../products/storage-capsule/logs.md"
+  },
+  {
+    "route": "/products/storage-capsule/alerting",
+    "targetRel": "products/storage-capsule/alerting.md",
+    "source": "../products/storage-capsule/alerting.md"
+  },
+  {
+    "route": "/products/storage-capsule/how-state-works",
+    "targetRel": "products/storage-capsule/how-state-works.md",
+    "source": "../products/storage-capsule/how-state-works.md"
+  },
+  {
+    "route": "/products/wordpress-capsule/deploy",
+    "targetRel": "products/wordpress-capsule/deploy.md",
+    "source": "../products/wordpress-capsule/deploy.md"
+  },
+  {
+    "route": "/products/wordpress-capsule/configure",
+    "targetRel": "products/wordpress-capsule/configure.md",
+    "source": "../products/wordpress-capsule/configure.md"
+  },
+  {
+    "route": "/products/wordpress-capsule/scale",
+    "targetRel": "products/wordpress-capsule/scale.md",
+    "source": "../products/wordpress-capsule/scale.md"
+  },
+  {
+    "route": "/products/wordpress-capsule/backups",
+    "targetRel": "products/wordpress-capsule/backups.md",
+    "source": "../products/wordpress-capsule/backups.md"
+  },
+  {
+    "route": "/products/wordpress-capsule/monitor",
+    "targetRel": "products/wordpress-capsule/monitor.md",
+    "source": "../products/wordpress-capsule/monitor.md"
+  },
+  {
+    "route": "/products/wordpress-capsule/logs",
+    "targetRel": "products/wordpress-capsule/logs.md",
+    "source": "../products/wordpress-capsule/logs.md"
+  },
+  {
+    "route": "/products/wordpress-capsule/alerting",
+    "targetRel": "products/wordpress-capsule/alerting.md",
+    "source": "../products/wordpress-capsule/alerting.md"
+  },
+  {
+    "route": "/products/agent-capsule/deploy",
+    "targetRel": "products/agent-capsule/deploy.md",
+    "source": "../products/agent-capsule/deploy.md"
+  },
+  {
+    "route": "/products/agent-capsule/configure",
+    "targetRel": "products/agent-capsule/configure.md",
+    "source": "../products/agent-capsule/configure.md"
+  },
+  {
+    "route": "/products/agent-capsule/scale",
+    "targetRel": "products/agent-capsule/scale.md",
+    "source": "../products/agent-capsule/scale.md"
+  },
+  {
+    "route": "/products/agent-capsule/monitor",
+    "targetRel": "products/agent-capsule/monitor.md",
+    "source": "../products/agent-capsule/monitor.md"
+  },
+  {
+    "route": "/products/agent-capsule/logs",
+    "targetRel": "products/agent-capsule/logs.md",
+    "source": "../products/agent-capsule/logs.md"
+  },
+  {
+    "route": "/products/agent-capsule/templates",
+    "targetRel": "products/agent-capsule/templates.md",
+    "source": "../products/agent-capsule/templates.md"
+  },
+  {
+    "route": "/products/agent-capsule/chat",
+    "targetRel": "products/agent-capsule/chat/index.md",
+    "source": "../products/agent-capsule/chat/README.md"
+  },
+  {
+    "route": "/products/agent-capsule/chat/agent-api-sample",
+    "targetRel": "products/agent-capsule/chat/agent-api-sample.md",
+    "source": "../products/agent-capsule/chat/agent-api-sample.md"
+  },
+  {
+    "route": "/products/agent-capsule/alerting",
+    "targetRel": "products/agent-capsule/alerting.md",
+    "source": "../products/agent-capsule/alerting.md"
+  },
+  {
+    "route": "/products/enterprise-clusters/overview",
+    "targetRel": "products/enterprise-clusters/overview.md",
+    "source": "../products/enterprise-clusters/overview.md"
+  },
+  {
+    "route": "/tutorials",
+    "targetRel": "tutorials/index.md",
+    "source": "../tutorials/README.md"
+  },
+  {
+    "route": "/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules",
+    "targetRel": "tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules.md",
+    "source": "../tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules.md"
+  },
+  {
+    "route": "/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules",
+    "targetRel": "tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules.md",
+    "source": "../tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules.md"
+  },
+  {
+    "route": "/tutorials/create-and-host-go-ai-telegram-bot",
+    "targetRel": "tutorials/create-and-host-go-ai-telegram-bot.md",
+    "source": "../tutorials/create-and-host-go-ai-telegram-bot.md"
+  },
+  {
+    "route": "/tutorials/how-to-simply-host-a-production-wordpress-blog",
+    "targetRel": "tutorials/how-to-simply-host-a-production-wordpress-blog.md",
+    "source": "../tutorials/how-to-simply-host-a-production-wordpress-blog.md"
+  },
+  {
+    "route": "/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules",
+    "targetRel": "tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules.md",
+    "source": "../tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules.md"
+  },
+  {
+    "route": "/tutorials/heroku-migration-guide",
+    "targetRel": "tutorials/heroku-migration-guide.md",
+    "source": "../tutorials/heroku-migration-guide.md"
+  },
+  {
+    "route": "/tutorials/create-and-host-an-api-with-flask",
+    "targetRel": "tutorials/create-and-host-an-api-with-flask.md",
+    "source": "../tutorials/create-and-host-an-api-with-flask.md"
+  },
+  {
+    "route": "/tutorials/building-a-full-stack-application-with-flask-and-htmx",
+    "targetRel": "tutorials/building-a-full-stack-application-with-flask-and-htmx.md",
+    "source": "../tutorials/building-a-full-stack-application-with-flask-and-htmx.md"
+  },
+  {
+    "route": "/tutorials/nuxt3-and-nitro",
+    "targetRel": "tutorials/nuxt3-and-nitro.md",
+    "source": "../tutorials/nuxt3-and-nitro.md"
+  },
+  {
+    "route": "/tutorials/optimizing-performance-in-mern-stack-tips-and-techniques",
+    "targetRel": "tutorials/optimizing-performance-in-mern-stack-tips-and-techniques.md",
+    "source": "../tutorials/optimizing-performance-in-mern-stack-tips-and-techniques.md"
+  },
+  {
+    "route": "/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications",
+    "targetRel": "tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications.md",
+    "source": "../tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications.md"
+  },
+  {
+    "route": "/tutorials/building-a-full-stack-application-with-express-and-htmx",
+    "targetRel": "tutorials/building-a-full-stack-application-with-express-and-htmx.md",
+    "source": "../tutorials/building-a-full-stack-application-with-express-and-htmx.md"
+  },
+  {
+    "route": "/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial",
+    "targetRel": "tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial.md",
+    "source": "../tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial.md"
+  },
+  {
+    "route": "/tutorials/building-a-web-file-store",
+    "targetRel": "tutorials/building-a-web-file-store.md",
+    "source": "../tutorials/building-a-web-file-store.md"
+  },
+  {
+    "route": "/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker",
+    "targetRel": "tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker.md",
+    "source": "../tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker.md"
+  },
+  {
+    "route": "/tutorials/build-a-mern-job-board",
+    "targetRel": "tutorials/build-a-mern-job-board.md",
+    "source": "../tutorials/build-a-mern-job-board.md"
+  },
+  {
+    "route": "/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx",
+    "targetRel": "tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx.md",
+    "source": "../tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx.md"
+  },
+  {
+    "route": "/tutorials/white-label-your-app-with-code-capsules",
+    "targetRel": "tutorials/white-label-your-app-with-code-capsules.md",
+    "source": "../tutorials/white-label-your-app-with-code-capsules.md"
+  },
+  {
+    "route": "/tutorials/building-a-game-catalogue-api",
+    "targetRel": "tutorials/building-a-game-catalogue-api.md",
+    "source": "../tutorials/building-a-game-catalogue-api.md"
+  },
+  {
+    "route": "/tutorials/best-practices-for-structuring-mean-mern-mevn-projects",
+    "targetRel": "tutorials/best-practices-for-structuring-mean-mern-mevn-projects.md",
+    "source": "../tutorials/best-practices-for-structuring-mean-mern-mevn-projects.md"
+  },
+  {
+    "route": "/tutorials/video-guides",
+    "targetRel": "tutorials/video-guides.md",
+    "source": "../tutorials/video-guides.md"
+  },
+  {
+    "route": "/cli",
+    "targetRel": "cli/index.md",
+    "source": "../cli/README.md"
+  },
+  {
+    "route": "/cli/readme/getting-started",
+    "targetRel": "cli/readme/getting-started/index.md",
+    "source": "../cli/code-capsules-cli/getting-started/README.md"
+  },
+  {
+    "route": "/cli/readme/getting-started/prerequisites",
+    "targetRel": "cli/readme/getting-started/prerequisites.md",
+    "source": "../cli/code-capsules-cli/getting-started/prerequisites.md"
+  },
+  {
+    "route": "/cli/readme/getting-started/installation-and-usage",
+    "targetRel": "cli/readme/getting-started/installation-and-usage.md",
+    "source": "../cli/code-capsules-cli/getting-started/installation-and-usage.md"
+  },
+  {
+    "route": "/cli/readme/getting-started/quick-start",
+    "targetRel": "cli/readme/getting-started/quick-start.md",
+    "source": "../cli/code-capsules-cli/getting-started/quick-start.md"
+  },
+  {
+    "route": "/cli/readme/commands",
+    "targetRel": "cli/readme/commands/index.md",
+    "source": "../cli/code-capsules-cli/commands/README.md"
+  },
+  {
+    "route": "/cli/readme/commands/login",
+    "targetRel": "cli/readme/commands/login.md",
+    "source": "../cli/code-capsules-cli/commands/login.md"
+  },
+  {
+    "route": "/cli/readme/commands/logout",
+    "targetRel": "cli/readme/commands/logout.md",
+    "source": "../cli/code-capsules-cli/commands/logout.md"
+  },
+  {
+    "route": "/cli/readme/commands/proxy",
+    "targetRel": "cli/readme/commands/proxy.md",
+    "source": "../cli/code-capsules-cli/commands/proxy.md"
+  },
+  {
+    "route": "/cli/readme/commands/whoami",
+    "targetRel": "cli/readme/commands/whoami.md",
+    "source": "../cli/code-capsules-cli/commands/whoami.md"
+  },
+  {
+    "route": "/cli/readme/global-options",
+    "targetRel": "cli/readme/global-options.md",
+    "source": "../cli/code-capsules-cli/global-options.md"
+  },
+  {
+    "route": "/enterprise",
+    "targetRel": "enterprise/index.md",
+    "source": "../__live__/enterprise/index.md"
+  },
+  {
+    "route": "/enterprise/aws",
+    "targetRel": "enterprise/aws.md",
+    "source": "../__live__/enterprise/aws.md"
+  },
+  {
+    "route": "/enterprise/azure",
+    "targetRel": "enterprise/azure.md",
+    "source": "../__live__/enterprise/azure.md"
+  },
+  {
+    "route": "/enterprise/gcp",
+    "targetRel": "enterprise/gcp.md",
+    "source": "../__live__/enterprise/gcp.md"
+  },
+  {
+    "route": "/enterprise/vmware",
+    "targetRel": "enterprise/vmware.md",
+    "source": "../__live__/enterprise/vmware.md"
+  }
+]
