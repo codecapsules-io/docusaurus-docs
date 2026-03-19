@@ -1,30 +1,10 @@
 ---
 slug: "/tutorials/building-a-game-catalogue-api"
 cover: /gitbook-assets/tutorials/game-catalogue-cover-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
 ---
 
 # Building a Game Catalogue API
+
 
 APIs are a common way to expose data and information on the internet. Many web services and apps run off multiple APIs in the background. Because APIs are so ubiquitous, it is very useful to learn the basics of how to build one.
 

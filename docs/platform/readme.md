@@ -27,7 +27,7 @@ slug: "/platform/readme"
 
 ### October 2025
 
-* New and improved alerting. Check it out [here](https://app.gitbook.com/s/oyCI3rJYfUxA3cJhHZbu/database-capsule/alerting).
+* New and improved alerting. Check it out [here](/products/database-capsule/configure).
 * Ability to get email notifications for any workload alerts like OOM, too much CPU being used, unexpected app crashes, etc.
 
 ### September 2025

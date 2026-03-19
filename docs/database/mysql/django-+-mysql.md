@@ -24,7 +24,7 @@ Navigate to the Spaces tab and open the Space you'll be using.
 Click the yellow **+** button in the bottom left of the screen, select **New Capsule**, and follow the instructions below to create a Data Capsule:
 
 1. Choose **Data Capsule**.
-2. Under **Data Type**, select **MongoDB Database Cluster**.
+2. Under **Data Type**, select **MySQL Database Cluster**.
 3. Click **Create Capsule**.
 
 Navigate to the **Space** containing your recently created Data Capsule and click the **New Capsule** button. Follow the instructions below to create a Backend Capsule:

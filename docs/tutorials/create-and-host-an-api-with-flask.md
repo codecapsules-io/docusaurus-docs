@@ -4,30 +4,10 @@ description: >-
   Build a personal API that lets you access up to the minute exchange rates and
   weather data for cities of your choosing.
 cover: /gitbook-assets/tutorials/flask-api-cover-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
 ---
 
 # Create and Host an API With Flask
+
 
 An API, or Application Programming Interface, is a tool enabling developers to interact with data online. Imagine: you navigate to some website and see your location’s temperature displayed on their homepage. How did they present this information?
 

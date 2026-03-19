@@ -1,8 +1,9 @@
-import React, {useState, type ReactNode} from 'react';
+import React, {useState, useEffect, type ReactNode} from 'react';
 import Content from '@theme-original/DocItem/Content';
 import type ContentType from '@theme/DocItem/Content';
 import type {WrapperProps} from '@docusaurus/types';
 import {useDoc} from '@docusaurus/plugin-content-docs/client';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import CategoryCards from '@site/src/components/CategoryCards';
 
 type Props = WrapperProps<typeof ContentType>;
@@ -37,13 +38,31 @@ function CopyButton(): ReactNode {
 
 export default function ContentWrapper(props: Props): ReactNode {
   const {frontMatter} = useDoc();
-  const cover = (frontMatter as Record<string, unknown>).cover as string | undefined;
+  const fm = frontMatter as Record<string, unknown>;
+  const cover = fm.cover as string | undefined;
+  const coverY = typeof fm.coverY === 'number' ? fm.coverY : undefined;
+  const coverUrl = useBaseUrl(cover ?? '');
+  const objectPosition = coverY !== undefined ? `center ${coverY}%` : undefined;
+
+  useEffect(() => {
+    if (cover) {
+      const tocWrap = document.querySelector('.toc-with-cta') as HTMLElement | null;
+      if (tocWrap) {
+        tocWrap.style.marginTop = '480px';
+      }
+      return () => {
+        if (tocWrap) {
+          tocWrap.style.marginTop = '';
+        }
+      };
+    }
+  }, [cover]);
 
   return (
     <>
       {cover && (
         <div className="doc-cover">
-          <img src={cover} alt="" className="doc-cover__img" loading="eager" />
+          <img src={coverUrl} alt="" className="doc-cover__img" loading="eager" style={objectPosition ? {objectPosition} : undefined} />
         </div>
       )}
       <div className="doc-copy-row">

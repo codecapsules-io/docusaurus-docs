@@ -4,30 +4,10 @@ description: >-
   Social media bots allow you to automate responses and reactions to posts or
   messages sent to the bot.
 cover: /gitbook-assets/tutorials/telegram-bot-cover-nodejs-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
 ---
 
 # How to Create and Host a Node.js Telegram Bot on Code Capsules
+
 
 _This guide uses Node.js. You can find the Python version_ [_here_](/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules) _or the Go version_ [_here_](/tutorials/create-and-host-go-ai-telegram-bot).
 

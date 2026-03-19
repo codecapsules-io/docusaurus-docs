@@ -1,30 +1,10 @@
 ---
 slug: "/tutorials/nuxt3-and-nitro"
 cover: /gitbook-assets/tutorials/nuxt3-nitro-cover-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
 ---
 
 # Nuxt3 and Nitro
+
 
 ## Exploring Nuxt 3, Nitro, and the Server Requirements <a href="#exploring-nuxt-3-nitro-and-the-server-requirements" id="exploring-nuxt-3-nitro-and-the-server-requirements"></a>
 

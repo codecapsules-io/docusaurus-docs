@@ -46,7 +46,7 @@ Code Capsules will automatically build your application when you've finished cre
 
 Once your application is live, you can view the build log by selecting the **Deploy** tab and clicking the **View build log** link in the **Builds** section.
 
-<figure><img src="/gitbook-assets/get-started/frontend-build-logs.png" alt="" /><figcaption></figcaption></figure>
+![](/gitbook-assets/get-started/frontend-build-logs.png)
 
 Once the build is complete, a URL link will appear in the URL section in the **Details** tab. Click the link, and you should see your deployed application.
 

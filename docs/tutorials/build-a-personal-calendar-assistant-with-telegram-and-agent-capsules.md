@@ -4,30 +4,10 @@ description: >-
   Build an AI-powered calendar assistant that manages your Google Calendar
   through natural Telegram conversations, deployed on Code Capsules.
 cover: /gitbook-assets/tutorials/calendar-assistant-cover-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
 ---
 
 # Build a Personal Calendar Assistant with Telegram and Agent Capsules
+
 
 Managing your calendar through multiple apps is tedious. You check Google Calendar on desktop, get notifications on mobile, and manually coordinate across platforms. What if you could schedule meetings, check availability, and get reminders through a single Telegram chat?
 

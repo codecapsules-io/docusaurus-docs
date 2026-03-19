@@ -1,30 +1,10 @@
 ---
 slug: "/tutorials/optimizing-performance-in-mern-stack-tips-and-techniques"
 cover: /gitbook-assets/tutorials/mern-optimization-cover-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
 ---
 
 # Optimizing Performance in MERN Stack: Tips and Techniques
+
 
 The MERN stack, which stands for MongoDB, Express.js, React, and Node.js, is a robust framework for web application development. To ensure that MERN applications are agile and responsive, it’s essential to focus on performance optimization. In this comprehensive guide, we’ll delve into actionable insights to enhance performance.
 

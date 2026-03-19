@@ -10,10 +10,10 @@ Use Capsule logs to monitor activity and debug issues.
 
 View a Capsule's system logs in the **Logs** tab.
 
-<figure><img src="/gitbook-assets/products/agentlogspage-edited.png" alt="" /><figcaption><p>Logs Tab</p></figcaption></figure>
+![Logs Tab](/gitbook-assets/products/agentlogspage-edited.png)
 
 ## View Access Logs
 
 For Capsules that serve web traffic, open the **Access Logs** tab to view HTTP request logs.
 
-<figure><img src="/gitbook-assets/products/agentaccesslogs-edited.png" alt="" /><figcaption><p>Access Logs Tab</p></figcaption></figure>
+![Access Logs Tab](/gitbook-assets/products/agentaccesslogs-edited.png)

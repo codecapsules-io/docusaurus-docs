@@ -4,7 +4,7 @@ description: >-
   Everything you need to know about configuring and deploying apps with Code
   Capsules.
 cover: /gitbook-assets/products/generic-docs-banner.png
-coverY: 2.0843819393042193
+coverY: 60
 ---
 
 # Products
@@ -18,5 +18,3 @@ This section contains all the information you need to deploy, configure, and man
 ## Deployment Guides
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Python Application</strong></td><td>Step-by-step guide to deploying a Python app using Flask or Django.</td><td><a href="/backend/python">Python</a></td></tr><tr><td><strong>WordPress Site</strong></td><td>Quickstart guide to running WordPress on a dedicated Capsule.</td><td><a href="/products/wordpress-capsule/deploy">deploy.md</a></td></tr><tr><td><strong>Redis Database</strong></td><td>Configure and deploy a Redis instance.</td><td><a href="/database/redis">Redis</a></td></tr><tr><td><strong>PostgreSQL Database</strong></td><td>Set up and manage a PostgreSQL Capsule.</td><td><a href="/database/postgres">Postgres</a></td></tr><tr><td><strong>MySQL Database</strong></td><td>Deploy and configure MySQL on Code Capsules.</td><td><a href="/database/mysql">MySQL</a></td></tr><tr><td><strong>MongoDB Database</strong></td><td>Guide to running MongoDB in a Database Capsule.</td><td><a href="/database/mongodb">MongoDB</a></td></tr></tbody></table>
-
-***

@@ -7,7 +7,7 @@ description: >-
 
 # Notifications (Coming Soon)
 
-<figure><img src="/gitbook-assets/products/alert-settings.png" alt="" /><figcaption><p>Notification Settings</p></figcaption></figure>
+![Notification Settings](/gitbook-assets/products/alert-settings.png)
 
 ### In-App Notifications
 

@@ -1,30 +1,10 @@
 ---
 slug: "/tutorials/best-practices-for-structuring-mean-mern-mevn-projects"
 cover: /gitbook-assets/tutorials/best-practices-cover-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
 ---
 
 # Best Practices for Structuring MEAN/MERN/MEVN Projects
+
 
 ### Introduction <a href="#introduction" id="introduction"></a>
 

@@ -1,22 +1,10 @@
 ---
 slug: "/tutorials/heroku-migration-guide"
 cover: /gitbook-assets/tutorials/heroku-migration-cover-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
 ---
 
 # How to Migrate from Heroku to Code Capsules
+
 
 This guide demonstrates how to move a suite of applications running on the Heroku platform as a service (PaaS) to Code Capsules.
 

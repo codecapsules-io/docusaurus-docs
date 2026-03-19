@@ -4,30 +4,10 @@ description: >-
   Learn how to build a Telegram bot that messages you exchange rate data and
   weather forecasts for areas of your choosing.
 cover: /gitbook-assets/tutorials/telegram-bot-cover-python-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
 ---
 
 # How to Create and Host a Python Telegram Bot on Code Capsules
+
 
 _This guide uses Python. You can find the Node.js version_ [_here_](/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules)_, and the Go version_ [_here_](/tutorials/create-and-host-go-ai-telegram-bot)_._
 

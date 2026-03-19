@@ -49,14 +49,14 @@ The Twilio Sandbox provides a development environment to access the WhatsApp API
 
 1.  Go to your capsule's **Details** tab and copy your bot's domain under the **URL** section.
 
-    <figure><img src="/gitbook-assets/get-started/backend-url.png" alt="" /><figcaption></figcaption></figure>
+    ![](/gitbook-assets/get-started/backend-url.png)
 2.  Head back to your Twilio console and paste the domain in the **When a Message Comes In** field and append `/bot` to the end of it. Make sure the method is set to _HTTP Post_.
 
-    <figure><img src="/gitbook-assets/get-started/sandbox-config.png" alt="" /><figcaption></figcaption></figure>
+    ![](/gitbook-assets/get-started/sandbox-config.png)
 3. Scroll down to the bottom of the page and click **Save**.
 4.  Under the **Sandbox Participants** section, you will find the WhatsApp number for your sandbox and a code to join it that starts with **join**. Send this code to the displayed WhatsApp number to add your personal number as a sandbox participant.
 
-    <figure><img src="/gitbook-assets/get-started/sandbox-participants.png" alt="" /><figcaption></figcaption></figure>
+    ![](/gitbook-assets/get-started/sandbox-participants.png)
 
 ## Chat with the Bot
 

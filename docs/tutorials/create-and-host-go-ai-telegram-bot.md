@@ -4,30 +4,10 @@ description: >-
   Build a Telegram bot that uses AI to respond to users with a custom
   personality.
 cover: /gitbook-assets/tutorials/telegram-bot-cover-go-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
 ---
 
 # How to Create and Host a Go Telegram Bot on Code Capsules
+
 
 _This guide uses Go. You can find the Node.js version_ [_here_](/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules) _or the Python version_ [_here_](/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules).
 

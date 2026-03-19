@@ -6,7 +6,7 @@ slug: "/products/agent-capsule/configure"
 
 Configure an Agent Capsule in the **Config** tab.
 
-<figure><img src="/gitbook-assets/products/agentconfigpage-edited.png" alt="" /><figcaption><p>Agent Config Tab</p></figcaption></figure>
+![Agent Config Tab](/gitbook-assets/products/agentconfigpage-edited.png)
 
 ## Set Capsule Parameters
 

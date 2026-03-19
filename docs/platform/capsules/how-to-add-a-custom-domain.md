@@ -24,7 +24,7 @@ Each Capsule can route to **only one** root domain. You won't be able to add mul
 
 To add a new custom domain, click the yellow **+** button in the top-right corner of the dashboard.
 
-![images](/gitbook-assets/platform/add-domain.png)
+![Add Custom Domain](/gitbook-assets/platform/add-domain.png)
 
 Copy and save the **Static IP address**.
 
@@ -84,7 +84,7 @@ Before adding a subdomain, make sure your custom domain has an [A record](/platf
 
 To add a new subdomain, click the yellow **+** button in the top-right corner of the dashboard.
 
-![images](/gitbook-assets/platform/add-domain.png)
+![Add Subdomain](/gitbook-assets/platform/add-domain.png)
 
 Click the **Add Custom Domain** link and enter the subdomain to create in the **Domain Name** field.
 
@@ -134,7 +134,7 @@ Removing a custom domain or subdomain does not update or delete its DNS records.
 
 ## Understanding URL Structure
 
-![images](/gitbook-assets/platform/url-makeup.png)
+![URL Structure](/gitbook-assets/platform/url-makeup.png)
 
 * **Uniform Resource Locator (URL):** A web address used to locate a resource on the internet. URLs typically include a subdomain, a second-level domain, and a top-level domain.
 * **Subdomain:** The portion of a URL before the main domain name, most commonly `www`. Subdomains are often used to organize different services or sections of a website (for example, `hr.myapplication.com` might route users to your company’s human resources portal).

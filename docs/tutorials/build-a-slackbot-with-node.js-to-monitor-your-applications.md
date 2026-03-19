@@ -4,30 +4,10 @@ description: >-
   Create a bot that monitors the state of your applications and reports any
   status changes via Slack.
 cover: /gitbook-assets/tutorials/slackbot-cover-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
 ---
 
 # Build a Slackbot with Node.js to Monitor your Applications
+
 
 Slack is a really useful communication tool when working in teams. Many developers find themselves using it almost constantly when working on projects.
 

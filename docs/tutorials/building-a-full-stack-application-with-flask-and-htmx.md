@@ -4,30 +4,10 @@ description: >-
   Create a full stack application with Flask and HTMx to build a lightweight
   interactive site.
 cover: /gitbook-assets/tutorials/flask-htmx-cover-v2.jpg
-coverY: 0
-coverHeight: 435
-layout:
-  width: default
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
 ---
 
 # Building a Full Stack Application with Flask and HTMx
+
 
 This tutorial explains how to build an application with Flask and HTMx. If you want to host an HTMx and Flask application on our PaaS, you can find a short deployment guide here that uses the same pro
 

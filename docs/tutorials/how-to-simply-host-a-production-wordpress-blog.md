@@ -1,8 +1,10 @@
 ---
 slug: "/tutorials/how-to-simply-host-a-production-wordpress-blog"
+cover: /gitbook-assets/tutorials/wordpress-hosting-cover-v2.jpg
 ---
 
 # How to (Simply) Host a Production WordPress Blog
+
 
 The Amazon Web Services (AWS) WordPress reference architecture has become a meme in DevOps circles. The 2018 [best practices whitepaper](https://aws.amazon.com/blogs/architecture/wordpress-best-practices-on-aws/) recommends you use 11 services costing $500 to $1,500 monthly, and assumes you have dedicated DevOps staff. The alternative is to use a single Amazon Lightsail instance, where you handle operating system (OS) updates, security hardening, and MySQL tuning yourself.
 
