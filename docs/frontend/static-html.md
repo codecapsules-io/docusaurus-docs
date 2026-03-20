@@ -72,4 +72,4 @@ Once your application is live, you can view the build log by selecting the **Dep
 
 Once the build is complete, a URL link will appear in the URL section in the **Details** tab. Click the link, and you should see your deployed application.
 
-If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](../).
+If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](/).

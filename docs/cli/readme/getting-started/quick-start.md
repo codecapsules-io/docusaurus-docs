@@ -58,4 +58,4 @@ _Note: any local port can be supplied using the `-P <port>` flag. If the flag is
 
 
 
-You can view the full list of available commands [here](../commands/).
+You can view the full list of available commands [here](/cli/readme/commands/).

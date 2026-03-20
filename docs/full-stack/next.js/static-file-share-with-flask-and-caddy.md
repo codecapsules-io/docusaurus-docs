@@ -86,4 +86,4 @@ Now navigate to each of the Backend Capsule and Docker Capsule and bind them to 
 
 Once the build is complete, click the **URL** link in the **Config** tab, and you should see your deployed application.
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](../../).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/).

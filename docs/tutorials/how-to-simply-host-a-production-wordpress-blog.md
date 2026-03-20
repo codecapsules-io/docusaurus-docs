@@ -25,13 +25,13 @@ You'll learn how to deploy WordPress infrastructure, configure a content review 
 
 In a development team, the workflow for releasing changes usually looks like this:
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2Fgit-blob-bfe7d36e717a2191901fae5f260d63de8de2e998%2Fdeveloper-workflow.png?alt=media" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2Fgit-blob-bfe7d36e717a2191901fae5f260d63de8de2e998%2Fdeveloper-workflow.png?alt=media)
 
 Your developers write code locally, commit to GitHub, run automated tests, and deploy changes to staging for review. Only after stakeholder approval does anything touch production. Every change is tracked, every deployment is reversible, and nothing reaches your live site without multiple checkpoints.
 
 WordPress doesn't work this way.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2Fgit-blob-4090574bedef5ef5520bdaba60bb2ab6a274b45a%2Fwordpress-workflow.png?alt=media" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2Fgit-blob-4090574bedef5ef5520bdaba60bb2ab6a274b45a%2Fwordpress-workflow.png?alt=media)
 
 WordPress splits data between files and the database, breaking Git workflows:
 
@@ -97,11 +97,11 @@ Spaces organize related Capsules.
 
 On your Code Capsules dashboard, navigate to the **Spaces** tab and click the **+** button to create a new Space.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2Fyrz0nFOE8YRoUtqvsZm6%2Fcreate-space-button.png?alt=media&#x26;token=64a276de-b97c-470f-9c01-08e75db27c89" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2Fyrz0nFOE8YRoUtqvsZm6%2Fcreate-space-button.png?alt=media&#x26;token=64a276de-b97c-470f-9c01-08e75db27c89)
 
 Fill in the Space details and select the region closest to your target users to reduce latency for your visitors.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2F7Tj8QUU0aTvpweQS45qI%2Fspace-details-form.png?alt=media&#x26;token=e7c8c462-3d78-423e-aa05-c52c2ae0b37a" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2F7Tj8QUU0aTvpweQS45qI%2Fspace-details-form.png?alt=media&#x26;token=e7c8c462-3d78-423e-aa05-c52c2ae0b37a)
 
 ## Setting Up the WordPress Staging Site
 
@@ -122,15 +122,15 @@ Follow the [WordPress Capsule deployment guide](/products/wordpress-capsule/depl
 
 After deploying the WordPress Capsule, you'll see a default URL like `wordpress-slug.ccdns.co`. You can configure a custom domain for cleaner URLs.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FQ4M7G3kd8vGAl6FPwmSc%2Fwordpress-default-url.png?alt=media&#x26;token=fcf08d53-054d-4670-aaaa-acf3e68c6013" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FQ4M7G3kd8vGAl6FPwmSc%2Fwordpress-default-url.png?alt=media&#x26;token=fcf08d53-054d-4670-aaaa-acf3e68c6013)
 
 Navigate to the **Domains** tab and click **+** to add a domain.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FSOsORlLz6LKAbQd6phEC%2Fadd-custom-domain-button.png?alt=media&#x26;token=a8bc13d3-2e54-46ad-83c8-552a38a989ff" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FSOsORlLz6LKAbQd6phEC%2Fadd-custom-domain-button.png?alt=media&#x26;token=a8bc13d3-2e54-46ad-83c8-552a38a989ff)
 
 On the domain configuration page, enter your staging domain, for example, `staging.blog.yourdomain.com`.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FkUuuo0wFnVnp2NcYugea%2Fcustom-domain-entry.png?alt=media&#x26;token=fda311eb-d0cb-4166-ae72-f60c7c0d7e4e" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FkUuuo0wFnVnp2NcYugea%2Fcustom-domain-entry.png?alt=media&#x26;token=fda311eb-d0cb-4166-ae72-f60c7c0d7e4e)
 
 Code Capsules provides DNS instructions. Create a CNAME or ALIAS record with your DNS provider pointing to the provided hostname.
 
@@ -138,39 +138,39 @@ Code Capsules provides DNS instructions. Create a CNAME or ALIAS record with you
 
 After creating the Capsules, you need to install the WordPress staging site. Visit your WordPress URL and select your language.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2F3eoe4I5s0bJPSa8y82ro%2Fwordpress-language-selection.png?alt=media&#x26;token=7bc46ffa-a0f7-450a-9cac-c14750af8771" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2F3eoe4I5s0bJPSa8y82ro%2Fwordpress-language-selection.png?alt=media&#x26;token=7bc46ffa-a0f7-450a-9cac-c14750af8771)
 
 Create your admin account. Use a strong password, since this account has full site access.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FF1LSV4rxAvQsWbniaaLw%2Fwordpress-admin-account-setup.png?alt=media&#x26;token=c9029916-d16f-4da0-9a98-272db8c05411" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FF1LSV4rxAvQsWbniaaLw%2Fwordpress-admin-account-setup.png?alt=media&#x26;token=c9029916-d16f-4da0-9a98-272db8c05411)
 
 Once WordPress has been installed, you'll receive a success notification.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FWubf45S1db4Q4dCiwkwt%2Fwordpress-installation-success.png?alt=media&#x26;token=5ceff62e-b6ac-4d65-bda1-a54d0bcc744e" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FWubf45S1db4Q4dCiwkwt%2Fwordpress-installation-success.png?alt=media&#x26;token=5ceff62e-b6ac-4d65-bda1-a54d0bcc744e)
 
 Click **Log In** to verify the installation and open the WordPress admin dashboard for your staging site.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FPmTFWCyCtIeQrJ2ibtCl%2Fwordpress-admin-dashboard.png?alt=media&#x26;token=1c16943d-870a-4620-b33e-e110bca4d6c8" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FPmTFWCyCtIeQrJ2ibtCl%2Fwordpress-admin-dashboard.png?alt=media&#x26;token=1c16943d-870a-4620-b33e-e110bca4d6c8)
 
 Navigate to the website homepage. The WordPress Capsule sets up a default homepage similar to the following:
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FpVLfKcWMHIjhqiJ86nIM%2Fwordpress-default-homepage.png?alt=media&#x26;token=fe5d14b0-bdcf-4e9a-aa1e-b29ca45e15eb" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FpVLfKcWMHIjhqiJ86nIM%2Fwordpress-default-homepage.png?alt=media&#x26;token=fe5d14b0-bdcf-4e9a-aa1e-b29ca45e15eb)
 
 Code Capsules includes three default WordPress themes, Twenty Twenty-Five (active in the screenshot), Twenty Twenty-Four, and Twenty Twenty-Three. These blog-focused templates display posts on the homepage by default.
 
 To change themes, navigate to **Appearance** → **Themes**.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2Fa0UzaMMqXcCQm70Uvmgj%2Fwordpress-themes-page.png?alt=media&#x26;token=da84f9be-3b73-4c07-855a-7f31dac20de6" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2Fa0UzaMMqXcCQm70Uvmgj%2Fwordpress-themes-page.png?alt=media&#x26;token=da84f9be-3b73-4c07-855a-7f31dac20de6)
 
 ### Create User Accounts
 
 To create user accounts, navigate to **Users** in the WordPress side panel and click **Add User**.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FrCIcH1pDRX03WmLaD1PB%2Fwordpress-add-new-user-button.png?alt=media&#x26;token=c2af0b17-636d-485f-87bb-3c1a5fcc0708" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FrCIcH1pDRX03WmLaD1PB%2Fwordpress-add-new-user-button.png?alt=media&#x26;token=c2af0b17-636d-485f-87bb-3c1a5fcc0708)
 
 Fill the form with the user's information and select a role.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FmwuzoFIJNOYXOAoPDoOK%2Fwordpress-user-role-form.png?alt=media&#x26;token=e16ee0ac-4a08-4af5-a167-efc288436659" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FmwuzoFIJNOYXOAoPDoOK%2Fwordpress-user-role-form.png?alt=media&#x26;token=e16ee0ac-4a08-4af5-a167-efc288436659)
 
 From the **Role** dropdown, select **Admin**, **Contributor**, **Editor**, or **Author**. These roles determine permissions for content creation and review in your staging-to-production workflow.
 
@@ -182,7 +182,7 @@ To demonstrate the content review workflow, create a sample blog post in your st
 
 Navigate to **Posts** → **Add Post**.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2F845PmyzfMXzER82Zu4qZ%2Fwordpress-add-new-post.png?alt=media&#x26;token=785e1822-11bc-459a-ab6b-1c27231c1e83" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2F845PmyzfMXzER82Zu4qZ%2Fwordpress-add-new-post.png?alt=media&#x26;token=785e1822-11bc-459a-ab6b-1c27231c1e83)
 
 Enter a post title and content. For this example, create a post titled `Welcome to Our Blog` with sample content about your company or services. Then, click **Publish** to make the post visible on your staging site. Visit your staging site to verify that the post appears.
 
@@ -203,7 +203,7 @@ In your production WordPress Capsule (the target Capsule), navigate to the **Mig
 
 Click **Start Migration**. Code Capsules copies your database content, uploaded media files, installed plugins, and theme configurations from staging to production.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FhGtkNPo3sdTPs0kMxT4J%2Fwordpress-migration-source-selection.png?alt=media&#x26;token=d21feb17-7d8c-4c71-9a63-67e926bc618a" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FhGtkNPo3sdTPs0kMxT4J%2Fwordpress-migration-source-selection.png?alt=media&#x26;token=d21feb17-7d8c-4c71-9a63-67e926bc618a)
 
 After migration, the production environment contains the same content as the staging environment.
 
@@ -246,16 +246,16 @@ Use the following Code Capsules capabilities to monitor your WordPress site.
 * [**Monitoring**](/products/wordpress-capsule/monitor)**:** View real-time metrics for CPU, memory, and traffic. Identify performance trends and resource constraints.
 * [**Logs**](/products/wordpress-capsule/logs)**:** Access application logs directly from the dashboard. Filter by severity, search for specific errors, and troubleshoot issues without server access.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FOEFdMBAzclrsFpYL3B1b%2Fwordpress-capsule-logs-interface.png?alt=media&#x26;token=f9691867-e6e6-4ea2-82e0-b0478b6101e8" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FOEFdMBAzclrsFpYL3B1b%2Fwordpress-capsule-logs-interface.png?alt=media&#x26;token=f9691867-e6e6-4ea2-82e0-b0478b6101e8)
 
 * [**Access Logs**](/products/wordpress-capsule/logs)**:** Track actions performed by WordPress users in the admin interface.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2Fmxm9GS213B1bYb7hCNE9%2Fwordpress-access-logs-view.png?alt=media&#x26;token=7f575b6f-9443-4113-9211-b5634ab2c2b1" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2Fmxm9GS213B1bYb7hCNE9%2Fwordpress-access-logs-view.png?alt=media&#x26;token=7f575b6f-9443-4113-9211-b5634ab2c2b1)
 
 * [**Alerting**](/products/wordpress-capsule/alerting)**:** Configure alerts for high CPU usage, error rates, and downtime. Receive notifications via email or webhooks before users report problems.
 * [**Metrics**](/products/wordpress-capsule/monitor)**:** Check resource usage on the machine.
 
-<figure><img src="https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FmypDJmIiZRUyWAIdFRQd%2Fwordpress-metrics-dashboard.png?alt=media&#x26;token=585ae837-2a3a-460d-870a-9a215d30e90a" alt="" /><figcaption></figcaption></figure>
+![](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FmypDJmIiZRUyWAIdFRQd%2Fwordpress-metrics-dashboard.png?alt=media&#x26;token=585ae837-2a3a-460d-870a-9a215d30e90a)
 
 ### Best Practices in WordPress
 

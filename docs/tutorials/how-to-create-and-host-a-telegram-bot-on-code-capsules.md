@@ -250,7 +250,7 @@ if __name__ == '__main__':
 
 Below is a conversation with a bot created using this program. Run `bot.py` and try it out yourself.
 
-<figure><img src="/gitbook-assets/tutorials/telegram-bot-chat.png" alt="" /><figcaption><p>Telegram Bot Conversation</p></figcaption></figure>
+![Telegram Bot Conversation](/gitbook-assets/tutorials/telegram-bot-chat.png)
 
 We won't be able to send messages to our bot if this program isn't running, so hosting it on Code Capsules will allow us to interact with the bot without having to keep this code permanently running on our development PC.
 
@@ -331,7 +331,7 @@ We still need to create environment variables for our bot's authorization and AP
 2. Click the **Config** tab.
 3. Add environment variables in the same form as our `.env` file. Add three environment variables: `BOT_TOKEN`, `WEATHER_API_KEY`, and `EXCHANGE_API_KEY`.
 
-<figure><img src="/gitbook-assets/tutorials/bot-api-key-env.png" alt="" /><figcaption><p>Bot API Key Environment Variable</p></figcaption></figure>
+![Bot API Key Environment Variable](/gitbook-assets/tutorials/bot-api-key-env.png)
 
 Once this is done, the Capsule will restart and the bot is ready. Give it a try!
 

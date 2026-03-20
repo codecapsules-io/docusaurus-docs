@@ -79,13 +79,13 @@ Code Capsules will automatically build your application when you’ve finished c
 
 Once your application is live, you can view the build log by selecting the “Deploy” tab and clicking the “View build log” link in the “Builds” section.
 
-![backend capsule build logs](https://codecapsules.io/wp-content/uploads/2023/07/backend-capsule-build-logs-5.png)
+![backend capsule build logs](/gitbook-assets/root/backend-capsule-build-logs.png)
 
 ### Binding the Capsules <a href="#binding-the-capsules" id="binding-the-capsules"></a>
 
 After the two capsules have been successfully built, the next step is to bind them together. To complete this, navigate to the “Configure” tab of your Backend Capsule. Scroll down to the “Bind Data Capsule” section and click on the “Bind” option on the bottom left. This provides the capsule with information on how to connect to the MySQL database.
 
-![sql bind env](https://codecapsules.io/wp-content/uploads/2023/07/sql-bind-env-3.png)
+![sql bind env](/gitbook-assets/root/sql-bind-env.png)
 
 After binding the Capsules, scroll up to the section “Capsule Parameters”. You’ll notice that an environment variable, `DATABASE_URL`, is automatically added containing the connection string to the MySQL database. We’ll use this environment variable in the code to access the MySQL database.
 

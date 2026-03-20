@@ -17,7 +17,7 @@ This is where a new HTML extension called HTMx enters and shines. HTMx gives tra
 
 In this tutorial, we’ll explore the benefits of HTMx by building a full-stack application using Express and HTMx. Our application will be a book recommendation app that supports CRUD functionality. The final app will look a bit like this:
 
-<figure><img src="/gitbook-assets/tutorials/book-app.png" alt="" /><figcaption></figcaption></figure>
+![](/gitbook-assets/tutorials/book-app.png)
 
 ### Overview and Requirements
 

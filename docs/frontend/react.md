@@ -52,4 +52,4 @@ Once the build is complete, a URL link will appear in the URL section in the **D
 
 ![Deployed App](/gitbook-assets/get-started/cc-react-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](../).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/).

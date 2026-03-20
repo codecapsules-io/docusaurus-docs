@@ -310,19 +310,19 @@ Code Capsules will automatically build your application when you’ve finished c
 
 Once your application is live, you can view the build log by selecting the “Deploy” tab and clicking the “View build log” link in the “Builds” section.
 
-![backend capsule build logs](https://codecapsules.io/wp-content/uploads/2023/08/backend-capsule-build-logs-1.png)
+![backend capsule build logs](/gitbook-assets/root/backend-capsule-build-logs-1.png)
 
 #### Bind the Capsules
 
 Next, you need to bind the Backend Capsule to its database. Navigate to the “Config” tab of the Backend Capsule you’ve just created. Scroll to the “Bind Data Capsule” section and click on the “Bind” option on the appropriate Data Capsule. This enables the Capsule to use persistent storage in the Data Capsule.
 
-![bind persistent](https://codecapsules.io/wp-content/uploads/2023/08/bind-persistent-1.png)
+![bind persistent](/gitbook-assets/root/bind-persistent-1.png)
 
 #### Configure Environment Variables
 
 In the Backend Capsule, navigate to the “Config” tab. Under the “Environment Variables” section, click the “Edit” button. Next, define the name of your environment variable and its value in the UI and click “Save”. Repeat these steps for all your environment variables.
 
-![env variables persistent storage](https://codecapsules.io/wp-content/uploads/2023/08/env-variables-persistent-storage-1.png)
+![env variables persistent storage](/gitbook-assets/root/env-variables-persistent-storage-1.png)
 
 For the first app, the pizza company, set the environment variables to the following:
 
@@ -362,7 +362,7 @@ After saving these new variables, the Capsule will restart, and the application 
 
 The pizza company’s application has a red theme, a modern sans-serif font, custom headings, and its logo.
 
-![view application](https://codecapsules.io/wp-content/uploads/2023/08/view-application.png)
+![view application](/gitbook-assets/root/backend-capsule-build-logs.png)
 
 The movie company has a dark blue theme, a traditional serif font, custom headings, and its logo.
 

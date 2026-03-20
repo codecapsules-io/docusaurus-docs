@@ -132,16 +132,16 @@ Always use a version control system like Git to manage your source code. Adopt a
 
 *   **Registration on Code Capsules**: Start by registering an account on Code Capsules. Follow the steps to create your account and get started.
 
-    ![Register a new account on Code Capsules](https://codecapsules.io/wp-content/uploads/2023/11/code-capsules-register-new-account.png)
+    ![Register a new account on Code Capsules](/gitbook-assets/tutorials/code-capsules-register-new-account.png)
 *   **Logging into Code Capsules**: Once registered, log in to your Code Capsules account to begin setting up your project.
 
-    ![Code Capsules login page](https://codecapsules.io/wp-content/uploads/2023/11/code-capsules-login-existing-account.png)
+    ![Code Capsules login page](/gitbook-assets/tutorials/code-capsules-login-existing-account.png)
 *   **Creating a Team**: Create a team within Code Capsules for collaborative project management.
 
-    ![Code Capsules Dashboard create a new team](https://codecapsules.io/wp-content/uploads/2023/11/code-capsules-create-new-team.png)
+    ![Code Capsules Dashboard create a new team](/gitbook-assets/tutorials/code-capsules-create-new-team.png)
 *   **Setting Up a New Space**: Create a new space in Code Capsules for hosting your projects. Spaces can be tailored for different environments like staging or production.
 
-    ![Code Capsules create a new space](https://codecapsules.io/wp-content/uploads/2023/11/code-capsules-create-new-space.jpg)
+    ![Code Capsules create a new space](/gitbook-assets/tutorials/code-capsules-create-new-space.jpg)
 
 #### Deploying Your MEAN Stack Application
 
@@ -149,7 +149,7 @@ Always use a version control system like Git to manage your source code. Adopt a
 
     Choose the type of capsule based on your needs (frontend, backend, or Docker).
 
-    ![Code Capsules - Capsule details](https://codecapsules.io/wp-content/uploads/2023/11/code-capsules-captule-details.png)
+    ![Code Capsules - Capsule details](/gitbook-assets/tutorials/code-capsules-captule-details.png)
 * **Configuring Environment Variables**: Set environment variables in your capsule settings. This is crucial for database connections and other configuration details.
 *   **Uploading Code and Dependencies**: Use Code Capsules’ interface to upload your project code or connect to your GitHub repository.
 

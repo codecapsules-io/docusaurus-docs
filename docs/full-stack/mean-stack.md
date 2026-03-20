@@ -78,4 +78,4 @@ After restarting the Capsule, the application will now be ready to be viewed. Cl
 
 ![Deployed App](/gitbook-assets/get-started/cc-mean-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](../).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/).
