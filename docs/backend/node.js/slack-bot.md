@@ -118,4 +118,4 @@ You need to invite the bot to the chosen channel so that it'll be able to post t
 
 The bot can now send messages to the channel every time it starts. You can restart the capsule to see this functionality in action, or alternatively, send a `/stats` message in the channel to get a report about the bot's status on Code Capsules.
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/products/backend-capsule/deploy).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend).

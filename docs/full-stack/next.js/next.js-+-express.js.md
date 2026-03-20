@@ -66,4 +66,4 @@ Once the build is complete, click the **URL** link in the **Details** tab, and y
 
 ![Deployed Application](/gitbook-assets/get-started/next-express-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/products/backend-capsule/deploy).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/full-stack).

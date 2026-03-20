@@ -92,4 +92,4 @@ Confirm your changes by clicking on **Save**, then restart your Capsule by toggl
 
 The bot will be able to respond to messages after Code Capsules finishes building it. When this is done, you can send messages in the general channel of your Discord server, and the bot will echo them.
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/products/backend-capsule/deploy).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend).

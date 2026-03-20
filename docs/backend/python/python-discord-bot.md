@@ -88,4 +88,4 @@ Confirm your changes by clicking on **Save**, then restart your Capsule by toggl
 
 The bot will be able to respond to messages after Code Capsules finishes building it. When this is done, you can send a message to any channel in the server you added it to, and the bot will echo it back.
 
-If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](/products/backend-capsule/deploy).
+If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend).

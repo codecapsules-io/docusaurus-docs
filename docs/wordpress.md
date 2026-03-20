@@ -85,4 +85,4 @@ After installation, you'll see the WordPress admin dashboard and can begin custo
 
 ![Welcome to Wordpress](/gitbook-assets/get-started/wordpress-welcome.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/products/wordpress-capsule/deploy).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/wordpress).

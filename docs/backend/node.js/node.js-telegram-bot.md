@@ -81,4 +81,4 @@ Confirm your changes by clicking on **Save**, then restart your Capsule by toggl
 
 The bot will be able to respond to messages after Code Capsules finishes building it. When this is done, search for your bot on Telegram using the username you assigned it and start a chat with it. The bot has been programmed to respond to `/start` and echo any messages you send it.
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/products/backend-capsule/deploy).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend).

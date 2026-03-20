@@ -67,7 +67,7 @@ Once the build is complete, click the **URL** link in the **Details** tab, and y
 
 ![Deployed App](/gitbook-assets/get-started/cc-angular-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/products/frontend-capsule/deploy).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/frontend).
 
 :::tip Video Guides
 If you prefer watching videos to reading text, check out our [Video Guides](/tutorials/video-guides).

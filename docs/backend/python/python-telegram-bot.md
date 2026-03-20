@@ -82,4 +82,4 @@ The next step is to set up a webhook for your bot. Do this by clicking the **Liv
 
 The bot will be able to respond to messages after completing the above steps. When this is done, search for your bot on Telegram using the username you assigned it and start a chat with it. The bot has been programmed to respond to `/start` and echo any messages you send it.
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/products/backend-capsule/deploy).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend).

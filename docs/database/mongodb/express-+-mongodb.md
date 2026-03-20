@@ -54,4 +54,4 @@ You can now view the application after the two capsules have been connected. To 
 
 ![Deployed App](/gitbook-assets/get-started/cc-express-mongo-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/products/database-capsule/overview).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/database).
