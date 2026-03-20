@@ -1,5 +1,5 @@
 ---
-slug: "/products/backend-capsule/backend-capsule"
+slug: "/products/backend-capsule/deploy"
 ---
 
 # Build and Deploy

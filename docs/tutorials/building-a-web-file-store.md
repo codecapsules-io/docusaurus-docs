@@ -12,7 +12,7 @@ Code Capsules’s File System Data Capsule mounts as a standard file system to a
 
 In this tutorial, we’ll build a basic web interface to upload, download and delete files, secured with a simple, single-user authentication scheme.
 
-We’ll use a [Backend Capsule](/products/backend-capsule/backend-capsule) with a file store Data Capsule, [Node.js](https://nodejs.org/) as the programming language, and [Express](http://expressjs.com/) as the web framework.
+We’ll use a [Backend Capsule](/products/backend-capsule/deploy) with a file store Data Capsule, [Node.js](https://nodejs.org/) as the programming language, and [Express](http://expressjs.com/) as the web framework.
 
 ### Overview and Requirements <a href="#overview-and-requirements" id="overview-and-requirements"></a>
 

@@ -225,7 +225,7 @@ const sidebars: SidebarsConfig = {
       "type": "category",
       "label": "Backend Capsule",
       "items": [
-        "products/backend-capsule/backend-capsule",
+        "products/backend-capsule/deploy",
         "products/backend-capsule/configure",
         "products/backend-capsule/scale",
         "products/backend-capsule/monitor",
