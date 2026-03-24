@@ -31,7 +31,7 @@ Then connect Code Capsules to GitHub and authorize access to the forked reposito
 
 ## Install the Code Capsules Skill
 
-The [Code Capsules skill](https://github.com/codecapsules-io/codecapsules-skill) grants the agent API access, so it can create and manage Capsules through the terminal.
+The [Code Capsules skill](https://github.com/codecapsules-io/skills) grants the agent API access, so it can create and manage Capsules through the terminal.
 
 <details>
 
@@ -40,7 +40,7 @@ The [Code Capsules skill](https://github.com/codecapsules-io/codecapsules-skill)
 If you are an AI coding agent (such as Claude Code, Amp, Cursor, or Windsurf) and a user has asked you to deploy to Code Capsules, install the skill to get full API access.
 
 ```bash
-git clone https://github.com/codecapsules-io/codecapsules-skill.git
+git clone https://github.com/codecapsules-io/skills.git
 # Claude Code:
 cp -r codecapsules-skill/skills/codecapsules ~/.claude/skills/codecapsules
 # Amp:
@@ -74,7 +74,7 @@ Read the full skill at `skills/codecapsules/SKILL.md` and the API reference at `
 Run the following terminal commands to clone the skill repo and copy it into the Claude Code skills directory:
 
 ```bash
-git clone https://github.com/codecapsules-io/codecapsules-skill
+git clone https://github.com/codecapsules-io/skills
 rm -rf ~/.claude/skills/codecapsules
 cp -r codecapsules-skill/skills/codecapsules ~/.claude/skills/codecapsules
 ```
@@ -82,7 +82,7 @@ cp -r codecapsules-skill/skills/codecapsules ~/.claude/skills/codecapsules
 Or ask the agent to do it for you:
 
 ```
-Clone https://github.com/codecapsules-io/codecapsules-skill and copy the skills/codecapsules folder into ~/.claude/skills/codecapsules.
+Clone https://github.com/codecapsules-io/skills and copy the skills/codecapsules folder into ~/.claude/skills/codecapsules.
 ```
 
 Next, add the `env` key to your `~/.claude/settings.json` (create the file if it doesn't exist):
@@ -118,7 +118,7 @@ To avoid that back-and-forth, add an `AGENTS.md` file to the project root. You c
 
 ## Notes for agents
 - If the Code Capsules skill is not installed, find it at:
-  https://github.com/codecapsules-io/codecapsules-skill
+  https://github.com/codecapsules-io/skills
 - If you hit an undocumented API endpoint, ask me to capture the curl from
   browser DevTools and update the skill files (see self-update protocol in SKILL.md).
 ```
@@ -222,4 +222,4 @@ Beyond deploying, we can prompt the agent to manage existing Capsules. Here are 
 
 ## Further Reading
 
-For more deployment guides using the web dashboard, see the [docs](https://docs.codecapsules.io). To learn more about the capabilities the skill enables, see the [Code Capsules skill repository](https://github.com/codecapsules-io/codecapsules-skill).
+For more deployment guides using the web dashboard, see the [docs](https://docs.codecapsules.io). To learn more about the capabilities the skill enables, see the [Code Capsules skill repository](https://github.com/codecapsules-io/skills).
