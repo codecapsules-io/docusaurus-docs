@@ -7,6 +7,9 @@ const redirects = [
   {from: ['/cli/readme'], to: '/cli'},
 ];
 
+const url = process.env.DOCUSAURUS_URL || 'http://localhost';
+const baseUrl = process.env.DOCUSAURUS_BASE_URL || '/';
+
 // Converts GitBook-flavoured card tables to card grid divs.
 // MDX parses raw HTML as mdxJsxFlowElement nodes, so we work with the MDX AST.
 // Input:  <table data-card-size="large" data-view="cards">...</table>
@@ -116,8 +119,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://preview.ritza.co',
-  baseUrl: '/cc-new/',
+  url,
+  baseUrl,
   trailingSlash: true,
   onBrokenLinks: 'warn',
   markdown: {
