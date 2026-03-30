@@ -61,7 +61,7 @@ export default function ContentWrapper(props: Props): ReactNode {
   return (
     <>
       {cover && (
-        <div className="doc-cover">
+        <div className={`doc-cover${cover.includes('generic-docs-banner') ? ' doc-cover--compact' : ''}`}>
           <img src={coverUrl} alt="" className="doc-cover__img" loading="eager" style={objectPosition ? {objectPosition} : undefined} />
         </div>
       )}
