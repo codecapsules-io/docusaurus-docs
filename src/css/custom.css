@@ -428,6 +428,14 @@ body {
   display: block;
 }
 
+.doc-cover--compact {
+  max-height: 210px;
+}
+
+.doc-cover--compact .doc-cover__img {
+  max-height: 210px;
+}
+
 /* ============================================================
    COPY PAGE BUTTON
    ============================================================ */
