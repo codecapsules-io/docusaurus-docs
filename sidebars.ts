@@ -343,7 +343,8 @@ const sidebars: SidebarsConfig = {
     "tutorials/white-label-your-app-with-code-capsules",
     "tutorials/building-a-game-catalogue-api",
     "tutorials/best-practices-for-structuring-mean-mern-mevn-projects",
-    "tutorials/video-guides"
+    "tutorials/video-guides",
+    "tutorials/deploy-emdash-on-code-capsules"
   ],
   "cli": [
     {
