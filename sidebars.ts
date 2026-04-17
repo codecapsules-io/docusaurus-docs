@@ -344,7 +344,8 @@ const sidebars: SidebarsConfig = {
     "tutorials/building-a-game-catalogue-api",
     "tutorials/best-practices-for-structuring-mean-mern-mevn-projects",
     "tutorials/video-guides",
-    "tutorials/deploy-emdash-on-code-capsules"
+    "tutorials/deploy-emdash-on-code-capsules",
+    "tutorials/deploy-paperclip-ai-orchestration-on-code-capsules"
   ],
   "cli": [
     {
