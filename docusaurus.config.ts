@@ -224,36 +224,7 @@ const config: Config = {
         hideable: false,
       },
     },
-    footer: {
-      style: 'light',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {label: 'Get Started', to: '/'},
-            {label: 'Platform', to: '/platform'},
-            {label: 'Products', to: '/products'},
-            {label: 'Tutorials', to: '/tutorials'},
-          ],
-        },
-        {
-          title: 'Company',
-          items: [
-            {label: 'Home', href: 'https://www.codecapsules.io/'},
-            {label: 'App', href: 'https://app.codecapsules.io/auth/login'},
-            {label: 'Support', href: 'https://codecapsules.io/slack'},
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {label: 'Enterprise', to: '/enterprise'},
-            {label: 'CLI', to: '/cli'},
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Code Capsules.`,
-    },
+    footer: {},
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.github,
