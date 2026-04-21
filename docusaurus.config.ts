@@ -224,7 +224,11 @@ const config: Config = {
         hideable: false,
       },
     },
-    footer: {},
+    footer: {
+      style: 'light',
+      links: [],
+      copyright: ' ',
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.github,
