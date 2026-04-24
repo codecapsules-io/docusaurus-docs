@@ -23,12 +23,22 @@ const footerSections = [
     ],
   },
   {
-    title: 'Information',
+    title: 'Resources',
     links: [
       { label: 'Compare', href: 'https://www.codecapsules.io/compare' },
       { label: 'Blog', href: 'https://www.codecapsules.io/blog' },
       { label: 'FAQ', href: 'https://www.codecapsules.io/faq' },
       { label: 'Success Stories', href: 'https://www.codecapsules.io/success-stories' },
+      { label: 'Status Page', href: 'https://status.codecapsules.io' },
+    ],
+  },
+  {
+    title: 'Company',
+    links: [
+      { label: 'About Code Capsules', href: 'https://www.codecapsules.io/about' },
+      { label: 'Pricing', href: 'https://www.codecapsules.io/pricing' },
+      { label: 'Contact Us', href: 'https://www.codecapsules.io/contact' },
+      { label: 'Changelog', href: 'https://www.codecapsules.io/changelog' },
     ],
   },
   {

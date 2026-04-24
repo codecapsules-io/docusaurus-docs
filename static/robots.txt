@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /dashboard/
+Disallow: /account/
+Disallow: /api/
+Disallow: /admin/
+Allow: /
+
+Sitemap: https://codecapsules.io/sitemap.xml
