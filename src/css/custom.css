@@ -27,14 +27,16 @@
   --ifm-heading-color: #1d1d1d;
 
   /* Sidebar */
-  --ifm-menu-color-background-active: rgba(239, 214, 83, 0.15);
-  --ifm-menu-color-background-hover: rgba(29, 29, 29, 0.04);
+  --ifm-menu-color-background-active: rgba(0, 0, 0, 0.07);
+  --ifm-menu-color-background-hover: rgba(0, 0, 0, 0.04);
+  --ifm-menu-link-padding-vertical: 8px;
+  --ifm-menu-link-padding-horizontal: 12px;
 
   /* TOC */
   --ifm-toc-border-color: rgba(29, 29, 29, 0.08);
 
   /* Footer */
-  --ifm-footer-background-color: #f6f2e5;
+  --ifm-footer-background-color: #f5f5f5;
   --ifm-footer-color: #45413a;
   --ifm-footer-link-color: #1d1d1d;
   --ifm-footer-title-color: #1d1d1d;
@@ -275,19 +277,91 @@ body {
   border-right: 1px solid rgba(29, 29, 29, 0.08);
 }
 
-.menu__link--active:not(.menu__link--sublist) {
-  font-weight: 700;
+/* Overall menu spacing */
+.menu {
+  padding: 12px 16px !important;
 }
 
-/* Sidebar active item: left yellow border (matches target) */
-.menu__link--active:not(.menu__link--sublist),
-.menu__list-item--collapsed .menu__link--active {
-  border-left: 3px solid #efd653 !important;
-  background: rgb(250, 250, 250) !important;
-  color: #020202 !important;
+/* All sidebar links: more vertical breathing room */
+.menu__link {
+  font-size: 14px;
+  padding: 8px 12px !important;
+  border-radius: 8px !important;
+  color: #3d3d3d;
+  border: none !important;
+  transition: background 0.15s, color 0.15s;
+}
+
+/* Space between items */
+.menu__list-item {
+  margin: 2px 0;
+}
+
+/* Hover state: subtle gray background */
+.menu__link:hover {
+  background: rgba(0, 0, 0, 0.04) !important;
+  color: #1d1d1d;
+}
+
+/* Active item: rounded gray pill, no left border */
+.menu__link--active:not(.menu__link--sublist) {
+  background: rgba(0, 0, 0, 0.07) !important;
+  color: #1d1d1d !important;
   font-weight: 600 !important;
-  border-radius: 0;
-  padding-left: calc(var(--ifm-menu-link-padding-horizontal) - 3px) !important;
+  border: none !important;
+  border-left: none !important;
+  padding-left: 12px !important;
+}
+
+/* Category headings (collapsible parents) */
+.menu__link--sublist {
+  font-weight: 700 !important;
+  font-size: 13px;
+  color: #1d1d1d !important;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* Space above category groups to visually separate them */
+.menu__list-item--collapsed,
+.menu__list-item:has(> .menu__link--sublist) {
+  margin-top: 16px;
+}
+
+/* First category item doesn't need extra top margin */
+.menu__list > .menu__list-item:first-child {
+  margin-top: 0;
+}
+
+/* Nested lists: tighter indent */
+.menu__list .menu__list {
+  padding-left: 8px !important;
+  margin-top: 2px;
+  border-left: none;
+}
+
+/* Chevron arrows for expandable items — thin stroke chevron
+   The SVG points UP. Infima's base state is rotate(180deg) = pointing down (expanded).
+   Collapsed state is rotateZ(90deg) = pointing right.
+   We keep these transforms so the built-in transition animates correctly. */
+.menu__link--sublist::after,
+.menu__caret::before {
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(0,0,0,0.35)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 15 12 9 18 15"/></svg>') 50% / 16px 16px no-repeat !important;
+  filter: none !important;
+  width: 16px !important;
+  min-width: 16px !important;
+  height: 16px !important;
+}
+
+/* Remove separate hover background on the caret button */
+.menu__caret:hover {
+  background: none !important;
+}
+
+/* Remove default left-border active indicator from nested items */
+.menu__list-item--collapsed .menu__link--active {
+  border-left: none !important;
+  padding-left: 12px !important;
 }
 
 /* ============================================================
@@ -339,7 +413,8 @@ body {
 /* "Ready to deploy?" CTA card in the right TOC sidebar */
 .sidebar-cta {
   margin: 16px 0 0;
-  background: #0f0f0f;
+  background: #f5f5f5;
+  border: 1px solid rgba(29, 29, 29, 0.08);
   border-radius: 10px;
   padding: 16px;
   flex-shrink: 0;
@@ -347,22 +422,22 @@ body {
 
 .sidebar-cta__title {
   font-size: 12px;
-  color: #efd653;
+  color: #1d1d1d;
   font-weight: 700;
   margin: 0 0 6px;
 }
 
 .sidebar-cta__desc {
   font-size: 11.5px;
-  color: #a9acab;
+  color: #6b6b6b;
   line-height: 1.5;
   margin: 0 0 12px;
 }
 
 .sidebar-cta__btn {
   display: block;
-  background: #efd653;
-  color: #020202;
+  background: #1d1d1d;
+  color: #ffffff;
   font-size: 12px;
   font-weight: 700;
   padding: 8px 12px;
@@ -372,8 +447,8 @@ body {
 }
 
 .sidebar-cta__btn:hover {
-  background: #dfc43a;
-  color: #020202;
+  background: #333333;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -387,12 +462,8 @@ body {
 }
 
 /* ============================================================
-   FOOTER
+   FOOTER — custom component handles its own styles
    ============================================================ */
-
-.footer {
-  border-top: 1px solid rgba(29, 29, 29, 0.08);
-}
 
 /* ============================================================
    COVER IMAGE (from frontmatter `cover:`)
