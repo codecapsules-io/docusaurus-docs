@@ -393,6 +393,13 @@ const sidebars: SidebarsConfig = {
     "enterprise/azure",
     "enterprise/gcp",
     "enterprise/vmware"
+  ],
+  "agenticAutomation": [
+    "agentic-automation/index",
+    "agentic-automation/the-problem",
+    "agentic-automation/the-framework",
+    "agentic-automation/designing-agents",
+    "agentic-automation/deployment"
   ]
 };
 

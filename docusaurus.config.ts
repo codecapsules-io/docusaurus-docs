@@ -202,6 +202,7 @@ const config: Config = {
         {to: '/platform', label: 'Platform', position: 'left'},
         {to: '/products', label: 'Products', position: 'left'},
         {to: '/tutorials', label: 'Tutorials', position: 'left'},
+        {to: '/agentic-automation', label: 'Agentic Automation', position: 'left'},
         {to: '/enterprise', label: 'Enterprise', position: 'left'},
         {to: '/cli', label: 'CLI', position: 'left'},
         {type: 'search', position: 'right'},
