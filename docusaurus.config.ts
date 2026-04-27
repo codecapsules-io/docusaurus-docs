@@ -152,12 +152,7 @@ const config: Config = {
           trackingID: 'G-KXQN2K3LKN',
           anonymizeIP: true,
         },
-        sitemap: {
-          lastmod: 'date',
-          changefreq: 'weekly',
-          priority: 0.5,
-          filename: 'sitemap.xml',
-        },
+
       } satisfies Preset.Options,
     ],
   ],
