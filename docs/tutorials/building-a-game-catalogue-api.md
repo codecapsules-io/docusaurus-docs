@@ -12,7 +12,7 @@ In this tutorial, we’ll build a simple [HTTP REST API](https://www.restapituto
 
 We’ll use [MySQL](https://www.mysql.com/) as the data store, [Node.js](https://nodejs.org/en/) as the application language, and Code Capsules to host all the components.
 
-### Overview and Requirements <a href="#overview-and-requirements" id="overview-and-requirements"></a>
+### Overview and Requirements
 
 You’ll need the following services and software set up for this tutorial:
 
@@ -22,7 +22,7 @@ You’ll need the following services and software set up for this tutorial:
 * An IDE or text editor to create the project in. This tutorial was made using [Visual Studio Code](https://code.visualstudio.com/), but you can use any tool you like.
 * The [Postman](https://www.postman.com/downloads/) app to interact with our API.
 
-### Setting up the Project <a href="#setting-up-the-project" id="setting-up-the-project"></a>
+### Setting up the Project
 
 With our requirements in place, we can get started setting them up to work as needed for our game catalog project.
 
@@ -53,7 +53,7 @@ git commit -am 'added base files for project'
 git push origin
 ```
 
-### Create the Capsules <a href="#create-the-capsules" id="create-the-capsules"></a>
+### Create the Capsules
 
 A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hosting an application on Code Capsules.
 
@@ -81,7 +81,7 @@ Once your application is live, you can view the build log by selecting the “De
 
 ![backend capsule build logs](/gitbook-assets/root/backend-capsule-build-logs.png)
 
-### Binding the Capsules <a href="#binding-the-capsules" id="binding-the-capsules"></a>
+### Binding the Capsules
 
 After the two capsules have been successfully built, the next step is to bind them together. To complete this, navigate to the “Configure” tab of your Backend Capsule. Scroll down to the “Bind Data Capsule” section and click on the “Bind” option on the bottom left. This provides the capsule with information on how to connect to the MySQL database.
 
@@ -89,7 +89,7 @@ After the two capsules have been successfully built, the next step is to bind th
 
 After binding the Capsules, scroll up to the section “Capsule Parameters”. You’ll notice that an environment variable, `DATABASE_URL`, is automatically added containing the connection string to the MySQL database. We’ll use this environment variable in the code to access the MySQL database.
 
-### Writing the API Code <a href="#writing-the-api-code" id="writing-the-api-code"></a>
+### Writing the API Code
 
 Now that we have all our systems set up, we can get onto the coding part.
 
@@ -494,7 +494,7 @@ If you try your query again, it should let you pass, and come back with the usua
 
 ![auth success](/gitbook-assets/tutorials/building-a-game-catalogue-api/auth-success.png)
 
-### Next Steps <a href="#next-steps" id="next-steps"></a>
+### Next Steps
 
 Now that you’ve built an HTTP REST CRUD API, here are several more things to try:
 

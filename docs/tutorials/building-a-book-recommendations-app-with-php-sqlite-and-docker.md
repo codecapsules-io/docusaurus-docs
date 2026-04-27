@@ -12,7 +12,7 @@ Here’s what the final app will look like:
 
 ![final app](/gitbook-assets/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker/final-app.png)
 
-### Requirements <a href="#requirements" id="requirements"></a>
+### Requirements
 
 You will need the following to complete the tutorial:
 
@@ -27,7 +27,7 @@ To deploy the application to Code Capsules, you’ll also need:
 * A [GitHub](https://github.com/) account and Git installed locally.
 * A [Code Capsules](https://codecapsules.io/) account.
 
-### Project Setup <a href="#project-set-up" id="project-set-up"></a>
+### Project Setup
 
 Let’s start by creating a project folder that will house all our files.
 
@@ -38,7 +38,7 @@ mkdir book-recommendations
 cd book-recommendations
 ```
 
-### Building the Frontend <a href="#building-the-frontend" id="building-the-frontend"></a>
+### Building the Frontend
 
 Let’s begin by building our app’s index page. This page will use PHP and HTML, as it will contain both static and dynamic content. Create a file named `index.php` in the project root folder and populate it with the code below:
 
@@ -73,7 +73,7 @@ This builds out a basic HTML page. We add links in the header to [xz/fonts](http
 
 It then sets up a table structure that we’ll use PHP to populate later.
 
-### Adding a Docker File and Running our App <a href="#adding-a-docker-file-and-running-our-app" id="adding-a-docker-file-and-running-our-app"></a>
+### Adding a Docker File and Running our App
 
 Even though our app doesn’t do anything yet, let’s run it to see our progress so far. We’ll use Docker for this. In the same project directory, create a file called exactly `Dockerfile` (note the capital D and no file extension), and add the following code.
 
@@ -99,7 +99,7 @@ This builds a Docker image from the `Dockerfile` in the current directory and gi
 
 Hit `Ctrl + C` in the terminal window running Docker to stop the server.
 
-### Adding Books <a href="#adding-books" id="adding-books"></a>
+### Adding Books
 
 To allow the user to add new books, we’ll need a form with an input. Let’s build that now.
 
@@ -126,7 +126,7 @@ If you run the app again, you’ll see something like the following.
 
 Now you can type in a book and author name and press the “Save” button, but then the app will crash as we haven’t built the backend yet. Let’s do that next.
 
-### Building the Backend <a href="#building-the-backend" id="building-the-backend"></a>
+### Building the Backend
 
 Next, we’ll create an `app.php` file to handle the backend logic and database connection for our application. Create this file and add the following code.
 
@@ -168,7 +168,7 @@ This imports all the code into `index.php`, as if you had written in that file. 
 
 You can run the application again now, and you’ll see that you’re able to insert books using the form. However, we aren’t ever reading the books from the database again, so they’ll just disappear. Let’s add some more logic to retrieve any saved books from the database and display them to the user.
 
-### Retrieving the Books from the Database <a href="#retrieving-the-books-from-the-database" id="retrieving-the-books-from-the-database"></a>
+### Retrieving the Books from the Database
 
 We’ll display our books to the user by grabbing them all from the database, looping through them, and adding a table row for each entry.
 
@@ -224,7 +224,7 @@ Here we use our `getBooks` function to retrieve all the books and then a `while`
 
 If you run the app again, you’ll see that now any books that you add automatically show up in the table. The Edit and Delete buttons don’t work yet, though, so let’s fix that.
 
-### Adding Edit and Delete Functionality <a href="#adding-edit-and-delete-functionality" id="adding-edit-and-delete-functionality"></a>
+### Adding Edit and Delete Functionality
 
 To avoid our table getting too messy, we’ll use some basic JavaScript to edit and delete books, along with some hidden forms at the top of our page. Right after the opening `<body>` tag in `index.php`, add the following forms.
 
@@ -305,7 +305,7 @@ if ($_POST) {
 
 This now handles the update and delete forms we built, calling `UPDATE` or `DELETE` statements on our database as required. Note that we are still using prepared statements to protect against SQL injection.
 
-### Deploying the Application <a href="#deploying-the-application" id="deploying-the-application"></a>
+### Deploying the Application
 
 The application should now run fine on your local machine, but let’s deploy it to the internet, so others can use it too. We’ll:
 
@@ -326,7 +326,7 @@ git push -u origin main
 
 Your remote repository will now be up-to-date with your local one.
 
-### Deploying to Code Capsules <a href="#deploying-to-code-capsules" id="deploying-to-code-capsules"></a>
+### Deploying to Code Capsules
 
 The final step is to deploy our app to Code Capsules. We’ll use two capsules for this: a Docker Capsule for the application and a persistent storage Data Capsule for the database, so that our data doesn’t disappear each time the application is restarted.
 

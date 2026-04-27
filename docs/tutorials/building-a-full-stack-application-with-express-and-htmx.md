@@ -28,7 +28,7 @@ After building our application, you’ll want to deploy it to production, so you
 * Node.js installed
 * An IDE or text editor of your choice
 
-### Setting up the Project <a href="#setting-up-the-project" id="setting-up-the-project"></a>
+### Setting up the Project
 
 With all the requirements in place, we can go ahead and set up our project. Let’s start by creating the project folder.
 
@@ -79,7 +79,7 @@ git remote add origin git@github.com:username/repository_name.git
 
 This will link your local repository to the one on GitHub.
 
-### Building the HTMx Frontend <a href="#building-the-htmx-frontend" id="building-the-htmx-frontend"></a>
+### Building the HTMx Frontend
 
 With the set-up complete, we can now begin building our app. We will start with the HTMx frontend, and for this, you need to create a `/views` folder inside the project’s root folder.
 
@@ -149,7 +149,7 @@ There are a couple of attributes here that aren’t used in traditional HTML. Le
   * In the table, however, we used the `outerHTML` value to denote that we wish to swap the entire `<tr>` element with the returned content.
   * A full list of acceptable `hx-swap` values can be viewed [here](https://htmx.org/docs/#swapping).
 
-### Building the Express Backend <a href="#building-the-express-backend" id="building-the-express-backend"></a>
+### Building the Express Backend
 
 We can now dive into building the backend of our app. Start by creating an `app/model/` directory from the project root folder and creating a file named `dbconfig.js` in it. This file will contain logic for creating a SQLite database on a persistent file storage Data Capsule on Code Capsules when we deploy our application. Populate the `dbconfig.js` file with the code below:
 
@@ -384,11 +384,11 @@ Code Capsules automatically runs the `npm start` command to start `node` project
 
 When you’ve added the start script, Code Capsules will be able to automatically run your app when you deploy it.
 
-### Running our App <a href="#running-our-app" id="running-our-app"></a>
+### Running our App
 
 Our app is ready to be tested. Navigate to the project’s root folder in a terminal and run the following command: `npm run start`. This should start up a development server on port 3005. Open your browser at `http://127.0.0.1:3005/` and you should see your app running.
 
-### Add, Commit, and Push Git Changes <a href="#add-commit-and-push-git-changes" id="add-commit-and-push-git-changes"></a>
+### Add, Commit, and Push Git Changes
 
 Let’s add and commit all the files we created to our local repository and then push them to the remote one. Do this by running the commands listed below in a terminal while in the project’s root folder:
 
@@ -401,7 +401,7 @@ git push -u origin main
 
 Your remote repository will now be up-to-date with your local one.
 
-### Deploy to Code Capsules <a href="#deploy-to-code-capsules" id="deploy-to-code-capsules"></a>
+### Deploy to Code Capsules
 
 The final step is to deploy our app. Log into your Code Capsules account and link your remote GitHub repository to Code Capsules. Create a persistent storage Data Capsule and a Backend Capsule and bind the two together to deploy the app. You can follow this [reference guide](https://codecapsules.io/tutorial/how-to-set-up-a-persistent-file-data-capsule/) to see how to do so in greater detail.
 

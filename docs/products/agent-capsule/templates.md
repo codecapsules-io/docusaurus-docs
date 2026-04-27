@@ -8,7 +8,11 @@ Code Capsules provides a variety of agent template repos for you to use as the b
 
 Each template comes with a tutorial on how to successfully deploy the template, and can be accessed from our GitHub pages. See the list of available templates below:
 
-<table><thead><tr><th>Template</th><th>Functions</th><th data-type="content-ref">GitHub repo</th></tr></thead><tbody><tr><td>Base Agent</td><td><ul><li>Basic agent communication</li><li>RAG (context) functionality </li></ul></td><td><a href="https://github.com/codecapsules-io/ai-agent-template">https://github.com/codecapsules-io/ai-agent-template</a></td></tr><tr><td>Telegram Bot Agent</td><td><ul><li>Base Agent functionality (forked off Base Agent)</li><li>Runs a Telegram bot which calls the agent for communication</li></ul></td><td><a href="https://github.com/codecapsules-io/ai-telegram-bot-agent-template">https://github.com/codecapsules-io/ai-telegram-bot-agent-template</a></td></tr><tr><td>Google Calendar Agent</td><td><ul><li>Base Agent functionality (forked off Base Agent)</li><li>Add events to Google Calendar</li><li>Get a list of events from Google Calendar</li></ul></td><td><a href="https://github.com/codecapsules-io/ai-calendar-agent-template">https://github.com/codecapsules-io/ai-calendar-agent-template</a></td></tr></tbody></table>
+| Template | Functions | GitHub repo |
+|---|---|---|
+| Base Agent | Basic agent communication, RAG (context) functionality | [ai-agent-template](https://github.com/codecapsules-io/ai-agent-template) |
+| Telegram Bot Agent | Base Agent functionality (forked off Base Agent), runs a Telegram bot which calls the agent for communication | [ai-telegram-bot-agent-template](https://github.com/codecapsules-io/ai-telegram-bot-agent-template) |
+| Google Calendar Agent | Base Agent functionality (forked off Base Agent), add events to Google Calendar, get a list of events from Google Calendar | [ai-calendar-agent-template](https://github.com/codecapsules-io/ai-calendar-agent-template) |
 
 ## Architecture
 

@@ -6,7 +6,7 @@ cover: /gitbook-assets/tutorials/nuxt3-nitro-cover-v2.jpg
 # Nuxt3 and Nitro
 
 
-## Exploring Nuxt 3, Nitro, and the Server Requirements <a href="#exploring-nuxt-3-nitro-and-the-server-requirements" id="exploring-nuxt-3-nitro-and-the-server-requirements"></a>
+## Exploring Nuxt 3, Nitro, and the Server Requirements
 
 Hey there, fellow developers! Today, we’re diving deep into two exciting technologies that are changing the game in web development: Nuxt 3 and Nitro. But that’s not all—we’ll also shed some light on the server requirements for running Nuxt 3 applications. So, let’s get started!
 
@@ -213,7 +213,7 @@ Both Vue.js and Nuxt 3 applications can make HTTP requests to APIs or backend se
 
 
 
-## Launching Your App with Code Capsules <a href="#launching-your-app-with-code-capsules" id="launching-your-app-with-code-capsules"></a>
+## Launching Your App with Code Capsules
 
 ### Establishing Your Code Capsules Profile
 

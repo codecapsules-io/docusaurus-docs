@@ -8,7 +8,7 @@ description: >-
 
 # Designing Agents
 
-The most common mistake when building agentic automation systems is making agents too large. An agent that fetches data, cleans it, analyses it, formats it, and sends it is not an agent — it is a monolith with an AI API call in the middle. It has all the problems described in [The Problem](./the-problem) section, just with a more modern technology stack.
+The most common mistake when building agentic automation systems is making agents too large. An agent that fetches data, cleans it, analyses it, formats it, and sends it is not an agent — it is a monolith with an AI API call in the middle. It has all the problems described in [The Problem](../the-problem) section, just with a more modern technology stack.
 
 This page describes how to think about agent design: how to draw boundaries, how to choose models, and how to build agents that are genuinely reusable across workflows.
 

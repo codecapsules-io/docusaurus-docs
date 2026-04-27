@@ -16,7 +16,7 @@ Here’s an example of a graphic image that can be created by the app we’ll bu
 
 You can also add text to the generated images to create image covers and different marketing posts.
 
-### Requirements <a href="#requirements" id="requirements"></a>
+### Requirements
 
 You will need the following to complete the tutorial and host your application on Code Capsules:
 
@@ -25,7 +25,7 @@ You will need the following to complete the tutorial and host your application o
 * IDE or text editor of your choice
 * Python 3 installed
 
-### Project Setup <a href="#project-set-up" id="project-set-up"></a>
+### Project Setup
 
 To begin, we need to create a project folder to house all our files.
 
@@ -76,7 +76,7 @@ Head over to [GitHub](https://github.com/) and create a new repository. You’ll
 git remote add origin git@github.com:username/repository_name.git
 ```
 
-### Build the Frontend <a href="#build-the-frontend" id="build-the-frontend"></a>
+### Build the Frontend
 
 We can now start building our generative art app, and we’ll start with the frontend using Flask templates. Create an `app/templates` folder inside the project root folder and add a file named `home.html` to it. This file will contain the code for the landing page of our app. Populate it with the code below:
 
@@ -209,7 +209,7 @@ The `<img />` tag below the page header takes in a Base64 string as input and re
 
 You can view other HTMx attributes and their functionalities [in this HTMx reference guide](https://htmx.org/reference/).
 
-### Build the Backend <a href="#build-the-backend" id="build-the-backend"></a>
+### Build the Backend
 
 The backend contains the interesting bits of our app’s logic. Here, we will see the logic for the two routes that are called in the frontend.
 
@@ -224,7 +224,7 @@ if __name__ == "__main__":
 
 The code above is responsible for starting our application by calling Flask’s `run` method.
 
-### Initialize `app` Module <a href="#initialize-app-module" id="initialize-app-module"></a>
+### Initialize `app` Module
 
 Let’s go ahead and initialize the `app` module we imported in the previous code snippet. Create an `__init__.py` file inside the `/app` folder and populate it with the code below:
 
@@ -238,7 +238,7 @@ from app import views
 
 In the code above, we create a Flask `app` object and import the app views we’ll add later on.
 
-### Add Graphic Image Generation Logic <a href="#add-graphic-image-generation-logic" id="add-graphic-image-generation-logic"></a>
+### Add Graphic Image Generation Logic
 
 The next step is to add logic for the graphic image generation. Create a file named `palettes.json` in the project root folder and populate it with the code in this [file](https://github.com/codecapsules-io/generative-art/blob/main/palettes.json). This is a list of 2D arrays containing random numbers that represent different color palettes. We sourced these color palettes from [Color-Hex](https://www.color-hex.com/). Our app will pick randomly from these each time a user chooses to generate a new image.
 
@@ -300,7 +300,7 @@ The module defined in the code snippet above leverages the Pillow package to cre
 
 The `create()` method is responsible for generating Base64 image strings for new random images. It does so by first creating a blank canvas and adding a random number of rectangles of different sizes and colors. When the image has been created, it’s returned as a Base64 image string, which is more efficient to transfer between our app modules.
 
-### Add App Views <a href="#add-app-views" id="add-app-views"></a>
+### Add App Views
 
 The last step in building our backend is to add the application views. To achieve this, create a file named `views.py` inside the `/app` folder and populate it with the code below:
 
@@ -343,7 +343,7 @@ At the top of the file, we import the `create` method from the `make_squares` mo
 
 The `index` route is called when the app is started, and it calls the `create()` method to generate a Base64 image string and returns it in the `home.html` template. The `/generate-another` route is called when a user clicks on the “I hate this art, make me another” button. It saves the new graphic image to the `/tmp` folder before returning it as part of an HTML response, since the request is triggered by HTMx. This allows our app to only refresh the image element, and download reference, and not the whole page, like in the case of rendering templates.
 
-### Prepare for Deployment <a href="#prepare-for-deployment" id="prepare-for-deployment"></a>
+### Prepare for Deployment
 
 Our generate art app is now complete, and we are only left with adding the files necessary for deployment before we can publish it.
 
@@ -383,7 +383,7 @@ git push -u origin main
 
 Your remote repository will now be up-to-date with your local one.
 
-### Deploy to Code Capsules <a href="#deploy-to-code-capsules" id="deploy-to-code-capsules"></a>
+### Deploy to Code Capsules
 
 The final step is to deploy our app. Log into your Code Capsules account and link your remote GitHub repository to Code Capsules. Create a Backend Capsule and deploy the app there. You can follow this [deployment guide](/backend/python/flask) to see how to do this in greater detail.
 

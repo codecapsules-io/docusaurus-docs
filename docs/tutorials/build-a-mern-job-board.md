@@ -10,7 +10,7 @@ Like other full-stack applications, a MERN (MongoDB, Express, React, Node.js) st
 
 In this tutorial, we’ll extend a boilerplate MERN application to make a job board where users can view and submit available jobs.
 
-### Getting Started <a href="#getting-started" id="getting-started"></a>
+### Getting Started
 
 Head over to the [MERN stack deployment guide](/full-stack/mern-stack) and follow the steps outlined there to set up the boilerplate application. You will need to clone the forked repository to your local development environment to extend the functionality of the boilerplate application.
 
@@ -39,7 +39,7 @@ npm install dotenv
 require('dotenv').config();
 ```
 
-### Extending the Frontend <a href="#extending-the-frontend" id="extending-the-frontend"></a>
+### Extending the Frontend
 
 Open the project’s root folder and navigate to the client directory. This is where you’ll find the code for the React frontend in the `src` subdirectory. Open a terminal and run `npm install` from the client directory to install the `node_modules` required by the frontend code.
 
@@ -179,7 +179,7 @@ When you rebuild your application and take a look at the frontend, it should loo
 
 ![job board ui](/gitbook-assets/tutorials/build-a-mern-job-board/job-board-ui.png)
 
-### Extending the Backend <a href="#extending-the-backend" id="extending-the-backend"></a>
+### Extending the Backend
 
 We’re now ready to extend the backend to include functionality for the addition and retrieval of jobs on the job board.
 
@@ -329,7 +329,7 @@ require("./app/routes/job.routes")(app);
 
 This tells our backend to use the routes defined in our `job.routes.js` file.
 
-### Integrating the Frontend and Backend <a href="#integrating-the-frontend-and-backend" id="integrating-the-frontend-and-backend"></a>
+### Integrating the Frontend and Backend
 
 Our Express backend uses the contents of the `client/build` folder to render the frontend of our MERN stack application. The lines below in the `index.js` file in the root folder handle that responsibility:
 
@@ -339,7 +339,7 @@ const app = express();
 app.use(express.static(path));
 ```
 
-### Using Version Control <a href="#using-version-control" id="using-version-control"></a>
+### Using Version Control
 
 We’ll use version control to keep track of the new files we added when we were extending our application.
 

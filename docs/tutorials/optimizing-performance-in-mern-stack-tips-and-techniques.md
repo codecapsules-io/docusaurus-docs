@@ -8,7 +8,7 @@ cover: /gitbook-assets/tutorials/mern-optimization-cover-v2.jpg
 
 The MERN stack, which stands for MongoDB, Express.js, React, and Node.js, is a robust framework for web application development. To ensure that MERN applications are agile and responsive, it’s essential to focus on performance optimization. In this comprehensive guide, we’ll delve into actionable insights to enhance performance.
 
-## Efficient Database Operations with MongoDB <a href="#efficient-database-operations-with-mongodb" id="efficient-database-operations-with-mongodb"></a>
+## Efficient Database Operations with MongoDB
 
 ### a. Use Indexing Strategically
 
@@ -64,7 +64,7 @@ Mongoose’s model instances come with overhead. For faster operations, retrieve
 Model.find().lean().exec();
 ```
 
-## Streamline Your Express.js App <a href="#streamline-your-expressjs-app" id="streamline-your-expressjs-app"></a>
+## Streamline Your Express.js App
 
 ### a. Use Gzip Compression
 
@@ -101,7 +101,7 @@ const cache = apicache.middleware;
 app.get('/your-route', cache('5 minutes'), (req, res) => ... );
 ```
 
-## Boost React Performance <a href="#boost-react-performance" id="boost-react-performance"></a>
+## Boost React Performance
 
 ### a. Virtualize Long Lists
 
@@ -154,7 +154,7 @@ const MyComponent = React.lazy(() => import('./MyComponent'));
 <React.Suspense fallback=<div>Loading...</div>>
 ```
 
-## Optimize Node.js Server Performance <a href="#optimize-nodejs-server-performance" id="optimize-nodejs-server-performance"></a>
+## Optimize Node.js Server Performance
 
 ### a. Asynchronous Code
 
@@ -212,7 +212,7 @@ if (cluster.isMaster) {
 }
 ```
 
-## Networking and API Calls <a href="#networking-and-api-calls" id="networking-and-api-calls"></a>
+## Networking and API Calls
 
 ### a. Efficient Data Fetching
 
@@ -230,7 +230,7 @@ Enhance user experience and efficiency by fetching only necessary data.
 
 CDNs like Cloudflare or AWS CloudFront serve content from a location nearest to the user, reducing load times.
 
-## DevOps Practices for Performance <a href="#devops-practices-for-performance" id="devops-practices-for-performance"></a>
+## DevOps Practices for Performance
 
 ### a. Minification and Bundling
 
@@ -263,7 +263,7 @@ Monitor real-time performance metrics to detect and address issues promptly.
 :::
 
 
-## Enhancing App Performance with Code Capsules in MERN Stack <a href="#enhancing-app-performance-with-code-capsules-in-mern-stack" id="enhancing-app-performance-with-code-capsules-in-mern-stack"></a>
+## Enhancing App Performance with Code Capsules in MERN Stack
 
 ### Optimizing Your Code Capsules Profile for MERN Stack
 
@@ -297,6 +297,6 @@ Start a new capsule in your MERN-optimized space, conceptualizing these as indiv
 
 By following these modified steps focused on MERN stack performance, you can efficiently deploy and manage your applications on Code Capsules, leveraging the platform’s capability for optimized MERN application performance and deployment.
 
-## Conclusion <a href="#conclusion" id="conclusion"></a>
+## Conclusion
 
 Perfecting performance in a MERN stack application isn’t a one-time task but a continuous process of assessment and refinement. With the right strategies, tools, and a commitment to excellence, developers can deliver blazing-fast, highly responsive applications that excel in real-world scenarios. Always remember, in the realm of web applications, speed and responsiveness aren’t just features—they’re necessities.

@@ -16,13 +16,13 @@ Do the benefits of a white-label app seem appealing to you? (Who wouldn’t want
 
 Once you’ve decided to create a white-label app, you need to consider the level of customization your clients will need. There are two types of white-label applications: single tenant and multitenant. While one allows for greater customization, the other offers a more cost-effective and speedy solution. Let’s take a look at what each type has to offer.
 
-### Single Tenant <a href="#single-tenant" id="single-tenant"></a>
+### Single Tenant
 
 A single-tenant application has its own independent database and server, dedicated solely to a single customer’s version of the application. This means that changes made to the app will not affect any other versions, allowing customers to have complete control over any updates made to the app, whether stylistic or architectural.
 
 A single-tenant white-label app provides the customer with a template that speeds up the lengthy development process, along with the freedom to tailor the application to suit their needs. This template is the perfect foundation for customers who want to save money on building the basics but are willing to put in the resources to maximize customization and user experience.
 
-### Multitenant <a href="#multitenant" id="multitenant"></a>
+### Multitenant
 
 For customers who are looking for a cost-effective way to get their applications out quickly, the multitenant option is the most suitable choice. Multitenant applications share a server and database across all versions. Customers can focus solely on the UI of their application to suit their brand while enjoying the benefits of a well-designed base architecture.
 
@@ -46,7 +46,7 @@ In the next section, we will walk through:
 
 Let’s take a look at how you can create a single-tenant application and host multiple versions of it on Code Capsules. We will set up two versions of a white-label app, representing two different companies that have bought the app. We’ll customize each version of the app by editing environment variables to meet the branding requirements of the customers.
 
-### Overview and Requirements <a href="#overview-and-requirements" id="overview-and-requirements"></a>
+### Overview and Requirements
 
 To edit, configure, and deploy both versions of our application, you will need the following:
 
@@ -54,7 +54,7 @@ To edit, configure, and deploy both versions of our application, you will need t
 * A [Code Capsules](https://codecapsules.io/) account.
 * An IDE or text editor of your choice.
 
-### Getting Started <a href="#getting-started" id="getting-started"></a>
+### Getting Started
 
 To start, initialize a local Git repository and clone the [starter code](https://github.com/ritza-co/demo-htmx-express-white-label) onto your local machine from your terminal with the following command:
 
@@ -75,7 +75,7 @@ Then go to [`http://localhost:3005/`](http://localhost:3005/) to see the app.
 
 The application is currently set up for a singular purpose: to store book recommendations. The scope and branding are limited, but the core functionality—a data store with an intuitive UI—could be a great tool for a number of companies.
 
-### Making the App a White-Label App <a href="#making-the-app-a-whitelabel-app" id="making-the-app-a-whitelabel-app"></a>
+### Making the App a White-Label App
 
 To be a white-label app, this app needs to be customizable to match the requirements of different companies. To make the app customizable, we can remove hard-coded values from the code and replace them with environment variables that can be changed easily.
 
@@ -272,7 +272,7 @@ We won’t need the `.env` file in our deployment, so you can go ahead and delet
 
 Now that our application is easily customizable, we can deploy different versions of the application for different companies.
 
-### Deploying the App on Code Capsules <a href="#deploying-the-app-on-code-capsules" id="deploying-the-app-on-code-capsules"></a>
+### Deploying the App on Code Capsules
 
 Now that our application is ready to be customized and deployed, we can use Code Capsules to make this process easy and intuitive.
 
@@ -374,7 +374,7 @@ The app also has the option to turn off the navbar, which can be done by setting
 
 Stylistic changes can be made by changing colors, font types, text, and logos, but pretty large changes can also be made to the UI by hiding and revealing its parts through variable choices. It’s all up to the designer of the application to decide how far they want to go in providing this kind of customization to their client.
 
-### Takeaway <a href="#takeaway" id="takeaway"></a>
+### Takeaway
 
 In this tutorial, two very different-looking applications were deployed from the same codebase simply by changing a couple of variables in the Code Capsules UI. This is a powerful way to get your app solution to more people, more quickly, and at a lower price.
 

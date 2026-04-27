@@ -10,7 +10,7 @@ As a web developer, diving into the world of full-stack development can be both 
 
 In this step-by-step tutorial, we will guide you through the process of building a production-ready MEAN stack application. By the end of this tutorial, you will have a solid understanding of how these technologies work together and be ready to start your own MEAN stack project.
 
-### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
+### Prerequisites
 
 Before we begin, ensure that you have the following tools and knowledge:
 
@@ -21,7 +21,7 @@ Before we begin, ensure that you have the following tools and knowledge:
 
 Now that you have the necessary tools in place, let’s get started with building your MEAN stack application!
 
-### Set Up Your Project <a href="#set-up-your-project" id="set-up-your-project"></a>
+### Set Up Your Project
 
 1\. Create a new directory for your project:
 
@@ -36,7 +36,7 @@ cd mean-stack-app
 npm init -y
 ```
 
-### Create the Backend with Express.js and Node.js <a href="#create-the-backend-with-expressjs-and-nodejs" id="create-the-backend-with-expressjs-and-nodejs"></a>
+### Create the Backend with Express.js and Node.js
 
 1\. Install Express.js, a popular Node.js web application framework:
 
@@ -68,7 +68,7 @@ node server.js
 
 Your server should now be running at `http://localhost:3000`, and you should see “Hello MEAN Stack!” when you visit this URL in your browser.
 
-### Create the Frontend with Angular <a href="#create-the-frontend-with-angular" id="create-the-frontend-with-angular"></a>
+### Create the Frontend with Angular
 
 1\. Generate a new Angular project:
 
@@ -92,7 +92,7 @@ ng serve
 
 Your Angular application will be available at `http://localhost:4200`. Visit this URL in your browser, and you should see the default Angular app.
 
-### Connect Angular to Express.js <a href="#connect-angular-to-expressjs" id="connect-angular-to-expressjs"></a>
+### Connect Angular to Express.js
 
 1\. Open the `src/environments/environment.ts` file in your Angular project and update the `apiUrl` property to point to your Express.js server:
 
@@ -113,7 +113,7 @@ Implement your API service to make HTTP requests to your Express.js server.
 
 3\. Update your Angular components to use the API service to fetch data from the server and display it in your application.
 
-### Set Up MongoDB <a href="#set-up-mongodb" id="set-up-mongodb"></a>
+### Set Up MongoDB
 
 1\. Start your MongoDB server:
 
@@ -125,7 +125,7 @@ mongodb
 
 3\. Create MongoDB models and routes to handle data storage and retrieval in your Express.js application.
 
-### Deploy Your MEAN Stack Application <a href="#deploy-your-mean-stack-application" id="deploy-your-mean-stack-application"></a>
+### Deploy Your MEAN Stack Application
 
 1\. Choose a hosting provider for your MEAN stack application. Popular options include Heroku, AWS, and Microsoft Azure.
 
