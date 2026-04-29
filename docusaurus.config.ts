@@ -110,8 +110,62 @@ function remarkGitbookCards() {
   };
 }
 
+const SITE_URL = 'https://codecapsules.io';
+
+const globalJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE_URL}/#website`,
+      name: 'Code Capsules',
+      alternateName: 'Code Capsules PaaS',
+      url: SITE_URL,
+      inLanguage: 'en',
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
+        },
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@type': 'Organization',
+      '@id': `${SITE_URL}/#organization`,
+      name: 'Code Capsules',
+      url: SITE_URL,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE_URL}/img/logo.png`,
+        width: 300,
+        height: 60,
+      },
+      description:
+        'Code Capsules is a developer-focused Platform as a Service (PaaS) that lets teams deploy, host, and scale applications without managing infrastructure.',
+      foundingLocation: {
+        '@type': 'Place',
+        name: 'South Africa',
+      },
+      sameAs: [
+        'https://twitter.com/codecapsules',
+        'https://github.com/codecapsules-io',
+        'https://linkedin.com/company/code-capsules',
+        'https://www.youtube.com/@codecapsules',
+      ],
+      contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'customer support',
+        url: 'https://www.codecapsules.io/contact',
+        availableLanguage: 'English',
+      },
+    },
+  ],
+};
+
 const config: Config = {
-  title: 'Code Capsules',
+  title: 'Code Capsules Docs',
   tagline: 'Product docs, tutorials, and platform guides',
   favicon: 'img/favicon.png',
 
@@ -152,8 +206,22 @@ const config: Config = {
           trackingID: 'G-KXQN2K3LKN',
           anonymizeIP: true,
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.8,
+          ignorePatterns: ['/search', '/search/**'],
+          filename: 'sitemap.xml',
+        },
       } satisfies Preset.Options,
     ],
+  ],
+
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {'type': 'application/ld+json'},
+      innerHTML: JSON.stringify(globalJsonLd),
+    },
   ],
 
   plugins: [
@@ -179,6 +247,13 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/logo.png',
+    titleDelimiter: ' — ',
+    metadata: [
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:site', content: '@codecapsules'},
+      {property: 'og:type', content: 'website'},
+      {property: 'og:site_name', content: 'Code Capsules'},
+    ],
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
