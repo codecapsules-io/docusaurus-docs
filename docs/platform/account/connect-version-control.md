@@ -1,5 +1,6 @@
 ---
 slug: "/platform/account/connect-version-control"
+description: "To deploy applications on Code Capsules, you need to connect to a version control provider and give Code Capsules permission to read the relevant..."
 ---
 
 # Connect Version Control
@@ -20,4 +21,4 @@ For example, to connect to GitHub, select your GitHub username and set the follo
 
 ![Install & authorize github](/gitbook-assets/platform/github-integration.png)
 
-Once version control is connected, you can [share repos with your Teams](/platform/teams/share-a-repo-with-a-team).
+Once version control is connected, you can [share repos with your Teams](/platform/teams/share-a-repo-with-a-team/).

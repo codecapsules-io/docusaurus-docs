@@ -1,5 +1,6 @@
 ---
 slug: "/cli/readme/commands/proxy"
+description: "Proxy a capsule to your local machine. For example, if you have a MySQL Capsule running on Code Capsules, this command will set up a secure TCP tunnel..."
 ---
 
 # proxy

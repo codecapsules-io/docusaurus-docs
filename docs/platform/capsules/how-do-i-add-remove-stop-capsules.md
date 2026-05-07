@@ -1,5 +1,6 @@
 ---
 slug: "/platform/capsules/how-do-i-add-remove-stop-capsules"
+description: "To add a new Capsule, click the yellow + button in the bottom-left corner of the dashboard and select New Capsule."
 ---
 
 # Add, Remove, and Turn Off Capsules
@@ -12,7 +13,7 @@ To add a new Capsule, click the yellow **+** button in the bottom-left corner of
 
 Choose the **Capsule Type**, **Team**, and **Space**. Click **Next** to confirm.
 
-![Enter Capsule Details](/gitbook-assets/platform/platform/capsules/capsule-details.png)
+![Enter Capsule Details](/gitbook-assets/platform/platform/capsules/capsule-details.jpg)
 
 ### Configure the Plan
 

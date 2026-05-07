@@ -1,5 +1,6 @@
 ---
 slug: "/platform/security/basic-auth"
+description: "Protect public-facing URLs on your Capsule with HTTP Basic authentication."
 ---
 
 # HTTP Basic Authentication

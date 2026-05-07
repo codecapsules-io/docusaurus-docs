@@ -37,7 +37,7 @@ function CopyButton(): ReactNode {
 }
 
 export default function ContentWrapper(props: Props): ReactNode {
-  const {frontMatter} = useDoc();
+  const {frontMatter, metadata} = useDoc();
   const fm = frontMatter as Record<string, unknown>;
   const cover = fm.cover as string | undefined;
   const coverY = typeof fm.coverY === 'number' ? fm.coverY : undefined;
@@ -62,7 +62,7 @@ export default function ContentWrapper(props: Props): ReactNode {
     <>
       {cover && (
         <div className={`doc-cover${cover.includes('generic-docs-banner') ? ' doc-cover--compact' : ''}`}>
-          <img src={coverUrl} alt="" className="doc-cover__img" loading="eager" style={objectPosition ? {objectPosition} : undefined} />
+          <img src={coverUrl} alt={`${metadata.title} cover`} className="doc-cover__img" loading="eager" style={objectPosition ? {objectPosition} : undefined} />
         </div>
       )}
       <div className="doc-copy-row">

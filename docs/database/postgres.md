@@ -1,5 +1,6 @@
 ---
 slug: "/database/postgres"
+description: "In this tutorial, we'll create a PostgreSQL Data Capsule to provide persistent storage for your applications hosted on Code Capsules."
 ---
 
 # Postgres
@@ -10,7 +11,7 @@ In this tutorial, we'll create a PostgreSQL Data Capsule to provide persistent s
 
 Log in to your [Code Capsules](https://codecapsules.io) account and navigate to the Space your PostgreSQL Data Capsule will be contained in. Click the yellow `+` button and select the **PostgreSQL Data Capsule** option from the dropdown.
 
-![Create Data Capsule](/gitbook-assets/get-started/create-postgresql-capsule.png)
+![Create Data Capsule](/gitbook-assets/get-started/create-postgresql-capsule.jpg)
 
 Choose your payment option, then click the **Create Capsule** button.
 
@@ -80,4 +81,4 @@ client.connect()
   });
 ```
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/database).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/database/).

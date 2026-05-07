@@ -32,7 +32,7 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hosting an application on Code Capsules.
+A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 To create a new Capsule for your Space, follow the instructions below:
 
@@ -54,4 +54,4 @@ Once the build is complete, a URL link will appear in the URL section in the **D
 
 ![Deployed App](/gitbook-assets/get-started/cc-vue-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/frontend).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/frontend/).

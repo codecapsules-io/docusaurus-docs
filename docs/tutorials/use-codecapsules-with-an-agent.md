@@ -12,7 +12,7 @@ Code Capsules handles containers, domains, and TLS from a connected GitHub repo,
 
 In this guide, we'll install a Code Capsules skill for Claude Code, then deploy, update, and manage an Express.js application through natural-language prompts.
 
-![](/gitbook-assets/tutorials/cc-skill-demo-3x.gif)
+![Cc Skill Demo 3x](/gitbook-assets/tutorials/cc-skill-demo-3x.gif)
 
 ## Setup
 
@@ -27,7 +27,7 @@ We'll deploy the [demo-express-js](https://github.com/codecapsules-io/demo-expre
 Fork codecapsules-io/demo-express-js to my GitHub account and clone it.
 ```
 
-Then connect Code Capsules to GitHub and authorize access to the forked repository by following [Connect Version Control](/platform/account/connect-version-control).
+Then connect Code Capsules to GitHub and authorize access to the forked repository by following [Connect Version Control](/platform/account/connect-version-control/).
 
 ## Install the Code Capsules Skill
 

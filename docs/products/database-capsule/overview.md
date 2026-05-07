@@ -1,26 +1,27 @@
 ---
 slug: "/products/database-capsule/overview"
+description: "Deploy and manage database instances on Code Capsules, including MySQL, PostgreSQL, MongoDB, and Redis."
 ---
 
 # Deploy
 
 ## MySQL
 
-- [Django + MySQL](/database/mysql/django-+-mysql)
-- [Flask + MySQL](/database/mysql/flask-+-mysql)
-- [Java + MySQL](/database/mysql/java-+-mysql)
+- [Django + MySQL](/database/mysql/django-+-mysql/)
+- [Flask + MySQL](/database/mysql/flask-+-mysql/)
+- [Java + MySQL](/database/mysql/java-+-mysql/)
 
 ## MongoDB
 
-- [Django + MongoDB](/database/mongodb/django-+-mongodb)
-- [Express + MongoDB](/database/mongodb/express-+-mongodb)
-- [Flask + MongoDB](/database/mongodb/flask-+-mongodb)
+- [Django + MongoDB](/database/mongodb/django-+-mongodb/)
+- [Express + MongoDB](/database/mongodb/express-+-mongodb/)
+- [Flask + MongoDB](/database/mongodb/flask-+-mongodb/)
 
 ## Other Databases
 
-- [Postgres](/database/postgres)
-- [Redis](/database/redis)
+- [Postgres](/database/postgres/)
+- [Redis](/database/redis/)
 
 ## Deployment Guides
 
-- [All Database Deployment Guides](/database)
+- [All Database Deployment Guides](/database/)

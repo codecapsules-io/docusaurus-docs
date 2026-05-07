@@ -1,5 +1,7 @@
 ---
+title: "Full Stack App with Express and HTMx"
 slug: "/tutorials/building-a-full-stack-application-with-express-and-htmx"
+description: "Single page frameworks like Angular, React, and Vue have become the go-to solution for frontend development recently. This shift from traditional..."
 cover: /gitbook-assets/tutorials/express-htmx-cover-v2.jpg
 ---
 
@@ -17,7 +19,7 @@ This is where a new HTML extension called HTMx enters and shines. HTMx gives tra
 
 In this tutorial, we’ll explore the benefits of HTMx by building a full-stack application using Express and HTMx. Our application will be a book recommendation app that supports CRUD functionality. The final app will look a bit like this:
 
-![](/gitbook-assets/tutorials/book-app.png)
+![Book App](/gitbook-assets/tutorials/book-app.png)
 
 ### Overview and Requirements
 

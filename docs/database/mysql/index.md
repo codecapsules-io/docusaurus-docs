@@ -1,5 +1,6 @@
 ---
 slug: "/database/mysql"
+description: "In this tutorial, we'll create a MySQL Data Capsule to provide persistent storage for your applications hosted on Code Capsules."
 ---
 
 # MySQL
@@ -10,7 +11,7 @@ In this tutorial, we'll create a MySQL Data Capsule to provide persistent storag
 
 Log in to your [Code Capsules](https://codecapsules.io) account and navigate to the Space your MySQL Data Capsule will be contained in. Click the yellow `+` button and select the **MySQL Data Capsule** option from the dropdown.
 
-![Create Data Capsule](/gitbook-assets/get-started/create-sql-capsule.png)
+![Create Data Capsule](/gitbook-assets/get-started/create-sql-capsule.jpg)
 
 Choose your payment option, then click the **Create Capsule** button.
 
@@ -68,4 +69,4 @@ con.connect(function(err) {
 
 ```
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/database).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/database/).

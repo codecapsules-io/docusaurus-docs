@@ -1,9 +1,9 @@
 ---
+title: "Deploy Paperclip on Code Capsules"
 slug: "/tutorials/deploy-paperclip-ai-orchestration-on-code-capsules"
 description: >-
-  Deploy Paperclip — the open-source AI agent orchestration platform — on Code
-  Capsules using a Docker Capsule, PostgreSQL Database Capsule, and Persistent
-  Storage Capsule.
+  Deploy Paperclip, the open-source AI agent orchestration platform, on Code
+  Capsules using Docker, PostgreSQL, and Persistent Storage Capsules.
 ---
 
 # Deploy Paperclip AI Orchestration on Code Capsules

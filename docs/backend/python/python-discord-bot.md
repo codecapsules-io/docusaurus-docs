@@ -23,27 +23,27 @@ When you've signed in to Discord, follow the steps below:
 
 1.  Click on the **+** icon in the left toolbar to create a server to contain your channels.
 
-    ![](/gitbook-assets/get-started/plus-icon.png)
+    ![Plus Icon](/gitbook-assets/get-started/plus-icon.png)
 2. Navigate to the [Application Page](https://discord.com/developers/applications).
 3. Click on the **New Application** button.
 4. Give the application a name and click **Create**.
 5.  Go to the **Bot** tab and click **Add Bot**.
 
-    ![](/gitbook-assets/get-started/add-bot.png)
+    ![Add Bot](/gitbook-assets/get-started/add-bot.png)
 6.  Scroll down to **Privileged Gateway Intents** and enable **Message Content Intent**. Click **Save Changes**.
 
 7.  Click **Reset Token**, confirm the reset, then click **Copy** to copy your bot's token.
 
-    ![](/gitbook-assets/get-started/token.png)
+    ![Token](/gitbook-assets/get-started/token.png)
 8.  Go to the **OAuth2/URL Generator** tab and select the **bot** option under the **Scopes** section.
 
-    ![](/gitbook-assets/get-started/bot-option.png)
+    ![Bot Option](/gitbook-assets/get-started/bot-option.jpg)
 9.  Select all the text permission options under the **Bot Permissions** section.
 
-    ![](/gitbook-assets/get-started/text-permissions.png)
+    ![Text Permissions](/gitbook-assets/get-started/text-permissions.png)
 10.  Click the **Copy** button under the **Generated URL** section.
 
-    ![](/gitbook-assets/get-started/url.png)
+    ![Url](/gitbook-assets/get-started/url.png)
 11. Paste the URL you copied in the previous step in another browser tab and add the bot to the server you created in the first step. Click **Continue** to confirm your changes.
 
 After actioning these steps, your bot will now have access to all the channels in the server you added it to.
@@ -58,7 +58,7 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hosting an application on Code Capsules.
+A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 To create a new Capsule for your Space, follow the instructions below:
 
@@ -88,4 +88,4 @@ Confirm your changes by clicking on **Save**, then restart your Capsule by toggl
 
 The bot will be able to respond to messages after Code Capsules finishes building it. When this is done, you can send a message to any channel in the server you added it to, and the bot will echo it back.
 
-If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend).
+If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).

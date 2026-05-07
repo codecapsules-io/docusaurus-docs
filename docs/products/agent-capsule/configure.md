@@ -1,5 +1,6 @@
 ---
 slug: "/products/agent-capsule/configure"
+description: "Configure an Agent Capsule in the Config tab."
 ---
 
 # Configure
@@ -30,7 +31,7 @@ Use the **Run Command** field to specify how to start your app. Leave this field
 
 :::info
 
-If using a [Code Capsules Agent Template](/products/agent-capsule/templates), the production ready command is `npm run start:prod` by default.
+If using a [Code Capsules Agent Template](/products/agent-capsule/templates/), the production ready command is `npm run start:prod` by default.
 
 :::
 

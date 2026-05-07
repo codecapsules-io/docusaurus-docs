@@ -1,5 +1,6 @@
 ---
 slug: "/cli/readme/getting-started/installation-and-usage"
+description: "The Code Capsules CLI is registered as an NPM package. To install the CLI globally, simply run:"
 ---
 
 # Installation and Usage
@@ -28,4 +29,4 @@ codecaps <command> <arguments> [options]
 
 ## Next Steps
 
-Now that you're ready to use the CLI, head over to the [quick start](/cli/readme/getting-started/quick-start) section.
+Now that you're ready to use the CLI, head over to the [quick start](/cli/readme/getting-started/quick-start/) section.

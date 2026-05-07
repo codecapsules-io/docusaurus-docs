@@ -232,7 +232,11 @@ const sidebars: SidebarsConfig = {
         "products/backend-capsule/logs",
         "products/backend-capsule/alerting",
         "products/backend-capsule/add-procfile"
-      ]
+      ],
+      "link": {
+        "type": "doc",
+        "id": "products/backend-capsule/index"
+      }
     },
     {
       "type": "category",

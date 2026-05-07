@@ -49,7 +49,7 @@ Follow the prompts to choose your region and give your Space a name, then click 
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hosting an application on Code Capsules.
+A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 To create a new Capsule for your Space, follow the instructions below:
 
@@ -97,4 +97,4 @@ The next step is to set up a webhook for your bot:
 
 The bot can now respond to messages! Search for your bot on Telegram using the username you assigned it, and start a chat with it. The bot is programmed to respond to `/start` and echo any messages you send it.
 
-If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend).
+If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).

@@ -1,5 +1,6 @@
 ---
 slug: "/platform/spaces/how-do-i-add-remove-a-space"
+description: "To create a new Space, click the yellow + icon on the bottom-left corner of the dashboard and select New Space."
 ---
 
 # Add and Remove Spaces
@@ -23,7 +24,7 @@ To remove a Space, go to the **Details** tab in the Space dashboard and select *
 
 :::warning
 
-You'll need to [remove all Capsules](/platform/capsules/how-do-i-add-remove-stop-capsules) from the Space before it can be deleted.
+You'll need to [remove all Capsules](/platform/capsules/how-do-i-add-remove-stop-capsules/) from the Space before it can be deleted.
 
 :::
 

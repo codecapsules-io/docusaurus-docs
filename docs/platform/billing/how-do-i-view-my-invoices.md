@@ -1,5 +1,6 @@
 ---
 slug: "/platform/billing/how-do-i-view-my-invoices"
+description: "To view your invoices, go to the Invoices tab in the Code Capsules dashboard."
 ---
 
 # View Invoices

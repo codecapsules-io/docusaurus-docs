@@ -1,5 +1,6 @@
 ---
 slug: "/tutorials/white-label-your-app-with-code-capsules"
+description: "A white-label app is a prebuilt program that offers customers the freedom to customize the application without the hassle of developing the core..."
 cover: /gitbook-assets/tutorials/white-label-cover-v2.jpg
 ---
 

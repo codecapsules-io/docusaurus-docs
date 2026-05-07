@@ -1,5 +1,6 @@
 ---
 slug: "/products/database-capsule/backups"
+description: "Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules."
 ---
 
 # Backups

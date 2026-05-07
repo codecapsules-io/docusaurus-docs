@@ -1,5 +1,7 @@
 ---
+title: "MERN Stack Performance Tips"
 slug: "/tutorials/optimizing-performance-in-mern-stack-tips-and-techniques"
+description: "The MERN stack, which stands for MongoDB, Express.js, React, and Node.js, is a robust framework for web application development. To ensure that MERN..."
 cover: /gitbook-assets/tutorials/mern-optimization-cover-v2.jpg
 ---
 

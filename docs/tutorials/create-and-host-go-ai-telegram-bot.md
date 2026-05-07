@@ -1,4 +1,5 @@
 ---
+title: "Host a Go AI Telegram Bot"
 slug: "/tutorials/create-and-host-go-ai-telegram-bot"
 description: >-
   Build a Telegram bot that uses AI to respond to users with a custom
@@ -9,7 +10,7 @@ cover: /gitbook-assets/tutorials/telegram-bot-cover-go-v2.jpg
 # How to Create and Host a Go Telegram Bot on Code Capsules
 
 
-_This guide uses Go. You can find the Node.js version_ [_here_](/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules) _or the Python version_ [_here_](/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules).
+_This guide uses Go. You can find the Node.js version_ [_here_](/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules/) _or the Python version_ [_here_](/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules/).
 
 In this tutorial we'll create a [Telegram bot](https://core.telegram.org/bots/) from scratch using [Go](https://go.dev/) and host it in a [new Capsule](https://app.codecapsules.io/new/capsule?capsuleType=backend). The bot will start with the basic functionality of checking the current air temperature of a given city. Then, we'll extend its functionality by adding AI capabilities using Google AI Studio.
 
@@ -421,7 +422,7 @@ Check your terminal for any error logs if something doesn't work. Once you've ve
 
 We will now deploy the bot on Code Capsules and make it more efficient by using webhooks instead of polling.
 
-Follow [this quick guide](/backend/go) to set up your Code Capsules account and create a new Capsule.
+Follow [this quick guide](/backend/go/) to set up your Code Capsules account and create a new Capsule.
 
 Once it is up and running, navigate to the **Config** tab of your Capsule and add a `BOT_TOKEN` environment variable, giving it the value of your bot's access token. Similarly, add your `WEATHER_API_KEY` and `GEMINI_API_KEY`.
 

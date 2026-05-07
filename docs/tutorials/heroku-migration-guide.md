@@ -1,5 +1,6 @@
 ---
 slug: "/tutorials/heroku-migration-guide"
+description: "This guide demonstrates how to move a suite of applications running on the Heroku platform as a service (PaaS) to Code Capsules."
 cover: /gitbook-assets/tutorials/heroku-migration-cover-v2.jpg
 ---
 
@@ -16,7 +17,7 @@ The guide walks you through the Code Capsules equivalents of Heroku components, 
 
 Even if you don't intend to move to Code Capsules, this guide should help you create a general migration plan for most similar providers.
 
-- [How to Migrate from Heroku to Code Capsules](/tutorials/heroku-migration-guide)
+- [How to Migrate from Heroku to Code Capsules](/tutorials/heroku-migration-guide/)
   - [Document Your Heroku System](#document-your-heroku-system)
   - [An Example Full-Stack Application](#an-example-full-stack-application)
   - [Reviewing the App on Heroku](#reviewing-the-app-on-heroku)
@@ -154,11 +155,11 @@ Our example Heroku system consists of three apps, shown below, with one database
 
 In this section you'll learn how to deploy the app (and data) we created in Heroku on Code Capsules.
 
-First we create a Code Capsules [Space](/platform/platform). Rather than the Heroku way of grouping applications by a globally unique name, Code Capsules allows you to group all components of an application inside a Space. We'll call our space `migrate`.
+First we create a Code Capsules [Space](/platform/platform/). Rather than the Heroku way of grouping applications by a globally unique name, Code Capsules allows you to group all components of an application inside a Space. We'll call our space `migrate`.
 
 ![Code Capsules Space](/gitbook-assets/tutorials/ccspace.webp)
 
-Next, create a new Capsule for each component you have in Heroku. From your Space, click the yellow `+` icon at the bottom left of the screen to create a new Capsule. Select a [Capsule type](/frontend) and follow the prompts provided. Note that a frontend Capsule can serve any JavaScript framework, not just the ones shown in the **Quickstart** tab.
+Next, create a new Capsule for each component you have in Heroku. From your Space, click the yellow `+` icon at the bottom left of the screen to create a new Capsule. Select a [Capsule type](/frontend/) and follow the prompts provided. Note that a frontend Capsule can serve any JavaScript framework, not just the ones shown in the **Quickstart** tab.
 
 ![Code Capsules new capsule](/gitbook-assets/tutorials/ccnewcapsule.webp)
 
@@ -204,7 +205,7 @@ If your database is only a few MB, however, you can connect to it directly and b
 pg_dump -Fc --no-acl --no-owner "$(curl -s https://api.heroku.com/apps/migrate-backend/config-vars -H "Authorization: Bearer $KEY" -H "Accept: application/vnd.heroku+json; version=3" | jq -r '.DATABASE_URL')" -f backup.dump
 ```
 
-Code Capsules keeps databases private rather than exposing a public URL. You connect through a proxy using [Code Capsules's CLI](/cli/readme/getting-started/quick-start). While you don't have to install the CLI permanently on your machine, you do need Node.js installed on your machine (or be able to run Node.js through Docker).
+Code Capsules keeps databases private rather than exposing a public URL. You connect through a proxy using [Code Capsules's CLI](/cli/readme/getting-started/quick-start/). While you don't have to install the CLI permanently on your machine, you do need Node.js installed on your machine (or be able to run Node.js through Docker).
 
 We used the command below to run Node.js in a Docker container (to isolate the CLI dependencies from your local machine), log in to Code Capsules, create a proxy connection to the PostgreSQL database, and restore the database.
 
@@ -361,7 +362,7 @@ We've discussed how to move common system components to Code Capsules, but you m
 - **Domains**: Each Capsule exposes a URL in the **Domains** tab you can use to create a CNAME record with your DNS provider, so you can use your company's domain name.
 - **QA environments**: Code Capsules uses Git branches for environment management — point a separate Capsule at your QA branch to create a test environment. This keeps your deployment configuration in Git rather than in a platform-specific pipeline tool.
 - **Deployments**: Code Capsules builds and deploys automatically when you push to your linked branch. You can choose between a rolling update (new instance starts before the old one stops) or a re-create strategy (old instance is replaced immediately) in the Capsule settings. Auto-deploy can be turned off if you prefer to trigger builds manually. If you use an external CI tool like GitHub Actions, configure it to run on the same branch so that a failing CI blocks the merge and prevents a broken deploy from reaching Code Capsules.
-- **CLI automation**: Code Capsules provides a web interface for infrastructure management, along with a [CLI](/cli/readme/getting-started/quick-start) for tasks like database access.
+- **CLI automation**: Code Capsules provides a web interface for infrastructure management, along with a [CLI](/cli/readme/getting-started/quick-start/) for tasks like database access.
 - **Monitoring, logs, and dashboards**: Each Capsule provides built-in log streaming, resource usage graphs (CPU, memory, disk), and health status in the web dashboard. Logs are available in real-time and are retained for review. If you need to forward logs to an external service like Datadog, Grafana, or an ELK stack, you can configure your application to send logs via HTTP or syslog to your provider of choice.
 - **Backups**: You can configure a Code Capsules database to automatically backup your database regularly, and you can create manual backups at any time. Backups can be restored with one click.
 - **Scaling**: You can adjust the RAM, CPU, disk space, and number of instances for each Capsule to match your workload.

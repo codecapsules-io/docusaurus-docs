@@ -15,10 +15,10 @@ const footerSections = [
     title: 'Products',
     links: [
       { label: 'Backend Capsule', href: '/products/backend-capsule/' },
-      { label: 'Frontend Capsule', href: '/products/frontend-capsule/deploy' },
-      { label: 'Database Capsule', href: '/products/database-capsule/overview' },
-      { label: 'WordPress Capsule', href: '/products/wordpress-capsule/deploy' },
-      { label: 'AI Agent Capsule', href: '/products/agent-capsule/deploy' },
+      { label: 'Frontend Capsule', href: '/products/frontend-capsule/deploy/' },
+      { label: 'Database Capsule', href: '/products/database-capsule/overview/' },
+      { label: 'WordPress Capsule', href: '/products/wordpress-capsule/deploy/' },
+      { label: 'AI Agent Capsule', href: '/products/agent-capsule/deploy/' },
       { label: 'MongoDB Capsule', href: 'https://www.codecapsules.io/use-case/mongodb' },
     ],
   },
@@ -34,9 +34,9 @@ const footerSections = [
   {
     title: 'Popular Tutorials',
     links: [
-      { label: 'Deploy a Python Telegram Bot', href: '/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules' },
-      { label: 'Deploy a Node.js Telegram Bot', href: '/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules' },
-      { label: 'Deploy a TypeScript Telegram Bot', href: '/tutorials/create-and-host-go-ai-telegram-bot' },
+      { label: 'Deploy a Python Telegram Bot', href: '/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules/' },
+      { label: 'Deploy a Node.js Telegram Bot', href: '/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules/' },
+      { label: 'Deploy a TypeScript Telegram Bot', href: '/tutorials/create-and-host-go-ai-telegram-bot/' },
     ],
   },
 ];
@@ -93,7 +93,7 @@ function Footer(): ReactNode {
                 >
                   <img
                     src={`https://api.iconify.design/${social.icon}.svg?color=%231a1a1a`}
-                    alt=""
+                    alt={social.label}
                     className="cc-footer__social-icon"
                   />
                 </a>

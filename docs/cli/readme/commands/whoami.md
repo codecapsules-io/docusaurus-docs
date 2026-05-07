@@ -1,5 +1,6 @@
 ---
 slug: "/cli/readme/commands/whoami"
+description: "Print the user currently logged into the CLI."
 ---
 
 # whoami

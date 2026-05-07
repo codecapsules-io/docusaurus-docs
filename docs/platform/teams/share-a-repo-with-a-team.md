@@ -1,10 +1,11 @@
 ---
 slug: "/platform/teams/share-a-repo-with-a-team"
+description: "If you've already linked your Code Capsules account to a version control provider, you can share access to your repos with your Teams."
 ---
 
 # Share a Repo With a Team
 
-If you've already [linked your Code Capsules account to a version control provider](/platform/account/connect-version-control), you can share access to your repos with your Teams.
+If you've already [linked your Code Capsules account to a version control provider](/platform/account/connect-version-control/), you can share access to your repos with your Teams.
 
 Click **Share repositories with Team**, toggle on the repos to share with your Team, then click **Share Repos**.
 

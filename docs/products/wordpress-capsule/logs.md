@@ -1,5 +1,6 @@
 ---
 slug: "/products/wordpress-capsule/logs"
+description: "View your Capsule's logs to monitor activity and debug issues."
 ---
 
 # Logs

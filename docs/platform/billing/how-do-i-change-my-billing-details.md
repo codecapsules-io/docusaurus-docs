@@ -1,5 +1,6 @@
 ---
 slug: "/platform/billing/how-do-i-change-my-billing-details"
+description: "Change your billing details in the Billing tab in the Code Capsules dashboard."
 ---
 
 # Change Billing Details

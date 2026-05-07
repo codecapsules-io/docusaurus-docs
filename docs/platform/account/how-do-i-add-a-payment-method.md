@@ -1,5 +1,6 @@
 ---
 slug: "/platform/account/how-do-i-add-a-payment-method"
+description: "Code Capsules accepts Visa and Mastercard."
 ---
 
 # Add Payment Method
@@ -12,4 +13,4 @@ To add a card to your account, click **Billing** in the top navigation bar, then
 
 Enter your card details and click **Confirm Payment Method**.
 
-![Enter Card Details](/gitbook-assets/platform/card-details.png)
+![Enter Card Details](/gitbook-assets/platform/card-details.jpg)

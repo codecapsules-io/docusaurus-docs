@@ -1,5 +1,6 @@
 ---
 slug: "/products/storage-capsule/configure"
+description: "To configure your Persistent Storage Capsule, navigate to the \"Details\" tab."
 ---
 
 # Configure

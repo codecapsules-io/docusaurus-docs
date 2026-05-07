@@ -1,5 +1,6 @@
 ---
 slug: "/products/storage-capsule/backups"
+description: "Configure manual and automatic backups for your Storage Capsule to protect uploaded media and files."
 ---
 
 # Backups

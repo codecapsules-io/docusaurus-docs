@@ -1,5 +1,6 @@
 ---
 slug: "/products/backend-capsule/scale"
+description: "You can allocate more resources to a Capsule as your application's traffic and computational needs change."
 ---
 
 # Scale

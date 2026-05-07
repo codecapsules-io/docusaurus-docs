@@ -1,5 +1,6 @@
 ---
 slug: "/products/storage-capsule/deploy"
+description: "You need persistent storage for your application, but you don't want a full-blown database."
 ---
 
 # Deploy
@@ -22,7 +23,7 @@ Log in to your Code Capsules account and navigate to the Space where you want to
 
 Click the yellow **+** button on the bottom-left corner of the dashboard. Select **New Capsule** and then **Persistent Storage** from the dropdown.
 
-![Create Data Capsule](/gitbook-assets/products/create-persistent-capsule.png)
+![Create Data Capsule](/gitbook-assets/products/create-persistent-capsule.jpg)
 
 Select your payment method, then click **Create Capsule**.
 

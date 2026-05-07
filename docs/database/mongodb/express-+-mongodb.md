@@ -17,7 +17,7 @@ Sign in to GitHub, and fork the example application by clicking **Fork** at the 
 
 ## Create the Capsules
 
-A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hosting an application on Code Capsules.
+A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 Navigate to the Spaces tab and open the Space you'll be using.
 
@@ -54,4 +54,4 @@ You can now view the application after the two capsules have been connected. To 
 
 ![Deployed App](/gitbook-assets/get-started/cc-express-mongo-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/database).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/database/).

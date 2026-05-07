@@ -1,5 +1,7 @@
 ---
+title: "PHP Book Recommendations App"
 slug: "/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker"
+description: "PHP is one of the first technologies that made dynamic web applications possible, and it’s still widely used today. In this tutorial, we’ll look at how..."
 cover: /gitbook-assets/tutorials/php-book-app-cover-v2.jpg
 ---
 
@@ -338,7 +340,7 @@ $database_name = $_ENV["PERSISTENT_STORAGE_DIR"] ."/books.db";
 
 In Code Capsules, the `PERSISTENT_STORAGE_DIR` environment variable will point to the Data Capsule once the two capsules are bound together.
 
-Push all of your code changes up to your GitHub repository and ensure that Code Capsules is authorized to read that repository. You can reference this [deployment guide](/backend/docker/flask-docker-app) to see how to do so in greater detail.
+Push all of your code changes up to your GitHub repository and ensure that Code Capsules is authorized to read that repository. You can reference this [deployment guide](/backend/docker/flask-docker-app/) to see how to do so in greater detail.
 
 Now create a new Data Capsule and a Docker Capsule in a single Space in Code Capsules. For the Data capsule, choose “A persistent storage mounted directly to your capsule”.
 

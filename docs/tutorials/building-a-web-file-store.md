@@ -1,5 +1,6 @@
 ---
 slug: "/tutorials/building-a-web-file-store"
+description: "An online file storage drive you can access from all your devices is a very useful tool. It’s the basis of services like Dropbox and Google Drive."
 cover: /gitbook-assets/tutorials/file-store-cover-v2.jpg
 ---
 
@@ -12,7 +13,7 @@ Code Capsules’s File System Data Capsule mounts as a standard file system to a
 
 In this tutorial, we’ll build a basic web interface to upload, download and delete files, secured with a simple, single-user authentication scheme.
 
-We’ll use a [Backend Capsule](/products/backend-capsule/deploy) with a file store Data Capsule, [Node.js](https://nodejs.org/) as the programming language, and [Express](http://expressjs.com/) as the web framework.
+We’ll use a [Backend Capsule](/products/backend-capsule/deploy/) with a file store Data Capsule, [Node.js](https://nodejs.org/) as the programming language, and [Express](http://expressjs.com/) as the web framework.
 
 ### Overview and Requirements <a href="#overview-and-requirements" id="overview-and-requirements"></a>
 
@@ -87,9 +88,9 @@ To use the Data Capsule with the Backend Capsule, we need to link the two. Head 
 \
 After binding the capsules, scroll up to the section “Capsule Parameters”. You’ll notice that an environment variable, `PERSISTENT_STORAGE_DIR`, is automatically added with the mount point. We’ll use this environment variable in the code to access the storage drive.\\
 
-![](/gitbook-assets/tutorials/building-a-web-file-store/env-variables-persistent-storage.png)
+![Env Variables Persistent Storage](/gitbook-assets/tutorials/building-a-web-file-store/env-variables-persistent-storage.png)
 
-![](/gitbook-assets/root/bind-persistent-1.png)
+![Bind Persistent 1](/gitbook-assets/root/bind-persistent-1.png)
 
 ### Writing the Web Files Code <a href="#writing-the-web-files-code" id="writing-the-web-files-code"></a>
 
@@ -240,7 +241,7 @@ This is a good point to commit the code to Git, and test the new deployment on C
 \
 The upload control may look slightly different depending on the web browser and operating system you use. Try choosing a file and uploading it, and you should see it appear in the browser.
 
-![](/gitbook-assets/tutorials/building-a-web-file-store/upload-section.png)
+![Upload Section](/gitbook-assets/tutorials/building-a-web-file-store/upload-section.png)
 
 #### Downloading a File
 
@@ -283,7 +284,7 @@ Now we need a way to call this route from the front end. Open the `index.hbs` fi
 
 Commit these changes, and wait for Code Capsules to redeploy the site. If you navigate to the site now, you should see the file you uploaded earlier as a hyperlink. Clicking on the link should download the file.\\
 
-![](/gitbook-assets/tutorials/building-a-web-file-store/download-file.png)
+![Download File](/gitbook-assets/tutorials/building-a-web-file-store/download-file.png)
 
 #### Deleting a File
 
@@ -355,7 +356,7 @@ Now let’s hook this function up to the button we added for each file. We’ll 
 
 Commit these changes, and wait for Code Capsules to redeploy the site. Then navigate to the site and try out the “Delete” button next to the filename.\\
 
-![](/gitbook-assets/tutorials/building-a-web-file-store/file-delete.png)
+![File Delete](/gitbook-assets/tutorials/building-a-web-file-store/file-delete.png)
 
 #### Adding Authentication
 
@@ -436,7 +437,7 @@ Head over to the “Config” tab on your backend Code Capsule, and add 2 new en
 \
 **Note:** _While this method of storing user credentials is appropriate for a small, single-user hobby project, it is not sufficient for production with customer credentials. Look to implementing a more robust user store, with password hashing and salting, or using a third-party authentication service such as a social network or an OAuth provider_
 
-![](/gitbook-assets/tutorials/building-a-web-file-store/username-env.png)
+![Username Env](/gitbook-assets/tutorials/building-a-web-file-store/username-env.png)
 
 Passport offers many other [authentication strategies](https://www.passportjs.org/features/), from OAuth 2.0 strategies allowing authentication through Facebook, Google, Twitter and other OAuth 2.0 providers, to API authentication strategies such as Bearer Tokens.
 
@@ -497,7 +498,7 @@ We’re done with authentication. Commit these changes, and wait for Code Capsul
 \
 Congratulations, you have completed building a personal web drive using [Code Capsules](https://codecapsules.io/) and [Node.js](https://nodejs.org/)!
 
-![](/gitbook-assets/tutorials/building-a-web-file-store/auth.png)
+![Auth](/gitbook-assets/tutorials/building-a-web-file-store/auth.png)
 
 ### Next Steps <a href="#next-steps" id="next-steps"></a>
 

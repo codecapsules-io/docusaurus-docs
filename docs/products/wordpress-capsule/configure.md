@@ -1,5 +1,6 @@
 ---
 slug: "/products/wordpress-capsule/configure"
+description: "To configure your WordPress Capsule, navigate to the Config tab."
 ---
 
 # Configure

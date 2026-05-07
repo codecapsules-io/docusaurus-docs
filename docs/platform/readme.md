@@ -1,5 +1,6 @@
 ---
 slug: "/platform/readme"
+description: "Improved builds UI, we now include time the build took as well as branch and commit hash details"
 ---
 
 # Release Notes
@@ -13,21 +14,21 @@ slug: "/platform/readme"
 * Private enterprise customers: GPU flag to ensure your workloads consume GPU compute
 * Performance improvements to egress networking
 * General bug fixes and improvements across the site
-* New agent capsule type: [build and deploy your langchain based agents](/products/agent-capsule/deploy)
+* New agent capsule type: [build and deploy your langchain based agents](/products/agent-capsule/deploy/)
 * Improvements to Postgres data capsule horizontal scaling
 * Capsules shouldn't rebuild on certain config changes like port and environment variables, it will just restart the capsule
 * Improvements to instance restarts, previously duplicate restarts occurred
 
 ### November 2025
 
-* Our new CLI has been released. Check it out [here](/cli).
+* Our new CLI has been released. Check it out [here](/cli/).
 * Ability to proxy and connect to your deployed workloads via the cli, allowing you to debug services or access your databases from your local machine
 * Fixed a bug when trying to scale storage down (this is not possible)
 * Fixed a bug when trying to scale databases horizontally, the correct replicas are created without any issues
 
 ### October 2025
 
-* New and improved alerting. Check it out [here](/products/database-capsule/configure).
+* New and improved alerting. Check it out [here](/products/database-capsule/configure/).
 * Ability to get email notifications for any workload alerts like OOM, too much CPU being used, unexpected app crashes, etc.
 
 ### September 2025

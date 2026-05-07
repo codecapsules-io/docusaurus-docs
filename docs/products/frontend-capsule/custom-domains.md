@@ -1,5 +1,6 @@
 ---
 slug: "/products/frontend-capsule/custom-domains"
+description: "Each application deployed on Code Capsules is assigned a default domain in the format capsulename.xxxx.codecapsules.co.za."
 ---
 
 # Custom Domains

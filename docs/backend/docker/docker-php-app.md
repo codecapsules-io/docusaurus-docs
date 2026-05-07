@@ -25,7 +25,7 @@ If you've just signed up for an account, you'll be directed to a welcome page on
 
 Alternatively, if you're signing in again, click on the **Spaces** tab.
 
-Code Capsules gives every account a Personal Team by default. A Team is an environment for you to manage your Spaces and Capsules. For a better understanding of Teams, Spaces, and Capsules, take a look at [our explanation](/platform/platform).
+Code Capsules gives every account a Personal Team by default. A Team is an environment for you to manage your Spaces and Capsules. For a better understanding of Teams, Spaces, and Capsules, take a look at [our explanation](/platform/platform/).
 
 ## Create a Space for Your App
 
@@ -42,7 +42,7 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hosting an application on Code Capsules.
+A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 1. Choose **Docker Capsule**, your Team, and Space.
 2. Choose your payment plan.
@@ -69,4 +69,4 @@ Once the build is complete, click the **URL** link in the **Details** tab, and y
 
 ![Deployed App](/gitbook-assets/get-started/docker-php.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).
