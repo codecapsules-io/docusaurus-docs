@@ -19,7 +19,7 @@ Three groups of metrics are exposed:
 |---|---|---|
 | nginx exporter | `:9113` | Request throughput, active connections, nginx worker state |
 | PHP-FPM exporter | `:9253` | Worker pool utilisation, queue depth, request rate |
-| WordPress metrics | internal | Application-level metrics (autoloaded options, active plugins, cron queue) |
+| WordPress metrics | internal | Application-level metrics (content counts, autoloaded options) |
 
 All exporters are bound internally and scraped by the platform — they are not exposed to public traffic.
 
@@ -81,22 +81,21 @@ See [Performance](/products/wordpress-capsule/performance/) for worker pool sizi
 
 ## WordPress Application Metrics
 
-WordPress-level metrics are collected by a lightweight PHP endpoint running inside the container. They are scraped alongside the FPM exporter.
+WordPress-level metrics are collected by a lightweight PHP endpoint running inside the container. They are scraped by the platform from inside the pod network.
 
 | Metric | Description |
 |---|---|
-| `wordpress_autoloaded_options_bytes` | Total size of autoloaded wp_options entries |
-| `wordpress_autoloaded_options_count` | Number of autoloaded options |
-| `wordpress_active_plugins_total` | Number of active plugins |
-| `wordpress_scheduled_events_total` | Number of pending WP-Cron events |
-| `wordpress_db_queries_total` | Database queries made during the metrics collection (proxy for DB health) |
-| `wordpress_info` | WordPress version and PHP version as labels |
+| `wordpress_published_posts_total` | Number of published posts |
+| `wordpress_published_pages_total` | Number of published pages |
+| `wordpress_approved_comments_total` | Number of approved comments |
+| `wordpress_users_total` | Number of registered users |
+| `wordpress_autoloaded_options_total` | Number of autoloaded option rows in `wp_options` |
+| `wordpress_autoloaded_options_bytes` | Total byte size of all autoloaded options |
 
 ### Key signals
 
-- `wordpress_autoloaded_options_bytes` > 1,000,000 (1 MB) → autoloaded options bloat; investigate which plugins are contributing
-- `wordpress_scheduled_events_total` growing without bound → cron jobs are not running or are failing
-- `wordpress_active_plugins_total` unusually high → audit plugins for redundancy
+- `wordpress_autoloaded_options_bytes` > 5,000,000 (5 MB) → autoloaded options bloat; investigate which plugins are contributing
+- `wordpress_autoloaded_options_total` > 1,000 rows → high option count, likely from multiple poorly coded plugins
 
 To identify the largest autoloaded options:
 
@@ -115,11 +114,28 @@ LIMIT 20;
 | Alert | Condition | Severity |
 |---|---|---|
 | FPM queue building | `phpfpm_listen_queue > 0` for 2 minutes | Warning |
-| FPM workers exhausted | `phpfpm_max_children_reached_total` rate > 0 | Warning |
+| FPM workers exhausted | rate of `phpfpm_max_children_reached_total` > 0 | Warning |
 | No idle FPM workers | `phpfpm_idle_processes == 0` for 5 minutes | Critical |
-| Autoloaded options bloat | `wordpress_autoloaded_options_bytes > 1000000` | Warning |
-| Cron queue growing | `wordpress_scheduled_events_total > 50` | Warning |
-| High connection count | `nginx_connections_active > 80% of limit` | Warning |
+| Autoloaded options bloat | `wordpress_autoloaded_options_bytes > 5000000` | Warning |
+| High connection count | `nginx_connections_active > 200` | Warning |
+
+Example Prometheus alert rules:
+
+```yaml
+- alert: FPMWorkersExhausted
+  expr: phpfpm_listen_queue > 0
+  for: 1m
+
+- alert: FPMMaxChildrenHit
+  expr: increase(phpfpm_max_children_reached_total[5m]) > 0
+
+- alert: FPMNoIdleWorkers
+  expr: phpfpm_idle_processes == 0
+  for: 2m
+
+- alert: WordPressAutoloadBloat
+  expr: wordpress_autoloaded_options_bytes > 5e6
+```
 
 Configure alerts in the **Alerting** tab of your Capsule. See [Alerting](/products/wordpress-capsule/alerting/) for setup instructions.
 
@@ -129,9 +145,10 @@ Configure alerts in the **Alerting** tab of your Capsule. See [Alerting](/produc
 
 When `DEBUG_HEADERS=true` is set, nginx adds an `X-Cache` header to each response (`HIT`, `MISS`, `BYPASS`, `EXPIRED`). Use this during debugging to verify cache behaviour.
 
-For ongoing cache performance monitoring, track the ratio of PHP requests to total nginx requests using the FPM and nginx metrics together:
+For ongoing cache performance monitoring, track the ratio of PHP requests to total nginx requests:
 
-- High `phpfpm_accepted_connections_total` relative to `nginx_http_requests_total` → low cache hit rate; review your `CACHE_STRATEGY` setting
+- If `phpfpm_accepted_connections_total` is close to `nginx_http_requests_total`, the cache hit rate is low. Review your `CACHE_TTL_SECONDS` setting.
+- If there is a large gap (nginx serves many more requests than FPM handles), the cache is working effectively.
 
 See [Caching](/products/wordpress-capsule/caching/) for cache configuration options.
 

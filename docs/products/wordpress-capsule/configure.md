@@ -175,9 +175,7 @@ See [Security](/products/wordpress-capsule/security/) for the full security refe
 
 | Variable | Default | Description |
 |---|---|---|
-| `CACHE_STRATEGY` | `standard` | Preset: `standard` (60s), `aggressive` (600s), `off` |
-| `CACHE_TTL_SECONDS` | from strategy | Override cache TTL in seconds |
-| `CACHE_ENABLED` | `true` | Set to `false` to disable the nginx page cache |
+| `CACHE_TTL_SECONDS` | unset (disabled) | Page cache TTL in seconds. Must be a positive integer. Unset to disable. |
 | `DEBUG_HEADERS` | `false` | Expose `X-Cache` header for cache diagnostics |
 
 See [Caching](/products/wordpress-capsule/caching/) for the full caching reference.
@@ -224,10 +222,8 @@ See [Cron](/products/wordpress-capsule/cron/) for the full cron reference.
 | `WORDPRESS_CUSTOM_INI` | — | PHP ini overrides (newline-separated) |
 | `WORDPRESS_FPM_CONF` | — | PHP-FPM pool overrides (ini format) |
 | `WORDPRESS_CONFIG_EXTRA` | — | PHP constants injected into wp-config.php |
-| `CACHE_STRATEGY` | `standard` | Page cache preset |
-| `CACHE_TTL_SECONDS` | from strategy | Page cache TTL override |
-| `CACHE_ENABLED` | `true` | Enable/disable page cache |
-| `DEBUG_HEADERS` | `false` | Expose X-Cache response header |
+| `CACHE_TTL_SECONDS` | unset (disabled) | Page cache TTL in seconds. Unset to disable caching. |
+| `DEBUG_HEADERS` | `false` | Expose `X-Cache` response header |
 | `DISABLE_PUBLIC_WP_CRON` | `true` | Restrict wp-cron.php to internal access |
 | `XMLRPC_ENABLED` | `false` | Enable XML-RPC endpoint |
 | `CSP_HEADER` | permissive | Content-Security-Policy header value |

@@ -86,13 +86,53 @@ wp search-replace 'https://old-domain.com' 'https://new-domain.com' --all-tables
 
 ## Real Client IP
 
-Because all traffic passes through Traefik before reaching nginx, the raw `REMOTE_ADDR` inside the capsule is the Traefik IP, not the visitor's IP. The capsule is configured to extract the real client IP from the `X-Forwarded-For` header automatically.
+Because all traffic passes through Traefik before reaching nginx, the raw TCP source address inside the capsule is the Traefik IP, not the visitor's IP. Nginx resolves the real client IP automatically from the `X-Forwarded-For` header before passing the request to PHP.
 
-WordPress and PHP see the real visitor IP in:
-- `$_SERVER['REMOTE_ADDR']`
-- `$_SERVER['HTTP_X_REAL_IP']`
+### What PHP and WordPress receive
 
-This means rate limiting, IP-based security plugins, and geo-restriction plugins work correctly with the real visitor IP.
+The real visitor IP is available in PHP via:
+
+```php
+$_SERVER['REMOTE_ADDR']       // real visitor IP — use this
+$_SERVER['HTTP_X_REAL_IP']    // same real IP, explicitly set by nginx
+$_SERVER['HTTP_X_FORWARDED_FOR'] // full proxy chain (may include intermediate proxies)
+```
+
+`REMOTE_ADDR` is the correct variable to use in WordPress and PHP code. Nginx resolves `X-Forwarded-For` and writes the result into `REMOTE_ADDR` before the request reaches PHP — so you do not need to parse `X-Forwarded-For` yourself.
+
+### Using client IP in WordPress
+
+Most WordPress plugins and functions that rely on client IP work without any configuration:
+
+```php
+// WordPress core — returns real visitor IP
+$ip = $_SERVER['REMOTE_ADDR'];
+
+// WooCommerce
+$ip = WC_Geolocation::get_ip_address();
+
+// Any security plugin using REMOTE_ADDR will work correctly
+```
+
+### IP-based features that work out of the box
+
+- **WooCommerce geolocation** — uses `REMOTE_ADDR` to detect country for shipping and tax
+- **Security plugins** (Wordfence, iThemes Security) — see real IPs for lockout and alerting
+- **Rate limiting** — the built-in nginx rate limiting zones use the real client IP
+- **Geo-restriction plugins** — receive the correct visitor country
+
+### If you are behind an additional proxy or CDN
+
+If you add an external CDN (Cloudflare, Fastly) in front of the capsule, the CDN's IP will be in `X-Forwarded-For` rather than the visitor's IP. In this case, configure the CDN to set a trusted IP header (e.g. `CF-Connecting-IP` for Cloudflare) and read it in WordPress:
+
+```php
+// For Cloudflare — add to wp-config.php via WORDPRESS_CONFIG_EXTRA
+if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
+    $_SERVER['REMOTE_ADDR'] = $_SERVER['HTTP_CF_CONNECTING_IP'];
+}
+```
+
+Many CDN providers also offer a WordPress plugin that handles this automatically.
 
 ---
 

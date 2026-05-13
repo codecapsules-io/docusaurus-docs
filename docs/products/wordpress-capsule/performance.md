@@ -219,23 +219,23 @@ Database query results can be cached in memory using a Redis object cache. See [
 ## Checklist — Performance by Site Type
 
 ### Blog / Brochure site
-- `CACHE_STRATEGY=standard` (default) ✓
+- `CACHE_TTL_SECONDS=60` — protects against traffic spikes, content stays fresh ✓
 - `opcache.validate_timestamps = 0` for production ✓
 - Default FPM pool is sufficient
 
 ### WooCommerce store
-- `CACHE_STRATEGY=standard` — cart/checkout are automatically bypassed ✓
+- `CACHE_TTL_SECONDS=60` — cart/checkout are automatically bypassed ✓
 - Increase `pm.max_children` (WooCommerce uses more memory per worker)
 - Enable Redis object cache for product/category query caching
 - Set `max_execution_time = 120` for import/export operations
 
 ### High-traffic content site
-- `CACHE_STRATEGY=aggressive` (600s TTL)
+- `CACHE_TTL_SECONDS=600` — 10-minute TTL for mostly-static content
 - `pm = static` with max workers for your RAM
 - `opcache.validate_timestamps = 0`
 - Consider an external CDN in front of the capsule
 
 ### Membership / LMS site
-- `CACHE_STRATEGY=off` — member content must not be cached
+- Leave `CACHE_TTL_SECONDS` unset — member content must not be cached
 - Increase `memory_limit` (membership plugins are memory-heavy)
 - Enable Redis object cache to compensate for no page cache
