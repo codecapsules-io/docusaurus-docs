@@ -1,12 +1,13 @@
 ---
 slug: "/platform/teams/what-is-a-team"
+description: "Teams, Spaces, and Capsules form the foundation of Code Capsules."
 ---
 
 # What Is a Team?
 
 ![Teams contain Spaces and Spaces contain Capsules](/gitbook-assets/platform/teamspacecapsule.png)
 
-Teams, [Spaces](/platform/spaces/what-is-a-space), and [Capsules](/platform/capsules/what-is-a-capsule) form the foundation of [Code Capsules](https://codecapsules.io).
+Teams, [Spaces](/platform/spaces/what-is-a-space/), and [Capsules](/platform/capsules/what-is-a-capsule/) form the foundation of [Code Capsules](https://codecapsules.io).
 
 A **Team** is a group of developers who share access to the same Spaces and Capsules for easy collaboration.
 

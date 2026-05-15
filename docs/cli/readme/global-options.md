@@ -1,5 +1,6 @@
 ---
 slug: "/cli/readme/global-options"
+description: "The CLI allows the use of the following optional global options:"
 ---
 
 # Global Options

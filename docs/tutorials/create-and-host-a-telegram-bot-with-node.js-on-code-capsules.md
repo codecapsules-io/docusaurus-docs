@@ -1,4 +1,5 @@
 ---
+title: "Host a Node.js Telegram Bot"
 slug: "/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules"
 description: >-
   Social media bots allow you to automate responses and reactions to posts or
@@ -9,13 +10,13 @@ cover: /gitbook-assets/tutorials/telegram-bot-cover-nodejs-v2.jpg
 # How to Create and Host a Node.js Telegram Bot on Code Capsules
 
 
-_This guide uses Node.js. You can find the Python version_ [_here_](/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules) _or the Go version_ [_here_](/tutorials/create-and-host-go-ai-telegram-bot).
+_This guide uses Node.js. You can find the Python version_ [_here_](/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules/) _or the Go version_ [_here_](/tutorials/create-and-host-go-ai-telegram-bot/).
 
 In this tutorial, we'll extend a boilerplate Express application on Code Capsules to create a Telegram bot in [Node.js](https://nodejs.org/en/about/) that tracks and responds with current Ethereum prices.
 
 ### Getting Started
 
-Navigate to the [Express.js deployment guide](/backend/node.js/express.js) and follow the instructions outlined there to deploy the boilerplate application. You will need to clone the forked repository to your local development environment to extend the functionality of the boilerplate application and make a Telegram bot.
+Navigate to the [Express.js deployment guide](/backend/node.js/express.js/) and follow the instructions outlined there to deploy the boilerplate application. You will need to clone the forked repository to your local development environment to extend the functionality of the boilerplate application and make a Telegram bot.
 
 We need to install the `node_modules` for the boilerplate application, before we can run it locally. Navigate to the project's root folder in a terminal or command prompt window and run `npm install` there.
 

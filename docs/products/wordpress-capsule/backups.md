@@ -1,5 +1,6 @@
 ---
 slug: "/products/wordpress-capsule/backups"
+description: "WordPress stores content in two locations:"
 ---
 
 # Backups
@@ -13,5 +14,5 @@ WordPress production sites require backups for both locations to ensure complete
 
 Code Capsules provides infrastructure-level backups through Database and Storage Capsules. Use our guides to set up backups for your WordPress site:
 
-- **[Database Capsule Backups:](/products/database-capsule/backups)** Configure retention and test restoration.
-- **[Storage Capsule Backups:](/products/storage-capsule/backups)** Manage file backup settings.
+- **[Database Capsule Backups:](/products/database-capsule/backups/)** Configure retention and test restoration.
+- **[Storage Capsule Backups:](/products/storage-capsule/backups/)** Manage file backup settings.

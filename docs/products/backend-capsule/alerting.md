@@ -5,7 +5,7 @@ description: >-
   health and performance of your Capsules.
 ---
 
-# Notifications (Coming Soon)
+# Notifications
 
 ![Notification Settings](/gitbook-assets/products/alert-settings.png)
 

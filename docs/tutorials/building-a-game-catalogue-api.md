@@ -1,5 +1,6 @@
 ---
 slug: "/tutorials/building-a-game-catalogue-api"
+description: "APIs are a common way to expose data and information on the internet. Many web services and apps run off multiple APIs in the background. Because APIs..."
 cover: /gitbook-assets/tutorials/game-catalogue-cover-v2.jpg
 ---
 
@@ -55,7 +56,7 @@ git push origin
 
 ### Create the Capsules
 
-A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hosting an application on Code Capsules.
+A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 Navigate to the “Spaces” tab and open the Space you’ll be using.
 

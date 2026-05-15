@@ -1,5 +1,6 @@
 ---
 slug: "/cli/readme/getting-started/quick-start"
+description: "To use the CLI, log in to your Code Capsules account."
 ---
 
 # Quick Start

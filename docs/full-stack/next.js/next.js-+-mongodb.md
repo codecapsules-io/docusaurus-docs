@@ -30,7 +30,7 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hosting an application on Code Capsules.
+A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 Navigate to the **Capsules** tab. Once there, click the yellow `+` icon on the bottom left of the screen to add a new Capsule.
 
@@ -68,4 +68,4 @@ Once the build is complete, click the **URL** link in the **Config** tab, and yo
 
 ![Deployed App](/gitbook-assets/get-started/cc-next-mongo-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/full-stack).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/full-stack/).

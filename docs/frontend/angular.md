@@ -1,9 +1,8 @@
 ---
 slug: "/frontend/angular"
 description: >-
-  A powerful frontend framework supported by Code Capsules, Angular simplifies
-  building dynamic web applications, providing robust tools and libraries for
-  efficient development and deployment.
+  Deploy an Angular application on Code Capsules with auto-deployments from a
+  specified branch on your GitHub repository.
 ---
 
 # Angular
@@ -28,7 +27,7 @@ If you’ve just signed up for an account, you’ll be directed to a welcome pag
 
 Alternatively, if you’re signing in again, click on the **Spaces** tab.
 
-Code Capsules gives every account a Personal Team by default. A Team is an environment for you to manage your Spaces and Capsules. For a better understanding of Teams, Spaces, and Capsules, take a look at [our explanation](/platform/platform).
+Code Capsules gives every account a Personal Team by default. A Team is an environment for you to manage your Spaces and Capsules. For a better understanding of Teams, Spaces, and Capsules, take a look at [our explanation](/platform/platform/).
 
 ## Create a Space for Your App
 
@@ -45,7 +44,7 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hosting an application on Code Capsules.
+A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 Navigate to the Space containing your recently created Data Capsule and click the yellow `+` icon on the bottom left of the screen. Follow the instructions below to create a Frontend Capsule:
 
@@ -67,8 +66,8 @@ Once the build is complete, click the **URL** link in the **Details** tab, and y
 
 ![Deployed App](/gitbook-assets/get-started/cc-angular-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/frontend).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/frontend/).
 
 :::tip Video Guides
-If you prefer watching videos to reading text, check out our [Video Guides](/tutorials/video-guides).
+If you prefer watching videos to reading text, check out our [Video Guides](/tutorials/video-guides/).
 :::

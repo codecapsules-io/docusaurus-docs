@@ -25,7 +25,7 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hosting an application on Code Capsules.
+A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 To create a new Capsule for your Space, follow the instructions below:
 
@@ -49,17 +49,17 @@ The Twilio Sandbox provides a development environment to access the WhatsApp API
 
 1.  Go to your capsule's **Details** tab and copy your bot's domain under the **URL** section.
 
-    ![](/gitbook-assets/get-started/backend-url.png)
+    ![Backend Url](/gitbook-assets/get-started/backend-url.png)
 2.  Head back to your Twilio console and paste the domain in the **When a Message Comes In** field and append `/bot` to the end of it. Make sure the method is set to _HTTP Post_.
 
-    ![](/gitbook-assets/get-started/sandbox-config.png)
+    ![Sandbox Config](/gitbook-assets/get-started/sandbox-config.png)
 3. Scroll down to the bottom of the page and click **Save**.
 4.  Under the **Sandbox Participants** section, you will find the WhatsApp number for your sandbox and a code to join it that starts with **join**. Send this code to the displayed WhatsApp number to add your personal number as a sandbox participant.
 
-    ![](/gitbook-assets/get-started/sandbox-participants.png)
+    ![Sandbox Participants](/gitbook-assets/get-started/sandbox-participants.png)
 
 ## Chat with the Bot
 
 The bot will now be able to respond to your messages after sending the join code. Try it, and the bot should echo any message you send it.
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).

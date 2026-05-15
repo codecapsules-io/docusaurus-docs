@@ -1,5 +1,6 @@
 ---
 slug: "/products/database-capsule/configure"
+description: "Configure a Database Capsule in the Details tab of the Capsule dashboard."
 ---
 
 # Configure

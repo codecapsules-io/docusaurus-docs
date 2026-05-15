@@ -1,5 +1,6 @@
 ---
 slug: "/products/database-capsule/scale"
+description: "It is possible to allocate more resources to your Capsule depending on how much traffic your application will be getting and its computational needs...."
 ---
 
 # Scale

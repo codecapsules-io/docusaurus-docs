@@ -1,5 +1,6 @@
 ---
 slug: "/products/agent-capsule/chat"
+description: "Code Capsules provides an integrated chat window for Agent Capsules. In order for this to be fully functional, there are a few endpoints which the API..."
 ---
 
 # Chat

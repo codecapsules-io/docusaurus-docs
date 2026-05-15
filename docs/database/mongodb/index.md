@@ -1,5 +1,6 @@
 ---
 slug: "/database/mongodb"
+description: "MongoDB provides reliable NoSQL persistent storage for your applications. In this tutorial, we look at how to create a MongoDB instance you can use..."
 ---
 
 # MongoDB
@@ -10,7 +11,7 @@ MongoDB provides reliable NoSQL persistent storage for your applications. In thi
 
 Log in to your Code Capsules account and navigate to the Space your MongoDB Data Capsule will be contained in. Click the yellow `+` button in the bottom left of the screen, select **New Capsule**, then select the **MongoDB** option from the dropdown.
 
-![Create Data Capsule](/gitbook-assets/get-started/create-mongodb-capsule.png)
+![Create Data Capsule](/gitbook-assets/get-started/create-mongodb-capsule.jpg)
 
 In the New Data Capsule dialog, choose **MongoDB Database Cluster** as your data type, then click the **Create Capsule** button.
 

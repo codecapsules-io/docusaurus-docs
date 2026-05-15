@@ -232,7 +232,11 @@ const sidebars: SidebarsConfig = {
         "products/backend-capsule/logs",
         "products/backend-capsule/alerting",
         "products/backend-capsule/add-procfile"
-      ]
+      ],
+      "link": {
+        "type": "doc",
+        "id": "products/backend-capsule/index"
+      }
     },
     {
       "type": "category",
@@ -281,6 +285,11 @@ const sidebars: SidebarsConfig = {
       "items": [
         "products/wordpress-capsule/deploy",
         "products/wordpress-capsule/configure",
+        "products/wordpress-capsule/routing",
+        "products/wordpress-capsule/caching",
+        "products/wordpress-capsule/performance",
+        "products/wordpress-capsule/security",
+        "products/wordpress-capsule/cron",
         "products/wordpress-capsule/scale",
         "products/wordpress-capsule/backups",
         "products/wordpress-capsule/monitor",

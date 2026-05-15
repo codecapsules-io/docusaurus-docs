@@ -1,5 +1,6 @@
 ---
 slug: "/tutorials/video-guides"
+description: "If you prefer watching videos to reading text then you can watch videos for the tutorials and deployment guides listed below on our YouTube Channel."
 ---
 
 # Video Guides

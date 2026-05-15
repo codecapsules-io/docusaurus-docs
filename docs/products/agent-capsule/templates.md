@@ -1,5 +1,6 @@
 ---
 slug: "/products/agent-capsule/templates"
+description: "Code Capsules provides a variety of agent template repos for you to use as the base for your Agent Capsule."
 ---
 
 # Templates
@@ -31,7 +32,7 @@ Follow the following procedure to begin creating your new agent. In this example
 3. Navigate to one of the template repositories on GitHub as described above. If you are new to AI Agent development, it is recommended to start with a simple Base Agent.
 4. Using the template repo, create your own new repository by following the steps here: [https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template).
 5. Follow the setup steps for the template in the relevant README.md file which can be found in the same GitHub repository.
-6. [Create a new Agent Capsule](/products/agent-capsule/deploy), linking your newly created repo, and adding your provider, model, and API key when requested.
+6. [Create a new Agent Capsule](/products/agent-capsule/deploy/), linking your newly created repo, and adding your provider, model, and API key when requested.
 7. Once the capsule is built, navigate to the Chat page - ask your newly deployed Agent Capsule anything you'd like! Remember: if you are using a template, the agent will most likely be confined to a specific purpose, so be sure to read the README.md file for more information on its capabilities.
 8. You can now modify your codebase however you'd like to include new tools, context, and more.
 
@@ -44,7 +45,7 @@ Agent Capsule templates have been built with the capabilities of using either a 
 * Memory 1GB
 * Replicas 1
 
-To do this, visit the Agent Capsule [Scale](/products/agent-capsule/scale) page.
+To do this, visit the Agent Capsule [Scale](/products/agent-capsule/scale/) page.
 
 :::
 
@@ -53,7 +54,7 @@ To do this, visit the Agent Capsule [Scale](/products/agent-capsule/scale) page.
 
 Each template has been written to use memory as a vector store for RAG. However, the templates also cater for connections to a Redis instance as its vector store. In order to set this up, follow the following steps:
 
-1. Create a [Redis Capsule](/database/redis).
+1. Create a [Redis Capsule](/database/redis/).
 2. Copy the **Connection String** in the **Details** tab of your **Redis Capsule**.
 3. Navigate to the **Config** page of your **Agent Capsule**.
 4. On the **Environment Variables** section (on the right-hand side), click the **Text Editor**.
@@ -148,7 +149,7 @@ If you've followed the above steps to create an Agent Capsule, you're probably n
 
 ### Changing the Provider and Model
 
-Changing the public AI provider and model through the Code Capsules site is easy. You can do this by navigating to the Config page for the Agent Capsule. Here, you can edit the `Agent Config` to change these details to cater your needs. After the changes are applied, the Agent Capsule will restart and use your newly provided configuration. See more [here](/products/agent-capsule/configure).
+Changing the public AI provider and model through the Code Capsules site is easy. You can do this by navigating to the Config page for the Agent Capsule. Here, you can edit the `Agent Config` to change these details to cater your needs. After the changes are applied, the Agent Capsule will restart and use your newly provided configuration. See more [here](/products/agent-capsule/configure/).
 
 ### Changing the System Prompt
 

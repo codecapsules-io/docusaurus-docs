@@ -1,5 +1,7 @@
 ---
+title: "Generative Art App with Flask"
 slug: "/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx"
+description: "Python’s Pillow package provides support for image manipulation that we can leverage to create random graphic images."
 cover: /gitbook-assets/tutorials/generative-art-cover-v2.jpg
 ---
 
@@ -385,7 +387,7 @@ Your remote repository will now be up-to-date with your local one.
 
 ### Deploy to Code Capsules
 
-The final step is to deploy our app. Log into your Code Capsules account and link your remote GitHub repository to Code Capsules. Create a Backend Capsule and deploy the app there. You can follow this [deployment guide](/backend/python/flask) to see how to do this in greater detail.
+The final step is to deploy our app. Log into your Code Capsules account and link your remote GitHub repository to Code Capsules. Create a Backend Capsule and deploy the app there. You can follow this [deployment guide](/backend/python/flask/) to see how to do this in greater detail.
 
 That’s it! Your “Generate Art” app should be live and fully functional now.
 

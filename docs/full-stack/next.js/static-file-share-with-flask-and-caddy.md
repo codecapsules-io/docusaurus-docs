@@ -1,5 +1,6 @@
 ---
 slug: "/full-stack/next.js/static-file-share-with-flask-and-caddy"
+description: "This guide will show you how to deploy a basic file-sharing site on Code Capsules. You'll use a Flask application to upload files and a Caddy file..."
 ---
 
 # Static File Share with Flask and Caddy
@@ -38,7 +39,7 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hosting an application on Code Capsules.
+A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 Navigate to the Capsules tab. Once there, click the yellow `+` icon on the bottom left of the screen to add a new Capsule.
 
@@ -86,4 +87,4 @@ Now navigate to each of the Backend Capsule and Docker Capsule and bind them to 
 
 Once the build is complete, click the **URL** link in the **Config** tab, and you should see your deployed application.
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/full-stack).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/full-stack/).

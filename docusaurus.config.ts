@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const redirects = [
   {from: ['/readme'], to: '/'},
-  {from: ['/cli/readme'], to: '/cli'},
+  {from: ['/cli/readme'], to: '/cli/'},
 ];
 
 const url = process.env.DOCUSAURUS_URL || 'http://localhost';
@@ -129,6 +129,11 @@ const config: Config = {
     },
   },
 
+  headTags: [
+    {tagName: 'meta', attributes: {property: 'og:type', content: 'article'}},
+    {tagName: 'meta', attributes: {property: 'og:site_name', content: 'Code Capsules Docs'}},
+  ],
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -179,7 +184,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/logo.png',
+    image: 'img/og-default.png',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
@@ -200,12 +205,12 @@ const config: Config = {
           label: 'Get Started',
           activeBaseRegex: '^(/|/frontend|/backend|/database|/full-stack|/persistent-storage|/wordpress)(/|$)',
         },
-        {to: '/platform', label: 'Platform', position: 'left'},
-        {to: '/products', label: 'Products', position: 'left'},
-        {to: '/tutorials', label: 'Tutorials', position: 'left'},
-        {to: '/agentic-automation', label: 'Agentic Automation', position: 'left'},
-        {to: '/enterprise', label: 'Enterprise', position: 'left'},
-        {to: '/cli', label: 'CLI', position: 'left'},
+        {to: '/platform/', label: 'Platform', position: 'left'},
+        {to: '/products/', label: 'Products', position: 'left'},
+        {to: '/tutorials/', label: 'Tutorials', position: 'left'},
+        {to: '/agentic-automation/', label: 'Agentic Automation', position: 'left'},
+        {to: '/enterprise/', label: 'Enterprise', position: 'left'},
+        {to: '/cli/', label: 'CLI', position: 'left'},
         {type: 'search', position: 'right'},
         {
           href: 'https://codecapsules.io/slack',

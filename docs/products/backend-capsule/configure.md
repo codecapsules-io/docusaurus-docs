@@ -1,5 +1,6 @@
 ---
 slug: "/products/backend-capsule/configure"
+description: "Configure a Backend Capsule in the Config tab."
 ---
 
 # Configure

@@ -1,5 +1,6 @@
 ---
 slug: "/persistent-storage"
+description: "You need persistent storage to develop your application that solves a real-world problem, but you don't want a full-blown database. In this tutorial,..."
 ---
 
 # Persistent Storage
@@ -14,7 +15,7 @@ A Persistent Storage Capsule is like a virtual cloud hard drive. The key benefit
 
 Log in to your Code Capsules account and navigate to the Space your Data Capsule will be contained in. Click the yellow `+` button on the bottom left of the screen, select **New Capsule**, then select **Persistent Storage** option from the dropdown.
 
-![Create Data Capsule](/gitbook-assets/get-started/create-persistent-capsule.png)
+![Create Data Capsule](/gitbook-assets/get-started/create-persistent-capsule.jpg)
 
 Choose your payment option, then click the **Create Capsule** button.
 

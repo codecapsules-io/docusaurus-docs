@@ -1,5 +1,6 @@
 ---
 slug: "/products/wordpress-capsule/deploy"
+description: "Deploy a WordPress application and learn how to host a content management system on Code Capsules."
 ---
 
 # Deploy
@@ -12,7 +13,7 @@ To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) ac
 
 ## Create an Account with Code Capsules
 
-Before creating your WordPress Capsule, you'll need a Team and a Space. You can follow these guides to learn how to create [Teams](/platform/teams/what-is-a-team) and [Spaces](/platform/spaces/what-is-a-space).
+Before creating your WordPress Capsule, you'll need a Team and a Space. You can follow these guides to learn how to create [Teams](/platform/teams/what-is-a-team/) and [Spaces](/platform/spaces/what-is-a-space/).
 
 If you already have a Team and Space set up, log in to your Code Capsules account. On the dashboard, click the yellow **+** icon on the bottom left of the screen, then click **New Capsule**.
 
@@ -20,11 +21,11 @@ If you already have a Team and Space set up, log in to your Code Capsules accoun
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule) provides the server for hosting an application on Code Capsules.
+A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 To create a WordPress Capsule, first choose **WordPress** as the Capsule type, as well as your Team and Space.
 
-![Choose a Capsule Type](/gitbook-assets/products/wordpress-capsule/deploy/wordpress-capsule-type.png)
+![Choose a Capsule Type](/gitbook-assets/products/wordpress-capsule/deploy/wordpress-capsule-type.jpg)
 
 Next, choose your payment plan, or create a custom plan.
 
@@ -57,7 +58,7 @@ To deploy WordPress from your version control repository:
 
 ![Choose repo](/gitbook-assets/products/wordpress-capsule/deploy/wordpress-git-managed.png)
 
-You can read more about connecting your account to a version control provider in [this guide](/platform/account/connect-version-control).
+You can read more about connecting your account to a version control provider in [this guide](/platform/account/connect-version-control/).
 
 ## Monitor Deployment
 

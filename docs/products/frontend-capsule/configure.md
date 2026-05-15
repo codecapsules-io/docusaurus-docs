@@ -1,5 +1,6 @@
 ---
 slug: "/products/frontend-capsule/configure"
+description: "To configure your Frontend Capsule, navigate to the \"Config\" tab."
 ---
 
 # Configure

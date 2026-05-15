@@ -1,4 +1,5 @@
 ---
+title: "Full Stack App with Flask and HTMx"
 slug: "/tutorials/building-a-full-stack-application-with-flask-and-htmx"
 description: >-
   Create a full stack application with Flask and HTMx to build a lightweight
@@ -22,7 +23,7 @@ This is where a new HTML extension called HTMx enters and shines. HTMx gives tra
 
 In this tutorial, we’ll explore the benefits of HTMx by building a full stack application using Flask and HTMx. Our application will be a book recommendation app that supports CRUD functionality. The final app will look a bit like this:
 
-![](/gitbook-assets/tutorials/building-a-full-stack-application-with-flask-and-htmx/flask-htmx.png)
+![Flask Htmx](/gitbook-assets/tutorials/building-a-full-stack-application-with-flask-and-htmx/flask-htmx.png)
 
 ### Overview and Requirements
 
@@ -73,7 +74,7 @@ source env/bin/activate
 
 After activating the virtual environment, the name `env` should appear in brackets on the leftmost part of your terminal in your current line. This signals that the activation was successful.
 
-![](/gitbook-assets/tutorials/building-a-full-stack-application-with-flask-and-htmx/venvactive.png)
+![Venvactive](/gitbook-assets/tutorials/building-a-full-stack-application-with-flask-and-htmx/venvactive.png)
 
 #### Installing Dependencies
 
@@ -454,7 +455,7 @@ If the user goes through with updating the book title, then the `/update` route 
 
 Our app is ready to be tested. Navigate to the project’s root folder in a terminal and run the following command: `python3 run.py`. This should start up a development server on port 5000. Open your browser at `http://127.0.0.1:5000/` and you should see your app running:
 
-![](/gitbook-assets/tutorials/flask-htmx.png)
+![Flask Htmx](/gitbook-assets/tutorials/flask-htmx.png)
 
 Once you are satisfied with the app, you can commit and push your changes to GitHub with the following commands.
 
