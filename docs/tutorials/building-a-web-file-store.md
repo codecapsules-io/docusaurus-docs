@@ -15,7 +15,7 @@ In this tutorial, we’ll build a basic web interface to upload, download and de
 
 We’ll use a [Backend Capsule](/products/backend-capsule/deploy/) with a file store Data Capsule, [Node.js](https://nodejs.org/) as the programming language, and [Express](http://expressjs.com/) as the web framework.
 
-### Overview and Requirements <a href="#overview-and-requirements" id="overview-and-requirements"></a>
+### Overview and Requirements
 
 You’ll need the following services and software set up for this tutorial:
 
@@ -24,7 +24,7 @@ You’ll need the following services and software set up for this tutorial:
 * A registered [Code Capsules](https://codecapsules.io/) account.
 * An IDE or text editor to code the project in. We used [Visual Studio Code](https://code.visualstudio.com/) in this tutorial, but you can use any tool you like.
 
-### Setting Up The Project <a href="#setting-up-the-project" id="setting-up-the-project"></a>
+### Setting Up The Project
 
 With our requirements in place, let’s get started setting them for our web file store project.
 
@@ -92,7 +92,7 @@ After binding the capsules, scroll up to the section “Capsule Parameters”. Y
 
 ![Bind Persistent 1](/gitbook-assets/root/bind-persistent-1.png)
 
-### Writing the Web Files Code <a href="#writing-the-web-files-code" id="writing-the-web-files-code"></a>
+### Writing the Web Files Code
 
 Now that we have all our systems setup, we can get onto the best part – coding!
 
@@ -500,7 +500,7 @@ Congratulations, you have completed building a personal web drive using [Code Ca
 
 ![Auth](/gitbook-assets/tutorials/building-a-web-file-store/auth.png)
 
-### Next Steps <a href="#next-steps" id="next-steps"></a>
+### Next Steps
 
 This project has some decent basic functionality, but there are many things you could add to upgrade it, such as:
 

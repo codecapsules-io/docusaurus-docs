@@ -157,6 +157,7 @@ const config: Config = {
           trackingID: 'G-KXQN2K3LKN',
           anonymizeIP: true,
         },
+
       } satisfies Preset.Options,
     ],
   ],
