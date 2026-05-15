@@ -46,22 +46,6 @@ WORDPRESS_CONFIG_EXTRA=define('DISABLE_WP_CRON', true);
 
 ---
 
-## Viewing Scheduled Tasks
-
-To see all pending WordPress cron tasks, use WP-CLI from the Code Capsules CLI:
-
-```bash
-cc wp cron event list
-```
-
-To manually trigger all due cron jobs immediately:
-
-```bash
-cc wp cron event run --due-now
-```
-
----
-
 ## Plugin Cron Jobs
 
 Most plugins that use WP-Cron work correctly with this setup. The 5-minute trigger interval means:

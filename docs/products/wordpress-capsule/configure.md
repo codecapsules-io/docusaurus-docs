@@ -30,7 +30,7 @@ You can change the database name by editing `WORDPRESS_DB_NAME` in the **WordPre
 
 Your WordPress Capsule requires a Persistent Storage Capsule for uploaded media, plugin files, and theme files. Select one in the **WordPress Config** section.
 
-The storage volume is mounted at `/var/www/html/wp-content/uploads`. Without it, uploaded files are lost on every deploy.
+The storage volume mounts at `/var/www/html/wp-content/*` to `<PERSISTENT_STORAGE_DIR>/`. Without it, uploaded files are lost on every deploy.
 
 ---
 
@@ -43,6 +43,8 @@ If you change your domain, update `APP_URL` and run a search-replace on the data
 ```bash
 cc wp search-replace 'https://old-domain.com' 'https://new-domain.com' --all-tables
 ```
+
+You would need to proxy connect to the MySQL Database or run a search and replace plugin once the domain changes.
 
 See [Routing](/products/wordpress-capsule/routing/) for more on domain configuration.
 
@@ -94,33 +96,6 @@ This sets:
 Accepted suffixes: `M` (megabytes), `G` (gigabytes). Default is `64M`.
 
 If you also set `upload_max_filesize` or `post_max_size` via `WORDPRESS_CUSTOM_INI`, those values override `MAX_UPLOAD_SIZE` for PHP only.
-
----
-
-## WordPress Config (`WORDPRESS_CONFIG_EXTRA`)
-
-Inject PHP constants directly into `wp-config.php` using `WORDPRESS_CONFIG_EXTRA`. This is the correct way to set WordPress configuration constants without editing files.
-
-```php
-WORDPRESS_CONFIG_EXTRA=define('DISABLE_WP_CRON', true);
-define('WP_POST_REVISIONS', 5);
-define('WP_DEBUG', false);
-define('WP_DEBUG_LOG', false);
-```
-
-### Common constants
-
-| Constant | Recommended value | Description |
-|---|---|---|
-| `DISABLE_WP_CRON` | `true` | Disable WP-Cron on page load (platform handles cron) |
-| `WP_POST_REVISIONS` | `5` | Limit stored post revisions to reduce database bloat |
-| `WP_DEBUG` | `false` | Disable debug mode in production |
-| `WP_MEMORY_LIMIT` | `256M` | WordPress memory limit (separate from PHP `memory_limit`) |
-| `WP_MAX_MEMORY_LIMIT` | `512M` | Memory limit for admin operations |
-| `FORCE_SSL_ADMIN` | `true` | Force wp-admin over HTTPS |
-| `DISALLOW_FILE_EDIT` | `true` | Disable the plugin/theme file editor in wp-admin |
-| `DISALLOW_FILE_MODS` | `true` | Prevent plugin/theme installs from wp-admin (use for hardened sites) |
-| `FS_METHOD` | `'direct'` | Bypass FTP prompt for plugin updates (set when using persistent storage) |
 
 ---
 

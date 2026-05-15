@@ -14,14 +14,14 @@ This page explains how HTTP traffic flows through a WordPress Capsule and how to
 Every HTTP request to your WordPress site follows this path:
 
 ```
-Visitor → HTTPS → Code Capsules load balancer (Traefik)
+Visitor → HTTPS → Code Capsules load balancer
   → Nginx (port 80, inside capsule)
     → Static file served directly, OR
     → Nginx page cache (HTML returned without PHP), OR
     → PHP-FPM → WordPress → MySQL
 ```
 
-**Traefik** is the platform's ingress controller. It handles:
+Code Capsules ingress controller handles:
 - TLS termination (HTTPS → HTTP inside the capsule)
 - Custom domain routing
 - Real client IP forwarding via the `X-Forwarded-For` header

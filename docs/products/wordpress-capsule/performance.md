@@ -14,7 +14,7 @@ WordPress Capsules are pre-configured with sensible performance defaults. This g
 Understanding the request path helps you know where bottlenecks occur:
 
 ```
-Browser → HTTPS → Platform load balancer (Traefik) → Nginx → PHP-FPM → WordPress → MySQL
+Browser → HTTPS → Platform load balancer → Nginx → PHP-FPM → WordPress → MySQL
 ```
 
 - **Nginx** serves static files (CSS, JS, images) directly without involving PHP.

@@ -54,7 +54,7 @@ Without this variable, caching is disabled and every request goes to PHP.
 | `600` | High-traffic sites where content changes infrequently (archives, documentation, landing pages). |
 | unset (default) | WooCommerce stores with live stock, BuddyPress, membership/LMS sites, or when using a WordPress caching plugin. |
 
-:::tip Which TTL should I use?
+:::caution Which TTL should I use?
 - Start with `CACHE_TTL_SECONDS=60` for most WordPress sites. It protects against traffic spikes while keeping content fresh — a new comment, post, or product update is visible within 60 seconds.
 - Use a higher value like `CACHE_TTL_SECONDS=600` for mostly-static sites (news archives, documentation, landing pages) where you accept slightly stale content in exchange for maximum throughput.
 - Leave `CACHE_TTL_SECONDS` unset for dynamic sites where every page must be live: WooCommerce stores tracking real stock, membership sites with per-user content, or any site using a WordPress caching plugin.

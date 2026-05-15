@@ -5,7 +5,7 @@ description: >-
   health and performance.
 ---
 
-# Notifications (Coming Soon)
+# Notifications
 
 ![Notification Settings](/gitbook-assets/products/alert-settings.png)
 
