@@ -113,7 +113,7 @@ function remarkGitbookCards() {
 const config: Config = {
   title: 'Code Capsules',
   tagline: 'Product docs, tutorials, and platform guides',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.svg',
 
   future: {
     v4: true,
