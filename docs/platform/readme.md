@@ -28,7 +28,7 @@ description: "Improved builds UI, we now include time the build took as well as 
 
 ### October 2025
 
-* New and improved alerting. Check it out [here](/products/database-capsule/configure/).
+* New and improved alerting. Check it out [here](/products/alerting/).
 * Ability to get email notifications for any workload alerts like OOM, too much CPU being used, unexpected app crashes, etc.
 
 ### September 2025

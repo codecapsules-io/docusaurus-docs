@@ -5,6 +5,8 @@ description: "Deploy static sites and single-page applications on Code Capsules 
 
 # Build and Deploy
 
+Frontend Capsules build static sites and SPAs from your repository. See [Supported Runtimes](/products/frontend-capsule/supported-runtimes/) for platform versions, framework build settings, and Node.js pinning.
+
 ## JavaScript Frameworks
 
 - [React](/frontend/react/)

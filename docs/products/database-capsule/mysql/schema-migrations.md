@@ -1,9 +1,9 @@
 ---
-slug: "/products/database-capsule/migrations"
+slug: "/products/database-capsule/mysql/schema-migrations"
 description: "This guide walks you through migrating a database using an Express app and a MySQL Capsule."
 ---
 
-# Migrations
+# Schema Migrations
 
 This guide walks you through migrating a database using an Express app and a MySQL Capsule.
 

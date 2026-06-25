@@ -16,7 +16,7 @@ const footerSections = [
     links: [
       { label: 'Backend Capsule', href: '/products/backend-capsule/' },
       { label: 'Frontend Capsule', href: '/products/frontend-capsule/deploy/' },
-      { label: 'Database Capsule', href: '/products/database-capsule/overview/' },
+      { label: 'Database Capsule', href: '/products/database-capsule/' },
       { label: 'WordPress Capsule', href: '/products/wordpress-capsule/deploy/' },
       { label: 'AI Agent Capsule', href: '/products/agent-capsule/deploy/' },
       { label: 'MongoDB Capsule', href: 'https://www.codecapsules.io/use-case/mongodb' },

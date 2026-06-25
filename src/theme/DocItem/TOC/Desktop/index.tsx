@@ -11,7 +11,7 @@ export default function DesktopWrapper(props: Props): ReactNode {
       <Desktop {...props} />
       <div className="sidebar-cta">
         <p className="sidebar-cta__title">Ready to deploy?</p>
-        <p className="sidebar-cta__desc">Start your free trial and go live in minutes.</p>
+        <p className="sidebar-cta__desc">Create a free account and go live in minutes.</p>
         <a
           href="https://app.codecapsules.io"
           target="_blank"

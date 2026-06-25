@@ -226,6 +226,7 @@ const sidebars: SidebarsConfig = {
       "label": "Backend Capsule",
       "items": [
         "products/backend-capsule/deploy",
+        "products/backend-capsule/supported-runtimes",
         "products/backend-capsule/configure",
         "products/backend-capsule/scale",
         "products/backend-capsule/monitor",
@@ -240,30 +241,123 @@ const sidebars: SidebarsConfig = {
     },
     {
       "type": "category",
+      "label": "Docker Capsule",
+      "items": [
+        "products/docker-capsule/writing-a-dockerfile",
+        "products/docker-capsule/deploy",
+        "products/docker-capsule/configure",
+        "products/docker-capsule/builds",
+        "products/docker-capsule/scale",
+        "products/docker-capsule/monitor",
+        "products/docker-capsule/logs",
+        "products/docker-capsule/alerting"
+      ],
+      "link": {
+        "type": "doc",
+        "id": "products/docker-capsule/index"
+      }
+    },
+    {
+      "type": "category",
       "label": "Database Capsule",
       "items": [
-        "products/database-capsule/overview",
-        "products/database-capsule/configure",
-        "products/database-capsule/scale",
-        "products/database-capsule/backups",
-        "products/database-capsule/monitor",
-        "products/database-capsule/logs",
-        "products/alerting",
-        "products/database-capsule/migrations"
-      ]
+        {
+          "type": "category",
+          "label": "MySQL",
+          "items": [
+            "products/database-capsule/mysql/deploy",
+            "products/database-capsule/mysql/configure",
+            {
+              "type": "category",
+              "label": "Versions",
+              "link": {
+                "type": "doc",
+                "id": "products/database-capsule/mysql/versions"
+              },
+              "items": [
+                {
+                  "type": "category",
+                  "label": "Upgrades",
+                  "link": {
+                    "type": "doc",
+                    "id": "products/database-capsule/mysql/versions/upgrades/index"
+                  },
+                  "items": [
+                    "products/database-capsule/mysql/versions/upgrades/5-7-to-8-0"
+                  ]
+                }
+              ]
+            },
+            "products/database-capsule/mysql/schema-migrations",
+            "products/database-capsule/mysql/scale",
+            "products/database-capsule/mysql/backups",
+            "products/database-capsule/mysql/monitor",
+            "products/database-capsule/mysql/logs",
+            "products/alerting"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "MongoDB",
+          "items": [
+            "products/database-capsule/mongodb/deploy",
+            "products/database-capsule/mongodb/configure",
+            "products/database-capsule/mongodb/scale",
+            "products/database-capsule/mongodb/backups",
+            "products/database-capsule/mongodb/monitor",
+            "products/database-capsule/mongodb/logs",
+            "products/alerting"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "PostgreSQL",
+          "items": [
+            "products/database-capsule/postgresql/deploy",
+            "products/database-capsule/postgresql/configure",
+            "products/database-capsule/postgresql/scale",
+            "products/database-capsule/postgresql/backups",
+            "products/database-capsule/postgresql/monitor",
+            "products/database-capsule/postgresql/logs",
+            "products/alerting"
+          ]
+        },
+        {
+          "type": "category",
+          "label": "Redis",
+          "items": [
+            "products/database-capsule/redis/deploy",
+            "products/database-capsule/redis/configure",
+            "products/database-capsule/redis/scale",
+            "products/database-capsule/redis/backups",
+            "products/database-capsule/redis/monitor",
+            "products/database-capsule/redis/logs",
+            "products/alerting"
+          ]
+        }
+      ],
+      "link": {
+        "type": "doc",
+        "id": "products/database-capsule/index"
+      }
     },
     {
       "type": "category",
       "label": "Frontend capsule",
       "items": [
         "products/frontend-capsule/deploy",
+        "products/frontend-capsule/supported-runtimes",
         "products/frontend-capsule/configure",
         "products/frontend-capsule/scale",
         "products/frontend-capsule/monitor",
         "products/frontend-capsule/logs",
         "products/alerting-1",
         "products/frontend-capsule/custom-domains"
-      ]
+      ],
+      "link": {
+        "type": "doc",
+        "id": "products/frontend-capsule/index"
+      }
     },
     {
       "type": "category",
