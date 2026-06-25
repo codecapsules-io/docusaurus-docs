@@ -17,7 +17,7 @@ Head over to the [MERN stack deployment guide](/full-stack/mern-stack/) and foll
 
 Before we can view the application’s frontend, we need to install the `node_modules` for the backend and set a local `DATABASE_URL` environment variable similar to the one on Code Capsules.
 
-Navigate to the project’s root folder in a terminal or command prompt window and run `npm install` there. Reference this [MongoDB setup guide](/database/mongodb/) to ensure that public access is turned on for your data capsule. Copy the value of the connection string and append `&authSource=admin` to it so that its format is similar to `mongodb://09229f61-205e-1:325368d6-3c25-e@data-capsule-ndulvw.codecapsules.co.za:27017/app?ssl=true&authSource=admin`.
+Navigate to the project’s root folder in a terminal or command prompt window and run `npm install` there. Reference this [MongoDB setup guide](/database/mongodb/) to copy the **Public Connection String** from your MongoDB Capsule **Details** tab.
 
 Set the local `DATABASE_URL` environment variable by following the steps below:
 
@@ -25,7 +25,7 @@ Set the local `DATABASE_URL` environment variable by following the steps below:
 * Add the line below to the `.env` file replacing the connection string with your own.
 
 ```
-DATABASE_URL=mongodb://09229f61-205e-1:325368d6-3c25-e@data-capsule-ndulvw.codecapsules.co.za:27017/app?ssl=true&authSource=admin
+DATABASE_URL=mongodb+srv://username:password@cluster.example.mongodb.net/database
 ```
 
 * Run the command below in a terminal window from the root folder to install the package for loading environment variables.

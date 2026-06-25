@@ -1,113 +1,79 @@
 ---
 slug: "/database/mongodb"
-description: "MongoDB provides reliable NoSQL persistent storage for your applications. In this tutorial, we look at how to create a MongoDB instance you can use..."
+description: "MongoDB provides reliable NoSQL persistent storage for your applications. Learn how to create a MongoDB Capsule on Code Capsules and connect it to your applications."
 ---
 
 # MongoDB
 
-MongoDB provides reliable NoSQL persistent storage for your applications. In this tutorial, we look at how to create a MongoDB instance you can use with your backend applications that are running on Code Capsules and elsewhere.
+MongoDB provides reliable NoSQL persistent storage for your applications. Code Capsules provisions **MongoDB Capsules** on [MongoDB Atlas](https://www.mongodb.com/atlas), giving you a managed cluster with connection details, scaling, backups, and version management from the dashboard.
 
-## Create a MongoDB Data Capsule
+## Create a MongoDB Capsule
 
-Log in to your Code Capsules account and navigate to the Space your MongoDB Data Capsule will be contained in. Click the yellow `+` button in the bottom left of the screen, select **New Capsule**, then select the **MongoDB** option from the dropdown.
+Log in to your Code Capsules account and open the Space that will contain your MongoDB Capsule. Click the yellow **+** button in the bottom left, select **New Capsule**, then choose **MongoDB**, your Team, and Space.
 
-![Create Data Capsule](/gitbook-assets/get-started/create-mongodb-capsule.jpg)
+On the **Plan & Deploy** screen, configure your capsule:
 
-In the New Data Capsule dialog, choose **MongoDB Database Cluster** as your data type, then click the **Create Capsule** button.
+1. **Cluster Type** — choose **Dedicated** for dedicated CPU and RAM on an instance size you select, or **Shared** for lower-cost shared resources. A Shared cluster can be upgraded to Dedicated later from the **Scale** tab.
+2. **Version** — select a MongoDB major version. Dedicated clusters support **7.0**, **8.0**, and **latest** (automatic upgrades when new versions are released). Shared clusters run **8.0**.
+3. **Plan** — choose an instance size. For Dedicated clusters, adjust **Storage** and **Replicas** (3, 5, or 7). Shared clusters use 5 GB storage and 3 replicas, which cannot be changed until you upgrade to Dedicated.
+4. **Capsule Name** — enter a name for your capsule.
+5. Click **Create Capsule**.
 
-## Connecting a Data Capsule to a Backend Capsule
+Provisioning can take a few minutes. The capsule status on the **Details** tab shows **Creating** until the cluster is ready.
 
-To connect a Data Capsule to a Backend Capsule hosted on Code Capsules, you need to provide a database connection string from your Database Capsule to your Backend Capsule. If you're not hosting your backend application on Code Capsules, you can jump to [this section](#connecting-to-a-mongodb-data-capsule-from-outside-code-capsules), as this step is not applicable in that use case.
+See [Deploy](/products/database-capsule/mongodb/deploy/) for product documentation and framework guides.
 
-Navigate to the Backend Capsule and click **Config** to open the Capsule's config tab. Scroll down to the **Data capsules** section, where your recently created Data Capsule will show.
+## View Connection Details
 
-![Connect Data Capsule](/gitbook-assets/get-started/bind-mongodb-capsule-env.png)
+Open your MongoDB Capsule and go to the **Details** tab. Once the capsule is ready, the **Connection details** section shows:
 
-Click **View** to view the environment variables from the Data Capsule. Click the `+` next to the `Connection string` variable to create a `DATABASE_URL` environmental variable in your Backend Capsule, which gives access to the services and features of your Data Capsule.
+- Database name
+- Username
+- Password
 
-We can use this database variable in code to read and write to our Data Capsule. Copy the value of the `DATABASE_URL` variable and append `/your_db_name?authSource=admin` to it as a query parameter. Make sure to replace `your_db_name` with the actual name of your database. This tells the Data Capsule to read and write to the specified database. If a database named `your_db_name` doesn't exist, the Data Capsule will create it. This allows you to have multiple databases in one Data Capsule.
+Click **show** to reveal credential values, or use the copy icon to copy a value to the clipboard.
 
-### Connecting to a MongoDB Data Capsule from a Python Application
+Below the connection details, the **Public Connection String** is available once the capsule has been created. This is the connection string your applications should use. Click **show** to reveal it, then copy it into your application configuration.
 
-If your Backend Capsule is a Python application, use the following code to connect to your MongoDB Data Capsule:
+Unlike older self-hosted database capsules, MongoDB Capsules do not require you to enable a public access toggle—the public connection string is provided automatically when the cluster is ready.
+
+## Connect a MongoDB Capsule to a Backend Capsule
+
+To connect a MongoDB Capsule to a Backend Capsule on Code Capsules:
+
+1. Open your Backend Capsule and go to the **Config** tab.
+2. Scroll to the **Data capsules** section and click **View** next to your MongoDB Capsule.
+3. Copy the **Public connection string** from your MongoDB Capsule **Details** tab if it is not listed in the environment variables modal.
+4. Add it as a `DATABASE_URL` environment variable on your Backend Capsule.
+
+Your application can read `DATABASE_URL` to connect to MongoDB. The connection string uses the `mongodb+srv://` format and includes authentication credentials.
+
+### Python example
 
 ```python
 import os
-import pymongo
+from pymongo import MongoClient
 
-data_capsule_url = os.getenv('DATABASE_URL')
-database_one_url = data_capsule_url + "/database_one?authSource=admin"
-production_database_url = data_capsule_url + "/production_database?authSource=admin"
-
-client = pymongo.MongoClient(database_one_url)
-db = client.database_one
-
-### Do something with the db variable here
-
+client = MongoClient(os.getenv("DATABASE_URL"))
+db = client.get_default_database()
 ```
 
-### Connecting to a MongoDB Data Capsule from a Node.js Application
-
-If your Backend Capsule is a Node.js application, use the following code to connect to your MongoDB Data Capsule:
+### Node.js example
 
 ```js
+const { MongoClient } = require("mongodb");
 
-data_capsule_url = process.env.DATABASE_URL
-database_one_url = data_capsule_url + "/database_one?authSource=admin"
-production_database_url = data_capsule_url + "/production_database?authSource=admin"
+const client = new MongoClient(process.env.DATABASE_URL);
 
-var MongoClient = require('mongodb').MongoClient;
-
-MongoClient.connect(database_one_url, function(err, db) {
-
-    // Do something with the db variable here
-});
-
+async function connect() {
+  await client.connect();
+  const db = client.db();
+  // Use db here
+}
 ```
 
-## Connecting to a MongoDB Data Capsule from Outside Code Capsules
+## Connect from Outside Code Capsules
 
-If you're not hosting your backend application on Code Capsules, you can still connect your Data Capsule to it. The first step is to allow public access to your Data Capsule. Make sure this option is turned on in the **Details** tab of your Data Capsule's details screen.
+To connect from a local machine or another hosting provider, copy the **Public Connection String** from the **Details** tab of your MongoDB Capsule and set it as `DATABASE_URL` (or equivalent) in your application.
 
-![Get Connection String](/gitbook-assets/get-started/connection-string.png)
-
-If public access to your Data Capsule is enabled, a connection string is visible below the **Public Access** switch, as shown in the above picture. Copy this connection string and append `&authSource=admin` to it so that its format is similar to `mongodb://92d79d9b-64f2-0:240e1937-a9fe-4@data-capsule-kykgmd.codecapsules.co.za:27017/app?ssl=true&authSource=admin`.
-
-The string slice preceeding `/app?ssl=true&authSource=admin` will be different in your case since you're using a different Data Capsule from the one used for the purpose of writing this reference guide. The last `/app?ssl=true&authSource=admin` part doesn't need to be replaced though. Paste the appended connection string into your backend application's code to access your Data Capsule's services.
-
-### Connecting to a MongoDB Data Capsule from an Externally Hosted Python Application
-
-If your backend application is written in Python, use the following code to connect to your MongoDB Data Capsule:
-
-```python
-import pymongo
-
-database_url = "mongodb://92d79d9b-64f2-0:240e1937-a9fe-4@data-capsule-kykgmd.codecapsules.co.za:27017/app?ssl=true&authSource=admin"
-
-client = pymongo.MongoClient(database_url)
-db = client.database_one
-
-### Do something with the db variable here
-
-```
-
-If you copied the code snippet above remember to replace the `mongodb://92d79d9b-64f2-0:240e1937-a9fe-4@data-capsule-kykgmd.codecapsules.co.za:27017` string slice in the `database_url` variable with the corresponding value for your connection string.
-
-### Connecting to a MongoDB Data Capsule from an Externally Hosted Node.js Application
-
-If your backend application is written in Node.js, use the following code to connect to your MongoDB Data Capsule:
-
-```js
-
-database_url = "mongodb://92d79d9b-64f2-0:240e1937-a9fe-4@data-capsule-kykgmd.codecapsules.co.za:27017/app?ssl=true&authSource=admin"
-
-var MongoClient = require('mongodb').MongoClient;
-
-MongoClient.connect(database_url, function(err, db) {
-
-    // Do something with the db variable here
-});
-
-```
-
-If you copied the code snippet above remember to replace the `mongodb://92d79d9b-64f2-0:240e1937-a9fe-4@data-capsule-kykgmd.codecapsules.co.za:27017` string slice in the `database_url` variable with the corresponding value for your connection string.
+Use the same Python or Node.js examples above, substituting your connection string directly if you are not using environment variables from Code Capsules.

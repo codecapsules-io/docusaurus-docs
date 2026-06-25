@@ -1,6 +1,6 @@
 ---
-slug: "/products/database-capsule"
-description: "Deploy and manage database instances on Code Capsules, including MySQL, PostgreSQL, MongoDB, and Redis."
+slug: '/products/database-capsule'
+description: 'Deploy and manage database instances on Code Capsules, including MySQL, PostgreSQL, MongoDB, and Redis.'
 ---
 
 # Database Capsule
@@ -21,12 +21,14 @@ Deploy and manage managed database instances on Code Capsules.
 
 ## MongoDB
 
-- [Deploy](/products/database-capsule/mongodb/deploy/) — framework guides and getting started
-- [Configure](/products/database-capsule/mongodb/configure/) — connection details and public access
-- [Scale](/products/database-capsule/mongodb/scale/) — allocate resources as your workload grows
+MongoDB Capsules are managed clusters on MongoDB Atlas.
+
+- [Deploy](/products/database-capsule/mongodb/deploy/) — create a capsule and framework guides
+- [Configure](/products/database-capsule/mongodb/configure/) — connection details and version settings
+- [Versions](/products/database-capsule/mongodb/versions/) — supported versions and upgrade paths
+- [Scale](/products/database-capsule/mongodb/scale/) — change instance size, storage, replicas, or upgrade Shared to Dedicated
 - [Backups](/products/database-capsule/mongodb/backups/) — manual and scheduled backups
-- [Monitor](/products/database-capsule/mongodb/monitor/) — view metrics and performance data
-- [Logs](/products/database-capsule/mongodb/logs/) — access system logs
+- [Monitor](/products/database-capsule/mongodb/monitor/) — view usage and metrics
 - [Alerting](/products/alerting/) — set up notifications for capsule events
 
 ## PostgreSQL

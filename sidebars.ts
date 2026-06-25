@@ -302,10 +302,10 @@ const sidebars: SidebarsConfig = {
           "items": [
             "products/database-capsule/mongodb/deploy",
             "products/database-capsule/mongodb/configure",
+            "products/database-capsule/mongodb/versions",
             "products/database-capsule/mongodb/scale",
             "products/database-capsule/mongodb/backups",
             "products/database-capsule/mongodb/monitor",
-            "products/database-capsule/mongodb/logs",
             "products/alerting"
           ]
         },
