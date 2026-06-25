@@ -1,6 +1,6 @@
 ---
-slug: "/backend/docker"
-description: "Deploy Docker-based applications on Code Capsules with support for custom Dockerfiles and auto-deployments from GitHub."
+slug: '/backend/docker'
+description: 'Deploy Docker-based applications on Code Capsules with support for custom Dockerfiles and auto-deployments from GitHub.'
 ---
 
 # Docker
@@ -12,9 +12,9 @@ Deploy containerized applications on Code Capsules using [Docker Capsules](/prod
 For detailed information on creating, configuring, and operating Docker Capsules:
 
 - [Docker Capsule overview](/products/docker-capsule/)
+- [Writing a Dockerfile](/products/docker-capsule/writing-a-dockerfile/)
 - [Deploy](/products/docker-capsule/deploy/)
 - [Configure](/products/docker-capsule/configure/)
-- [Writing a Dockerfile](/products/docker-capsule/writing-a-dockerfile/)
 - [Builds](/products/docker-capsule/builds/)
 
 ## Deployment guides

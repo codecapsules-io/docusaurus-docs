@@ -36,7 +36,7 @@ Code Capsules inspects version hints in your project (for example, the `engines`
 | **PHP**     | 8.2.x, 8.3.x, 8.4.x, 8.5.x |
 | **.NET**    | 8.x.x, 10.x.x              |
 
-:::note Older runtimes
+:::info
 
 The versions above reflect the current platform base (Ubuntu 24.04 LTS). Older runtimes such as Python 3.10, Node.js 18, or Java 8 are **not** supported on Backend Capsules. If your application requires an older runtime, use a [Docker Capsule](/products/docker-capsule/) with a custom base image.
 
@@ -136,7 +136,7 @@ These frameworks are commonly deployed on Backend Capsules. Framework versions c
 
 ## Server-side JavaScript frameworks
 
-Applications that need a persistent Node.js server at runtime — including SSR and full-stack frameworks — belong on a **Backend Capsule**, not a Frontend Capsule.
+Applications that need a persistent Node.js server at runtime — including SSR and full-stack frameworks — belong on a **Backend Capsule** or a [Docker Capsule](/products/docker-capsule/), not a Frontend Capsule.
 
 | Framework             | Capsule type    | Guide                                          |
 | --------------------- | --------------- | ---------------------------------------------- |

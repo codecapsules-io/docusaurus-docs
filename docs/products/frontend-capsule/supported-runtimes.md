@@ -46,7 +46,7 @@ Set `engines.node` in `package.json` to pin the Node.js version used during the 
 }
 ```
 
-:::caution Exact version format required
+:::caution
 
 `engines.node` must be in **exact** `vMAJOR.MINOR.PATCH` format (for example, `v24.18.0`). Semantic ranges such as `24.x`, `^24.0.0`, or `>=24` are not supported and fall back to the latest LTS (**v24.18.0**).
 
