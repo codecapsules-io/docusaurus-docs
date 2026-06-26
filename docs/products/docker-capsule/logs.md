@@ -15,11 +15,11 @@ View application output in the **Logs** tab. This includes stdout and stderr fro
 
 ![Capsule Logs](/gitbook-assets/products/shared/logs.png)
 
-When running multiple replicas, logs are collected from all active replicas. You can also inspect logs per replica to isolate issues affecting a single instance.
+When running multiple replicas, logs are collected from all active replicas. Use the replica selector in the log viewer to filter logs from a specific instance.
 
 ## Access logs
 
-For capsules serving web traffic, open the **Access Logs** tab to view HTTP request logs.
+The **Access** tab shows HTTP request logs when your capsule has **public access** enabled (a main domain configured on the **Domains** tab).
 
 ![Access Logs](/gitbook-assets/products/shared/access-logs.png)
 
@@ -29,11 +29,11 @@ Access logs show request method, path, response status, client IP, and timing.
 
 | Symptom | Where to look |
 |---|---|
-| Build failure | [Build logs](/products/docker-capsule/builds/#view-build-logs) |
+| Build failure | [Build logs](/products/docker-capsule/builds/#view-build-logs) in the **Builds** tab |
 | App not starting or crashing | Runtime logs in the **Logs** tab |
 | Port or binding issues | Runtime logs — see [Writing a Dockerfile](/products/docker-capsule/writing-a-dockerfile/) |
 | Out of memory | Runtime logs for OOM messages — see [Scale](/products/docker-capsule/scale/) |
-| Routing or slow endpoints | **Access Logs** tab |
+| Routing or slow endpoints | **Access** tab (requires public access) |
 
 ## Log retention
 

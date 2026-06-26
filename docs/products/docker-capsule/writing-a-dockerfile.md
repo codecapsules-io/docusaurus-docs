@@ -84,7 +84,16 @@ log.Fatal(http.ListenAndServe(":"+port, nil))
 
 ## Dockerfile location and build context
 
-By default, Code Capsules looks for `Dockerfile` at the repository root and uses the entire repository as the build context. For nested or monorepo layouts, set the **Dockerfile path** and **Build context** in the [Config](/products/docker-capsule/configure/) tab.
+By default, Code Capsules looks for `/Dockerfile` at the repository root and uses `/` as the build context.
+
+When creating a capsule, enter the subfolder containing your `Dockerfile` on the **Deploy** step of the creation flow. After creation, set the full **Docker File** path and **Docker Build Context** in the [Config](/products/docker-capsule/configure/) tab.
+
+The build context can be a repository subdirectory or a URL to a public Git repository.
+
+| Layout | Docker File | Docker Build Context |
+| --- | --- | --- |
+| Root `Dockerfile` | `/Dockerfile` | `/` |
+| `api/Dockerfile` | `/api/Dockerfile` | `/api` |
 
 ## Multi-stage builds
 
@@ -154,7 +163,7 @@ app.run(host="0.0.0.0", port=3000)
 
 ### Port mismatch
 
-The port in your Dockerfile's `EXPOSE` directive is documentation only — it does not configure routing. The **Network port** in the [Config](/products/docker-capsule/configure/#network-port) tab must match the port your application actually listens on.
+The port in your Dockerfile's `EXPOSE` directive is documentation only — it does not configure routing. The **Network port** in the [Config](/products/docker-capsule/configure/#network-port) tab must match the port your application actually listens on at runtime.
 
 ### Hardcoded port in CMD
 
@@ -162,4 +171,4 @@ Avoid hardcoding ports in your start command when possible. Use `$PORT` or read 
 
 ### Missing files in build context
 
-If your Dockerfile references files outside the configured build context, the build will fail. See [Configure](/products/docker-capsule/configure/#build-context).
+If your Dockerfile references files outside the configured build context, the build will fail. See [Configure](/products/docker-capsule/configure/#docker-build-context).

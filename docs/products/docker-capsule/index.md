@@ -21,9 +21,9 @@ A Docker Capsule is a good fit when:
 ## Documentation
 
 - [Writing a Dockerfile](/products/docker-capsule/writing-a-dockerfile/) — write a Dockerfile that works on Code Capsules
-- [Deploy](/products/docker-capsule/deploy/) — create a capsule, connect a repository, and monitor the automatic first build
-- [Configure](/products/docker-capsule/configure/) — Dockerfile path, build context, port, auto-build, and deployment strategy
-- [Builds](/products/docker-capsule/builds/) — trigger builds, auto-build from Git, and roll back to previous builds
+- [Deploy](/products/docker-capsule/deploy/) — create a capsule, connect a repository, and manage builds and deployment settings
+- [Configure](/products/docker-capsule/configure/) — Docker File path, build context, network port, and environment variables
+- [Builds](/products/docker-capsule/builds/) — trigger builds, auto-deploy from Git, and roll back to previous builds
 - [Scale](/products/docker-capsule/scale/) — allocate CPU, memory, and replicas as traffic grows
 - [Monitor](/products/docker-capsule/monitor/) — view metrics and performance data
 - [Logs](/products/docker-capsule/logs/) — access build and runtime logs

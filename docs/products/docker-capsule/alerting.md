@@ -7,7 +7,15 @@ description: >-
 
 # Notifications
 
-Configure alerts to stay informed about the health and performance of your Docker Capsules.
+Configure alerts to stay informed about the health and performance of your Docker Capsules. Notification preferences apply to your account across all capsules — they are not configured per capsule.
+
+## Open notification preferences
+
+1. Open the dashboard **Overview**.
+2. Go to **Notifications**.
+3. Click the gear icon to open **Notification Preferences**.
+
+See the [platform Notifications documentation](/products/alerting/) for full details on each alert type.
 
 ![Notification Settings](/gitbook-assets/products/alert-settings.png)
 
@@ -27,8 +35,8 @@ Available notification types include:
 * **Killed by OOM:** When a capsule runs out of memory.
 * **High CPU Usage:** When CPU usage exceeds 80%.
 * **High Memory Usage:** When memory usage exceeds 80%.
-* **High Data Usage:** When data usage exceeds 80%.
-* **CPU Throttle:** When CPU is being throttled.
+* **High Data Usage:** When data usage exceeds 80% (primarily for database and storage capsules).
+* **CPU Throttle:** When CPU is being throttled for more than two minutes.
 
 Use the **Enable All** or **Disable All** buttons to quickly configure all notifications.
 
