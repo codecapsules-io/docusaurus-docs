@@ -5,7 +5,9 @@ description: "Deploy a MongoDB Capsule on Code Capsules."
 
 # Deploy
 
-MongoDB Capsules are managed clusters on MongoDB Atlas. When you create a capsule in the dashboard, it is presented as **MongoDB** and provisioned with your chosen cluster type, version, and capacity.
+MongoDB Capsules are managed clusters on MongoDB Atlas. This is the recommended way to run MongoDB on Code Capsules. When you create a capsule in the dashboard, it is presented as **MongoDB** and provisioned with your chosen cluster type, version, and capacity.
+
+For a self-hosted MongoDB-compatible alternative, see [DocumentDB](/products/database-capsule/documentdb/deploy/). DocumentDB is intended for existing workloads — new projects should use MongoDB Capsules.
 
 ## Create a MongoDB Capsule
 
