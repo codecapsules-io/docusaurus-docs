@@ -9,7 +9,7 @@ description: >-
 
 Each Docker Capsule tracks resource usage over time. Open the **Metrics** tab on the capsule dashboard to view performance data.
 
-![Monitor Capsule Metrics](/gitbook-assets/products/backend-capsule/monitor/backend-capsule-metrics.png)
+![Docker Capsule Metrics tab with CPU, memory, and network charts](/gitbook-assets/products/docker-capsule/monitor/docker-metrics.png)
 
 ## Available metrics
 

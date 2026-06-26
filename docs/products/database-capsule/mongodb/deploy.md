@@ -1,6 +1,6 @@
 ---
-slug: "/products/database-capsule/mongodb/deploy"
-description: "Deploy a MongoDB Capsule on Code Capsules."
+slug: '/products/database-capsule/mongodb/deploy'
+description: 'Deploy a MongoDB Capsule on Code Capsules.'
 ---
 
 # Deploy
@@ -18,6 +18,8 @@ For a self-hosted MongoDB-compatible alternative, see [DocumentDB](/products/dat
 3. Select a **Version**. See [Versions](/products/database-capsule/mongodb/versions/) for supported options.
 4. Choose a **Plan** and configure **Storage** and **Replicas** for Dedicated clusters.
 5. Enter a **Capsule Name** and click **Create Capsule**.
+
+![MongoDB Capsule Plan & Deploy step with Cluster Type, Version, and Plan options](/gitbook-assets/products/database-capsule/deploy/mongodb-deploy-plan.png)
 
 Cluster creation can take several minutes. See the [MongoDB getting started guide](/database/mongodb/) for connection and binding instructions.
 

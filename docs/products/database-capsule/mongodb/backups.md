@@ -1,11 +1,13 @@
 ---
-slug: "/products/database-capsule/mongodb/backups"
-description: "Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules."
+slug: '/products/database-capsule/mongodb/backups'
+description: 'Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules.'
 ---
 
 # Backups
 
 Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules.
+
+![MongoDB Capsule Backup tab with manual backup and schedule options](/gitbook-assets/products/database-capsule/backups/mongodb-backups.png)
 
 ## Manual Backup
 

@@ -1,5 +1,5 @@
 ---
-slug: "/products/docker-capsule/alerting"
+slug: '/products/docker-capsule/alerting'
 description: >-
   Manage notification preferences to stay informed about the health and
   performance of your Docker Capsules.
@@ -15,9 +15,9 @@ Configure alerts to stay informed about the health and performance of your Docke
 2. Go to **Notifications**.
 3. Click the gear icon to open **Notification Preferences**.
 
-See the [platform Notifications documentation](/products/alerting/) for full details on each alert type.
+![Overview Notifications page with gear icon and Notification Preferences panel](/gitbook-assets/products/alert-settings.png)
 
-![Notification Settings](/gitbook-assets/products/alert-settings.png)
+See the [platform Notifications documentation](/products/alerting/) for full details on each alert type.
 
 ## In-app notifications
 
@@ -31,12 +31,12 @@ Set up email alerts to receive notifications outside the platform. You can enabl
 
 Available notification types include:
 
-* **Capsule Not Running:** When a capsule crashes or stops running.
-* **Killed by OOM:** When a capsule runs out of memory.
-* **High CPU Usage:** When CPU usage exceeds 80%.
-* **High Memory Usage:** When memory usage exceeds 80%.
-* **High Data Usage:** When data usage exceeds 80% (primarily for database and storage capsules).
-* **CPU Throttle:** When CPU is being throttled for more than two minutes.
+- **Capsule Not Running:** When a capsule crashes or stops running.
+- **Killed by OOM:** When a capsule runs out of memory.
+- **High CPU Usage:** When CPU usage exceeds 80%.
+- **High Memory Usage:** When memory usage exceeds 80%.
+- **High Data Usage:** When data usage exceeds 80% (primarily for database and storage capsules).
+- **CPU Throttle:** When CPU is being throttled for more than two minutes.
 
 Use the **Enable All** or **Disable All** buttons to quickly configure all notifications.
 

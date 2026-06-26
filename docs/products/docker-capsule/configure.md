@@ -15,17 +15,19 @@ Build triggers, auto-deploy, and deployment strategy are managed in the **Deploy
 
 Click **Edit** in the **Capsule Parameters** section to update build and runtime settings.
 
+![Docker Capsule Config tab Capsule Parameters section](/gitbook-assets/products/docker-capsule/config/docker-config.png)
+
 ### Docker File
 
 The **Docker File** field is the path to your Dockerfile from the repository root. The default is `/Dockerfile`.
 
 Examples:
 
-| Repository layout         | Docker File        | Docker Build Context        |
-| ------------------------- | ------------------ | --------------------------- |
-| `Dockerfile` at root      | `/Dockerfile`      | `/` _(or leave empty)_      |
-| `api/Dockerfile`          | `/api/Dockerfile`  | `/api`                      |
-| `services/web/Dockerfile` | `/services/web/Dockerfile` | `/services/web`     |
+| Repository layout         | Docker File                | Docker Build Context   |
+| ------------------------- | -------------------------- | ---------------------- |
+| `Dockerfile` at root      | `/Dockerfile`              | `/` _(or leave empty)_ |
+| `api/Dockerfile`          | `/api/Dockerfile`          | `/api`                 |
+| `services/web/Dockerfile` | `/services/web/Dockerfile` | `/services/web`        |
 
 Changing the Docker File path triggers a new build.
 
@@ -78,6 +80,8 @@ To view sensitive values, click **show** in the top-right corner of the variable
 See the [Database Capsule](/products/database-capsule/) documentation for creating and managing database instances.
 
 In the **Data capsules** section of the **Config** tab, click **View** next to a Database Capsule to see its connection details.
+
+![Docker Capsule Config tab Data capsules section with View and Bind actions](/gitbook-assets/products/docker-capsule/config/docker-config-bind-database.png)
 
 Click **+** next to the connection string to create a `DATABASE_URL` environment variable in your Docker Capsule. Your application can use this variable to connect to the database.
 

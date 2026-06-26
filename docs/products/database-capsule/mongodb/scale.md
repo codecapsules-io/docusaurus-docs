@@ -1,6 +1,6 @@
 ---
-slug: "/products/database-capsule/mongodb/scale"
-description: "Scale a MongoDB Capsule by changing instance size, storage, replicas, or upgrading from a Shared to a Dedicated cluster."
+slug: '/products/database-capsule/mongodb/scale'
+description: 'Scale a MongoDB Capsule by changing instance size, storage, replicas, or upgrading from a Shared to a Dedicated cluster.'
 ---
 
 # Scale
@@ -18,9 +18,11 @@ The **Capsule Capacity** section shows your current resources:
 
 Click **Edit** in the **Capsule Capacity** section to change your plan.
 
+![MongoDB Dedicated Capsule Scale tab with instance plan, storage, and replicas](/gitbook-assets/products/database-capsule/scale/mongodb-scale.png)
+
 ### Dedicated clusters
 
-Select a different instance plan, then adjust **Storage** and **Replicas** with the sliders. Click **Save** when done.
+Select an instance plan. You can also adjust **Storage** and **Replicas** below the plan list. Click **Save** when done.
 
 You cannot edit capacity while the capsule is creating or updating, or when it is stopped.
 
@@ -34,6 +36,8 @@ Shared clusters have fixed storage (5 GB) and replicas (3). To change instance s
 4. Click **Save**.
 
 A Shared cluster can be upgraded to Dedicated at any time. The upgrade cannot be reversed from the dashboard.
+
+![MongoDB Shared Capsule Scale tab with Upgrade to dedicated instance option](/gitbook-assets/products/database-capsule/scale/mongodb-change-shared-to-dedicated.png)
 
 ## Estimated Costs
 

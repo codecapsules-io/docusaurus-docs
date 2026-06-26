@@ -50,18 +50,20 @@ Only one build can run per capsule at a time. If a build is already in progress,
 
 ## Build lifecycle
 
-| Status        | Description                                           |
-| ------------- | ----------------------------------------------------- |
-| **Starting**  | Build queued and initializing                         |
-| **Building**  | Capsule is being built                                |
-| **Succeeded** | Build completed and capsule running automatically     |
-| **Failed**    | Build encountered an error — check the build log      |
-| **Cancelled** | Build was stopped before completion                   |
-| **Timed out** | Build exceeded the allowed duration                   |
+| Status        | Description                                       |
+| ------------- | ------------------------------------------------- |
+| **Starting**  | Build queued and initializing                     |
+| **Building**  | Capsule is being built                            |
+| **Succeeded** | Build completed and capsule running automatically |
+| **Failed**    | Build encountered an error — check the build log  |
+| **Cancelled** | Build was stopped before completion               |
+| **Timed out** | Build exceeded the allowed duration               |
 
 ## View build logs
 
 Open the **Builds** tab to view build history and logs:
+
+![Docker Capsule Builds tab with build list and log viewer](/gitbook-assets/products/docker-capsule/builds/docker-builds.png)
 
 - Select a build from the list on the left
 - Read the full build log on the right

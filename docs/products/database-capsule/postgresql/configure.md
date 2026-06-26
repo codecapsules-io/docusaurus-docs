@@ -1,6 +1,6 @@
 ---
-slug: "/products/database-capsule/postgresql/configure"
-description: "Configure a PostgreSQL Database Capsule in the Details tab of the Capsule dashboard."
+slug: '/products/database-capsule/postgresql/configure'
+description: 'Configure a PostgreSQL Database Capsule in the Details tab of the Capsule dashboard.'
 ---
 
 # Configure
@@ -11,7 +11,7 @@ Configure a Database Capsule in the **Details** tab of the Capsule dashboard.
 
 The **Details** tab provides connection details for a Database Capsule.
 
-![Database Connection Details](/gitbook-assets/products/database-capsule/config/mysql-details.png)
+![PostgreSQL Capsule Details tab Connection Details section](/gitbook-assets/products/database-capsule/details/postgresql-details.png)
 
 Click **show** in the **Connection Details** section to view database credentials:
 

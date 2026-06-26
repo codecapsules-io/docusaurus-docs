@@ -9,6 +9,8 @@ Protect your DocumentDB data by creating manual backups and enabling automatic b
 
 Open the **Backup** tab on your capsule dashboard.
 
+![DocumentDB Capsule Backup tab with manual backup and schedule toggles](/gitbook-assets/products/database-capsule/backups/documentdb-backups.png)
+
 ## Manual backup
 
 Trigger a manual backup by clicking **Backup** in the **Manual Backup** section.

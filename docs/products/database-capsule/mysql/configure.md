@@ -1,6 +1,6 @@
 ---
-slug: "/products/database-capsule/mysql/configure"
-description: "Configure a MySQL Database Capsule in the Details tab of the Capsule dashboard."
+slug: '/products/database-capsule/mysql/configure'
+description: 'Configure a MySQL Database Capsule in the Details tab of the Capsule dashboard.'
 ---
 
 # Configure
@@ -11,7 +11,7 @@ Configure a Database Capsule in the **Details** tab of the Capsule dashboard.
 
 The **Details** tab provides connection details for a Database Capsule.
 
-![Database Connection Details](/gitbook-assets/products/database-capsule/config/mysql-details.png)
+![MySQL Capsule Details tab Connection Details section](/gitbook-assets/products/database-capsule/details/mysql-details.png)
 
 Click **show** in the **Connection Details** section to view database credentials:
 
@@ -28,17 +28,15 @@ To change the name of the Capsule, click **Edit** next to the Capsule name in th
 
 ## Configure MySQL Settings
 
-
 :::info
 
 These settings are only available for **MySQL** Capsules.
 
 :::
 
-
 Additional MySQL configuration is available in the **Config** tab of MySQL Capsules.
 
-![MySQL Configuration](/gitbook-assets/products/database-capsule/config/mysql-config.png)
+![MySQL Capsule Config tab MySQL Configuration section](/gitbook-assets/products/database-capsule/config/mysql-config-edit.png)
 
 ### Set SQL Modes
 

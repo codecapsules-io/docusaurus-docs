@@ -33,6 +33,8 @@ Before creating a capsule, make sure you have:
    - **Capsule Name** — a display name for your capsule.
 7. Click **Create Capsule**.
 
+![Docker Capsule creation Deploy step showing Dockerfile location, build context, and capsule name](/gitbook-assets/products/docker-capsule/deploy/docker-deploy-plan.png)
+
 Code Capsules creates the capsule, links it to your repository, assigns a default hostname, and **automatically starts the first build**. You are taken to the capsule **Details** tab.
 
 ## Deploy tab
@@ -51,10 +53,10 @@ Use **Build & Deploy** to start a manual build from the linked branch. When the 
 
 **Auto-deploy** controls whether Code Capsules automatically rebuilds your capsule when you push commits to the linked Git branch. It is **enabled by default**.
 
-| Setting               | Behavior                                                                |
-| --------------------- | ----------------------------------------------------------------------- |
-| **On** (default)      | Each push to the linked branch triggers a new build                     |
-| **Off**               | Git pushes are ignored; trigger builds manually with **Build & Deploy** |
+| Setting          | Behavior                                                                |
+| ---------------- | ----------------------------------------------------------------------- |
+| **On** (default) | Each push to the linked branch triggers a new build                     |
+| **Off**          | Git pushes are ignored; trigger builds manually with **Build & Deploy** |
 
 Toggle auto-deploy with the switch in the **Auto Build & Deploy** section.
 

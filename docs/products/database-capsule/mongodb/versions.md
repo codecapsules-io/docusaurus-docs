@@ -67,7 +67,9 @@ After prerequisites are met (if applicable):
 3. In the **MongoDB Configuration** section, click **Edit**, select the target version, and save.
 4. Confirm the upgrade when prompted.
 
-Code Capsules validates the upgrade path before applying a new major version. Wait until the capsule reports as **Running** and the new version is fully applied before making further changes.
+![MongoDB Capsule Config tab with version upgrade](/gitbook-assets/products/database-capsule/config/mongodb-version-upgrade.png)
+
+Wait until the capsule reports as **Running** and the new version is fully applied before making further changes.
 
 Selecting **latest** enables automatic upgrades to the newest supported version when one is released.
 

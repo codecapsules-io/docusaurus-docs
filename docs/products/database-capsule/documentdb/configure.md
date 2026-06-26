@@ -19,6 +19,8 @@ The **Details** tab provides connection details once provisioning completes. Whi
 
 Click **show** in the **Connection details** section to view:
 
+![DocumentDB Capsule Details tab Connection details section](/gitbook-assets/products/database-capsule/details/documentdb-details.png)
+
 - Host
 - Port (default `27017`)
 - Database name
@@ -48,15 +50,17 @@ To provide connection details to a Backend, Docker, or Agent Capsule:
 2. In the **Data capsules** section, click **View** next to your DocumentDB Capsule.
 3. Copy individual values or click **+** next to **Connection string** to create a `DATABASE_URL` environment variable.
 
+![Application capsule Config tab Data capsules View modal with DATABASE_URL](/gitbook-assets/products/database-capsule/config/documentdb-bind-env-vars.png)
+
 Available environment variables include:
 
-| Variable | Description |
-| --- | --- |
-| `DATABASE_URL` | Full MongoDB connection string with TLS |
-| `DATABASE_HOST` | Private hostname |
-| `DATABASE_PORT` | Port number |
-| `DATABASE` | Database name |
-| `DATABASE_USER` | Username |
-| `DATABASE_PASSWORD` | Password |
+| Variable            | Description                             |
+| ------------------- | --------------------------------------- |
+| `DATABASE_URL`      | Full MongoDB connection string with TLS |
+| `DATABASE_HOST`     | Private hostname                        |
+| `DATABASE_PORT`     | Port number                             |
+| `DATABASE`          | Database name                           |
+| `DATABASE_USER`     | Username                                |
+| `DATABASE_PASSWORD` | Password                                |
 
 Saving environment variables on the application capsule restarts it with the new values.

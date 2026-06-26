@@ -13,6 +13,8 @@ The **Details** tab provides connection details once the capsule is ready.
 
 Click **show** in the **Connection details** section to view:
 
+![MongoDB Capsule Details tab Connection details section](/gitbook-assets/products/database-capsule/details/mongodb-details.png)
+
 - Database name
 - Username
 - Password
@@ -23,7 +25,11 @@ While the capsule is still being created, an info message explains that connecti
 
 MongoDB Capsules provide a **Public Connection String** on the **Details** tab. This string is available once the capsule has been created and is the URI your applications should use to connect.
 
-Click **show** next to **Public Connection String** to reveal the value, then use the copy icon to copy it to your clipboard. The string uses the `mongodb+srv://` format and includes embedded credentials.
+Click **show** next to **Public Connection String** to reveal the value, then use the copy icon to copy it to your clipboard.
+
+![MongoDB Capsule Details tab Public Connection String](/gitbook-assets/products/database-capsule/details/mongodb-details-public-access.png)
+
+The string uses the `mongodb+srv://` format and includes embedded credentials.
 
 ## Edit Capsule Name
 
@@ -39,7 +45,11 @@ Version configuration is only available for **Dedicated** MongoDB Capsules. Shar
 
 Additional MongoDB configuration is available in the **Config** tab.
 
-In the **MongoDB Configuration** section, click **Edit** to change the MongoDB server version on Dedicated clusters. You can upgrade to a newer supported version; downgrades are not supported.
+In the **MongoDB Configuration** section, click **Edit** to change the MongoDB server version on Dedicated clusters.
+
+![MongoDB Capsule Config tab MongoDB Configuration version selector](/gitbook-assets/products/database-capsule/config/mongodb-config.png)
+
+You can upgrade to a newer supported version; downgrades are not supported.
 
 If your capsule uses the **latest** version option, MongoDB is automatically upgraded to the newest available version when it is released.
 

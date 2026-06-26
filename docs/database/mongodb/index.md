@@ -1,6 +1,6 @@
 ---
-slug: "/database/mongodb"
-description: "MongoDB provides reliable NoSQL persistent storage for your applications. Learn how to create a MongoDB Capsule on Code Capsules and connect it to your applications."
+slug: '/database/mongodb'
+description: 'MongoDB provides reliable NoSQL persistent storage for your applications. Learn how to create a MongoDB Capsule on Code Capsules and connect it to your applications.'
 ---
 
 # MongoDB
@@ -19,6 +19,8 @@ On the **Plan & Deploy** screen, configure your capsule:
 4. **Capsule Name** — enter a name for your capsule.
 5. Click **Create Capsule**.
 
+![MongoDB Capsule Plan & Deploy screen during creation](/gitbook-assets/get-started/mongodb-getting-started-plan-deploy.png)
+
 Provisioning can take a few minutes. The capsule status on the **Details** tab shows **Creating** until the cluster is ready.
 
 See [Deploy](/products/database-capsule/mongodb/deploy/) for product documentation and framework guides.
@@ -33,6 +35,8 @@ Open your MongoDB Capsule and go to the **Details** tab. Once the capsule is rea
 
 Click **show** to reveal credential values, or use the copy icon to copy a value to the clipboard.
 
+![MongoDB Capsule Details tab with connection details and public connection string](/gitbook-assets/get-started/mongodb-getting-started-plan-deploy.png)
+
 Below the connection details, the **Public Connection String** is available once the capsule has been created. This is the connection string your applications should use. Click **show** to reveal it, then copy it into your application configuration.
 
 Unlike older self-hosted database capsules, MongoDB Capsules do not require you to enable a public access toggle—the public connection string is provided automatically when the cluster is ready.
@@ -45,6 +49,8 @@ To connect a MongoDB Capsule to a Backend Capsule on Code Capsules:
 2. Scroll to the **Data capsules** section and click **View** next to your MongoDB Capsule.
 3. Copy the **Public connection string** from your MongoDB Capsule **Details** tab if it is not listed in the environment variables modal.
 4. Add it as a `DATABASE_URL` environment variable on your Backend Capsule.
+
+![Backend Capsule Config tab Data capsules View modal for MongoDB](/gitbook-assets/get-started/backend-bind-mongodb-capsule.png)
 
 Your application can read `DATABASE_URL` to connect to MongoDB. The connection string uses the `mongodb+srv://` format and includes authentication credentials.
 
@@ -61,7 +67,7 @@ db = client.get_default_database()
 ### Node.js example
 
 ```js
-const { MongoClient } = require("mongodb");
+const { MongoClient } = require('mongodb');
 
 const client = new MongoClient(process.env.DATABASE_URL);
 

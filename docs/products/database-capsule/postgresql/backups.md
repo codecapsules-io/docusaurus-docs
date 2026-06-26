@@ -1,11 +1,13 @@
 ---
-slug: "/products/database-capsule/postgresql/backups"
-description: "Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules."
+slug: '/products/database-capsule/postgresql/backups'
+description: 'Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules.'
 ---
 
 # Backups
 
 Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules.
+
+![PostgreSQL Capsule Backup tab with manual backup and schedule options](/gitbook-assets/products/database-capsule/backups/postgresql-backups.png)
 
 ## Manual Backup
 

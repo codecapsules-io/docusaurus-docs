@@ -13,20 +13,18 @@ Allocate more resources to a Docker Capsule as your application's traffic and co
 
 View scaling options in the **Scale** tab of the capsule dashboard. Click **Edit** in the **Capsule Capacity** section to adjust resources. You can only edit capacity while the capsule is running.
 
-![Scale a Capsule](/gitbook-assets/products/backend-capsule/scale/backend-scale-edit.png)
+Select a plan, or choose **Custom** to adjust resources to your requirements:
 
-Use the sliders to configure:
-
-| Resource     | Description                                                      |
-| ------------ | ---------------------------------------------------------------- |
-| **CPU**      | Processing power allocated to each replica                       |
-| **RAM**      | Memory available to each replica                                 |
-| **GPU**      | GPU devices per replica (when GPU is enabled for your Space)     |
-| **Scale**    | Number of replicas running simultaneously                        |
+| Resource  | Description                                                  |
+| --------- | ------------------------------------------------------------ |
+| **CPU**   | Processing power allocated to each replica                   |
+| **RAM**   | Memory available to each replica                             |
+| **GPU**   | GPU devices per replica (when GPU is enabled for your Space) |
+| **Scale** | Number of replicas running simultaneously                    |
 
 Click **Save** to apply your changes. If the capsule is already running, Code Capsules updates it with the new resource limits.
 
-![Configure Capsule Capacity](/gitbook-assets/products/backend-capsule/scale/backend-scale-custom.png)
+![Docker Capsule Scale tab with plan selection and Custom option](/gitbook-assets/products/docker-capsule/scale/docker-scale.png)
 
 ## Horizontal scaling
 
