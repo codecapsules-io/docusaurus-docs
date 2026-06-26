@@ -270,6 +270,7 @@ const sidebars: SidebarsConfig = {
             {
               "type": "category",
               "label": "Versions",
+              "key": "mysql-versions",
               "link": {
                 "type": "doc",
                 "id": "products/database-capsule/mysql/versions"
@@ -278,6 +279,7 @@ const sidebars: SidebarsConfig = {
                 {
                   "type": "category",
                   "label": "Upgrades",
+                  "key": "mysql-upgrades",
                   "link": {
                     "type": "doc",
                     "id": "products/database-capsule/mysql/versions/upgrades/index"
@@ -302,7 +304,29 @@ const sidebars: SidebarsConfig = {
           "items": [
             "products/database-capsule/mongodb/deploy",
             "products/database-capsule/mongodb/configure",
-            "products/database-capsule/mongodb/versions",
+            {
+              "type": "category",
+              "label": "Versions",
+              "key": "mongodb-versions",
+              "link": {
+                "type": "doc",
+                "id": "products/database-capsule/mongodb/versions"
+              },
+              "items": [
+                {
+                  "type": "category",
+                  "label": "Upgrades",
+                  "key": "mongodb-upgrades",
+                  "link": {
+                    "type": "doc",
+                    "id": "products/database-capsule/mongodb/versions/upgrades/index"
+                  },
+                  "items": [
+                    "products/database-capsule/mongodb/versions/upgrades/7-0-to-8-0"
+                  ]
+                }
+              ]
+            },
             "products/database-capsule/mongodb/scale",
             "products/database-capsule/mongodb/backups",
             "products/database-capsule/mongodb/monitor",

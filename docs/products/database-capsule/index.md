@@ -25,7 +25,7 @@ MongoDB Capsules are managed clusters on MongoDB Atlas.
 
 - [Deploy](/products/database-capsule/mongodb/deploy/) — create a capsule and framework guides
 - [Configure](/products/database-capsule/mongodb/configure/) — connection details and version settings
-- [Versions](/products/database-capsule/mongodb/versions/) — supported versions and upgrade paths
+- [Versions](/products/database-capsule/mongodb/versions/) — supported versions and upgrade guides
 - [Scale](/products/database-capsule/mongodb/scale/) — change instance size, storage, replicas, or upgrade Shared to Dedicated
 - [Backups](/products/database-capsule/mongodb/backups/) — manual and scheduled backups
 - [Monitor](/products/database-capsule/mongodb/monitor/) — view usage and metrics

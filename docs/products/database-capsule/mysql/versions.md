@@ -3,7 +3,7 @@ slug: '/products/database-capsule/mysql/versions'
 description: 'Supported MySQL versions on Code Capsules and how to upgrade between major versions.'
 ---
 
-# MySQL Versions
+# Versions
 
 Code Capsules MySQL Capsules run one of two supported major versions. This guide covers which versions are available, how to check your current version, and how to plan a major version upgrade.
 
@@ -38,10 +38,10 @@ If you connect from your local machine, use the [CLI proxy](/cli/readme/commands
 
 Major version upgrades must follow a single step at a time. You cannot downgrade.
 
-| From | To  | Allowed                           | Guide |
-| ---- | --- | --------------------------------- | ----- |
+| From | To  | Allowed                           | Guide                                                                        |
+| ---- | --- | --------------------------------- | ---------------------------------------------------------------------------- |
 | 5.7  | 8.0 | Yes                               | [5.7 to 8.0](/products/database-capsule/mysql/versions/upgrades/5-7-to-8-0/) |
-| 8.0  | 5.7 | No — downgrades are not supported | — |
+| 8.0  | 5.7 | No — downgrades are not supported | —                                                                            |
 
 ## Before Any Major Upgrade
 
