@@ -11,7 +11,7 @@ Backend Capsules automatically detect your application's language from project f
 
 :::info
 
-This page covers **language runtimes**. Application frameworks (Django, Express, Spring, and so on) are installed from your project's dependency files — their versions are determined by your `package.json`, `requirements.txt`, `go.mod`, or equivalent.
+This page covers **language runtimes**. Patch versions are updated with the platform build image. When you do not pin a version, Code Capsules uses the latest supported patch for that language line.
 
 :::
 
@@ -22,29 +22,46 @@ This page covers **language runtimes**. Application frameworks (Django, Express,
 | **Operating system**   | Ubuntu 24.04 LTS                                                |
 | **Language detection** | Automatic — from project configuration files in your repository |
 
-Code Capsules inspects version hints in your project (for example, the `engines` field in `package.json`). If no version is specified, the latest supported version for that language is used.
+Code Capsules inspects version hints in your project (for example, the `engines` field in `package.json` or a `.python-version` file). If no version is specified, the latest supported patch version for that language is used.
 
 ## Supported language runtimes
 
-| Language    | Supported versions         |
-| ----------- | -------------------------- |
-| **Python**  | 3.13.x, 3.14.x             |
-| **Node.js** | 22.x.x, 24.x.x             |
-| **Go**      | 1.x                        |
-| **Java**    | 17, 21, 25                 |
-| **Ruby**    | 3.2.x, 3.3.x, 3.4.x, 4.0.x |
-| **PHP**     | 8.2.x, 8.3.x, 8.4.x, 8.5.x |
-| **.NET**    | 8.x.x, 10.x.x              |
+The table below lists each supported version line and the latest patch version available on the platform today. You can use any patch version up to and including the listed release.
+
+| Language               | Version line | Latest supported patch |
+| ---------------------- | ------------ | ---------------------- |
+| [**Python**](#python)  | 3.13.x       | 3.13.14                |
+|                        | 3.14.x       | 3.14.6                 |
+| [**Node.js**](#nodejs) | 22.x.x       | 22.23.1                |
+|                        | 24.x.x       | 24.18.0                |
+| [**Go**](#go)          | 1.x          | 1.26.4                 |
+| [**Java**](#java)      | 17           | 17.0.19                |
+|                        | 21           | 21.0.11                |
+|                        | 25           | 25.0.3                 |
+| [**Ruby**](#ruby)      | 3.2.x        | 3.2.11                 |
+|                        | 3.3.x        | 3.3.11                 |
+|                        | 3.4.x        | 3.4.9                  |
+|                        | 4.0.x        | 4.0.5                  |
+| [**PHP**](#php)        | 8.2.x        | 8.2.31                 |
+|                        | 8.3.x        | 8.3.31                 |
+|                        | 8.4.x        | 8.4.22                 |
+|                        | 8.5.x        | 8.5.7                  |
+| [**.NET**](#net)       | 8.x.x        | 8.0.17                 |
+|                        | 10.x.x       | 10.0.9                 |
 
 :::info
 
-The versions above reflect the current platform base (Ubuntu 24.04 LTS). Older runtimes such as Python 3.10, Node.js 18, or Java 8 are **not** supported on Backend Capsules. If your application requires an older runtime, use a [Docker Capsule](/products/docker-capsule/) with a custom base image.
+If your application requires a runtime or OS package not listed above, deploy with a [Docker Capsule](/products/docker-capsule/) and your own `Dockerfile`.
 
 :::
 
 ## Pin a runtime version
 
-Specify the runtime your application needs in the conventional file for your language. After changing a version pin, push a new commit or trigger a rebuild from the **Deploy** tab.
+Where supported, specify the runtime your application needs in your project configuration. Most languages use a project file; Go and Java use an environment variable in the **Config** tab.
+
+After changing a version pin, trigger a rebuild from the **Deploy** tab for the change to take effect. For file-based pins, push a new commit first.
+
+You can pin a major or minor version (for example, `3.14` or `24.x`) to receive the latest supported patch automatically, or pin an exact patch version (for example, `3.14.6`).
 
 ### Node.js
 
@@ -60,43 +77,39 @@ Add an `engines` field to `package.json`. Semantic version ranges are supported.
 
 ### Python
 
-Create a `runtime.txt` in your project root:
+Create a `.python-version` file in your project root:
 
 ```
-python-3.13.2
+3.14
 ```
 
-Alternatively, set the version in `.python-version`:
-
-```
-3.13.2
-```
+You can specify a major.minor version (for example, `3.13` or `3.14`) or an exact patch version (for example, `3.14.6`).
 
 ### Go
 
-Set the Go version in `go.mod`:
+Go does not support version pinning through project files. In the **Config** tab, add the `GOOGLE_GO_VERSION` environment variable and set it to the Go version you need (for example, `1.26`). See [Configure](/products/backend-capsule/configure/#set-environment-variables) for steps.
 
-```
-go 1.24
-```
+Trigger a rebuild from the **Deploy** tab after saving the variable. The updated Go version applies on the next build.
+
+The `go` directive in `go.mod` sets the minimum language version for your module but does not select the compiler used during the build.
 
 ### Java
 
-Create a `system.properties` file:
+Java does not support version pinning through project files. In the **Config** tab, add the `GOOGLE_RUNTIME_VERSION` environment variable and set it to the JDK version you need (for example, `21`). See [Configure](/products/backend-capsule/configure/#set-environment-variables) for steps.
 
-```
-java.runtime.version=21
-```
+Trigger a rebuild from the **Deploy** tab after saving the variable. The updated JDK version applies on the next build.
 
-For Maven projects, you can also set the Java version in `pom.xml`.
+Maven or Gradle compiler settings control compilation targets but do not select the JDK installed during the build.
 
 ### Ruby
 
 Create a `.ruby-version` file:
 
 ```
-3.4.2
+3.4.9
 ```
+
+If you use Bundler, Code Capsules also reads the `RUBY VERSION` entry in `Gemfile.lock`.
 
 ### PHP
 
@@ -112,12 +125,12 @@ Set the PHP version in `composer.json`:
 
 ### .NET
 
-Create a `global.json` in your project root:
+Create a `global.json` in your project root to pin the .NET SDK version:
 
 ```json
 {
   "sdk": {
-    "version": "8.0.100"
+    "version": "10.0.301"
   }
 }
 ```
