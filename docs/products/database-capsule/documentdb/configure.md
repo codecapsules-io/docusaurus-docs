@@ -36,6 +36,10 @@ mongodb://<username>:<password>@<host>:<port>/<database>?tls=true&tlsAllowInvali
 
 Use the copy icon next to any value to copy it to your clipboard.
 
+## Connect from your local machine
+
+DocumentDB Capsules are not publicly accessible. To connect from your laptop—for example, to run queries or check your server version—open a secure tunnel with the Code Capsules CLI and connect with `mongosh`. See [Connect Locally](/products/database-capsule/documentdb/connect-locally/) for the full workflow, client installation, and examples.
+
 ## Edit capsule name
 
 Click **Edit** next to the capsule name in the **Capsule Details** section to rename the capsule.

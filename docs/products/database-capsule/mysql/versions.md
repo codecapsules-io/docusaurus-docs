@@ -32,7 +32,7 @@ Connect to your MySQL Capsule and run:
 SELECT VERSION();
 ```
 
-If you connect from your local machine, use the [CLI proxy](/cli/readme/commands/proxy/) to open a secure tunnel to your Capsule first.
+If you connect from your local machine, see [Connect Locally](/products/database-capsule/mysql/connect-locally/) to open a secure tunnel and connect with the `mysql` client.
 
 ## Upgrade Paths
 

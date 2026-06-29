@@ -260,6 +260,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'products/database-capsule/mysql/deploy',
             'products/database-capsule/mysql/configure',
+            'products/database-capsule/mysql/connect-locally',
             {
               type: 'category',
               label: 'Versions',
@@ -332,6 +333,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'products/database-capsule/documentdb/deploy',
             'products/database-capsule/documentdb/configure',
+            'products/database-capsule/documentdb/connect-locally',
             'products/database-capsule/documentdb/scale',
             'products/database-capsule/documentdb/backups',
             'products/database-capsule/documentdb/monitor',
@@ -345,6 +347,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'products/database-capsule/postgresql/deploy',
             'products/database-capsule/postgresql/configure',
+            'products/database-capsule/postgresql/connect-locally',
             'products/database-capsule/postgresql/scale',
             'products/database-capsule/postgresql/backups',
             'products/database-capsule/postgresql/monitor',
@@ -358,6 +361,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'products/database-capsule/redis/deploy',
             'products/database-capsule/redis/configure',
+            'products/database-capsule/redis/connect-locally',
             'products/database-capsule/redis/scale',
             'products/database-capsule/redis/monitor',
             'products/database-capsule/redis/logs',

@@ -205,7 +205,7 @@ If your database is only a few MB, however, you can connect to it directly and b
 pg_dump -Fc --no-acl --no-owner "$(curl -s https://api.heroku.com/apps/migrate-backend/config-vars -H "Authorization: Bearer $KEY" -H "Accept: application/vnd.heroku+json; version=3" | jq -r '.DATABASE_URL')" -f backup.dump
 ```
 
-Code Capsules keeps databases private rather than exposing a public URL. You connect through a proxy using [Code Capsules's CLI](/cli/readme/getting-started/quick-start/). While you don't have to install the CLI permanently on your machine, you do need Node.js installed on your machine (or be able to run Node.js through Docker).
+Code Capsules keeps databases private rather than exposing a public URL. You connect through a proxy using [Code Capsules's CLI](/cli/readme/getting-started/quick-start/). For PostgreSQL-specific steps after opening a proxy tunnel—including `psql` and `pg_restore` examples—see [Connect Locally](/products/database-capsule/postgresql/connect-locally/). While you don't have to install the CLI permanently on your machine, you do need Node.js installed on your machine (or be able to run Node.js through Docker).
 
 We used the command below to run Node.js in a Docker container (to isolate the CLI dependencies from your local machine), log in to Code Capsules, create a proxy connection to the PostgreSQL database, and restore the database.
 
