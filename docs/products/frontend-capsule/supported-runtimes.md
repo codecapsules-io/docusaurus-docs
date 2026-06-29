@@ -1,23 +1,103 @@
 ---
 slug: '/products/frontend-capsule/supported-runtimes'
 description: >-
-  Supported frameworks, platform versions, and Node.js runtimes for Frontend
-  Capsules on Code Capsules.
+  Supported frameworks, Node.js build runtimes, and static site deployment for
+  Frontend Capsules on Code Capsules.
 ---
 
 # Supported Runtimes
 
-Frontend Capsules build static sites and single-page applications (SPAs). Code Capsules installs Node.js dependencies, runs your build command, and serves the compiled output over HTTPS.
+Frontend Capsules host static websites over HTTPS. You can deploy a plain HTML, CSS, and JavaScript site with no build step, or use Node.js at build time to install dependencies and compile a framework project before serving the output.
 
 :::info
 
-Frontend Capsules serve **static files** after the build step. They do not run a persistent application server. Frameworks that need server-side rendering or a Node.js process at runtime — such as Next.js with a server or Nuxt with Nitro — should be deployed as a [Backend Capsule](/products/backend-capsule/supported-runtimes/#server-side-javascript-frameworks) instead.
+**Static HTML sites.** If your repository already contains the files you want to serve — for example, `index.html`, CSS, and images — you do not need Node.js, `package.json`, or a version pin. Leave the **Build Command** empty and keep **Project Path** at `/` if your files are in the repository root. See the [Static HTML](/frontend/static-html/) guide and [Configure](/products/frontend-capsule/configure/) for capsule settings.
 
 :::
 
+:::info
+
+Frontend Capsules serve **static files** over HTTPS. They do not run a persistent application server. Frameworks that need server-side rendering or a Node.js process at runtime — such as Next.js with a server or Nuxt with Nitro — should be deployed as a [Backend Capsule](/products/backend-capsule/supported-runtimes/#server-side-javascript-frameworks) instead.
+
+:::
+
+## Node.js at build time
+
+The sections below apply when your project uses npm and a build command (for example, React, Vue, or Angular). They do not apply to plain static HTML sites.
+
+### Platform
+
+| Property             | Value                                                        |
+| -------------------- | ------------------------------------------------------------ |
+| **Operating system** | Ubuntu 24.04 LTS                                             |
+| **Build runtime**    | Node.js — used for `npm install` and your build command only |
+
+Node.js version selection happens at **build time**, not while your capsule is serving static files. Runtime versions are resolved at build time, not baked into the platform image. Each build resolves a version in this order:
+
+1. Your app's explicit pin in `package.json` (if valid)
+2. The platform default line for Node.js (if no valid pin exists)
+
+Unpinned applications use the platform default line at build time. This is not a fixed version — if a newer patch is available when your build runs, that version is used. Code Capsules does not move unpinned apps to a new Node.js major when a new LTS is published — that only happens when the platform is upgraded.
+
+### Supported language runtimes
+
+The table below lists each supported Node.js version line and the platform default used when your project does not specify a version.
+
+| Language               | Supported version lines | Unpinned default           |
+| ---------------------- | ----------------------- | -------------------------- |
+| [**Node.js**](#nodejs) | 22.x.x, 24.x.x          | Latest patch on **24.x**   |
+
+:::info
+
+If your application requires a runtime or build toolchain not listed above, deploy with a [Docker Capsule](/products/docker-capsule/) and your own `Dockerfile`.
+
+:::
+
+### Pin a runtime version
+
+Pin Node.js in your project's `package.json`. After changing a version pin, push a new commit and trigger a rebuild from the **Deploy** tab for the change to take effect.
+
+### Node.js
+
+Set `engines.node` in `package.json` to pin an exact Node.js version for every build:
+
+```json
+{
+  "engines": {
+    "node": "v24.18.0"
+  }
+}
+```
+
+When a valid pin is present, the platform uses exactly that version for dependency installation and your build command.
+
+:::caution
+
+`engines.node` must be an exact version string in the form `v<major>.<minor>.<patch>` (for example, `v24.18.0` or `v22.23.1`).
+
+The following are **not** supported and cause a fallback to the platform default at build time:
+
+- Semver ranges (`>=18`, `^20`, `~22`, `24.x`)
+- Bare major or minor versions (`20`, `24`)
+- Version files (`.nvmrc`, `.node-version`)
+
+:::
+
+#### Platform upgrades and pins
+
+| Scenario                                                          | Behaviour                                                                         |
+| ----------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Platform moves to a new default line, app unpinned                | App uses the new default line on the next build                                   |
+| Platform moves to a new default line, app pinned to a version     | App continues using the pinned version                                            |
+| New Node LTS published upstream, app unpinned                     | App stays on the current platform default until Code Capsules upgrades the platform |
+| Patch release on the 24.x line, app unpinned                      | App uses the newer 24.x patch on the next build                                   |
+| Patch release on the 24.x line, app pinned to an exact version    | App continues using the exact pinned version                                      |
+
+Pin an exact version when your framework, native modules, or tooling require a specific Node.js release and you need builds to stay identical across platform patch updates.
+
 ## Supported frameworks
 
-Frontend Capsules work with any npm-based toolchain that produces static files. The table below lists frameworks with tested deployment guides and typical build settings.
+Frontend Capsules work with plain static HTML sites or any npm-based toolchain that produces static files. The table below lists frameworks with tested deployment guides and typical build settings.
 
 | Framework                    | Build command   | Output directory      | Guide                                 |
 | ---------------------------- | --------------- | --------------------- | ------------------------------------- |
@@ -30,42 +110,13 @@ Frontend Capsules work with any npm-based toolchain that produces static files. 
 | **Astro** (static output)    | `npm run build` | `dist`                | —                                     |
 | **Gatsby**                   | `npm run build` | `public`              | —                                     |
 
-Framework **versions** are not pinned by the platform. They come from your `package.json` dependencies and lock file. Use the version ranges recommended by each framework's documentation.
+Framework **versions** are not pinned by the platform. They come from your `package.json` dependencies and lock file.
 
-If your framework is not listed, any build that outputs static HTML, CSS, and JavaScript into a folder will work — set the **Build Command** and **Static Content Folder Path** in the [Config](/products/frontend-capsule/configure/) tab to match your project.
-
-## Pin a Node.js version
-
-Set `engines.node` in `package.json` to pin the Node.js version used during the build:
-
-```json
-{
-  "engines": {
-    "node": "v24.18.0"
-  }
-}
-```
-
-:::caution
-
-`engines.node` must be in **exact** `vMAJOR.MINOR.PATCH` format (for example, `v24.18.0`). Semantic ranges such as `24.x`, `^24.0.0`, or `>=24` are not supported and fall back to the latest LTS (**v24.18.0**).
-
-:::
+If your framework is not listed, any build that outputs static HTML, CSS, and JavaScript into a folder will work — set the **Build Command** and **Build Output Directory** in the [Config](/products/frontend-capsule/configure/) tab to match your project.
 
 ## Package managers
 
 Code Capsules uses **npm** for Frontend Capsule builds. Include a `package-lock.json` for faster, reproducible installs. Other lock files (`yarn.lock`, `pnpm-lock.yaml`) are not used — convert to npm or ensure `package-lock.json` is committed.
-
-## Serving behavior
-
-After a successful build, your static files are served with:
-
-- HTTPS on your capsule's public URL
-- **gzip** and **zstd** compression
-- SPA-style routing — requests for unknown paths fall back to `index.html`
-- Files served from your configured static content folder
-
-Environment variables are available during the **build** step. They are not available to client-side JavaScript at runtime. To inject values such as a backend API URL into your site, bake them in during the build (for example, with a `postbuild` script). See the [Heroku migration guide](/tutorials/heroku-migration-guide/) for an example.
 
 ## Not supported on Frontend Capsules
 

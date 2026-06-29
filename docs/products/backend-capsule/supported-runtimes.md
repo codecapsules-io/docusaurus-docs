@@ -11,7 +11,7 @@ Backend Capsules automatically detect your application's language from project f
 
 :::info
 
-This page covers **language runtimes**. Patch versions are updated with the platform build image. When you do not pin a version, Code Capsules uses the latest supported patch for that language line.
+Runtime versions are resolved at **build time**, not baked into the platform image. When you pin a version line (for example, `24.x` or `3.14`), each build uses the latest patch available on that line. When you do not pin a version, Code Capsules falls back to the platform default line for that language — again using the latest patch on that line when the build runs.
 
 :::
 
@@ -22,32 +22,28 @@ This page covers **language runtimes**. Patch versions are updated with the plat
 | **Operating system**   | Ubuntu 24.04 LTS                                                |
 | **Language detection** | Automatic — from project configuration files in your repository |
 
-Code Capsules inspects version hints in your project (for example, the `engines` field in `package.json` or a `.python-version` file). If no version is specified, the latest supported patch version for that language is used.
+Code Capsules inspects version hints in your project (for example, the `engines` field in `package.json` or a `.python-version` file). Each build resolves a runtime version in this order:
+
+1. Your app's explicit pin (project file or environment variable)
+2. The platform default line for that language (if no pin exists)
+
+Unpinned applications use the latest patch release on the platform default line at build time. This is not a fixed version — if a newer patch is available when your build runs, that version is used. Code Capsules does not move unpinned apps to a new major or minor line when upstream releases one — that only happens when the platform is upgraded.
+
+Pin a major or minor version (for example, `3.14` or `24.x`) to receive the latest patch on that line automatically. Pin an exact patch version (for example, `3.14.6` or `v24.18.0`) when you need every build to use the same release.
 
 ## Supported language runtimes
 
-The table below lists each supported version line and the latest patch version available on the platform today. You can use any patch version up to and including the listed release.
+The table below lists each supported version line and the platform default used when your project does not specify a version.
 
-| Language               | Version line | Latest supported patch |
-| ---------------------- | ------------ | ---------------------- |
-| [**Python**](#python)  | 3.13.x       | 3.13.14                |
-|                        | 3.14.x       | 3.14.6                 |
-| [**Node.js**](#nodejs) | 22.x.x       | 22.23.1                |
-|                        | 24.x.x       | 24.18.0                |
-| [**Go**](#go)          | 1.x          | 1.26.4                 |
-| [**Java**](#java)      | 17           | 17.0.19                |
-|                        | 21           | 21.0.11                |
-|                        | 25           | 25.0.3                 |
-| [**Ruby**](#ruby)      | 3.2.x        | 3.2.11                 |
-|                        | 3.3.x        | 3.3.11                 |
-|                        | 3.4.x        | 3.4.9                  |
-|                        | 4.0.x        | 4.0.5                  |
-| [**PHP**](#php)        | 8.2.x        | 8.2.31                 |
-|                        | 8.3.x        | 8.3.31                 |
-|                        | 8.4.x        | 8.4.22                 |
-|                        | 8.5.x        | 8.5.7                  |
-| [**.NET**](#net)       | 8.x.x        | 8.0.17                 |
-|                        | 10.x.x       | 10.0.9                 |
+| Language               | Supported version lines    | Unpinned default           |
+| ---------------------- | -------------------------- | -------------------------- |
+| [**Node.js**](#nodejs) | 22.x.x, 24.x.x             | Latest patch on **24.x**   |
+| [**Python**](#python)  | 3.13.x, 3.14.x             | Latest patch on **3.14.x** |
+| [**Go**](#go)          | 1.x                        | Latest patch on **1.26.x** |
+| [**Java**](#java)      | 17, 21, 25                 | Latest patch on **25**     |
+| [**Ruby**](#ruby)      | 3.2.x, 3.3.x, 3.4.x, 4.0.x | Latest patch on **3.4.x**  |
+| [**PHP**](#php)        | 8.2.x, 8.3.x, 8.4.x, 8.5.x | Latest patch on **8.4.x**  |
+| [**.NET**](#net)       | 8.x.x, 10.x.x              | Latest patch on **10.x**   |
 
 :::info
 
@@ -57,20 +53,28 @@ If your application requires a runtime or OS package not listed above, deploy wi
 
 ## Pin a runtime version
 
-Where supported, specify the runtime your application needs in your project configuration. Most languages use a project file; Go and Java use an environment variable in the **Config** tab.
+Where supported, specify the runtime your application needs in your project configuration. Go and Java use an environment variable in the **Config** tab.
 
 After changing a version pin, trigger a rebuild from the **Deploy** tab for the change to take effect. For file-based pins, push a new commit first.
 
-You can pin a major or minor version (for example, `3.14` or `24.x`) to receive the latest supported patch automatically, or pin an exact patch version (for example, `3.14.6`).
-
 ### Node.js
 
-Add an `engines` field to `package.json`. Semantic version ranges are supported.
+Add an `engines` field to `package.json`. Semantic version ranges are supported — a line pin such as `24.x` resolves to the latest 24.x patch on each build.
 
 ```json
 {
   "engines": {
     "node": "24.x"
+  }
+}
+```
+
+Pin an exact version when you need every build to use the same release:
+
+```json
+{
+  "engines": {
+    "node": "v24.18.0"
   }
 }
 ```
@@ -83,7 +87,7 @@ Create a `.python-version` file in your project root:
 3.14
 ```
 
-You can specify a major.minor version (for example, `3.13` or `3.14`) or an exact patch version (for example, `3.14.6`).
+You can specify a major.minor version (for example, `3.13` or `3.14`) to receive the latest patch on that line, or an exact patch version (for example, `3.14.6`).
 
 ### Go
 
@@ -106,8 +110,10 @@ Maven or Gradle compiler settings control compilation targets but do not select 
 Create a `.ruby-version` file:
 
 ```
-3.4.9
+3.4
 ```
+
+You can specify a major.minor version to receive the latest patch on that line, or an exact patch version (for example, `3.4.9`).
 
 If you use Bundler, Code Capsules also reads the `RUBY VERSION` entry in `Gemfile.lock`.
 
@@ -123,6 +129,8 @@ Set the PHP version in `composer.json`:
 }
 ```
 
+Version constraints in `composer.json` resolve to the latest matching patch on each build.
+
 ### .NET
 
 Create a `global.json` in your project root to pin the .NET SDK version:
@@ -134,6 +142,18 @@ Create a `global.json` in your project root to pin the .NET SDK version:
   }
 }
 ```
+
+You can pin a major version line to receive the latest patch on that line automatically, or pin an exact SDK version when you need reproducible builds.
+
+## Platform upgrades and pins
+
+| Scenario                                                           | Behaviour                                                                           |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| Platform moves to a new default line, app unpinned                 | App uses the new default line on the next build                                     |
+| Platform moves to a new default line, app pinned to a version line | App continues using the pinned line                                                 |
+| New major release published upstream, app unpinned                 | App stays on the current platform default until Code Capsules upgrades the platform |
+| Patch release on your pinned line, app pinned to that line         | App uses the newer patch on the next build                                          |
+| Patch release on your pinned line, app pinned to an exact version  | App continues using the exact pinned version                                        |
 
 ## Common frameworks
 
