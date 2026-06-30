@@ -11,7 +11,9 @@ Backend Capsules automatically detect your application's language from project f
 
 :::info
 
-Runtime versions are resolved at **build time**, not baked into the platform image. When you pin a version line (for example, `24.x` or `3.14`), each build uses the latest patch available on that line. When you do not pin a version, Code Capsules falls back to the platform default line for that language — again using the latest patch on that line when the build runs.
+Runtime versions are resolved at **build time**, not baked into the platform image. When you pin a version line, each build uses the latest patch available on that line. When you do not pin a version, Code Capsules falls back to the platform default line for that language — again using the latest patch on that line when the build runs.
+
+Each language uses a different pin format. A line pin must use the wildcards or version pattern shown in the table below.
 
 :::
 
@@ -29,21 +31,21 @@ Code Capsules inspects version hints in your project (for example, the `engines`
 
 Unpinned applications use the latest patch release on the platform default line at build time. This is not a fixed version — if a newer patch is available when your build runs, that version is used. Code Capsules does not move unpinned apps to a new major or minor line when upstream releases one — that only happens when the platform is upgraded.
 
-Pin a major or minor version (for example, `3.14` or `24.x`) to receive the latest patch on that line automatically. Pin an exact patch version (for example, `3.14.6` or `v24.18.0`) when you need every build to use the same release.
+To receive the latest patch on a specific line automatically, pin using that language's line format from the table below. To lock every build to the same release, pin an exact version instead.
 
 ## Supported language runtimes
 
-The table below lists each supported version line and the platform default used when your project does not specify a version.
+The table below lists each supported version line, the platform default when your project does not specify a version, and the format to use when pinning a line.
 
-| Language               | Supported version lines    | Unpinned default           |
-| ---------------------- | -------------------------- | -------------------------- |
-| [**Node.js**](#nodejs) | 22.x.x, 24.x.x             | Latest patch on **24.x**   |
-| [**Python**](#python)  | 3.13.x, 3.14.x             | Latest patch on **3.14.x** |
-| [**Go**](#go)          | 1.x                        | Latest patch on **1.26.x** |
-| [**Java**](#java)      | 17, 21, 25                 | Latest patch on **25**     |
-| [**Ruby**](#ruby)      | 3.2.x, 3.3.x, 3.4.x, 4.0.x | Latest patch on **3.4.x**  |
-| [**PHP**](#php)        | 8.2.x, 8.3.x, 8.4.x, 8.5.x | Latest patch on **8.4.x**  |
-| [**.NET**](#net)       | 8.x.x, 10.x.x              | Latest patch on **10.x**   |
+| Language               | Supported version lines    | Unpinned default           | Line pin format                                          |
+| ---------------------- | -------------------------- | -------------------------- | -------------------------------------------------------- |
+| [**Node.js**](#nodejs) | 22.x.x, 24.x.x             | Latest patch on **24.x**   | `24.x.x` in `package.json`                               |
+| [**Python**](#python)  | 3.13.x, 3.14.x             | Latest patch on **3.14.x** | `3.14` in `.python-version`                              |
+| [**Go**](#go)          | 1.x                        | Latest patch on **1.26.x** | `1.26.x` via `GOOGLE_GO_VERSION`                         |
+| [**Java**](#java)      | 17, 21, 25                 | Latest patch on **25**     | `21` via `GOOGLE_RUNTIME_VERSION`                        |
+| [**Ruby**](#ruby)      | 3.2.x, 3.3.x, 3.4.x, 4.0.x | Latest patch on **3.4.x**  | `ruby 3.4.9p0` in `Gemfile.lock`, or `3.4.9` via env var |
+| [**PHP**](#php)        | 8.2.x, 8.3.x, 8.4.x, 8.5.x | Latest patch on **8.4.x**  | `8.4.*` in `composer.json`                               |
+| [**.NET**](#net)       | 8.x.x, 10.x.x              | Latest patch on **10.x**   | `10.*.*` in `global.json` or env var                     |
 
 :::info
 
@@ -59,12 +61,12 @@ After changing a version pin, trigger a rebuild from the **Deploy** tab for the 
 
 ### Node.js
 
-Add an `engines` field to `package.json`. Semantic version ranges are supported — a line pin such as `24.x` resolves to the latest 24.x patch on each build.
+Add an `engines` field to `package.json`. Use the `major.minor.x` pattern with `.x` placeholders to receive the latest patch on that line on each build:
 
 ```json
 {
   "engines": {
-    "node": "24.x"
+    "node": "24.x.x"
   }
 }
 ```
@@ -74,32 +76,44 @@ Pin an exact version when you need every build to use the same release:
 ```json
 {
   "engines": {
-    "node": "v24.18.0"
+    "node": "24.18.0"
   }
 }
 ```
 
+You can also set `GOOGLE_NODEJS_VERSION` in the **Config** tab (for example, `24.x.x`). If both are set, the environment variable takes precedence.
+
 ### Python
 
-Create a `.python-version` file in your project root:
+Create a `.python-version` file in your project root. Use a `major.minor` value to receive the latest patch on that line:
 
 ```
 3.14
 ```
 
-You can specify a major.minor version (for example, `3.13` or `3.14`) to receive the latest patch on that line, or an exact patch version (for example, `3.14.6`).
+Pin an exact patch version when you need every build to use the same release:
+
+```
+3.14.6
+```
+
+You can also set `GOOGLE_PYTHON_VERSION` in the **Config** tab using the `major.minor.x` pattern (for example, `3.14.x`). If both are set, the environment variable takes precedence.
 
 ### Go
 
-Go does not support version pinning through project files. In the **Config** tab, add the `GOOGLE_GO_VERSION` environment variable and set it to the Go version you need (for example, `1.26`). See [Configure](/products/backend-capsule/configure/#set-environment-variables) for steps.
+Go does not support version pinning through project files. In the **Config** tab, add the `GOOGLE_GO_VERSION` environment variable. Use the `major.minor.x` pattern to receive the latest patch on that line (for example, `1.26.x`). See [Configure](/products/backend-capsule/configure/#set-environment-variables) for steps.
 
 Trigger a rebuild from the **Deploy** tab after saving the variable. The updated Go version applies on the next build.
+
+Pin an exact version (for example, `1.26.4`) when you need every build to use the same release.
 
 The `go` directive in `go.mod` sets the minimum language version for your module but does not select the compiler used during the build.
 
 ### Java
 
-Java does not support version pinning through project files. In the **Config** tab, add the `GOOGLE_RUNTIME_VERSION` environment variable and set it to the JDK version you need (for example, `21`). See [Configure](/products/backend-capsule/configure/#set-environment-variables) for steps.
+Java does not support version pinning through project files. In the **Config** tab, add the `GOOGLE_RUNTIME_VERSION` environment variable and set it to the JDK feature version you need (for example, `21`). See [Configure](/products/backend-capsule/configure/#set-environment-variables) for steps.
+
+Use a major version number only — not a patch release such as `21.0.11`. The platform resolves the latest patch on that JDK line at build time.
 
 Trigger a rebuild from the **Deploy** tab after saving the variable. The updated JDK version applies on the next build.
 
@@ -107,33 +121,44 @@ Maven or Gradle compiler settings control compilation targets but do not select 
 
 ### Ruby
 
-Create a `.ruby-version` file:
+**With Bundler:** commit a `Gemfile.lock` that includes a `RUBY VERSION` entry. The platform uses the locked version and resolves the latest patch on that line:
 
 ```
-3.4
+RUBY VERSION
+   ruby 3.4.9p0
 ```
 
-You can specify a major.minor version to receive the latest patch on that line, or an exact patch version (for example, `3.4.9`).
+**Without Bundler:** set `GOOGLE_RUNTIME_VERSION` in the **Config** tab to an exact patch version (for example, `3.4.9`). See [Configure](/products/backend-capsule/configure/#set-environment-variables) for steps.
 
-If you use Bundler, Code Capsules also reads the `RUBY VERSION` entry in `Gemfile.lock`.
+If you use Bundler, `GOOGLE_RUNTIME_VERSION` cannot override the version in `Gemfile.lock`.
 
 ### PHP
 
-Set the PHP version in `composer.json`:
+Set the PHP version in `composer.json`. Use the `major.minor.*` pattern with an asterisk to receive the latest patch on that line:
 
 ```json
 {
   "require": {
-    "php": "^8.4"
+    "php": "8.4.*"
   }
 }
 ```
 
-Version constraints in `composer.json` resolve to the latest matching patch on each build.
+Semver operators such as `^8.4` are not equivalent to a line pin — use the `8.4.*` format when you want the latest patch on the 8.4.x line on each build.
 
 ### .NET
 
-Create a `global.json` in your project root to pin the .NET SDK version:
+Create a `global.json` in your project root. Use the `major.*.*` pattern to receive the latest patch on that SDK line:
+
+```json
+{
+  "sdk": {
+    "version": "10.*.*"
+  }
+}
+```
+
+Pin an exact SDK version when you need reproducible builds:
 
 ```json
 {
@@ -143,7 +168,7 @@ Create a `global.json` in your project root to pin the .NET SDK version:
 }
 ```
 
-You can pin a major version line to receive the latest patch on that line automatically, or pin an exact SDK version when you need reproducible builds.
+You can also set `GOOGLE_DOTNET_SDK_VERSION` or `GOOGLE_RUNTIME_VERSION` in the **Config** tab.
 
 ## Platform upgrades and pins
 
