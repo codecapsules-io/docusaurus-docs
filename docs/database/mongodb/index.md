@@ -35,7 +35,7 @@ Open your MongoDB Capsule and go to the **Details** tab. Once the capsule is rea
 
 Click **show** to reveal credential values, or use the copy icon to copy a value to the clipboard.
 
-![MongoDB Capsule Details tab with connection details and public connection string](/gitbook-assets/get-started/mongodb-getting-started-plan-deploy.png)
+![MongoDB Capsule Details tab with connection details and public connection string](/gitbook-assets/products/database-capsule/details/mongodb-details.png)
 
 Below the connection details, the **Public Connection String** is available once the capsule has been created. This is the connection string your applications should use. Click **show** to reveal it, then copy it into your application configuration.
 

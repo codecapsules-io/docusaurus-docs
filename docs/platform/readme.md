@@ -7,7 +7,7 @@ description: 'Improved builds UI, we now include time the build took as well as 
 
 ### June 2026
 
-- Added support for [MongoDB capsules](/docs/products/database-capsule/mongodb/deploy.md), allowing you to create a MongoDB Atlas instance through the Code Capsules system
+- Added support for [MongoDB capsules](/products/database-capsule/mongodb/deploy), allowing you to create a MongoDB Atlas instance through the Code Capsules system
 - Ability to cancel builds, allowing you to cancel those accidental builds you started, make the changes you need, and rebuild when ready
 - Ability to delete builds, allowing you to control which builds you want to keep and which ones you want to remove. This is especially useful to ensure that your most stable build is not automatically deleted when you have reached your maximum build limit
 - Ability to view deleted builds
