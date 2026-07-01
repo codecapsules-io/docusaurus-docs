@@ -21,10 +21,10 @@ A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosti
 
 Navigate to the Spaces tab and open the Space you'll be using.
 
-Click the yellow **+** button in the bottom left of the screen, select **New Capsule**, and follow the instructions below to create a Database Capsule:
+Click the yellow **+** button in the bottom left of the screen, select **New Capsule**, and follow the instructions below to create a MongoDB Capsule:
 
-1. Choose **Data Capsule**.
-2. Under **Data Type**, select **MongoDB Database Cluster**.
+1. Choose **MongoDB**, your Team, and Space.
+2. On **Plan & Deploy**, choose a cluster type, version, and plan.
 3. Click **Create Capsule**.
 
 Navigate to the Space containing your recently created Data Capsule. Click the yellow **+** button in the bottom left of the screen, select **New Capsule**, and follow the instructions below to create a Backend Capsule:
@@ -44,7 +44,7 @@ Once your application is live, you can view the build log by selecting the **Dep
 
 ## Connect the Capsules
 
-After the two capsules have been successfully built, the next step is to connect them. To do this, navigate to the **Config** tab of your Backend Capsule. Scroll down to the **Data Capsule** section and click **View** to view the environment variables from the Data Capsule. Click the `+` next to the `Connection string` variable to create a `DATABASE_URL` environmental variable in your Backend Capsule, which gives access to services and features of your Data Capsule.
+After the two capsules have been successfully built, the next step is to connect them. Copy the **Public Connection String** from the **Details** tab of your MongoDB Capsule, then navigate to the **Config** tab of your Backend Capsule. Scroll down to the **Data capsules** section, click **View** next to your MongoDB Capsule, and add the connection string as a `DATABASE_URL` environment variable.
 
 ![Connect Data Capsule](/gitbook-assets/get-started/bind-mongodb-capsule-env.png)
 

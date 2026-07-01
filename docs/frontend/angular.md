@@ -53,7 +53,7 @@ Navigate to the Space containing your recently created Data Capsule and click th
 3. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
 4. Choose the GitHub repository you forked.
 5. Press **Next**.
-6. Type `npm run build` in **Build Command** and `dist/ng4-complete-guide` in **Static Content Folder Path**.
+6. Type `npm run build` in **Build Command** and `dist/ng4-complete-guide` in **Build Output Directory**.
 7. Click **Create Capsule**.
 
 Code Capsules will automatically build your application when you’ve finished creating the Capsule. While the build is in progress, you can view the log by clicking **View Build Progress** next to the **Building Capsule** message.
@@ -68,6 +68,6 @@ Once the build is complete, click the **URL** link in the **Details** tab, and y
 
 If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/frontend/).
 
-:::tip Video Guides
+:::tip[Video Guides]
 If you prefer watching videos to reading text, check out our [Video Guides](/tutorials/video-guides/).
 :::

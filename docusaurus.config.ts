@@ -5,6 +5,19 @@ import type * as Preset from '@docusaurus/preset-classic';
 const redirects = [
   {from: ['/readme'], to: '/'},
   {from: ['/cli/readme'], to: '/cli/'},
+  {from: ['/products/database-capsule/overview'], to: '/products/database-capsule/'},
+  {from: ['/products/database-capsule/configure'], to: '/products/database-capsule/'},
+  {from: ['/products/database-capsule/mysql-versions'], to: '/products/database-capsule/mysql/versions'},
+  {from: ['/products/database-capsule/migrations'], to: '/products/database-capsule/mysql/schema-migrations'},
+  {from: ['/products/database-capsule/mysql/migrations'], to: '/products/database-capsule/mysql/schema-migrations'},
+  {from: ['/products/database-capsule/mysql/versions/migrations'], to: '/products/database-capsule/mysql/versions/upgrades'},
+  {from: ['/products/database-capsule/mysql/versions/migrations/5-7-to-8-0'], to: '/products/database-capsule/mysql/versions/upgrades/5-7-to-8-0'},
+  {from: ['/products/database-capsule/mysql/versions/migrations/8-0-to-8-4'], to: '/products/database-capsule/mysql/versions/upgrades'},
+  {from: ['/products/database-capsule/mysql/versions/upgrades/8-0-to-8-4'], to: '/products/database-capsule/mysql/versions/upgrades'},
+  {from: ['/products/database-capsule/scale'], to: '/products/database-capsule/'},
+  {from: ['/products/database-capsule/backups'], to: '/products/database-capsule/'},
+  {from: ['/products/database-capsule/monitor'], to: '/products/database-capsule/'},
+  {from: ['/products/database-capsule/logs'], to: '/products/database-capsule/'},
 ];
 
 const url = process.env.DOCUSAURUS_URL || 'http://localhost';
@@ -163,6 +176,7 @@ const config: Config = {
   ],
 
   plugins: [
+    'docusaurus-plugin-image-zoom',
     [
       '@easyops-cn/docusaurus-search-local',
       {
@@ -239,6 +253,13 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.github,
+    },
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(50, 50, 50)',
+      },
     },
   } satisfies Preset.ThemeConfig,
 };

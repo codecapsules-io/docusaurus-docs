@@ -11,6 +11,6 @@ View the scaling options available for your Capsule in the **Scale** tab of the 
 
 ![Scale a Capsule](/gitbook-assets/products/backend-capsule/scale/backend-scale-edit.png)
 
-Use the sliders to configure the Capsule's resources, then click **Save**.
+Select a plan, or choose **Custom** to adjust resources to your requirements, then click **Save**.
 
 ![Configure Capsule Capacity](/gitbook-assets/products/backend-capsule/scale/backend-scale-custom.png)

@@ -11,6 +11,6 @@ View the scaling options available for your Capsule in the **Scale** tab of the 
 
 ![Scale Tab](/gitbook-assets/products/agentscalepage-edited.png)
 
-Use the sliders to configure the Capsule's resources, then click **Save**.
+Select a plan, or choose **Custom** to adjust resources to your requirements, then click **Save**.
 
 ![Edit Scale](/gitbook-assets/products/agenteditscalepage-edited.png)

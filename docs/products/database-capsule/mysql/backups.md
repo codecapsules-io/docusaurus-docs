@@ -1,13 +1,13 @@
 ---
-slug: "/products/database-capsule/backups"
-description: "Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules."
+slug: '/products/database-capsule/mysql/backups'
+description: 'Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules.'
 ---
 
 # Backups
 
 Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules.
 
-![Backups Configuration](/gitbook-assets/products/database-capsule/backups/backups.png)
+![MySQL Capsule Backup tab with manual backup and schedule options](/gitbook-assets/products/database-capsule/backups/mysql-backups.png)
 
 ## Manual Backup
 

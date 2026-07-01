@@ -9,6 +9,6 @@ It is possible to allocate more resources to your Capsule depending on how much 
 
 ![Scale a Capsule](/gitbook-assets/products/frontend-capsule/scale/frontend-scale-edit.png)
 
-Change the allocated resource for the Capsule with the sliders. Click "Save" when done.
+Select a plan, or choose **Custom** to adjust resources to your requirements. Click **Save** when done.
 
 ![Configure Capsule Capacity](/gitbook-assets/products/frontend-capsule/scale/frontend-scale-custom.png)
