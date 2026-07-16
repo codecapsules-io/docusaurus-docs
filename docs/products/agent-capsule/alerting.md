@@ -3,9 +3,11 @@ slug: "/products/agent-capsule/alerting"
 description: >-
   Manage your notification preferences to stay informed about your Capsule's
   health and performance.
+title: "How to Set Up Alerts for an AI Agent"
+sidebar_label: "Alerting"
 ---
 
-# Alerting
+# Set Up Alerts for Your AI Agent
 
 ![Notification Settings](/gitbook-assets/products/alert-settings.png)
 

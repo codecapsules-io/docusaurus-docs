@@ -3,9 +3,11 @@ slug: "/products/storage-capsule/alerting"
 description: >-
   Manage your notification preferences to stay informed about your Capsule's
   health and performance.
+title: "How to Set Up Alerts for a Persistent Storage"
+sidebar_label: "Notifications"
 ---
 
-# Notifications
+# Set Up Alerts for Your Persistent Storage
 
 ![Notification Settings](/gitbook-assets/products/alert-settings.png)
 

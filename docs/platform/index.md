@@ -3,9 +3,11 @@ slug: "/platform"
 description: Everything you need to know about Code Capsules.
 cover: /gitbook-assets/platform/generic-docs-banner.jpg
 coverY: 40
+title: "Platform Guides — Accounts, Billing, Teams & Domains"
+sidebar_label: "Platform"
 ---
 
-# Platform
+# Get the Most Out of the Platform
 
 This section contains all the information you need to understand and manage your Code Capsules environment.
 

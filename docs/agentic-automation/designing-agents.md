@@ -4,9 +4,11 @@ description: >-
   How to design agents that do one thing well — choosing the right model for
   each task, defining clean boundaries, and applying microservice principles to
   AI automation.
+title: "How to Design AI Agents for Business Automation"
+sidebar_label: "Designing Agents"
 ---
 
-# Designing Agents
+# Design Agents That Actually Work
 
 The most common mistake when building agentic automation systems is making agents too large. An agent that fetches data, cleans it, analyses it, formats it, and sends it is not an agent — it is a monolith with an AI API call in the middle. It has all the problems described in [The Problem](../the-problem) section, just with a more modern technology stack.
 

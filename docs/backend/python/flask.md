@@ -1,9 +1,11 @@
 ---
 slug: "/backend/python/flask"
 description: A walkthrough on how to deploy a Flask application from GitHub.
+title: "How to Deploy a Flask Application"
+sidebar_label: "Flask"
 ---
 
-# Flask
+# Deploy Your Flask Application in Minutes
 
 Deploy a Flask application and learn how to host backend code on Code Capsules.
 

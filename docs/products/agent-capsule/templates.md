@@ -1,9 +1,11 @@
 ---
 slug: "/products/agent-capsule/templates"
 description: "Code Capsules provides a variety of agent template repos for you to use as the base for your Agent Capsule."
+title: "AI Agent Templates — Prebuilt Starting Points"
+sidebar_label: "Templates"
 ---
 
-# Templates
+# Start From an AI Agent Template
 
 Code Capsules provides a variety of agent template repos for you to use as the base for your Agent Capsule.
 

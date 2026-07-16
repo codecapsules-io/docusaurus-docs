@@ -3,9 +3,11 @@ slug: "/backend/node.js/express.js"
 description: >-
   Enable auto deployments for an Express.js application from a specified branch
   on your GitHub repo.
+title: "How to Deploy an Express.js Server"
+sidebar_label: "Express.js"
 ---
 
-# Express.js
+# Deploy Your Express.js Server in Minutes
 
 Deploy an Express.js application and learn how to host backend code on Code Capsules.
 

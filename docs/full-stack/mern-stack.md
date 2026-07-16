@@ -1,9 +1,11 @@
 ---
 slug: "/full-stack/mern-stack"
 description: A guide to deploying a MERN Stack application from GitHub.
+title: "How to Deploy a MERN Stack Application"
+sidebar_label: "MERN Stack"
 ---
 
-# MERN Stack
+# Deploy Your MERN Stack App
 
 _A video for this guide can be found_ [_here_](https://www.youtube.com/watch?v=iHl-pFlLWk0\&list=PLoEGujFfB4nYx8b4Wai0l75KsjzEruy6l\&index=1\&t=1s) _if you prefer watching to reading._
 

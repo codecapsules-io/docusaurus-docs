@@ -3,9 +3,11 @@ slug: "/products/alerting"
 description: >-
   Manage your notification preferences to stay informed about your Capsule's
   health and performance.
+title: "How to Set Up Deployment Notifications"
+sidebar_label: "Notifications"
 ---
 
-# Notifications
+# Set Up Your Deployment Notifications
 
 ![Notification Settings](/gitbook-assets/products/alert-settings.png)
 

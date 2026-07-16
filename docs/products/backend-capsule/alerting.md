@@ -3,9 +3,11 @@ slug: "/products/backend-capsule/alerting"
 description: >-
   Manage your notification preferences to stay informed about the
   health and performance of your Capsules.
+title: "How to Set Up Alerts for a Backend Application"
+sidebar_label: "Notifications"
 ---
 
-# Notifications
+# Set Up Alerts for Your Backend Application
 
 ![Notification Settings](/gitbook-assets/products/alert-settings.png)
 

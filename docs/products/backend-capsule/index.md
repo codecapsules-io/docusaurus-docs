@@ -3,9 +3,11 @@ slug: "/products/backend-capsule"
 description: >-
   Deploy, configure, scale, and monitor server-side applications and APIs with
   Code Capsules Backend Capsules.
+title: "Backend Application Hosting"
+sidebar_label: "Backend Capsule"
 ---
 
-# Backend Capsule
+# Everything About Hosting Your Backend Application
 
 Host and scale server-side applications and APIs on Code Capsules. Backend Capsules support Python, Node.js, Go, Java, and Docker-based deployments.
 

@@ -1,9 +1,11 @@
 ---
 slug: "/products/database-capsule/logs"
 description: "View your Capsule's logs to monitor activity and debug issues."
+title: "How to View Logs for a Managed Database"
+sidebar_label: "Logs"
 ---
 
-# Logs
+# View Your Managed Database Logs
 
 View your Capsule's logs to monitor activity and debug issues.
 

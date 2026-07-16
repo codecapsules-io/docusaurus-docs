@@ -3,9 +3,11 @@ slug: "/products/alerting-1"
 description: >-
   Manage your notification preferences to stay informed about your Capsule's
   health and performance.
+title: "How to Configure Alert Notifications"
+sidebar_label: "Notifications"
 ---
 
-# Notifications
+# Configure Your Alert Notifications
 
 ![Notification Settings](/gitbook-assets/products/alert-settings.png)
 

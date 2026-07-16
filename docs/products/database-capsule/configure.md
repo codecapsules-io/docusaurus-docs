@@ -1,9 +1,11 @@
 ---
 slug: "/products/database-capsule/configure"
 description: "Configure a Database Capsule in the Details tab of the Capsule dashboard."
+title: "How to Configure a Managed Database"
+sidebar_label: "Configure"
 ---
 
-# Configure
+# Configure Your Managed Database
 
 Configure a Database Capsule in the **Details** tab of the Capsule dashboard.
 

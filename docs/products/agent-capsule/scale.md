@@ -1,9 +1,11 @@
 ---
 slug: "/products/agent-capsule/scale"
 description: "You can allocate more resources to a Capsule as your application's traffic and computational needs change."
+title: "How to Scale an AI Agent"
+sidebar_label: "Scale"
 ---
 
-# Scale
+# Scale Your AI Agent Without Downtime
 
 You can allocate more resources to a Capsule as your application's traffic and computational needs change.
 

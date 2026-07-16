@@ -1,6 +1,8 @@
 ---
 slug: "/platform/capsules/what-is-a-capsule"
 description: "Teams, Spaces, and Capsules form the foundation of Code Capsules."
+title: "Hosting Environments (Containers) Explained"
+sidebar_label: "What Is a Capsule?"
 ---
 
 # What Is a Capsule?
