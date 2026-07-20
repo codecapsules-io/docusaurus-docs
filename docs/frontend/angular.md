@@ -3,9 +3,11 @@ slug: "/frontend/angular"
 description: >-
   Deploy an Angular application on Code Capsules with auto-deployments from a
   specified branch on your GitHub repository.
+title: "How to Host an Angular Application"
+sidebar_label: "Angular"
 ---
 
-# Angular
+# Host Your Angular Application in Minutes
 
 Deploy an Angular application and learn how to host frontend code on Code Capsules. At the end of the guide, you would have deployed the application in the screenshot below and can adapt it to meet your unique needs.
 

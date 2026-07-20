@@ -1,9 +1,11 @@
 ---
 slug: "/products/storage-capsule/logs"
 description: "View your Capsule's logs to monitor activity and debug issues."
+title: "How to View Logs for a Persistent Storage"
+sidebar_label: "Logs"
 ---
 
-# Logs
+# View Your Persistent Storage Logs
 
 View your Capsule's logs to monitor activity and debug issues.
 

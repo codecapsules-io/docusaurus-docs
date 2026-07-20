@@ -1,9 +1,11 @@
 ---
 slug: "/backend/python/python"
 description: "In this guide, we'll clone an existing Python repository and take a look at how to edit the project locally before pushing the changes to GitHub. The..."
+title: "How to Deploy a Python Application"
+sidebar_label: "Python"
 ---
 
-# Python
+# Deploy Your Python Application in Minutes
 
 In this guide, we'll clone an existing Python repository and take a look at how to edit the project locally before pushing the changes to GitHub. The final step will be to deploy the application with the changes we made locally to Code Capsules.
 

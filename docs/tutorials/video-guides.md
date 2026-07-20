@@ -1,9 +1,11 @@
 ---
 slug: "/tutorials/video-guides"
 description: "If you prefer watching videos to reading text then you can watch videos for the tutorials and deployment guides listed below on our YouTube Channel."
+title: "Video Tutorials — Deploy Apps Step by Step"
+sidebar_label: "Video Guides"
 ---
 
-# Video Guides
+# Watch and Deploy Along
 
 If you prefer watching videos to reading text then you can watch videos for the tutorials and deployment guides listed below on our [YouTube Channel](https://www.youtube.com/channel/UC5q3AFoYRYWiFKGKdKyIX_Q/videos).
 

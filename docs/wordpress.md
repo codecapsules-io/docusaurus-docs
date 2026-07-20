@@ -1,9 +1,11 @@
 ---
 slug: "/wordpress"
 description: "Deploy a WordPress application and learn how to host a content management system on Code Capsules."
+title: "Managed WordPress Hosting"
+sidebar_label: "WordPress"
 ---
 
-# WordPress
+# WordPress, Fully Managed
 
 Deploy a WordPress application and learn how to host a content management system on Code Capsules.
 

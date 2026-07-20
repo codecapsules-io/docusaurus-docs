@@ -1,9 +1,11 @@
 ---
 slug: "/frontend/static-html"
 description: Deploy a static HTML site and learn how to host frontend code on Code Capsules.
+title: "How to Host a Static HTML Website"
+sidebar_label: "Static HTML"
 ---
 
-# Static HTML
+# Host Your Static HTML Website in Minutes
 
 Deploy a static HTML site and learn how to host frontend code on Code Capsules. At the end of this guide you'll have the application below deployed and ready to customise.
 

@@ -1,9 +1,11 @@
 ---
 slug: "/products/wordpress-capsule/security"
 description: "Built-in security features of the WordPress Capsule and how to configure them."
+title: "How to Secure a WordPress Site"
+sidebar_label: "Security"
 ---
 
-# Security
+# Lock Down Your WordPress Site
 
 WordPress Capsules include a layered security configuration that protects sites against common WordPress attacks without requiring any plugin installation. This page explains what is enabled by default and which settings you can tune.
 

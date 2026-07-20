@@ -1,9 +1,11 @@
 ---
 slug: "/products/agent-capsule/deploy"
 description: "Deploy a configurable Agent Capsule on Code Capsules."
+title: "How to Deploy an AI Agent"
+sidebar_label: "Deploy"
 ---
 
-# Deploy
+# Deploy Your AI Agent
 
 Deploy a configurable Agent Capsule on Code Capsules.
 

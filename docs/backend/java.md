@@ -1,9 +1,11 @@
 ---
 slug: "/backend/java"
 description: A guide on how to launch a Java application from GitHub.
+title: "How to Deploy a Java Application"
+sidebar_label: "Java"
 ---
 
-# Java
+# Deploy Your Java Application in Minutes
 
 Deploy a Java application and learn how to host backend code on Code Capsules.
 

@@ -1,9 +1,11 @@
 ---
 slug: "/products/storage-capsule/configure"
 description: "To configure your Persistent Storage Capsule, navigate to the \"Details\" tab."
+title: "How to Configure a Persistent Storage"
+sidebar_label: "Configure"
 ---
 
-# Configure
+# Configure Your Persistent Storage
 
 To configure your Persistent Storage Capsule, navigate to the "Details" tab.
 

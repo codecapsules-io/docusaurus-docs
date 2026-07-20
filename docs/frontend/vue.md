@@ -3,9 +3,11 @@ slug: "/frontend/vue"
 description: >-
   Host and set up auto deployments from a specified GitHub repo branch for a Vue
   application.
+title: "How to Host a Vue Application"
+sidebar_label: "Vue"
 ---
 
-# Vue
+# Host Your Vue Application in Minutes
 
 Deploy a Vue application and learn how to host frontend code on Code Capsules.
 

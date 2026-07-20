@@ -1,9 +1,11 @@
 ---
 slug: "/products/wordpress-capsule/deploy"
 description: "Deploy a WordPress application and learn how to host a content management system on Code Capsules."
+title: "How to Deploy a WordPress Site"
+sidebar_label: "Deploy"
 ---
 
-# Deploy
+# Deploy Your WordPress Site
 
 Deploy a WordPress application and learn how to host a content management system on Code Capsules.
 

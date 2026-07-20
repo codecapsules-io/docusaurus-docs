@@ -1,9 +1,11 @@
 ---
 slug: "/products/agent-capsule/logs"
 description: "Use Capsule logs to monitor activity and debug issues."
+title: "How to View Logs for an AI Agent"
+sidebar_label: "Logs"
 ---
 
-# Logs
+# View Your AI Agent Logs
 
 Use Capsule logs to monitor activity and debug issues.
 

@@ -1,9 +1,11 @@
 ---
 slug: "/products/backend-capsule/logs"
 description: "Use Capsule logs to monitor activity and debug issues."
+title: "How to View Logs for a Backend Application"
+sidebar_label: "Logs"
 ---
 
-# Logs
+# View Your Backend Application Logs
 
 Use Capsule logs to monitor activity and debug issues.
 

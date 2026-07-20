@@ -1,9 +1,11 @@
 ---
 slug: "/platform/account/how-do-i-enable-2fa"
 description: "To set up two-factor authentication (2FA) for your Code Capsules account:"
+title: "How to Enable Two-Factor Authentication (2FA)"
+sidebar_label: "Enable 2FA"
 ---
 
-# Enable 2FA
+# Protect Your Account With 2FA
 
 To set up two-factor authentication (2FA) for your Code Capsules account:
 

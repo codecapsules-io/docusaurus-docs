@@ -1,6 +1,8 @@
 ---
 slug: "/platform/capsules/how-do-i-add-remove-stop-capsules"
 description: "To add a new Capsule, click the yellow + button in the bottom-left corner of the dashboard and select New Capsule."
+title: "How to Add, Remove, and Stop Hosted Apps"
+sidebar_label: "Add, Remove, and Turn Off Capsules"
 ---
 
 # Add, Remove, and Turn Off Capsules

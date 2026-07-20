@@ -1,9 +1,11 @@
 ---
 slug: "/full-stack/mean-stack"
 description: A guide to deploying a MEAN Stack application from GitHub.
+title: "How to Deploy a MEAN Stack Application"
+sidebar_label: "MEAN Stack"
 ---
 
-# MEAN Stack
+# Deploy Your MEAN Stack App
 
 Deploy a MEAN stack application and learn how to host backend code on Code Capsules.
 
