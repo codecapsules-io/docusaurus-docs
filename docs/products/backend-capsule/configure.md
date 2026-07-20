@@ -1,9 +1,11 @@
 ---
 slug: "/products/backend-capsule/configure"
 description: "Configure a Backend Capsule in the Config tab."
+title: "How to Configure a Backend Application"
+sidebar_label: "Configure"
 ---
 
-# Configure
+# Configure Your Backend Application
 
 Configure a Backend Capsule in the **Config** tab.
 

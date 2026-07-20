@@ -1,9 +1,11 @@
 ---
 slug: "/database/mongodb"
 description: "MongoDB provides reliable NoSQL persistent storage for your applications. In this tutorial, we look at how to create a MongoDB instance you can use..."
+title: "Managed MongoDB Hosting"
+sidebar_label: "MongoDB"
 ---
 
-# MongoDB
+# Host Your MongoDB Database
 
 MongoDB provides reliable NoSQL persistent storage for your applications. In this tutorial, we look at how to create a MongoDB instance you can use with your backend applications that are running on Code Capsules and elsewhere.
 

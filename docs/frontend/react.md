@@ -1,9 +1,11 @@
 ---
 slug: "/frontend/react"
 description: Link a React GitHub repo to a PaaS provider to enable auto deployments.
+title: "How to Host a React Application"
+sidebar_label: "React"
 ---
 
-# React
+# Host Your React Application in Minutes
 
 Deploy a React application and learn how to host frontend code on Code Capsules.
 

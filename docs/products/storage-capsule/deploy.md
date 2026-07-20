@@ -1,9 +1,11 @@
 ---
 slug: "/products/storage-capsule/deploy"
 description: "You need persistent storage for your application, but you don't want a full-blown database."
+title: "How to Deploy a Persistent Storage"
+sidebar_label: "Deploy"
 ---
 
-# Deploy
+# Deploy Your Persistent Storage
 
 You need persistent storage for your application, but you don't want a full-blown database.
 

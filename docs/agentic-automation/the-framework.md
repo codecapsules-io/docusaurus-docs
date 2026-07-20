@@ -4,9 +4,11 @@ description: >-
   The orchestrator and agent architecture — how an always-on orchestrator
   drives ephemeral agent capsules through structured workflows using BullMQ,
   webhooks, and the Code Capsules scale API.
+title: "The Agentic Automation Framework"
+sidebar_label: "The Framework"
 ---
 
-# The Framework
+# A Framework for Reliable Agents
 
 The architecture has two moving parts: an **orchestrator** and one or more **agents**. Understanding the relationship between them — and why they are separated — is the foundation of everything else.
 

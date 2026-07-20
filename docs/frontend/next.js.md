@@ -1,9 +1,11 @@
 ---
 slug: "/frontend/next.js"
 description: A guide to deploying a Next.js application from GitHub.
+title: "How to Host a Next.js App"
+sidebar_label: "Next.js"
 ---
 
-# Next.js
+# Host Your Next.js App in Minutes
 
 Deploy a Next application and learn how to host backend code on Code Capsules.
 

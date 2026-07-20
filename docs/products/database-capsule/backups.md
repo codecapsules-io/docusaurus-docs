@@ -1,9 +1,11 @@
 ---
 slug: "/products/database-capsule/backups"
 description: "Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules."
+title: "How to Back Up a Managed Database"
+sidebar_label: "Backups"
 ---
 
-# Backups
+# Back Up and Restore Your Managed Database
 
 Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules.
 

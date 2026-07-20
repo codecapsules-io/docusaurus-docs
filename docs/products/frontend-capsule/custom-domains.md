@@ -1,9 +1,11 @@
 ---
 slug: "/products/frontend-capsule/custom-domains"
 description: "Each application deployed on Code Capsules is assigned a default domain in the format capsulename.xxxx.codecapsules.co.za."
+title: "How to Add a Custom Domain to a Frontend App"
+sidebar_label: "Custom Domains"
 ---
 
-# Custom Domains
+# Put Your Frontend on Your Own Domain
 
 Each application deployed on Code Capsules is assigned a default domain in the format `capsulename.xxxx.codecapsules.co.za`.
 

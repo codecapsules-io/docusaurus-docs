@@ -1,9 +1,11 @@
 ---
 slug: "/backend/python/django"
 description: A guide to deploying a Django application from GitHub.
+title: "How to Deploy a Django Application"
+sidebar_label: "Django"
 ---
 
-# Django
+# Deploy Your Django Application in Minutes
 
 Deploy a Django application and learn how to host backend code on Code Capsules.
 

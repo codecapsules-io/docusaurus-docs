@@ -1,9 +1,11 @@
 ---
 slug: "/products/database-capsule/overview"
 description: "Deploy and manage database instances on Code Capsules, including MySQL, PostgreSQL, MongoDB, and Redis."
+title: "How to Deploy a Managed Database"
+sidebar_label: "Deploy"
 ---
 
-# Deploy
+# Deploy Your Managed Database
 
 ## MySQL
 

@@ -1,9 +1,11 @@
 ---
 slug: "/platform/readme"
 description: "Improved builds UI, we now include time the build took as well as branch and commit hash details"
+title: "Platform Release Notes"
+sidebar_label: "Release Notes"
 ---
 
-# Release Notes
+# What We Shipped Recently
 
 ### December 2025
 

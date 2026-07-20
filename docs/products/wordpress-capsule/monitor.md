@@ -1,9 +1,11 @@
 ---
 slug: "/products/wordpress-capsule/monitor"
 description: "Monitor your WordPress Capsule using built-in Prometheus metrics for nginx, PHP-FPM, and WordPress application health."
+title: "How to Monitor a WordPress Site"
+sidebar_label: "Monitor"
 ---
 
-# Monitor
+# Monitor Your WordPress Site in Real Time
 
 WordPress Capsules expose metrics for Prometheus via built-in exporters running inside the container. The platform scrapes these automatically and makes them available in the **Metrics** tab of your Capsule's page.
 

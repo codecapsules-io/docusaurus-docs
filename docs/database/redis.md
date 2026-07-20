@@ -1,9 +1,11 @@
 ---
 slug: "/database/redis"
 description: "In this tutorial, we’ll create a Redis Data Capsule to provide low-latency, in-memory data storage for your application hosted on Code Capsules."
+title: "Managed Redis Hosting"
+sidebar_label: "Redis"
 ---
 
-# Redis
+# Host Your Redis Instance
 
 In this tutorial, we’ll create a Redis Data Capsule to provide low-latency, in-memory data storage for your application hosted on Code Capsules.
 

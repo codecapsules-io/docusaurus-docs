@@ -5,9 +5,11 @@ description: >-
   Capsules.
 cover: /gitbook-assets/products/generic-docs-banner.jpg
 coverY: 60
+title: "App, Database & WordPress Hosting Products"
+sidebar_label: "Products"
 ---
 
-# Products
+# Everything You Can Host on Code Capsules
 
 This section contains all the information you need to deploy, configure, and manage applications using different Capsule types on Code Capsules.
 

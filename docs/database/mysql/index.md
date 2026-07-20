@@ -1,9 +1,11 @@
 ---
 slug: "/database/mysql"
 description: "In this tutorial, we'll create a MySQL Data Capsule to provide persistent storage for your applications hosted on Code Capsules."
+title: "Managed MySQL Hosting"
+sidebar_label: "MySQL"
 ---
 
-# MySQL
+# Host Your MySQL Database
 
 In this tutorial, we'll create a MySQL Data Capsule to provide persistent storage for your applications hosted on Code Capsules.
 

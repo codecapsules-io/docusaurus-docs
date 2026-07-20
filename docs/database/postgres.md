@@ -1,9 +1,11 @@
 ---
 slug: "/database/postgres"
 description: "In this tutorial, we'll create a PostgreSQL Data Capsule to provide persistent storage for your applications hosted on Code Capsules."
+title: "Managed PostgreSQL Hosting"
+sidebar_label: "Postgres"
 ---
 
-# Postgres
+# Host Your PostgreSQL Database
 
 In this tutorial, we'll create a PostgreSQL Data Capsule to provide persistent storage for your applications hosted on Code Capsules.
 

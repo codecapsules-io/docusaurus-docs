@@ -1,9 +1,11 @@
 ---
 slug: "/products/database-capsule/migrations"
 description: "This guide walks you through migrating a database using an Express app and a MySQL Capsule."
+title: "How to Run Database Migrations"
+sidebar_label: "Migrations"
 ---
 
-# Migrations
+# Run Your Database Migrations
 
 This guide walks you through migrating a database using an Express app and a MySQL Capsule.
 
