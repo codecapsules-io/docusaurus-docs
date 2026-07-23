@@ -1,4 +1,5 @@
 ---
+title: "Migrate from Heroku: Step-by-Step Guide"
 slug: "/tutorials/heroku-migration-guide"
 description: "This guide demonstrates how to move a suite of applications running on the Heroku platform as a service (PaaS) to Code Capsules."
 cover: /gitbook-assets/tutorials/heroku-migration-cover-v2.jpg
