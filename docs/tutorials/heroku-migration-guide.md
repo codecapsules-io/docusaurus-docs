@@ -1,8 +1,8 @@
 ---
-title: "How to Migrate From Heroku to Code Capsules"
+title: "Migrate From Heroku to Code Capsules: 2026 Guide"
 sidebar_label: "Heroku Migration Guide"
 slug: "/tutorials/heroku-migration-guide"
-description: "This guide demonstrates how to move a suite of applications running on the Heroku platform as a service (PaaS) to Code Capsules."
+description: "Step-by-step 2026 guide to migrating from Heroku to Code Capsules: component mapping, database export and restore, cost comparison, and a full migration checklist."
 cover: /gitbook-assets/tutorials/heroku-migration-cover-v2.jpg
 ---
 
@@ -15,11 +15,33 @@ This guide demonstrates how to move a suite of applications running on the Herok
 
 The guide walks you through the Code Capsules equivalents of Heroku components, how to change your connection settings to work on Code Capsules, how to export and restore your database, and common pitfalls to avoid.
 
-[Heroku is no longer adding new features](https://www.theregister.com/2026/02/09/heroku_freeze) as its parent company focuses on AI business opportunities. If you're considering moving your Heroku app to another PaaS, consider the [benefits of Code Capsules](https://www.codecapsules.io/compare).
-
 Even if you don't intend to move to Code Capsules, this guide should help you create a general migration plan for most similar providers.
 
+## Why Developers Are Migrating From Heroku in 2026
+
+**Last updated: July 2026.** Prices below are from the official [Heroku pricing page](https://www.heroku.com/pricing) and [Code Capsules pricing page](https://www.codecapsules.io/pricing); re-check both before making decisions.
+
+A few platform changes are driving migrations:
+
+- **Feature freeze.** [Heroku is no longer adding new features](https://www.theregister.com/2026/02/09/heroku_freeze) as its parent company focuses on AI business opportunities.
+- **No free tier.** Heroku removed its free plans in November 2022. The cheapest option today is the $5/month Eco plan, and Eco web dynos sleep after 30 minutes without traffic, which makes them unsuitable for production.
+- **A steep pricing ladder.** The always-on Basic dyno is $7/month with 0.5 GB RAM, but the next step up is Standard-1X at $25/month for the same 0.5 GB RAM.
+
+Here is how the two platforms compare on the things that matter for a migration:
+
+| | Heroku | Code Capsules |
+|---|---|---|
+| Free tier | None since November 2022 | Free account to explore; Capsules from $3/month |
+| Compute unit | Dyno (Eco $5 sleeps after 30 min; Basic $7 always-on) | Capsule (always-on at every tier; custom sizing below standard tiers) |
+| PostgreSQL | Addon attached to an app (Essential-0: $5/month, 1 GB) | Standalone Database Capsule (from $8/month, 1 GB, custom) |
+| Deploys | Procfile plus buildpacks or Docker; Git push via Heroku remote or GitHub only | Push to GitHub, GitLab, or Bitbucket; framework auto-detected; Docker supported |
+| Buildpacks | Needed for framework configuration; static-site buildpack deprecated | Not needed; automatic framework detection |
+| Static sites | No native support | Native static site Capsules from $3/month |
+| Scheduled jobs | Scheduler addon | In-app scheduling (for example node-cron) or an external cron service |
+| CLI | Heroku CLI | Code Capsules CLI (login, database proxy, content operations) |
+
 - [How to Migrate from Heroku to Code Capsules](/tutorials/heroku-migration-guide/)
+  - [Why Developers Are Migrating From Heroku in 2026](#why-developers-are-migrating-from-heroku-in-2026)
   - [Document Your Heroku System](#document-your-heroku-system)
   - [An Example Full-Stack Application](#an-example-full-stack-application)
   - [Reviewing the App on Heroku](#reviewing-the-app-on-heroku)
@@ -32,6 +54,7 @@ Even if you don't intend to move to Code Capsules, this guide should help you cr
     - [The Backend and Frontend](#the-backend-and-frontend)
     - [The Cron Job](#the-cron-job-1)
   - [Other Components and Cross-Cutting Concerns in Code Capsules](#other-components-and-cross-cutting-concerns-in-code-capsules)
+  - [Your Migration Checklist](#your-migration-checklist)
   - [Next Steps](#next-steps)
 
 ## Document Your Heroku System
@@ -386,6 +409,37 @@ We've discussed how to move common system components to Code Capsules, but you m
   ```
   Code Capsules builds Docker images from your Dockerfile in your repository. If you have a complex build, you can prebuild an image, publish it to DockerHub, and reference it in a minimal Dockerfile.
 - **Running multiple applications in a Capsule**: If you want to run two different services in one Capsule, like a PHP and Ruby server, you need to use a custom Dockerfile that includes both frameworks.
+
+## Your Migration Checklist
+
+Use this as the working checklist for the whole migration. Each item links back to the section that covers it.
+
+**Before you start**
+
+- [ ] List every Heroku app you're migrating, with its dyno type (`web` or `worker`), size, and framework ([Document Your Heroku System](#document-your-heroku-system))
+- [ ] List all addons (databases, schedulers) and their connection settings
+- [ ] Copy all config vars into a spreadsheet
+- [ ] Note every URL, domain, and subdomain in use
+- [ ] Organize repositories so each app and environment can deploy from its own branch or folder
+- [ ] Decide your database strategy: offline cutover or dual-write ([details](#document-your-heroku-system))
+
+**Build the new environment**
+
+- [ ] Create a Space and one Capsule per Heroku component ([Creating the App on Code Capsules](#creating-the-app-on-code-capsules))
+- [ ] Deploy the database Capsule first, then export from Heroku and restore through the CLI proxy ([The Database](#the-database))
+- [ ] Deploy backend and frontend Capsules, set their environment variables, and wire the URLs both ways ([The Backend and Frontend](#the-backend-and-frontend))
+- [ ] Move scheduled jobs to in-app scheduling or an external cron service ([The Cron job](#the-cron-job-1))
+- [ ] Recreate any object storage, queues, or caches ([Other Components](#other-components-and-cross-cutting-concerns-in-code-capsules))
+- [ ] Delete Heroku `Procfile`s from your repositories
+
+**Cut over**
+
+- [ ] Verify every component works on its Code Capsules URL (logs, health, test transactions)
+- [ ] Point your custom domains at the new Capsules via CNAME records and confirm TLS certificates issue
+- [ ] Do a final database sync if you used the offline-cutover approach
+- [ ] Configure database backups on Code Capsules
+- [ ] Watch logs and resource graphs for a full traffic cycle before decommissioning
+- [ ] Downgrade, then delete, the old Heroku resources once you're confident
 
 ## Next Steps
 
