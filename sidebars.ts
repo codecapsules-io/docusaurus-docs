@@ -409,6 +409,33 @@ const sidebars: SidebarsConfig = {
     "agentic-automation/the-framework",
     "agentic-automation/designing-agents",
     "agentic-automation/deployment"
+  ],
+  "sandbox": [
+    "sandbox/index",
+    "sandbox/quickstart",
+    "sandbox/environments",
+    {
+      "type": "category",
+      "label": "TypeScript SDK",
+      "link": {
+        "type": "doc",
+        "id": "sandbox/typescript/index"
+      },
+      "items": [
+        "sandbox/typescript/api-reference"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Python SDK",
+      "link": {
+        "type": "doc",
+        "id": "sandbox/python/index"
+      },
+      "items": [
+        "sandbox/python/api-reference"
+      ]
+    }
   ]
 };
 
