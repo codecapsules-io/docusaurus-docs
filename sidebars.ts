@@ -444,7 +444,7 @@ const sidebars: SidebarsConfig = {
         "id": "sandbox/tutorials/index"
       },
       "items": [
-        "sandbox/tutorials/warm-pool"
+        "sandbox/tutorials/sessions"
       ]
     }
   ]

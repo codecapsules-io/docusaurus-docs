@@ -9,4 +9,4 @@ sidebar_label: "Tutorials"
 
 Worked examples that go beyond a single API call, built against the live Sandbox API.
 
-- [Building a sandbox warm pool](/sandbox/tutorials/warm-pool/): keep a handful of sandboxes booted and ready so callers never wait on cold start.
+- [Giving each user their own sandbox](/sandbox/tutorials/sessions/): provision a sandbox per user session and make sure it's always cleaned up.
