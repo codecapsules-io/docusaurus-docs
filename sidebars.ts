@@ -435,6 +435,17 @@ const sidebars: SidebarsConfig = {
       "items": [
         "sandbox/python/api-reference"
       ]
+    },
+    {
+      "type": "category",
+      "label": "Tutorials",
+      "link": {
+        "type": "doc",
+        "id": "sandbox/tutorials/index"
+      },
+      "items": [
+        "sandbox/tutorials/warm-pool"
+      ]
     }
   ]
 };
