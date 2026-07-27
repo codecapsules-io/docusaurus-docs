@@ -1,9 +1,11 @@
 ---
+title: "How to Deploy a Flask + HTMX App"
+sidebar_label: "Flask + HTMX"
 slug: "/full-stack/flask-+-htmx"
 description: A walkthrough on how to deploy a Flask HTMx application from GitHub.
 ---
 
-# Flask + HTMX
+# Deploy Your Flask + HTMX App Straight from GitHub
 
 Deploy a Flask HTMx application and learn how to host backend code on Code Capsules.
 
