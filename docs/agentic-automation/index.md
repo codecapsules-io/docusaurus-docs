@@ -1,9 +1,6 @@
 ---
 slug: "/agentic-automation"
-description: >-
-  A framework and philosophy for building scalable agentic automation systems —
-  using git, simple code, and cloud infrastructure to create reliable business
-  automation from AI that is inherently unpredictable.
+description: "A framework for building reliable agentic automation with git, simple code and cloud infrastructure, turning unpredictable AI into dependable automation."
 title: "Agentic Automation for Business Processes"
 sidebar_label: "Agentic Automation"
 ---

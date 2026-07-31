@@ -1,6 +1,7 @@
 ---
 slug: "/backend/go/go-telegram-bot"
-description: Learn how to deploy a Go Telegram Bot from GitHub.
+title: "Deploy a Go Telegram Bot from GitHub"
+description: "Deploy a Go Telegram bot to Code Capsules straight from GitHub. Connect the Telegram Bot API, build with Docker, and run it in production."
 ---
 
 # Go Telegram Bot

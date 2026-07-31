@@ -1,6 +1,7 @@
 ---
 slug: "/platform/what-is-code-capsules"
-description: "Code Capsules is a comprehensive platform-as-a-service (PaaS) that streamlines software development."
+title: "What Is Code Capsules? PaaS Overview"
+description: "Code Capsules is a platform-as-a-service for deploying full-stack apps, containers, databases and AI agents from a git push. Here is what it does."
 ---
 
 # What Is Code Capsules?
