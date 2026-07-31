@@ -1,7 +1,7 @@
 ---
 title: "Generative Art App with Flask"
 slug: "/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx"
-description: "Python’s Pillow package provides support for image manipulation that we can leverage to create random graphic images."
+description: "Build a generative art web app with Python, Pillow, Flask and HTMX, then deploy it to Code Capsules. Generate and serve unique images live."
 cover: /gitbook-assets/tutorials/generative-art-cover-v2.jpg
 ---
 

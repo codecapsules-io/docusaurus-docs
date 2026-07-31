@@ -1,9 +1,7 @@
 ---
 title: "Full Stack App with Flask and HTMx"
 slug: "/tutorials/building-a-full-stack-application-with-flask-and-htmx"
-description: >-
-  Create a full stack application with Flask and HTMx to build a lightweight
-  interactive site.
+description: "Build a full-stack app with Flask and HTMX for server-rendered interactivity without a JS framework, then deploy it to Code Capsules."
 cover: /gitbook-assets/tutorials/flask-htmx-cover-v2.jpg
 ---
 

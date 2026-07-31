@@ -1,7 +1,7 @@
 ---
 title: "Full Stack App with Express and HTMx"
 slug: "/tutorials/building-a-full-stack-application-with-express-and-htmx"
-description: "Single page frameworks like Angular, React, and Vue have become the go-to solution for frontend development recently. This shift from traditional..."
+description: "Build a full-stack app with Express and HTMX for dynamic, server-rendered pages without a heavy frontend framework, then deploy on Code Capsules."
 cover: /gitbook-assets/tutorials/express-htmx-cover-v2.jpg
 ---
 
