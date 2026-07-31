@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with MEAN Stack"
 slug: "/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial"
-description: "As a web developer, diving into the world of full-stack development can be both exciting and challenging. One of the popular choices for building..."
+description: "Learn the MEAN stack step by step: build a full-stack app with MongoDB, Express, Angular and Node.js, then deploy it to Code Capsules."
 cover: /gitbook-assets/tutorials/mean-stack-cover-v2.jpg
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "MEAN/MERN/MEVN Project Structure"
 slug: "/tutorials/best-practices-for-structuring-mean-mern-mevn-projects"
-description: "The MEAN stack—MongoDB, Express.js, Angular, and Node.js—is a powerful technology suite that enables developers to build robust and scalable web..."
+description: "How to structure MEAN, MERN and MEVN projects: folder layout, separation of concerns, and conventions that keep full-stack JS apps maintainable."
 cover: /gitbook-assets/tutorials/best-practices-cover-v2.jpg
 ---
 
