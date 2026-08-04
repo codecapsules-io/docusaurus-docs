@@ -1,11 +1,9 @@
 ---
 slug: "/"
-description: >-
-  Comprehensive tutorials, references, example code, and more Code Capsules
-  products.
+description: "Code Capsules documentation: tutorials, references and example code for deploying apps, databases, containers and AI agents to production."
 cover: /gitbook-assets/get-started/generic-docs-banner.jpg
 coverY: 20
-title: "Get Started — Deploy Your First App"
+title: "Get Started: Deploy Your First App"
 sidebar_label: "Get Started"
 ---
 

@@ -1,6 +1,7 @@
 ---
 slug: "/backend/python/python-telegram-bot"
-description: A guide to deploying a Python Telegram Bot from GitHub.
+title: "Deploy a Python Telegram Bot from GitHub"
+description: "Deploy a Python Telegram bot to Code Capsules straight from GitHub. Connect the Telegram Bot API, build with Docker, and run it in production."
 ---
 
 # Python Telegram Bot

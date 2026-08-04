@@ -1,6 +1,7 @@
 ---
 slug: "/tutorials/use-codecapsules-with-an-agent"
-description: Deploy applications using an AI coding agent instead of the web dashboard.
+title: "Deploy with an AI Coding Agent"
+description: "Deploy applications to Code Capsules using an AI coding agent instead of the dashboard. Connect an agent to the platform and ship from your editor."
 cover: /gitbook-assets/tutorials/agent-skill-cover-v3.jpg
 ---
 

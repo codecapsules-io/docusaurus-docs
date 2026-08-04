@@ -1,7 +1,7 @@
 ---
 title: "PHP Book Recommendations App"
 slug: "/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker"
-description: "PHP is one of the first technologies that made dynamic web applications possible, and it’s still widely used today. In this tutorial, we’ll look at how..."
+description: "Build a book recommendations web app with PHP, SQLite and Docker, then deploy it to Code Capsules. A step-by-step containerized tutorial."
 cover: /gitbook-assets/tutorials/php-book-app-cover-v2.jpg
 ---
 
