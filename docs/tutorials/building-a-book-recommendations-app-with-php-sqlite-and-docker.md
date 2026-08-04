@@ -27,7 +27,7 @@ You can do all the development using the Docker environment that we’ll create 
 To deploy the application to Code Capsules, you’ll also need:
 
 * A [GitHub](https://github.com/) account and Git installed locally.
-* A [Code Capsules](https://codecapsules.io/) account.
+* A [Code Capsules](https://www.codecapsules.io/) account.
 
 ### Project Setup
 

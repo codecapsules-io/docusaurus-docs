@@ -11,7 +11,7 @@ In this tutorial, we'll create a MySQL Data Capsule to provide persistent storag
 
 ## Create a MySQL Data Capsule
 
-Log in to your [Code Capsules](https://codecapsules.io) account and navigate to the Space your MySQL Data Capsule will be contained in. Click the yellow `+` button and select the **MySQL Data Capsule** option from the dropdown.
+Log in to your [Code Capsules](https://www.codecapsules.io/) account and navigate to the Space your MySQL Data Capsule will be contained in. Click the yellow `+` button and select the **MySQL Data Capsule** option from the dropdown.
 
 ![Create Data Capsule](/gitbook-assets/get-started/create-sql-capsule.jpg)
 

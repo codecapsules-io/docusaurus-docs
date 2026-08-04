@@ -52,7 +52,7 @@ Let’s take a look at how you can create a single-tenant application and host m
 To edit, configure, and deploy both versions of our application, you will need the following:
 
 * Git set up and installed and a registered GitHub account.
-* A [Code Capsules](https://codecapsules.io/) account.
+* A [Code Capsules](https://www.codecapsules.io/) account.
 * An IDE or text editor of your choice.
 
 ### Getting Started
@@ -279,7 +279,7 @@ Now that our application is ready to be customized and deployed, we can use Code
 
 To get started, create a repository on GitHub and push your app’s code to this new repository.
 
-Next, create an account for or log in to [Code Capsules](https://codecapsules.io/). During your account set up, link your GitHub repository to your Code Capsules account and provide access to the repository that stores your code.
+Next, create an account for or log in to [Code Capsules](https://www.codecapsules.io/). During your account set up, link your GitHub repository to your Code Capsules account and provide access to the repository that stores your code.
 
 Once your set-up is complete, you can begin deploying your apps. Let’s pretend two companies have bought your white-label app and wish to deploy their own customized version of the app. One company is a pizza company that wants to give restaurant and pizza suggestions using your data store and UI, the other company is a movie club that wishes to store movie suggestions.
 
@@ -379,4 +379,4 @@ Stylistic changes can be made by changing colors, font types, text, and logos, b
 
 In this tutorial, two very different-looking applications were deployed from the same codebase simply by changing a couple of variables in the Code Capsules UI. This is a powerful way to get your app solution to more people, more quickly, and at a lower price.
 
-Getting some new app ideas after reading this? Test your application out or deploy it to production by signing up with [Code Capsules](https://codecapsules.io/).
+Getting some new app ideas after reading this? Test your application out or deploy it to production by signing up with [Code Capsules](https://www.codecapsules.io/).

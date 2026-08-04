@@ -19,7 +19,7 @@ Even if you don't intend to move to Code Capsules, this guide should help you cr
 
 ## Why Developers Are Migrating From Heroku in 2026
 
-**Last updated: July 2026.** Prices below are from the official [Heroku pricing page](https://www.heroku.com/pricing) and [Code Capsules pricing page](https://www.codecapsules.io/pricing); re-check both before making decisions.
+**Last updated: July 2026.** Prices below are from the official [Heroku pricing page](https://www.heroku.com/pricing) and [Code Capsules pricing page](https://www.codecapsules.io/pricing/); re-check both before making decisions.
 
 A few platform changes are driving migrations:
 
@@ -197,7 +197,7 @@ migrate-backend  | Node.js Dyno | Backend Node.js Capsule
 migrate-frontend | Node.js Dyno | Frontend Node.js or static site Capsule
 migrate-emailer | Node.js worker Dyno, using Heroku Scheduler addon | Backend Node.js Capsule with internal scheduling
 
-The table below shows a rough monthly cost comparison for this example app, using the smallest always-on tier for each component. Actual costs depend on your usage and configuration. See [Code Capsules pricing](https://www.codecapsules.io/pricing) and [Heroku pricing](https://www.heroku.com/pricing) for current details.
+The table below shows a rough monthly cost comparison for this example app, using the smallest always-on tier for each component. Actual costs depend on your usage and configuration. See [Code Capsules pricing](https://www.codecapsules.io/pricing/) and [Heroku pricing](https://www.heroku.com/pricing) for current details.
 
 Component | Heroku | Code Capsules
 ---|---|---

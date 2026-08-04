@@ -11,7 +11,7 @@ In this tutorial, we’ll create a Redis Data Capsule to provide low-latency, in
 
 ## Create a Redis Data Capsule
 
-Log in to your [Code Capsules](https://codecapsules.io/) account and navigate to the Space your Redis Capsule will be contained in. Click the yellow `+` button in the bottom left of the screen, select **New Capsule**, then select **Redis** from the dropdown.
+Log in to your [Code Capsules](https://www.codecapsules.io/) account and navigate to the Space your Redis Capsule will be contained in. Click the yellow `+` button in the bottom left of the screen, select **New Capsule**, then select **Redis** from the dropdown.
 
 ![Create Data Capsule](/gitbook-assets/get-started/create-redis-capsule.jpg)
 

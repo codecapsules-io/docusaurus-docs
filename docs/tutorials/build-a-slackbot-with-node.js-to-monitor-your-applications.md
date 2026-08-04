@@ -24,7 +24,7 @@ We'll also need the following:
 
 * [Git](https://git-scm.com/downloads) set up and installed, and a registered [GitHub](https://github.com/join) account.
 * [Node.js](https://nodejs.org/en/download/) installed.
-* A registered [Code Capsules](https://codecapsules.io/) account.
+* A registered [Code Capsules](https://www.codecapsules.io/) account.
 * An IDE or text editor to create the project in. This tutorial was made using [Visual Studio Code](https://code.visualstudio.com/), but feel free to use any tool you like.
 
 ### Setting Up the Project
@@ -89,7 +89,7 @@ git push origin
 
 We'll need a place to host our app.
 
-1. Log in to [Code Capsules](https://codecapsules.io), and create a Team and Space as necessary.
+1. Log in to [Code Capsules](https://www.codecapsules.io/), and create a Team and Space as necessary.
 2. Create a "Backend Capsule", your Team and Space.
 3. Choose your payment plan.
 4. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
