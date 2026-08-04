@@ -16,7 +16,7 @@ After following the guide, you'll be able to upload files in the Flask applicati
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 The code you need for this guide is in the following GitHub projects.
 

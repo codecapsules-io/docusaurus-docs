@@ -22,7 +22,7 @@ You can also add text to the generated images to create image covers and differe
 
 You will need the following to complete the tutorial and host your application on Code Capsules:
 
-* A [Code Capsules](https://codecapsules.io/) account
+* A [Code Capsules](https://www.codecapsules.io/) account
 * Git set up and installed, and a registered [GitHub](https://github.com/) account
 * IDE or text editor of your choice
 * Python 3 installed

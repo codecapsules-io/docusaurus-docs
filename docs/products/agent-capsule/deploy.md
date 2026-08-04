@@ -11,7 +11,7 @@ Deploy a configurable Agent Capsule on Code Capsules.
 
 ## Set up
 
-To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account.
+To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account.
 
 ## Create an Account with Code Capsules
 

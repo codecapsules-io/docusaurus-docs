@@ -20,7 +20,7 @@ In this guide, we'll install a Code Capsules skill for Claude Code, then deploy,
 To follow this guide, you need:
 
 - [Claude Code](https://claude.ai/code) installed and configured, with access to GitHub (via `gh auth login`, SSH keys, or any existing Git authentication). This guide will also work with any other AI coding tool that supports skills.
-- A [Code Capsules](https://codecapsules.io/) account.
+- A [Code Capsules](https://www.codecapsules.io/) account.
 
 We'll deploy the [demo-express-js](https://github.com/codecapsules-io/demo-express-js) example application. Ask the agent to fork and clone it:
 

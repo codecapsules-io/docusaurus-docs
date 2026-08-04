@@ -11,7 +11,7 @@ Deploy a WordPress application and learn how to host a content management system
 
 ## Set Up
 
-To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account. WordPress can be downloaded and deployed automatically, or you can connect your Capsule to WordPress hosted on a GitHub repository.
+To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account. WordPress can be downloaded and deployed automatically, or you can connect your Capsule to WordPress hosted on a GitHub repository.
 
 ## Create an Account with Code Capsules
 

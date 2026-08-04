@@ -19,7 +19,7 @@ You’ll need the following services and software set up for this tutorial:
 
 * [Git](https://git-scm.com/) setup and installed, and a registered [GitHub account](https://github.com/).
 * [Node.js](https://nodejs.org/) installed.
-* A registered [Code Capsules](https://codecapsules.io/) account.
+* A registered [Code Capsules](https://www.codecapsules.io/) account.
 * An IDE or text editor to create the project in. This tutorial was made using [Visual Studio Code](https://code.visualstudio.com/), but you can use any tool you like.
 * The [Postman](https://www.postman.com/downloads/) app to interact with our API.
 
@@ -29,7 +29,7 @@ With our requirements in place, we can get started setting them up to work as ne
 
 #### Creating a New Repo
 
-We need a place to store our code, from which [Code Capsules](https://codecapsules.io/) can deploy to a Capsule.
+We need a place to store our code, from which [Code Capsules](https://www.codecapsules.io/) can deploy to a Capsule.
 
 Head over to [GitHub](https://github.com/) and create a new repo. We’re calling it _game-api_ here, but you can give it any name. Choose a Node `.gitignore` file to get started. Then clone the new GitHub repo onto your computer and navigate to that directory in a terminal (or command prompt if you’re on Windows).
 
