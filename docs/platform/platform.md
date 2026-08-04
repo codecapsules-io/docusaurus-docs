@@ -1,5 +1,6 @@
 ---
 slug: "/platform/platform"
+title: "Platform Overview"
 description: "Teams, Spaces, and Capsules are the foundation of Code Capsules."
 ---
 

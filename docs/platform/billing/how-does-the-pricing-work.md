@@ -1,5 +1,6 @@
 ---
 slug: "/platform/billing/how-does-the-pricing-work"
+title: "How Does the Pricing Work?"
 description: "Code Capsules uses an hourly billing model, so you only pay for what you use."
 ---
 

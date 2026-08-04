@@ -1,5 +1,6 @@
 ---
 slug: "/tutorials/nuxt3-and-nitro"
+title: "Deploy a Nuxt 3 App with Nitro"
 description: "Hey there, fellow developers! Today, we’re diving deep into two exciting technologies that are changing the game in web development: Nuxt 3 and Nitro...."
 cover: /gitbook-assets/tutorials/nuxt3-nitro-cover-v2.jpg
 ---

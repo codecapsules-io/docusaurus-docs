@@ -1,5 +1,6 @@
 ---
 slug: "/database/mongodb/django-+-mongodb"
+title: "Deploy Django with MongoDB"
 description: A guide to deploying a Django MongoDB application from GitHub.
 ---
 

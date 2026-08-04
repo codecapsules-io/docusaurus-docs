@@ -1,5 +1,6 @@
 ---
 slug: "/database/mysql/django-+-mysql"
+title: "Deploy Django with MySQL"
 description: A guide to deploying a Django MySQL application from GitHub.
 ---
 

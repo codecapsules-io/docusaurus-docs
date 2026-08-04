@@ -1,5 +1,6 @@
 ---
 slug: "/backend/python/python-discord-bot"
+title: "Deploy a Python Discord Bot"
 description: A guide to deploying a Python Discord Bot from GitHub.
 ---
 

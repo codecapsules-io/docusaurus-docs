@@ -1,5 +1,6 @@
 ---
 slug: "/backend/node.js/node.js-discord-bot"
+title: "Deploy a Node.js Discord Bot"
 description: A guide to deploying a Node.js Discord Bot from GitHub.
 ---
 

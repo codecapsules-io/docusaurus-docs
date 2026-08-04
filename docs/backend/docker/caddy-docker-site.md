@@ -1,5 +1,6 @@
 ---
 slug: "/backend/docker/caddy-docker-site"
+title: "Deploy a Caddy Site with Docker"
 description: Publish a Caddy Docker site using its source code on GitHub.
 ---
 

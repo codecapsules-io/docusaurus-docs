@@ -1,5 +1,6 @@
 ---
 slug: "/platform/teams/share-a-repo-with-a-team"
+title: "Share a Repo with a Team"
 description: "If you've already linked your Code Capsules account to a version control provider, you can share access to your repos with your Teams."
 ---
 

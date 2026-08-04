@@ -1,5 +1,6 @@
 ---
 slug: "/database/mongodb/flask-+-mongodb"
+title: "Deploy Flask with MongoDB"
 description: A walkthrough on how to deploy a Flask MongoDB application from GitHub.
 ---
 

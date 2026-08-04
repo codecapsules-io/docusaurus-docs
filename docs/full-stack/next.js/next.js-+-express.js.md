@@ -1,5 +1,6 @@
 ---
 slug: "/full-stack/next.js/next.js-+-express.js"
+title: "Deploy Next.js with Express.js"
 description: >-
   A walkthrough on how to deploy a Next.js and Express.js application from
   GitHub.
