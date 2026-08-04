@@ -214,7 +214,7 @@ const config: Config = {
         {to: '/cli/', label: 'CLI', position: 'left'},
         {type: 'search', position: 'right'},
         {
-          href: 'https://codecapsules.io/slack',
+          href: 'https://www.codecapsules.io/contact/',
           label: 'Support',
           position: 'right',
         },
