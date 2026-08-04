@@ -11,7 +11,7 @@ Deploy a Next.js and Express.js application and learn how to host backend code o
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a Next.js and Express.js application with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/nextjs-expressjs-demo).
 
@@ -19,7 +19,7 @@ Sign in to GitHub, and fork the example application by clicking **Fork** at the 
 
 ## Create an Account with Code Capsules
 
-If you don't already have an account, navigate to the [Code Capsules](https://codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
+If you don't already have an account, navigate to the [Code Capsules](https://www.codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
 
 If you've just signed up for an account, you'll be directed to a welcome page on your first login. Click on the **Go To Personal Team** button.
 

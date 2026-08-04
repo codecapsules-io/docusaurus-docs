@@ -11,7 +11,7 @@ In this tutorial, we'll create a PostgreSQL Data Capsule to provide persistent s
 
 ## Create a PostgreSQL Data Capsule
 
-Log in to your [Code Capsules](https://codecapsules.io) account and navigate to the Space your PostgreSQL Data Capsule will be contained in. Click the yellow `+` button and select the **PostgreSQL Data Capsule** option from the dropdown.
+Log in to your [Code Capsules](https://www.codecapsules.io/) account and navigate to the Space your PostgreSQL Data Capsule will be contained in. Click the yellow `+` button and select the **PostgreSQL Data Capsule** option from the dropdown.
 
 ![Create Data Capsule](/gitbook-assets/get-started/create-postgresql-capsule.jpg)
 

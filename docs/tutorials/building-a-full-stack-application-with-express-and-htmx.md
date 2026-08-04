@@ -26,7 +26,7 @@ In this tutorial, we’ll explore the benefits of HTMx by building a full-stack 
 After building our application, you’ll want to deploy it to production, so you can show it to friends and family. You will therefore need the following to complete the tutorial:
 
 * Git set up and installed, and a registered GitHub account
-* A [Code Capsules](https://codecapsules.io/) account
+* A [Code Capsules](https://www.codecapsules.io/) account
 * Node.js installed
 * An IDE or text editor of your choice
 
@@ -405,6 +405,6 @@ Your remote repository will now be up-to-date with your local one.
 
 ### Deploy to Code Capsules
 
-The final step is to deploy our app. Log into your Code Capsules account and link your remote GitHub repository to Code Capsules. Create a persistent storage Data Capsule and a Backend Capsule and bind the two together to deploy the app. You can follow this [reference guide](https://codecapsules.io/tutorial/how-to-set-up-a-persistent-file-data-capsule/) to see how to do so in greater detail.
+The final step is to deploy our app. Log into your Code Capsules account and link your remote GitHub repository to Code Capsules. Create a persistent storage Data Capsule and a Backend Capsule and bind the two together to deploy the app. You can follow this [reference guide](/persistent-storage/) to see how to do so in greater detail.
 
 That’s it! Your “Book Recommendations” app should be live and fully functional now.\\

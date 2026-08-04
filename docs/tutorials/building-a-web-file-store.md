@@ -22,7 +22,7 @@ You’ll need the following services and software set up for this tutorial:
 
 * [Git](https://git-scm.com/) set up and installed, and a registered [GitHub account](https://github.com/).
 * [Node.js](https://nodejs.org/) installed.
-* A registered [Code Capsules](https://codecapsules.io/) account.
+* A registered [Code Capsules](https://www.codecapsules.io/) account.
 * An IDE or text editor to code the project in. We used [Visual Studio Code](https://code.visualstudio.com/) in this tutorial, but you can use any tool you like.
 
 ### Setting Up The Project
@@ -62,7 +62,7 @@ A Capsule provides the server for hosting an application on Code Capsules.
 
 Navigate to the “Capsules” tab. Once there, click the yellow + icon on the top right of the screen to add a new Capsule. Follow the instructions below to create a Backend Capsule:
 
-1. Log in to [Code Capsules](https://codecapsules.io/), and create a Team and Space for this project.
+1. Log in to [Code Capsules](https://www.codecapsules.io/), and create a Team and Space for this project.
 2. Choose “Backend Capsule”, your Team and Space.
 3. Choose your payment plan.
 4. Click the GitHub button and provide access to the repository you forked at the start of the tutorial.
@@ -157,7 +157,7 @@ Handlebars uses the sequence `{{ }}` to indicate sections of the template to be 
 
 Then we set up a simple table, and use the Handlebars of each function to iterate over the elements in the `files` array we passed from the `Get /` route. The Handlebars keyword `{{this}}` is used to reference the current file name on each iteration.
 
-You can save, commit and push your changes so far. Our code should deploy automatically on [Code Capsules](https://codecapsules.io/). After deploying, you can visit the public URL, and you should see something like this:
+You can save, commit and push your changes so far. Our code should deploy automatically on [Code Capsules](https://www.codecapsules.io/). After deploying, you can visit the public URL, and you should see something like this:
 
 \
 ![blank files](/gitbook-assets/tutorials/building-a-web-file-store/blank-files.png)
@@ -497,7 +497,7 @@ Here we’re adding a very simple form to make a `POST` request back to our `/lo
 
 We’re done with authentication. Commit these changes, and wait for Code Capsules to redeploy the site, then navigate over and test it out. This time, the site should prompt for your username and password (which you added to the environment variables) before letting you through to the files page.\
 \
-Congratulations, you have completed building a personal web drive using [Code Capsules](https://codecapsules.io/) and [Node.js](https://nodejs.org/)!
+Congratulations, you have completed building a personal web drive using [Code Capsules](https://www.codecapsules.io/) and [Node.js](https://nodejs.org/)!
 
 ![Auth](/gitbook-assets/tutorials/building-a-web-file-store/auth.png)
 

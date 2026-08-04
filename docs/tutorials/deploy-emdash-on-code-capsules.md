@@ -15,7 +15,7 @@ In this tutorial, we'll configure an EmDash Astro project for production, push i
 
 Before starting, make sure you have:
 
-* A [Code Capsules](https://codecapsules.io) account
+* A [Code Capsules](https://www.codecapsules.io/) account
 * A GitHub account with your EmDash project repository ready to push
 * Node.js 22 or later installed locally
 * An EmDash Astro project (using the `@astrojs/node` adapter in standalone mode)

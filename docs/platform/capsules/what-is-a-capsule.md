@@ -9,7 +9,7 @@ sidebar_label: "What Is a Capsule?"
 
 ![Teams contain Spaces and Spaces contain Capsules](/gitbook-assets/platform/teamspacecapsule.png)
 
-[Teams](/platform/teams/what-is-a-team/), [Spaces](/platform/spaces/what-is-a-space/), and Capsules form the foundation of [Code Capsules](https://codecapsules.io).
+[Teams](/platform/teams/what-is-a-team/), [Spaces](/platform/spaces/what-is-a-space/), and Capsules form the foundation of [Code Capsules](https://www.codecapsules.io/).
 
 **Capsules** provide the computational power to run your applications.
 

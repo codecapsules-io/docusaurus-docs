@@ -9,7 +9,7 @@ Deploy a Node.js Discord Bot and learn how to host backend code on Code Capsules
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a Node.js Discord Bot with Code Capsules, we've provided an example bot, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/nodejs-discord-echobot).
 
@@ -82,7 +82,7 @@ Once your application is live, you can view the build log by selecting the **Dep
 
 ## Add a `TOKEN` Environment Variable
 
-Once the build is complete, you have to add a `TOKEN` environment variable on the **Config** tab under the **Environment Variables** section. Assign it the value of the token you copied in step 7 of the [Register the Bot](/backend/node.js/node.js-discord-bot#register-the-bot) section above.
+Once the build is complete, you have to add a `TOKEN` environment variable on the **Config** tab under the **Environment Variables** section. Assign it the value of the token you copied in step 7 of the [Register the Bot](/backend/node.js/node.js-discord-bot/#register-the-bot) section above.
 
 ![Add a TOKEN Environment Variable](/gitbook-assets/get-started/token-env-variable-1.png)
 
