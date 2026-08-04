@@ -1,5 +1,6 @@
 ---
 slug: "/tutorials/deploy-emdash-on-code-capsules"
+title: "Deploy an EmDash CMS Site"
 description: >-
   Deploy an EmDash CMS-powered Astro site to Code Capsules using a Backend
   Capsule and Persistent Storage Capsule for the database and media uploads.

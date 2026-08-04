@@ -1,5 +1,6 @@
 ---
 slug: "/database/mysql/flask-+-mysql"
+title: "Deploy Flask with MySQL"
 description: A walkthrough on how to deploy a Flask MySQL application from GitHub.
 ---
 

@@ -1,5 +1,6 @@
 ---
 slug: "/cli"
+title: "CLI Overview and Commands"
 description: >-
   The official Command Line Interface to enable you to interact with Code
   Capsules directly through your terminal.

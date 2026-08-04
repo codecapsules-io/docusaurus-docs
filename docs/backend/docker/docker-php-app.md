@@ -1,5 +1,6 @@
 ---
 slug: "/backend/docker/docker-php-app"
+title: "Deploy a PHP App with Docker"
 description: >-
   Deploy your application with with PHP and Docker to Production on Code
   Capsules
