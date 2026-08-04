@@ -1,5 +1,6 @@
 ---
 slug: "/cli/readme/getting-started/installation-and-usage"
+title: "Install and Use the CLI"
 description: "The Code Capsules CLI is registered as an NPM package. To install the CLI globally, simply run:"
 ---
 

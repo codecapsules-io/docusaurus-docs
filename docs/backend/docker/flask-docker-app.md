@@ -1,5 +1,6 @@
 ---
 slug: "/backend/docker/flask-docker-app"
+title: "Deploy a Flask App with Docker"
 description: A walkthrough on how to deploy a Flask Docker application from GitHub.
 ---
 

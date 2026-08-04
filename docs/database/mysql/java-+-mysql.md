@@ -1,5 +1,6 @@
 ---
 slug: "/database/mysql/java-+-mysql"
+title: "Deploy Java with MySQL"
 description: A guide on how to launch a Java MySQL application from GitHub.
 ---
 
