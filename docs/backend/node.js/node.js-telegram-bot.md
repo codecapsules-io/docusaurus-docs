@@ -1,6 +1,7 @@
 ---
 slug: "/backend/node.js/node.js-telegram-bot"
-description: A guide to deploying a Node.js Telegram Bot from GitHub.
+title: "Deploy a Node.js Telegram Bot from GitHub"
+description: "Deploy a Node.js Telegram bot to Code Capsules straight from GitHub. Connect the Telegram Bot API, build with Docker, and run it in production."
 ---
 
 # Node.js Telegram Bot
