@@ -5,6 +5,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 const redirects = [
   {from: ['/readme'], to: '/'},
   {from: ['/cli/readme'], to: '/cli/'},
+  // CCM-62: consolidated 6 duplicate alerting pages into /products/alerting.
+  {from: ['/products/alerting-1'], to: '/products/alerting'},
+  {from: ['/products/agent-capsule/alerting'], to: '/products/alerting'},
+  {from: ['/products/backend-capsule/alerting'], to: '/products/alerting'},
+  {from: ['/products/storage-capsule/alerting'], to: '/products/alerting'},
+  {from: ['/products/wordpress-capsule/alerting'], to: '/products/alerting'},
 ];
 
 const url = process.env.DOCUSAURUS_URL || 'http://localhost';
