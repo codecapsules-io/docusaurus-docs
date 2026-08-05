@@ -1,7 +1,7 @@
 ---
 slug: "/backend/node.js/slack-bot"
 title: "Deploy a Node.js Slack Bot"
-description: A guide to deploying a Slack Bot from GitHub.
+description: "Build and deploy a Node.js Slack bot to Code Capsules from GitHub. Connect to the Slack API and run your bot in production, step by step."
 ---
 
 # Node.js Slack Bot

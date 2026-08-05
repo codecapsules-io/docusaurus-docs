@@ -1,6 +1,6 @@
 ---
 slug: "/frontend/svelte"
-description: Publish a Svelte application by linking directly to your GitHub repo.
+description: "Deploy a Svelte application to Code Capsules from a GitHub repo. Host your frontend in production with automatic deploys on every push, step by step."
 title: "How to Host a Svelte Application"
 sidebar_label: "Svelte"
 ---

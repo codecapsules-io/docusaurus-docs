@@ -1,7 +1,7 @@
 ---
 slug: "/backend/docker/docker-laravel-app"
 title: "Deploy a Laravel App with Docker"
-description: Publish a Caddy Docker site using its source code on GitHub.
+description: "Deploy a Laravel PHP application with Docker on Code Capsules from GitHub. Containerize your app and run it in production, step by step."
 ---
 
 # Docker Laravel App

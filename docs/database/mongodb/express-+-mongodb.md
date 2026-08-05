@@ -1,7 +1,7 @@
 ---
 slug: "/database/mongodb/express-+-mongodb"
 title: "Deploy Express with MongoDB"
-description: A guide to deploying an Express.js and Mongo application from GitHub.
+description: "Deploy an Express.js app with a MongoDB database on Code Capsules from GitHub. Connect Express to a managed Mongo Data Capsule, step by step."
 ---
 
 # Express + MongoDB

@@ -1,6 +1,6 @@
 ---
 slug: "/full-stack/mern-stack"
-description: A guide to deploying a MERN Stack application from GitHub.
+description: "Deploy a full-stack MERN (MongoDB, Express, React, Node) app to Code Capsules from GitHub. Ship your JavaScript stack in production."
 title: "How to Deploy a MERN Stack Application"
 sidebar_label: "MERN Stack"
 ---

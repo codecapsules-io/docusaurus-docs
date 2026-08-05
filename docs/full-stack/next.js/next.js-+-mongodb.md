@@ -1,7 +1,7 @@
 ---
 slug: "/full-stack/next.js/next.js-+-mongodb"
 title: "Deploy Next.js with MongoDB"
-description: A guide to deploying a Next.js and Mongo application from GitHub.
+description: "Deploy a full-stack Next.js app with MongoDB on Code Capsules from GitHub. Connect Next.js to a managed Mongo Data Capsule, step by step."
 ---
 
 # Next.js + MongoDB
