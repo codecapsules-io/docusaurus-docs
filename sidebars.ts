@@ -230,7 +230,7 @@ const sidebars: SidebarsConfig = {
         "products/backend-capsule/scale",
         "products/backend-capsule/monitor",
         "products/backend-capsule/logs",
-        "products/backend-capsule/alerting",
+        {type: "ref", id: "products/alerting", label: "Notifications", key: "notifications-backend"},
         "products/backend-capsule/add-procfile"
       ],
       "link": {
@@ -261,7 +261,7 @@ const sidebars: SidebarsConfig = {
         "products/frontend-capsule/scale",
         "products/frontend-capsule/monitor",
         "products/frontend-capsule/logs",
-        "products/alerting-1",
+        {type: "ref", id: "products/alerting", label: "Notifications", key: "notifications-frontend"},
         "products/frontend-capsule/custom-domains"
       ]
     },
@@ -275,7 +275,7 @@ const sidebars: SidebarsConfig = {
         "products/storage-capsule/backups",
         "products/storage-capsule/monitor",
         "products/storage-capsule/logs",
-        "products/storage-capsule/alerting",
+        {type: "ref", id: "products/alerting", label: "Notifications", key: "notifications-storage"},
         "products/storage-capsule/how-state-works"
       ]
     },
@@ -294,7 +294,7 @@ const sidebars: SidebarsConfig = {
         "products/wordpress-capsule/backups",
         "products/wordpress-capsule/monitor",
         "products/wordpress-capsule/logs",
-        "products/wordpress-capsule/alerting"
+        {type: "ref", id: "products/alerting", label: "Notifications", key: "notifications-wordpress"}
       ]
     },
     {
@@ -318,7 +318,7 @@ const sidebars: SidebarsConfig = {
             "id": "products/agent-capsule/chat/index"
           }
         },
-        "products/agent-capsule/alerting"
+        {type: "ref", id: "products/alerting", label: "Notifications", key: "notifications-agent"}
       ]
     },
     {
