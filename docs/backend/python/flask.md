@@ -55,3 +55,10 @@ Once the build is complete, a URL link will appear in the URL section in the **D
 ![Deployed App](/gitbook-assets/get-started/cc-flask-app-1.png)
 
 If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).
+
+## Related guides
+
+- [Deploy Flask with MySQL](/database/mysql/flask-+-mysql/)
+- [Deploy Flask with MongoDB](/database/mongodb/flask-+-mongodb/)
+- [Build a Full-Stack App with Flask and HTMX](/full-stack/flask-+-htmx/)
+- [Deploy a Flask App with Docker](/backend/docker/flask-docker-app/)
