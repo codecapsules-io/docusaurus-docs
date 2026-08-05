@@ -1,6 +1,6 @@
 ---
 slug: "/products/database-capsule/scale"
-description: "It is possible to allocate more resources to your Capsule depending on how much traffic your application will be getting and its computational needs...."
+description: "Scale your Database Capsule on Code Capsules by allocating more resources as your data and query load grow, without downtime."
 title: "How to Scale a Managed Database"
 sidebar_label: "Scale"
 ---

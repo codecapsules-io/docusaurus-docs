@@ -1,6 +1,6 @@
 ---
 slug: "/products/frontend-capsule/scale"
-description: "It is possible to allocate more resources to your Capsule depending on how much traffic your application will be getting and its computational needs...."
+description: "Scale your Frontend Capsule on Code Capsules by allocating more resources to handle traffic spikes to your site."
 title: "How to Scale a Frontend App"
 sidebar_label: "Scale"
 ---

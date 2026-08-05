@@ -1,8 +1,6 @@
 ---
 slug: "/products/alerting"
-description: >-
-  Manage your notification preferences to stay informed about your Capsule's
-  health and performance.
+description: "Configure alerting on Code Capsules to get notified by email about your Capsules' health, errors, and resource usage."
 title: "How to Set Up Deployment Notifications"
 sidebar_label: "Notifications"
 ---
