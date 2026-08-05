@@ -1,7 +1,7 @@
 ---
 slug: "/platform/spaces/what-is-a-space"
 title: "What Is a Space?"
-description: "Teams, Spaces, and Capsules form the foundation of Code Capsules."
+description: "A Space groups related Capsules on Code Capsules, keeping a project's app, database, and storage together. Learn how Spaces work."
 ---
 
 # What Is a Space?

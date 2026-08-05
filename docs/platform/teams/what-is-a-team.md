@@ -1,7 +1,7 @@
 ---
 slug: "/platform/teams/what-is-a-team"
 title: "What Is a Team?"
-description: "Teams, Spaces, and Capsules form the foundation of Code Capsules."
+description: "A Team on Code Capsules groups members and Spaces for shared access and billing. Learn how Teams organise your projects."
 ---
 
 # What Is a Team?

@@ -1,8 +1,6 @@
 ---
 slug: "/products/agent-capsule/alerting"
-description: >-
-  Manage your notification preferences to stay informed about your Capsule's
-  health and performance.
+description: "Set up alerts for your Agent Capsule on Code Capsules to get notified about errors, downtime, and resource limits before users do."
 title: "How to Set Up Alerts for an AI Agent"
 sidebar_label: "Alerting"
 ---

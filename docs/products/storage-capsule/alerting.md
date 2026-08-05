@@ -1,8 +1,6 @@
 ---
 slug: "/products/storage-capsule/alerting"
-description: >-
-  Manage your notification preferences to stay informed about your Capsule's
-  health and performance.
+description: "Set up alerts for your Persistent Storage Capsule on Code Capsules to get notified about capacity and resource limits early."
 title: "How to Set Up Alerts for a Persistent Storage"
 sidebar_label: "Notifications"
 ---

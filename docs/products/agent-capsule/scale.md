@@ -1,6 +1,6 @@
 ---
 slug: "/products/agent-capsule/scale"
-description: "You can allocate more resources to a Capsule as your application's traffic and computational needs change."
+description: "Scale your Agent Capsule on Code Capsules by allocating more CPU and memory as your AI agent workload grows, without redeploying."
 title: "How to Scale an AI Agent"
 sidebar_label: "Scale"
 ---

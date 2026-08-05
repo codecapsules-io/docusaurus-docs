@@ -1,8 +1,6 @@
 ---
 slug: "/products/wordpress-capsule/alerting"
-description: >-
-  Manage your notification preferences to stay informed about your Capsule's
-  health and performance.
+description: "Set up alerts for your WordPress Capsule on Code Capsules to get notified about downtime, errors, and resource usage on your site."
 title: "How to Set Up Alerts for a WordPress Site"
 sidebar_label: "Notifications"
 ---

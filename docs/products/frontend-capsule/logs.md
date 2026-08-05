@@ -1,6 +1,6 @@
 ---
 slug: "/products/frontend-capsule/logs"
-description: "View your Capsule's logs to monitor activity and debug issues."
+description: "View logs from your Frontend Capsule on Code Capsules to monitor build and serve activity and debug issues with your site."
 title: "How to View Logs for a Frontend App"
 sidebar_label: "Logs"
 ---
