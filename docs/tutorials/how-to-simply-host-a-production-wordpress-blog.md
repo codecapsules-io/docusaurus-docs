@@ -254,7 +254,7 @@ Use the following Code Capsules capabilities to monitor your WordPress site.
 
 ![Screenshot](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2Fmxm9GS213B1bYb7hCNE9%2Fwordpress-access-logs-view.png?alt=media&#x26;token=7f575b6f-9443-4113-9211-b5634ab2c2b1)
 
-* [**Alerting**](/products/wordpress-capsule/alerting/)**:** Configure alerts for high CPU usage, error rates, and downtime. Receive notifications via email or webhooks before users report problems.
+* [**Alerting**](/products/alerting/)**:** Configure alerts for high CPU usage, error rates, and downtime. Receive notifications via email or webhooks before users report problems.
 * [**Metrics**](/products/wordpress-capsule/monitor/)**:** Check resource usage on the machine.
 
 ![Screenshot](https://299067714-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQxXPZz73XKehWd1HyCQn%2Fuploads%2FmypDJmIiZRUyWAIdFRQd%2Fwordpress-metrics-dashboard.png?alt=media&#x26;token=585ae837-2a3a-460d-870a-9a215d30e90a)

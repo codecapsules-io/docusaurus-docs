@@ -16,5 +16,5 @@ Host and scale server-side applications and APIs on Code Capsules. Backend Capsu
 - [Scale](/products/backend-capsule/scale/) — allocate resources as your traffic grows
 - [Monitor](/products/backend-capsule/monitor/) — view metrics and performance data
 - [Logs](/products/backend-capsule/logs/) — access build and runtime logs
-- [Alerting](/products/backend-capsule/alerting/) — set up notifications for capsule events
+- [Alerting](/products/alerting/) — set up notifications for capsule events
 - [Add a Procfile](/products/backend-capsule/add-procfile/) — customise the start command for your app
