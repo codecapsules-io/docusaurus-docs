@@ -1,6 +1,6 @@
 ---
 slug: "/backend/go/go"
-description: A guide to deploying a Go application from GitHub.
+description: "Deploy a Go application to Code Capsules from a GitHub repo. Build and run your Go backend in production with managed hosting, step by step."
 title: "How to Deploy a Go Application"
 sidebar_label: "Go"
 ---

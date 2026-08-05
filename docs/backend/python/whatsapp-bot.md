@@ -1,6 +1,6 @@
 ---
 slug: "/backend/python/whatsapp-bot"
-description: A guide to deploying a WhatsApp Bot from GitHub.
+description: "Build and deploy a Python WhatsApp bot to Code Capsules from GitHub. Connect to the WhatsApp API and run your bot in production, step by step."
 title: "How to Host a WhatsApp Bot in Python"
 sidebar_label: "WhatsApp Bot"
 ---

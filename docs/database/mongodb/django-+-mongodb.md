@@ -1,7 +1,7 @@
 ---
 slug: "/database/mongodb/django-+-mongodb"
 title: "Deploy Django with MongoDB"
-description: A guide to deploying a Django MongoDB application from GitHub.
+description: "Deploy a Django app with a MongoDB database on Code Capsules from GitHub. Connect Django to a managed Mongo Data Capsule, step by step."
 ---
 
 # Django + MongoDB

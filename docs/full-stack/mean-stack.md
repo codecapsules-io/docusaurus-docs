@@ -1,6 +1,6 @@
 ---
 slug: "/full-stack/mean-stack"
-description: A guide to deploying a MEAN Stack application from GitHub.
+description: "Deploy a full-stack MEAN (MongoDB, Express, Angular, Node) app to Code Capsules from GitHub. Ship your JavaScript stack in production."
 title: "How to Deploy a MEAN Stack Application"
 sidebar_label: "MEAN Stack"
 ---

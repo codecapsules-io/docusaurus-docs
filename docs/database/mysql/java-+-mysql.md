@@ -1,7 +1,7 @@
 ---
 slug: "/database/mysql/java-+-mysql"
 title: "Deploy Java with MySQL"
-description: A guide on how to launch a Java MySQL application from GitHub.
+description: "Deploy a Java app with a MySQL database on Code Capsules from GitHub. Connect your Java backend to a managed MySQL Data Capsule, step by step."
 ---
 
 # Java + MySQL

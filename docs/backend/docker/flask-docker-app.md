@@ -1,7 +1,7 @@
 ---
 slug: "/backend/docker/flask-docker-app"
 title: "Deploy a Flask App with Docker"
-description: A walkthrough on how to deploy a Flask Docker application from GitHub.
+description: "Deploy a Flask application with Docker on Code Capsules from a GitHub repo. Containerize your Python app and run it in production, step by step."
 ---
 
 # Flask Docker App
