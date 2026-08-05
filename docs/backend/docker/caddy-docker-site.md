@@ -1,7 +1,7 @@
 ---
 slug: "/backend/docker/caddy-docker-site"
 title: "Deploy a Caddy Site with Docker"
-description: Publish a Caddy Docker site using its source code on GitHub.
+description: "Deploy a Caddy site with Docker on Code Capsules from a GitHub repo. Serve static or dynamic content with automatic HTTPS, step by step."
 ---
 
 # Caddy Docker Site

@@ -1,6 +1,6 @@
 ---
 slug: "/frontend/react"
-description: Link a React GitHub repo to a PaaS provider to enable auto deployments.
+description: "Deploy a React application to Code Capsules from a GitHub repo. Host your frontend in production with automatic deploys on every push, step by step."
 title: "How to Host a React Application"
 sidebar_label: "React"
 ---

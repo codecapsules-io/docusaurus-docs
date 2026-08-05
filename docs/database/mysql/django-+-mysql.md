@@ -1,7 +1,7 @@
 ---
 slug: "/database/mysql/django-+-mysql"
 title: "Deploy Django with MySQL"
-description: A guide to deploying a Django MySQL application from GitHub.
+description: "Deploy a Django app with a MySQL database on Code Capsules from GitHub. Connect Django to a managed MySQL Data Capsule, step by step."
 ---
 
 # Django + MySQL

@@ -1,7 +1,7 @@
 ---
 slug: "/backend/python/python-discord-bot"
 title: "Deploy a Python Discord Bot"
-description: A guide to deploying a Python Discord Bot from GitHub.
+description: "Build and deploy a Python Discord bot to Code Capsules from GitHub. Connect to the Discord API and keep your bot online in production."
 ---
 
 # Python Discord Bot
