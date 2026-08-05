@@ -1,6 +1,6 @@
 ---
 slug: "/platform/capsules/what-is-a-capsule"
-description: "Teams, Spaces, and Capsules form the foundation of Code Capsules."
+description: "A Capsule is the deployable unit on Code Capsules: a container for your app, database, or storage. Learn how Capsules work."
 title: "Hosting Environments (Containers) Explained"
 sidebar_label: "What Is a Capsule?"
 ---

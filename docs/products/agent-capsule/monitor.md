@@ -1,6 +1,6 @@
 ---
 slug: "/products/agent-capsule/monitor"
-description: "Each Capsule tracks its usage data. View this information by opening the Metrics tab on the Capsule's page."
+description: "Monitor your Agent Capsule on Code Capsules and track CPU, memory, and usage metrics for your AI agent from the Metrics tab."
 title: "How to Monitor an AI Agent"
 sidebar_label: "Monitor"
 ---

@@ -1,6 +1,6 @@
 ---
 slug: "/products/wordpress-capsule/scale"
-description: "It is possible to allocate more resources to your Capsule depending on how much traffic your application will be getting and its computational needs...."
+description: "Scale your WordPress Capsule on Code Capsules by allocating more CPU and memory as traffic to your WordPress site grows."
 title: "How to Scale a WordPress Site"
 sidebar_label: "Scale"
 ---

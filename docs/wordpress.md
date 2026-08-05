@@ -1,6 +1,6 @@
 ---
 slug: "/wordpress"
-description: "Deploy a WordPress application and learn how to host a content management system on Code Capsules."
+description: "Host WordPress on Code Capsules with a managed, git-free WordPress Capsule: built-in database, storage, and caching. Get started here."
 title: "Managed WordPress Hosting"
 sidebar_label: "WordPress"
 ---

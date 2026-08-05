@@ -1,6 +1,6 @@
 ---
 slug: "/products/storage-capsule/scale"
-description: "It is possible to allocate more resources to your Capsule depending on how much traffic your application will be getting and its computational needs...."
+description: "Scale your Persistent Storage Capsule on Code Capsules by allocating more storage and resources as your file usage grows."
 title: "How to Scale a Persistent Storage"
 sidebar_label: "Scale"
 ---

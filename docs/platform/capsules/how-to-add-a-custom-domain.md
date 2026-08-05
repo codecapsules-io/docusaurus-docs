@@ -1,7 +1,7 @@
 ---
 slug: "/platform/capsules/how-to-add-a-custom-domain"
 title: "Add a Custom Domain to a Capsule"
-description: "Each application deployed on Code Capsules is assigned a default domain in the format capsulename.xxxx.codecapsules.co.za."
+description: "Add a custom domain or subdomain to a Capsule on Code Capsules. Configure DNS A and CNAME records to point your domain at your app."
 ---
 
 # Add and Remove Custom Domains and Subdomains
