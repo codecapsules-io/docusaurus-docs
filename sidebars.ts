@@ -150,8 +150,7 @@ const sidebars: SidebarsConfig = {
         "id": "full-stack/index"
       }
     },
-    "persistent-storage",
-    "wordpress"
+    "persistent-storage"
   ],
   "platform": [
     "platform/index",
@@ -284,6 +283,7 @@ const sidebars: SidebarsConfig = {
       "label": "Wordpress Capsule",
       "items": [
         "products/wordpress-capsule/deploy",
+        "products/wordpress-capsule/multi-instance-content-library",
         "products/wordpress-capsule/configure",
         "products/wordpress-capsule/routing",
         "products/wordpress-capsule/caching",
@@ -295,7 +295,11 @@ const sidebars: SidebarsConfig = {
         "products/wordpress-capsule/monitor",
         "products/wordpress-capsule/logs",
         {type: "ref", id: "products/alerting", label: "Notifications", key: "notifications-wordpress"}
-      ]
+      ],
+      "link": {
+        "type": "doc",
+        "id": "products/wordpress-capsule/index"
+      }
     },
     {
       "type": "category",

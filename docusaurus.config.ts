@@ -11,6 +11,8 @@ const redirects = [
   {from: ['/products/backend-capsule/alerting'], to: '/products/alerting'},
   {from: ['/products/storage-capsule/alerting'], to: '/products/alerting'},
   {from: ['/products/wordpress-capsule/alerting'], to: '/products/alerting'},
+  // Enterprise WordPress content cluster: /wordpress duplicated deploy.md content.
+  {from: ['/wordpress'], to: '/products/wordpress-capsule/deploy'},
 ];
 
 const url = process.env.DOCUSAURUS_URL || 'http://localhost';

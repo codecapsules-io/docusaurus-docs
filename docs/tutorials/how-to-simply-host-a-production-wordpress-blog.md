@@ -23,6 +23,10 @@ This guide demonstrates how to run a production WordPress site with:
 
 You'll learn how to deploy WordPress infrastructure, configure a content review workflow, and set up production operations for backing up, scaling, and monitoring your data.
 
+:::tip
+Running more than one branded WordPress site from the same codebase — for example, one theme and plugin set governed centrally and deployed to several regional or brand-specific sites? See [Multi-Instance Content Library](/products/wordpress-capsule/multi-instance-content-library/) for that pattern.
+:::
+
 ## The WordPress Production Problem
 
 In a development team, the workflow for releasing changes usually looks like this:
