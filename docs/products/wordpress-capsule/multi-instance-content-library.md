@@ -30,6 +30,8 @@ This is an architecture pattern built from existing WordPress Capsule primitives
 4. In each Capsule's **Config** tab, set `APP_URL` and any brand-selection variable your shared theme reads.
 5. Push to the shared branch to roll a change out to every brand; push to a brand branch to change just one.
 
+For the full click-by-click walkthrough of these steps, see [Deploy a Multi-Brand WordPress Content Library](/tutorials/deploy-multi-brand-wordpress-content-library/).
+
 ## Why Git-only deploy is the security control
 
 Because every instance's plugins and themes come from a Git commit rather than a live wp-admin upload, no branded site can drift from what's in the repository, and no local admin can introduce an unreviewed plugin into production. See [How Git-Based WordPress Deployment Works](https://www.codecapsules.io/how-git-based-wordpress-works/) for the full attack-surface comparison against a traditional, file-editable WordPress install.
