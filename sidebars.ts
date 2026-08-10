@@ -150,8 +150,7 @@ const sidebars: SidebarsConfig = {
         "id": "full-stack/index"
       }
     },
-    "persistent-storage",
-    "wordpress"
+    "persistent-storage"
   ],
   "platform": [
     "platform/index",
@@ -284,6 +283,7 @@ const sidebars: SidebarsConfig = {
       "label": "Wordpress Capsule",
       "items": [
         "products/wordpress-capsule/deploy",
+        "products/wordpress-capsule/multi-instance-content-library",
         "products/wordpress-capsule/configure",
         "products/wordpress-capsule/routing",
         "products/wordpress-capsule/caching",
@@ -295,7 +295,11 @@ const sidebars: SidebarsConfig = {
         "products/wordpress-capsule/monitor",
         "products/wordpress-capsule/logs",
         {type: "ref", id: "products/alerting", label: "Notifications", key: "notifications-wordpress"}
-      ]
+      ],
+      "link": {
+        "type": "doc",
+        "id": "products/wordpress-capsule/index"
+      }
     },
     {
       "type": "category",
@@ -335,6 +339,11 @@ const sidebars: SidebarsConfig = {
     "tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules",
     "tutorials/create-and-host-go-ai-telegram-bot",
     "tutorials/how-to-simply-host-a-production-wordpress-blog",
+    "tutorials/deploy-multi-brand-wordpress-content-library",
+    "tutorials/git-based-wordpress-staging-production-workflow",
+    "tutorials/migrate-wordpress-to-code-capsules-zero-downtime",
+    "tutorials/wordpress-backups-disaster-recovery",
+    "tutorials/scale-wordpress-caching-autoscaling",
     "tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules",
     "tutorials/use-codecapsules-with-an-agent",
     "tutorials/heroku-migration-guide",
