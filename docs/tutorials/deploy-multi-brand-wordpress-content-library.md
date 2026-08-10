@@ -1,13 +1,13 @@
 ---
-title: "Deploy a Multi-Brand WordPress Content Library"
+title: "Deploy a WordPress DXP: Multi-Brand Enterprise CMS"
 slug: "/tutorials/deploy-multi-brand-wordpress-content-library"
-description: "Step-by-step: govern a shared WordPress theme and plugin codebase from one Git repository, deployed to several independent, branded WordPress Capsules."
-sidebar_label: "Multi-Brand Content Library"
+description: "Step-by-step: build a WordPress DXP for multi-brand enterprise CMS architecture — one Git repo, one independently-scaled Capsule per brand."
+sidebar_label: "WordPress DXP: Multi-Brand CMS"
 ---
 
-# Deploy a Multi-Brand WordPress Content Library
+# Deploy a WordPress DXP: Multi-Brand Enterprise CMS
 
-This tutorial builds the [Multi-Instance Content Library](/products/wordpress-capsule/multi-instance-content-library/) pattern end to end: one governed Git repository as the shared theme/plugin codebase, and one isolated WordPress Capsule per branded site, each deploying from that same repository.
+This tutorial builds the [Multi-Instance Content Library](/products/wordpress-capsule/multi-instance-content-library/) pattern end to end — the multi-brand enterprise CMS architecture behind a WordPress DXP: one governed Git repository as the shared theme/plugin codebase, and one isolated WordPress Capsule per branded site, each deploying from that same repository.
 
 By the end, pushing a change to the shared branch rolls it out to every brand, while each brand's content and database stay fully isolated.
 
@@ -79,5 +79,6 @@ Every brand's plugins and themes come from a Git commit, not a live wp-admin upl
 ## Next steps
 
 - [Multi-Instance Content Library](/products/wordpress-capsule/multi-instance-content-library/) — the architecture reference this tutorial implements
-- [Multi-Brand WordPress Content Library guide](https://www.codecapsules.io/multi-brand-wordpress-content-library/) — the pattern explained for a non-technical stakeholder
+- [WordPress DXP: Multi-Brand Enterprise CMS Architecture](https://www.codecapsules.io/multi-brand-wordpress-content-library/) — the pattern explained for a non-technical stakeholder
+- [Is WordPress Scalable?](https://www.codecapsules.io/is-wordpress-scalable/) — why one Capsule per brand is a horizontal-scaling strategy, not just isolation
 - [Git-Based WordPress Staging → Production Workflow](/tutorials/git-based-wordpress-staging-production-workflow/) — branch-based promotion for a single brand

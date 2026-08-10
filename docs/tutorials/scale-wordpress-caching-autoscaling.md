@@ -1,13 +1,13 @@
 ---
 title: "Scale and Cache WordPress for High-Traffic Sites"
 slug: "/tutorials/scale-wordpress-caching-autoscaling"
-description: "Handle enterprise WordPress traffic spikes with the built-in FastCGI full-page cache and manual vertical scaling — what each one actually protects against."
+description: "Handle enterprise WordPress traffic spikes with caching, vertical scaling, and horizontal scaling — what each one actually protects against."
 sidebar_label: "Scale & Cache"
 ---
 
 # Scale and Cache WordPress for High-Traffic Sites
 
-Two separate controls handle WordPress traffic at scale: caching, which reduces the load each request generates, and Capsule resource allocation, which is scaled manually — Code Capsules does not currently scale a WordPress Capsule's resources automatically in response to traffic, so plan capacity ahead of expected spikes rather than relying on it to self-adjust.
+Three controls handle WordPress traffic at scale: caching, which reduces the load each request generates; vertical scaling, more CPU/RAM per Capsule; and horizontal scaling, more instances rather than a bigger one. None of these trigger automatically off a live traffic metric — Code Capsules does not currently autoscale a Capsule in response to traffic, so plan capacity ahead of expected spikes rather than relying on it to self-adjust. See [Is WordPress Scalable?](https://www.codecapsules.io/is-wordpress-scalable/) for how these fit together at the architecture level.
 
 ## 1. Enable the full-page cache
 
@@ -48,9 +48,16 @@ Before a known traffic event (a campaign launch, a sale), check your `WORDPRESS_
 
 See [Configure](/products/wordpress-capsule/configure/) for the full tuning table and syntax.
 
-## 4. Scale the Capsule ahead of a known spike
+## 4. Scale the Capsule vertically ahead of a known spike
 
 If caching and worker tuning aren't enough headroom, open the WordPress Capsule's **Scale** tab, click **Edit**, and increase the allocated CPU/memory with the sliders. This takes effect without downtime, but it is a manual step you trigger — do it *before* an expected spike (a campaign, a press mention), not during one.
+
+## 5. Scale horizontally instead of just vertically
+
+Vertical scaling has a ceiling — at some point a bigger instance isn't the right lever. Two horizontal options:
+
+- **Replica Scale** — set at Capsule creation/configuration, alongside CPU and RAM, this runs more than one instance of the same Capsule's deployment. It's a platform-wide mechanism, not WordPress-specific tooling, so validate session handling for your specific plugin/theme set before relying on it for a stateful WordPress site.
+- **One Capsule per brand or region** — the horizontal-scaling lever most enterprise WordPress deployments on Code Capsules actually use. Instead of one WordPress install absorbing traffic for every brand, each brand runs its own independently-scaled Capsule from the [Multi-Instance Content Library](/products/wordpress-capsule/multi-instance-content-library/) pattern — see [Deploy a WordPress DXP: Multi-Brand Enterprise CMS](/tutorials/deploy-multi-brand-wordpress-content-library/). Adding a brand doesn't add load to any existing one.
 
 ## What actually protects you during an unexpected spike
 
@@ -58,7 +65,7 @@ In order of what takes effect immediately versus what requires you to act:
 
 1. **The full-page cache** (if enabled) — absorbs anonymous traffic automatically, no action needed once configured
 2. **Rate limiting** (on by default) — protects `wp-login.php`/`wp-admin` and the REST API from being overwhelmed, but also applies to legitimate high-frequency clients; raise `RATE_LIMIT_NORMAL_ROUTES_RPM` if you expect a legitimate burst
-3. **Manual vertical scaling** — requires you to notice and act; plan for known events rather than counting on same-minute response to an unexpected one
+3. **Vertical and horizontal scaling** — both require you to notice and act; plan for known events rather than counting on same-minute response to an unexpected one. Running multiple brands as separate Capsules already limits how far an unexpected spike on one brand can spread.
 
 ## Next steps
 
