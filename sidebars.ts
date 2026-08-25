@@ -170,6 +170,13 @@ const sidebars: SidebarsConfig = {
     },
     {
       "type": "category",
+      "label": "Git",
+      "items": [
+        "platform/git/connect-azure-devops"
+      ]
+    },
+    {
+      "type": "category",
       "label": "Billing",
       "items": [
         "platform/billing/how-do-i-change-my-billing-details",
