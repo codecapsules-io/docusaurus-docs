@@ -32,20 +32,22 @@ The sections below apply when your project uses npm and a build command (for exa
 | **Operating system** | Ubuntu 24.04 LTS                                             |
 | **Build runtime**    | Node.js — used for `npm install` and your build command only |
 
-Node.js version selection happens at **build time**, not while your capsule is serving static files. Runtime versions are resolved at build time, not baked into the platform image. Each build resolves a version in this order:
+Node.js version selection happens at **build time**, not while your capsule is serving static files. Each build resolves a version in this order:
 
 1. Your app's explicit pin in `package.json` (if valid)
-2. The platform default line for Node.js (if no valid pin exists)
+2. The latest patch release on the **20.x** line (if no valid pin exists)
 
-Unpinned applications use the platform default line at build time. This is not a fixed version — if a newer patch is available when your build runs, that version is used. Code Capsules does not move unpinned apps to a new Node.js major when a new LTS is published — that only happens when the platform is upgraded.
+Unpinned applications use the latest **20.x** patch available from nodejs.org at build time. This is not a fixed version — if a newer 20.x patch is published before your build runs, that version is used. Code Capsules does not move unpinned apps to a new Node.js major when a new LTS is published — that only happens when the platform is upgraded.
 
 ### Supported language runtimes
 
-The table below lists each supported Node.js version line and the platform default used when your project does not specify a version.
+The table below lists how Node.js is selected at build time and the format to use when pinning an exact version.
 
-| Language               | Supported version lines | Unpinned default           |
-| ---------------------- | ----------------------- | -------------------------- |
-| [**Node.js**](#nodejs) | 22.x.x, 24.x.x          | Latest patch on **24.x**   |
+| Language               | Unpinned default         | Pin format                                      |
+| ---------------------- | ------------------------ | ----------------------------------------------- |
+| [**Node.js**](#nodejs) | Latest patch on **20.x** | Exact `vX.Y.Z` in `package.json` `engines.node` |
+
+You can pin any exact Node.js release published on nodejs.org (for example, `v18.20.8`, `v20.18.0`, or `v22.23.1`). Line pins such as `20.x.x` are not supported — they fall back to the unpinned default.
 
 :::info
 
@@ -64,7 +66,7 @@ Set `engines.node` in `package.json` to pin an exact Node.js version for every b
 ```json
 {
   "engines": {
-    "node": "v24.18.0"
+    "node": "v20.18.0"
   }
 }
 ```
@@ -73,25 +75,26 @@ When a valid pin is present, the platform uses exactly that version for dependen
 
 :::caution
 
-`engines.node` must be an exact version string in the form `v<major>.<minor>.<patch>` (for example, `v24.18.0` or `v22.23.1`).
+`engines.node` must be an exact version string in the form `v<major>.<minor>.<patch>` (for example, `v20.18.0` or `v22.23.1`).
 
-The following are **not** supported and cause a fallback to the platform default at build time:
+The following are **not** supported and cause a fallback to the latest **20.x** patch at build time:
 
-- Semver ranges (`>=18`, `^20`, `~22`, `24.x`)
-- Bare major or minor versions (`20`, `24`)
+- Line pins and semver ranges (`20.x.x`, `>=18`, `^20`, `~22`, `20.x`)
+- Bare major or minor versions (`20`, `22`)
 - Version files (`.nvmrc`, `.node-version`)
+- Environment variables for Node.js version selection in the **Config** tab
 
 :::
 
 #### Platform upgrades and pins
 
-| Scenario                                                          | Behaviour                                                                         |
-| ----------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Platform moves to a new default line, app unpinned                | App uses the new default line on the next build                                   |
-| Platform moves to a new default line, app pinned to a version     | App continues using the pinned version                                            |
-| New Node LTS published upstream, app unpinned                     | App stays on the current platform default until Code Capsules upgrades the platform |
-| Patch release on the 24.x line, app unpinned                      | App uses the newer 24.x patch on the next build                                   |
-| Patch release on the 24.x line, app pinned to an exact version    | App continues using the exact pinned version                                      |
+| Scenario                                                       | Behaviour                                                                           |
+| -------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Platform moves to a new default line, app unpinned             | App uses the new default line on the next build                                     |
+| Platform moves to a new default line, app pinned to a version  | App continues using the pinned version                                              |
+| New Node LTS published upstream, app unpinned                  | App stays on the current platform default until Code Capsules upgrades the platform |
+| Patch release on the 20.x line, app unpinned                   | App uses the newer 20.x patch on the next build                                     |
+| Patch release on the 20.x line, app pinned to an exact version | App continues using the exact pinned version                                        |
 
 Pin an exact version when your framework, native modules, or tooling require a specific Node.js release and you need builds to stay identical across platform patch updates.
 
