@@ -1,19 +1,20 @@
 ---
 slug: '/products/docker-capsule'
 description: >-
-  Run applications on Code Capsules with full control over how your capsule is
-  built using a Dockerfile.
+  Run applications on Code Capsules from your own Dockerfile or an existing
+  container image.
 ---
 
 # Docker Capsule
 
-Deploy applications on Code Capsules using your own Dockerfile. Docker Capsules give you full control over how your capsule is built and run, while Code Capsules handles hosting, networking, scaling, and operations.
+Deploy applications on Code Capsules using your own Dockerfile or an existing container image. Docker Capsules give you full control over how your capsule is built and run, while Code Capsules handles hosting, networking, scaling, and operations.
 
 ## When to use a Docker Capsule
 
 A Docker Capsule is a good fit when:
 
 - You maintain a `Dockerfile` in your repository
+- You already publish a public container image, for example to Docker Hub or GitHub Container Registry
 - You need a specific base image or system packages
 - Your application has a multi-stage or non-standard build
 - You want full control over how your capsule is built and run
@@ -21,7 +22,7 @@ A Docker Capsule is a good fit when:
 ## Documentation
 
 - [Writing a Dockerfile](/products/docker-capsule/writing-a-dockerfile/) — write a Dockerfile that works on Code Capsules
-- [Deploy](/products/docker-capsule/deploy/) — create a capsule, connect a repository, and manage builds and deployment settings
+- [Deploy](/products/docker-capsule/deploy/) — create a capsule from a Git repository or a container image, and manage builds and deployment settings
 - [Configure](/products/docker-capsule/configure/) — Docker File path, build context, network port, and environment variables
 - [Builds](/products/docker-capsule/builds/) — trigger builds, auto-deploy from Git, and roll back to previous builds
 - [Scale](/products/docker-capsule/scale/) — allocate CPU, memory, and replicas as traffic grows

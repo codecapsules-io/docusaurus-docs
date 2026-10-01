@@ -1,11 +1,11 @@
 ---
 slug: '/backend/docker'
-description: 'Deploy Docker-based applications on Code Capsules with support for custom Dockerfiles and auto-deployments from GitHub.'
+description: 'Deploy Docker-based applications on Code Capsules from custom Dockerfiles with auto-deployments from GitHub, or from existing container images.'
 ---
 
 # Docker
 
-Deploy containerized applications on Code Capsules using [Docker Capsules](/products/docker-capsule/). Docker Capsules build your application from a `Dockerfile` in your Git repository, giving you full control over the runtime environment.
+Deploy containerized applications on Code Capsules using [Docker Capsules](/products/docker-capsule/). Docker Capsules build your application from a `Dockerfile` in your Git repository, or deploy an existing public container image, giving you full control over the runtime environment.
 
 ## Product documentation
 

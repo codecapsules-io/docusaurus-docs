@@ -1,17 +1,17 @@
 ---
 slug: '/products/docker-capsule/builds'
 description: >-
-  Manage Docker Capsule builds, auto-deploy from Git, and roll back to previous
-  builds.
+  Manage Docker Capsule builds and image deploys, auto-deploy from Git, and roll
+  back to previous builds.
 ---
 
 # Builds
 
-Docker Capsules are built from your Git repository using your configured Dockerfile. Code Capsules manages the build pipeline and automatically runs the capsule when a build succeeds.
+Docker Capsules deployed from a Git repository are built using your configured Dockerfile. Docker Capsules deployed from a container image pull that image instead of building one. In both cases, Code Capsules manages the pipeline and automatically runs the capsule when a build succeeds.
 
 ## How builds work
 
-When a build starts, Code Capsules:
+When a build starts for a capsule deployed from a Git repository, Code Capsules:
 
 1. Clones your linked Git repository at the configured branch
 2. Runs `docker build` using your **Docker File** path and **Docker Build Context** — see [Configure](/products/docker-capsule/configure/)
@@ -22,25 +22,41 @@ Code Capsules retains a limited number of successful builds per capsule. The **D
 
 A Git repository must be linked before you can build. Private repositories are supported when your GitHub account has been connected to Code Capsules.
 
+### Capsules deployed from a container image
+
+When a capsule is deployed from a container image, there is no Dockerfile build. Instead, Code Capsules:
+
+1. Pulls the image from its registry
+2. Records the exact version of the image that was pulled, shown as the **Deployed digest** on the **Deploy** tab
+3. Automatically runs your capsule on success
+
+Each pull appears in the **Builds** tab as an **Image import**, with its own log.
+
 ## Trigger a build
 
 ### Initial build on creation
 
 When a Docker Capsule is created with a linked repository, Code Capsules automatically starts a fresh first build. No manual action is required.
 
+When a Docker Capsule is created from a container image, the image is not deployed automatically. Click **Pull & Deploy** on the **Deploy** tab to start the first deploy.
+
 ### Manual build
 
 1. Open the **Deploy** tab on your Docker Capsule.
-2. Click **Build & Deploy**.
+2. Click **Build & Deploy** for a Git repository, or **Pull & Deploy** for a container image.
 3. Open the **Builds** tab to follow the build log.
 
 Manual builds work regardless of the **auto-deploy** setting.
+
+For a container image, **Pull & Deploy** pulls the image again. If the tag now points to a newer version of the image, that version is deployed.
 
 ### Auto-deploy from Git
 
 **Auto-deploy** is enabled by default on the **Deploy** tab. Push a commit to the linked branch to trigger a build automatically, then monitor progress in the **Builds** tab.
 
 To disable or re-enable auto-deploy, use the **Auto Build & Deploy** switch on the [Deploy](/products/docker-capsule/deploy/#auto-deploy) tab.
+
+Auto-deploy is not available for capsules deployed from a container image. Publishing a new image to the same tag does not update the capsule until you click **Pull & Deploy**.
 
 :::info
 
@@ -86,6 +102,8 @@ Rolling back uses an existing build — it does not trigger a new build. Success
 
 ### Build fails immediately
 
+For a capsule deployed from a Git repository:
+
 - Confirm a repository is linked to the capsule.
 - Check that the linked branch exists and contains your Dockerfile.
 
@@ -94,6 +112,12 @@ Rolling back uses an existing build — it does not trigger a new build. Success
 - Read the full build log in the **Builds** tab.
 - Verify the **Docker File** path and **Docker Build Context** in the [Config](/products/docker-capsule/configure/) tab.
 - Test locally: `docker build -f <dockerfile-path> <context-path>`
+
+### Image deploy fails
+
+- Check that the **Image reference** is spelled correctly and that the tag exists.
+- Confirm the image is public. Private images are not supported.
+- Confirm the image is hosted on a supported public registry, such as Docker Hub or GitHub Container Registry. If the registry is not supported, Code Capsules shows an error when you create the capsule or save a new image reference.
 
 ### Auto-deploy not triggering
 

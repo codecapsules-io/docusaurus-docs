@@ -382,7 +382,7 @@ We've discussed how to move common system components to Code Capsules, but you m
 
   CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
   ```
-  Code Capsules builds Docker images from your Dockerfile in your repository. If you have a complex build, you can prebuild an image, publish it to DockerHub, and reference it in a minimal Dockerfile.
+  Code Capsules builds Docker images from your Dockerfile in your repository. If you have a complex build, you can prebuild an image, publish it to a public registry such as Docker Hub, and [deploy the image directly](/products/docker-capsule/deploy/#container-image).
 - **Running multiple applications in a Capsule**: If you want to run two different services in one Capsule, like a PHP and Ruby server, you need to use a custom Dockerfile that includes both frameworks.
 
 ## Next Steps
