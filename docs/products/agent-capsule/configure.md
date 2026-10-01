@@ -1,9 +1,11 @@
 ---
 slug: "/products/agent-capsule/configure"
 description: "Configure an Agent Capsule in the Config tab."
+title: "How to Configure an AI Agent"
+sidebar_label: "Configure"
 ---
 
-# Configure
+# Configure Your AI Agent
 
 Configure an Agent Capsule in the **Config** tab.
 

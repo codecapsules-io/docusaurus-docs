@@ -1,9 +1,11 @@
 ---
 slug: "/full-stack/mern-stack"
-description: A guide to deploying a MERN Stack application from GitHub.
+description: "Deploy a full-stack MERN (MongoDB, Express, React, Node) app to Code Capsules from GitHub. Ship your JavaScript stack in production."
+title: "How to Deploy a MERN Stack Application"
+sidebar_label: "MERN Stack"
 ---
 
-# MERN Stack
+# Deploy Your MERN Stack App
 
 _A video for this guide can be found_ [_here_](https://www.youtube.com/watch?v=iHl-pFlLWk0\&list=PLoEGujFfB4nYx8b4Wai0l75KsjzEruy6l\&index=1\&t=1s) _if you prefer watching to reading._
 
@@ -11,7 +13,7 @@ Deploy a MERN stack application and learn how to host backend code on Code Capsu
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a MERN stack application with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/mern-stack).
 
@@ -19,7 +21,7 @@ Sign in to GitHub, and fork the example application by clicking **Fork** at the 
 
 ## Create an Account with Code Capsules
 
-If you don't already have an account, navigate to the [Code Capsules](https://codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
+If you don't already have an account, navigate to the [Code Capsules](https://www.codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
 
 If you've just signed up for an account, you'll be directed to a welcome page on your first login. Click on the **Go To Personal Team** button.
 

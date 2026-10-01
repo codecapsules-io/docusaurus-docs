@@ -1,15 +1,17 @@
 ---
 slug: "/backend/python/whatsapp-bot"
-description: A guide to deploying a WhatsApp Bot from GitHub.
+description: "Build and deploy a Python WhatsApp bot to Code Capsules from GitHub. Connect to the WhatsApp API and run your bot in production, step by step."
+title: "How to Host a WhatsApp Bot in Python"
+sidebar_label: "WhatsApp Bot"
 ---
 
-# WhatsApp Bot
+# Build and Host Your WhatsApp Bot
 
 Deploy a WhatsApp Bot and learn how to host backend code on Code Capsules.
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account, a [GitHub](https://github.com/) account, and a [Twilio](https://www.twilio.com/try-twilio) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account, a [GitHub](https://github.com/) account, and a [Twilio](https://www.twilio.com/try-twilio) account.
 
 To demonstrate how to deploy a WhatsApp Bot with Code Capsules, we've provided an example bot, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/whatsapp-echobot).
 

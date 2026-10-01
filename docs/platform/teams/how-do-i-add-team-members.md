@@ -1,5 +1,6 @@
 ---
 slug: "/platform/teams/how-do-i-add-team-members"
+title: "Add Team Members to a Team"
 description: "Once you've created a Team, invite members to join."
 ---
 

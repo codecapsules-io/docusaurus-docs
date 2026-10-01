@@ -1,5 +1,6 @@
 ---
 slug: "/tutorials/build-a-mern-job-board"
+title: "Build a MERN Job Board"
 description: "Like other full-stack applications, a MERN (MongoDB, Express, React, Node.js) stack has the advantage of needing only one capsule to host both the..."
 cover: /gitbook-assets/tutorials/mern-job-board-cover-v2.jpg
 ---

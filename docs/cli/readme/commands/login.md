@@ -1,9 +1,11 @@
 ---
 slug: "/cli/readme/commands/login"
 description: "Authenticate the CLI with your Code Capsules account. This is required before running commands with the Code Capsules CLI."
+title: "Log In With the CLI (login command)"
+sidebar_label: "login"
 ---
 
-# login
+# Log In From Your Terminal
 
 ## Description
 

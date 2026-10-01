@@ -1,15 +1,17 @@
 ---
 slug: "/products/agent-capsule/deploy"
-description: "Deploy a configurable Agent Capsule on Code Capsules."
+description: "Deploy a configurable Agent Capsule on Code Capsules to run AI agents in production. Set environment variables, connect a repo, and ship in minutes."
+title: "How to Deploy an AI Agent"
+sidebar_label: "Deploy"
 ---
 
-# Deploy
+# Deploy Your AI Agent
 
 Deploy a configurable Agent Capsule on Code Capsules.
 
 ## Set up
 
-To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account.
+To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account.
 
 ## Create an Account with Code Capsules
 

@@ -1,9 +1,11 @@
 ---
 slug: "/products/frontend-capsule/custom-domains"
-description: "Each application deployed on Code Capsules is assigned a default domain in the format capsulename.xxxx.codecapsules.co.za."
+description: "Add a custom domain to your Frontend Capsule on Code Capsules. Configure DNS records to serve your site from your own domain."
+title: "How to Add a Custom Domain to a Frontend App"
+sidebar_label: "Custom Domains"
 ---
 
-# Custom Domains
+# Put Your Frontend on Your Own Domain
 
 Each application deployed on Code Capsules is assigned a default domain in the format `capsulename.xxxx.codecapsules.co.za`.
 
@@ -34,7 +36,7 @@ Click the **Add Custom Domain** link and enter your custom domain in the **Domai
 
 :::danger
 
-Ensure you enter only a **root domain**. Do not include a subdomain. A root domain contains only a domain name and top-level domain, for example, `example.com`. See the [notes on understanding URL structure](/products/frontend-capsule/custom-domains#understanding-url-structure) below.
+Ensure you enter only a **root domain**. Do not include a subdomain. A root domain contains only a domain name and top-level domain, for example, `example.com`. See the [notes on understanding URL structure](/products/frontend-capsule/custom-domains/#understanding-url-structure) below.
 
 :::
 
@@ -70,7 +72,7 @@ Changes to DNS records can take several hours to propagate.
 
 ## How to Add a Subdomain
 
-Before adding a subdomain, make sure your custom domain has an [A record](/products/frontend-capsule/custom-domains#create-an-a-record) pointing to your application on Code Capsules.
+Before adding a subdomain, make sure your custom domain has an [A record](/products/frontend-capsule/custom-domains/#create-an-a-record) pointing to your application on Code Capsules.
 
 
 :::info
@@ -78,7 +80,7 @@ Before adding a subdomain, make sure your custom domain has an [A record](/produ
 **Note:**
 
 * Each application on Code Capsules supports a **maximum of five subdomains**.
-* **Wildcard subdomains are not supported.** You need to [create a separate CNAME record](/products/frontend-capsule/custom-domains#create-a-cname-record) for each subdomain you add.
+* **Wildcard subdomains are not supported.** You need to [create a separate CNAME record](/products/frontend-capsule/custom-domains/#create-a-cname-record) for each subdomain you add.
 
 :::
 

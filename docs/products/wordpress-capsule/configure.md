@@ -1,9 +1,11 @@
 ---
 slug: "/products/wordpress-capsule/configure"
 description: "Complete reference for configuring a WordPress Capsule — database connections, PHP settings, FPM workers, and all environment variables."
+title: "How to Configure a WordPress Site"
+sidebar_label: "Configure"
 ---
 
-# Configure
+# Configure Your WordPress Site
 
 WordPress Capsules are configured through environment variables in the **Config** tab of your Capsule's page. All configuration is applied at container start — changes take effect on the next deploy or restart.
 

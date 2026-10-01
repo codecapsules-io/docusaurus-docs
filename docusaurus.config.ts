@@ -18,6 +18,12 @@ const redirects = [
   {from: ['/products/database-capsule/backups'], to: '/products/database-capsule/'},
   {from: ['/products/database-capsule/monitor'], to: '/products/database-capsule/'},
   {from: ['/products/database-capsule/logs'], to: '/products/database-capsule/'},
+  // CCM-62: consolidated 6 duplicate alerting pages into /products/alerting.
+  {from: ['/products/alerting-1'], to: '/products/alerting'},
+  {from: ['/products/agent-capsule/alerting'], to: '/products/alerting'},
+  {from: ['/products/backend-capsule/alerting'], to: '/products/alerting'},
+  {from: ['/products/storage-capsule/alerting'], to: '/products/alerting'},
+  {from: ['/products/wordpress-capsule/alerting'], to: '/products/alerting'},
 ];
 
 const url = process.env.DOCUSAURUS_URL || 'http://localhost';
@@ -126,7 +132,7 @@ function remarkGitbookCards() {
 const config: Config = {
   title: 'Code Capsules',
   tagline: 'Product docs, tutorials, and platform guides',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.svg',
 
   future: {
     v4: true,
@@ -223,11 +229,12 @@ const config: Config = {
         {to: '/products/', label: 'Products', position: 'left'},
         {to: '/tutorials/', label: 'Tutorials', position: 'left'},
         {to: '/agentic-automation/', label: 'Agentic Automation', position: 'left'},
+        {to: '/sandbox/', label: 'Sandbox', position: 'left'},
         {to: '/enterprise/', label: 'Enterprise', position: 'left'},
         {to: '/cli/', label: 'CLI', position: 'left'},
         {type: 'search', position: 'right'},
         {
-          href: 'https://codecapsules.io/slack',
+          href: 'https://www.codecapsules.io/contact/',
           label: 'Support',
           position: 'right',
         },

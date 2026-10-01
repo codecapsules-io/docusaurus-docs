@@ -1,6 +1,7 @@
 ---
 slug: "/backend/python/python-telegram-bot"
-description: A guide to deploying a Python Telegram Bot from GitHub.
+title: "Deploy a Python Telegram Bot from GitHub"
+description: "Deploy a Python Telegram bot to Code Capsules straight from GitHub. Connect the Telegram Bot API, build with Docker, and run it in production."
 ---
 
 # Python Telegram Bot
@@ -26,7 +27,7 @@ To confirm that your bot was created successfully, search for the bot's username
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a Python Telegram Bot with Code Capsules, we've provided an example bot, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/python-telegram-echobot).
 

@@ -1,6 +1,7 @@
 ---
 slug: "/backend/docker/caddy-docker-site"
-description: Publish a Caddy Docker site using its source code on GitHub.
+title: "Deploy a Caddy Site with Docker"
+description: "Deploy a Caddy site with Docker on Code Capsules from a GitHub repo. Serve static or dynamic content with automatic HTTPS, step by step."
 ---
 
 # Caddy Docker Site
@@ -9,7 +10,7 @@ Deploy a Caddy Docker site and learn how to host frontend code on Code Capsules.
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a Bootstrap site with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/hello-caddy).
 
@@ -17,7 +18,7 @@ Sign in to GitHub, and fork the example application by clicking **Fork** at the 
 
 ## Create an Account with Code Capsules
 
-If you don't already have an account, navigate to the [Code Capsules](https://codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
+If you don't already have an account, navigate to the [Code Capsules](https://www.codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
 
 If you've just signed up for an account, you'll be directed to a welcome page on your first login. Click on the **Go To Personal Team** button.
 
@@ -66,3 +67,9 @@ Once the build is complete, click the **URL** link in the **Details** tab, and y
 ![Deployed App](/gitbook-assets/get-started/caddy-docker-site.png)
 
 If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).
+
+## Related guides
+
+- [Deploy a Laravel App with Docker](/backend/docker/docker-laravel-app/)
+- [Deploy a PHP App with Docker](/backend/docker/docker-php-app/)
+- [Deploy a Flask App with Docker](/backend/docker/flask-docker-app/)

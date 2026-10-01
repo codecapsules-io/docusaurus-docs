@@ -1,6 +1,7 @@
 ---
 slug: "/database/mysql/flask-+-mysql"
-description: A walkthrough on how to deploy a Flask MySQL application from GitHub.
+title: "Deploy Flask with MySQL"
+description: "Deploy a Flask app with a MySQL database on Code Capsules from GitHub. Connect Flask to a managed MySQL Data Capsule, step by step."
 ---
 
 # Flask + MySQL
@@ -9,7 +10,7 @@ Deploy a Flask MySQL application and learn how to host backend code on Code Caps
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a Flask MySQL application with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-flask-mysql).
 

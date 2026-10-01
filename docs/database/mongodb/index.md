@@ -1,9 +1,11 @@
 ---
 slug: '/database/mongodb'
 description: 'MongoDB provides reliable NoSQL persistent storage for your applications. Learn how to create a MongoDB Capsule on Code Capsules and connect it to your applications.'
+title: 'Managed MongoDB Hosting'
+sidebar_label: 'MongoDB'
 ---
 
-# MongoDB
+# Host Your MongoDB Database
 
 MongoDB provides reliable NoSQL persistent storage for your applications. Code Capsules provisions **MongoDB Capsules** on [MongoDB Atlas](https://www.mongodb.com/atlas), giving you a managed cluster with connection details, scaling, backups, and version management from the dashboard.
 

@@ -3,9 +3,11 @@ slug: "/tutorials"
 description: Detailed tutorials to help you use Code Capsules based on your use case.
 cover: /gitbook-assets/tutorials/generic-docs-banner.jpg
 coverY: 80
+title: "Deployment Tutorials & Step-by-Step Guides"
+sidebar_label: "Tutorials Overview"
 ---
 
-# Tutorials Overview
+# Learn by Deploying
 
 This section contains step-by-step tutorials to help you build and deploy applications on Code Capsules.
 

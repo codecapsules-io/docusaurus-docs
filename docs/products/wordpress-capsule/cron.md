@@ -1,9 +1,11 @@
 ---
 slug: "/products/wordpress-capsule/cron"
 description: "How WordPress scheduled tasks work on Code Capsules and how to configure reliable cron execution."
+title: "How to Schedule WordPress Cron Jobs"
+sidebar_label: "Cron"
 ---
 
-# Cron
+# Schedule Your WordPress Cron Jobs
 
 WordPress uses a built-in scheduler (WP-Cron) to run scheduled tasks: publishing scheduled posts, sending emails, running plugin maintenance, checking for updates, and more.
 

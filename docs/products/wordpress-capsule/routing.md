@@ -1,9 +1,11 @@
 ---
 slug: "/products/wordpress-capsule/routing"
 description: "How HTTP requests are routed through a WordPress Capsule and how to customise nginx routing."
+title: "How to Configure WordPress Routing"
+sidebar_label: "Routing"
 ---
 
-# Routing
+# Configure Your WordPress Routing
 
 This page explains how HTTP traffic flows through a WordPress Capsule and how to customise routing for advanced use cases.
 

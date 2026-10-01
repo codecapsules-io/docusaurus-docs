@@ -1,12 +1,11 @@
 ---
 slug: "/agentic-automation"
-description: >-
-  A framework and philosophy for building scalable agentic automation systems —
-  using git, simple code, and cloud infrastructure to create reliable business
-  automation from AI that is inherently unpredictable.
+description: "A framework for building reliable agentic automation with git, simple code and cloud infrastructure, turning unpredictable AI into dependable automation."
+title: "Agentic Automation for Business Processes"
+sidebar_label: "Agentic Automation"
 ---
 
-# Agentic Automation
+# Automate Your Business With AI Agents
 
 Something has quietly shifted in software development. For the first time in the history of the industry, the ability to write working code is no longer the bottleneck. AI coding assistants have made it possible for a marketing analyst, a customer success manager, or a founder with no computer science background to produce a functioning Python script or TypeScript module that solves a real business problem.
 

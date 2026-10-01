@@ -1,6 +1,7 @@
 ---
 slug: "/products/backend-capsule/add-procfile"
-description: "A Procfile tells the Backend Capsule which processes to run and how to start them. While Procfiles aren't required on Code Capsules, you can provide..."
+title: "Add a Procfile to a Backend Capsule"
+description: "How to add a Procfile to a Backend Capsule on Code Capsules to define which processes run and how they start. Optional, but useful for custom commands."
 ---
 
 # Add a Procfile to a Backend Application

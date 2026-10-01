@@ -1,9 +1,11 @@
 ---
 slug: "/products/backend-capsule/deploy"
 description: "Deploy server-side applications and APIs on Code Capsules with support for Python, Node.js, Go, Java, and Docker."
+title: "How to Deploy a Backend Application"
+sidebar_label: "Build and Deploy"
 ---
 
-# Build and Deploy
+# Deploy Your Backend Application
 
 Backend Capsules automatically detect your language, install dependencies, and build a runnable image from your repository. See [Supported Runtimes](/products/backend-capsule/supported-runtimes/) for the full list of language versions and how to pin a specific runtime.
 

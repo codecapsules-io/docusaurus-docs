@@ -1,9 +1,11 @@
 ---
 slug: "/cli/readme/getting-started/prerequisites"
 description: "To access services provided via the Code Capsules CLI, you are required to have a registered account on Code Capsules."
+title: "CLI Prerequisites & Requirements"
+sidebar_label: "Prerequisites"
 ---
 
-# Prerequisites
+# What You Need Before Installing the CLI
 
 To access services provided via the Code Capsules CLI, you are required to have a registered account on [Code Capsules](https://app.codecapsules.io/).
 

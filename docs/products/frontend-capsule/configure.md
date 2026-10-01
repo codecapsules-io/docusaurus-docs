@@ -1,9 +1,11 @@
 ---
 slug: "/products/frontend-capsule/configure"
 description: "To configure your Frontend Capsule, navigate to the \"Config\" tab."
+title: "How to Configure a Frontend App"
+sidebar_label: "Configure"
 ---
 
-# Configure
+# Configure Your Frontend App
 
 To configure your Frontend Capsule, navigate to the "Config" tab.
 

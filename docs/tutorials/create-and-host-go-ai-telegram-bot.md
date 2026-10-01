@@ -1,9 +1,7 @@
 ---
 title: "Host a Go AI Telegram Bot"
 slug: "/tutorials/create-and-host-go-ai-telegram-bot"
-description: >-
-  Build a Telegram bot that uses AI to respond to users with a custom
-  personality.
+description: "Build a Go Telegram bot that replies with AI and a custom personality, then deploy it to production on Code Capsules. Step-by-step tutorial."
 cover: /gitbook-assets/tutorials/telegram-bot-cover-go-v2.jpg
 ---
 
@@ -23,7 +21,7 @@ For this project we will use the following tech stack:
 
 The rest of the stack will be handled by our Backend Capsule.
 
-Create a Code Capsules account [here](https://codecapsules.io/) if you don't already have one.
+Create a Code Capsules account [here](https://www.codecapsules.io/) if you don't already have one.
 
 We will host our code on GitHub, so make sure you have a [GitHub account](https://github.com/signup) and are familiar with [Git](https://git-scm.com/). You can find a guide to getting started with Git [here](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control).
 

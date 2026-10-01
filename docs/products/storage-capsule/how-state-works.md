@@ -1,9 +1,11 @@
 ---
 slug: "/products/storage-capsule/how-state-works"
 description: "A Capsule can write to a local file system, but those files will not persist after the Capsule is restarted."
+title: "How Persistent Storage State Works"
+sidebar_label: "How State Works"
 ---
 
-# How State Works
+# Understand How Your Storage State Works
 
 A Capsule can write to a local file system, but those files will not persist after the Capsule is restarted. 
 

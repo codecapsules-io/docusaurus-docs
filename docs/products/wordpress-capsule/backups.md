@@ -1,9 +1,11 @@
 ---
 slug: "/products/wordpress-capsule/backups"
 description: "WordPress stores content in two locations:"
+title: "How to Back Up a WordPress Site"
+sidebar_label: "Backups"
 ---
 
-# Backups
+# Back Up and Restore Your WordPress Site
 
 WordPress stores content in two locations:
 

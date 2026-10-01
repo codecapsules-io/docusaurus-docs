@@ -1,9 +1,11 @@
 ---
 slug: "/products/backend-capsule/scale"
-description: "You can allocate more resources to a Capsule as your application's traffic and computational needs change."
+description: "Scale your Backend Capsule on Code Capsules by allocating more CPU and memory as your app traffic grows, without redeploying."
+title: "How to Scale a Backend Application"
+sidebar_label: "Scale"
 ---
 
-# Scale
+# Scale Your Backend Application Without Downtime
 
 You can allocate more resources to a Capsule as your application's traffic and computational needs change.
 

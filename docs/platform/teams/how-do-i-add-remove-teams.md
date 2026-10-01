@@ -1,5 +1,6 @@
 ---
 slug: "/platform/teams/how-do-i-add-remove-teams"
+title: "Add and Remove Teams"
 description: "You can create as many teams as you need on Code Capsules."
 ---
 

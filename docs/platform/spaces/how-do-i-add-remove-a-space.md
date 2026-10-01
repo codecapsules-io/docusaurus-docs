@@ -1,5 +1,6 @@
 ---
 slug: "/platform/spaces/how-do-i-add-remove-a-space"
+title: "Add and Remove Spaces"
 description: "To create a new Space, click the yellow + icon on the bottom-left corner of the dashboard and select New Space."
 ---
 

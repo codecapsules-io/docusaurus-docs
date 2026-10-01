@@ -1,6 +1,7 @@
 ---
 slug: "/full-stack/next.js/static-file-share-with-flask-and-caddy"
-description: "This guide will show you how to deploy a basic file-sharing site on Code Capsules. You'll use a Flask application to upload files and a Caddy file..."
+title: "Deploy a File-Sharing Site with Flask and Caddy"
+description: "Deploy a file-sharing site on Code Capsules using Flask to handle uploads and Caddy to serve static files. A step-by-step full-stack deployment guide."
 ---
 
 # Static File Share with Flask and Caddy
@@ -15,7 +16,7 @@ After following the guide, you'll be able to upload files in the Flask applicati
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 The code you need for this guide is in the following GitHub projects.
 

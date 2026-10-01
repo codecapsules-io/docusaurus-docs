@@ -1,5 +1,6 @@
 ---
 slug: "/backend/docker/docker-php-app"
+title: "Deploy a PHP App with Docker"
 description: >-
   Deploy your application with with PHP and Docker to Production on Code
   Capsules
@@ -11,7 +12,7 @@ This guide will show you how to deploy your application built with PHP and Docke
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a PHP and Docker application with Code Capsules, we've provided some example starting code, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-php-docker).
 
@@ -19,7 +20,7 @@ Sign in to GitHub, and fork the example application by clicking **Fork** at the 
 
 ## Create an Account with Code Capsules
 
-If you don't already have an account, navigate to the [Code Capsules](https://codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
+If you don't already have an account, navigate to the [Code Capsules](https://www.codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
 
 If you've just signed up for an account, you'll be directed to a welcome page on your first login. Click on the **Go To Personal Team** button.
 
@@ -70,3 +71,9 @@ Once the build is complete, click the **URL** link in the **Details** tab, and y
 ![Deployed App](/gitbook-assets/get-started/docker-php.png)
 
 If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).
+
+## Related guides
+
+- [Deploy a Caddy Site with Docker](/backend/docker/caddy-docker-site/)
+- [Deploy a Laravel App with Docker](/backend/docker/docker-laravel-app/)
+- [Deploy a Flask App with Docker](/backend/docker/flask-docker-app/)

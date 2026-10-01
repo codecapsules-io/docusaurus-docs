@@ -1,6 +1,7 @@
 ---
 slug: "/full-stack/next.js/next.js-+-mongodb"
-description: A guide to deploying a Next.js and Mongo application from GitHub.
+title: "Deploy Next.js with MongoDB"
+description: "Deploy a full-stack Next.js app with MongoDB on Code Capsules from GitHub. Connect Next.js to a managed Mongo Data Capsule, step by step."
 ---
 
 # Next.js + MongoDB
@@ -9,7 +10,7 @@ Deploy a Next.js and Mongo application and learn how to host backend code on Cod
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a Next.js MongoDB application with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-next-mongodb-api).
 

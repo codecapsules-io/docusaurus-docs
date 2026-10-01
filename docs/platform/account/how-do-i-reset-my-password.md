@@ -1,9 +1,11 @@
 ---
 slug: "/platform/account/how-do-i-reset-my-password"
 description: "To reset the password for your Code Capsules account:"
+title: "How to Reset Your Password"
+sidebar_label: "Reset Password"
 ---
 
-# Reset Password
+# Reset Your Password in Seconds
 
 To reset the password for your Code Capsules account:
 

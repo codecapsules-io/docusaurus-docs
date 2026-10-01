@@ -1,9 +1,11 @@
 ---
 slug: "/products/agent-capsule/chat"
 description: "Code Capsules provides an integrated chat window for Agent Capsules. In order for this to be fully functional, there are a few endpoints which the API..."
+title: "Add a Chat Interface to an AI Agent"
+sidebar_label: "Chat"
 ---
 
-# Chat
+# Give Your AI Agent a Chat Interface
 
 Code Capsules provides an integrated chat window for Agent Capsules. In order for this to be fully functional, there are a few endpoints which the API needs to expose.
 

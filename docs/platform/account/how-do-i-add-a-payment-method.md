@@ -1,5 +1,6 @@
 ---
 slug: "/platform/account/how-do-i-add-a-payment-method"
+title: "How to Add a Payment Method"
 description: "Code Capsules accepts Visa and Mastercard."
 ---
 

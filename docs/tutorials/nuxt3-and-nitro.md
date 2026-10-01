@@ -1,5 +1,6 @@
 ---
 slug: "/tutorials/nuxt3-and-nitro"
+title: "Deploy a Nuxt 3 App with Nitro"
 description: "Hey there, fellow developers! Today, we’re diving deep into two exciting technologies that are changing the game in web development: Nuxt 3 and Nitro...."
 cover: /gitbook-assets/tutorials/nuxt3-nitro-cover-v2.jpg
 ---
@@ -207,7 +208,7 @@ Both Vue.js and Nuxt 3 applications can make HTTP requests to APIs or backend se
 
 **Hosting Providers**
 
-**Vue.js:** Vue.js applications can be hosted on a wide range of hosting providers, including static site hosting, traditional web hosting, cloud platforms, and serverless environments. Learn how to [deploy your Vue application to production](https://codecapsules.io/doc/how-to-deploy-a-vue-application-to-production-on-code-capsules/) on Code Capsules.
+**Vue.js:** Vue.js applications can be hosted on a wide range of hosting providers, including static site hosting, traditional web hosting, cloud platforms, and serverless environments. Learn how to [deploy your Vue application to production](/frontend/vue/) on Code Capsules.
 
 **Nuxt 3:** Depending on your Nuxt 3 application’s configuration (SSR, SSG, or SPA), hosting requirements may vary. You may need a server environment with Node.js support for SSR, while SSG can be hosted on simpler environments.
 

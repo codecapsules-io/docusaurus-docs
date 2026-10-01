@@ -1,9 +1,11 @@
 ---
 slug: "/products/storage-capsule/backups"
 description: "Configure manual and automatic backups for your Storage Capsule to protect uploaded media and files."
+title: "How to Back Up a Persistent Storage"
+sidebar_label: "Backups"
 ---
 
-# Backups
+# Back Up and Restore Your Persistent Storage
 
 Configure manual and automatic backups for your Storage Capsule to protect uploaded media and files.
 

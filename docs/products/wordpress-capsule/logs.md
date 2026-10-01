@@ -1,9 +1,11 @@
 ---
 slug: "/products/wordpress-capsule/logs"
-description: "View your Capsule's logs to monitor activity and debug issues."
+description: "View logs from your WordPress Capsule on Code Capsules to monitor PHP and web-server activity and debug your WordPress site."
+title: "How to View Logs for a WordPress Site"
+sidebar_label: "Logs"
 ---
 
-# Logs
+# View Your WordPress Site Logs
 
 View your Capsule's logs to monitor activity and debug issues.
 

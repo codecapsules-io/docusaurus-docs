@@ -3,15 +3,17 @@ slug: "/backend/node.js/express.js"
 description: >-
   Enable auto deployments for an Express.js application from a specified branch
   on your GitHub repo.
+title: "How to Deploy an Express.js Server"
+sidebar_label: "Express.js"
 ---
 
-# Express.js
+# Deploy Your Express.js Server in Minutes
 
 Deploy an Express.js application and learn how to host backend code on Code Capsules.
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy an Express.js application with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-express-js).
 
@@ -19,7 +21,7 @@ Sign in to GitHub, and fork the example application by clicking **Fork** at the 
 
 ## Create an Account with Code Capsules
 
-If you don't already have an account, navigate to the [Code Capsules](https://codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
+If you don't already have an account, navigate to the [Code Capsules](https://www.codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
 
 If you've just signed up for an account, you'll be directed to a welcome page on your first login. Click on the **Go To Personal Team** button.
 
@@ -65,3 +67,8 @@ Once the build is complete, a **Live Website** link will appear at the top of th
 ![Deployed App](/gitbook-assets/get-started/cc-express-app.png)
 
 If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).
+
+## Related guides
+
+- [Deploy Express with MongoDB](/database/mongodb/express-+-mongodb/)
+- [Deploy Next.js with Express.js](/full-stack/next.js/next.js-+-express.js/)

@@ -1,15 +1,17 @@
 ---
 slug: "/backend/java"
-description: A guide on how to launch a Java application from GitHub.
+description: "Deploy a Java application to Code Capsules from a GitHub repo. Build and run your Java backend in production with managed hosting, step by step."
+title: "How to Deploy a Java Application"
+sidebar_label: "Java"
 ---
 
-# Java
+# Deploy Your Java Application in Minutes
 
 Deploy a Java application and learn how to host backend code on Code Capsules.
 
 ## Set Up
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a Java application with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-java).
 
@@ -17,7 +19,7 @@ Sign in to GitHub, and fork the example application by clicking **Fork** at the 
 
 ## Create an Account with Code Capsules
 
-If you don't already have an account, navigate to the [Code Capsules](https://codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
+If you don't already have an account, navigate to the [Code Capsules](https://www.codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
 
 If you've just signed up for an account, you'll be directed to a welcome page on your first login. Click on the **Go To Personal Team** button.
 

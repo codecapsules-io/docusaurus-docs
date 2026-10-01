@@ -1,15 +1,17 @@
 ---
 slug: "/backend/python/flask"
-description: A walkthrough on how to deploy a Flask application from GitHub.
+description: "Deploy a Flask application to Code Capsules from a GitHub repo. Run your Python web app in production with managed hosting, step by step."
+title: "How to Deploy a Flask Application"
+sidebar_label: "Flask"
 ---
 
-# Flask
+# Deploy Your Flask Application in Minutes
 
 Deploy a Flask application and learn how to host backend code on Code Capsules.
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a Flask application with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-python).
 
@@ -53,3 +55,10 @@ Once the build is complete, a URL link will appear in the URL section in the **D
 ![Deployed App](/gitbook-assets/get-started/cc-flask-app-1.png)
 
 If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).
+
+## Related guides
+
+- [Deploy Flask with MySQL](/database/mysql/flask-+-mysql/)
+- [Deploy Flask with MongoDB](/database/mongodb/flask-+-mongodb/)
+- [Build a Full-Stack App with Flask and HTMX](/full-stack/flask-+-htmx/)
+- [Deploy a Flask App with Docker](/backend/docker/flask-docker-app/)

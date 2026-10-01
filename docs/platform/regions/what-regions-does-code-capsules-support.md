@@ -1,5 +1,6 @@
 ---
 slug: "/platform/regions/what-regions-does-code-capsules-support"
+title: "Available Regions and Locations"
 description: "When creating a Space, you’ll be prompted to choose a deployment location. All Capsules in that Space will be deployed to the selected location."
 ---
 

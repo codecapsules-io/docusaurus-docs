@@ -1,6 +1,7 @@
 ---
 slug: "/tutorials/use-codecapsules-with-an-agent"
-description: Deploy applications using an AI coding agent instead of the web dashboard.
+title: "Deploy with an AI Coding Agent"
+description: "Deploy applications to Code Capsules using an AI coding agent instead of the dashboard. Connect an agent to the platform and ship from your editor."
 cover: /gitbook-assets/tutorials/agent-skill-cover-v3.jpg
 ---
 
@@ -19,7 +20,7 @@ In this guide, we'll install a Code Capsules skill for Claude Code, then deploy,
 To follow this guide, you need:
 
 - [Claude Code](https://claude.ai/code) installed and configured, with access to GitHub (via `gh auth login`, SSH keys, or any existing Git authentication). This guide will also work with any other AI coding tool that supports skills.
-- A [Code Capsules](https://codecapsules.io/) account.
+- A [Code Capsules](https://www.codecapsules.io/) account.
 
 We'll deploy the [demo-express-js](https://github.com/codecapsules-io/demo-express-js) example application. Ask the agent to fork and clone it:
 

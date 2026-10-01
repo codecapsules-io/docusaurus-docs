@@ -1,9 +1,11 @@
 ---
 slug: "/frontend/static-html"
-description: Deploy a static HTML site and learn how to host frontend code on Code Capsules.
+description: "Deploy a static HTML website on Code Capsules and learn how to host frontend code. A simple step-by-step guide to serving static sites in production."
+title: "How to Host a Static HTML Website"
+sidebar_label: "Static HTML"
 ---
 
-# Static HTML
+# Host Your Static HTML Website in Minutes
 
 Deploy a static HTML site and learn how to host frontend code on Code Capsules. At the end of this guide you'll have the application below deployed and ready to customise.
 
@@ -32,7 +34,7 @@ Keep the markup semantic and the CSS clean with custom properties.
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a static HTML site with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-html).
 

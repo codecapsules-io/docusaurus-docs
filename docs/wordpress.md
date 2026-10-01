@@ -1,15 +1,17 @@
 ---
 slug: "/wordpress"
-description: "Deploy a WordPress application and learn how to host a content management system on Code Capsules."
+description: "Host WordPress on Code Capsules with a managed, git-free WordPress Capsule: built-in database, storage, and caching. Get started here."
+title: "Managed WordPress Hosting"
+sidebar_label: "WordPress"
 ---
 
-# WordPress
+# WordPress, Fully Managed
 
 Deploy a WordPress application and learn how to host a content management system on Code Capsules.
 
 ## Setup
 
-To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account. WordPress can be downloaded and deployed automatically, or you can connect your Capsule to WordPress hosted on a GitHub repository.
+To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account. WordPress can be downloaded and deployed automatically, or you can connect your Capsule to WordPress hosted on a GitHub repository.
 
 ## Create an Account with Code Capsules
 

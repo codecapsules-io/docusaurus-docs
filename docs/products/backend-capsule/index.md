@@ -3,9 +3,11 @@ slug: "/products/backend-capsule"
 description: >-
   Deploy, configure, scale, and monitor server-side applications and APIs with
   Code Capsules Backend Capsules.
+title: "Backend Application Hosting"
+sidebar_label: "Backend Capsule"
 ---
 
-# Backend Capsule
+# Everything About Hosting Your Backend Application
 
 Host and scale server-side applications and APIs on Code Capsules. Backend Capsules support Python, Node.js, Go, Java, Ruby, PHP, and .NET with automatic language detection and builds from your Git repository.
 
@@ -17,5 +19,5 @@ For applications with a custom `Dockerfile`, see the [Docker Capsule](/products/
 - [Scale](/products/backend-capsule/scale/) — allocate resources as your traffic grows
 - [Monitor](/products/backend-capsule/monitor/) — view metrics and performance data
 - [Logs](/products/backend-capsule/logs/) — access build and runtime logs
-- [Alerting](/products/backend-capsule/alerting/) — set up notifications for capsule events
+- [Alerting](/products/alerting/) — set up notifications for capsule events
 - [Add a Procfile](/products/backend-capsule/add-procfile/) — customise the start command for your app

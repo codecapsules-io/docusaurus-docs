@@ -1,9 +1,11 @@
 ---
 slug: "/products/wordpress-capsule/performance"
 description: "Tune PHP, OPcache, and PHP-FPM workers to get the best performance from your WordPress Capsule."
+title: "How to Maximize WordPress Performance"
+sidebar_label: "Performance"
 ---
 
-# Performance
+# Make Your WordPress Site Fast
 
 WordPress Capsules are pre-configured with sensible performance defaults. This guide explains how to tune them for your specific site size and traffic pattern.
 

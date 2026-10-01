@@ -1,6 +1,7 @@
 ---
 slug: "/backend/python/python-discord-bot"
-description: A guide to deploying a Python Discord Bot from GitHub.
+title: "Deploy a Python Discord Bot"
+description: "Build and deploy a Python Discord bot to Code Capsules from GitHub. Connect to the Discord API and keep your bot online in production."
 ---
 
 # Python Discord Bot
@@ -9,7 +10,7 @@ Deploy a Python Discord Bot and learn how to host backend code on Code Capsules.
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a Python Discord Bot with Code Capsules, we've provided an example bot, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/python-discord-echobot).
 
@@ -78,7 +79,7 @@ Once your application is live, you can view the build log by selecting the **Dep
 
 ## Add a `TOKEN` Environment Variable
 
-Once the build is complete, you have to add a `TOKEN` environment variable on the **Config** tab under the **Environment Variables** section. Assign it the value of the token you copied in step 7 of the [Register the Bot](/backend/python/python-discord-bot#register-the-bot) section above.
+Once the build is complete, you have to add a `TOKEN` environment variable on the **Config** tab under the **Environment Variables** section. Assign it the value of the token you copied in step 7 of the [Register the Bot](/backend/python/python-discord-bot/#register-the-bot) section above.
 
 ![Token Environment Variable](/gitbook-assets/get-started/token-env-variable-1.png)
 

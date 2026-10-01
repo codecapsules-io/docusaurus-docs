@@ -1,5 +1,6 @@
 ---
 slug: "/agentic-automation/the-problem"
+title: "Why Business Automation Fails at Scale"
 description: >-
   Why no-code automation tools, monolithic scripts, and naive LLM integrations
   break under the weight of real business complexity — and what the failure

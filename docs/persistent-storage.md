@@ -1,9 +1,11 @@
 ---
 slug: "/persistent-storage"
 description: "You need persistent storage to develop your application that solves a real-world problem, but you don't want a full-blown database. In this tutorial,..."
+title: "How to Use Persistent Storage"
+sidebar_label: "Persistent Storage"
 ---
 
-# Persistent Storage
+# Give Your App a Hard Drive
 
 You need persistent storage to develop your application that solves a real-world problem, but you don't want a full-blown database. In this tutorial, we'll show you how to create a persistent storage Data Capsule that you can use with your backend applications running on Code Capsules.
 

@@ -1,9 +1,7 @@
 ---
 title: "Host a Node.js Telegram Bot"
 slug: "/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules"
-description: >-
-  Social media bots allow you to automate responses and reactions to posts or
-  messages sent to the bot.
+description: "Build a Node.js Telegram bot that automates replies, then deploy and host it on Code Capsules. Full walkthrough from Bot API token to production."
 cover: /gitbook-assets/tutorials/telegram-bot-cover-nodejs-v2.jpg
 ---
 

@@ -1,9 +1,11 @@
 ---
 slug: "/products/wordpress-capsule/caching"
 description: "Understand and configure the built-in WordPress page cache to improve performance and handle traffic spikes."
+title: "How to Enable WordPress Caching"
+sidebar_label: "Caching"
 ---
 
-# Caching
+# Speed Up WordPress With Caching
 
 WordPress Capsules include a built-in **FastCGI full-page cache** that stores rendered HTML responses and serves them to subsequent anonymous visitors without hitting PHP or the database. This dramatically reduces response times and allows your site to handle traffic spikes that would otherwise overwhelm the PHP worker pool.
 

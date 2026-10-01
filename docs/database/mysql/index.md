@@ -1,9 +1,11 @@
 ---
 slug: "/database/mysql"
 description: "In this tutorial, we'll create a MySQL Data Capsule to provide persistent storage for your applications hosted on Code Capsules."
+title: "Managed MySQL Hosting"
+sidebar_label: "MySQL"
 ---
 
-# MySQL
+# Host Your MySQL Database
 
 In this tutorial, we'll create a MySQL Data Capsule to provide persistent storage for your applications hosted on Code Capsules.
 
@@ -15,7 +17,7 @@ Code Capsules supports MySQL **5.7** and **8.0**. See [MySQL Versions](/products
 
 ## Create a MySQL Data Capsule
 
-Log in to your [Code Capsules](https://codecapsules.io) account and navigate to the Space your MySQL Data Capsule will be contained in. Click the yellow `+` button and select the **MySQL Data Capsule** option from the dropdown.
+Log in to your [Code Capsules](https://www.codecapsules.io/) account and navigate to the Space your MySQL Data Capsule will be contained in. Click the yellow `+` button and select the **MySQL Data Capsule** option from the dropdown.
 
 ![Create Data Capsule](/gitbook-assets/get-started/create-sql-capsule.jpg)
 

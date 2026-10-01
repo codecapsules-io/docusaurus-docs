@@ -1,15 +1,17 @@
 ---
 slug: "/backend/python/django"
-description: A guide to deploying a Django application from GitHub.
+description: "Deploy a Django application to Code Capsules from a GitHub repo. Run your Python web app in production with managed hosting, step by step."
+title: "How to Deploy a Django Application"
+sidebar_label: "Django"
 ---
 
-# Django
+# Deploy Your Django Application in Minutes
 
 Deploy a Django application and learn how to host backend code on Code Capsules.
 
 ## Setup
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you’ll need a [Code Capsules](https://codecapsules.io/) account and a [GitHub](https://github.com/) account.
+Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you’ll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
 To demonstrate how to deploy a Django application with Code Capsules, we’ve provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/django-demo).
 
@@ -17,7 +19,7 @@ Sign in to GitHub, and fork the example application by clicking **Fork** at the 
 
 ## Create an Account with Code Capsules
 
-If you don’t already have an account, navigate to the [Code Capsules](https://codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
+If you don’t already have an account, navigate to the [Code Capsules](https://www.codecapsules.io/) site and click the **Sign Up** button in the top right corner of the screen. Enter your details to create an account, or log in to an existing one.
 
 If you’ve just signed up for an account, you’ll be directed to a welcome page on your first login. Click on the **Go To Personal Team** button.
 
@@ -81,3 +83,8 @@ Once the build is complete, click the **URL** link in the **Details** tab, and y
 ![Deployed App](/gitbook-assets/get-started/cc-django-app.png)
 
 If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).
+
+## Related guides
+
+- [Deploy Django with MySQL](/database/mysql/django-+-mysql/)
+- [Deploy Django with MongoDB](/database/mongodb/django-+-mongodb/)

@@ -1,15 +1,17 @@
 ---
 slug: "/products/wordpress-capsule/deploy"
-description: "Deploy a WordPress application and learn how to host a content management system on Code Capsules."
+description: "Deploy a WordPress site on Code Capsules with the managed WordPress Capsule. Set up hosting, database, and storage in minutes."
+title: "How to Deploy a WordPress Site"
+sidebar_label: "Deploy"
 ---
 
-# Deploy
+# Deploy Your WordPress Site
 
 Deploy a WordPress application and learn how to host a content management system on Code Capsules.
 
 ## Set Up
 
-To follow this guide, you'll need a [Code Capsules](https://codecapsules.io/) account. WordPress can be downloaded and deployed automatically, or you can connect your Capsule to WordPress hosted on a GitHub repository.
+To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account. WordPress can be downloaded and deployed automatically, or you can connect your Capsule to WordPress hosted on a GitHub repository.
 
 ## Create an Account with Code Capsules
 

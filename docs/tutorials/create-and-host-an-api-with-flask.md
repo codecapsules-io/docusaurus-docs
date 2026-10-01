@@ -1,5 +1,6 @@
 ---
 slug: "/tutorials/create-and-host-an-api-with-flask"
+title: "Create and Host an API with Flask"
 description: >-
   Build a personal API that lets you access up to the minute exchange rates and
   weather data for cities of your choosing.

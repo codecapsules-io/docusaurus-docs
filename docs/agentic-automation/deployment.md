@@ -4,9 +4,11 @@ description: >-
   Deploying agentic automation with Code Capsules — git as the deployment
   primitive, the Procfile pattern, environment variables, and the capsule
   lifecycle that keeps idle agents at zero cost.
+title: "How to Deploy Business Automation Agents"
+sidebar_label: "Deployment"
 ---
 
-# Deployment
+# Put Your Automation Agents Into Production
 
 The framework described in this guide is intentionally simple to deploy. An orchestrator is a backend service. An agent is a backend service. Both are deployed exactly like any other application on Code Capsules — push to git, the platform builds it, a Procfile tells it how to start.
 

@@ -1,5 +1,6 @@
 ---
 slug: "/platform/account/connect-version-control"
+title: "Connect GitHub or GitLab"
 description: "To deploy applications on Code Capsules, you need to connect to a version control provider and give Code Capsules permission to read the relevant..."
 ---
 
