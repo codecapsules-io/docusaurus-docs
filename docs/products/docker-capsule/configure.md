@@ -19,7 +19,7 @@ Click **Edit** in the **Capsule Parameters** section to update build and runtime
 
 ### Docker File
 
-:::info Git deployments only
+:::info[Git deployments only]
 
 The **Docker File** setting is only shown for capsules deployed from Git. Capsules [deployed from an existing image](/products/docker-capsule/image/deploy/) don't have a Dockerfile build.
 
@@ -39,7 +39,7 @@ Changing the Docker File path triggers a new build.
 
 ### Docker Build Context
 
-:::info Git deployments only
+:::info[Git deployments only]
 
 The **Docker Build Context** setting is only shown for capsules deployed from Git.
 
