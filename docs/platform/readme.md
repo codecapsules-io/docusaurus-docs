@@ -7,6 +7,18 @@ sidebar_label: "Release Notes"
 
 # What We Shipped Recently
 
+### October 2026
+
+- Docker Capsules can now be [deployed from an existing container image](/products/docker-capsule/image/deploy/). Build your image in your own CI pipeline, publish it to a public registry, and provide the image reference. Code Capsules handles the rest
+- Security enhancements
+
+### September 2026
+
+- Added advanced configuration for [PostgreSQL capsules](/products/database-capsule/postgresql/configure/), allowing you to configure your PostgreSQL capsules for higher availability and reliability with zero downtime
+- Added Google sign-in. You can now create an account with your Google login, or connect your existing account to it. To connect an existing account, sign out and click the **Google** button on the sign-in page
+- Updates to our internal operators, making the platform faster and more reliable
+- Security enhancements
+
 ### June 2026
 
 - Added support for [MongoDB capsules](/products/database-capsule/mongodb/deploy/), allowing you to create a MongoDB Atlas instance through the Code Capsules system
