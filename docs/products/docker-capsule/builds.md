@@ -129,4 +129,4 @@ For a capsule deployed from a Git repository:
 
 - Wait for the current build to finish or cancel it.
 
-If the build succeeds but your application does not work at runtime, see [Logs](/products/docker-capsule/logs/) and [Writing a Dockerfile](/products/docker-capsule/writing-a-dockerfile/).
+If the build succeeds but your application does not work at runtime, see [Logs](/products/docker-capsule/logs/) and [Container requirements](/products/docker-capsule/container-requirements/).

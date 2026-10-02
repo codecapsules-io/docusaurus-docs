@@ -1,27 +1,19 @@
 ---
 slug: "/products/docker-capsule/writing-a-dockerfile"
-description: "Write a Dockerfile that builds and runs on a Code Capsules Docker Capsule: listen on the PORT variable, bind to 0.0.0.0, and set a start command."
+description: "Write a Dockerfile for a Docker Capsule deployed from Git on Code Capsules: a working example, file location, build context, and multi-stage builds."
 title: "How to Write a Dockerfile"
 sidebar_label: "Dockerfile"
 ---
 
 # Write a Dockerfile That Runs on Code Capsules
 
-A Docker Capsule builds your application from a `Dockerfile` in your Git repository. Your Dockerfile should produce an application that listens on the configured network port and accepts external traffic when the capsule runs.
+When you [deploy from Git](/products/docker-capsule/deploy/git/), Code Capsules builds your image from a `Dockerfile` in your repository. This page covers how to write that Dockerfile.
 
-If you [deploy an existing container image](/products/docker-capsule/deploy/image/) instead, the image must meet the same requirements below.
-
-## Requirements
-
-For your capsule to work on Code Capsules:
-
-1. **Expose the correct port** — your application must listen on the port configured in the capsule's **Network port** setting (default `3000`). Code Capsules injects a `PORT` environment variable at runtime. Reading this keeps your Dockerfile portable across environments.
-2. **Bind to all interfaces** — your app must listen on `0.0.0.0`, not `127.0.0.1` or `localhost`.
-3. **Define a `CMD` or `ENTRYPOINT`** — your application must start when the capsule runs.
+If you [deploy an existing image](/products/docker-capsule/deploy/image/) instead, you don't need a Dockerfile on Code Capsules. Your image still needs to meet the [container requirements](/products/docker-capsule/container-requirements/).
 
 ## Minimal example
 
-This Dockerfile works for a Node.js application using the `PORT` environment variable:
+This Dockerfile works for a Node.js application. It meets the [container requirements](/products/docker-capsule/container-requirements/): it listens on `0.0.0.0`, uses the `PORT` environment variable, and starts the app with `CMD`.
 
 ```dockerfile
 FROM node:20-alpine
@@ -38,7 +30,7 @@ EXPOSE ${PORT}
 CMD ["node", "server.js"]
 ```
 
-In your application code, read the port from the environment:
+In your application code, read the port from the environment. See [Use the PORT environment variable](/products/docker-capsule/container-requirements/#use-the-port-environment-variable) for examples in other languages.
 
 ```javascript
 const port = process.env.PORT || 3000;
@@ -47,55 +39,11 @@ app.listen(port, '0.0.0.0', () => {
 });
 ```
 
-## Using the PORT environment variable
-
-Code Capsules sets `PORT` to match your capsule's **Network port** configuration. Design your application to respect this variable so you can change the port in the Code Capsules UI without modifying your Dockerfile.
-
-### Python (Flask)
-
-```python
-import os
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-    return "Hello from Docker"
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 3000))
-    app.run(host="0.0.0.0", port=port)
-```
-
-### Python (Gunicorn)
-
-```dockerfile
-CMD gunicorn --bind 0.0.0.0:${PORT:-3000} app:app
-```
-
-### Go
-
-```go
-port := os.Getenv("PORT")
-if port == "" {
-    port = "3000"
-}
-log.Fatal(http.ListenAndServe(":"+port, nil))
-```
-
 ## Dockerfile location and build context
 
 By default, Code Capsules looks for `/Dockerfile` at the repository root and uses `/` as the build context.
 
-When creating a capsule, enter the subfolder containing your `Dockerfile` on the **Deploy** step of the creation flow. After creation, set the full **Docker File** path and **Docker Build Context** in the [Config](/products/docker-capsule/configure/) tab.
-
-The build context can be a repository subdirectory or a URL to a public Git repository.
-
-| Layout | Docker File | Docker Build Context |
-| --- | --- | --- |
-| Root `Dockerfile` | `/Dockerfile` | `/` |
-| `api/Dockerfile` | `/api/Dockerfile` | `/api` |
+If your Dockerfile is somewhere else, enter its subfolder in the **Dockerfile location** field when you [create the capsule](/products/docker-capsule/deploy/git/#create-the-capsule). After creation, set the full **Docker File** path and **Docker Build Context** in the **Config** tab. See [Configure](/products/docker-capsule/configure/#docker-file) for examples, including monorepo layouts.
 
 ## Multi-stage builds
 
@@ -145,32 +93,14 @@ EXPOSE ${PORT}
 CMD ["python", "app.py"]
 ```
 
-## Persistent storage
-
-When bound to a [Storage Capsule](/products/storage-capsule/deploy/), read the mount path from the `PERSISTENT_STORAGE_DIR` environment variable. See [Configure](/products/docker-capsule/configure/#storage-capsule) for how to bind a Storage Capsule.
-
-## Common issues
-
-### Application listens on localhost
-
-If your app binds to `127.0.0.1`, it will not accept traffic from Code Capsules ingress. Always bind to `0.0.0.0`:
-
-```
-# Wrong
-app.run(host="127.0.0.1", port=3000)
-
-# Correct
-app.run(host="0.0.0.0", port=3000)
-```
-
-### Port mismatch
-
-The port in your Dockerfile's `EXPOSE` directive is documentation only — it does not configure routing. The **Network port** in the [Config](/products/docker-capsule/configure/#network-port) tab must match the port your application actually listens on at runtime.
-
-### Hardcoded port in CMD
-
-Avoid hardcoding ports in your start command when possible. Use `$PORT` or read `process.env.PORT` / `os.environ["PORT"]` so the capsule configuration controls routing.
+## Common build issues
 
 ### Missing files in build context
 
-If your Dockerfile references files outside the configured build context, the build will fail. See [Configure](/products/docker-capsule/configure/#docker-build-context).
+If your Dockerfile references files outside the configured build context, the build fails. See [Docker Build Context](/products/docker-capsule/configure/#docker-build-context).
+
+### Build errors
+
+Read the full build log in the **Builds** tab, and test the build locally with `docker build -f <dockerfile-path> <context-path>`. See [Troubleshooting builds](/products/docker-capsule/builds/#troubleshooting-builds).
+
+For problems after the build succeeds, such as the app not responding, see [Container requirements](/products/docker-capsule/container-requirements/#common-issues).

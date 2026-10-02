@@ -51,7 +51,7 @@ For monorepos, point the build context at the service directory and set the Dock
 
 The **Network port** is the port your application listens on. Code Capsules routes HTTPS traffic to this port and configures ingress accordingly. The default is `3000`.
 
-Your application must listen on this port when the capsule runs. If you deployed from a container image, set this to the port the image serves on. Code Capsules also injects a `PORT` environment variable set to this value, so your app can read the port at runtime. See [Writing a Dockerfile](/products/docker-capsule/writing-a-dockerfile/) for how to use `PORT` in your application.
+Your application must listen on this port when the capsule runs. If you deployed from a container image, set this to the port the image serves on. Code Capsules also injects a `PORT` environment variable set to this value, so your app can read the port at runtime. See [Container requirements](/products/docker-capsule/container-requirements/#use-the-port-environment-variable) for how to use `PORT` in your application.
 
 Changing the network port restarts the capsule. It does not trigger a rebuild.
 

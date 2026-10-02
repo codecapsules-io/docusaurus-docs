@@ -68,7 +68,7 @@ Change the **Docker File** path and **Docker Build Context** in the **Config** t
 ## Verify your capsule
 
 1. Open the **Details** tab and click the capsule URL.
-2. If the page does not load, check the [network port](/products/docker-capsule/configure/#network-port) and the [Dockerfile requirements](/products/docker-capsule/writing-a-dockerfile/).
+2. If the page does not load, check the [network port](/products/docker-capsule/configure/#network-port) and the [container requirements](/products/docker-capsule/container-requirements/).
 3. If the build fails, read the build log in the **Builds** tab — see [Troubleshooting builds](/products/docker-capsule/builds/#troubleshooting-builds).
 
 ## Example guides

@@ -18,7 +18,7 @@ Before creating a capsule, make sure you have:
 - A [Code Capsules](https://www.codecapsules.io/) account with a Team and Space
 - A public container image, for example on Docker Hub or GitHub Container Registry
 
-Your image must meet the same runtime requirements as a Dockerfile build: it must listen on the capsule's network port, bind to `0.0.0.0`, and start your application. See [Writing a Dockerfile](/products/docker-capsule/writing-a-dockerfile/#requirements).
+Your image must meet the [container requirements](/products/docker-capsule/container-requirements/): it must listen on the capsule's network port, bind to `0.0.0.0`, and start your application.
 
 ## Image references
 

@@ -236,6 +236,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Docker Capsule',
       items: [
+        'products/docker-capsule/container-requirements',
         'products/docker-capsule/writing-a-dockerfile',
         {
           type: 'category',
