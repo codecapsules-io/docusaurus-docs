@@ -27,7 +27,7 @@ Configure the Capsule's resources by choosing a plan. To customize resources to 
 
 Code Capsules connects to your version control provider to deploy applications from your repositories. You need to give Code Capsules permission to access the repository you want to use.
 
-Docker Capsules can also deploy an existing public container image instead of a repository — see [Deploy an existing image](/products/docker-capsule/deploy/image/).
+Docker Capsules can also deploy an existing public container image instead of a repository — see [Deploy an existing image](/products/docker-capsule/image/deploy/).
 
 To connect a Capsule to your repository:
 

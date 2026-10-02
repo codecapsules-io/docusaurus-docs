@@ -1,15 +1,15 @@
 ---
-slug: "/products/docker-capsule/deploy/image"
+slug: "/products/docker-capsule/image/deploy"
 description: "Deploy an existing public container image from Docker Hub, GitHub Container Registry, or another public registry to a Docker Capsule on Code Capsules."
 title: "How to Deploy an Existing Docker Image"
-sidebar_label: "From an Existing Image"
+sidebar_label: "Deploy"
 ---
 
 # Deploy Your Existing Container Image
 
 Deploy an existing image when you already build and publish your application as a container image. Code Capsules pulls the image and runs it. There is no Dockerfile build on Code Capsules.
 
-To have Code Capsules build your image from a Dockerfile instead, see [Deploy from Git](/products/docker-capsule/deploy/git/).
+To have Code Capsules build your image from a Dockerfile instead, see [Deploy from Git](/products/docker-capsule/git/deploy/).
 
 ## Prerequisites
 
@@ -69,25 +69,15 @@ Capsules listen on port `3000` by default. If your image serves on a different p
 
 :::
 
-## Manage your image source
-
-The **Capsule Source** section on the **Deploy** tab shows the **Image** and the **Deployed digest**, which identifies the exact version of the image that is running. Before the first deploy, it shows **Not deployed yet**.
-
-{/* TODO: add screenshot static/gitbook-assets/products/docker-capsule/deploy/docker-deploy-tab-image.png, then uncomment */}
-{/* ![Docker Capsule Deploy tab showing an image source](/gitbook-assets/products/docker-capsule/deploy/docker-deploy-tab-image.png) */}
-
-### Deploy a newer version
-
-Each deploy runs the exact version of the image that was pulled. Publishing a new image to the same tag does not update your capsule automatically, and auto-deploy is not available for image deploys.
-
-To deploy the latest version of your tag, click **Pull & Deploy**. If the tag now points to a newer version of the image, that version is deployed.
-
-### Change the image
-
-Click **Edit** in the **Capsule Source** section and enter a new **Image reference**. Saving a different image starts a new deploy. See [Change the source](/products/docker-capsule/deploy/#change-the-source) to switch to a Git repository instead.
-
 ## Verify your capsule
 
 1. Open the **Details** tab and click the capsule URL.
 2. If the page does not load, check that the [network port](/products/docker-capsule/configure/#network-port) matches the port your image serves on.
-3. If the deploy fails, see [Image deploy fails](/products/docker-capsule/builds/#image-deploy-fails).
+3. If the deploy fails, see [Image deploy fails](/products/docker-capsule/image/updates/#image-deploy-fails).
+
+## Next steps
+
+After the first deploy, manage which version of your image is running:
+
+- [Image Updates](/products/docker-capsule/image/updates/) — deploy a newer version of your tag, change the image, and fix failed image deploys
+- [Deployments](/products/docker-capsule/deployments/) — deployment strategy, deploy history, and rollback

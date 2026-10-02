@@ -239,19 +239,24 @@ const sidebars: SidebarsConfig = {
         'products/docker-capsule/container-requirements',
         {
           type: 'category',
-          label: 'Deploy',
-          key: 'docker-deploy',
-          link: {
-            type: 'doc',
-            id: 'products/docker-capsule/deploy',
-          },
+          label: 'From Git',
+          key: 'docker-from-git',
           items: [
-            'products/docker-capsule/deploy/git',
-            'products/docker-capsule/deploy/image',
+            'products/docker-capsule/git/deploy',
+            'products/docker-capsule/git/builds',
           ],
         },
+        {
+          type: 'category',
+          label: 'From an Existing Image',
+          key: 'docker-from-image',
+          items: [
+            'products/docker-capsule/image/deploy',
+            'products/docker-capsule/image/updates',
+          ],
+        },
+        'products/docker-capsule/deployments',
         'products/docker-capsule/configure',
-        'products/docker-capsule/builds',
         'products/docker-capsule/scale',
         'products/docker-capsule/monitor',
         'products/docker-capsule/logs',

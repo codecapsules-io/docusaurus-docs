@@ -15,11 +15,14 @@ For detailed information on creating, configuring, and operating Docker Capsules
 
 - [Docker Capsule overview](/products/docker-capsule/)
 - [Container requirements](/products/docker-capsule/container-requirements/)
-- [Deploy](/products/docker-capsule/deploy/)
-  - [From Git](/products/docker-capsule/deploy/git/)
-  - [From an existing image](/products/docker-capsule/deploy/image/)
+- From Git
+  - [Deploy](/products/docker-capsule/git/deploy/)
+  - [Builds & Auto-deploy](/products/docker-capsule/git/builds/)
+- From an existing image
+  - [Deploy](/products/docker-capsule/image/deploy/)
+  - [Image Updates](/products/docker-capsule/image/updates/)
+- [Deployments](/products/docker-capsule/deployments/)
 - [Configure](/products/docker-capsule/configure/)
-- [Builds](/products/docker-capsule/builds/)
 
 ## Deployment guides
 

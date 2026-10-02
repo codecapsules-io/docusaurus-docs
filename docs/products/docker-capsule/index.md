@@ -19,22 +19,44 @@ A Docker Capsule is a good fit when:
 - Your application has a multi-stage or non-standard build
 - You want full control over how your capsule is built and run
 
+## Choose how to deploy
+
+You can deploy a Docker Capsule in one of two ways:
+
+|                   | [From Git](/products/docker-capsule/git/deploy/) | [From an existing image](/products/docker-capsule/image/deploy/) |
+| ----------------- | ------------------------------------------------ | ---------------------------------------------------------------- |
+| **You provide**   | A Git repository with a `Dockerfile`             | A public container image                                         |
+| **Who builds it** | Code Capsules builds the image                   | You build and publish the image                                  |
+| **First deploy**  | Starts automatically when the capsule is created | Click **Pull & Deploy** after the capsule is created             |
+| **Updates**       | Auto-deploy on every push to your branch         | Click **Pull & Deploy** to deploy a newer image                  |
+| **Best for**      | Apps you build from source                       | Images built in your own CI, or published software               |
+
+To start, click the yellow **+** button in your Space, select **New Capsule**, and choose **Docker Capsule**. On the **Source** step, choose **Git repository** or **Container image**.
+
+{/* TODO: add screenshot static/gitbook-assets/products/docker-capsule/deploy/docker-choose-source.png, then uncomment */}
+{/* ![Docker Capsule creation Source step showing the Git repository and Container image options](/gitbook-assets/products/docker-capsule/deploy/docker-choose-source.png) */}
+
+You can switch between the two later — see [Change the source](/products/docker-capsule/deployments/#change-the-source).
+
 ## Documentation
 
 - [Container requirements](/products/docker-capsule/container-requirements/) — what every container needs to run on Code Capsules
-- [Deploy](/products/docker-capsule/deploy/) — choose how to deploy and manage deployment settings
-  - [From Git](/products/docker-capsule/deploy/git/) — prepare a Dockerfile and build from your Git repository
-  - [From an existing image](/products/docker-capsule/deploy/image/) — deploy a public container image
-- [Configure](/products/docker-capsule/configure/) — Docker File path, build context, network port, and environment variables
-- [Builds](/products/docker-capsule/builds/) — trigger builds, auto-deploy from Git, and roll back to previous builds
+- **From Git**
+  - [Deploy](/products/docker-capsule/git/deploy/) — prepare a Dockerfile and create a capsule from your Git repository
+  - [Builds & Auto-deploy](/products/docker-capsule/git/builds/) — trigger builds, auto-deploy on push, and set the Dockerfile path and build context
+- **From an existing image**
+  - [Deploy](/products/docker-capsule/image/deploy/) — create a capsule from a public container image
+  - [Image Updates](/products/docker-capsule/image/updates/) — deploy a newer version of your image or change the image
+- [Deployments](/products/docker-capsule/deployments/) — change the source, set the deployment strategy, view build logs, and roll back
+- [Configure](/products/docker-capsule/configure/) — network port, environment variables, and data capsules
 - [Scale](/products/docker-capsule/scale/) — allocate CPU, memory, and replicas as traffic grows
 - [Monitor](/products/docker-capsule/monitor/) — view metrics and performance data
-- [Logs](/products/docker-capsule/logs/) — access build and runtime logs
-- [Alerting](/products/alerting/) — set up notifications for capsule events
+- [Logs](/products/docker-capsule/logs/) — view runtime and access logs
+- [Notifications](/products/alerting/) — set up notifications for capsule events
 
 ## Guides
 
-Step-by-step tutorials for Docker Capsules:
+Step-by-step tutorials for deploying Docker Capsules from Git:
 
 - [Flask Docker App](/backend/docker/flask-docker-app/)
 - [Docker PHP App](/backend/docker/docker-php-app/)

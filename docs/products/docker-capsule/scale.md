@@ -55,4 +55,4 @@ If a bound Storage Capsule is stopped, you must start it before you can turn the
 
 ## Scaling and Storage Capsules
 
-Before increasing replicas, consider how your application handles shared state. Bind a [Storage Capsule](/products/storage-capsule/deploy/) or [Database Capsule](/products/database-capsule/) — see [Configure](/products/docker-capsule/configure/#connect-data-capsules). Local capsule storage is not shared between replicas and is lost on rebuild.
+Before increasing replicas, consider how your application handles shared state. Bind a [Storage Capsule](/products/storage-capsule/deploy/) or [Database Capsule](/products/database-capsule/) — see [Configure](/products/docker-capsule/configure/#connect-data-capsules). Local capsule storage is not shared between replicas and is lost when the capsule restarts.

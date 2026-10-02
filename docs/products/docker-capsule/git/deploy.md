@@ -1,23 +1,23 @@
 ---
-slug: "/products/docker-capsule/deploy/git"
+slug: "/products/docker-capsule/git/deploy"
 description: "Deploy a Docker Capsule on Code Capsules from a Dockerfile in your Git repository, with automatic builds and auto-deploy on every push to your branch."
 title: "How to Deploy a Dockerfile From Git"
-sidebar_label: "From Git"
+sidebar_label: "Deploy"
 ---
 
 # Deploy Your Dockerfile From a Git Repository
 
 Deploy from a Git repository when you want Code Capsules to build your image for you. Code Capsules builds an image from the `Dockerfile` in your repository, runs it, and can rebuild automatically each time you push to your branch.
 
-To deploy an image you have already built and published instead, see [Deploy an existing image](/products/docker-capsule/deploy/image/).
+To deploy an image you have already built and published instead, see [Deploy an existing image](/products/docker-capsule/image/deploy/).
 
 ## Prerequisites
 
 Before creating a capsule, make sure you have:
 
 - A [Code Capsules](https://www.codecapsules.io/) account with a Team and Space
-- A Git repository containing a working `Dockerfile` — see [Prepare your Dockerfile](#prepare-your-dockerfile)
-- Your GitHub account linked under [Connect Version Control](/platform/account/connect-version-control/)
+- A repository containing a working `Dockerfile` — see [Prepare your Dockerfile](#prepare-your-dockerfile)
+- Your version control account linked under [Connect Version Control](/platform/account/connect-version-control/)
 
 ## Prepare your Dockerfile
 
@@ -57,7 +57,7 @@ Standard Docker practices work as usual. Use [multi-stage builds](https://docs.d
 
 :::
 
-By default, Code Capsules uses `/Dockerfile` at the repository root and `/` as the build context. If your Dockerfile is somewhere else, set the **Dockerfile location** when you create the capsule, or see [Configure](/products/docker-capsule/configure/#docker-file) for monorepo layouts.
+By default, Code Capsules uses `/Dockerfile` at the repository root and `/` as the build context. If your Dockerfile is somewhere else, set the **Dockerfile location** when you create the capsule, or see [Dockerfile path and build context](/products/docker-capsule/git/builds/#dockerfile-path-and-build-context) for monorepo layouts.
 
 ## Create the capsule
 
@@ -78,38 +78,18 @@ By default, Code Capsules uses `/Dockerfile` at the repository root and `/` as t
 
 Code Capsules creates the capsule, links it to your repository, assigns a default hostname, and **automatically starts the first build**. You are taken to the capsule **Details** tab.
 
-## Manage your Git source
-
-Open the **Deploy** tab to see and manage how your capsule is built.
-
-### Repository and branch
-
-The **Capsule Source** section shows the linked **Repo** and **Branch**. Click **Edit** to change the repository or branch. Saving a new repository or branch starts a new build. See [Change the source](/products/docker-capsule/deploy/#change-the-source) to switch to an existing image instead.
-
-### Manual build
-
-Click **Build & Deploy** to start a manual build from the linked branch. Follow progress in the **Builds** tab or via the notification link.
-
-### Auto-deploy
-
-**Auto-deploy** controls whether Code Capsules automatically rebuilds your capsule when you push commits to the linked Git branch. It is **enabled by default**.
-
-| Setting          | Behavior                                                                |
-| ---------------- | ----------------------------------------------------------------------- |
-| **On** (default) | Each push to the linked branch triggers a new build                     |
-| **Off**          | Git pushes are ignored; trigger builds manually with **Build & Deploy** |
-
-Toggle auto-deploy with the switch in the **Auto Build & Deploy** section.
-
-### Dockerfile path and build context
-
-Change the **Docker File** path and **Docker Build Context** in the **Config** tab — see [Configure](/products/docker-capsule/configure/). Changing either one starts a new build.
-
 ## Verify your capsule
 
 1. Open the **Details** tab and click the capsule URL.
 2. If the page does not load, check the [network port](/products/docker-capsule/configure/#network-port) and the [container requirements](/products/docker-capsule/container-requirements/).
-3. If the build fails, read the build log in the **Builds** tab — see [Troubleshooting builds](/products/docker-capsule/builds/#troubleshooting-builds).
+3. If the build fails, read the build log in the **Builds** tab — see [Troubleshooting builds](/products/docker-capsule/git/builds/#troubleshooting-builds).
+
+## Next steps
+
+After the first build, manage how your capsule is rebuilt and updated:
+
+- [Builds & Auto-deploy](/products/docker-capsule/git/builds/) — manual builds, auto-deploy on push, and changing the repository, branch, or Dockerfile path
+- [Deployments](/products/docker-capsule/deployments/) — deployment strategy, build history, and rollback
 
 ## Example guides
 

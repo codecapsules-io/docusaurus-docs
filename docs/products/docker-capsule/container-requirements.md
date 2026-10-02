@@ -7,7 +7,7 @@ sidebar_label: "Container Requirements"
 
 # Make Your Container Ready for Code Capsules
 
-Every Docker Capsule runs your application in a container, whether Code Capsules [builds it from a Dockerfile in your Git repository](/products/docker-capsule/deploy/git/) or you [deploy an existing image](/products/docker-capsule/deploy/image/). In both cases, the running container must meet the requirements on this page to receive traffic.
+Every Docker Capsule runs your application in a container, whether Code Capsules [builds it from a Dockerfile in your Git repository](/products/docker-capsule/git/deploy/) or you [deploy an existing image](/products/docker-capsule/image/deploy/). In both cases, the running container must meet the requirements on this page to receive traffic.
 
 ## Requirements
 
