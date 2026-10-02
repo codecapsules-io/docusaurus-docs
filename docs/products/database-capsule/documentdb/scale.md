@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/documentdb/scale'
-description: 'Allocate CPU, RAM, storage, and replicas to a DocumentDB Capsule.'
+slug: "/products/database-capsule/documentdb/scale"
+description: "Scale your DocumentDB Capsule on Code Capsules by allocating more CPU, RAM, storage, and replicas as your document database workload grows."
+title: "How to Scale a DocumentDB Database"
+sidebar_label: "Scale"
 ---
 
-# Scale
+# Scale Your DocumentDB Database as It Grows
 
 Allocate more resources to a DocumentDB Capsule as your workload grows. Open the **Scale** tab on the capsule dashboard and click **Edit** in the **Capsule Capacity** section. You can only edit capacity while the capsule is running.
 

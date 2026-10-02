@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/mongodb/versions'
-description: 'Supported MongoDB versions on Code Capsules and how to upgrade between major versions.'
+slug: "/products/database-capsule/mongodb/versions"
+description: "See which MongoDB versions Code Capsules supports on Dedicated and Shared clusters, check your current version, and plan a major version upgrade."
+title: "Supported MongoDB Versions"
+sidebar_label: "Versions"
 ---
 
-# Versions
+# Choose and Upgrade Your MongoDB Version
 
 Code Capsules MongoDB Capsules run on MongoDB Atlas. Supported versions depend on whether you use a **Dedicated** or **Shared** cluster. This guide covers which versions are available, how to check your current version, and how to plan a major version upgrade.
 

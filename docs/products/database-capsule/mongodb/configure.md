@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/mongodb/configure'
-description: 'Configure a MongoDB Capsule in the Details and Config tabs of the Capsule dashboard.'
+slug: "/products/database-capsule/mongodb/configure"
+description: "Configure a MongoDB Capsule on Code Capsules: view connection details, get the public connection string, rename the capsule, and set the MongoDB version."
+title: "How to Configure a MongoDB Database"
+sidebar_label: "Configure"
 ---
 
-# Configure
+# Configure Your MongoDB Database
 
 Configure a MongoDB Capsule from the **Details** and **Config** tabs of the Capsule dashboard.
 

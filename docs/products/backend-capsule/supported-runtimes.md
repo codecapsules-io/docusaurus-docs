@@ -1,11 +1,11 @@
 ---
-slug: '/products/backend-capsule/supported-runtimes'
-description: >-
-  Supported language runtimes and versions for Backend Capsules on Code
-  Capsules.
+slug: "/products/backend-capsule/supported-runtimes"
+description: "See which language runtimes and versions Code Capsules Backend Capsules support, including Node.js, Python, Go, Java, Ruby, PHP, and .NET, and how to pin one."
+title: "Supported Backend Runtimes and Versions"
+sidebar_label: "Supported Runtimes"
 ---
 
-# Supported Runtimes
+# Backend Runtimes and Versions You Can Use
 
 Backend Capsules automatically detect your application's language from project files (for example, `package.json` for Node.js or `requirements.txt` for Python), install dependencies, and build a runnable image. This page lists the language versions Code Capsules currently supports.
 

@@ -1,11 +1,11 @@
 ---
-slug: '/products/frontend-capsule/supported-runtimes'
-description: >-
-  Supported frameworks, Node.js build runtimes, and static site deployment for
-  Frontend Capsules on Code Capsules.
+slug: "/products/frontend-capsule/supported-runtimes"
+description: "See which frameworks, Node.js build runtimes, and package managers Code Capsules Frontend Capsules support, and how static sites deploy without a build."
+title: "Supported Frontend Frameworks and Runtimes"
+sidebar_label: "Supported Runtimes"
 ---
 
-# Supported Runtimes
+# Frontend Frameworks and Runtimes You Can Use
 
 Frontend Capsules host static websites over HTTPS. You can deploy a plain HTML, CSS, and JavaScript site with no build step, or use Node.js at build time to install dependencies and compile a framework project before serving the output.
 

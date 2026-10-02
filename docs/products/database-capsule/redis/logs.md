@@ -1,9 +1,11 @@
 ---
 slug: "/products/database-capsule/redis/logs"
-description: "View your Capsule's logs to monitor activity and debug issues."
+description: "View capsule and access logs from your Redis Capsule on Code Capsules to monitor cache activity and debug connection issues with your Redis database."
+title: "How to View Logs for a Redis Database"
+sidebar_label: "Logs"
 ---
 
-# Logs
+# View Your Redis Database Logs
 
 View your Capsule's logs to monitor activity and debug issues.
 

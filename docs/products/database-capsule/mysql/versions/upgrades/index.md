@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/mysql/versions/upgrades'
-description: 'Upgrade your MySQL Capsule between supported major versions on Code Capsules.'
+slug: "/products/database-capsule/mysql/versions/upgrades"
+description: "Upgrade your MySQL Capsule on Code Capsules one major version at a time. Pick the upgrade guide that matches your current and target MySQL version."
+title: "How to Upgrade MySQL Versions"
+sidebar_label: "Upgrades"
 ---
 
-# Upgrades
+# Upgrade Your MySQL Major Version
 
 Major version upgrades must be done one step at a time. Select the guide that matches your current and target versions:
 

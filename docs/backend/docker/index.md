@@ -1,8 +1,8 @@
 ---
-slug: '/backend/docker'
-description: 'Deploy Docker-based applications on Code Capsules from custom Dockerfiles with auto-deployments from GitHub, or from existing container images.'
-title: 'How to Deploy Docker Containers'
-sidebar_label: 'Docker'
+slug: "/backend/docker"
+description: "Deploy Docker-based applications on Code Capsules from custom Dockerfiles with auto-deployments from GitHub, or from existing container images."
+title: "How to Deploy Docker Containers"
+sidebar_label: "Docker"
 ---
 
 # Deploy Your Docker Containers

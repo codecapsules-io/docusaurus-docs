@@ -1,11 +1,11 @@
 ---
-slug: '/products/frontend-capsule'
-description: >-
-  Deploy static sites and single-page applications on Code Capsules with
-  automatic builds, CDN delivery, and custom domains.
+slug: "/products/frontend-capsule"
+description: "Deploy static sites and single-page applications on Code Capsules with automatic builds, CDN delivery, and custom domains."
+title: "Frontend App Hosting"
+sidebar_label: "Frontend Capsule"
 ---
 
-# Frontend Capsule
+# Everything About Hosting Your Frontend App
 
 Host static sites and single-page applications on Code Capsules. Frontend Capsules build your project, serve the output over HTTPS, and redeploy automatically when you push to GitHub.
 

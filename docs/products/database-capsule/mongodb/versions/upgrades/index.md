@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/mongodb/versions/upgrades'
-description: 'Upgrade your MongoDB Capsule between supported major versions on Code Capsules.'
+slug: "/products/database-capsule/mongodb/versions/upgrades"
+description: "Upgrade a Dedicated MongoDB Capsule on Code Capsules one major version at a time. Pick the guide that matches your current and target MongoDB version."
+title: "How to Upgrade MongoDB Versions"
+sidebar_label: "Upgrades"
 ---
 
-# Upgrades
+# Upgrade Your MongoDB Major Version
 
 Major version upgrades must be done one step at a time on **Dedicated** clusters. Select the guide that matches your current and target versions:
 

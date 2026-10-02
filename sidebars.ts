@@ -243,7 +243,7 @@ const sidebars: SidebarsConfig = {
         'products/docker-capsule/scale',
         'products/docker-capsule/monitor',
         'products/docker-capsule/logs',
-        'products/docker-capsule/alerting',
+        {type: 'ref', id: 'products/alerting', label: 'Notifications', key: 'notifications-docker'},
       ],
       link: {
         type: 'doc',
@@ -289,7 +289,7 @@ const sidebars: SidebarsConfig = {
             'products/database-capsule/mysql/backups',
             'products/database-capsule/mysql/monitor',
             'products/database-capsule/mysql/logs',
-            'products/alerting',
+            {type: 'ref', id: 'products/alerting', label: 'Notifications', key: 'notifications-mysql'},
           ],
         },
         {
@@ -324,7 +324,7 @@ const sidebars: SidebarsConfig = {
             'products/database-capsule/mongodb/scale',
             'products/database-capsule/mongodb/backups',
             'products/database-capsule/mongodb/monitor',
-            'products/alerting',
+            {type: 'ref', id: 'products/alerting', label: 'Notifications', key: 'notifications-mongodb'},
           ],
         },
         {
@@ -338,7 +338,7 @@ const sidebars: SidebarsConfig = {
             'products/database-capsule/documentdb/backups',
             'products/database-capsule/documentdb/monitor',
             'products/database-capsule/documentdb/logs',
-            'products/alerting',
+            {type: 'ref', id: 'products/alerting', label: 'Notifications', key: 'notifications-documentdb'},
           ],
         },
         {
@@ -352,7 +352,7 @@ const sidebars: SidebarsConfig = {
             'products/database-capsule/postgresql/backups',
             'products/database-capsule/postgresql/monitor',
             'products/database-capsule/postgresql/logs',
-            'products/alerting',
+            {type: 'ref', id: 'products/alerting', label: 'Notifications', key: 'notifications-postgresql'},
           ],
         },
         {
@@ -365,7 +365,7 @@ const sidebars: SidebarsConfig = {
             'products/database-capsule/redis/scale',
             'products/database-capsule/redis/monitor',
             'products/database-capsule/redis/logs',
-            'products/alerting',
+            {type: 'ref', id: 'products/alerting', label: 'Notifications', key: 'notifications-redis'},
           ],
         },
       ],

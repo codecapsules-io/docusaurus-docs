@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/redis/deploy'
-description: 'Deploy a Redis Database Capsule on Code Capsules.'
+slug: "/products/database-capsule/redis/deploy"
+description: "Deploy a managed in-memory Redis database on Code Capsules with a Redis Capsule, then connect it to your backend app using a framework guide."
+title: "How to Deploy a Redis Database"
+sidebar_label: "Deploy"
 ---
 
-# Deploy
+# Deploy Your Redis Database
 
 Redis Capsules provide a managed in-memory Redis database for your applications on Code Capsules. When you create a capsule in the dashboard, it is presented as **Redis**.
 

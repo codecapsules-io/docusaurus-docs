@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/mysql/configure'
-description: 'Configure a MySQL Database Capsule in the Details tab of the Capsule dashboard.'
+slug: "/products/database-capsule/mysql/configure"
+description: "Configure a MySQL Capsule on Code Capsules: view connection details, connect from your machine, and set SQL modes and the MySQL version."
+title: "How to Configure a MySQL Database"
+sidebar_label: "Configure"
 ---
 
-# Configure
+# Configure Your MySQL Database
 
 Configure a Database Capsule in the **Details** tab of the Capsule dashboard.
 

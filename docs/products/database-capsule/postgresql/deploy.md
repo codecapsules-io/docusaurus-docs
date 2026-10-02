@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/postgresql/deploy'
-description: 'Deploy a PostgreSQL Database Capsule on Code Capsules.'
+slug: "/products/database-capsule/postgresql/deploy"
+description: "Deploy a managed PostgreSQL database on Code Capsules with a PostgreSQL Capsule, then connect it to your backend app using a framework guide."
+title: "How to Deploy a PostgreSQL Database"
+sidebar_label: "Deploy"
 ---
 
-# Deploy
+# Deploy Your PostgreSQL Database
 
 PostgreSQL Capsules provide a managed PostgreSQL database for your applications on Code Capsules. When you create a capsule in the dashboard, it is presented as **PostgreSQL**.
 

@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/mongodb/deploy'
-description: 'Deploy a MongoDB Capsule on Code Capsules.'
+slug: "/products/database-capsule/mongodb/deploy"
+description: "Deploy a managed MongoDB Atlas cluster on Code Capsules with a MongoDB Capsule, then connect it to your backend app using a framework guide."
+title: "How to Deploy a MongoDB Database"
+sidebar_label: "Deploy"
 ---
 
-# Deploy
+# Deploy Your MongoDB Database
 
 MongoDB Capsules are managed clusters on MongoDB Atlas. This is the recommended way to run MongoDB on Code Capsules. When you create a capsule in the dashboard, it is presented as **MongoDB** and provisioned with your chosen cluster type, version, and capacity.
 

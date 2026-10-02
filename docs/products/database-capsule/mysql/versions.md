@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/mysql/versions'
-description: 'Supported MySQL versions on Code Capsules and how to upgrade between major versions.'
+slug: "/products/database-capsule/mysql/versions"
+description: "See which MySQL versions Code Capsules supports, check the version your MySQL Capsule runs, and plan a major version upgrade safely."
+title: "Supported MySQL Versions"
+sidebar_label: "Versions"
 ---
 
-# Versions
+# Choose and Upgrade Your MySQL Version
 
 Code Capsules MySQL Capsules run one of two supported major versions. This guide covers which versions are available, how to check your current version, and how to plan a major version upgrade.
 

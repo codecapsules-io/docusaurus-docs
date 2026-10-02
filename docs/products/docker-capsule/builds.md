@@ -1,11 +1,11 @@
 ---
-slug: '/products/docker-capsule/builds'
-description: >-
-  Manage Docker Capsule builds and image deploys, auto-deploy from Git, and roll
-  back to previous builds.
+slug: "/products/docker-capsule/builds"
+description: "Manage Docker Capsule builds and image pulls on Code Capsules: trigger builds, auto-deploy from Git, read build logs, and roll back to a previous build."
+title: "How to Manage Docker Container Builds"
+sidebar_label: "Builds"
 ---
 
-# Builds
+# Build, Deploy, and Roll Back Your Docker Container
 
 Docker Capsules deployed from a Git repository are built using your configured Dockerfile. Docker Capsules deployed from a container image pull that image instead of building one. In both cases, Code Capsules manages the pipeline and automatically runs the capsule when a build succeeds.
 

@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/mysql/deploy'
-description: 'Deploy a MySQL Database Capsule on Code Capsules.'
+slug: "/products/database-capsule/mysql/deploy"
+description: "Deploy a managed MySQL database on Code Capsules with a MySQL Capsule, then connect it to your backend app using a framework guide."
+title: "How to Deploy a MySQL Database"
+sidebar_label: "Deploy"
 ---
 
-# Deploy
+# Deploy Your MySQL Database
 
 MySQL Capsules provide a managed MySQL database for your applications on Code Capsules. When you create a capsule in the dashboard, it is presented as **MySQL**.
 

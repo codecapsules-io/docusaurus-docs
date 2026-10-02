@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/mongodb/monitor'
-description: 'View usage and metrics for your MongoDB Capsule.'
+slug: "/products/database-capsule/mongodb/monitor"
+description: "Monitor your MongoDB Capsule on Code Capsules: view usage and billing in the Usage tab, and cluster performance metrics on Dedicated clusters."
+title: "How to Monitor a MongoDB Database"
+sidebar_label: "Monitor"
 ---
 
-# Monitor
+# Monitor Your MongoDB Database Usage
 
 Each Capsule tracks usage data. Open the **Usage** tab on your Capsule dashboard to view billing and consumption for your MongoDB Capsule.
 

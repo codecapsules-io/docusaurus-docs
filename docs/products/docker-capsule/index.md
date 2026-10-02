@@ -1,11 +1,11 @@
 ---
-slug: '/products/docker-capsule'
-description: >-
-  Run applications on Code Capsules from your own Dockerfile or an existing
-  container image.
+slug: "/products/docker-capsule"
+description: "Run containerized apps on Code Capsules with a Docker Capsule, built from your own Dockerfile or deployed from an existing public container image."
+title: "Docker Container Hosting"
+sidebar_label: "Docker Capsule"
 ---
 
-# Docker Capsule
+# Everything About Hosting Your Docker Container
 
 Deploy applications on Code Capsules using your own Dockerfile or an existing container image. Docker Capsules give you full control over how your capsule is built and run, while Code Capsules handles hosting, networking, scaling, and operations.
 
@@ -28,7 +28,7 @@ A Docker Capsule is a good fit when:
 - [Scale](/products/docker-capsule/scale/) — allocate CPU, memory, and replicas as traffic grows
 - [Monitor](/products/docker-capsule/monitor/) — view metrics and performance data
 - [Logs](/products/docker-capsule/logs/) — access build and runtime logs
-- [Alerting](/products/docker-capsule/alerting/) — set up notifications for capsule events
+- [Alerting](/products/alerting/) — set up notifications for capsule events
 
 ## Guides
 

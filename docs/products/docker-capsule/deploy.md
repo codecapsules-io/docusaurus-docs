@@ -1,11 +1,11 @@
 ---
-slug: '/products/docker-capsule/deploy'
-description: >-
-  Create a Docker Capsule from a Git repository or an existing container image,
-  and run your application on Code Capsules.
+slug: "/products/docker-capsule/deploy"
+description: "Create a Docker Capsule on Code Capsules from a Git repository and Dockerfile, or deploy an existing public container image from Docker Hub or GHCR."
+title: "How to Deploy a Docker Container"
+sidebar_label: "Deploy"
 ---
 
-# Deploy
+# Deploy Your Docker Container
 
 A Docker Capsule runs your application in a container on Code Capsules infrastructure. You can deploy it in one of two ways:
 
@@ -16,7 +16,7 @@ A Docker Capsule runs your application in a container on Code Capsules infrastru
 
 Before creating a capsule, make sure you have:
 
-- A [Code Capsules](https://codecapsules.io/) account with a Team and Space
+- A [Code Capsules](https://www.codecapsules.io/) account with a Team and Space
 
 To deploy from a **Git repository**, you also need:
 

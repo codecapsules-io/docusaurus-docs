@@ -1,9 +1,11 @@
 ---
-slug: '/products/docker-capsule/logs'
-description: 'Use Capsule logs to monitor activity and debug issues.'
+slug: "/products/docker-capsule/logs"
+description: "View logs from your Docker Capsule on Code Capsules to monitor container output and access requests and debug issues with your running application."
+title: "How to View Logs for a Docker Container"
+sidebar_label: "Logs"
 ---
 
-# Logs
+# View Your Docker Container Logs
 
 Use Capsule logs to monitor activity and debug issues.
 

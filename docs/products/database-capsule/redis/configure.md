@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/redis/configure'
-description: 'Configure a Redis Database Capsule in the Details tab of the Capsule dashboard.'
+slug: "/products/database-capsule/redis/configure"
+description: "Configure a Redis Capsule on Code Capsules: view connection details, connect from your local machine, and rename the capsule from the Details tab."
+title: "How to Configure a Redis Database"
+sidebar_label: "Configure"
 ---
 
-# Configure
+# Configure Your Redis Database
 
 Configure a Database Capsule in the **Details** tab of the Capsule dashboard.
 

@@ -1,11 +1,11 @@
 ---
-slug: '/products/docker-capsule/scale'
-description: >-
-  Allocate CPU, memory, GPU, and replicas to a Docker Capsule as your
-  application's traffic and computational needs change.
+slug: "/products/docker-capsule/scale"
+description: "Scale your Docker Capsule on Code Capsules by adding replicas or allocating more CPU, memory, and GPU as your application traffic grows."
+title: "How to Scale a Docker Container"
+sidebar_label: "Scale"
 ---
 
-# Scale
+# Scale Your Docker Container as Traffic Grows
 
 Allocate more resources to a Docker Capsule as your application's traffic and computational needs change. Docker Capsules support horizontal scaling through replicas and vertical scaling through CPU, RAM, and optional GPU allocation.
 

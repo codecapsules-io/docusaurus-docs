@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/documentdb/backups'
-description: 'Create manual and scheduled backups for a DocumentDB Capsule.'
+slug: "/products/database-capsule/documentdb/backups"
+description: "Protect your DocumentDB Capsule on Code Capsules with manual backups and automatic backup schedules, then view and restore backups when needed."
+title: "How to Back Up a DocumentDB Database"
+sidebar_label: "Backups"
 ---
 
-# Backups
+# Back Up and Restore Your DocumentDB Database
 
 Protect your DocumentDB data by creating manual backups and enabling automatic backup schedules.
 

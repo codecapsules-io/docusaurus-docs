@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/mysql/connect-locally'
-description: 'Connect to a MySQL Database Capsule from your local machine using the Code Capsules CLI proxy and the mysql client.'
+slug: "/products/database-capsule/mysql/connect-locally"
+description: "Connect to a MySQL Database Capsule from your local machine using the Code Capsules CLI proxy and the mysql client."
+title: "How to Connect to MySQL Locally"
+sidebar_label: "Connect Locally"
 ---
 
-# Connect Locally
+# Connect to Your MySQL Database From Your Machine
 
 MySQL Capsules are private to your Space. To run queries, inspect data, or check your server version from your laptop, open a secure tunnel with the [Code Capsules CLI](/cli/) and connect with the `mysql` client.
 

@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/documentdb/deploy'
-description: 'Deploy a DocumentDB Database Capsule on Code Capsules.'
+slug: "/products/database-capsule/documentdb/deploy"
+description: "Deploy a self-hosted, MongoDB-compatible DocumentDB database on Code Capsules with a DocumentDB Capsule and connect it to your backend app."
+title: "How to Deploy a DocumentDB Database"
+sidebar_label: "Deploy"
 ---
 
-# Deploy
+# Deploy Your DocumentDB Database
 
 DocumentDB is a self-hosted NoSQL document database [compatible with the MongoDB API](https://documentdb.io/). When you create a capsule in the dashboard, it is presented as **MongoDB Compatible**.
 

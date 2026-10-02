@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/mongodb/scale'
-description: 'Scale a MongoDB Capsule by changing instance size, storage, replicas, or upgrading from a Shared to a Dedicated cluster.'
+slug: "/products/database-capsule/mongodb/scale"
+description: "Scale a MongoDB Capsule by changing instance size, storage, replicas, or upgrading from a Shared to a Dedicated cluster."
+title: "How to Scale a MongoDB Database"
+sidebar_label: "Scale"
 ---
 
-# Scale
+# Scale Your MongoDB Database as It Grows
 
 MongoDB Capsules scale differently depending on cluster type. Open the **Scale** tab on your Capsule dashboard to view and change capacity.
 

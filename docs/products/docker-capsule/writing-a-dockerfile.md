@@ -1,11 +1,11 @@
 ---
-slug: '/products/docker-capsule/writing-a-dockerfile'
-description: >-
-  Write a Dockerfile that builds and runs correctly on Code Capsules Docker
-  Capsules.
+slug: "/products/docker-capsule/writing-a-dockerfile"
+description: "Write a Dockerfile that builds and runs on a Code Capsules Docker Capsule: listen on the PORT variable, bind to 0.0.0.0, and set a start command."
+title: "How to Write a Dockerfile"
+sidebar_label: "Dockerfile"
 ---
 
-# Dockerfile
+# Write a Dockerfile That Runs on Code Capsules
 
 A Docker Capsule builds your application from a `Dockerfile` in your Git repository. Your Dockerfile should produce an application that listens on the configured network port and accepts external traffic when the capsule runs.
 

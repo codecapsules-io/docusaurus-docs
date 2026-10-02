@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/documentdb/connect-locally'
-description: 'Connect to a DocumentDB Capsule from your local machine using the Code Capsules CLI proxy and mongosh.'
+slug: "/products/database-capsule/documentdb/connect-locally"
+description: "Connect to a DocumentDB Capsule from your local machine with the Code Capsules CLI proxy and mongosh to run queries and inspect your collections."
+title: "How to Connect to DocumentDB Locally"
+sidebar_label: "Connect Locally"
 ---
 
-# Connect Locally
+# Connect to Your DocumentDB Database From Your Machine
 
 DocumentDB Capsules are private to your Space and require TLS. To run queries, inspect collections, or check your server version from your laptop, open a secure tunnel with the [Code Capsules CLI](/cli/) and connect with `mongosh`.
 

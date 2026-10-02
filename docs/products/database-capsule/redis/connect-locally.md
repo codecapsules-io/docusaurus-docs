@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/redis/connect-locally'
-description: 'Connect to a Redis Database Capsule from your local machine using the Code Capsules CLI proxy and redis-cli.'
+slug: "/products/database-capsule/redis/connect-locally"
+description: "Connect to a Redis Capsule from your local machine with the Code Capsules CLI proxy and redis-cli to inspect keys, run commands, and debug caching."
+title: "How to Connect to Redis Locally"
+sidebar_label: "Connect Locally"
 ---
 
-# Connect Locally
+# Connect to Your Redis Database From Your Machine
 
 Redis Capsules are private to your Space and cannot be reached through a public URL. To inspect keys, run commands, or debug cache behaviour from your laptop, open a secure tunnel with the [Code Capsules CLI](/cli/) and connect with `redis-cli`.
 

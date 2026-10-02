@@ -1,11 +1,11 @@
 ---
-slug: '/products/docker-capsule/configure'
-description: >-
-  Configure a Docker Capsule's Docker File path, build context, network port,
-  and environment variables.
+slug: "/products/docker-capsule/configure"
+description: "Configure a Docker Capsule on Code Capsules: set the Dockerfile path, build context, and network port, add environment variables, and bind data capsules."
+title: "How to Configure a Docker Container"
+sidebar_label: "Configure"
 ---
 
-# Configure
+# Configure Your Docker Container
 
 Configure a Docker Capsule in the **Config** tab. Settings here control how your capsule is built, how traffic reaches your application, and how the capsule connects to other services in your Space.
 

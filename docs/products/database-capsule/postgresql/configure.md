@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/postgresql/configure'
-description: 'Configure a PostgreSQL Database Capsule in the Details tab of the Capsule dashboard.'
+slug: "/products/database-capsule/postgresql/configure"
+description: "Configure a PostgreSQL Capsule on Code Capsules: view connection details, connect from your local machine, and rename the capsule from the Details tab."
+title: "How to Configure a PostgreSQL Database"
+sidebar_label: "Configure"
 ---
 
-# Configure
+# Configure Your PostgreSQL Database
 
 Configure a Database Capsule in the **Details** tab of the Capsule dashboard.
 

@@ -1,5 +1,5 @@
 ---
-slug: '/cli/readme/commands'
+slug: "/cli/readme/commands"
 description: Commands available via the Code Capsules CLI
 title: "CLI Commands Reference"
 sidebar_label: "Commands"

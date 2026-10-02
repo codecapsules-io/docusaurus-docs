@@ -1,9 +1,11 @@
 ---
 slug: "/products/database-capsule/mysql/logs"
-description: "View your Capsule's logs to monitor activity and debug issues."
+description: "View capsule and access logs from your MySQL Capsule on Code Capsules to monitor database activity and debug connection or query issues."
+title: "How to View Logs for a MySQL Database"
+sidebar_label: "Logs"
 ---
 
-# Logs
+# View Your MySQL Database Logs
 
 View your Capsule's logs to monitor activity and debug issues.
 

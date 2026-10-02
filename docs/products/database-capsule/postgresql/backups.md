@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/postgresql/backups'
-description: 'Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules.'
+slug: "/products/database-capsule/postgresql/backups"
+description: "Protect your PostgreSQL Capsule on Code Capsules with manual backups and daily, weekly, or monthly automatic backup schedules, then restore when needed."
+title: "How to Back Up a PostgreSQL Database"
+sidebar_label: "Backups"
 ---
 
-# Backups
+# Back Up and Restore Your PostgreSQL Database
 
 Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules.
 

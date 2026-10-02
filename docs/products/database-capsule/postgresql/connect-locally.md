@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/postgresql/connect-locally'
-description: 'Connect to a PostgreSQL Database Capsule from your local machine using the Code Capsules CLI proxy and psql.'
+slug: "/products/database-capsule/postgresql/connect-locally"
+description: "Connect to a PostgreSQL Capsule from your local machine with the Code Capsules CLI proxy and psql to run queries, restore backups, and export data."
+title: "How to Connect to PostgreSQL Locally"
+sidebar_label: "Connect Locally"
 ---
 
-# Connect Locally
+# Connect to Your PostgreSQL Database From Your Machine
 
 PostgreSQL Capsules are private to your Space. To run queries, restore backups, or inspect data from your laptop, open a secure tunnel with the [Code Capsules CLI](/cli/) and connect with `psql` or other PostgreSQL client tools.
 

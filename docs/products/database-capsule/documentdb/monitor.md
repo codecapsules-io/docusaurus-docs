@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/documentdb/monitor'
-description: 'View metrics and usage data for a DocumentDB Capsule.'
+slug: "/products/database-capsule/documentdb/monitor"
+description: "Monitor your DocumentDB Capsule on Code Capsules and track CPU, memory, network, and storage metrics from the Metrics tab, plus usage and billing data."
+title: "How to Monitor a DocumentDB Database"
+sidebar_label: "Monitor"
 ---
 
-# Monitor
+# Monitor Your DocumentDB Database Metrics
 
 DocumentDB Capsules track resource usage over time.
 

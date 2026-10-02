@@ -1,9 +1,11 @@
 ---
-slug: '/products/database-capsule/documentdb/configure'
-description: 'View connection details and bind a DocumentDB Capsule to your applications.'
+slug: "/products/database-capsule/documentdb/configure"
+description: "Configure a DocumentDB Capsule on Code Capsules: view connection details, connect from your local machine, rename it, and bind it to your application."
+title: "How to Configure a DocumentDB Database"
+sidebar_label: "Configure"
 ---
 
-# Configure
+# Configure Your DocumentDB Database
 
 DocumentDB Capsules are configured from the **Details** tab. There is no **Config** tab for DocumentDB — server settings are managed by the platform.
 
