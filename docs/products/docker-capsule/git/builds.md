@@ -55,29 +55,7 @@ To deploy an existing image instead, see [Change the source](/products/docker-ca
 
 ## Dockerfile path and build context
 
-Set the **Docker File** path and **Docker Build Context** in the **Capsule Parameters** section of the **Config** tab. Click **Edit** to change them. Changing either one starts a new build.
-
-| Repository layout         | Docker File                | Docker Build Context   |
-| ------------------------- | -------------------------- | ---------------------- |
-| `Dockerfile` at root      | `/Dockerfile`              | `/` _(or leave empty)_ |
-| `api/Dockerfile`          | `/api/Dockerfile`          | `/api`                 |
-| `services/web/Dockerfile` | `/services/web/Dockerfile` | `/services/web`        |
-
-### Docker File
-
-The **Docker File** field is the path to your Dockerfile from the repository root. The default is `/Dockerfile`.
-
-### Docker Build Context
-
-The **Docker Build Context** is the directory passed to `docker build` as the build context. The default is the repository root (`/`).
-
-Set a subdirectory when your Dockerfile and application code live in a nested folder. The build context can also be a URL to a **public** Git repository — in that case, the repository is downloaded and used as the build context.
-
-:::tip
-
-For monorepos, point the build context at the service directory and set the Docker File path accordingly. This keeps the build focused and avoids sending the entire repository to the Docker daemon.
-
-:::
+Set the **Docker File** path and **Docker Build Context** in the **Capsule Parameters** section of the **Config** tab. Changing either one starts a new build. See [Docker File](/products/docker-capsule/configure/#docker-file) and [Docker Build Context](/products/docker-capsule/configure/#docker-build-context) for examples, including monorepo layouts.
 
 ## Troubleshooting builds
 
@@ -89,12 +67,12 @@ For monorepos, point the build context at the service directory and set the Dock
 ### Docker build errors
 
 - Read the full build log in the **Builds** tab.
-- Verify the [Docker File path and Docker Build Context](#dockerfile-path-and-build-context).
+- Verify the [Docker File](/products/docker-capsule/configure/#docker-file) path and [Docker Build Context](/products/docker-capsule/configure/#docker-build-context) in the **Config** tab.
 - Test locally: `docker build -f <dockerfile-path> <context-path>`
 
 ### Missing files in build context
 
-If your Dockerfile references files outside the configured build context, the build fails. Check the [Docker Build Context](#docker-build-context), or move the files inside the context.
+If your Dockerfile references files outside the configured build context, the build fails. Check the [Docker Build Context](/products/docker-capsule/configure/#docker-build-context) in the **Config** tab, or move the files inside the context.
 
 ### Auto-deploy not triggering
 

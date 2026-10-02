@@ -57,7 +57,7 @@ Standard Docker practices work as usual. Use [multi-stage builds](https://docs.d
 
 :::
 
-By default, Code Capsules uses `/Dockerfile` at the repository root and `/` as the build context. If your Dockerfile is somewhere else, set the **Dockerfile location** when you create the capsule, or see [Dockerfile path and build context](/products/docker-capsule/git/builds/#dockerfile-path-and-build-context) for monorepo layouts.
+By default, Code Capsules uses `/Dockerfile` at the repository root and `/` as the build context. If your Dockerfile is somewhere else, set the **Dockerfile location** when you create the capsule, or see [Configure](/products/docker-capsule/configure/#docker-file) for monorepo layouts.
 
 ## Create the capsule
 

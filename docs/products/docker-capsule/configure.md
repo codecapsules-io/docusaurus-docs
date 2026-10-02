@@ -1,23 +1,61 @@
 ---
 slug: "/products/docker-capsule/configure"
-description: "Configure a Docker Capsule on Code Capsules: set the network port your container listens on, add environment variables, and bind database and storage capsules."
+description: "Configure a Docker Capsule on Code Capsules: set the network port, Dockerfile path, and build context, add environment variables, and bind data capsules."
 title: "How to Configure a Docker Container"
 sidebar_label: "Configure"
 ---
 
 # Configure Your Docker Container
 
-Configure a Docker Capsule in the **Config** tab. Settings here control how traffic reaches your application and how the capsule connects to other services in your Space. They apply whether you deploy from Git or from an existing image.
+Configure a Docker Capsule in the **Config** tab. Settings here control how your capsule is built, how traffic reaches your application, and how the capsule connects to other services in your Space. Most settings apply to every Docker Capsule. Settings marked **Git deployments only** apply only to capsules [deployed from Git](/products/docker-capsule/git/deploy/).
 
 The capsule source and deployment strategy are managed in the **Deploy** tab — see [Deployments](/products/docker-capsule/deployments/).
 
 ## Capsule parameters
 
-Click **Edit** in the **Capsule Parameters** section to update the network port.
+Click **Edit** in the **Capsule Parameters** section to update build and runtime settings.
 
 ![Docker Capsule Config tab Capsule Parameters section](/gitbook-assets/products/docker-capsule/config/docker-config.png)
 
-For capsules deployed from Git, this section also contains the **Docker File** and **Docker Build Context** — see [Dockerfile path and build context](/products/docker-capsule/git/builds/#dockerfile-path-and-build-context).
+### Docker File
+
+:::info Git deployments only
+
+The **Docker File** setting is only shown for capsules deployed from Git. Capsules [deployed from an existing image](/products/docker-capsule/image/deploy/) don't have a Dockerfile build.
+
+:::
+
+The **Docker File** field is the path to your Dockerfile from the repository root. The default is `/Dockerfile`.
+
+Examples:
+
+| Repository layout         | Docker File                | Docker Build Context   |
+| ------------------------- | -------------------------- | ---------------------- |
+| `Dockerfile` at root      | `/Dockerfile`              | `/` _(or leave empty)_ |
+| `api/Dockerfile`          | `/api/Dockerfile`          | `/api`                 |
+| `services/web/Dockerfile` | `/services/web/Dockerfile` | `/services/web`        |
+
+Changing the Docker File path triggers a new build.
+
+### Docker Build Context
+
+:::info Git deployments only
+
+The **Docker Build Context** setting is only shown for capsules deployed from Git.
+
+:::
+
+The **Docker Build Context** is the directory passed to `docker build` as the build context. The default is the repository root (`/`).
+
+Set a subdirectory when your Dockerfile and application code live in a nested folder. The build context can also be a URL to a **public** Git repository — in that case, the repository is downloaded and used as the build context.
+
+Changing the build context triggers a new build.
+
+:::tip
+
+For monorepos, point the build context at the service directory and set the Docker File path accordingly. This keeps the build focused and avoids sending the entire repository to the Docker daemon.
+
+:::
 
 ### Network port
 

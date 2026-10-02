@@ -48,7 +48,7 @@ You can switch between the two later — see [Change the source](/products/docke
   - [Deploy](/products/docker-capsule/image/deploy/) — create a capsule from a public container image
   - [Image Updates](/products/docker-capsule/image/updates/) — deploy a newer version of your image or change the image
 - [Deployments](/products/docker-capsule/deployments/) — change the source, set the deployment strategy, view build logs, and roll back
-- [Configure](/products/docker-capsule/configure/) — network port, environment variables, and data capsules
+- [Configure](/products/docker-capsule/configure/) — network port, environment variables, data capsules, and (for Git deployments) the Dockerfile path and build context
 - [Scale](/products/docker-capsule/scale/) — allocate CPU, memory, and replicas as traffic grows
 - [Monitor](/products/docker-capsule/monitor/) — view metrics and performance data
 - [Logs](/products/docker-capsule/logs/) — view runtime and access logs
