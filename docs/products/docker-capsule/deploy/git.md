@@ -16,8 +16,48 @@ To deploy an image you have already built and published instead, see [Deploy an 
 Before creating a capsule, make sure you have:
 
 - A [Code Capsules](https://www.codecapsules.io/) account with a Team and Space
-- A Git repository containing a working `Dockerfile` — see [Writing a Dockerfile](/products/docker-capsule/writing-a-dockerfile/)
+- A Git repository containing a working `Dockerfile` — see [Prepare your Dockerfile](#prepare-your-dockerfile)
 - Your GitHub account linked under [Connect Version Control](/platform/account/connect-version-control/)
+
+## Prepare your Dockerfile
+
+Code Capsules builds your image from the `Dockerfile` in your repository. The resulting container must meet the [container requirements](/products/docker-capsule/container-requirements/): it must listen on `0.0.0.0` on the capsule's network port and start your application with `CMD` or `ENTRYPOINT`.
+
+This Dockerfile works for a Node.js application:
+
+```dockerfile
+FROM node:20-alpine
+
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --only=production
+COPY . .
+
+ENV HOST=0.0.0.0
+ENV PORT=3000
+EXPOSE ${PORT}
+
+CMD ["node", "server.js"]
+```
+
+In your application code, read the port from the `PORT` environment variable. See [Use the PORT environment variable](/products/docker-capsule/container-requirements/#use-the-port-environment-variable) for examples in other languages.
+
+```javascript
+const port = process.env.PORT || 3000;
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Listening on port ${port}`);
+});
+```
+
+Everything your app needs must be declared in the Dockerfile. Unlike [Backend Capsules](/products/backend-capsule/), Docker Capsules do not detect your language or install dependencies for you.
+
+:::tip
+
+Standard Docker practices work as usual. Use [multi-stage builds](https://docs.docker.com/build/building/multi-stage/) to keep your image small, and install system packages with your base image's package manager. See Docker's [build best practices](https://docs.docker.com/build/building/best-practices/).
+
+:::
+
+By default, Code Capsules uses `/Dockerfile` at the repository root and `/` as the build context. If your Dockerfile is somewhere else, set the **Dockerfile location** when you create the capsule, or see [Configure](/products/docker-capsule/configure/#docker-file) for monorepo layouts.
 
 ## Create the capsule
 

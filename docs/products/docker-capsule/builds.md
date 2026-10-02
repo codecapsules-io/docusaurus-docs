@@ -113,6 +113,10 @@ For a capsule deployed from a Git repository:
 - Verify the **Docker File** path and **Docker Build Context** in the [Config](/products/docker-capsule/configure/) tab.
 - Test locally: `docker build -f <dockerfile-path> <context-path>`
 
+### Missing files in build context
+
+If your Dockerfile references files outside the configured build context, the build fails. Check the [Docker Build Context](/products/docker-capsule/configure/#docker-build-context) in the **Config** tab, or move the files inside the context.
+
 ### Image deploy fails
 
 - Check that the **Image reference** is spelled correctly and that the tag exists.

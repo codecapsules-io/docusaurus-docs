@@ -15,7 +15,6 @@ For detailed information on creating, configuring, and operating Docker Capsules
 
 - [Docker Capsule overview](/products/docker-capsule/)
 - [Container requirements](/products/docker-capsule/container-requirements/)
-- [Writing a Dockerfile](/products/docker-capsule/writing-a-dockerfile/)
 - [Deploy](/products/docker-capsule/deploy/)
   - [From Git](/products/docker-capsule/deploy/git/)
   - [From an existing image](/products/docker-capsule/deploy/image/)

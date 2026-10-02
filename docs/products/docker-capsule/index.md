@@ -22,9 +22,8 @@ A Docker Capsule is a good fit when:
 ## Documentation
 
 - [Container requirements](/products/docker-capsule/container-requirements/) — what every container needs to run on Code Capsules
-- [Writing a Dockerfile](/products/docker-capsule/writing-a-dockerfile/) — write a Dockerfile for deploying from Git
 - [Deploy](/products/docker-capsule/deploy/) — choose how to deploy and manage deployment settings
-  - [From Git](/products/docker-capsule/deploy/git/) — build from a Dockerfile in your Git repository
+  - [From Git](/products/docker-capsule/deploy/git/) — prepare a Dockerfile and build from your Git repository
   - [From an existing image](/products/docker-capsule/deploy/image/) — deploy a public container image
 - [Configure](/products/docker-capsule/configure/) — Docker File path, build context, network port, and environment variables
 - [Builds](/products/docker-capsule/builds/) — trigger builds, auto-deploy from Git, and roll back to previous builds
