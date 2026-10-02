@@ -237,7 +237,19 @@ const sidebars: SidebarsConfig = {
       label: 'Docker Capsule',
       items: [
         'products/docker-capsule/writing-a-dockerfile',
-        'products/docker-capsule/deploy',
+        {
+          type: 'category',
+          label: 'Deploy',
+          key: 'docker-deploy',
+          link: {
+            type: 'doc',
+            id: 'products/docker-capsule/deploy',
+          },
+          items: [
+            'products/docker-capsule/deploy/git',
+            'products/docker-capsule/deploy/image',
+          ],
+        },
         'products/docker-capsule/configure',
         'products/docker-capsule/builds',
         'products/docker-capsule/scale',

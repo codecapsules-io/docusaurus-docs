@@ -54,7 +54,7 @@ For a container image, **Pull & Deploy** pulls the image again. If the tag now p
 
 **Auto-deploy** is enabled by default on the **Deploy** tab. Push a commit to the linked branch to trigger a build automatically, then monitor progress in the **Builds** tab.
 
-To disable or re-enable auto-deploy, use the **Auto Build & Deploy** switch on the [Deploy](/products/docker-capsule/deploy/#auto-deploy) tab.
+To disable or re-enable auto-deploy, use the **Auto Build & Deploy** switch on the [Deploy](/products/docker-capsule/deploy/git/#auto-deploy) tab.
 
 Auto-deploy is not available for capsules deployed from a container image. Publishing a new image to the same tag does not update the capsule until you click **Pull & Deploy**.
 
@@ -121,7 +121,7 @@ For a capsule deployed from a Git repository:
 
 ### Auto-deploy not triggering
 
-- Verify **auto-deploy** has not been turned off on the [Deploy](/products/docker-capsule/deploy/#auto-deploy) tab.
+- Verify **auto-deploy** has not been turned off on the [Deploy](/products/docker-capsule/deploy/git/#auto-deploy) tab.
 - Confirm you pushed to the branch linked to the capsule, not a different branch.
 - Check that no other build is already running.
 

@@ -15,7 +15,7 @@ sidebar_label: "What Is a Capsule?"
 
 While Teams and Spaces are organizational tools, Capsules are where the actual build and deployment happen. They connect to your GitHub repositories and host your applications. Capsules can run both frontend and backend applications.
 
-When a Capsule is created, it automatically builds and deploys. The exception is a Docker Capsule deployed from a container image, which you deploy by clicking **Pull & Deploy** on the **Deploy** tab — see [Deploy a Docker Capsule](/products/docker-capsule/deploy/#container-image). You can monitor the build process by:
+When a Capsule is created, it automatically builds and deploys. The exception is a Docker Capsule deployed from a container image, which you deploy by clicking **Pull & Deploy** on the **Deploy** tab — see [Deploy a Docker Capsule](/products/docker-capsule/deploy/image/). You can monitor the build process by:
 
 * Navigating to the **Logs** tab, or
 * Clicking **View build log** under the **Build and Deploy** tab
