@@ -5,7 +5,7 @@ title: "How to Scale a Docker Container"
 sidebar_label: "Scale"
 ---
 
-# Scale Your Docker Container as Traffic Grows
+# Scale Your Docker Container Without Downtime
 
 Allocate more resources to a Docker Capsule as your application's traffic and computational needs change. Docker Capsules support horizontal scaling through replicas and vertical scaling through CPU, RAM, and optional GPU allocation.
 

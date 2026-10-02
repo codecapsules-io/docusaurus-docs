@@ -5,7 +5,7 @@ title: "How to Scale a DocumentDB Database"
 sidebar_label: "Scale"
 ---
 
-# Scale Your DocumentDB Database as It Grows
+# Scale Your DocumentDB Database Without Downtime
 
 Allocate more resources to a DocumentDB Capsule as your workload grows. Open the **Scale** tab on the capsule dashboard and click **Edit** in the **Capsule Capacity** section. You can only edit capacity while the capsule is running.
 

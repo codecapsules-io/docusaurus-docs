@@ -5,7 +5,7 @@ title: "How to Scale a MongoDB Database"
 sidebar_label: "Scale"
 ---
 
-# Scale Your MongoDB Database as It Grows
+# Scale Your MongoDB Database Without Downtime
 
 MongoDB Capsules scale differently depending on cluster type. Open the **Scale** tab on your Capsule dashboard to view and change capacity.
 
