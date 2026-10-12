@@ -7,11 +7,6 @@ sidebar_label: "Release Notes"
 
 # What We Shipped Recently
 
-### October 2026
-
-- Docker Capsules can now be [deployed from an existing container image](/products/docker-capsule/image/deploy/). Build your image in your own CI pipeline, publish it to a public registry, and provide the image reference. Code Capsules handles the rest
-- Security enhancements
-
 ### September 2026
 
 - Added advanced configuration for [PostgreSQL capsules](/products/database-capsule/postgresql/configure/), allowing you to configure your PostgreSQL capsules for higher availability and reliability with zero downtime
