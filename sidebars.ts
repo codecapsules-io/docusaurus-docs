@@ -199,6 +199,7 @@ const sidebars: SidebarsConfig = {
         'platform/capsules/what-is-a-capsule',
         'platform/capsules/how-do-i-add-remove-stop-capsules',
         'platform/capsules/how-to-add-a-custom-domain',
+        'platform/capsules/health-checks',
       ],
     },
     {

@@ -13,23 +13,49 @@ Configure a Backend Capsule in the **Config** tab.
 
 ## Set Capsule Parameters
 
-Click **Edit** in the **Capsule Parameters** section to set the Capsule's project path, network port, and run command.
+The **Capsule Parameters** section is split into **Build** and **Runtime**, each with its own **Edit** link:
+
+| Section     | Settings                         | Saving                                         |
+| ----------- | -------------------------------- | ---------------------------------------------- |
+| **Build**   | Project Path, Run Command        | Starts a new build                             |
+| **Runtime** | Network Port, Health Check       | Redeploys the capsule without a new build      |
+
+To change a setting:
+
+1. Click **Edit** next to **Build** or **Runtime**.
+2. Update the settings.
+3. Click **Save**, then confirm.
+
+You can edit one section at a time.
 
 ### Project Path
 
-The **Project Path** specifies the path to your code. The default is `/`, which works for most projects.
+The **Project Path**, in **Build**, specifies the path to your code. The default is `/`, which works for most projects.
 
 ### Network Port
 
-The **Network Port** is the port your app runs on. Your app must be configured to listen on this port. The default is `3000`. 
+The **Network Port**, in **Runtime**, is the port your app runs on. Your app must be configured to listen on this port. The default is `3000`.
 
 ### Run Command
 
-Use the **Run Command** field to specify how to start your app. Leave this field empty to use the default command for the Capsule type, or enter a custom command:
+Use the **Run Command** field in **Build** to specify how to start your app. Leave this field empty to use the default command for the Capsule type, or enter a custom command:
 
 - Python: `python app.py`
 - Node.js: `npm start`
 - Ruby: `ruby app.rb`
+
+### Health Check
+
+A health check tells Code Capsules when your app is ready for traffic, and restarts replicas that stop responding. To set one:
+
+1. In the **Capsule Parameters** section, click **Edit** next to **Runtime**.
+2. Set **Health Check** to **Automatic** or **Manual**.
+3. Enter the **Endpoint** your app responds to, for example `/health`. With **Manual**, also set **Timeout (seconds)** and **Time to First Check (seconds)**.
+4. Click **Save**, then confirm.
+
+Saving redeploys the capsule. It does not trigger a new build.
+
+See [Health checks](/platform/capsules/health-checks/) for each setting, how failing replicas are handled, and how to write a good endpoint.
 
 ## Set Environment Variables
 

@@ -55,7 +55,7 @@ To deploy an existing image instead, see [Change the source](/products/docker-ca
 
 ## Dockerfile path and build context
 
-Set the **Docker File** path and **Docker Build Context** in the **Capsule Parameters** section of the **Config** tab. Changing either one starts a new build. See [Docker File](/products/docker-capsule/configure/#docker-file) and [Docker Build Context](/products/docker-capsule/configure/#docker-build-context) for examples, including monorepo layouts.
+Set the **Docker File** path and **Docker Build Context** in the **Build** part of the **Capsule Parameters** section in the **Config** tab. Changing either one starts a new build. See [Docker File](/products/docker-capsule/configure/#docker-file) and [Docker Build Context](/products/docker-capsule/configure/#docker-build-context) for examples, including monorepo layouts.
 
 ## Troubleshooting builds
 

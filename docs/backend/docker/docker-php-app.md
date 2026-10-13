@@ -58,7 +58,7 @@ Once your application is live, you can view the build log by selecting the **Dep
 
 ![Build Logs](/gitbook-assets/get-started/docker-build.png)
 
-Once the build is complete, navigate to the **Config** tab and edit the **Capsule Parameters** section. Enter **80** as the port number and click on **Save**.
+Once the build is complete, navigate to the **Config** tab and click **Edit** next to **Runtime** in the **Capsule Parameters** section. Enter **80** as the **Network Port**, click **Save**, then confirm.
 
 ![Network Port](/gitbook-assets/get-started/docker-port-80.png)
 

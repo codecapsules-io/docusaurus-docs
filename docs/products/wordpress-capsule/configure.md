@@ -36,6 +36,21 @@ The storage volume mounts at `/var/www/html/wp-content/*` to `<PERSISTENT_STORAG
 
 ---
 
+## Health Check
+
+A health check tells Code Capsules when your site is ready for traffic, and restarts replicas that stop responding. WordPress is checked on port `80`. To set one:
+
+1. In the **Config** tab, click **Edit** in the **WordPress Config** section.
+2. Set **Health Check** to **Automatic** or **Manual**.
+3. Enter the **Endpoint**, for example `/wp-login.php`. With **Manual**, also set **Timeout (seconds)** and **Time to First Check (seconds)**.
+4. Click **Save**, then confirm.
+
+Saving redeploys the capsule. With the health check **Off**, Code Capsules only checks that port `80` accepts connections.
+
+See [Health checks](/platform/capsules/health-checks/) for each setting, how failing replicas are handled, and which endpoint to choose.
+
+---
+
 ## Site URL
 
 The public URL of your site is injected as `APP_URL`. WordPress uses this to generate links, enqueue scripts, and handle redirects.

@@ -11,17 +11,27 @@ To configure your Frontend Capsule, navigate to the "Config" tab.
 
 ![Configure Frontend Capsule](/gitbook-assets/products/frontend-capsule/config/frontend-config.png)
 
-## Set the Project Path
+## Set Capsule Parameters
 
-Click "Edit" in the "Capsule Parameters" section to set where your HTML files are located. The default is `/` which works for most projects.
+Frontend settings are in the **Build** part of the **Capsule Parameters** section. To change them:
 
-## Set the Build Command
+1. Click **Edit** next to **Build**.
+2. Update the settings.
+3. Click **Save**, then confirm.
 
-Click "Edit" in the "Capsule Parameters" section to set your build command. The default is `Auto` which automatically detects and runs your build process.
+Saving starts a new build.
 
-## Set the Build Output Directory
+### Project Path
 
-Click "Edit" in the "Capsule Parameters" section to set where your built files end up. Leave as `/` if you're not using a build process.
+The **Project Path** is where your HTML files are located. The default is `/`, which works for most projects.
+
+### Build Command
+
+The **Build command** runs your build. The default is `Auto`, which automatically detects and runs your build process.
+
+### Build Output Directory
+
+The **Build Output Directory** is where your built files end up. Leave it as `/` if you're not using a build process.
 
 ## Environment Variables
 

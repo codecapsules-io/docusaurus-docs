@@ -13,7 +13,20 @@ The capsule source and deployment strategy are managed in the **Deploy** tab —
 
 ## Capsule parameters
 
-Click **Edit** in the **Capsule Parameters** section to update build and runtime settings.
+The **Capsule Parameters** section is split into **Build** and **Runtime**, each with its own **Edit** link:
+
+| Section     | Settings                            | Saving                                    |
+| ----------- | ----------------------------------- | ----------------------------------------- |
+| **Build**   | Docker File, Docker Build Context   | Starts a new build                        |
+| **Runtime** | Network port, Health check          | Redeploys the capsule without a new build |
+
+To change a setting:
+
+1. Click **Edit** next to **Build** or **Runtime**.
+2. Update the settings.
+3. Click **Save**, then confirm.
+
+You can edit one section at a time.
 
 ![Docker Capsule Config tab Capsule Parameters section](/gitbook-assets/products/docker-capsule/config/docker-config.png)
 
@@ -25,7 +38,7 @@ The **Docker File** setting is only shown for capsules deployed from Git. Capsul
 
 :::
 
-The **Docker File** field is the path to your Dockerfile from the repository root. The default is `/Dockerfile`.
+The **Docker File** field, in **Build**, is the path to your Dockerfile from the repository root. The default is `/Dockerfile`.
 
 Examples:
 
@@ -45,7 +58,7 @@ The **Docker Build Context** setting is only shown for capsules deployed from Gi
 
 :::
 
-The **Docker Build Context** is the directory passed to `docker build` as the build context. The default is the repository root (`/`).
+The **Docker Build Context**, in **Build**, is the directory passed to `docker build` as the build context. The default is the repository root (`/`).
 
 Set a subdirectory when your Dockerfile and application code live in a nested folder. The build context can also be a URL to a **public** Git repository — in that case, the repository is downloaded and used as the build context.
 
@@ -59,11 +72,24 @@ For monorepos, point the build context at the service directory and set the Dock
 
 ### Network port
 
-The **Network port** is the port your application listens on. Code Capsules routes HTTPS traffic to this port and configures ingress accordingly. The default is `3000`.
+The **Network Port**, in **Runtime**, is the port your application listens on. Code Capsules routes HTTPS traffic to this port and configures ingress accordingly. The default is `3000`.
 
 Your application must listen on this port when the capsule runs. If you deploy an image that always listens on a fixed port, set the network port to match — see [Images that use a fixed port](/products/docker-capsule/container-requirements/#images-that-use-a-fixed-port). Code Capsules also injects a `PORT` environment variable set to this value, so your app can read the port at runtime. See [Container requirements](/products/docker-capsule/container-requirements/#use-the-port-environment-variable) for how to use `PORT` in your application.
 
 Changing the network port restarts the capsule. It does not trigger a new build.
+
+### Health check
+
+A health check tells Code Capsules when your application is ready for traffic, and restarts replicas that stop responding. To set one:
+
+1. In the **Capsule Parameters** section, click **Edit** next to **Runtime**.
+2. Set **Health Check** to **Automatic** or **Manual**.
+3. Enter the **Endpoint** your application responds to, for example `/health`. With **Manual**, also set **Timeout (seconds)** and **Time to First Check (seconds)**.
+4. Click **Save**, then confirm.
+
+Saving redeploys the capsule. It does not trigger a new build.
+
+See [Health checks](/platform/capsules/health-checks/) for each setting, how failing replicas are handled, and how to write a good endpoint.
 
 ## Environment variables
 
