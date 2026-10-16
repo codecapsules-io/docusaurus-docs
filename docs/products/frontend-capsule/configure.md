@@ -19,7 +19,13 @@ Frontend settings are in the **Build** part of the **Capsule Parameters** sectio
 2. Update the settings.
 3. Click **Save**, then confirm.
 
-Saving starts a new build.
+Frontend Capsules have no **Runtime** settings.
+
+:::warning[Changing build settings starts a new build]
+
+When you save a change in **Build**, Code Capsules rebuilds your site with the new settings and deploys the result. A build can take a few minutes.
+
+:::
 
 ### Project Path
 

@@ -15,10 +15,10 @@ Configure an Agent Capsule in the **Config** tab.
 
 The **Capsule Parameters** section is split into **Build** and **Runtime**, each with its own **Edit** link:
 
-| Section     | Settings                         | Saving                                         |
+| Section     | Settings                         | When you save                                  |
 | ----------- | -------------------------------- | ---------------------------------------------- |
-| **Build**   | Project Path, Run Command        | Starts a new build                             |
-| **Runtime** | Network Port, Health Check       | Redeploys the capsule without a new build      |
+| **Build**   | Project Path, Run Command        | Rebuilds and deploys the capsule               |
+| **Runtime** | Network Port, Health Check       | Restarts the capsule, without a new build      |
 
 To change a setting:
 
@@ -28,17 +28,21 @@ To change a setting:
 
 You can edit one section at a time.
 
-### Project Path
+### Build settings
 
-The **Project Path**, in **Build**, specifies the path to your code. The default is `/`, which works for most projects.
+:::warning[Changing build settings starts a new build]
 
-### Network Port
+When you save a change in **Build**, Code Capsules rebuilds your code with the new settings and deploys the result. A build can take a few minutes.
 
-The **Network Port**, in **Runtime**, is the port your app runs on. Your app must be configured to listen on this port. The default is `3000`.
+:::
 
-### Run Command
+#### Project Path
 
-Use the **Run Command** field in **Build** to specify how to start your app. Leave this field empty to use the default command for the Capsule type, or enter a custom command:
+The **Project Path** specifies the path to your code. The default is `/`, which works for most projects.
+
+#### Run Command
+
+Use the **Run Command** field to specify how to start your app. Leave this field empty to use the default command for the Capsule type, or enter a custom command:
 
 * Python: `python app.py`
 * Node.js: `npm start`
@@ -49,7 +53,19 @@ If using a [Code Capsules Agent Template](/products/agent-capsule/templates/), t
 
 :::
 
-### Health Check
+### Runtime settings
+
+:::warning[Changing runtime settings restarts the capsule]
+
+When you save a change in **Runtime**, Code Capsules restarts the capsule with the new settings. It does not start a new build.
+
+:::
+
+#### Network Port
+
+The **Network Port** is the port your app runs on. Your app must be configured to listen on this port. The default is `3000`.
+
+#### Health Check
 
 A health check tells Code Capsules when your agent is ready for traffic, and restarts replicas that stop responding. To set one:
 
@@ -57,8 +73,6 @@ A health check tells Code Capsules when your agent is ready for traffic, and res
 2. Set **Health Check** to **Automatic** or **Manual**.
 3. Enter the **Endpoint** your agent responds to, for example `/health`. With **Manual**, also set **Timeout (seconds)** and **Time to First Check (seconds)**.
 4. Click **Save**, then confirm.
-
-Saving redeploys the capsule. It does not trigger a new build.
 
 See [Health checks](/platform/capsules/health-checks/) for each setting, how failing replicas are handled, and how to write a good endpoint.
 
