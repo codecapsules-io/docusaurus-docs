@@ -9,6 +9,40 @@ sidebar_label: "Health checks"
 
 A health check lets Code Capsules ask your application whether it is ready to serve requests. Code Capsules only sends traffic to replicas that pass the check, and restarts replicas that keep failing it.
 
+## Why use a health check
+
+Without a health check, Code Capsules only knows whether your application's process is running, not whether it can serve requests. A running process is not always a working application:
+
+- It can still be starting, for example while it connects to a database or loads its configuration.
+- It can be stuck, for example because of a deadlock or because it has run out of connections, and stop responding without exiting.
+- It can be running a new version that starts but cannot handle requests.
+
+In each case, your users get errors or timeouts, and nothing fixes the replica until you notice and restart it yourself.
+
+A health check fixes this:
+
+- **No errors during deployments.** New replicas only get traffic after they pass the check, and old replicas keep serving until then. Your users never reach a replica that is still starting.
+- **Bad releases do not go live.** If a new version never passes the check, the old version keeps serving traffic, so a broken release does not take your capsule offline.
+- **Automatic recovery.** A replica that stops responding is restarted without you having to do anything, even in the middle of the night.
+- **High availability.** Your application stays available to your users even when part of it fails. See below.
+
+### Health checks and high availability
+
+A highly available application keeps serving users when something goes wrong, such as a crashed process, a stuck replica, or a bad deploy. With a health check, Code Capsules can assist in automatically recovering whilst retaining high availability of your app.
+
+High availability needs two things:
+
+1. **More than one replica.** If one replica fails, another can serve its traffic. To add replicas, see [Horizontal scaling](/products/docker-capsule/scale/#horizontal-scaling).
+2. **A health check.** Code Capsules needs to know which replicas are working. Without a health check, traffic is still sent to a replica that has stopped responding, so some of your users get errors even though other replicas are fine.
+
+With both, when one replica fails its checks, Code Capsules stops sending it traffic, the other replicas serve your users, and the failing replica is restarted. Your users do not notice the failure.
+
+A health check helps a single replica too: it recovers automatically and deploys without errors. But while that replica is failing or restarting, there is nothing else to serve your users. For high availability, use a health check with at least two replicas.
+
+We recommend a health check for every capsule that serves HTTP traffic. **Automatic** with a simple `/health` endpoint is enough for most applications. See [Example endpoints](#example-endpoints) to add one.
+
+## Where to set a health check
+
 Health checks are available for [Backend](/products/backend-capsule/configure/), [Docker](/products/docker-capsule/configure/), [Agent](/products/agent-capsule/configure/), and [WordPress](/products/wordpress-capsule/configure/) Capsules. Each Configure page shows where to set the health check for that capsule type.
 
 ## Health check settings

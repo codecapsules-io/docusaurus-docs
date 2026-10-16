@@ -7,6 +7,14 @@ sidebar_label: "Release Notes"
 
 # What We Shipped Recently
 
+### October 2026
+
+- Added support for [Health Checks](/platform/capsules/health-checks/), allowing you to configure health checks for your capsules. This is especially useful for ensuring that your capsules are healthy and ready to serve traffic
+- Added ability to create docker capsules from an existing image reference. See [here](/products/docker-capsule/image/deploy/) for more details
+- Added a new free and premium static frontend capsule option, allowing you to serve built frontend content without the need for a running workload
+- Security enhancements
+- General bug fixes and improvements
+
 ### September 2026
 
 - Added advanced configuration for [PostgreSQL capsules](/products/database-capsule/postgresql/configure/), allowing you to configure your PostgreSQL capsules for higher availability and reliability with zero downtime
