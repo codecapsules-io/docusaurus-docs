@@ -7,6 +7,8 @@ sidebar_label: "Build and Deploy"
 
 # Deploy Your Frontend App
 
+Frontend Capsules build static sites and SPAs from your repository. See [Supported Runtimes](/products/frontend-capsule/supported-runtimes/) for platform versions, framework build settings, and Node.js pinning.
+
 ## JavaScript Frameworks
 
 - [React](/frontend/react/)

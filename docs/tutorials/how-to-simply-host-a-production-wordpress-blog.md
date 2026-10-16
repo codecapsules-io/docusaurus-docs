@@ -225,7 +225,7 @@ Code Capsules provides infrastructure-level backups using automatic daily snapsh
 
 Configure and manage your backups with the following guides:
 
-* [**Database Capsule Backups**](/products/database-capsule/backups/)**:** Configure retention and restore database snapshots.
+* [**Database Capsule Backups**](/products/database-capsule/mysql/backups/)**:** Configure retention and restore database snapshots.
 * [**Storage Capsule Backups**](/products/storage-capsule/backups/)**:** Manage your file storage backup settings.
 
 Test backup restoration quarterly to verify that backups work when needed.

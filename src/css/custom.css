@@ -322,12 +322,6 @@ body {
   letter-spacing: 0;
 }
 
-/* Space above category groups to visually separate them */
-.menu__list-item--collapsed,
-.menu__list-item:has(> .menu__link--sublist) {
-  margin-top: 16px;
-}
-
 /* First category item doesn't need extra top margin */
 .menu__list > .menu__list-item:first-child {
   margin-top: 0;
@@ -592,4 +586,18 @@ a.card:hover {
 .card--disabled {
   opacity: 0.55;
   cursor: default;
+}
+
+/* Click-to-zoom on documentation images (docusaurus-plugin-image-zoom) */
+.markdown :not(em) > img {
+  cursor: zoom-in;
+}
+
+/* Sit above the sticky navbar (Infima --ifm-z-index-fixed: 200) */
+.medium-zoom-overlay {
+  z-index: calc(var(--ifm-z-index-fixed, 200) + 1);
+}
+
+.medium-zoom-image--opened {
+  z-index: calc(var(--ifm-z-index-fixed, 200) + 2);
 }
