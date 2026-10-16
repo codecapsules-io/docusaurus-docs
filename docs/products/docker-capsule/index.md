@@ -33,8 +33,7 @@ You can deploy a Docker Capsule in one of two ways:
 
 To start, click the yellow **+** button in your Space, select **New Capsule**, and choose **Docker Capsule**. On the **Source** step, choose **Git repository** or **Container image**.
 
-{/* TODO: add screenshot static/gitbook-assets/products/docker-capsule/deploy/docker-choose-source.png, then uncomment */}
-{/* ![Docker Capsule creation Source step showing the Git repository and Container image options](/gitbook-assets/products/docker-capsule/deploy/docker-choose-source.png) */}
+![Docker Capsule creation Source step showing the Git repository and Container image options](/gitbook-assets/products/docker-capsule/deploy/docker-choose-source.png)
 
 You can switch between the two later — see [Change the source](/products/docker-capsule/deployments/#change-the-source).
 

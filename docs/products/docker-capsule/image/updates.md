@@ -25,8 +25,7 @@ Each pull appears in the **Builds** tab as an **Image import**, with its own log
 
 The **Capsule Source** section on the **Deploy** tab shows the **Image** and the **Deployed digest**, which identifies the exact version of the image that is running. Before the first deploy, it shows **Not deployed yet**.
 
-{/* TODO: add screenshot static/gitbook-assets/products/docker-capsule/deploy/docker-deploy-tab-image.png, then uncomment */}
-{/* ![Docker Capsule Deploy tab showing an image source](/gitbook-assets/products/docker-capsule/deploy/docker-deploy-tab-image.png) */}
+![Docker Capsule Deploy tab showing an image source](/gitbook-assets/products/docker-capsule/deploy/docker-deploy-tab-image.png)
 
 ## Deploy a newer version
 

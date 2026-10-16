@@ -47,8 +47,7 @@ Only public images are supported. If you don't specify a tag, Code Capsules uses
 7. On the **Deploy** step, check the image shown, and enter a **Capsule Name**. The name defaults to the image name.
 8. Click **Create Capsule**.
 
-{/* TODO: add screenshot static/gitbook-assets/products/docker-capsule/deploy/docker-image-reference.png, then uncomment */}
-{/* ![Docker Capsule creation Source step with an image reference entered](/gitbook-assets/products/docker-capsule/deploy/docker-image-reference.png) */}
+![Docker Capsule creation Source step with an image reference entered](/gitbook-assets/products/docker-capsule/deploy/docker-image-reference.png)
 
 Code Capsules creates the capsule and assigns a default hostname. You are taken to the capsule **Details** tab.
 
