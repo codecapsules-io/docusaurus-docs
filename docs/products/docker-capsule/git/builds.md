@@ -51,7 +51,7 @@ Toggle auto-deploy with the switch in the **Auto Build & Deploy** section of the
 
 The **Capsule Source** section on the **Deploy** tab shows the linked **Repo** and **Branch**. Click **Edit** to change the repository or branch. Saving a new repository or branch starts a new build.
 
-To deploy an existing image instead, see [Change the source](/products/docker-capsule/deployments/#change-the-source).
+To deploy an existing image instead, create a new Docker Capsule with **Container image** as the source. You can't change the source of an existing capsule.
 
 ## Dockerfile path and build context
 

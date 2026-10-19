@@ -35,7 +35,7 @@ To start, click the yellow **+** button in your Space, select **New Capsule**, a
 
 ![Docker Capsule creation Source step showing the Git repository and Container image options](/gitbook-assets/products/docker-capsule/deploy/docker-choose-source.png)
 
-You can switch between the two later — see [Change the source](/products/docker-capsule/deployments/#change-the-source).
+You can't switch between the two after the capsule is created. To use the other source, create a new Docker Capsule.
 
 ## Documentation
 

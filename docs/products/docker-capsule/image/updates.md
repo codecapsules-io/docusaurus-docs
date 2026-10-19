@@ -50,7 +50,7 @@ To control exactly which version runs, use a specific tag such as `nginx:1.27` r
 2. Enter a new **Image reference**.
 3. Click **Save**, then confirm.
 
-Saving a different image starts a new deploy. To build from a Git repository instead, see [Change the source](/products/docker-capsule/deployments/#change-the-source).
+Saving a different image starts a new deploy. To build from a Git repository instead, create a new Docker Capsule with **Git repository** as the source. You can't change the source of an existing capsule.
 
 ## Troubleshooting
 

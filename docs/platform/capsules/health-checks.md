@@ -21,8 +21,8 @@ In each case, your users get errors or timeouts, and nothing fixes the replica u
 
 A health check fixes this:
 
-- **No errors during deployments.** New replicas only get traffic after they pass the check, and old replicas keep serving until then. Your users never reach a replica that is still starting.
-- **Bad releases do not go live.** If a new version never passes the check, the old version keeps serving traffic, so a broken release does not take your capsule offline.
+- **No errors during deployments.** New replicas only get traffic after they pass the check, and with the default **Rolling update** strategy, old replicas keep serving until then. Your users never reach a replica that is still starting.
+- **Bad releases do not go live.** With **Rolling update**, if a new version never passes the check, the old version keeps serving traffic, so a broken release does not take your capsule offline.
 - **Automatic recovery.** A replica that stops responding is restarted without you having to do anything, even in the middle of the night.
 - **High availability.** Your application stays available to your users even when part of it fails. See below.
 
@@ -137,7 +137,12 @@ If the database had stayed down for 5 minutes, the replica would have been resta
 
 ### Deployments
 
-During a [rolling update](/products/docker-capsule/deployments/#deployment-strategy), old replicas keep serving traffic until the new replicas pass their checks. A build that never becomes healthy does not take your capsule offline.
+How deployments use the health check depends on the [deployment strategy](/products/docker-capsule/deployments/#deployment-strategy):
+
+| Strategy                     | What happens during a deployment                                                                                                                       |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Rolling update** (default) | Old replicas keep serving traffic until the new replicas pass their checks. A version that never becomes healthy does not take your capsule offline. |
+| **Recreate**                 | Old replicas are stopped before the new ones start. Your capsule gets no traffic until the new replicas pass their checks, and stays offline if they never do. |
 
 ### When the health check is off
 

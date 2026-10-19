@@ -18,7 +18,7 @@ The **Capsule Parameters** section is split into **Build** and **Runtime**, each
 | Section     | Settings                         | When you save                                  |
 | ----------- | -------------------------------- | ---------------------------------------------- |
 | **Build**   | Project Path, Run Command        | Rebuilds and deploys the capsule               |
-| **Runtime** | Network Port, Health Check       | Restarts the capsule, without a new build      |
+| **Runtime** | Network Port, Health Check       | Redeploys the capsule, without a new build     |
 
 To change a setting:
 
@@ -50,9 +50,9 @@ Use the **Run Command** field to specify how to start your app. Leave this field
 
 ### Runtime settings
 
-:::warning[Changing runtime settings restarts the capsule]
+:::warning[Changing runtime settings redeploys the capsule]
 
-When you save a change in **Runtime**, Code Capsules restarts the capsule with the new settings. It does not start a new build.
+When you save a change in **Runtime**, Code Capsules redeploys the capsule with the new settings, replacing its running replicas. It does not start a new build.
 
 :::
 

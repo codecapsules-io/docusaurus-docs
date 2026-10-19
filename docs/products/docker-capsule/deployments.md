@@ -17,13 +17,16 @@ Open the **Deploy** tab to manage your capsule's source and deployment settings.
 
 Click **Edit** in the **Capsule Source** section to:
 
-- Change the repository or branch
-- Change the image reference
-- Switch between **Git repository** and **Container image**
-
-When you switch from a container image to a Git repository, you also set the **Docker File** and **Docker Build Context**.
+- Change the repository or branch, for a capsule deployed from Git
+- Change the image reference, for a capsule deployed from a container image
 
 Saving a new source starts a new build and deploy.
+
+:::info
+
+You choose **Git repository** or **Container image** when you create the capsule, and you can't change it later. To move to the other source, create a new Docker Capsule.
+
+:::
 
 ### Deployment strategy
 
@@ -34,7 +37,7 @@ The **Deployment strategy** controls how Code Capsules updates the capsule when 
 | **Rolling update** (default) | New replicas start before old ones are removed   | Web applications with zero-downtime requirements |
 | **Recreate**                 | All existing replicas stop before new ones start | Apps that cannot run two versions simultaneously |
 
-Click **Edit** next to **Deployment Strategy** to change this setting. Saving restarts the capsule without triggering a new build.
+Click **Edit** next to **Deployment Strategy** to change this setting. Saving does not restart or redeploy the capsule. The new strategy takes effect on the next deploy.
 
 ### Recent builds
 

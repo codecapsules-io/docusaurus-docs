@@ -18,7 +18,7 @@ The **Capsule Parameters** section is split into **Build** and **Runtime**, each
 | Section     | Settings                            | When you save                             |
 | ----------- | ----------------------------------- | ----------------------------------------- |
 | **Build**   | Docker File, Docker Build Context   | Rebuilds and deploys the capsule          |
-| **Runtime** | Network port, Health check          | Restarts the capsule, without a new build |
+| **Runtime** | Network port, Health check          | Redeploys the capsule, without a new build |
 
 To change a setting:
 
@@ -66,9 +66,9 @@ For monorepos, point the build context at the service directory and set the Dock
 
 ### Runtime settings
 
-:::warning[Changing runtime settings restarts the capsule]
+:::warning[Changing runtime settings redeploys the capsule]
 
-When you save a change in **Runtime**, Code Capsules restarts the capsule with the new settings. It does not start a new build.
+When you save a change in **Runtime**, Code Capsules redeploys the capsule with the new settings, replacing its running replicas using your [deployment strategy](/products/docker-capsule/deployments/#deployment-strategy). It does not start a new build.
 
 :::
 
