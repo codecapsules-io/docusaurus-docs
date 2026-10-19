@@ -1,15 +1,15 @@
 ---
-slug: "/products/database-capsule/backups"
-description: "Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules."
-title: "How to Back Up a Managed Database"
+slug: "/products/database-capsule/mongodb/backups"
+description: "Protect your MongoDB Capsule on Code Capsules with manual backups and daily, weekly, or monthly automatic backup schedules, then restore when needed."
+title: "How to Back Up a MongoDB Database"
 sidebar_label: "Backups"
 ---
 
-# Back Up and Restore Your Managed Database
+# Back Up and Restore Your MongoDB Database
 
 Protect your data by creating manual backups and setting up automatic backup schedules for your Data Capsules.
 
-![Backups Configuration](/gitbook-assets/products/database-capsule/backups/backups.png)
+![MongoDB Capsule Backup tab with manual backup and schedule options](/gitbook-assets/products/database-capsule/backups/mongodb-backups.png)
 
 ## Manual Backup
 
