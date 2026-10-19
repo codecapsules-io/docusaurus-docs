@@ -7,7 +7,7 @@ sidebar_label: "Configure"
 
 # Configure Your Frontend App
 
-To configure your Frontend Capsule, navigate to the "Config" tab.
+To configure your Frontend Capsule, navigate to the "Config" tab. These settings work the same way for [Static](/products/frontend-capsule/static/deploy/) and [Container](/products/frontend-capsule/container/deploy/) hosting.
 
 ![Configure Frontend Capsule](/gitbook-assets/products/frontend-capsule/config/frontend-config.png)
 
@@ -51,3 +51,11 @@ To add custom variables:
 1. Click "Key/Val Editor" or "Text Editor" in the "Environment Variables" section
 2. Edit the variable "Name" and "Value"
 3. Click "Save"
+
+Environment variables are available to your build command, so frameworks can include them in your site when it's built (for example, Vite's `VITE_` variables or Create React App's `REACT_APP_` variables). They aren't read again after the build. On static capsules, saving a change to your environment variables starts a new build.
+
+:::warning
+
+Anything included in your build can be read by everyone who visits your site. Don't put secrets such as API keys or database passwords in a Frontend Capsule's environment variables.
+
+:::

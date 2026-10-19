@@ -396,6 +396,23 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Frontend capsule',
       items: [
+        {
+          type: 'category',
+          label: 'Static',
+          key: 'frontend-static',
+          items: [
+            'products/frontend-capsule/static/deploy',
+            'products/frontend-capsule/static/plans',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Container',
+          key: 'frontend-container',
+          items: [
+            'products/frontend-capsule/container/deploy',
+          ],
+        },
         'products/frontend-capsule/deploy',
         'products/frontend-capsule/supported-runtimes',
         'products/frontend-capsule/configure',
