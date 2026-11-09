@@ -214,7 +214,7 @@ const config: Config = {
       title: '',
       logo: {
         alt: 'Code Capsules',
-        src: 'https://cdn.prod.website-files.com/67ceb2cb686dbb71573b4e01/67cebcb49209deccb991799d_Code%20Capsules%20-%20Logo%201.svg',
+        src: '/img/code-capsules-logo.svg',
         href: 'https://www.codecapsules.io/',
         target: '_self',
       },
