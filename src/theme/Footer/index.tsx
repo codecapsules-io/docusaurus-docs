@@ -137,7 +137,7 @@ function Footer(): ReactNode {
               className="cc-footer__logo-link"
             >
               <img
-                src="https://cdn.prod.website-files.com/67ceb2cb686dbb71573b4e01/67cebcb49209deccb991799d_Code%20Capsules%20-%20Logo%201.svg"
+                src="/img/code-capsules-logo.svg"
                 alt="Code Capsules"
                 className="cc-footer__logo"
               />
@@ -157,7 +157,7 @@ function Footer(): ReactNode {
                   aria-label={social.label}
                 >
                   <img
-                    src={`https://api.iconify.design/${social.icon}.svg?color=%231a1a1a`}
+                    src={`/img/icons/${social.icon.split(':')[1]}.svg`}
                     alt={social.label}
                     className="cc-footer__social-icon"
                   />
