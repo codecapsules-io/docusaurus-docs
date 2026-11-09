@@ -44,6 +44,6 @@ Includes performance management, built-in security, and real-time issue detectio
 
 ### Cost Efficiency
 
-With a free tier available and paid plans starting from just $5 per month, Code Capsules is an affordable option for startups and small businesses looking to minimize costs without compromising on functionality.
+With free hosting for up to five static frontends and simple per-capsule pricing for everything else, Code Capsules is an affordable option for startups and small businesses looking to minimize costs without compromising on functionality.
 
 
