@@ -7,6 +7,10 @@ sidebar_label: "Next.js"
 
 # Host Your Next.js App in Minutes
 
+:::info[Static export or server rendering]
+A Next.js **static export** (`output: 'export'`, built with `next build` into the `out` folder) deploys on a [static Frontend Capsule](/products/frontend-capsule/static/deploy/), which is free for up to five sites. A **server-rendered** Next.js app needs a running server and deploys on a Backend Capsule, which is the setup this guide walks through.
+:::
+
 Deploy a Next application and learn how to host backend code on Code Capsules.
 
 ## Setup
