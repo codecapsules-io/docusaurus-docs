@@ -152,7 +152,7 @@ const sidebars: SidebarsConfig = {
   ],
   platform: [
     'platform/index',
-    'platform/readme',
+    {type: 'link', label: 'Release Notes', href: '/release-notes/'},
     'platform/what-is-code-capsules',
     'platform/platform',
     {
