@@ -21,7 +21,11 @@ function BlogListPageMetadata(props: Props): JSX.Element {
   const title = permalink === '/' ? siteTitle : blogTitle;
   return (
     <>
-      <PageMetadata title={title} description={blogDescription} />
+      <PageMetadata
+        title={title}
+        description={blogDescription}
+        image={permalink.startsWith('/release-notes') ? '/img/og-release-notes.png' : undefined}
+      />
       <SearchMetadata tag="blog_posts_list" />
     </>
   );
