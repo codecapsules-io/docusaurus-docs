@@ -197,13 +197,7 @@ const config: Config = {
         showReadingTime: false,
         onUntruncatedBlogPosts: 'ignore',
         onInlineAuthors: 'ignore',
-        feedOptions: {
-          type: ['rss', 'atom'],
-          title: 'Code Capsules release notes',
-          description: 'New features, improvements and fixes to Code Capsules.',
-          copyright: `Copyright © ${new Date().getFullYear()} Code Capsules`,
-          limit: 50,
-        },
+        feedOptions: {type: null},
       },
     ],
     [
