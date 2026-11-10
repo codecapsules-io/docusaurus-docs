@@ -65,7 +65,7 @@ You can upgrade a Free static capsule to Paid at any time:
 
 The upgrade happens straight away:
 
-- Your capsule keeps its address and content. There's no rebuild and no downtime.
+- Your capsule keeps its address and content.
 - The build size, traffic, and request rate limits are removed.
 - If your site was showing the traffic placeholder page, it starts serving again.
 - Billing starts from the day you upgrade.
