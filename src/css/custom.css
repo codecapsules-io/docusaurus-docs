@@ -652,8 +652,10 @@ a.card:hover {
 }
 .plugin-id-release-notes .rn-timeline article:last-child { border-left-color: transparent; }
 .plugin-id-release-notes article::before {
-  content: ""; position: absolute; left: -8px; top: 6px;
-  width: 14px; height: 14px; border-radius: 50%;
+  /* 16px dot centred on the 2px rail (centre at -1px) and on the title's first line */
+  content: ""; position: absolute; box-sizing: border-box;
+  left: -9px; top: calc(1.45rem * 1.25 / 2 - 8px);
+  width: 16px; height: 16px; border-radius: 50%;
   background: #fff; border: 3px solid #d9d6cc;
 }
 .plugin-id-release-notes .rn-timeline article:first-child::before {
