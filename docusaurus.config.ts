@@ -3,6 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const redirects = [
+  {from: ['/platform/readme'], to: '/release-notes/'},
   {from: ['/readme'], to: '/'},
   {from: ['/cli/readme'], to: '/cli/'},
   {from: ['/products/database-capsule/overview'], to: '/products/database-capsule/'},
@@ -184,11 +185,35 @@ const config: Config = {
   plugins: [
     'docusaurus-plugin-image-zoom',
     [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'release-notes',
+        path: 'release-notes',
+        routeBasePath: 'release-notes',
+        blogTitle: 'Release notes',
+        blogDescription: 'New features, improvements and fixes to Code Capsules, newest first.',
+        postsPerPage: 'ALL',
+        blogSidebarCount: 0,
+        showReadingTime: false,
+        onUntruncatedBlogPosts: 'ignore',
+        onInlineAuthors: 'ignore',
+        feedOptions: {
+          type: ['rss', 'atom'],
+          title: 'Code Capsules release notes',
+          description: 'New features, improvements and fixes to Code Capsules.',
+          copyright: `Copyright © ${new Date().getFullYear()} Code Capsules`,
+          limit: 50,
+        },
+      },
+    ],
+    [
       '@easyops-cn/docusaurus-search-local',
       {
         docsRouteBasePath: '/',
         indexDocs: true,
-        indexBlog: false,
+        indexBlog: true,
+        blogRouteBasePath: ['release-notes'],
+        blogDir: ['release-notes'],
         hashed: true,
         language: ['en'],
         highlightSearchTermsOnTargetPage: true,
@@ -233,6 +258,7 @@ const config: Config = {
         {to: '/enterprise/', label: 'Enterprise', position: 'left'},
         {to: '/cli/', label: 'CLI', position: 'left'},
         {type: 'search', position: 'right'},
+        {to: '/release-notes/', label: "What's new", position: 'right', className: 'navbar-internal'},
         {
           href: 'https://www.codecapsules.io/contact/',
           label: 'Support',
