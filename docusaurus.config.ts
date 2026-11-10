@@ -223,7 +223,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/og-docs.png',
+    image: 'img/og-docs-card.png',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
