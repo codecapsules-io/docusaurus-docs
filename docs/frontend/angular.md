@@ -17,7 +17,7 @@ Deploy an Angular application and learn how to host frontend code on Code Capsul
 
 Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you’ll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
-To demonstrate how to deploy an Angular application with Code Capsules, we’ve provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-angular).
+To demonstrate how to deploy an Angular application with Code Capsules, we’ve provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/BrentonJScott/demo-angular-22).
 
 Sign in to GitHub, and fork the example application by clicking **Fork** at the top-right of your screen and selecting your GitHub account as the destination.
 
@@ -55,7 +55,7 @@ Navigate to the Space containing your recently created Data Capsule and click th
 3. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
 4. Choose the GitHub repository you forked.
 5. Press **Next**.
-6. Type `npm run build` in **Build Command** and `dist/ng4-complete-guide` in **Build Output Directory**.
+6. Type `npm run build` in **Build Command** and `dist/cc-demo-angular/browser` in **Build Output Directory**.
 7. Click **Create Capsule**.
 
 Code Capsules will automatically build your application when you’ve finished creating the Capsule. While the build is in progress, you can view the log by clicking **View Build Progress** next to the **Building Capsule** message.
