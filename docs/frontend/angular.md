@@ -29,7 +29,7 @@ If you’ve just signed up for an account, you’ll be directed to a welcome pag
 
 Alternatively, if you’re signing in again, click on the **Spaces** tab.
 
-Code Capsules gives every account a Personal Team by default. A Team is an environment for you to manage your Spaces and Capsules. For a better understanding of Teams, Spaces, and Capsules, take a look at [our explanation](/platform/platform/).
+For a better understanding of Teams, Spaces, and Capsules, take a look at [our explanation](/platform/platform/).
 
 ## Create a Space for Your App
 
@@ -51,6 +51,7 @@ A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosti
 Navigate to the Space containing your recently created Data Capsule and click the yellow `+` icon on the bottom left of the screen. Follow the instructions below to create a Frontend Capsule:
 
 1. Choose **Frontend Capsule**, your Team, and Space.
+2. Choose your hosting preference, in this case click **Static**.
 2. Choose your payment plan.
 3. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
 4. Choose the GitHub repository you forked.
