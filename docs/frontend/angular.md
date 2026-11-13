@@ -52,12 +52,12 @@ Navigate to the Space containing your recently created Data Capsule and click th
 
 1. Choose **Frontend Capsule**, your Team, and Space.
 2. Choose your hosting preference, in this case click **Static**.
-2. Choose your payment plan.
-3. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
-4. Choose the GitHub repository you forked.
-5. Press **Next**.
-6. Type `npm run build` in **Build Command** and `dist/cc-demo-angular/browser` in **Build Output Directory**.
-7. Click **Create Capsule**.
+3. Choose your payment plan.
+4. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
+5. Choose the GitHub repository you forked.
+6. Press **Next**.
+7. Type `npm run build` in **Build Command** and `dist/cc-demo-angular/browser` in **Build Output Directory**.
+8. Click **Create Capsule**.
 
 Code Capsules will automatically build your application when you’ve finished creating the Capsule. While the build is in progress, you can view the log by clicking **View Build Progress** next to the **Building Capsule** message.
 
