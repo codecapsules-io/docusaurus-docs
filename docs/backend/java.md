@@ -31,12 +31,12 @@ Code Capsules gives every account a Personal Team by default. A Team is an envir
 
 Log in to your Code Capsules account and navigate to the **Spaces** tab. Once there, click the yellow `+` icon on the bottom left of the screen to add a new Space.
 
-Follow the prompts, choosing your region and giving your Space a name, then click **Create Space**.
+Follow the prompts, choosing your Team, selecting a location under **Select Location/Cluster**, and giving your Space a name, then click **Create Space**.
 
 
 1. Choose a Team — you can use a default **personal** Team if you're the only person working on this project, or a named Team if you're collaborating with others
 2. This should remind you of the project, for example, **customer-api** or **notetaking-app**
-3. Choose a country close to where most of your users will be
+3. Choose a location under **Select Location/Cluster** close to where most of your users will be
 
 ## Create the Capsule
 
@@ -44,17 +44,14 @@ A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosti
 
 Navigate to the **Space** containing your recently created Data Capsule and click the yellow `+` icon on the bottom left of the screen. Follow the instructions below to create a Backend Capsule:
 
-1. Choose **Backend Capsule**, your Team, and Space.
-2. Choose your payment plan.
-3. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
-4. Choose the GitHub repository you forked.
-5. Press **Next**.
-6. Leave **Run Command** blank.
-7. Click **Create Capsule**.
+1. Choose **Backend**. If you started from the dashboard, choose your Team and then your Space (if not already selected). If you started from a Team's page, the Team is already selected; from a Space's page, the Team and Space are. Click **Next**.
+2. Choose your payment plan and click **Next**.
+3. Select your forked GitHub repository and branch, then click **Next**.
+4. In the **Run Command** field, leave it blank. In the **Capsule Name** field, enter a name for your capsule, then click **Create Capsule**.
 
 Code Capsules will automatically build your application when you've finished creating the Capsule. While the build is in progress, you can view the log by clicking **View Build Progress** next to the **Building Capsule** message.
 
-Once your application is live, you can view the build log by selecting the **Deploy** tab and clicking the **View build log** link in the **Builds** section.
+Once your application is live, you can view the build log by selecting the **Deploy** tab and clicking the **View Logs** link in the **Builds** section.
 
 ## View Application
 
