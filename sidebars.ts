@@ -432,6 +432,7 @@ const sidebars: SidebarsConfig = {
       label: 'Storage Capsule',
       items: [
         'products/storage-capsule/deploy',
+        'products/storage-capsule/retry-stale-file-handles',
         'products/storage-capsule/configure',
         'products/storage-capsule/scale',
         'products/storage-capsule/backups',
