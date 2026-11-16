@@ -35,28 +35,28 @@ Code Capsules gives every account a Personal Team by default. A Team is an envir
 
 Log in to your Code Capsules account and navigate to the **Spaces** tab. Once there, click the yellow `+` icon on the bottom left of the screen to add a new Space.
 
-Follow the prompts, choosing your region and giving your Space a name, then click **Create Space**.
+Follow the prompts, choosing your Team, selecting a location under **Select Location/Cluster**, and giving your Space a name, then click **Create Space**.
 
 ![Create a New Space](/gitbook-assets/get-started/space-name-1.png)
 
 
 1. Choose a Team — you can use a default “personal” Team if you’re the only person working on this project, or a named Team if you’re collaborating with others
 2. This should remind you of the project, for example, “customer-api” or “notetaking-app”
-3. Choose a country close to where most of your users will be
+3. Choose a location under **Select Location/Cluster** close to where most of your users will be
 
 ## Create the Capsule
 
 A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
-Navigate to the Space containing your recently created Data Capsule and click the yellow `+` icon on the bottom left of the screen. Follow the instructions below to create a Frontend Capsule:
+After creating your Space, you will be redirected to the Capsule creation page. Follow the instructions below to create a Frontend Capsule:
 
 1. Choose **Frontend Capsule**, your Team, and Space.
-2. Choose your payment plan.
+2. Choose your hosting type (Static or Container) and your payment plan.
 3. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
 4. Choose the GitHub repository you forked.
-5. Press **Next**.
-6. Type `npm run build` in **Build Command** and `dist/ng4-complete-guide` in **Build Output Directory**.
-7. Click **Create Capsule**.
+5. Press **Next** to proceed to the configuration screen.
+6. Review the auto-detected configuration settings.
+7. Click **Next** to finish creating the Capsule.
 
 Code Capsules will automatically build your application when you’ve finished creating the Capsule. While the build is in progress, you can view the log by clicking **View Build Progress** next to the **Building Capsule** message.
 
