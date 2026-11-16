@@ -52,7 +52,7 @@ Navigate to the **Space** containing your recently created Data Capsule and clic
 6. Leave **Run Command** blank.
 7. Click **Create Capsule**.
 
-Code Capsules will automatically build your application when you've finished creating the Capsule. While the build is in progress, you can view the log by clicking **View Build Progress** next to the **Building Capsule** message.
+Code Capsules will automatically build your application when you've finished creating the Capsule. While the build is in progress, you can view the log by clicking the **Builds** tab.
 
 Once your application is live, you can view the build log by selecting the **Deploy** tab and clicking the **View build log** link in the **Builds** section.
 
