@@ -11,10 +11,10 @@ MySQL Capsules provide a managed MySQL database for your applications on Code Ca
 
 ## Create a MySQL Capsule
 
-1. Click **New Capsule** and select **MySQL**, your Team, and Space.
+1. Click **New Capsule** and select **MySQL**. If you started from a Team's page, the Team is already selected; from a Space's page, the Team and Space are. Otherwise, choose your Team and then **Choose a Space**.
 2. On **Plan & Deploy**, select a **Version**. See [Versions](/products/database-capsule/mysql/versions/) for supported options.
-3. Choose a **Plan** and configure **CPU**, **RAM**, **Storage**, and **Replicas** as needed.
-4. Enter a **Capsule Name** and click **Create Capsule**.
+3. Choose a **Plan** (Basic, Standard, Premium, or Custom) to set your **CPU**, **RAM**, **Storage**, and **Replicas**.
+4. Enter a **Capsule Name** and click **Create Capsule** to finish.
 
 ![MySQL Capsule Plan & Deploy step with Version selector and Plan options](/gitbook-assets/products/database-capsule/deploy/mysql-deploy-plan.png)
 
