@@ -31,7 +31,7 @@ Code Capsules gives every account a Personal Team by default. A Team is an envir
 
 ## Create a Space for Your App
 
-Log in to your Code Capsules account and navigate to the **Spaces** tab. Once there, click the yellow `+` icon on the bottom left of the screen to add a new Space.
+Log in to your Code Capsules account and navigate to the **Spaces** tab. Once there, click the yellow `+` icon on the bottom left of the screen and select **New Space** to add a new Space.
 
 Follow the prompts, choosing your Team, selecting a location under **Select Location/Cluster**, and giving your Space a name, then click **Create Space**.
 

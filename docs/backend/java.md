@@ -49,7 +49,7 @@ Navigate to the **Space** containing your recently created Data Capsule and clic
 3. Select your forked GitHub repository and branch, then click **Next**.
 4. In the **Run Command** field, leave it blank. In the **Capsule Name** field, enter a name for your capsule, then click **Create Capsule**.
 
-Code Capsules will automatically build your application when you've finished creating the Capsule. While the build is in progress, you can view the log by clicking **View Build Progress** next to the **Building Capsule** message.
+Code Capsules will automatically build your application when you've finished creating the Capsule. While the build is in progress, the **Capsule Status** on the **Details** tab shows **Building**, and you can follow the build in the **Builds** tab.
 
 Once your application is live, you can view the build log by selecting the **Deploy** tab and clicking the **View Logs** link in the **Builds** section.
 
