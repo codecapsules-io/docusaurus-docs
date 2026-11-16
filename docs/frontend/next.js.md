@@ -11,51 +11,40 @@ sidebar_label: "Next.js"
 A Next.js **static export** (`output: 'export'`, built with `next build` into the `out` folder) deploys on a [static Frontend Capsule](/products/frontend-capsule/static/deploy/), which is free for up to five sites. A **server-rendered** Next.js app needs a running server and deploys on a Backend Capsule, which is the setup this guide walks through.
 :::
 
-Deploy a Next application and learn how to host backend code on Code Capsules.
+Deploy a Next.js application and learn how to host backend code on Code Capsules.
 
-## Setup
+## Set up
 
-Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
+To follow this guide, you'll need:
 
-To demonstrate how to deploy a Next application with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-nextjs).
-
-Sign in to GitHub, and fork the example application by clicking **Fork** at the top-right of your screen and selecting your GitHub account as the destination.
-
-## Create an Account with Code Capsules
-
-Log in to your Code Capsules account and navigate to the **Spaces** tab. Once there, click the yellow `+` icon on the bottom left of the screen to add a new Space.
-
-Follow the prompts, choosing your region and giving your Space a name, then click **Create Space**.
-
-![Create a New Space](/gitbook-assets/get-started/space-name-1.png)
-
-
-1. Choose a Team — you can use a default **personal** Team if you're the only person working on this project, or a named Team if you're collaborating with others
-2. This should remind you of the project, for example, **customer-api** or **notetaking-app**
-3. Choose a country close to where most of your users will be
+- A [Code Capsules](https://www.codecapsules.io/) account with a Team and a Space. See [Teams](/platform/teams/what-is-a-team/) and [Spaces](/platform/spaces/what-is-a-space/) to learn how to create them.
+- A [GitHub or GitLab account linked](/platform/account/connect-version-control/) to Code Capsules.
+- A Git repository for your Next.js app. If you're starting from the Code Capsules example, fork [codecapsules-io/demo-nextjs](https://github.com/codecapsules-io/demo-nextjs).
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
+Navigate to the Space you created, then click the yellow `+` icon on the bottom left of the screen and click **New Capsule**. Follow the steps below:
 
-To create a new Capsule for your Space, follow the instructions below:
+1. Under **Choose a Capsule**, select **Backend**. Select your **Team** and your **Space**, then click **Next**.
 
-1. Choose **Backend Capsule**, your Team, and Space.
-2. Choose your payment plan.
-3. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
-4. Choose the GitHub repository you forked.
-5. Press **Next**.
-6. Leave **Run Command** blank.
-7. Click **Create Capsule**.
+2. On **Configure Plan**, select a plan and click **Next**. The **Basic** plan is enough for this guide. You can [change the plan later](/products/backend-capsule/scale/).
 
-Code Capsules will automatically build your application when you've finished creating the Capsule.
+3. On **Connect a Git Repository**:
+   1. Select your Next.js repository from the **Git Repository** list. Type `nextjs` to search. If the repository isn't listed, click **Configure Git for Code Capsules** and give Code Capsules access to it. If you forked the repository after opening this page, reload the page so it appears.
+   2. The **Branch** is filled in with your repository's default branch. Leave **Repo subpath** empty and click **Next**.
 
-Once your application is live, you can view the build log by selecting the **Deploy** tab and clicking the **View build log** link in the **Builds** section.
+   :::note
+   Code Capsules shows "Repo will be automatically shared with your team", so everyone on the Team can use that repo for their own capsules. To change this, see [Share a Repo with a Team](/platform/teams/share-a-repo-with-a-team/).
+   :::
 
-![Build Logs](/gitbook-assets/get-started/backend-capsule-build-logs-1.png)
+4. On **Build & Deploy**, leave **Run Command** blank. Code Capsules detects how to start a Next.js app from your repository. Leave **Capsule Name** as it is, or change it. You can rename it later from the **Details** tab.
 
-Once the build is complete, a URL link will appear in the URL section in the **Details** tab. Click the link, and you should see your deployed application.
+5. Click **Create Capsule**.
 
-![Deployed Application](/gitbook-assets/get-started/next-app.png)
+Code Capsules automatically builds your application. While the build runs, the **Details** tab shows **Building** under **Capsule Status**.
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/frontend/).
+To follow the build, click the **Deploy** tab. The **Builds** section lists the latest build with its status (for example **Succeeded**) and how long it took. Click **View Logs** to open the build log on the **Builds** tab.
+
+Once the build shows **Succeeded**, go to the **Details** tab and click the link under **Public URL**, and you should see your deployed application.
+
+If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](/frontend/).

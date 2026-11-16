@@ -48,24 +48,27 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
-Navigate to the Space containing your recently created Data Capsule and click the yellow `+` icon on the bottom left of the screen. Follow the instructions below to create a Frontend Capsule:
+Navigate to the Space you just created, then click the yellow `+` icon on the bottom left of the screen and click **New Capsule**. You can also click **Deploy Now** on the **Angular** card on the **Quick Start** page, which preselects the Frontend Capsule type. Follow the steps below to create a Frontend Capsule:
 
-1. Choose **Frontend Capsule**, your Team, and Space.
-2. Choose your hosting preference, in this case click **Static**.
-3. Choose your payment plan.
-4. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
-5. Choose the GitHub repository you forked.
-6. Press **Next**.
-7. Type `npm run build` in **Build Command** and `dist/cc-demo-angular/browser` in **Build Output Directory**.
-8. Click **Create Capsule**.
+1. Under **Choose a Capsule**, select **Frontend**. Select your **Team** and your **Space**, then click **Next**.
+2. On **Hosting**, select **Static** and click **Next**. Static serves the files your build produces and is the right choice for an Angular app that doesn't need server-side rendering.
+3. On **Plan**, select **Free** or **Paid** and click **Next**. The **Free** plan costs $0, allows 30MB per build and 50GB of traffic a month, and is enough for this guide. See [Static Frontend Free and Paid Plans](/products/frontend-capsule/static/plans/) for the details.
+4. On **Connect a Git Repository**, select the repository you forked from the **Git Repository** list. Type `angular` to search. If the repository isn't listed, click **Configure Git for Code Capsules** and give Code Capsules access to it. If you forked the repository after opening this page, reload the page so it appears.
+5. The **Branch** is filled in with your repository's default branch, `main`. Leave **Repo subpath** empty and click **Next**. Code Capsules shows "Repo will be automatically shared with your team", so everyone on the Team can use that repo for their own capsules.
+6. On **Build & Deploy**, enter:
+   - **Build Command**: `npm run build`
+   - **Path to static content**: `dist/cc-demo-angular/browser`
 
-Code Capsules will automatically build your application when you’ve finished creating the Capsule. While the build is in progress, you can view the log by clicking **View Build Progress** next to the **Building Capsule** message.
+   Leave **Capsule Name** as it is, or change it. You can rename the capsule later from the **Details** tab.
+7. Click **Create Capsule**.
 
-Once your application is live, you can view the build log by selecting the **Deploy** tab and clicking the **View build log** link in the **Builds** section.
+Code Capsules automatically builds your application when you've finished creating the Capsule. The **Details** tab opens and shows **Building** under **Capsule Status**.
+
+To follow the build, click the **Deploy** tab. The **Builds** section lists the latest build with its status, for example **Succeeded** and how long it took. Click **View Logs** to open the build log on the **Builds** tab. This build takes under a minute.
 
 ![Build Logs](/gitbook-assets/get-started/angular-build-logs.png)
 
-Once the build is complete, click the **URL** link in the **Details** tab, and you should see your deployed application.
+Once the build shows **Succeeded**, go to the **Details** tab and click the link under **Public URL**, and you should see your deployed application.
 
 ![Deployed App](/gitbook-assets/get-started/cc-angular-app.png)
 
