@@ -88,6 +88,8 @@ fs.writeFile(db_directory + '/test.txt', content, err => {
 
 ```
 
+If your app sees a stale file handle error (`ESTALE`) when reading or writing to `PERSISTENT_STORAGE_DIR`, see [how to retry stale file handles](/products/storage-capsule/retry-stale-file-handles).
+
 ## Access Files Using WebDAV
 
 By default, you can't browse files and folders in your Persistent Storage Capsule without building your own file browser. To solve this, Code Capsules provides native WebDAV access.
