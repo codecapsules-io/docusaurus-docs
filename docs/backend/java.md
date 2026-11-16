@@ -42,15 +42,24 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
-Navigate to the **Space** containing your recently created Data Capsule and click the yellow `+` icon on the bottom left of the screen. Follow the instructions below to create a Backend Capsule:
-
-1. Choose **Backend Capsule**, your Team, and Space.
-2. Choose your payment plan.
-3. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
-4. Choose the GitHub repository you forked.
-5. Press **Next**.
-6. Leave **Run Command** blank.
-7. Click **Create Capsule**.
+1. Navigate to the **Space** containing your recently created Data Capsule and click the yellow `+` icon on the bottom left of the screen. Follow the instructions below to create a Backend Capsule:
+2. Capsule Details page:
+   - Open Choose a Capsule and pick Backend.
+   - Open Choose a Team and pick one, for example Personal Team. A Choose a Space field then appears.
+   - Open Choose a Space and pick a Space.
+   - Click Next.
+3. Configure Plan page:
+   - Choose a plan. Basic is selected by default.
+   - Click Next.
+4. Connect a Git Repository page:
+   - Open Git Repository and pick your repository. You can type to search the list, for example "java", which found BrentonJScott/demo-java tagged "Team Repository". There is also a Configure Git for Code Capsules button for connecting a git account.
+   - The Branch fills in by itself (master for demo-java). You can change it.
+   - Repo subpath is optional. The capsule builds from the repo root by default.
+   - Click Next.
+5. Build & Deploy page:
+   - Run Command is the command Code Capsules uses to start your app. The placeholder is example... npm run start.
+   - Capsule Name defaults to the repo name (demo-java) and can be changed later.
+   - Click Create Capsule.
 
 Code Capsules will automatically build your application when you've finished creating the Capsule. While the build is in progress, you can view the log by clicking the **Builds** tab.
 
