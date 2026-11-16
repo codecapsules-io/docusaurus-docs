@@ -53,7 +53,7 @@ After creating your Space, you will be redirected to the Capsule creation page. 
 1. Choose **Frontend**. If you started from the dashboard, choose your Team and then your Space (if not already selected). If you started from a Team's page, the Team is already selected; from a Space's page, the Team and Space are. Click **Next**.
 2. Choose **Static** as your hosting type and click **Next**. Then, choose the **Free** plan and click **Next**.
 3. Select your forked GitHub repository and branch, then click **Next**.
-4. In the **Build Command** field, enter `npm run build`. In the **Path to static content** field, enter `dist/demo-angular`. In the **Capsule Name** field, enter a name for your capsule, then click **Create Capsule**.
+4. In the **Build Command** field, enter `npm run build`. In the **Path to static content** field, enter `dist/ng4-complete-guide`. In the **Capsule Name** field, enter a name for your capsule, then click **Create Capsule**.
 
 Code Capsules will automatically build your application when you’ve finished creating the Capsule. While the build is in progress, you can view the log by clicking **View Build Progress** next to the **Building Capsule** message.
 
