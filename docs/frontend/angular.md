@@ -35,7 +35,7 @@ Code Capsules gives every account a Personal Team by default. A Team is an envir
 
 Log in to your Code Capsules account and navigate to the **Spaces** tab. Once there, click the yellow `+` icon on the bottom left of the screen to add a new Space.
 
-Follow the prompts, choosing your region and giving your Space a name, then click **Create Space**.
+Follow the prompts, choosing your location under **Select Location/Cluster** and giving your Space a name, then click **Create Space**.
 
 ![Create a New Space](/gitbook-assets/get-started/space-name-1.png)
 
