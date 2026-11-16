@@ -50,10 +50,10 @@ A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosti
 
 After creating your Space, you will be redirected to the Capsule creation page. Follow the instructions below to create a Frontend Capsule:
 
-1. Choose **Frontend**, your Team, and Space, then click **Next**.
+1. Choose **Frontend**, select your Team from the dropdown, then click **Next**.
 2. Choose **Static** as your hosting type and click **Next**. Then, choose the **Free** plan and click **Next**.
 3. Select your forked GitHub repository and branch, then click **Next**.
-4. In the **Build Command** field, enter `npm run build`. In the **Path to static content** field, enter the folder your build writes its files to, then click **Create Capsule**.
+4. In the **Build Command** field, enter `npm run build`. In the **Path to static content** field, enter `dist/demo-angular`. In the **Capsule Name** field, enter a name for your capsule, then click **Create Capsule**.
 
 Code Capsules will automatically build your application when you’ve finished creating the Capsule. While the build is in progress, you can view the log by clicking **View Build Progress** next to the **Building Capsule** message.
 
