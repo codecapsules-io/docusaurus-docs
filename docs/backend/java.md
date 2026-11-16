@@ -67,7 +67,7 @@ Once your application is live, you can view the build log by selecting the **Dep
 
 ## View Application
 
-Restart your capsule by toggling the radio button in the top right off and on again.
+Restart your capsule by toggling the green switch in the top right off and on again.
 
 Once the build is complete, click the **URL** link in the **Details** tab, and you should see your deployed application.
 
