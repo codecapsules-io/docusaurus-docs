@@ -49,7 +49,7 @@ After the two capsules have been successfully built, the next step is to connect
 
 ## View Application
 
-You can now view the application after the two capsules have been connected. To see how it looks, click on the URL in the **Details** tab.
+You can now view the application after the two capsules have been connected. To see how it looks, navigate to the **Details** tab and click on the URL.
 
 ![Deployed App](/gitbook-assets/get-started/cc-django-app-1.png)
 
