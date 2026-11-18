@@ -57,7 +57,7 @@ Confirm your changes by clicking on **Update Capsule** then restart your capsule
 
 ## View Application
 
-After restarting the capsule, the application will now be ready to be viewed. Click the **Live Website** link at the top of the capsule tab, and you should see your deployed application.
+After restarting the capsule, the application will now be ready to be viewed. Open the **Details** tab and click the link under **Public URL**, and you should see your deployed application.
 
 ![Deployed App](/gitbook-assets/get-started/flask-mysql-app.png)
 
