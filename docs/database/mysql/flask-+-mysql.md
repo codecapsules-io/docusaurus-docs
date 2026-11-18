@@ -53,11 +53,11 @@ Once the binding is complete, you have to append `+pymysql` after `mysql` in the
 
 ![Edit DATABASE\_URL Environment Variable](/gitbook-assets/get-started/psql-mysql-url.png)
 
-Confirm your changes by clicking on **Update Capsule** then restart your capsule by toggling the radio button in the top right off and on again.
+Confirm your changes by clicking on **Save**.
 
 ## View Application
 
-After restarting the capsule, the application will now be ready to be viewed. Click the **Live Website** link at the top of the capsule tab, and you should see your deployed application.
+The application will now be ready to be viewed. Navigate to the **Details** tab and click the **Public URL** link to see your deployed application.
 
 ![Deployed App](/gitbook-assets/get-started/flask-mysql-app.png)
 
