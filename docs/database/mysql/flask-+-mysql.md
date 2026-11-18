@@ -22,25 +22,22 @@ A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosti
 
 Navigate to the Spaces tab and open the Space you'll be using.
 
-Click the yellow **+** button in the bottom left of the screen, select **New Capsule**, and follow the instructions below to create a Data Capsule:
+Click the yellow **+** button in the bottom left of the screen, select **New Capsule**, and follow the instructions below to create a MySQL Capsule:
 
-1. Choose **Data Capsule**.
-2. Under **Data Type**, select **MySQL Database Cluster**.
-3. Under **Product**, select **Standard**.
-4. Click **Create Capsule**.
+1. Choose **MySQL**. The Team and Space are already selected because you started from the Space's page. Click **Next**.
+2. Select a **Version** and choose a **Plan** (Basic, Standard, Premium, or Custom).
+3. Enter a **Capsule Name** and click **Create Capsule**.
 
-Navigate to the **Space** containing your recently created Data Capsule and click the **New Capsule** button. Follow the instructions below to create a Backend Capsule:
+Navigate to the **Space** containing your recently created MySQL Capsule, click the yellow **+** button in the bottom left of the screen, and select **New Capsule**. Follow the instructions below to create a Backend Capsule:
 
-1. Choose **Backend Capsule**.
-2. Under **Product**, select **Sandbox**.
-3. Choose the GitHub repository you forked.
-4. Press **Next**.
-5. Leave **Run Command** blank.
-6. Click **Create Capsule**.
+1. Choose **Backend**. The Team and Space are already selected because you started from the Space's page. Click **Next**.
+2. Choose your payment plan and click **Next**.
+3. Select your forked GitHub repository and branch, then click **Next**.
+4. Leave **Run Command** blank, then click **Create Capsule**.
 
-Code Capsules will automatically build your application when you've finished creating the Capsule. While the build is in progress, you can view the log by clicking **View Build Progress** next to the **Building Capsule** message.
+Code Capsules will automatically build your application when you've finished creating the Capsule.
 
-Once your application is live, you can view the build log by selecting the **Deploy** tab and clicking the **View build log** link in the **Builds** section.
+Once your application is live, you can view the build log by selecting the **Deploy** tab and clicking the **View Logs** link in the **Builds** section.
 
 ![Build Logs](/gitbook-assets/get-started/backend-capsule-build-logs-1.png)
 
