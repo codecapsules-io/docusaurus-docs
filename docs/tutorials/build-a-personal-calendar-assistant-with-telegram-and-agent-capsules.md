@@ -44,7 +44,7 @@ The agents in this tutorial need a vector database. For simplicity, we use a Red
 
 **Note:** This setup is not recommended for production. Redis is designed for temporary information and caching. For production deployments, consider dedicated vector databases like [Pinecone](https://www.pinecone.io/), [Weaviate](https://weaviate.io/), or [Qdrant](https://qdrant.tech/).
 
-Follow the existing [guide to creating a Redis Capsule](/how-to/database/redis/).
+Follow the existing [guide to creating a Redis Capsule](/how-to/capsules/database/guides/redis/).
 
 Once you've created the Redis Capsule, copy the connection string from the **Capsule Details** page.
 

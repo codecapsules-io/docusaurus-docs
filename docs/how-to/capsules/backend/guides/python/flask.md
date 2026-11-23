@@ -59,7 +59,7 @@ If you’d like to deploy another application in a different language or framewo
 
 ## Related guides
 
-- [Deploy Flask with MySQL](/how-to/database/mysql/flask-+-mysql/)
-- [Deploy Flask with MongoDB](/how-to/database/mongodb/flask-+-mongodb/)
+- [Deploy Flask with MySQL](/how-to/capsules/database/guides/mysql/flask-+-mysql/)
+- [Deploy Flask with MongoDB](/how-to/capsules/database/guides/mongodb/flask-+-mongodb/)
 - [Build a Full-Stack App with Flask and HTMX](/how-to/full-stack/flask-+-htmx/)
 - [Deploy a Flask App with Docker](/how-to/capsules/backend/guides/docker/flask-docker-app/)

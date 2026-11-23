@@ -12,7 +12,7 @@ Frontend Capsules host static websites over HTTPS. You can deploy a plain HTML, 
 
 :::info
 
-**Static HTML sites.** If your repository already contains the files you want to serve — for example, `index.html`, CSS, and images — you do not need Node.js, `package.json`, or a version pin. Leave the **Build Command** empty and keep **Project Path** at `/` if your files are in the repository root. See the [Static HTML](/how-to/frontend/static-html/) guide and [Configure](/how-to/capsules/frontend/configure/) for capsule settings.
+**Static HTML sites.** If your repository already contains the files you want to serve — for example, `index.html`, CSS, and images — you do not need Node.js, `package.json`, or a version pin. Leave the **Build Command** empty and keep **Project Path** at `/` if your files are in the repository root. See the [Static HTML](/how-to/capsules/frontend/guides/static-html/) guide and [Configure](/how-to/capsules/frontend/configure/) for capsule settings.
 
 :::
 
@@ -105,12 +105,12 @@ Frontend Capsules work with plain static HTML sites or any npm-based toolchain t
 
 | Framework                    | Build command   | Output directory      | Guide                                 |
 | ---------------------------- | --------------- | --------------------- | ------------------------------------- |
-| **React** (Create React App) | `npm run build` | `build`               | [React](/how-to/frontend/react/)             |
-| **React** (Vite)             | `npm run build` | `dist`                | [React](/how-to/frontend/react/)             |
-| **Angular**                  | `npm run build` | `dist/<project-name>` | [Angular](/how-to/frontend/angular/)         |
-| **Vue** (Vite / Vue CLI)     | `npm run build` | `dist`                | [Vue](/how-to/frontend/vue/)                 |
-| **Svelte**                   | `npm run build` | `public`              | [Svelte](/how-to/frontend/svelte/)           |
-| **Static HTML**              | —               | `/` (repository root) | [Static HTML](/how-to/frontend/static-html/) |
+| **React** (Create React App) | `npm run build` | `build`               | [React](/how-to/capsules/frontend/guides/react/)             |
+| **React** (Vite)             | `npm run build` | `dist`                | [React](/how-to/capsules/frontend/guides/react/)             |
+| **Angular**                  | `npm run build` | `dist/<project-name>` | [Angular](/how-to/capsules/frontend/guides/angular/)         |
+| **Vue** (Vite / Vue CLI)     | `npm run build` | `dist`                | [Vue](/how-to/capsules/frontend/guides/vue/)                 |
+| **Svelte**                   | `npm run build` | `public`              | [Svelte](/how-to/capsules/frontend/guides/svelte/)           |
+| **Static HTML**              | —               | `/` (repository root) | [Static HTML](/how-to/capsules/frontend/guides/static-html/) |
 | **Astro** (static output)    | `npm run build` | `dist`                | —                                     |
 | **Gatsby**                   | `npm run build` | `public`              | —                                     |
 
@@ -126,10 +126,10 @@ Code Capsules uses **npm** for Frontend Capsule builds. Include a `package-lock.
 
 | Use case                                               | Recommended approach                                                                 |
 | ------------------------------------------------------ | ------------------------------------------------------------------------------------ |
-| Next.js with server / SSR                              | [Backend Capsule](/how-to/frontend/next.js/)                                                |
+| Next.js with server / SSR                              | [Backend Capsule](/how-to/capsules/frontend/guides/next.js/)                                                |
 | Nuxt with Nitro server                                 | [Backend Capsule](/how-to/guides/nuxt3-and-nitro/)                                       |
 | Custom web server (Express, Fastify, etc.)             | [Backend Capsule](/how-to/capsules/backend/)                                        |
-| Non-Node build tools only (no `package.json`)          | [Static HTML](/how-to/frontend/static-html/) or [Docker Capsule](/how-to/capsules/docker/) |
+| Non-Node build tools only (no `package.json`)          | [Static HTML](/how-to/capsules/frontend/guides/static-html/) or [Docker Capsule](/how-to/capsules/docker/) |
 | PHP, Python, or other non-JavaScript static generators | [Docker Capsule](/how-to/capsules/docker/)                                          |
 
 ## Related

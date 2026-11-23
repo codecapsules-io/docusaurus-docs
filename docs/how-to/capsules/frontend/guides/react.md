@@ -1,24 +1,20 @@
 ---
-slug: "/how-to/frontend/next.js"
+slug: "/how-to/capsules/frontend/guides/react"
 diataxis: how-to
-description: "Deploy a Next.js application to Code Capsules from a GitHub repo. Host your React framework frontend in production with auto-deploys, step by step."
-title: "How to Host a Next.js App"
-sidebar_label: "Next.js"
+description: "Deploy a React application to Code Capsules from a GitHub repo. Host your frontend in production with automatic deploys on every push, step by step."
+title: "How to Host a React Application"
+sidebar_label: "React"
 ---
 
-# Host Your Next.js App in Minutes
+# Host Your React Application in Minutes
 
-:::info[Static export or server rendering]
-A Next.js **static export** (`output: 'export'`, built with `next build` into the `out` folder) deploys on a [static Frontend Capsule](/how-to/capsules/frontend/static/deploy/), which is free for up to five sites. A **server-rendered** Next.js app needs a running server and deploys on a Backend Capsule, which is the setup this guide walks through.
-:::
-
-Deploy a Next application and learn how to host backend code on Code Capsules.
+Deploy a React application and learn how to host frontend code on Code Capsules.
 
 ## Setup
 
 Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
-To demonstrate how to deploy a Next application with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-nextjs).
+To demonstrate how to deploy a React application with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-react).
 
 Sign in to GitHub, and fork the example application by clicking **Fork** at the top-right of your screen and selecting your GitHub account as the destination.
 
@@ -41,22 +37,22 @@ A [Capsule](/explanation/capsules/what-is-a-capsule/) provides the server for ho
 
 To create a new Capsule for your Space, follow the instructions below:
 
-1. Choose **Backend Capsule**, your Team, and Space.
+1. Choose **Frontend Capsule**, your Team, and Space.
 2. Choose your payment plan.
 3. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
 4. Choose the GitHub repository you forked.
 5. Press **Next**.
-6. Leave **Run Command** blank.
+6. Type `npm run build` in **Build Command** and `build` in **Build Output Directory**.
 7. Click **Create Capsule**.
 
 Code Capsules will automatically build your application when you've finished creating the Capsule.
 
 Once your application is live, you can view the build log by selecting the **Deploy** tab and clicking the **View build log** link in the **Builds** section.
 
-![Build Logs](/gitbook-assets/get-started/backend-capsule-build-logs-1.png)
+![Build Logs](/gitbook-assets/get-started/frontend-build-logs.png)
 
 Once the build is complete, a URL link will appear in the URL section in the **Details** tab. Click the link, and you should see your deployed application.
 
-![Deployed Application](/gitbook-assets/get-started/next-app.png)
+![Deployed App](/gitbook-assets/get-started/cc-react-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/frontend/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/capsules/frontend/guides/).

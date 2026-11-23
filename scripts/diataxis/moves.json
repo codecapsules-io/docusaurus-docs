@@ -269,78 +269,78 @@
   "oldPath": "docs/database/index.md",
   "oldSlug": "/database",
   "type": "how-to",
-  "newPath": "docs/how-to/database/index.md",
-  "newSlug": "/how-to/database"
+  "newPath": "docs/how-to/capsules/database/guides/index.md",
+  "newSlug": "/how-to/capsules/database/guides"
  },
  {
   "oldPath": "docs/database/mongodb/django-+-mongodb.md",
   "oldSlug": "/database/mongodb/django-+-mongodb",
   "type": "how-to",
-  "newPath": "docs/how-to/database/mongodb/django-+-mongodb.md",
-  "newSlug": "/how-to/database/mongodb/django-+-mongodb"
+  "newPath": "docs/how-to/capsules/database/guides/mongodb/django-+-mongodb.md",
+  "newSlug": "/how-to/capsules/database/guides/mongodb/django-+-mongodb"
  },
  {
   "oldPath": "docs/database/mongodb/express-+-mongodb.md",
   "oldSlug": "/database/mongodb/express-+-mongodb",
   "type": "how-to",
-  "newPath": "docs/how-to/database/mongodb/express-+-mongodb.md",
-  "newSlug": "/how-to/database/mongodb/express-+-mongodb"
+  "newPath": "docs/how-to/capsules/database/guides/mongodb/express-+-mongodb.md",
+  "newSlug": "/how-to/capsules/database/guides/mongodb/express-+-mongodb"
  },
  {
   "oldPath": "docs/database/mongodb/flask-+-mongodb.md",
   "oldSlug": "/database/mongodb/flask-+-mongodb",
   "type": "how-to",
-  "newPath": "docs/how-to/database/mongodb/flask-+-mongodb.md",
-  "newSlug": "/how-to/database/mongodb/flask-+-mongodb"
+  "newPath": "docs/how-to/capsules/database/guides/mongodb/flask-+-mongodb.md",
+  "newSlug": "/how-to/capsules/database/guides/mongodb/flask-+-mongodb"
  },
  {
   "oldPath": "docs/database/mongodb/index.md",
   "oldSlug": "/database/mongodb",
   "type": "how-to",
-  "newPath": "docs/how-to/database/mongodb/index.md",
-  "newSlug": "/how-to/database/mongodb"
+  "newPath": "docs/how-to/capsules/database/guides/mongodb/index.md",
+  "newSlug": "/how-to/capsules/database/guides/mongodb"
  },
  {
   "oldPath": "docs/database/mysql/django-+-mysql.md",
   "oldSlug": "/database/mysql/django-+-mysql",
   "type": "how-to",
-  "newPath": "docs/how-to/database/mysql/django-+-mysql.md",
-  "newSlug": "/how-to/database/mysql/django-+-mysql"
+  "newPath": "docs/how-to/capsules/database/guides/mysql/django-+-mysql.md",
+  "newSlug": "/how-to/capsules/database/guides/mysql/django-+-mysql"
  },
  {
   "oldPath": "docs/database/mysql/flask-+-mysql.md",
   "oldSlug": "/database/mysql/flask-+-mysql",
   "type": "how-to",
-  "newPath": "docs/how-to/database/mysql/flask-+-mysql.md",
-  "newSlug": "/how-to/database/mysql/flask-+-mysql"
+  "newPath": "docs/how-to/capsules/database/guides/mysql/flask-+-mysql.md",
+  "newSlug": "/how-to/capsules/database/guides/mysql/flask-+-mysql"
  },
  {
   "oldPath": "docs/database/mysql/index.md",
   "oldSlug": "/database/mysql",
   "type": "how-to",
-  "newPath": "docs/how-to/database/mysql/index.md",
-  "newSlug": "/how-to/database/mysql"
+  "newPath": "docs/how-to/capsules/database/guides/mysql/index.md",
+  "newSlug": "/how-to/capsules/database/guides/mysql"
  },
  {
   "oldPath": "docs/database/mysql/java-+-mysql.md",
   "oldSlug": "/database/mysql/java-+-mysql",
   "type": "how-to",
-  "newPath": "docs/how-to/database/mysql/java-+-mysql.md",
-  "newSlug": "/how-to/database/mysql/java-+-mysql"
+  "newPath": "docs/how-to/capsules/database/guides/mysql/java-+-mysql.md",
+  "newSlug": "/how-to/capsules/database/guides/mysql/java-+-mysql"
  },
  {
   "oldPath": "docs/database/postgres.md",
   "oldSlug": "/database/postgres",
   "type": "how-to",
-  "newPath": "docs/how-to/database/postgres.md",
-  "newSlug": "/how-to/database/postgres"
+  "newPath": "docs/how-to/capsules/database/guides/postgres.md",
+  "newSlug": "/how-to/capsules/database/guides/postgres"
  },
  {
   "oldPath": "docs/database/redis.md",
   "oldSlug": "/database/redis",
   "type": "how-to",
-  "newPath": "docs/how-to/database/redis.md",
-  "newSlug": "/how-to/database/redis"
+  "newPath": "docs/how-to/capsules/database/guides/redis.md",
+  "newSlug": "/how-to/capsules/database/guides/redis"
  },
  {
   "oldPath": "docs/enterprise/aws.md",
@@ -381,50 +381,50 @@
   "oldPath": "docs/frontend/angular.md",
   "oldSlug": "/frontend/angular",
   "type": "how-to",
-  "newPath": "docs/how-to/frontend/angular.md",
-  "newSlug": "/how-to/frontend/angular"
+  "newPath": "docs/how-to/capsules/frontend/guides/angular.md",
+  "newSlug": "/how-to/capsules/frontend/guides/angular"
  },
  {
   "oldPath": "docs/frontend/index.md",
   "oldSlug": "/frontend",
   "type": "how-to",
-  "newPath": "docs/how-to/frontend/index.md",
-  "newSlug": "/how-to/frontend"
+  "newPath": "docs/how-to/capsules/frontend/guides/index.md",
+  "newSlug": "/how-to/capsules/frontend/guides"
  },
  {
   "oldPath": "docs/frontend/next.js.md",
   "oldSlug": "/frontend/next.js",
   "type": "how-to",
-  "newPath": "docs/how-to/frontend/next.js.md",
-  "newSlug": "/how-to/frontend/next.js"
+  "newPath": "docs/how-to/capsules/frontend/guides/next.js.md",
+  "newSlug": "/how-to/capsules/frontend/guides/next.js"
  },
  {
   "oldPath": "docs/frontend/react.md",
   "oldSlug": "/frontend/react",
   "type": "how-to",
-  "newPath": "docs/how-to/frontend/react.md",
-  "newSlug": "/how-to/frontend/react"
+  "newPath": "docs/how-to/capsules/frontend/guides/react.md",
+  "newSlug": "/how-to/capsules/frontend/guides/react"
  },
  {
   "oldPath": "docs/frontend/static-html.md",
   "oldSlug": "/frontend/static-html",
   "type": "how-to",
-  "newPath": "docs/how-to/frontend/static-html.md",
-  "newSlug": "/how-to/frontend/static-html"
+  "newPath": "docs/how-to/capsules/frontend/guides/static-html.md",
+  "newSlug": "/how-to/capsules/frontend/guides/static-html"
  },
  {
   "oldPath": "docs/frontend/svelte.md",
   "oldSlug": "/frontend/svelte",
   "type": "how-to",
-  "newPath": "docs/how-to/frontend/svelte.md",
-  "newSlug": "/how-to/frontend/svelte"
+  "newPath": "docs/how-to/capsules/frontend/guides/svelte.md",
+  "newSlug": "/how-to/capsules/frontend/guides/svelte"
  },
  {
   "oldPath": "docs/frontend/vue.md",
   "oldSlug": "/frontend/vue",
   "type": "how-to",
-  "newPath": "docs/how-to/frontend/vue.md",
-  "newSlug": "/how-to/frontend/vue"
+  "newPath": "docs/how-to/capsules/frontend/guides/vue.md",
+  "newSlug": "/how-to/capsules/frontend/guides/vue"
  },
  {
   "oldPath": "docs/full-stack/flask-+-htmx.md",

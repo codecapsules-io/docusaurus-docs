@@ -1,5 +1,5 @@
 ---
-slug: "/how-to/database"
+slug: "/how-to/capsules/database/guides"
 diataxis: how-to
 description: "Connect your applications to managed database instances on Code Capsules, including MySQL, PostgreSQL, MongoDB, and Redis."
 title: "Managed Database Hosting — MySQL, MongoDB, Postgres & Redis"

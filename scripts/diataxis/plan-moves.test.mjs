@@ -5,8 +5,8 @@ import {parseDoc, setFrontmatter} from './lib/frontmatter.mjs';
 
 test('newLocation: framework guide keeps its area under how-to', () => {
   assert.deepEqual(newLocation('docs/frontend/react.md', 'how-to'), {
-    newPath: 'docs/how-to/frontend/react.md',
-    newSlug: '/how-to/frontend/react',
+    newPath: 'docs/how-to/capsules/frontend/guides/react.md',
+    newSlug: '/how-to/capsules/frontend/guides/react',
   });
 });
 
@@ -31,7 +31,7 @@ test('newLocation: tutorial from tutorials/ keeps its path', () => {
 });
 
 test('newLocation: index.md slug drops /index', () => {
-  assert.equal(newLocation('docs/database/mongodb/index.md', 'how-to').newSlug, '/how-to/database/mongodb');
+  assert.equal(newLocation('docs/database/mongodb/index.md', 'how-to').newSlug, '/how-to/capsules/database/guides/mongodb');
 });
 
 test('newLocation: products/index.md goes to how-to/products/index.md', () => {
@@ -84,6 +84,15 @@ test('newLocation: backend framework guides go under capsules/backend/guides/', 
   assert.equal(newLocation('docs/backend/java.md', 'how-to').newSlug, '/how-to/capsules/backend/guides/java');
   assert.equal(newLocation('docs/backend/index.md', 'how-to').newSlug, '/how-to/capsules/backend/guides');
   assert.equal(newLocation('docs/products/backend-capsule/index.md', 'how-to').newSlug, '/how-to/capsules/backend');
+});
+
+test('newLocation: frontend and database guides go under capsules/<name>/guides/', () => {
+  assert.equal(newLocation('docs/frontend/react.md', 'how-to').newPath, 'docs/how-to/capsules/frontend/guides/react.md');
+  assert.equal(newLocation('docs/frontend/index.md', 'how-to').newSlug, '/how-to/capsules/frontend/guides');
+  assert.equal(newLocation('docs/database/mongodb/express-+-mongodb.md', 'how-to').newPath, 'docs/how-to/capsules/database/guides/mongodb/express-+-mongodb.md');
+  assert.equal(newLocation('docs/database/postgres.md', 'how-to').newSlug, '/how-to/capsules/database/guides/postgres');
+  assert.equal(newLocation('docs/products/database-capsule/mongodb/deploy.md', 'how-to').newPath, 'docs/how-to/capsules/database/mongodb/deploy.md');
+  assert.equal(newLocation('docs/full-stack/mern-stack.md', 'how-to').newPath, 'docs/how-to/full-stack/mern-stack.md');
 });
 
 test('newLocation: platform capsule pages share the capsules/ folder', () => {

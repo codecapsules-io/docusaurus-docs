@@ -1,5 +1,5 @@
 ---
-slug: "/how-to/database/mongodb/flask-+-mongodb"
+slug: "/how-to/capsules/database/guides/mongodb/flask-+-mongodb"
 diataxis: how-to
 title: "Deploy Flask with MongoDB"
 description: "Deploy a Flask app with a MongoDB database on Code Capsules from GitHub. Connect Flask to a managed Mongo Data Capsule, step by step."
@@ -56,4 +56,4 @@ You can now view the application after the two capsules have been connected. To 
 
 ![Deployed App](/gitbook-assets/get-started/cc-flask-mongo-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/database/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/capsules/database/guides/).

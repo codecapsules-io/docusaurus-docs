@@ -13,7 +13,7 @@ const OVERRIDES = {
 };
 
 function tidy(rest) {
-  rest = rest.replace(/^backend\//, 'capsules/backend/guides/').replace(/^products\//, '').replace(/^(agent|backend|database|docker|frontend|storage|wordpress)-capsule\//, 'capsules/$1/').replace(/(^|\/)readme\//, '$1').replace(/\/versions\/upgrades\//, '/upgrades/');
+  rest = rest.replace(/^(backend|frontend|database)\//, 'capsules/$1/guides/').replace(/^products\//, '').replace(/^(agent|backend|database|docker|frontend|storage|wordpress)-capsule\//, 'capsules/$1/').replace(/(^|\/)readme\//, '$1').replace(/\/versions\/upgrades\//, '/upgrades/');
   return rest.startsWith('platform/') && rest.split('/').length >= 3 ? rest.slice('platform/'.length) : rest;
 }
 

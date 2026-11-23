@@ -16,19 +16,19 @@ Frontend Capsules build static sites and SPAs from your repository. The guides b
 
 ## JavaScript Frameworks
 
-- [React](/how-to/frontend/react/)
-- [Angular](/how-to/frontend/angular/)
-- [Vue](/how-to/frontend/vue/)
+- [React](/how-to/capsules/frontend/guides/react/)
+- [Angular](/how-to/capsules/frontend/guides/angular/)
+- [Vue](/how-to/capsules/frontend/guides/vue/)
 
 ## Modern Frontend Technologies
 
-- [Next.js](/how-to/frontend/next.js/)
-- [Svelte](/how-to/frontend/svelte/)
+- [Next.js](/how-to/capsules/frontend/guides/next.js/)
+- [Svelte](/how-to/capsules/frontend/guides/svelte/)
 
 ## Static Sites
 
-- [Static HTML](/how-to/frontend/static-html/)
+- [Static HTML](/how-to/capsules/frontend/guides/static-html/)
 
 ## Deployment Guides
 
-- [All Frontend Deployment Guides](/how-to/frontend/)
+- [All Frontend Deployment Guides](/how-to/capsules/frontend/guides/)

@@ -42,7 +42,7 @@ You can also verify the version by connecting to your database and running:
 db.version();
 ```
 
-If you connect from your local machine, connect with `mongosh` using the **Public Connection String** from your capsule **Details** tab. See [Connect from Outside Code Capsules](/how-to/database/mongodb/#connect-from-outside-code-capsules) for details.
+If you connect from your local machine, connect with `mongosh` using the **Public Connection String** from your capsule **Details** tab. See [Connect from Outside Code Capsules](/how-to/capsules/database/guides/mongodb/#connect-from-outside-code-capsules) for details.
 
 ## Upgrade Paths
 

@@ -19,10 +19,10 @@ MySQL Capsules provide a managed MySQL database for your applications on Code Ca
 
 ![MySQL Capsule Plan & Deploy step with Version selector and Plan options](/gitbook-assets/products/database-capsule/deploy/mysql-deploy-plan.png)
 
-Capsule creation can take several minutes. See the [MySQL getting started guide](/how-to/database/mysql/) for connection and binding instructions.
+Capsule creation can take several minutes. See the [MySQL getting started guide](/how-to/capsules/database/guides/mysql/) for connection and binding instructions.
 
 ## Framework Guides
 
-- [Django + MySQL](/how-to/database/mysql/django-+-mysql/)
-- [Flask + MySQL](/how-to/database/mysql/flask-+-mysql/)
-- [Java + MySQL](/how-to/database/mysql/java-+-mysql/)
+- [Django + MySQL](/how-to/capsules/database/guides/mysql/django-+-mysql/)
+- [Flask + MySQL](/how-to/capsules/database/guides/mysql/flask-+-mysql/)
+- [Java + MySQL](/how-to/capsules/database/guides/mysql/java-+-mysql/)

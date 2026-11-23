@@ -18,8 +18,8 @@ Redis Capsules provide a managed in-memory Redis database for your applications 
 
 ![Redis Capsule Plan & Deploy step](/gitbook-assets/products/database-capsule/deploy/redis-deploy-plan.png)
 
-Capsule creation can take several minutes. See the [Redis getting started guide](/how-to/database/redis/) for connection and binding instructions.
+Capsule creation can take several minutes. See the [Redis getting started guide](/how-to/capsules/database/guides/redis/) for connection and binding instructions.
 
 ## Framework Guides
 
-- [Redis](/how-to/database/redis/)
+- [Redis](/how-to/capsules/database/guides/redis/)

@@ -71,5 +71,5 @@ If you’d like to deploy another application in a different language or framewo
 
 ## Related guides
 
-- [Deploy Express with MongoDB](/how-to/database/mongodb/express-+-mongodb/)
+- [Deploy Express with MongoDB](/how-to/capsules/database/guides/mongodb/express-+-mongodb/)
 - [Deploy Next.js with Express.js](/how-to/full-stack/next.js/next.js-+-express.js/)

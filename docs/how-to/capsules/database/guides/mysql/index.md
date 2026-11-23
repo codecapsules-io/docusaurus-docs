@@ -1,5 +1,5 @@
 ---
-slug: "/how-to/database/mysql"
+slug: "/how-to/capsules/database/guides/mysql"
 diataxis: how-to
 description: "In this tutorial, we'll create a MySQL Data Capsule to provide persistent storage for your applications hosted on Code Capsules."
 title: "Managed MySQL Hosting"
@@ -78,4 +78,4 @@ con.connect(function(err) {
 
 ```
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/database/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/capsules/database/guides/).

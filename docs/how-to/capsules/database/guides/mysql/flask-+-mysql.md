@@ -1,5 +1,5 @@
 ---
-slug: "/how-to/database/mysql/flask-+-mysql"
+slug: "/how-to/capsules/database/guides/mysql/flask-+-mysql"
 diataxis: how-to
 title: "Deploy Flask with MySQL"
 description: "Deploy a Flask app with a MySQL database on Code Capsules from GitHub. Connect Flask to a managed MySQL Data Capsule, step by step."
@@ -65,4 +65,4 @@ After restarting the capsule, the application will now be ready to be viewed. Cl
 
 ![Deployed App](/gitbook-assets/get-started/flask-mysql-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/database/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/capsules/database/guides/).

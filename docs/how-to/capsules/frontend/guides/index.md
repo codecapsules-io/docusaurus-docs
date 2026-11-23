@@ -1,5 +1,5 @@
 ---
-slug: "/how-to/frontend"
+slug: "/how-to/capsules/frontend/guides"
 diataxis: how-to
 description: "Deploy frontend applications on Code Capsules with support for React, Vue, Angular, Next.js, Svelte, and static HTML."
 title: "Frontend & Static Site Hosting"

@@ -24,8 +24,8 @@ Capsule creation can take several minutes. See [Configure](/how-to/capsules/data
 
 ## Framework Guides
 
-- [Django + MongoDB](/how-to/database/mongodb/django-+-mongodb/)
-- [Express + MongoDB](/how-to/database/mongodb/express-+-mongodb/)
-- [Flask + MongoDB](/how-to/database/mongodb/flask-+-mongodb/)
+- [Django + MongoDB](/how-to/capsules/database/guides/mongodb/django-+-mongodb/)
+- [Express + MongoDB](/how-to/capsules/database/guides/mongodb/express-+-mongodb/)
+- [Flask + MongoDB](/how-to/capsules/database/guides/mongodb/flask-+-mongodb/)
 
 Use the MongoDB guides above and adapt the connection details from your DocumentDB Capsule.

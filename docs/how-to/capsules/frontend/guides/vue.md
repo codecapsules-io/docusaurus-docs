@@ -1,20 +1,22 @@
 ---
-slug: "/how-to/frontend/svelte"
+slug: "/how-to/capsules/frontend/guides/vue"
 diataxis: how-to
-description: "Deploy a Svelte application to Code Capsules from a GitHub repo. Host your frontend in production with automatic deploys on every push, step by step."
-title: "How to Host a Svelte Application"
-sidebar_label: "Svelte"
+description: >-
+  Host and set up auto deployments from a specified GitHub repo branch for a Vue
+  application.
+title: "How to Host a Vue Application"
+sidebar_label: "Vue"
 ---
 
-# Host Your Svelte Application in Minutes
+# Host Your Vue Application in Minutes
 
-Deploy a Svelte application and learn how to host frontend code on Code Capsules.
+Deploy a Vue application and learn how to host frontend code on Code Capsules.
 
 ## Setup
 
 Code Capsules connects to GitHub repositories to deploy applications. To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/) account and a [GitHub](https://github.com/) account.
 
-To demonstrate how to deploy a Svelte application with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-svelte).
+To demonstrate how to deploy a Vue application with Code Capsules, we've provided an example application, which you can find on the [Code Capsules GitHub repository](https://github.com/codecapsules-io/demo-vue).
 
 Sign in to GitHub, and fork the example application by clicking **Fork** at the top-right of your screen and selecting your GitHub account as the destination.
 
@@ -24,7 +26,7 @@ Log in to your Code Capsules account and navigate to the **Spaces** tab. Once th
 
 Follow the prompts, choosing your region and giving your Space a name, then click **Create Space**.
 
-![Create a Space](/gitbook-assets/get-started/space-name-1.png)
+![Create a New Space](/gitbook-assets/get-started/space-name-1.png)
 
 
 1. Choose a Team — you can use a default **personal** Team if you're the only person working on this project, or a named Team if you're collaborating with others
@@ -42,17 +44,17 @@ To create a new Capsule for your Space, follow the instructions below:
 3. Click the GitHub button and give access to the repository you forked at the start of the tutorial.
 4. Choose the GitHub repository you forked.
 5. Press **Next**.
-6. Type `npm run build` in **Build Command** and `public` in **Build Output Directory**.
+6. Type `npm run build` in **Build Command** and `dist` in **Build Output Directory**.
 7. Click **Create Capsule**.
 
 Code Capsules will automatically build your application when you've finished creating the Capsule.
 
 Once your application is live, you can view the build log by selecting the **Deploy** tab and clicking the **View build log** link in the **Builds** section.
 
-![Frontend Build Logs](/gitbook-assets/get-started/frontend-build-logs.png)
+![Build Logs](/gitbook-assets/get-started/frontend-build-logs.png)
 
 Once the build is complete, a URL link will appear in the URL section in the **Details** tab. Click the link, and you should see your deployed application.
 
-![Deployed App](/gitbook-assets/get-started/svelte-app.png)
+![Deployed App](/gitbook-assets/get-started/cc-vue-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/frontend/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/capsules/frontend/guides/).

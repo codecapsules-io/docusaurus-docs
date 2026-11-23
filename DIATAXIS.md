@@ -59,22 +59,22 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/capsules/backend/guides/python/python.md` | How to Deploy a Python Application |
 | `docs/how-to/capsules/backend/guides/python/whatsapp-bot.md` | How to Host a WhatsApp Bot in Python |
 | `docs/how-to/cli/getting-started/installation-and-usage.md` | Install and Use the CLI |
-| `docs/how-to/database/mongodb/django-+-mongodb.md` | Deploy Django with MongoDB |
-| `docs/how-to/database/mongodb/express-+-mongodb.md` | Deploy Express with MongoDB |
-| `docs/how-to/database/mongodb/flask-+-mongodb.md` | Deploy Flask with MongoDB |
-| `docs/how-to/database/mongodb/index.md` | Managed MongoDB Hosting |
-| `docs/how-to/database/mysql/django-+-mysql.md` | Deploy Django with MySQL |
-| `docs/how-to/database/mysql/flask-+-mysql.md` | Deploy Flask with MySQL |
-| `docs/how-to/database/mysql/index.md` | Managed MySQL Hosting |
-| `docs/how-to/database/mysql/java-+-mysql.md` | Deploy Java with MySQL |
-| `docs/how-to/database/postgres.md` | Managed PostgreSQL Hosting |
-| `docs/how-to/database/redis.md` | Managed Redis Hosting |
-| `docs/how-to/frontend/angular.md` | How to Host an Angular Application |
-| `docs/how-to/frontend/next.js.md` | How to Host a Next.js App |
-| `docs/how-to/frontend/react.md` | How to Host a React Application |
-| `docs/how-to/frontend/static-html.md` | How to Host a Static HTML Website |
-| `docs/how-to/frontend/svelte.md` | How to Host a Svelte Application |
-| `docs/how-to/frontend/vue.md` | How to Host a Vue Application |
+| `docs/how-to/capsules/database/guides/mongodb/django-+-mongodb.md` | Deploy Django with MongoDB |
+| `docs/how-to/capsules/database/guides/mongodb/express-+-mongodb.md` | Deploy Express with MongoDB |
+| `docs/how-to/capsules/database/guides/mongodb/flask-+-mongodb.md` | Deploy Flask with MongoDB |
+| `docs/how-to/capsules/database/guides/mongodb/index.md` | Managed MongoDB Hosting |
+| `docs/how-to/capsules/database/guides/mysql/django-+-mysql.md` | Deploy Django with MySQL |
+| `docs/how-to/capsules/database/guides/mysql/flask-+-mysql.md` | Deploy Flask with MySQL |
+| `docs/how-to/capsules/database/guides/mysql/index.md` | Managed MySQL Hosting |
+| `docs/how-to/capsules/database/guides/mysql/java-+-mysql.md` | Deploy Java with MySQL |
+| `docs/how-to/capsules/database/guides/postgres.md` | Managed PostgreSQL Hosting |
+| `docs/how-to/capsules/database/guides/redis.md` | Managed Redis Hosting |
+| `docs/how-to/capsules/frontend/guides/angular.md` | How to Host an Angular Application |
+| `docs/how-to/capsules/frontend/guides/next.js.md` | How to Host a Next.js App |
+| `docs/how-to/capsules/frontend/guides/react.md` | How to Host a React Application |
+| `docs/how-to/capsules/frontend/guides/static-html.md` | How to Host a Static HTML Website |
+| `docs/how-to/capsules/frontend/guides/svelte.md` | How to Host a Svelte Application |
+| `docs/how-to/capsules/frontend/guides/vue.md` | How to Host a Vue Application |
 | `docs/how-to/full-stack/flask-+-htmx.md` | How to Deploy a Flask + HTMX App |
 | `docs/how-to/full-stack/mean-stack.md` | How to Deploy a MEAN Stack Application |
 | `docs/how-to/full-stack/mern-stack.md` | How to Deploy a MERN Stack Application |
@@ -239,8 +239,8 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/reference/cli/index.md` | CLI Overview and Commands |
 | `docs/reference/cli/commands/index.md` | CLI Commands Reference |
 | `docs/how-to/cli/getting-started/index.md` | Getting Started With the CLI |
-| `docs/how-to/database/index.md` | Managed Database Hosting — MySQL, MongoDB, Postgres & Redis |
-| `docs/how-to/frontend/index.md` | Frontend & Static Site Hosting |
+| `docs/how-to/capsules/database/guides/index.md` | Managed Database Hosting — MySQL, MongoDB, Postgres & Redis |
+| `docs/how-to/capsules/frontend/guides/index.md` | Frontend & Static Site Hosting |
 | `docs/how-to/full-stack/index.md` | Full-Stack Application Hosting |
 | `docs/how-to/full-stack/next.js/index.md` | Next.js Full-Stack Hosting |
 | `docs/index.md` | Get Started: Deploy Your First App |

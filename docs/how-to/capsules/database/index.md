@@ -71,4 +71,4 @@ DocumentDB is a self-hosted, MongoDB API-compatible database. For new projects, 
 
 ## Deployment Guides
 
-- [All Database Deployment Guides](/how-to/database/)
+- [All Database Deployment Guides](/how-to/capsules/database/guides/)

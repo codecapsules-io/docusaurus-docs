@@ -57,7 +57,7 @@ To do this, visit the Agent Capsule [Scale](/how-to/capsules/agent/scale/) page.
 
 Each template has been written to use memory as a vector store for RAG. However, the templates also cater for connections to a Redis instance as its vector store. In order to set this up, follow the following steps:
 
-1. Create a [Redis Capsule](/how-to/database/redis/).
+1. Create a [Redis Capsule](/how-to/capsules/database/guides/redis/).
 2. Copy the **Connection String** in the **Details** tab of your **Redis Capsule**.
 3. Navigate to the **Config** page of your **Agent Capsule**.
 4. On the **Environment Variables** section (on the right-hand side), click the **Text Editor**.

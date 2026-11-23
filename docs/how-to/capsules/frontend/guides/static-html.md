@@ -1,5 +1,5 @@
 ---
-slug: "/how-to/frontend/static-html"
+slug: "/how-to/capsules/frontend/guides/static-html"
 diataxis: how-to
 description: "Deploy a static HTML website on Code Capsules and learn how to host frontend code. A simple step-by-step guide to serving static sites in production."
 title: "How to Host a Static HTML Website"
@@ -75,4 +75,4 @@ Once your application is live, you can view the build log by selecting the **Dep
 
 Once the build is complete, a URL link will appear in the URL section in the **Details** tab. Click the link, and you should see your deployed application.
 
-If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/frontend/).
+If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/capsules/frontend/guides/).

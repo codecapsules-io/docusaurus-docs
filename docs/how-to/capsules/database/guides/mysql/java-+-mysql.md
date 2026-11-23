@@ -1,5 +1,5 @@
 ---
-slug: "/how-to/database/mysql/java-+-mysql"
+slug: "/how-to/capsules/database/guides/mysql/java-+-mysql"
 diataxis: how-to
 title: "Deploy Java with MySQL"
 description: "Deploy a Java app with a MySQL database on Code Capsules from GitHub. Connect your Java backend to a managed MySQL Data Capsule, step by step."
@@ -56,4 +56,4 @@ You can now view the application after the two capsules have been connected. To 
 
 ![Deployed App](/gitbook-assets/get-started/java-mysql-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/database/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/capsules/database/guides/).

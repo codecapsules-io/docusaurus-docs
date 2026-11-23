@@ -199,7 +199,7 @@ Applications that need a persistent Node.js server at runtime — including SSR 
 
 | Framework             | Capsule type    | Guide                                          |
 | --------------------- | --------------- | ---------------------------------------------- |
-| Next.js (with server) | Backend Capsule | [Next.js](/how-to/frontend/next.js/)                  |
+| Next.js (with server) | Backend Capsule | [Next.js](/how-to/capsules/frontend/guides/next.js/)                  |
 | Nuxt with Nitro       | Backend Capsule | [Nuxt3 and Nitro](/how-to/guides/nuxt3-and-nitro/) |
 
 ## Applications outside supported runtimes

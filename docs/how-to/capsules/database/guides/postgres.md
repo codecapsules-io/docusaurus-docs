@@ -1,5 +1,5 @@
 ---
-slug: "/how-to/database/postgres"
+slug: "/how-to/capsules/database/guides/postgres"
 diataxis: how-to
 description: "In this tutorial, we'll create a PostgreSQL Data Capsule to provide persistent storage for your applications hosted on Code Capsules."
 title: "Managed PostgreSQL Hosting"
@@ -84,4 +84,4 @@ client.connect()
   });
 ```
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/database/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/capsules/database/guides/).
