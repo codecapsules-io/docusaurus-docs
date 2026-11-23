@@ -12,30 +12,7 @@ WordPress Capsules include a built-in **FastCGI full-page cache** that stores re
 
 The cache is **disabled by default**. Enable it by setting `CACHE_TTL_SECONDS`.
 
----
-
-## How It Works
-
-When an anonymous visitor requests a page:
-
-1. Nginx checks the cache for a stored response matching that URL.
-2. **Cache HIT** — the stored HTML is returned immediately. PHP and the database are not involved.
-3. **Cache MISS** — nginx passes the request to PHP-FPM, WordPress renders the page, and the result is stored in the cache for subsequent requests.
-
-The cache is automatically **bypassed** for:
-- Logged-in users (any `wordpress_logged_in` cookie)
-- WooCommerce sessions (cart, checkout, account pages)
-- Easy Digital Downloads sessions (`edd_items_in_cart`)
-- Password-protected posts
-- Comment authors (they see their own comment immediately)
-- All POST, PUT, PATCH, DELETE requests
-- wp-admin, wp-login.php, xmlrpc.php, wp-cron.php
-- The WordPress REST API (`/wp-json/` and `/wc-api/`)
-- Cart and checkout paths (`/cart/`, `/checkout/`, `/my-account/`, `/account/`)
-- Search results (`?s=`)
-- Live preview and page builder previews
-
-This means your admin experience, checkout flow, and all authenticated sessions always go directly to PHP — the cache only affects anonymous public traffic.
+To understand what the cache stores and bypasses, see [How WordPress caching works](/explanation/capsules/wordpress/caching/). For every variable and the `X-Cache` header values, see the [WordPress cache reference](/reference/capsules/wordpress/caching/).
 
 ---
 
@@ -76,19 +53,6 @@ Use this when:
 
 ---
 
-## WooCommerce
-
-WooCommerce is fully supported. The cache is automatically bypassed for:
-
-- The cart page
-- The checkout page
-- The account page
-- Any visitor with an active WooCommerce session cookie (`woocommerce_items_in_cart`, `woocommerce_cart_hash`, `wp_woocommerce_session`)
-
-Product listing and product detail pages **are** cached for anonymous visitors, which is correct — stock levels and prices displayed there update within the cache TTL. For sites where stock accuracy within seconds is critical (flash sales, limited edition drops), leave `CACHE_TTL_SECONDS` unset or use a very low value like `CACHE_TTL_SECONDS=10`.
-
----
-
 ## Caching Plugins
 
 If you install a caching plugin (WP Rocket, W3 Total Cache, WP Super Cache), leave `CACHE_TTL_SECONDS` unset and let the plugin manage caching. Running both the built-in nginx cache and a WordPress caching plugin simultaneously can cause unexpected interactions.
@@ -105,36 +69,9 @@ Enable the `X-Cache` response header to inspect whether a response was served fr
 DEBUG_HEADERS=true
 ```
 
-With this enabled, every response includes:
 
-| Header value | Meaning |
-|---|---|
-| `HIT` | Served from cache — PHP was not involved |
-| `MISS` | Not in cache — PHP rendered the page and it was stored |
-| `BYPASS` | Cache bypassed for this request (logged in, cart, POST, etc.) |
-| `EXPIRED` | Cached entry existed but has expired |
+For what each header value means, see [X-Cache header values](/reference/capsules/wordpress/caching/#x-cache-header-values).
 
 :::caution
 `DEBUG_HEADERS=true` reveals your caching infrastructure to anyone who can inspect response headers. Only enable it temporarily for debugging. Disable it (`DEBUG_HEADERS=false`) in production.
 :::
-
----
-
-## How the Cache Key Works
-
-The cache key is constructed from the request scheme, method, host, and full URI:
-
-```
-scheme | method | host | full URI
-```
-
-This means `https://example.com/page/` and `http://example.com/page/` are stored separately. Query strings are part of the key, so `/?page=1` and `/?page=2` are separate entries.
-
----
-
-## Environment Variables Reference
-
-| Variable | Default | Description |
-|---|---|---|
-| `CACHE_TTL_SECONDS` | unset (disabled) | Cache TTL in seconds. Must be a positive integer. Unset to disable caching. |
-| `DEBUG_HEADERS` | `false` | Expose `X-Cache` header for cache debugging |
