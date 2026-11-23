@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {checkTypes, checkBodies, checkNoOldSlugs} from './verify.mjs';
+import {checkTypes, checkBodies, checkNoOldSlugs, checkSplit} from './verify.mjs';
 
 test('checkTypes: passes a doc in the folder that matches its type', () => {
   assert.deepEqual(checkTypes([
@@ -41,4 +41,21 @@ test('checkNoOldSlugs: flags a link to a slug that no longer exists', () => {
   assert.equal(errors.length, 1);
   assert.match(errors[0], /docs\/a\.md/);
   assert.deepEqual(checkNoOldSlugs([{path: 'docs/a.md', text: 'See [x](/how-to/frontend/react).'}], ['/frontend/react']), []);
+});
+
+const page = (body) => `---\nslug: "/x"\n---\n${body}`;
+
+test('checkSplit: passes when every original line survives in some part, allowing added lines and link-target changes', () => {
+  const before = page('# T\n\nIntro line.\n\n## A\n\nSee [x](#a).\n\n## B\n\n| a | b |\n');
+  const parts = [
+    page('# T\n\nIntro line.\n\nNew cross link.\n\n## A\n\nSee [x](/other/#a).\n'),
+    page('# Ref\n\n## B\n\n|   a   |  b  |\n'),
+  ];
+  assert.deepEqual(checkSplit(before, parts), []);
+});
+
+test('checkSplit: reports an original line that no part contains', () => {
+  const before = page('# T\n\nKeep me.\n\nLose me.\n');
+  const missing = checkSplit(before, [page('# T\n\nKeep me.\n')]);
+  assert.deepEqual(missing, ['Lose me.']);
 });

@@ -1,0 +1,10 @@
+[
+ {
+  "from": "docs/platform/capsules/health-checks.md",
+  "parts": [
+   "docs/how-to/capsules/health-checks.md",
+   "docs/reference/capsules/health-checks.md",
+   "docs/explanation/capsules/health-checks.md"
+  ]
+ }
+]

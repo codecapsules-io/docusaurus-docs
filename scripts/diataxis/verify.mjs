@@ -27,6 +27,18 @@ export function checkBodies(pairs) {
     .map((p) => `${p.path}: body changed beyond link targets`);
 }
 
+const lineSet = (text) =>
+  normalise(text)
+    .split('\n')
+    .map((l) => l.replace(/^#+\s*/, '').replace(/\s+/g, ' ').trim())
+    .filter(Boolean);
+
+// Every non-empty line of the original must appear in one of the split parts.
+export function checkSplit(before, parts) {
+  const have = new Set(parts.flatMap(lineSet));
+  return lineSet(before).filter((l) => !have.has(l));
+}
+
 export function checkNoOldSlugs(files, oldOnlySlugs) {
   const old = new Set(oldOnlySlugs);
   const errors = [];
@@ -65,18 +77,29 @@ async function main() {
       if (dir === 'docs') docs.push({path: rel, diataxis: parseDoc(text).frontmatter.diataxis});
     }
   }
+  let splits = [];
+  try {
+    splits = JSON.parse(await read('scripts/diataxis/splits.json'));
+  } catch {}
   const landing = 4 - 1;
-  const expected = moves.length + landing;
+  const extraFiles = splits.reduce((n, sp) => n + sp.parts.length - 1, 0);
+  const expected = moves.length + landing + extraFiles;
   if (current.length !== expected) errors.push(`file count ${current.length}, expected ${expected}`);
   errors.push(...checkTypes(docs));
 
   // Index pages are regenerated from the folder tree, so their bodies are not compared.
-  const pairs = moves.filter((m) => m.type !== 'index').map((m) => ({
+  const splitFrom = new Set(splits.map((sp) => sp.from));
+  const pairs = moves.filter((m) => m.type !== 'index' && !splitFrom.has(m.oldPath)).map((m) => ({
     path: m.newPath,
     before: execFileSync('git', ['show', `${sha}:${m.oldPath}`], {cwd: root, encoding: 'utf8', maxBuffer: 1 << 26}),
     after: current.find((c) => c.path === m.newPath)?.text ?? '',
   }));
   errors.push(...checkBodies(pairs));
+  for (const sp of splits) {
+    const before = execFileSync('git', ['show', `${sha}:${sp.from}`], {cwd: root, encoding: 'utf8', maxBuffer: 1 << 26});
+    const parts = sp.parts.map((p) => current.find((c) => c.path === p)?.text ?? '');
+    for (const line of checkSplit(before, parts)) errors.push(`${sp.from}: line lost in split: ${line.slice(0, 80)}`);
+  }
 
   const newSlugs = new Set(moves.map((m) => m.newSlug));
   const oldOnly = moves.map((m) => m.oldSlug).filter((s) => s && !newSlugs.has(s));
