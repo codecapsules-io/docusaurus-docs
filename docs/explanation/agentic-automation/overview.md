@@ -1,7 +1,7 @@
 ---
 slug: "/explanation/agentic-automation/overview"
-sidebar_position: 0
 diataxis: explanation
+sidebar_position: 0
 description: "A framework for building reliable agentic automation with git, simple code and cloud infrastructure, turning unpredictable AI into dependable automation."
 title: "Agentic Automation for Business Processes"
 sidebar_label: "Overview"

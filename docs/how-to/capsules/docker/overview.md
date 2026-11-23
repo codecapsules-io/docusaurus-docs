@@ -1,7 +1,7 @@
 ---
 slug: "/how-to/capsules/docker/overview"
-sidebar_position: 0
 diataxis: how-to
+sidebar_position: 0
 description: "Run containerized apps on Code Capsules with a Docker Capsule, built from your own Dockerfile or deployed from an existing public container image."
 title: "Docker Container Hosting"
 sidebar_label: "Overview"

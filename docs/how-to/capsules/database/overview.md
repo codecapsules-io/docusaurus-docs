@@ -1,7 +1,7 @@
 ---
 slug: "/how-to/capsules/database/overview"
-sidebar_position: 0
 diataxis: how-to
+sidebar_position: 0
 description: "Deploy and manage database instances on Code Capsules, including MySQL, PostgreSQL, MongoDB, DocumentDB, and Redis."
 title: "Managed Database Hosting"
 sidebar_label: "Overview"

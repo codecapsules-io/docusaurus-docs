@@ -87,10 +87,15 @@ test('newLocation: frontend and database guides go under capsules/<name>/guides/
   assert.equal(newLocation('docs/full-stack/mern-stack.md', 'how-to').newPath, 'docs/how-to/full-stack/mern-stack.md');
 });
 
-test('newLocation: single-page tutorial folders are flattened into tutorials/', () => {
-  assert.deepEqual(newLocation('docs/cli/readme/getting-started/quick-start.md', 'tutorial'), {
-    newPath: 'docs/tutorials/cli-quick-start.md',
-    newSlug: '/tutorials/cli-quick-start',
+test('resolveType: the CLI quick start is a how-to, not a tutorial', () => {
+  const labels = new Map([['docs/cli/readme/getting-started/quick-start.md', 'tutorial']]);
+  assert.equal(resolveType('docs/cli/readme/getting-started/quick-start.md', labels), 'how-to');
+});
+
+test('newLocation: the CLI quick start sits with the CLI getting-started guides; the sandbox quickstart is flattened', () => {
+  assert.deepEqual(newLocation('docs/cli/readme/getting-started/quick-start.md', 'how-to'), {
+    newPath: 'docs/how-to/cli/getting-started/quick-start.md',
+    newSlug: '/how-to/cli/getting-started/quick-start',
   });
   assert.equal(newLocation('docs/sandbox/quickstart.md', 'tutorial').newPath, 'docs/tutorials/sandbox-quickstart.md');
 });

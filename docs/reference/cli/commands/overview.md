@@ -1,7 +1,7 @@
 ---
 slug: "/reference/cli/commands/overview"
-sidebar_position: 0
 diataxis: reference
+sidebar_position: 0
 description: Commands available via the Code Capsules CLI
 title: "CLI Commands Reference"
 sidebar_label: "All Commands"

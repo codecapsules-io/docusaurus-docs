@@ -45,7 +45,6 @@ const OVERRIDES = {
   'docs/persistent-storage.md': 'capsules/storage/persistent-storage.md',
   'docs/platform/platform.md': 'platform/overview.md',
   'docs/products/agent-capsule/chat/index.md': 'capsules/agent/chat.md',
-  'docs/cli/readme/getting-started/quick-start.md': 'cli-quick-start.md',
   'docs/sandbox/quickstart.md': 'sandbox-quickstart.md',
   'docs/sandbox/index.md': 'sandbox/overview.md',
   'docs/products/alerting.md': 'capsules/alerting.md',
@@ -75,6 +74,7 @@ export function loadLabels(diataxisMd) {
 export function resolveType(oldPath, labels) {
   if (oldPath === 'docs/index.md') return 'how-to';
   if (INDEX_PAGES[oldPath]) return 'index';
+  if (oldPath === 'docs/cli/readme/getting-started/quick-start.md') return 'how-to';
   const label = labels.get(oldPath);
   if (label === 'release-notes') return 'release-notes';
   if (label === 'overview') return 'explanation';

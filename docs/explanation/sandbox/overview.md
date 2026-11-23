@@ -1,7 +1,7 @@
 ---
 slug: "/explanation/sandbox/overview"
-sidebar_position: 0
 diataxis: explanation
+sidebar_position: 0
 title: "AI Agent Sandboxes: Firecracker microVMs"
 description: "Ephemeral isolated Linux environments for AI agents. Create a Firecracker microVM, run any command, and delete it via REST API."
 sidebar_label: "Overview"

@@ -1,7 +1,7 @@
 ---
 slug: "/reference/sandbox/python/overview"
-sidebar_position: 0
 diataxis: reference
+sidebar_position: 0
 title: "Sandbox SDK for Python"
 description: "The codecapsules-sandbox Python SDK for creating and managing Firecracker microVM sandboxes."
 sidebar_label: "Overview"

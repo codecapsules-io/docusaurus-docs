@@ -18,7 +18,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 
 | Doc | Title |
 |---|---|
-| `docs/tutorials/cli-quick-start.md` | CLI Quick Start Guide |
+| `docs/how-to/cli/getting-started/quick-start.md` | CLI Quick Start Guide |
 | `docs/tutorials/sandbox-quickstart.md` | Sandbox SDK Quick Start |
 | `docs/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx.md` | Generative Art App with Flask |
 | `docs/tutorials/build-a-mern-job-board.md` | Build a MERN Job Board |

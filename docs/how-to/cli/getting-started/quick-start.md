@@ -1,9 +1,9 @@
 ---
-slug: "/tutorials/cli-quick-start"
-diataxis: tutorial
+slug: "/how-to/cli/getting-started/quick-start"
+diataxis: how-to
 description: "To use the CLI, log in to your Code Capsules account."
 title: "CLI Quick Start Guide"
-sidebar_label: "CLI Quick Start"
+sidebar_label: "Quick Start"
 ---
 
 # Your First Deploy From the Terminal

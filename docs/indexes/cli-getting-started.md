@@ -11,8 +11,8 @@ sidebar_label: "CLI getting started"
 {/* generated-index */}
 
 - [Install and Use the CLI](/how-to/cli/getting-started/installation-and-usage)
+- [Quick Start](/how-to/cli/getting-started/quick-start)
 
 ## Related
 
-- [CLI Quick Start](/tutorials/cli-quick-start)
 - [Prerequisites](/reference/cli/getting-started/prerequisites)

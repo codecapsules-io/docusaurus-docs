@@ -254,9 +254,9 @@
  {
   "oldPath": "docs/cli/readme/getting-started/quick-start.md",
   "oldSlug": "/cli/readme/getting-started/quick-start",
-  "type": "tutorial",
-  "newPath": "docs/tutorials/cli-quick-start.md",
-  "newSlug": "/tutorials/cli-quick-start"
+  "type": "how-to",
+  "newPath": "docs/how-to/cli/getting-started/quick-start.md",
+  "newSlug": "/how-to/cli/getting-started/quick-start"
  },
  {
   "oldPath": "docs/cli/readme/global-options.md",

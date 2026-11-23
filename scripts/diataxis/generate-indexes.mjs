@@ -58,7 +58,6 @@ const INDEXES = {
   'full-stack-guides': {sections: [{folder: 'docs/how-to/full-stack', depth: 2}]},
   'nextjs-full-stack-guides': {sections: [{folder: 'docs/how-to/full-stack/next.js', depth: 1}]},
   'cli-getting-started': {sections: [{folder: 'docs/how-to/cli/getting-started', depth: 1}], extra: [
-    {label: 'CLI Quick Start', slug: '/tutorials/cli-quick-start'},
     {label: 'Prerequisites', slug: '/reference/cli/getting-started/prerequisites'},
   ]},
   cli: {sections: [{folder: 'docs/reference/cli', depth: 2}], extra: [{label: 'Getting started with the CLI', slug: '/indexes/cli-getting-started'}]},
