@@ -1,5 +1,6 @@
 ---
-title: "Build a Monitoring Slackbot"
+title: "Build a Monitoring Slackbot with Node.js"
+sidebar_label: "Monitoring Slackbot (Node.js)"
 slug: "/tutorials/monitoring-slackbot-node"
 diataxis: tutorial
 description: >-

@@ -1,5 +1,6 @@
 ---
-title: "Host a Go AI Telegram Bot"
+title: "Build an AI Telegram Bot with Go"
+sidebar_label: "Telegram Bot (Go, AI)"
 slug: "/tutorials/telegram-bot-go-ai"
 diataxis: tutorial
 description: "Build a Go Telegram bot that replies with AI and a custom personality, then deploy it to production on Code Capsules. Step-by-step tutorial."

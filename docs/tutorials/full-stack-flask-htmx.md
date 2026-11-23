@@ -1,5 +1,6 @@
 ---
-title: "Full Stack App with Flask and HTMx"
+title: "Build a Full-Stack App with Flask and HTMX"
+sidebar_label: "Full-Stack App (Flask + HTMX)"
 slug: "/tutorials/full-stack-flask-htmx"
 diataxis: tutorial
 description: "Build a full-stack app with Flask and HTMX for server-rendered interactivity without a JS framework, then deploy it to Code Capsules."

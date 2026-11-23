@@ -1,5 +1,6 @@
 ---
-title: "Host a Python Telegram Bot"
+title: "Build a Telegram Bot with Python"
+sidebar_label: "Telegram Bot (Python)"
 slug: "/tutorials/telegram-bot-python"
 diataxis: tutorial
 description: "Build a Python Telegram bot that sends exchange-rate and weather data, then host it on Code Capsules. Full walkthrough from Bot API to live."

@@ -1,5 +1,6 @@
 ---
-title: "Generative Art App with Flask"
+title: "Build a Generative Art App with Flask and Pillow"
+sidebar_label: "Generative Art (Flask)"
 slug: "/tutorials/generative-art-flask"
 diataxis: tutorial
 description: "Build a generative art web app with Python, Pillow, Flask and HTMX, then deploy it to Code Capsules. Generate and serve unique images live."

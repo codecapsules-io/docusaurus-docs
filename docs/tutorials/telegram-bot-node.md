@@ -1,5 +1,6 @@
 ---
-title: "Host a Node.js Telegram Bot"
+title: "Build a Telegram Bot with Node.js"
+sidebar_label: "Telegram Bot (Node.js)"
 slug: "/tutorials/telegram-bot-node"
 diataxis: tutorial
 description: "Build a Node.js Telegram bot that automates replies, then deploy and host it on Code Capsules. Full walkthrough from Bot API token to production."

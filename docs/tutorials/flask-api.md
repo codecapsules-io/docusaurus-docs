@@ -1,7 +1,8 @@
 ---
 slug: "/tutorials/flask-api"
 diataxis: tutorial
-title: "Create and Host an API with Flask"
+title: "Build an API with Flask"
+sidebar_label: "API (Flask)"
 description: >-
   Build a personal API that lets you access up to the minute exchange rates and
   weather data for cities of your choosing.

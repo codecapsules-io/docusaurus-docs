@@ -1,5 +1,6 @@
 ---
-title: "Telegram Calendar Assistant Tutorial"
+title: "Build a Telegram Calendar Assistant"
+sidebar_label: "Telegram Calendar Assistant"
 slug: "/tutorials/telegram-calendar-assistant"
 diataxis: tutorial
 description: >-

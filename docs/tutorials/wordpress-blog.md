@@ -1,5 +1,6 @@
 ---
 title: "Host a Production WordPress Blog"
+sidebar_label: "WordPress Blog"
 slug: "/tutorials/wordpress-blog"
 diataxis: tutorial
 description: "The Amazon Web Services (AWS) WordPress reference architecture has become a meme in DevOps circles. The 2018 best practices whitepaper recommends you..."
