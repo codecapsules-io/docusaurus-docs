@@ -6,7 +6,7 @@ description: Detailed tutorials to help you use Code Capsules based on your use 
 cover: /gitbook-assets/tutorials/generic-docs-banner.jpg
 coverY: 80
 title: "Deployment Tutorials & Step-by-Step Guides"
-sidebar_label: "Tutorials Overview"
+sidebar_label: "Tutorials"
 ---
 
 # Learn by Deploying
