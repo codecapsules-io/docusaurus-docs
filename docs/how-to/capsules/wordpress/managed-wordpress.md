@@ -3,7 +3,7 @@ slug: "/how-to/capsules/wordpress/managed-wordpress"
 diataxis: how-to
 description: "Host WordPress on Code Capsules with a managed, git-free WordPress Capsule: built-in database, storage, and caching. Get started here."
 title: "Managed WordPress Hosting"
-sidebar_label: "WordPress"
+sidebar_label: "Managed WordPress"
 ---
 
 # WordPress, Fully Managed

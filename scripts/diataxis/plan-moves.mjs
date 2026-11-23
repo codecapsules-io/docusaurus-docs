@@ -13,6 +13,11 @@ const OVERRIDES = {
   'docs/cli/readme/getting-started/quick-start.md': 'cli-quick-start.md',
   'docs/sandbox/quickstart.md': 'sandbox-quickstart.md',
   'docs/sandbox/index.md': 'sandbox/overview.md',
+  'docs/products/alerting.md': 'capsules/alerting.md',
+  'docs/products/frontend-capsule/container/deploy.md': 'capsules/frontend/deploy-container.md',
+  'docs/products/frontend-capsule/static/deploy.md': 'capsules/frontend/deploy-static.md',
+  'docs/products/frontend-capsule/static/plans.md': 'capsules/frontend/static-plans.md',
+  'docs/products/agent-capsule/chat/agent-api-sample.mdx': 'capsules/agent/agent-api-sample.mdx',
 };
 
 function tidy(rest) {

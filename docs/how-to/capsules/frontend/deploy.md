@@ -9,10 +9,10 @@ sidebar_label: "Framework Guides"
 # Deploy Your Frontend App
 
 :::tip[Static frontends are free]
-Each account can host up to five static Frontend Capsules for free, with custom domains and SSL included. Free capsules have a 30 MB build limit and 50 GB of traffic a month. See [Free and Paid Plans](/reference/capsules/frontend/static/plans/).
+Each account can host up to five static Frontend Capsules for free, with custom domains and SSL included. Free capsules have a 30 MB build limit and 50 GB of traffic a month. See [Free and Paid Plans](/reference/capsules/frontend/static-plans/).
 :::
 
-Frontend Capsules build static sites and SPAs from your repository. The guides below work with both [Static](/how-to/capsules/frontend/static/deploy/) and [Container](/how-to/capsules/frontend/container/deploy/) hosting. See [Supported Runtimes](/reference/capsules/frontend/supported-runtimes/) for platform versions, framework build settings, and Node.js pinning.
+Frontend Capsules build static sites and SPAs from your repository. The guides below work with both [Static](/how-to/capsules/frontend/deploy-static/) and [Container](/how-to/capsules/frontend/deploy-container/) hosting. See [Supported Runtimes](/reference/capsules/frontend/supported-runtimes/) for platform versions, framework build settings, and Node.js pinning.
 
 ## JavaScript Frameworks
 

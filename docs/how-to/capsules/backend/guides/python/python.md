@@ -3,7 +3,7 @@ slug: "/how-to/capsules/backend/guides/python/python"
 diataxis: how-to
 description: "In this guide, we'll clone an existing Python repository and take a look at how to edit the project locally before pushing the changes to GitHub. The..."
 title: "How to Deploy a Python Application"
-sidebar_label: "Python"
+sidebar_label: "Python Application"
 ---
 
 # Deploy Your Python Application in Minutes

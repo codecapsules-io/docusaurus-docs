@@ -3,7 +3,7 @@ slug: "/how-to/capsules/backend/guides/go/go"
 diataxis: how-to
 description: "Deploy a Go application to Code Capsules from a GitHub repo. Build and run your Go backend in production with managed hosting, step by step."
 title: "How to Deploy a Go Application"
-sidebar_label: "Go"
+sidebar_label: "Go Application"
 ---
 
 # Deploy Your Go Application in Minutes

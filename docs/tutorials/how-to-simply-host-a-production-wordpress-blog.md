@@ -255,7 +255,7 @@ Use the following Code Capsules capabilities to monitor your WordPress site.
 
 ![Screenshot](/gitbook-assets/tutorials/wordpress-blog/wordpress-access-logs-view.png)
 
-* [**Alerting**](/how-to/alerting/)**:** Configure alerts for high CPU usage, error rates, and downtime. Receive notifications via email or webhooks before users report problems.
+* [**Alerting**](/how-to/capsules/alerting/)**:** Configure alerts for high CPU usage, error rates, and downtime. Receive notifications via email or webhooks before users report problems.
 * [**Metrics**](/how-to/capsules/wordpress/monitor/)**:** Check resource usage on the machine.
 
 ![Screenshot](/gitbook-assets/tutorials/wordpress-blog/wordpress-metrics-dashboard.png)

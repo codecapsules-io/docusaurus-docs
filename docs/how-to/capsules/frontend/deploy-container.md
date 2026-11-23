@@ -1,16 +1,16 @@
 ---
-slug: "/how-to/capsules/frontend/container/deploy"
+slug: "/how-to/capsules/frontend/deploy-container"
 diataxis: how-to
 description: "Deploy a static site or SPA on Code Capsules with Container hosting. A web server runs in an always-on container with runtime logs, metrics, and scaling."
 title: "How to Deploy a Container Frontend"
-sidebar_label: "Deploy"
+sidebar_label: "Deploy a Container Frontend"
 ---
 
 # Deploy Your Frontend With Container Hosting
 
 With Container hosting, Code Capsules builds your project and serves the output from a web server that runs in an always-on container. You get runtime logs, access logs, and metrics, and you can scale CPU, memory, and replicas as your traffic grows.
 
-Container hosting serves the same static files as [Static hosting](/how-to/capsules/frontend/static/deploy/). It doesn't run your own server code. If you need server-side rendering or API routes, use a [Backend Capsule](/how-to/capsules/backend/) instead.
+Container hosting serves the same static files as [Static hosting](/how-to/capsules/frontend/deploy-static/). It doesn't run your own server code. If you need server-side rendering or API routes, use a [Backend Capsule](/how-to/capsules/backend/) instead.
 
 ## Prerequisites
 

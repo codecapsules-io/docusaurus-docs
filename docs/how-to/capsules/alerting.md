@@ -1,5 +1,5 @@
 ---
-slug: "/how-to/alerting"
+slug: "/how-to/capsules/alerting"
 diataxis: how-to
 description: "Configure alerting on Code Capsules to get notified by email about your Capsules' health, errors, and resource usage."
 title: "How to Set Up Deployment Notifications"

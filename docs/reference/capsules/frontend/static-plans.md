@@ -1,9 +1,9 @@
 ---
-slug: "/reference/capsules/frontend/static/plans"
+slug: "/reference/capsules/frontend/static-plans"
 diataxis: reference
 description: "Compare the Free and Paid plans for static Frontend Capsules on Code Capsules, including build size, monthly traffic, rate limits, and how to upgrade."
 title: "Static Frontend Free and Paid Plans"
-sidebar_label: "Free and Paid Plans"
+sidebar_label: "Static Frontend Plans"
 ---
 
 # Free and Paid Plans for Static Hosting
@@ -75,6 +75,6 @@ You can't move a Paid capsule back to Free. To use the Free plan again, create a
 
 ## Related
 
-- [Deploy with Static hosting](/how-to/capsules/frontend/static/deploy/)
-- [Container hosting](/how-to/capsules/frontend/container/deploy/): if you want runtime logs, metrics, or scaling
+- [Deploy with Static hosting](/how-to/capsules/frontend/deploy-static/)
+- [Container hosting](/how-to/capsules/frontend/deploy-container/): if you want runtime logs, metrics, or scaling
 - [How pricing works](/reference/billing/how-does-the-pricing-work/)

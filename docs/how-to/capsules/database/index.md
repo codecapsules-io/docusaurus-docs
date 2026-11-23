@@ -21,7 +21,7 @@ Deploy and manage managed database instances on Code Capsules.
 - [Backups](/how-to/capsules/database/mysql/backups/) — manual and scheduled backups
 - [Monitor](/how-to/capsules/database/mysql/monitor/) — view metrics and performance data
 - [Logs](/how-to/capsules/database/mysql/logs/) — access system logs
-- [Alerting](/how-to/alerting/) — set up notifications for capsule events
+- [Alerting](/how-to/capsules/alerting/) — set up notifications for capsule events
 
 ## MongoDB
 
@@ -33,7 +33,7 @@ MongoDB Capsules are managed clusters on MongoDB Atlas. This is the **recommende
 - [Scale](/how-to/capsules/database/mongodb/scale/) — change instance size, storage, replicas, or upgrade Shared to Dedicated
 - [Backups](/how-to/capsules/database/mongodb/backups/) — manual and scheduled backups
 - [Monitor](/how-to/capsules/database/mongodb/monitor/) — view usage and metrics
-- [Alerting](/how-to/alerting/) — set up notifications for capsule events
+- [Alerting](/how-to/capsules/alerting/) — set up notifications for capsule events
 
 ## DocumentDB
 
@@ -46,7 +46,7 @@ DocumentDB is a self-hosted, MongoDB API-compatible database. For new projects, 
 - [Backups](/how-to/capsules/database/documentdb/backups/) — manual and scheduled backups
 - [Monitor](/how-to/capsules/database/documentdb/monitor/) — view metrics and usage data
 - [Logs](/how-to/capsules/database/documentdb/logs/) — access system logs
-- [Alerting](/how-to/alerting/) — set up notifications for capsule events
+- [Alerting](/how-to/capsules/alerting/) — set up notifications for capsule events
 
 ## PostgreSQL
 
@@ -57,7 +57,7 @@ DocumentDB is a self-hosted, MongoDB API-compatible database. For new projects, 
 - [Backups](/how-to/capsules/database/postgresql/backups/) — manual and scheduled backups
 - [Monitor](/how-to/capsules/database/postgresql/monitor/) — view metrics and performance data
 - [Logs](/how-to/capsules/database/postgresql/logs/) — access system logs
-- [Alerting](/how-to/alerting/) — set up notifications for capsule events
+- [Alerting](/how-to/capsules/alerting/) — set up notifications for capsule events
 
 ## Redis
 
@@ -67,7 +67,7 @@ DocumentDB is a self-hosted, MongoDB API-compatible database. For new projects, 
 - [Scale](/how-to/capsules/database/redis/scale/) — allocate resources as your workload grows
 - [Monitor](/how-to/capsules/database/redis/monitor/) — view metrics and performance data
 - [Logs](/how-to/capsules/database/redis/logs/) — access system logs
-- [Alerting](/how-to/alerting/) — set up notifications for capsule events
+- [Alerting](/how-to/capsules/alerting/) — set up notifications for capsule events
 
 ## Deployment Guides
 

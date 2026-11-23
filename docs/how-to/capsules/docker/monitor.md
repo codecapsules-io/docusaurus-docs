@@ -28,4 +28,4 @@ When running multiple replicas, metrics reflect usage across all active instance
 
 - Sustained high CPU or memory usage may indicate a need to [scale](/how-to/capsules/docker/scale/) resources or add replicas.
 - Unexpected changes after a deploy may point to a regression — check [Logs](/how-to/capsules/docker/logs/) and consider [rolling back](/how-to/capsules/docker/deployments/#roll-back-to-a-previous-build) to a previous build.
-- Configure [notifications](/how-to/alerting/) to be alerted when thresholds are exceeded.
+- Configure [notifications](/how-to/capsules/alerting/) to be alerted when thresholds are exceeded.

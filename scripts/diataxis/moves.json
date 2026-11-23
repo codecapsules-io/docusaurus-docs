@@ -654,8 +654,8 @@
   "oldPath": "docs/products/agent-capsule/chat/agent-api-sample.mdx",
   "oldSlug": "/products/agent-capsule/chat/agent-api-sample",
   "type": "reference",
-  "newPath": "docs/reference/capsules/agent/chat/agent-api-sample.mdx",
-  "newSlug": "/reference/capsules/agent/chat/agent-api-sample"
+  "newPath": "docs/reference/capsules/agent/agent-api-sample.mdx",
+  "newSlug": "/reference/capsules/agent/agent-api-sample"
  },
  {
   "oldPath": "docs/products/agent-capsule/chat/index.md",
@@ -710,8 +710,8 @@
   "oldPath": "docs/products/alerting.md",
   "oldSlug": "/products/alerting",
   "type": "how-to",
-  "newPath": "docs/how-to/alerting.md",
-  "newSlug": "/how-to/alerting"
+  "newPath": "docs/how-to/capsules/alerting.md",
+  "newSlug": "/how-to/capsules/alerting"
  },
  {
   "oldPath": "docs/products/backend-capsule/add-procfile.md",
@@ -1144,8 +1144,8 @@
   "oldPath": "docs/products/frontend-capsule/container/deploy.md",
   "oldSlug": "/products/frontend-capsule/container/deploy",
   "type": "how-to",
-  "newPath": "docs/how-to/capsules/frontend/container/deploy.md",
-  "newSlug": "/how-to/capsules/frontend/container/deploy"
+  "newPath": "docs/how-to/capsules/frontend/deploy-container.md",
+  "newSlug": "/how-to/capsules/frontend/deploy-container"
  },
  {
   "oldPath": "docs/products/frontend-capsule/custom-domains.md",
@@ -1193,15 +1193,15 @@
   "oldPath": "docs/products/frontend-capsule/static/deploy.md",
   "oldSlug": "/products/frontend-capsule/static/deploy",
   "type": "how-to",
-  "newPath": "docs/how-to/capsules/frontend/static/deploy.md",
-  "newSlug": "/how-to/capsules/frontend/static/deploy"
+  "newPath": "docs/how-to/capsules/frontend/deploy-static.md",
+  "newSlug": "/how-to/capsules/frontend/deploy-static"
  },
  {
   "oldPath": "docs/products/frontend-capsule/static/plans.md",
   "oldSlug": "/products/frontend-capsule/static/plans",
   "type": "reference",
-  "newPath": "docs/reference/capsules/frontend/static/plans.md",
-  "newSlug": "/reference/capsules/frontend/static/plans"
+  "newPath": "docs/reference/capsules/frontend/static-plans.md",
+  "newSlug": "/reference/capsules/frontend/static-plans"
  },
  {
   "oldPath": "docs/products/frontend-capsule/supported-runtimes.md",

@@ -1,16 +1,16 @@
 ---
-slug: "/how-to/capsules/frontend/static/deploy"
+slug: "/how-to/capsules/frontend/deploy-static"
 diataxis: how-to
 description: "Deploy a static site or SPA on Code Capsules with Static hosting. Your built files are served directly, with a Free plan and no server to keep running."
 title: "How to Deploy a Static Frontend"
-sidebar_label: "Deploy"
+sidebar_label: "Deploy a Static Frontend"
 ---
 
 # Deploy Your Frontend With Static Hosting
 
-With Static hosting, Code Capsules builds your project, stores the files your build produces, and serves them directly. There's no server to keep running between visits, so Static hosting is quick to serve and is available on a [Free plan](/reference/capsules/frontend/static/plans/).
+With Static hosting, Code Capsules builds your project, stores the files your build produces, and serves them directly. There's no server to keep running between visits, so Static hosting is quick to serve and is available on a [Free plan](/reference/capsules/frontend/static-plans/).
 
-To run your site in an always-on container instead, see [Deploy with Container hosting](/how-to/capsules/frontend/container/deploy/).
+To run your site in an always-on container instead, see [Deploy with Container hosting](/how-to/capsules/frontend/deploy-container/).
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ If your repository already contains the files you want to serve, you don't need 
 2. Click the yellow **+** button and select **New Capsule**.
 3. Choose **Frontend Capsule**, your Team, and Space, then click **Next**.
 4. On the **Hosting** step, select **Static**.
-5. On the **Plan** step, select **Free** or **Paid**. Each plan shows its limits and price. See [Free and Paid Plans](/reference/capsules/frontend/static/plans/) to compare them.
+5. On the **Plan** step, select **Free** or **Paid**. Each plan shows its limits and price. See [Free and Paid Plans](/reference/capsules/frontend/static-plans/) to compare them.
 6. On the **Configure** step:
    - Select a repository from the list, or click **Connect a Git Repository** to link a new one.
    - Select the branch to deploy from.
@@ -70,7 +70,7 @@ To stop serving your site, turn the capsule off with the switch on the capsule d
 
 ## Next steps
 
-- [Free and Paid Plans](/reference/capsules/frontend/static/plans/): limits, monthly traffic, and upgrading
+- [Free and Paid Plans](/reference/capsules/frontend/static-plans/): limits, monthly traffic, and upgrading
 - [Configure](/how-to/capsules/frontend/configure/): change build settings and environment variables
 - [Custom Domains](/how-to/capsules/frontend/custom-domains/): serve your site from your own domain
 - [Framework Guides](/how-to/capsules/frontend/deploy/): React, Angular, Vue, Svelte, and static HTML

@@ -8,7 +8,7 @@ sidebar_label: "Configure"
 
 # Configure Your Frontend App
 
-To configure your Frontend Capsule, navigate to the "Config" tab. These settings work the same way for [Static](/how-to/capsules/frontend/static/deploy/) and [Container](/how-to/capsules/frontend/container/deploy/) hosting.
+To configure your Frontend Capsule, navigate to the "Config" tab. These settings work the same way for [Static](/how-to/capsules/frontend/deploy-static/) and [Container](/how-to/capsules/frontend/deploy-container/) hosting.
 
 ![Configure Frontend Capsule](/gitbook-assets/products/frontend-capsule/config/frontend-config.png)
 

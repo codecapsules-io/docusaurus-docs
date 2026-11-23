@@ -24,10 +24,10 @@ If your app needs SSR or API routes, use a [Backend Capsule](/how-to/capsules/ba
 
 Both hosting options build your project the same way and serve the files your build produces. The difference is whether a web server runs in a container to serve them.
 
-|                      | [Static](/how-to/capsules/frontend/static/deploy/)                    | [Container](/how-to/capsules/frontend/container/deploy/)                                                        |
+|                      | [Static](/how-to/capsules/frontend/deploy-static/)                    | [Container](/how-to/capsules/frontend/deploy-container/)                                                        |
 | -------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | **How it's served**  | Your built files are stored and served directly. No server is running. | A web server runs in a container that stays on.                                                                  |
-| **Plans**            | [Free or Paid](/reference/capsules/frontend/static/plans/)               | Paid. You choose the CPU, memory, and replicas.                                                                  |
+| **Plans**            | [Free or Paid](/reference/capsules/frontend/static-plans/)               | Paid. You choose the CPU, memory, and replicas.                                                                  |
 | **Pricing**          | From $0. Paid is a flat monthly rate.                                  | Based on the resources you allocate                                                                              |
 | **Scaling**          | Not needed. There are no compute resources to manage.                  | [Scale](/how-to/capsules/frontend/scale/) CPU, memory, and replicas                                             |
 | **Logs and metrics** | Access logs, and storage and traffic use on the **Details** tab        | Runtime [logs](/how-to/capsules/frontend/logs/), access logs, and [metrics](/how-to/capsules/frontend/monitor/) |
@@ -37,7 +37,7 @@ To start, click the yellow **+** button in your Space, select **New Capsule**, a
 
 :::warning[You can't switch hosting later]
 
-You can't change between Static and Container after the capsule is created. To use the other option, create a new Frontend Capsule. You can [upgrade a Free static capsule to Paid](/reference/capsules/frontend/static/plans/#upgrade-to-paid) at any time.
+You can't change between Static and Container after the capsule is created. To use the other option, create a new Frontend Capsule. You can [upgrade a Free static capsule to Paid](/reference/capsules/frontend/static-plans/#upgrade-to-paid) at any time.
 
 :::
 
@@ -50,10 +50,10 @@ Static hosting and the Free plan depend on your cluster. If the **Static** optio
 ## Documentation
 
 - **Static**
-  - [Deploy](/how-to/capsules/frontend/static/deploy/): create a static capsule from your Git repository
-  - [Free and Paid Plans](/reference/capsules/frontend/static/plans/): limits for each plan, what happens when you reach them, and how to upgrade
+  - [Deploy](/how-to/capsules/frontend/deploy-static/): create a static capsule from your Git repository
+  - [Free and Paid Plans](/reference/capsules/frontend/static-plans/): limits for each plan, what happens when you reach them, and how to upgrade
 - **Container**
-  - [Deploy](/how-to/capsules/frontend/container/deploy/): create a container capsule from your Git repository
+  - [Deploy](/how-to/capsules/frontend/deploy-container/): create a container capsule from your Git repository
 - [Framework Guides](/how-to/capsules/frontend/deploy/): step-by-step guides for React, Angular, Vue, Svelte, and static HTML
 - [Supported Runtimes](/reference/capsules/frontend/supported-runtimes/): frameworks, build settings, and Node.js pinning
 - [Configure](/how-to/capsules/frontend/configure/): build command, output folder, and environment variables
@@ -61,4 +61,4 @@ Static hosting and the Free plan depend on your cluster. If the **Static** optio
 - [Monitor](/how-to/capsules/frontend/monitor/): view metrics and usage
 - [Logs](/how-to/capsules/frontend/logs/): view build, runtime, and access logs
 - [Custom Domains](/how-to/capsules/frontend/custom-domains/): serve your site from your own domain
-- [Notifications](/how-to/alerting/): set up notifications for capsule events
+- [Notifications](/how-to/capsules/alerting/): set up notifications for capsule events

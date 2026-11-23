@@ -18,4 +18,4 @@ Open the **Metrics** tab to view performance charts for CPU, memory, network, an
 
 Open the **Usage** tab to view billing and consumption data for your capsule.
 
-When you receive resource alerts, check [Logs](/how-to/capsules/database/documentdb/logs/) and consider adjusting capacity on the [Scale](/how-to/capsules/database/documentdb/scale/) tab. Configure [notification preferences](/how-to/alerting/) from the dashboard Overview.
+When you receive resource alerts, check [Logs](/how-to/capsules/database/documentdb/logs/) and consider adjusting capacity on the [Scale](/how-to/capsules/database/documentdb/scale/) tab. Configure [notification preferences](/how-to/capsules/alerting/) from the dashboard Overview.

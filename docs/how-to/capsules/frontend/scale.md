@@ -11,7 +11,7 @@ sidebar_label: "Scale"
 How you scale a Frontend Capsule depends on its hosting type:
 
 - **Container**: allocate more CPU, memory, or replicas, as described below.
-- **Static**: there are no compute resources to scale. Your site is served directly from storage. On the **Free** plan, the **Scale** tab is where you [upgrade to Paid](/reference/capsules/frontend/static/plans/#upgrade-to-paid) to remove the build size and traffic limits. Paid static capsules have no **Scale** tab.
+- **Static**: there are no compute resources to scale. Your site is served directly from storage. On the **Free** plan, the **Scale** tab is where you [upgrade to Paid](/reference/capsules/frontend/static-plans/#upgrade-to-paid) to remove the build size and traffic limits. Paid static capsules have no **Scale** tab.
 
 ## Scale a container capsule
 

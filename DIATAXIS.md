@@ -103,7 +103,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/capsules/agent/monitor.md` | How to Monitor an AI Agent |
 | `docs/how-to/capsules/agent/scale.md` | How to Scale an AI Agent |
 | `docs/how-to/capsules/agent/templates.md` | AI Agent Templates — Prebuilt Starting Points |
-| `docs/how-to/alerting.md` | How to Set Up Deployment Notifications |
+| `docs/how-to/capsules/alerting.md` | How to Set Up Deployment Notifications |
 | `docs/how-to/capsules/backend/add-procfile.md` | Add a Procfile to a Backend Capsule |
 | `docs/how-to/capsules/backend/configure.md` | How to Configure a Backend Application |
 | `docs/how-to/capsules/backend/logs.md` | How to View Logs for a Backend Application |
@@ -154,12 +154,12 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/capsules/docker/monitor.md` | How to Monitor a Docker Container |
 | `docs/how-to/capsules/docker/scale.md` | How to Scale a Docker Container |
 | `docs/how-to/capsules/frontend/configure.md` | How to Configure a Frontend App |
-| `docs/how-to/capsules/frontend/container/deploy.md` | How to Deploy a Container Frontend |
+| `docs/how-to/capsules/frontend/deploy-container.md` | How to Deploy a Container Frontend |
 | `docs/how-to/capsules/frontend/custom-domains.md` | How to Add a Custom Domain to a Frontend App |
 | `docs/how-to/capsules/frontend/logs.md` | How to View Logs for a Frontend App |
 | `docs/how-to/capsules/frontend/monitor.md` | How to Monitor a Frontend App |
 | `docs/how-to/capsules/frontend/scale.md` | How to Scale a Frontend App |
-| `docs/how-to/capsules/frontend/static/deploy.md` | How to Deploy a Static Frontend |
+| `docs/how-to/capsules/frontend/deploy-static.md` | How to Deploy a Static Frontend |
 | `docs/how-to/capsules/storage/backups.md` | How to Back Up a Persistent Storage |
 | `docs/how-to/capsules/storage/configure.md` | How to Configure a Persistent Storage |
 | `docs/how-to/capsules/storage/deploy.md` | How to Deploy a Persistent Storage |
@@ -197,12 +197,12 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/reference/cli/global-options.md` | CLI Global Options Reference |
 | `docs/reference/billing/how-does-the-pricing-work.md` | How Does the Pricing Work? |
 | `docs/reference/regions/what-regions-does-code-capsules-support.md` | Available Regions and Locations |
-| `docs/reference/capsules/agent/chat/agent-api-sample.mdx` | Agent API (Sample) |
+| `docs/reference/capsules/agent/agent-api-sample.mdx` | Agent API (Sample) |
 | `docs/reference/capsules/backend/supported-runtimes.md` | Supported Backend Runtimes and Versions |
 | `docs/reference/capsules/database/mongodb/versions.md` | Supported MongoDB Versions |
 | `docs/reference/capsules/database/mysql/versions.md` | Supported MySQL Versions |
 | `docs/reference/capsules/docker/container-requirements.md` | Docker Container Runtime Requirements |
-| `docs/reference/capsules/frontend/static/plans.md` | Static Frontend Free and Paid Plans |
+| `docs/reference/capsules/frontend/static-plans.md` | Static Frontend Free and Paid Plans |
 | `docs/reference/capsules/frontend/supported-runtimes.md` | Supported Frontend Frameworks and Runtimes |
 | `docs/reference/sandbox/environments.md` | Sandbox Environments & Flavors |
 | `docs/reference/sandbox/python/api-reference.md` | Python Sandbox SDK Methods & Types |

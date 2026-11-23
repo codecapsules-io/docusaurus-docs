@@ -52,7 +52,7 @@ You can't switch between the two after the capsule is created. To use the other 
 - [Scale](/how-to/capsules/docker/scale/) — allocate CPU, memory, and replicas as traffic grows
 - [Monitor](/how-to/capsules/docker/monitor/) — view metrics and performance data
 - [Logs](/how-to/capsules/docker/logs/) — view runtime and access logs
-- [Notifications](/how-to/alerting/) — set up notifications for capsule events
+- [Notifications](/how-to/capsules/alerting/) — set up notifications for capsule events
 
 ## Guides
 

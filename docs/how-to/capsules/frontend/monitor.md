@@ -19,6 +19,6 @@ Each container capsule tracks its usage data and you can view this information b
 Static capsules don't have a **Metrics** tab, because no server runs for your site. Instead, the **Details** tab shows:
 
 - **Stored**: the total size of your site's files
-- **Traffic this month** (Free plan only): how much of your [monthly traffic allowance](/reference/capsules/frontend/static/plans/#monthly-traffic) your site has used since the start of the calendar month. Traffic is updated once a day.
+- **Traffic this month** (Free plan only): how much of your [monthly traffic allowance](/reference/capsules/frontend/static-plans/#monthly-traffic) your site has used since the start of the calendar month. Traffic is updated once a day.
 
 To see the requests your site receives, use the [Access Logs](/how-to/capsules/frontend/logs/#view-access-logs) tab.

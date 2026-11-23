@@ -20,5 +20,5 @@ For applications with a custom `Dockerfile`, see the [Docker Capsule](/how-to/ca
 - [Scale](/how-to/capsules/backend/scale/) — allocate resources as your traffic grows
 - [Monitor](/how-to/capsules/backend/monitor/) — view metrics and performance data
 - [Logs](/how-to/capsules/backend/logs/) — access build and runtime logs
-- [Alerting](/how-to/alerting/) — set up notifications for capsule events
+- [Alerting](/how-to/capsules/alerting/) — set up notifications for capsule events
 - [Add a Procfile](/how-to/capsules/backend/add-procfile/) — customise the start command for your app

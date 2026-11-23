@@ -109,6 +109,15 @@ test('newLocation: the Sandbox overview is overview.md so its folder stays a cat
   });
 });
 
+test('newLocation: one-page folders and the loose alerting page are tidied', () => {
+  assert.equal(newLocation('docs/products/alerting.md', 'how-to').newPath, 'docs/how-to/capsules/alerting.md');
+  assert.equal(newLocation('docs/products/frontend-capsule/container/deploy.md', 'how-to').newPath, 'docs/how-to/capsules/frontend/deploy-container.md');
+  assert.equal(newLocation('docs/products/frontend-capsule/static/deploy.md', 'how-to').newPath, 'docs/how-to/capsules/frontend/deploy-static.md');
+  assert.equal(newLocation('docs/products/frontend-capsule/static/plans.md', 'reference').newPath, 'docs/reference/capsules/frontend/static-plans.md');
+  assert.equal(newLocation('docs/products/agent-capsule/chat/agent-api-sample.mdx', 'reference').newPath, 'docs/reference/capsules/agent/agent-api-sample.mdx');
+  assert.equal(newLocation('docs/products/agent-capsule/chat/index.md', 'how-to').newPath, 'docs/how-to/capsules/agent/chat/index.md');
+});
+
 test('newLocation: platform capsule pages share the capsules/ folder', () => {
   assert.equal(newLocation('docs/platform/capsules/health-checks.md', 'how-to').newPath, 'docs/how-to/capsules/health-checks.md');
 });
