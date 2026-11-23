@@ -1,8 +1,4 @@
 {
   "label": "Agentic Automation",
-  "key": "explanation/agentic-automation",
-  "link": {
-    "type": "doc",
-    "id": "explanation/agentic-automation/index"
-  }
+  "key": "explanation/agentic-automation"
 }

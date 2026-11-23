@@ -185,7 +185,7 @@ First we create a Code Capsules [Space](/explanation/platform/overview/). Rather
 
 ![Code Capsules Space](/gitbook-assets/tutorials/ccspace.webp)
 
-Next, create a new Capsule for each component you have in Heroku. From your Space, click the yellow `+` icon at the bottom left of the screen to create a new Capsule. Select a [Capsule type](/how-to/capsules/frontend/guides/) and follow the prompts provided. Note that a frontend Capsule can serve any JavaScript framework, not just the ones shown in the **Quickstart** tab.
+Next, create a new Capsule for each component you have in Heroku. From your Space, click the yellow `+` icon at the bottom left of the screen to create a new Capsule. Select a [Capsule type](/indexes/frontend-guides/) and follow the prompts provided. Note that a frontend Capsule can serve any JavaScript framework, not just the ones shown in the **Quickstart** tab.
 
 ![Code Capsules new capsule](/gitbook-assets/tutorials/ccnewcapsule.webp)
 

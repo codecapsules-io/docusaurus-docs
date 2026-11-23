@@ -5,7 +5,7 @@ import {pathToFileURL} from 'node:url';
 import {parseDoc} from './lib/frontmatter.mjs';
 import {rewriteLinks} from './rewrite-links.mjs';
 
-const FOLDER = {tutorial: 'tutorials', 'how-to': 'how-to', reference: 'reference', explanation: 'explanation'};
+const FOLDER = {tutorial: 'tutorials', 'how-to': 'how-to', reference: 'reference', explanation: 'explanation', index: 'indexes'};
 
 export function checkTypes(docs) {
   const errors = [];
@@ -70,7 +70,8 @@ async function main() {
   if (current.length !== expected) errors.push(`file count ${current.length}, expected ${expected}`);
   errors.push(...checkTypes(docs));
 
-  const pairs = moves.map((m) => ({
+  // Index pages are regenerated from the folder tree, so their bodies are not compared.
+  const pairs = moves.filter((m) => m.type !== 'index').map((m) => ({
     path: m.newPath,
     before: execFileSync('git', ['show', `${sha}:${m.oldPath}`], {cwd: root, encoding: 'utf8', maxBuffer: 1 << 26}),
     after: current.find((c) => c.path === m.newPath)?.text ?? '',

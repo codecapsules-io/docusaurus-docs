@@ -1,9 +1,9 @@
 ---
-slug: "/how-to/capsules/docker"
+slug: "/how-to/capsules/docker/overview"
 diataxis: how-to
 description: "Run containerized apps on Code Capsules with a Docker Capsule, built from your own Dockerfile or deployed from an existing public container image."
 title: "Docker Container Hosting"
-sidebar_label: "Docker Capsule"
+sidebar_label: "Overview"
 ---
 
 # Everything About Hosting Your Docker Container
@@ -62,4 +62,4 @@ Step-by-step tutorials for deploying Docker Capsules from Git:
 - [Docker PHP App](/how-to/capsules/backend/guides/docker/docker-php-app/)
 - [Docker Laravel App](/how-to/capsules/backend/guides/docker/docker-laravel-app/)
 - [Caddy Docker Site](/how-to/capsules/backend/guides/docker/caddy-docker-site/)
-- [All Docker deployment guides](/how-to/capsules/backend/guides/docker/)
+- [All Docker deployment guides](/how-to/capsules/backend/guides/docker/overview/)

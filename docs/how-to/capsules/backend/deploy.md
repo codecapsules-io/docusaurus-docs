@@ -20,13 +20,13 @@ Backend Capsules automatically detect your language, install dependencies, and b
 
 - [Express.js](/how-to/capsules/backend/guides/node.js/express.js/)
 - [Java](/how-to/capsules/backend/guides/java/)
-- [Go](/how-to/capsules/backend/guides/go/)
+- [Go](/indexes/go-guides/)
 
 ## Docker
 
-Docker-based applications deploy as [Docker Capsules](/how-to/capsules/docker/), which build from your own `Dockerfile` rather than automatic language detection.
+Docker-based applications deploy as [Docker Capsules](/how-to/capsules/docker/overview/), which build from your own `Dockerfile` rather than automatic language detection.
 
-- [Docker Capsule documentation](/how-to/capsules/docker/)
+- [Docker Capsule documentation](/how-to/capsules/docker/overview/)
 - [Caddy Docker Site](/how-to/capsules/backend/guides/docker/caddy-docker-site/)
 - [Docker Laravel App](/how-to/capsules/backend/guides/docker/docker-laravel-app/)
 - [Docker PHP App](/how-to/capsules/backend/guides/docker/docker-php-app/)
@@ -34,4 +34,4 @@ Docker-based applications deploy as [Docker Capsules](/how-to/capsules/docker/),
 
 ## Deployment Guides
 
-- [All Backend Deployment Guides](/how-to/capsules/backend/guides/)
+- [All Backend Deployment Guides](/indexes/backend-guides/)

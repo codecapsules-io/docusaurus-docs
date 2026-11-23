@@ -10,6 +10,11 @@ test('checkTypes: passes a doc in the folder that matches its type', () => {
   ]), []);
 });
 
+test('checkTypes: index pages live under docs/indexes/', () => {
+  assert.deepEqual(checkTypes([{path: 'docs/indexes/backend-guides.md', diataxis: 'index'}]), []);
+  assert.equal(checkTypes([{path: 'docs/how-to/x.md', diataxis: 'index'}]).length, 1);
+});
+
 test('checkTypes: flags a type in the wrong folder, a missing type and an invalid type', () => {
   const errors = checkTypes([
     {path: 'docs/reference/x.md', diataxis: 'how-to'},

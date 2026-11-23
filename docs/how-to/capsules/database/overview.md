@@ -1,9 +1,9 @@
 ---
-slug: "/how-to/capsules/database"
+slug: "/how-to/capsules/database/overview"
 diataxis: how-to
 description: "Deploy and manage database instances on Code Capsules, including MySQL, PostgreSQL, MongoDB, DocumentDB, and Redis."
 title: "Managed Database Hosting"
-sidebar_label: "Database Capsule"
+sidebar_label: "Overview"
 ---
 
 # Everything About Hosting Your Managed Database
@@ -71,4 +71,4 @@ DocumentDB is a self-hosted, MongoDB API-compatible database. For new projects, 
 
 ## Deployment Guides
 
-- [All Database Deployment Guides](/how-to/capsules/database/guides/)
+- [All Database Deployment Guides](/indexes/database-guides/)

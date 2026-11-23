@@ -8,7 +8,7 @@ sidebar_label: "Connect Locally"
 
 # Connect to Your Redis Database From Your Machine
 
-Redis Capsules are private to your Space and cannot be reached through a public URL. To inspect keys, run commands, or debug cache behaviour from your laptop, open a secure tunnel with the [Code Capsules CLI](/reference/cli/) and connect with `redis-cli`.
+Redis Capsules are private to your Space and cannot be reached through a public URL. To inspect keys, run commands, or debug cache behaviour from your laptop, open a secure tunnel with the [Code Capsules CLI](/indexes/cli/) and connect with `redis-cli`.
 
 ## When to Use This
 

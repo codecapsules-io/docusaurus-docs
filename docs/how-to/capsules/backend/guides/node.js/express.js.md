@@ -67,7 +67,7 @@ Once the build is complete, a **Live Website** link will appear at the top of th
 
 ![Deployed App](/gitbook-assets/get-started/cc-express-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/capsules/backend/guides/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/indexes/backend-guides/).
 
 ## Related guides
 

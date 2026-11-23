@@ -4,12 +4,47 @@ import {pathToFileURL} from 'node:url';
 import {parseDoc} from './lib/frontmatter.mjs';
 
 const TIE_ORDER = ['how-to', 'reference', 'explanation', 'tutorial'];
-const FOLDER = {tutorial: 'tutorials', 'how-to': 'how-to', reference: 'reference', explanation: 'explanation'};
+const FOLDER = {tutorial: 'tutorials', 'how-to': 'how-to', reference: 'reference', explanation: 'explanation', index: 'indexes'};
+
+// Link-only hub pages move to docs/indexes/ so that category folders stay pure containers.
+const INDEX_PAGES = {
+  'docs/backend/index.md': 'backend-guides.md',
+  'docs/backend/go/index.md': 'go-guides.md',
+  'docs/backend/node.js/index.md': 'node-guides.md',
+  'docs/backend/python/index.md': 'python-guides.md',
+  'docs/database/index.md': 'database-guides.md',
+  'docs/frontend/index.md': 'frontend-guides.md',
+  'docs/full-stack/index.md': 'full-stack-guides.md',
+  'docs/full-stack/next.js/index.md': 'nextjs-full-stack-guides.md',
+  'docs/cli/readme/getting-started/index.md': 'cli-getting-started.md',
+  'docs/cli/index.md': 'cli.md',
+  'docs/platform/index.md': 'platform.md',
+  'docs/products/index.md': 'products.md',
+  'docs/enterprise/index.md': 'enterprise.md',
+};
+
+// index.md pages with real content become ordinary pages named overview.md.
+const OVERVIEW_PAGES = new Set([
+  'docs/agentic-automation/index.md',
+  'docs/backend/docker/index.md',
+  'docs/cli/readme/commands/index.md',
+  'docs/database/mongodb/index.md',
+  'docs/database/mysql/index.md',
+  'docs/products/backend-capsule/index.md',
+  'docs/products/database-capsule/index.md',
+  'docs/products/docker-capsule/index.md',
+  'docs/products/frontend-capsule/index.md',
+  'docs/products/database-capsule/mongodb/versions/upgrades/index.md',
+  'docs/products/database-capsule/mysql/versions/upgrades/index.md',
+  'docs/sandbox/python/index.md',
+  'docs/sandbox/typescript/index.md',
+]);
 
 const OVERRIDES = {
   'docs/wordpress.md': 'capsules/wordpress/managed-wordpress.md',
   'docs/persistent-storage.md': 'capsules/storage/persistent-storage.md',
   'docs/platform/platform.md': 'platform/overview.md',
+  'docs/products/agent-capsule/chat/index.md': 'capsules/agent/chat.md',
   'docs/cli/readme/getting-started/quick-start.md': 'cli-quick-start.md',
   'docs/sandbox/quickstart.md': 'sandbox-quickstart.md',
   'docs/sandbox/index.md': 'sandbox/overview.md',
@@ -39,6 +74,7 @@ export function loadLabels(diataxisMd) {
 
 export function resolveType(oldPath, labels) {
   if (oldPath === 'docs/index.md') return 'how-to';
+  if (INDEX_PAGES[oldPath]) return 'index';
   const label = labels.get(oldPath);
   if (label === 'release-notes') return 'release-notes';
   if (label === 'overview') return 'explanation';
@@ -71,12 +107,14 @@ export function newLocation(oldPath, type) {
     return {newPath: oldPath, newSlug: oldPath === 'docs/index.md' ? '/' : null};
   }
   let rest;
-  if (OVERRIDES[oldPath]) rest = OVERRIDES[oldPath];
+  if (INDEX_PAGES[oldPath]) rest = INDEX_PAGES[oldPath];
+  else if (OVERRIDES[oldPath]) rest = OVERRIDES[oldPath];
   else if (oldPath === 'docs/products/index.md') rest = 'products/index.md';
   else if (oldPath.startsWith('docs/tutorials/')) {
     const file = oldPath.slice('docs/tutorials/'.length);
     rest = type === 'tutorial' ? null : `guides/${file}`;
   } else rest = tidy(oldPath.slice('docs/'.length));
+  if (OVERVIEW_PAGES.has(oldPath)) rest = rest.replace(/index\.md$/, 'overview.md');
   const newPath = rest === null ? oldPath : `docs/${FOLDER[type]}/${rest}`;
   return {newPath, newSlug: slugOf(newPath)};
 }

@@ -65,4 +65,4 @@ Once the build is complete, click the **URL** link in the **Details** tab, and y
 
 ![Deployed App](/gitbook-assets/get-started/cc-java-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/capsules/backend/guides/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/indexes/backend-guides/).

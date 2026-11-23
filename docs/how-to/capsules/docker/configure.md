@@ -114,7 +114,7 @@ To view sensitive values, click **show** in the top-right corner of the variable
 
 ### Database Capsule
 
-See the [Database Capsule](/how-to/capsules/database/) documentation for creating and managing database instances.
+See the [Database Capsule](/how-to/capsules/database/overview/) documentation for creating and managing database instances.
 
 In the **Data capsules** section of the **Config** tab, click **View** next to a Database Capsule to see its connection details.
 

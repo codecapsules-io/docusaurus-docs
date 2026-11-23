@@ -31,11 +31,7 @@ test('newLocation: tutorial from tutorials/ keeps its path', () => {
 });
 
 test('newLocation: index.md slug drops /index', () => {
-  assert.equal(newLocation('docs/database/mongodb/index.md', 'how-to').newSlug, '/how-to/capsules/database/guides/mongodb');
-});
-
-test('newLocation: products/index.md goes to how-to/products/index.md', () => {
-  assert.equal(newLocation('docs/products/index.md', 'how-to').newPath, 'docs/how-to/products/index.md');
+  assert.equal(newLocation('docs/some/area/index.md', 'how-to').newSlug, '/how-to/some/area');
 });
 
 test('newLocation: root files are overridden', () => {
@@ -55,7 +51,7 @@ test('newLocation: versions/upgrades collapses to upgrades, versions.md is untou
   );
   assert.equal(
     newLocation('docs/products/database-capsule/mysql/versions/upgrades/index.md', 'how-to').newSlug,
-    '/how-to/capsules/database/mysql/upgrades',
+    '/how-to/capsules/database/mysql/upgrades/overview',
   );
   assert.equal(newLocation('docs/products/database-capsule/mongodb/versions.md', 'reference').newPath, 'docs/reference/capsules/database/mongodb/versions.md');
 });
@@ -63,7 +59,6 @@ test('newLocation: versions/upgrades collapses to upgrades, versions.md is untou
 test('newLocation: the platform/ wrapper is dropped for its areas, kept for the section hub and overview pages', () => {
   assert.equal(newLocation('docs/platform/teams/how-do-i-add-team-members.md', 'how-to').newPath, 'docs/how-to/teams/how-do-i-add-team-members.md');
   assert.equal(newLocation('docs/platform/billing/how-does-the-pricing-work.md', 'reference').newPath, 'docs/reference/billing/how-does-the-pricing-work.md');
-  assert.equal(newLocation('docs/platform/index.md', 'how-to').newPath, 'docs/how-to/platform/index.md');
   assert.equal(newLocation('docs/platform/platform.md', 'explanation').newPath, 'docs/explanation/platform/overview.md');
   assert.equal(newLocation('docs/platform/what-is-code-capsules.md', 'explanation').newPath, 'docs/explanation/platform/what-is-code-capsules.md');
 });
@@ -75,19 +70,17 @@ test('newLocation: every capsule type moves under capsules/ without the -capsule
       `docs/how-to/capsules/${folder}/configure.md`,
     );
   }
-  assert.equal(newLocation('docs/products/backend-capsule/index.md', 'how-to').newSlug, '/how-to/capsules/backend');
+  assert.equal(newLocation('docs/products/backend-capsule/index.md', 'how-to').newSlug, '/how-to/capsules/backend/overview');
 });
 
 test('newLocation: backend framework guides go under capsules/backend/guides/', () => {
   assert.equal(newLocation('docs/backend/python/django.md', 'how-to').newPath, 'docs/how-to/capsules/backend/guides/python/django.md');
   assert.equal(newLocation('docs/backend/java.md', 'how-to').newSlug, '/how-to/capsules/backend/guides/java');
-  assert.equal(newLocation('docs/backend/index.md', 'how-to').newSlug, '/how-to/capsules/backend/guides');
-  assert.equal(newLocation('docs/products/backend-capsule/index.md', 'how-to').newSlug, '/how-to/capsules/backend');
+  assert.equal(newLocation('docs/products/backend-capsule/index.md', 'how-to').newSlug, '/how-to/capsules/backend/overview');
 });
 
 test('newLocation: frontend and database guides go under capsules/<name>/guides/', () => {
   assert.equal(newLocation('docs/frontend/react.md', 'how-to').newPath, 'docs/how-to/capsules/frontend/guides/react.md');
-  assert.equal(newLocation('docs/frontend/index.md', 'how-to').newSlug, '/how-to/capsules/frontend/guides');
   assert.equal(newLocation('docs/database/mongodb/express-+-mongodb.md', 'how-to').newPath, 'docs/how-to/capsules/database/guides/mongodb/express-+-mongodb.md');
   assert.equal(newLocation('docs/database/postgres.md', 'how-to').newSlug, '/how-to/capsules/database/guides/postgres');
   assert.equal(newLocation('docs/products/database-capsule/mongodb/deploy.md', 'how-to').newPath, 'docs/how-to/capsules/database/mongodb/deploy.md');
@@ -115,7 +108,29 @@ test('newLocation: one-page folders and the loose alerting page are tidied', () 
   assert.equal(newLocation('docs/products/frontend-capsule/static/deploy.md', 'how-to').newPath, 'docs/how-to/capsules/frontend/deploy-static.md');
   assert.equal(newLocation('docs/products/frontend-capsule/static/plans.md', 'reference').newPath, 'docs/reference/capsules/frontend/static-plans.md');
   assert.equal(newLocation('docs/products/agent-capsule/chat/agent-api-sample.mdx', 'reference').newPath, 'docs/reference/capsules/agent/agent-api-sample.mdx');
-  assert.equal(newLocation('docs/products/agent-capsule/chat/index.md', 'how-to').newPath, 'docs/how-to/capsules/agent/chat/index.md');
+  assert.equal(newLocation('docs/products/agent-capsule/chat/index.md', 'how-to').newPath, 'docs/how-to/capsules/agent/chat.md');
+});
+
+test('resolveType: link-only hubs become type index', () => {
+  const labels = new Map([['docs/backend/index.md', 'hub'], ['docs/backend/java.md', 'how-to']]);
+  assert.equal(resolveType('docs/backend/index.md', labels), 'index');
+});
+
+test('newLocation: link-only hubs move to indexes/', () => {
+  assert.deepEqual(newLocation('docs/backend/index.md', 'index'), {newPath: 'docs/indexes/backend-guides.md', newSlug: '/indexes/backend-guides'});
+  assert.equal(newLocation('docs/backend/python/index.md', 'index').newPath, 'docs/indexes/python-guides.md');
+  assert.equal(newLocation('docs/cli/index.md', 'index').newPath, 'docs/indexes/cli.md');
+  assert.equal(newLocation('docs/products/index.md', 'index').newPath, 'docs/indexes/products.md');
+  assert.equal(newLocation('docs/enterprise/index.md', 'index').newPath, 'docs/indexes/enterprise.md');
+});
+
+test('newLocation: index.md with real content becomes overview.md; a sole index becomes <folder>.md', () => {
+  assert.equal(newLocation('docs/products/backend-capsule/index.md', 'how-to').newPath, 'docs/how-to/capsules/backend/overview.md');
+  assert.equal(newLocation('docs/database/mongodb/index.md', 'how-to').newPath, 'docs/how-to/capsules/database/guides/mongodb/overview.md');
+  assert.equal(newLocation('docs/agentic-automation/index.md', 'explanation').newSlug, '/explanation/agentic-automation/overview');
+  assert.equal(newLocation('docs/cli/readme/commands/index.md', 'reference').newPath, 'docs/reference/cli/commands/overview.md');
+  assert.equal(newLocation('docs/sandbox/python/index.md', 'reference').newPath, 'docs/reference/sandbox/python/overview.md');
+  assert.equal(newLocation('docs/products/agent-capsule/chat/index.md', 'how-to').newPath, 'docs/how-to/capsules/agent/chat.md');
 });
 
 test('newLocation: platform capsule pages share the capsules/ folder', () => {
@@ -168,7 +183,7 @@ test('planMoves: no moved file lands on a type landing page, tutorials hub stays
   ]);
   const moves = planMoves(labels, new Map());
   const byOld = Object.fromEntries(moves.map((m) => [m.oldPath, m.newPath]));
-  assert.equal(byOld['docs/products/index.md'], 'docs/how-to/products/index.md');
+  assert.equal(byOld['docs/products/index.md'], 'docs/indexes/products.md');
   assert.equal(byOld['docs/tutorials/index.md'], 'docs/tutorials/index.md');
   assert.equal(byOld['docs/index.md'], 'docs/index.md');
   for (const landing of ['docs/how-to/index.md', 'docs/reference/index.md', 'docs/explanation/index.md']) {

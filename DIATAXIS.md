@@ -62,10 +62,10 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/capsules/database/guides/mongodb/django-+-mongodb.md` | Deploy Django with MongoDB |
 | `docs/how-to/capsules/database/guides/mongodb/express-+-mongodb.md` | Deploy Express with MongoDB |
 | `docs/how-to/capsules/database/guides/mongodb/flask-+-mongodb.md` | Deploy Flask with MongoDB |
-| `docs/how-to/capsules/database/guides/mongodb/index.md` | Managed MongoDB Hosting |
+| `docs/how-to/capsules/database/guides/mongodb/overview.md` | Managed MongoDB Hosting |
 | `docs/how-to/capsules/database/guides/mysql/django-+-mysql.md` | Deploy Django with MySQL |
 | `docs/how-to/capsules/database/guides/mysql/flask-+-mysql.md` | Deploy Flask with MySQL |
-| `docs/how-to/capsules/database/guides/mysql/index.md` | Managed MySQL Hosting |
+| `docs/how-to/capsules/database/guides/mysql/overview.md` | Managed MySQL Hosting |
 | `docs/how-to/capsules/database/guides/mysql/java-+-mysql.md` | Deploy Java with MySQL |
 | `docs/how-to/capsules/database/guides/postgres.md` | Managed PostgreSQL Hosting |
 | `docs/how-to/capsules/database/guides/redis.md` | Managed Redis Hosting |
@@ -96,7 +96,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/teams/how-do-i-add-remove-teams.md` | Add and Remove Teams |
 | `docs/how-to/teams/how-do-i-add-team-members.md` | Add Team Members to a Team |
 | `docs/how-to/teams/share-a-repo-with-a-team.md` | Share a Repo with a Team |
-| `docs/how-to/capsules/agent/chat/index.md` | Add a Chat Interface to an AI Agent |
+| `docs/how-to/capsules/agent/chat.md` | Add a Chat Interface to an AI Agent |
 | `docs/how-to/capsules/agent/configure.md` | How to Configure an AI Agent |
 | `docs/how-to/capsules/agent/deploy.md` | How to Deploy an AI Agent |
 | `docs/how-to/capsules/agent/logs.md` | How to View Logs for an AI Agent |
@@ -206,16 +206,16 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/reference/capsules/frontend/supported-runtimes.md` | Supported Frontend Frameworks and Runtimes |
 | `docs/reference/sandbox/environments.md` | Sandbox Environments & Flavors |
 | `docs/reference/sandbox/python/api-reference.md` | Python Sandbox SDK Methods & Types |
-| `docs/reference/sandbox/python/index.md` | Sandbox SDK for Python |
+| `docs/reference/sandbox/python/overview.md` | Sandbox SDK for Python |
 | `docs/reference/sandbox/typescript/api-reference.md` | TypeScript Sandbox SDK Methods & Types |
-| `docs/reference/sandbox/typescript/index.md` | Sandbox SDK for TypeScript & Node.js |
+| `docs/reference/sandbox/typescript/overview.md` | Sandbox SDK for TypeScript & Node.js |
 
 ## explanation (12)
 
 | Doc | Title |
 |---|---|
 | `docs/explanation/agentic-automation/designing-agents.md` | How to Design AI Agents for Business Automation |
-| `docs/explanation/agentic-automation/index.md` | Agentic Automation for Business Processes |
+| `docs/explanation/agentic-automation/overview.md` | Agentic Automation for Business Processes |
 | `docs/explanation/agentic-automation/the-framework.md` | The Agentic Automation Framework |
 | `docs/explanation/agentic-automation/the-problem.md` | Why Business Automation Fails at Scale |
 | `docs/explanation/capsules/what-is-a-capsule.md` | Hosting Environments (Containers) Explained |
@@ -231,29 +231,29 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 
 | Doc | Title |
 |---|---|
-| `docs/how-to/capsules/backend/guides/docker/index.md` | How to Deploy Docker Containers |
-| `docs/how-to/capsules/backend/guides/go/index.md` | Go Application Hosting |
-| `docs/how-to/capsules/backend/guides/index.md` | Backend Application Hosting — Node.js, Python, Go & More |
-| `docs/how-to/capsules/backend/guides/node.js/index.md` | Node.js Application Hosting |
-| `docs/how-to/capsules/backend/guides/python/index.md` | Python Application Hosting |
-| `docs/reference/cli/index.md` | CLI Overview and Commands |
-| `docs/reference/cli/commands/index.md` | CLI Commands Reference |
-| `docs/how-to/cli/getting-started/index.md` | Getting Started With the CLI |
-| `docs/how-to/capsules/database/guides/index.md` | Managed Database Hosting — MySQL, MongoDB, Postgres & Redis |
-| `docs/how-to/capsules/frontend/guides/index.md` | Frontend & Static Site Hosting |
-| `docs/how-to/full-stack/index.md` | Full-Stack Application Hosting |
-| `docs/how-to/full-stack/next.js/index.md` | Next.js Full-Stack Hosting |
+| `docs/how-to/capsules/backend/guides/docker/overview.md` | How to Deploy Docker Containers |
+| `docs/indexes/go-guides.md` | Go Application Hosting |
+| `docs/indexes/backend-guides.md` | Backend Application Hosting — Node.js, Python, Go & More |
+| `docs/indexes/node-guides.md` | Node.js Application Hosting |
+| `docs/indexes/python-guides.md` | Python Application Hosting |
+| `docs/indexes/cli.md` | CLI Overview and Commands |
+| `docs/reference/cli/commands/overview.md` | CLI Commands Reference |
+| `docs/indexes/cli-getting-started.md` | Getting Started With the CLI |
+| `docs/indexes/database-guides.md` | Managed Database Hosting — MySQL, MongoDB, Postgres & Redis |
+| `docs/indexes/frontend-guides.md` | Frontend & Static Site Hosting |
+| `docs/indexes/full-stack-guides.md` | Full-Stack Application Hosting |
+| `docs/indexes/nextjs-full-stack-guides.md` | Next.js Full-Stack Hosting |
 | `docs/index.md` | Get Started: Deploy Your First App |
-| `docs/how-to/platform/index.md` | Platform Guides — Accounts, Billing, Teams & Domains |
+| `docs/indexes/platform.md` | Platform Guides — Accounts, Billing, Teams & Domains |
 | `docs/how-to/capsules/backend/deploy.md` | How to Deploy a Backend Application |
-| `docs/how-to/capsules/backend/index.md` | Backend Application Hosting |
-| `docs/how-to/capsules/database/index.md` | Managed Database Hosting |
-| `docs/how-to/capsules/database/mongodb/upgrades/index.md` | How to Upgrade MongoDB Versions |
-| `docs/how-to/capsules/database/mysql/upgrades/index.md` | How to Upgrade MySQL Versions |
-| `docs/how-to/capsules/docker/index.md` | Docker Container Hosting |
+| `docs/how-to/capsules/backend/overview.md` | Backend Application Hosting |
+| `docs/how-to/capsules/database/overview.md` | Managed Database Hosting |
+| `docs/how-to/capsules/database/mongodb/upgrades/overview.md` | How to Upgrade MongoDB Versions |
+| `docs/how-to/capsules/database/mysql/upgrades/overview.md` | How to Upgrade MySQL Versions |
+| `docs/how-to/capsules/docker/overview.md` | Docker Container Hosting |
 | `docs/how-to/capsules/frontend/deploy.md` | Frontend Framework Deployment Guides |
-| `docs/how-to/capsules/frontend/index.md` | Frontend App Hosting |
-| `docs/how-to/products/index.md` | App, Database & WordPress Hosting Products |
+| `docs/how-to/capsules/frontend/overview.md` | Frontend App Hosting |
+| `docs/indexes/products.md` | App, Database & WordPress Hosting Products |
 | `docs/tutorials/index.md` | Deployment Tutorials & Step-by-Step Guides |
 | `docs/tutorials/video-guides.md` | Video Tutorials — Deploy Apps Step by Step |
 
@@ -264,7 +264,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/explanation/enterprise/aws.md` | Run a PaaS on AWS — Enterprise Deployment |
 | `docs/explanation/enterprise/azure.md` | Run a PaaS on Azure — Enterprise Deployment |
 | `docs/explanation/enterprise/gcp.md` | Run a PaaS on GCP — Enterprise Deployment |
-| `docs/explanation/enterprise/index.md` | Enterprise PaaS on Your Own Cloud |
+| `docs/indexes/enterprise.md` | Enterprise PaaS on Your Own Cloud |
 | `docs/explanation/enterprise/vmware.md` | Run a PaaS on VMware — Enterprise Deployment |
 | `docs/explanation/enterprise-clusters/overview.md` | Enterprise Clusters — Run the Platform on Your Own Cloud |
 | `docs/explanation/sandbox/overview.md` | AI Agent Sandboxes: Firecracker microVMs |

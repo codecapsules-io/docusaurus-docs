@@ -65,4 +65,4 @@ The Twilio Sandbox provides a development environment to access the WhatsApp API
 
 The bot will now be able to respond to your messages after sending the join code. Try it, and the bot should echo any message you send it.
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/capsules/backend/guides/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/indexes/backend-guides/).

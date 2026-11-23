@@ -31,7 +31,7 @@ Click **Save** to apply your changes. If the capsule is already running, Code Ca
 
 Increase **Scale** (replicas) to run multiple instances of your capsule behind the same URL. Code Capsules load-balances traffic across active replicas.
 
-Horizontal scaling works well for stateless applications. If your app stores state in memory or on local disk, externalize it with a [Storage Capsule](/how-to/capsules/storage/deploy/) or [Database Capsule](/how-to/capsules/database/) as appropriate, or use a single replica.
+Horizontal scaling works well for stateless applications. If your app stores state in memory or on local disk, externalize it with a [Storage Capsule](/how-to/capsules/storage/deploy/) or [Database Capsule](/how-to/capsules/database/overview/) as appropriate, or use a single replica.
 
 ## Vertical scaling
 
@@ -56,4 +56,4 @@ If a bound Storage Capsule is stopped, you must start it before you can turn the
 
 ## Scaling and Storage Capsules
 
-Before increasing replicas, consider how your application handles shared state. Bind a [Storage Capsule](/how-to/capsules/storage/deploy/) or [Database Capsule](/how-to/capsules/database/) — see [Configure](/how-to/capsules/docker/configure/#connect-data-capsules). Local capsule storage is not shared between replicas and is lost when the capsule restarts.
+Before increasing replicas, consider how your application handles shared state. Bind a [Storage Capsule](/how-to/capsules/storage/deploy/) or [Database Capsule](/how-to/capsules/database/overview/) — see [Configure](/how-to/capsules/docker/configure/#connect-data-capsules). Local capsule storage is not shared between replicas and is lost when the capsule restarts.

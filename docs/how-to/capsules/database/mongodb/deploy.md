@@ -24,7 +24,7 @@ For a self-hosted MongoDB-compatible alternative, see [DocumentDB](/how-to/capsu
 
 ![MongoDB Capsule Plan & Deploy step with Cluster Type, Version, and Plan options](/gitbook-assets/products/database-capsule/deploy/mongodb-deploy-plan.png)
 
-Cluster creation can take several minutes. See the [MongoDB getting started guide](/how-to/capsules/database/guides/mongodb/) for connection and binding instructions.
+Cluster creation can take several minutes. See the [MongoDB getting started guide](/how-to/capsules/database/guides/mongodb/overview/) for connection and binding instructions.
 
 ## Framework Guides
 

@@ -1,9 +1,9 @@
 ---
-slug: "/how-to/capsules/frontend"
+slug: "/how-to/capsules/frontend/overview"
 diataxis: how-to
 description: "Host static sites and single-page applications on Code Capsules. Choose Static hosting, with a free plan, or Container hosting for always-on serving with logs, metrics, and scaling."
 title: "Frontend App Hosting"
-sidebar_label: "Frontend Capsule"
+sidebar_label: "Overview"
 ---
 
 # Everything About Hosting Your Frontend App
@@ -18,7 +18,7 @@ A Frontend Capsule is a good fit when:
 - You use a framework such as React, Angular, Vue, or Svelte that builds to a folder of static files
 - Your site doesn't need a server-side runtime, server-side rendering (SSR), or API routes
 
-If your app needs SSR or API routes, use a [Backend Capsule](/how-to/capsules/backend/) instead. See [Supported Runtimes](/reference/capsules/frontend/supported-runtimes/#not-supported-on-frontend-capsules) for details.
+If your app needs SSR or API routes, use a [Backend Capsule](/how-to/capsules/backend/overview/) instead. See [Supported Runtimes](/reference/capsules/frontend/supported-runtimes/#not-supported-on-frontend-capsules) for details.
 
 ## Choose how to host
 

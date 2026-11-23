@@ -1,8 +1,4 @@
 {
   "label": "MySQL",
-  "key": "how-to/capsules/database/guides/mysql",
-  "link": {
-    "type": "doc",
-    "id": "how-to/capsules/database/guides/mysql/index"
-  }
+  "key": "how-to/capsules/database/guides/mysql"
 }

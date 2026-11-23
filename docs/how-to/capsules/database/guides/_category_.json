@@ -1,8 +1,4 @@
 {
   "label": "Guides",
-  "key": "how-to/capsules/database/guides",
-  "link": {
-    "type": "doc",
-    "id": "how-to/capsules/database/guides/index"
-  }
+  "key": "how-to/capsules/database/guides"
 }

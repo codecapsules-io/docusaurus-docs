@@ -1,18 +1,18 @@
 ---
-slug: "/how-to/capsules/backend"
+slug: "/how-to/capsules/backend/overview"
 diataxis: how-to
 description: >-
   Deploy, configure, scale, and monitor server-side applications and APIs with
   Code Capsules Backend Capsules.
 title: "Backend Application Hosting"
-sidebar_label: "Backend Capsule"
+sidebar_label: "Overview"
 ---
 
 # Everything About Hosting Your Backend Application
 
 Host and scale server-side applications and APIs on Code Capsules. Backend Capsules support Python, Node.js, Go, Java, Ruby, PHP, and .NET with automatic language detection and builds from your Git repository.
 
-For applications with a custom `Dockerfile`, see the [Docker Capsule](/how-to/capsules/docker/) documentation.
+For applications with a custom `Dockerfile`, see the [Docker Capsule](/how-to/capsules/docker/overview/) documentation.
 
 - [Build and Deploy](/how-to/capsules/backend/deploy/) — supported languages, frameworks, and deployment steps
 - [Supported Runtimes](/reference/capsules/backend/supported-runtimes/) — language versions and runtime pinning

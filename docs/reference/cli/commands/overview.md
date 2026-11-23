@@ -1,9 +1,9 @@
 ---
-slug: "/reference/cli/commands"
+slug: "/reference/cli/commands/overview"
 diataxis: reference
 description: Commands available via the Code Capsules CLI
 title: "CLI Commands Reference"
-sidebar_label: "Commands"
+sidebar_label: "All Commands"
 ---
 
 # Every CLI Command at a Glance

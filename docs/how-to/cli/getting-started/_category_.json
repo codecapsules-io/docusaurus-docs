@@ -1,8 +1,4 @@
 {
   "label": "Getting Started",
-  "key": "how-to/cli/getting-started",
-  "link": {
-    "type": "doc",
-    "id": "how-to/cli/getting-started/index"
-  }
+  "key": "how-to/cli/getting-started"
 }

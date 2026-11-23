@@ -17,8 +17,8 @@
   "oldPath": "docs/agentic-automation/index.md",
   "oldSlug": "/agentic-automation",
   "type": "explanation",
-  "newPath": "docs/explanation/agentic-automation/index.md",
-  "newSlug": "/explanation/agentic-automation"
+  "newPath": "docs/explanation/agentic-automation/overview.md",
+  "newSlug": "/explanation/agentic-automation/overview"
  },
  {
   "oldPath": "docs/agentic-automation/the-framework.md",
@@ -66,8 +66,8 @@
   "oldPath": "docs/backend/docker/index.md",
   "oldSlug": "/backend/docker",
   "type": "how-to",
-  "newPath": "docs/how-to/capsules/backend/guides/docker/index.md",
-  "newSlug": "/how-to/capsules/backend/guides/docker"
+  "newPath": "docs/how-to/capsules/backend/guides/docker/overview.md",
+  "newSlug": "/how-to/capsules/backend/guides/docker/overview"
  },
  {
   "oldPath": "docs/backend/go/go-telegram-bot.md",
@@ -86,16 +86,16 @@
  {
   "oldPath": "docs/backend/go/index.md",
   "oldSlug": "/backend/go",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/backend/guides/go/index.md",
-  "newSlug": "/how-to/capsules/backend/guides/go"
+  "type": "index",
+  "newPath": "docs/indexes/go-guides.md",
+  "newSlug": "/indexes/go-guides"
  },
  {
   "oldPath": "docs/backend/index.md",
   "oldSlug": "/backend",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/backend/guides/index.md",
-  "newSlug": "/how-to/capsules/backend/guides"
+  "type": "index",
+  "newPath": "docs/indexes/backend-guides.md",
+  "newSlug": "/indexes/backend-guides"
  },
  {
   "oldPath": "docs/backend/java.md",
@@ -114,9 +114,9 @@
  {
   "oldPath": "docs/backend/node.js/index.md",
   "oldSlug": "/backend/node.js",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/backend/guides/node.js/index.md",
-  "newSlug": "/how-to/capsules/backend/guides/node.js"
+  "type": "index",
+  "newPath": "docs/indexes/node-guides.md",
+  "newSlug": "/indexes/node-guides"
  },
  {
   "oldPath": "docs/backend/node.js/node.js-discord-bot.md",
@@ -156,9 +156,9 @@
  {
   "oldPath": "docs/backend/python/index.md",
   "oldSlug": "/backend/python",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/backend/guides/python/index.md",
-  "newSlug": "/how-to/capsules/backend/guides/python"
+  "type": "index",
+  "newPath": "docs/indexes/python-guides.md",
+  "newSlug": "/indexes/python-guides"
  },
  {
   "oldPath": "docs/backend/python/python-discord-bot.md",
@@ -191,16 +191,16 @@
  {
   "oldPath": "docs/cli/index.md",
   "oldSlug": "/cli",
-  "type": "reference",
-  "newPath": "docs/reference/cli/index.md",
-  "newSlug": "/reference/cli"
+  "type": "index",
+  "newPath": "docs/indexes/cli.md",
+  "newSlug": "/indexes/cli"
  },
  {
   "oldPath": "docs/cli/readme/commands/index.md",
   "oldSlug": "/cli/readme/commands",
   "type": "reference",
-  "newPath": "docs/reference/cli/commands/index.md",
-  "newSlug": "/reference/cli/commands"
+  "newPath": "docs/reference/cli/commands/overview.md",
+  "newSlug": "/reference/cli/commands/overview"
  },
  {
   "oldPath": "docs/cli/readme/commands/login.md",
@@ -233,9 +233,9 @@
  {
   "oldPath": "docs/cli/readme/getting-started/index.md",
   "oldSlug": "/cli/readme/getting-started",
-  "type": "how-to",
-  "newPath": "docs/how-to/cli/getting-started/index.md",
-  "newSlug": "/how-to/cli/getting-started"
+  "type": "index",
+  "newPath": "docs/indexes/cli-getting-started.md",
+  "newSlug": "/indexes/cli-getting-started"
  },
  {
   "oldPath": "docs/cli/readme/getting-started/installation-and-usage.md",
@@ -268,9 +268,9 @@
  {
   "oldPath": "docs/database/index.md",
   "oldSlug": "/database",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/database/guides/index.md",
-  "newSlug": "/how-to/capsules/database/guides"
+  "type": "index",
+  "newPath": "docs/indexes/database-guides.md",
+  "newSlug": "/indexes/database-guides"
  },
  {
   "oldPath": "docs/database/mongodb/django-+-mongodb.md",
@@ -297,8 +297,8 @@
   "oldPath": "docs/database/mongodb/index.md",
   "oldSlug": "/database/mongodb",
   "type": "how-to",
-  "newPath": "docs/how-to/capsules/database/guides/mongodb/index.md",
-  "newSlug": "/how-to/capsules/database/guides/mongodb"
+  "newPath": "docs/how-to/capsules/database/guides/mongodb/overview.md",
+  "newSlug": "/how-to/capsules/database/guides/mongodb/overview"
  },
  {
   "oldPath": "docs/database/mysql/django-+-mysql.md",
@@ -318,8 +318,8 @@
   "oldPath": "docs/database/mysql/index.md",
   "oldSlug": "/database/mysql",
   "type": "how-to",
-  "newPath": "docs/how-to/capsules/database/guides/mysql/index.md",
-  "newSlug": "/how-to/capsules/database/guides/mysql"
+  "newPath": "docs/how-to/capsules/database/guides/mysql/overview.md",
+  "newSlug": "/how-to/capsules/database/guides/mysql/overview"
  },
  {
   "oldPath": "docs/database/mysql/java-+-mysql.md",
@@ -366,9 +366,9 @@
  {
   "oldPath": "docs/enterprise/index.md",
   "oldSlug": "/enterprise",
-  "type": "explanation",
-  "newPath": "docs/explanation/enterprise/index.md",
-  "newSlug": "/explanation/enterprise"
+  "type": "index",
+  "newPath": "docs/indexes/enterprise.md",
+  "newSlug": "/indexes/enterprise"
  },
  {
   "oldPath": "docs/enterprise/vmware.md",
@@ -387,9 +387,9 @@
  {
   "oldPath": "docs/frontend/index.md",
   "oldSlug": "/frontend",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/frontend/guides/index.md",
-  "newSlug": "/how-to/capsules/frontend/guides"
+  "type": "index",
+  "newPath": "docs/indexes/frontend-guides.md",
+  "newSlug": "/indexes/frontend-guides"
  },
  {
   "oldPath": "docs/frontend/next.js.md",
@@ -436,9 +436,9 @@
  {
   "oldPath": "docs/full-stack/index.md",
   "oldSlug": "/full-stack",
-  "type": "how-to",
-  "newPath": "docs/how-to/full-stack/index.md",
-  "newSlug": "/how-to/full-stack"
+  "type": "index",
+  "newPath": "docs/indexes/full-stack-guides.md",
+  "newSlug": "/indexes/full-stack-guides"
  },
  {
   "oldPath": "docs/full-stack/mean-stack.md",
@@ -457,9 +457,9 @@
  {
   "oldPath": "docs/full-stack/next.js/index.md",
   "oldSlug": "/full-stack/next.js",
-  "type": "how-to",
-  "newPath": "docs/how-to/full-stack/next.js/index.md",
-  "newSlug": "/how-to/full-stack/next.js"
+  "type": "index",
+  "newPath": "docs/indexes/nextjs-full-stack-guides.md",
+  "newSlug": "/indexes/nextjs-full-stack-guides"
  },
  {
   "oldPath": "docs/full-stack/next.js/next.js-+-express.js.md",
@@ -576,9 +576,9 @@
  {
   "oldPath": "docs/platform/index.md",
   "oldSlug": "/platform",
-  "type": "how-to",
-  "newPath": "docs/how-to/platform/index.md",
-  "newSlug": "/how-to/platform"
+  "type": "index",
+  "newPath": "docs/indexes/platform.md",
+  "newSlug": "/indexes/platform"
  },
  {
   "oldPath": "docs/platform/platform.md",
@@ -661,7 +661,7 @@
   "oldPath": "docs/products/agent-capsule/chat/index.md",
   "oldSlug": "/products/agent-capsule/chat",
   "type": "how-to",
-  "newPath": "docs/how-to/capsules/agent/chat/index.md",
+  "newPath": "docs/how-to/capsules/agent/chat.md",
   "newSlug": "/how-to/capsules/agent/chat"
  },
  {
@@ -738,8 +738,8 @@
   "oldPath": "docs/products/backend-capsule/index.md",
   "oldSlug": "/products/backend-capsule",
   "type": "how-to",
-  "newPath": "docs/how-to/capsules/backend/index.md",
-  "newSlug": "/how-to/capsules/backend"
+  "newPath": "docs/how-to/capsules/backend/overview.md",
+  "newSlug": "/how-to/capsules/backend/overview"
  },
  {
   "oldPath": "docs/products/backend-capsule/logs.md",
@@ -822,8 +822,8 @@
   "oldPath": "docs/products/database-capsule/index.md",
   "oldSlug": "/products/database-capsule",
   "type": "how-to",
-  "newPath": "docs/how-to/capsules/database/index.md",
-  "newSlug": "/how-to/capsules/database"
+  "newPath": "docs/how-to/capsules/database/overview.md",
+  "newSlug": "/how-to/capsules/database/overview"
  },
  {
   "oldPath": "docs/products/database-capsule/mongodb/backups.md",
@@ -878,8 +878,8 @@
   "oldPath": "docs/products/database-capsule/mongodb/versions/upgrades/index.md",
   "oldSlug": "/products/database-capsule/mongodb/versions/upgrades",
   "type": "how-to",
-  "newPath": "docs/how-to/capsules/database/mongodb/upgrades/index.md",
-  "newSlug": "/how-to/capsules/database/mongodb/upgrades"
+  "newPath": "docs/how-to/capsules/database/mongodb/upgrades/overview.md",
+  "newSlug": "/how-to/capsules/database/mongodb/upgrades/overview"
  },
  {
   "oldPath": "docs/products/database-capsule/mysql/backups.md",
@@ -955,8 +955,8 @@
   "oldPath": "docs/products/database-capsule/mysql/versions/upgrades/index.md",
   "oldSlug": "/products/database-capsule/mysql/versions/upgrades",
   "type": "how-to",
-  "newPath": "docs/how-to/capsules/database/mysql/upgrades/index.md",
-  "newSlug": "/how-to/capsules/database/mysql/upgrades"
+  "newPath": "docs/how-to/capsules/database/mysql/upgrades/overview.md",
+  "newSlug": "/how-to/capsules/database/mysql/upgrades/overview"
  },
  {
   "oldPath": "docs/products/database-capsule/postgresql/backups.md",
@@ -1102,8 +1102,8 @@
   "oldPath": "docs/products/docker-capsule/index.md",
   "oldSlug": "/products/docker-capsule",
   "type": "how-to",
-  "newPath": "docs/how-to/capsules/docker/index.md",
-  "newSlug": "/how-to/capsules/docker"
+  "newPath": "docs/how-to/capsules/docker/overview.md",
+  "newSlug": "/how-to/capsules/docker/overview"
  },
  {
   "oldPath": "docs/products/docker-capsule/logs.md",
@@ -1165,8 +1165,8 @@
   "oldPath": "docs/products/frontend-capsule/index.md",
   "oldSlug": "/products/frontend-capsule",
   "type": "how-to",
-  "newPath": "docs/how-to/capsules/frontend/index.md",
-  "newSlug": "/how-to/capsules/frontend"
+  "newPath": "docs/how-to/capsules/frontend/overview.md",
+  "newSlug": "/how-to/capsules/frontend/overview"
  },
  {
   "oldPath": "docs/products/frontend-capsule/logs.md",
@@ -1213,9 +1213,9 @@
  {
   "oldPath": "docs/products/index.md",
   "oldSlug": "'/products'",
-  "type": "how-to",
-  "newPath": "docs/how-to/products/index.md",
-  "newSlug": "/how-to/products"
+  "type": "index",
+  "newPath": "docs/indexes/products.md",
+  "newSlug": "/indexes/products"
  },
  {
   "oldPath": "docs/products/storage-capsule/backups.md",
@@ -1368,8 +1368,8 @@
   "oldPath": "docs/sandbox/python/index.md",
   "oldSlug": "/sandbox/python",
   "type": "reference",
-  "newPath": "docs/reference/sandbox/python/index.md",
-  "newSlug": "/reference/sandbox/python"
+  "newPath": "docs/reference/sandbox/python/overview.md",
+  "newSlug": "/reference/sandbox/python/overview"
  },
  {
   "oldPath": "docs/sandbox/quickstart.md",
@@ -1389,8 +1389,8 @@
   "oldPath": "docs/sandbox/typescript/index.md",
   "oldSlug": "/sandbox/typescript",
   "type": "reference",
-  "newPath": "docs/reference/sandbox/typescript/index.md",
-  "newSlug": "/reference/sandbox/typescript"
+  "newPath": "docs/reference/sandbox/typescript/overview.md",
+  "newSlug": "/reference/sandbox/typescript/overview"
  },
  {
   "oldPath": "docs/tutorials/best-practices-for-structuring-mean-mern-mevn-projects.md",

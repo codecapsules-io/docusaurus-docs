@@ -10,7 +10,7 @@ sidebar_label: "Deploy a Container Frontend"
 
 With Container hosting, Code Capsules builds your project and serves the output from a web server that runs in an always-on container. You get runtime logs, access logs, and metrics, and you can scale CPU, memory, and replicas as your traffic grows.
 
-Container hosting serves the same static files as [Static hosting](/how-to/capsules/frontend/deploy-static/). It doesn't run your own server code. If you need server-side rendering or API routes, use a [Backend Capsule](/how-to/capsules/backend/) instead.
+Container hosting serves the same static files as [Static hosting](/how-to/capsules/frontend/deploy-static/). It doesn't run your own server code. If you need server-side rendering or API routes, use a [Backend Capsule](/how-to/capsules/backend/overview/) instead.
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ Before creating a capsule, make sure you have:
 
 Your build must produce a folder that contains an `index.html` file, for example `dist` or `build`. See [Supported Runtimes](/reference/capsules/frontend/supported-runtimes/#supported-frameworks) for the build command and output folder for common frameworks.
 
-You don't need a `Dockerfile` or a web server in your project. Code Capsules builds your site and adds the web server for you. To run your own container image, use a [Docker Capsule](/how-to/capsules/docker/) instead.
+You don't need a `Dockerfile` or a web server in your project. Code Capsules builds your site and adds the web server for you. To run your own container image, use a [Docker Capsule](/how-to/capsules/docker/overview/) instead.
 
 ## Create the capsule
 

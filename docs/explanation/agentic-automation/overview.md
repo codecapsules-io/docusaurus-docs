@@ -1,9 +1,9 @@
 ---
-slug: "/explanation/agentic-automation"
+slug: "/explanation/agentic-automation/overview"
 diataxis: explanation
 description: "A framework for building reliable agentic automation with git, simple code and cloud infrastructure, turning unpredictable AI into dependable automation."
 title: "Agentic Automation for Business Processes"
-sidebar_label: "Agentic Automation"
+sidebar_label: "Overview"
 ---
 
 # Automate Your Business With AI Agents

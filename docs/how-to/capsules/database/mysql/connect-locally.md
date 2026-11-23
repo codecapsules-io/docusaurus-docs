@@ -8,7 +8,7 @@ sidebar_label: "Connect Locally"
 
 # Connect to Your MySQL Database From Your Machine
 
-MySQL Capsules are private to your Space. To run queries, inspect data, or check your server version from your laptop, open a secure tunnel with the [Code Capsules CLI](/reference/cli/) and connect with the `mysql` client.
+MySQL Capsules are private to your Space. To run queries, inspect data, or check your server version from your laptop, open a secure tunnel with the [Code Capsules CLI](/indexes/cli/) and connect with the `mysql` client.
 
 ## When to Use This
 

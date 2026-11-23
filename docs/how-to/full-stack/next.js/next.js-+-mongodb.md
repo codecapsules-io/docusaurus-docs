@@ -70,4 +70,4 @@ Once the build is complete, click the **URL** link in the **Config** tab, and yo
 
 ![Deployed App](/gitbook-assets/get-started/cc-next-mongo-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/full-stack/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/indexes/full-stack-guides/).

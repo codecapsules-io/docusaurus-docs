@@ -8,7 +8,7 @@ sidebar_label: "Connect Locally"
 
 # Connect to Your PostgreSQL Database From Your Machine
 
-PostgreSQL Capsules are private to your Space. To run queries, restore backups, or inspect data from your laptop, open a secure tunnel with the [Code Capsules CLI](/reference/cli/) and connect with `psql` or other PostgreSQL client tools.
+PostgreSQL Capsules are private to your Space. To run queries, restore backups, or inspect data from your laptop, open a secure tunnel with the [Code Capsules CLI](/indexes/cli/) and connect with `psql` or other PostgreSQL client tools.
 
 ## When to Use This
 

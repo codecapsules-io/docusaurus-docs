@@ -1,9 +1,9 @@
 ---
-slug: "/reference/sandbox/python"
+slug: "/reference/sandbox/python/overview"
 diataxis: reference
 title: "Sandbox SDK for Python"
 description: "The codecapsules-sandbox Python SDK for creating and managing Firecracker microVM sandboxes."
-sidebar_label: "Python SDK"
+sidebar_label: "Overview"
 ---
 
 # Python SDK

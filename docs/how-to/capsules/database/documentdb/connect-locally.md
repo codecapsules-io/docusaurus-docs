@@ -8,7 +8,7 @@ sidebar_label: "Connect Locally"
 
 # Connect to Your DocumentDB Database From Your Machine
 
-DocumentDB Capsules are private to your Space and require TLS. To run queries, inspect collections, or check your server version from your laptop, open a secure tunnel with the [Code Capsules CLI](/reference/cli/) and connect with `mongosh`.
+DocumentDB Capsules are private to your Space and require TLS. To run queries, inspect collections, or check your server version from your laptop, open a secure tunnel with the [Code Capsules CLI](/indexes/cli/) and connect with `mongosh`.
 
 :::info
 

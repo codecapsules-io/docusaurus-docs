@@ -1,9 +1,9 @@
 ---
-slug: "/reference/sandbox/typescript"
+slug: "/reference/sandbox/typescript/overview"
 diataxis: reference
 title: "Sandbox SDK for TypeScript & Node.js"
 description: "The @codecapsules/sandbox TypeScript SDK for creating and managing Firecracker microVM sandboxes."
-sidebar_label: "TypeScript SDK"
+sidebar_label: "Overview"
 ---
 
 # TypeScript SDK

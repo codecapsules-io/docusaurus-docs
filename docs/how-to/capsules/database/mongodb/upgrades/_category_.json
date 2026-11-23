@@ -1,8 +1,4 @@
 {
   "label": "Upgrades",
-  "key": "how-to/capsules/database/mongodb/upgrades",
-  "link": {
-    "type": "doc",
-    "id": "how-to/capsules/database/mongodb/upgrades/index"
-  }
+  "key": "how-to/capsules/database/mongodb/upgrades"
 }

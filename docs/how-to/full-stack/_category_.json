@@ -1,8 +1,4 @@
 {
   "label": "Full-Stack",
-  "key": "how-to/full-stack",
-  "link": {
-    "type": "doc",
-    "id": "how-to/full-stack/index"
-  }
+  "key": "how-to/full-stack"
 }

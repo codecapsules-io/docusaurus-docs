@@ -52,7 +52,7 @@ You can pin any exact Node.js release published on nodejs.org (for example, `v18
 
 :::info
 
-If your application requires a runtime or build toolchain not listed above, deploy with a [Docker Capsule](/how-to/capsules/docker/) and your own `Dockerfile`.
+If your application requires a runtime or build toolchain not listed above, deploy with a [Docker Capsule](/how-to/capsules/docker/overview/) and your own `Dockerfile`.
 
 :::
 
@@ -128,9 +128,9 @@ Code Capsules uses **npm** for Frontend Capsule builds. Include a `package-lock.
 | ------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 | Next.js with server / SSR                              | [Backend Capsule](/how-to/capsules/frontend/guides/next.js/)                                                |
 | Nuxt with Nitro server                                 | [Backend Capsule](/how-to/guides/nuxt3-and-nitro/)                                       |
-| Custom web server (Express, Fastify, etc.)             | [Backend Capsule](/how-to/capsules/backend/)                                        |
-| Non-Node build tools only (no `package.json`)          | [Static HTML](/how-to/capsules/frontend/guides/static-html/) or [Docker Capsule](/how-to/capsules/docker/) |
-| PHP, Python, or other non-JavaScript static generators | [Docker Capsule](/how-to/capsules/docker/)                                          |
+| Custom web server (Express, Fastify, etc.)             | [Backend Capsule](/how-to/capsules/backend/overview/)                                        |
+| Non-Node build tools only (no `package.json`)          | [Static HTML](/how-to/capsules/frontend/guides/static-html/) or [Docker Capsule](/how-to/capsules/docker/overview/) |
+| PHP, Python, or other non-JavaScript static generators | [Docker Capsule](/how-to/capsules/docker/overview/)                                          |
 
 ## Related
 

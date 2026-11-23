@@ -31,4 +31,4 @@ Frontend Capsules build static sites and SPAs from your repository. The guides b
 
 ## Deployment Guides
 
-- [All Frontend Deployment Guides](/how-to/capsules/frontend/guides/)
+- [All Frontend Deployment Guides](/indexes/frontend-guides/)

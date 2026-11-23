@@ -1,8 +1,4 @@
 {
   "label": "Python",
-  "key": "reference/sandbox/python",
-  "link": {
-    "type": "doc",
-    "id": "reference/sandbox/python/index"
-  }
+  "key": "reference/sandbox/python"
 }

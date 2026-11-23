@@ -50,7 +50,7 @@ The table below lists each supported version line, the platform default when you
 
 :::info
 
-If your application requires a runtime or OS package not listed above, deploy with a [Docker Capsule](/how-to/capsules/docker/) and your own `Dockerfile`.
+If your application requires a runtime or OS package not listed above, deploy with a [Docker Capsule](/how-to/capsules/docker/overview/) and your own `Dockerfile`.
 
 :::
 
@@ -195,7 +195,7 @@ These frameworks are commonly deployed on Backend Capsules. Framework versions c
 
 ## Server-side JavaScript frameworks
 
-Applications that need a persistent Node.js server at runtime — including SSR and full-stack frameworks — belong on a **Backend Capsule** or a [Docker Capsule](/how-to/capsules/docker/), not a Frontend Capsule.
+Applications that need a persistent Node.js server at runtime — including SSR and full-stack frameworks — belong on a **Backend Capsule** or a [Docker Capsule](/how-to/capsules/docker/overview/), not a Frontend Capsule.
 
 | Framework             | Capsule type    | Guide                                          |
 | --------------------- | --------------- | ---------------------------------------------- |
@@ -204,7 +204,7 @@ Applications that need a persistent Node.js server at runtime — including SSR 
 
 ## Applications outside supported runtimes
 
-If you need a runtime, OS package, or build step not listed above, deploy with a [Docker Capsule](/how-to/capsules/docker/) and your own `Dockerfile`.
+If you need a runtime, OS package, or build step not listed above, deploy with a [Docker Capsule](/how-to/capsules/docker/overview/) and your own `Dockerfile`.
 
 ## Related
 

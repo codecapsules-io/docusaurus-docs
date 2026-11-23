@@ -1,9 +1,9 @@
 ---
-slug: "/how-to/capsules/database/guides/mongodb"
+slug: "/how-to/capsules/database/guides/mongodb/overview"
 diataxis: how-to
 description: "MongoDB provides reliable NoSQL storage for your apps. Learn how to create a MongoDB Capsule on Code Capsules and connect it to your applications."
 title: "Managed MongoDB Hosting"
-sidebar_label: "MongoDB"
+sidebar_label: "Overview"
 ---
 
 # Host Your MongoDB Database
