@@ -64,8 +64,12 @@ test('writeLandingPages: writes how-to, reference, explanation; leaves an existi
     assert.equal(frontmatter.diataxis, type);
     assert.match(body, /DocCardList/);
   }
-  assert.equal(await read(root, 'docs/tutorials/index.md'), hub);
+  assert.equal(parseDoc(await read(root, 'docs/tutorials/index.md')).body, 'Hub\n');
+  assert.equal(parseDoc(await read(root, 'docs/tutorials/index.md')).frontmatter.sidebar_position, '0');
+  assert.equal(parseDoc(await read(root, 'docs/how-to/index.md')).frontmatter.sidebar_position, '0');
+  const again = await read(root, 'docs/tutorials/index.md');
   await writeLandingPages(root);
+  assert.equal(await read(root, 'docs/tutorials/index.md'), again);
 });
 
 test('writeLandingPages: refuses to overwrite a different doc at a landing path', async () => {

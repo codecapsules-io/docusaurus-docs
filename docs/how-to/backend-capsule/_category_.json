@@ -1,4 +1,8 @@
 {
   "label": "Backend Capsule",
-  "key": "how-to/backend-capsule"
+  "key": "how-to/backend-capsule",
+  "link": {
+    "type": "doc",
+    "id": "how-to/backend-capsule/index"
+  }
 }

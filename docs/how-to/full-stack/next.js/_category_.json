@@ -1,4 +1,8 @@
 {
   "label": "Next.js",
-  "key": "how-to/full-stack/next.js"
+  "key": "how-to/full-stack/next.js",
+  "link": {
+    "type": "doc",
+    "id": "how-to/full-stack/next.js/index"
+  }
 }

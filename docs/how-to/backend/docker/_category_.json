@@ -1,4 +1,8 @@
 {
   "label": "Docker",
-  "key": "how-to/backend/docker"
+  "key": "how-to/backend/docker",
+  "link": {
+    "type": "doc",
+    "id": "how-to/backend/docker/index"
+  }
 }

@@ -31,3 +31,15 @@ test('writeCategoryFiles: writes one _category_.json per area folder, never in t
   await assert.rejects(fs.access(path.join(root, 'docs/how-to/_category_.json')));
   assert.equal(await writeCategoryFiles(root), 0);
 });
+
+test('writeCategoryFiles: a folder with index.md links to it explicitly', async () => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), 'dx-cat-'));
+  await fs.mkdir(path.join(root, 'docs/how-to/backend/go'), {recursive: true});
+  await fs.writeFile(path.join(root, 'docs/how-to/backend/go/index.md'), '---\nslug: "/x"\n---\n');
+  await fs.writeFile(path.join(root, 'docs/how-to/backend/go/go.md'), '---\nslug: "/y"\n---\n');
+  await writeCategoryFiles(root);
+  const json = JSON.parse(await fs.readFile(path.join(root, 'docs/how-to/backend/go/_category_.json'), 'utf8'));
+  assert.deepEqual(json.link, {type: 'doc', id: 'how-to/backend/go/index'});
+  const backend = JSON.parse(await fs.readFile(path.join(root, 'docs/how-to/backend/_category_.json'), 'utf8'));
+  assert.equal(backend.link, undefined);
+});

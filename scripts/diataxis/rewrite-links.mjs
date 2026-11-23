@@ -34,10 +34,17 @@ export function buildResolver(moves) {
       return hit + (trailing && hit !== '/' ? '/' : '') + suffix;
     }
     if (ASSET_EXT.test(p)) return null;
-    const joined = path.posix.normalize(path.posix.join(path.posix.dirname(fromOldPath), p));
-    for (const c of [joined, `${joined}.md`, `${joined}.mdx`, `${joined}/index.md`]) {
-      const m = byPath.get(c);
+    const from = byPath.get(fromOldPath);
+    if (/\.mdx?$/.test(p)) {
+      // Docusaurus resolves links to .md/.mdx files relative to the file.
+      const joined = path.posix.normalize(path.posix.join(path.posix.dirname(fromOldPath), p));
+      const m = byPath.get(joined);
       if (m) return m.newSlug + suffix;
+    } else if (from?.oldSlug) {
+      // Any other relative link is a URL, resolved against the page URL (trailing slash).
+      const url = path.posix.normalize(path.posix.join(from.oldSlug === '/' ? '/' : `${from.oldSlug}/`, p)).replace(/(.)\/$/, '$1');
+      const hit = bySlug.get(url);
+      if (hit !== undefined) return hit + suffix;
     }
     return undefined;
   };

@@ -1,4 +1,8 @@
 {
   "label": "Backend",
-  "key": "how-to/backend"
+  "key": "how-to/backend",
+  "link": {
+    "type": "doc",
+    "id": "how-to/backend/index"
+  }
 }

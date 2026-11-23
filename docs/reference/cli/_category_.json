@@ -1,4 +1,8 @@
 {
   "label": "CLI",
-  "key": "reference/cli"
+  "key": "reference/cli",
+  "link": {
+    "type": "doc",
+    "id": "reference/cli/index"
+  }
 }

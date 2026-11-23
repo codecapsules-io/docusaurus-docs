@@ -1,4 +1,8 @@
 {
   "label": "Enterprise",
-  "key": "explanation/enterprise"
+  "key": "explanation/enterprise",
+  "link": {
+    "type": "doc",
+    "id": "explanation/enterprise/index"
+  }
 }

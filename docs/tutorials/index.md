@@ -1,5 +1,6 @@
 ---
 slug: "/tutorials"
+sidebar_position: 0
 diataxis: tutorial
 description: Detailed tutorials to help you use Code Capsules based on your use case.
 cover: /gitbook-assets/tutorials/generic-docs-banner.jpg

@@ -1,4 +1,8 @@
 {
   "label": "Docker Capsule",
-  "key": "how-to/docker-capsule"
+  "key": "how-to/docker-capsule",
+  "link": {
+    "type": "doc",
+    "id": "how-to/docker-capsule/index"
+  }
 }

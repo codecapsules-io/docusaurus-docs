@@ -42,10 +42,13 @@ export async function writeLandingPages(root) {
     if (await exists(file)) {
       const text = await fs.readFile(file, 'utf8');
       if (!text.includes(`slug: "${slug}"`)) throw new Error(`landing page path is taken by another doc: ${file}`);
+      if (!/^sidebar_position:/m.test(text)) {
+        await fs.writeFile(file, text.replace(`slug: "${slug}"`, `slug: "${slug}"\nsidebar_position: 0`));
+      }
       continue;
     }
     await fs.mkdir(path.dirname(file), {recursive: true});
-    await fs.writeFile(file, `---\nslug: "${slug}"\ndiataxis: ${l.type}\ntitle: "${l.title}"\ndescription: "${l.description}"\n---\n\nimport DocCardList from '@theme/DocCardList';\n\n# ${l.title}\n\n${l.description}\n\n<DocCardList />\n`);
+    await fs.writeFile(file, `---\nslug: "${slug}"\nsidebar_position: 0\ndiataxis: ${l.type}\ntitle: "${l.title}"\ndescription: "${l.description}"\n---\n\nimport DocCardList from '@theme/DocCardList';\n\n# ${l.title}\n\n${l.description}\n\n<DocCardList />\n`);
   }
 }
 

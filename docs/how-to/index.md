@@ -1,5 +1,6 @@
 ---
 slug: "/how-to"
+sidebar_position: 0
 diataxis: how-to
 title: "How-to guides"
 description: "Task-focused guides for deploying, configuring and running your apps."

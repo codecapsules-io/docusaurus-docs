@@ -1,4 +1,8 @@
 {
   "label": "Chat",
-  "key": "how-to/agent-capsule/chat"
+  "key": "how-to/agent-capsule/chat",
+  "link": {
+    "type": "doc",
+    "id": "how-to/agent-capsule/chat/index"
+  }
 }

@@ -1,4 +1,8 @@
 {
   "label": "TypeScript",
-  "key": "reference/sandbox/typescript"
+  "key": "reference/sandbox/typescript",
+  "link": {
+    "type": "doc",
+    "id": "reference/sandbox/typescript/index"
+  }
 }

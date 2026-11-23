@@ -1,4 +1,8 @@
 {
   "label": "Platform",
-  "key": "how-to/platform"
+  "key": "how-to/platform",
+  "link": {
+    "type": "doc",
+    "id": "how-to/platform/index"
+  }
 }

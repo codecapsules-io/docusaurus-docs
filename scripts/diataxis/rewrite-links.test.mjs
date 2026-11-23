@@ -10,6 +10,7 @@ const moves = [
   mv('docs/agentic-automation/the-problem.md', '/agentic-automation/the-problem', 'docs/explanation/agentic-automation/the-problem.md', '/explanation/agentic-automation/the-problem'),
   mv('docs/a/d.md', '/a/d', 'docs/how-to/a/d.md', '/how-to/a/d'),
   mv('docs/a/b/c.md', '/a/b/c', 'docs/how-to/a/b/c.md', '/how-to/a/b/c'),
+  mv('docs/a/b/e.md', '/a/b/e', 'docs/how-to/a/b/e.md', '/how-to/a/b/e'),
   mv('docs/index.md', '/', 'docs/index.md', '/'),
 ];
 const resolve = buildResolver(moves);
@@ -43,8 +44,14 @@ test('leaves external links, anchors, assets and release notes alone', () => {
 
 test('resolves relative links against the old file location', () => {
   assert.equal(rw('[a](./the-problem)', 'docs/agentic-automation/index.md').text, '[a](/explanation/agentic-automation/the-problem)');
-  assert.equal(rw('[a](../d)', 'docs/a/b/c.md').text, '[a](/how-to/a/d)');
   assert.equal(rw('[a](./the-problem.md#x)', 'docs/agentic-automation/index.md').text, '[a](/explanation/agentic-automation/the-problem#x)');
+});
+
+test('resolves extensionless relative links against the old page URL, as the browser did', () => {
+  assert.equal(rw('[a](../e)', 'docs/a/b/c.md').text, '[a](/how-to/a/b/e)');
+  const r = rw('[a](./d)', 'docs/a/b/c.md');
+  assert.deepEqual(r.unresolved, ['./d']);
+  assert.equal(r.text, '[a](./d)');
 });
 
 test('does not rewrite inside fenced code blocks or inline code', () => {

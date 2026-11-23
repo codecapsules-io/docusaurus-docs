@@ -1,4 +1,8 @@
 {
   "label": "Database",
-  "key": "how-to/database"
+  "key": "how-to/database",
+  "link": {
+    "type": "doc",
+    "id": "how-to/database/index"
+  }
 }

@@ -1,4 +1,8 @@
 {
   "label": "MongoDB",
-  "key": "how-to/database/mongodb"
+  "key": "how-to/database/mongodb",
+  "link": {
+    "type": "doc",
+    "id": "how-to/database/mongodb/index"
+  }
 }

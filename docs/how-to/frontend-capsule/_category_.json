@@ -1,4 +1,8 @@
 {
   "label": "Frontend Capsule",
-  "key": "how-to/frontend-capsule"
+  "key": "how-to/frontend-capsule",
+  "link": {
+    "type": "doc",
+    "id": "how-to/frontend-capsule/index"
+  }
 }

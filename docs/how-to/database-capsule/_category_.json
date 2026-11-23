@@ -1,4 +1,8 @@
 {
   "label": "Database Capsule",
-  "key": "how-to/database-capsule"
+  "key": "how-to/database-capsule",
+  "link": {
+    "type": "doc",
+    "id": "how-to/database-capsule/index"
+  }
 }

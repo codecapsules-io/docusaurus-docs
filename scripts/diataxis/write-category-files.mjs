@@ -30,7 +30,12 @@ export async function writeCategoryFiles(root) {
       try {
         await fs.access(file);
       } catch {
-        await fs.writeFile(file, JSON.stringify({label: categoryLabel(e.name), key: path.relative(path.join(root, 'docs'), sub).split(path.sep).join('/')}, null, 2) + '\n');
+        const rel = path.relative(path.join(root, 'docs'), sub).split(path.sep).join('/');
+        const category = {label: categoryLabel(e.name), key: rel};
+        if (await fs.access(path.join(sub, 'index.md')).then(() => true, () => false)) {
+          category.link = {type: 'doc', id: `${rel}/index`};
+        }
+        await fs.writeFile(file, JSON.stringify(category, null, 2) + '\n');
         written++;
       }
       await visit(sub);
