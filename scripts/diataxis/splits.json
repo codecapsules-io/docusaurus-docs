@@ -22,5 +22,12 @@
    "docs/reference/capsules/wordpress/performance.md",
    "docs/explanation/capsules/wordpress/performance.md"
   ]
+ },
+ {
+  "from": "docs/agentic-automation/deployment.md",
+  "parts": [
+   "docs/how-to/agentic-automation/deployment.md",
+   "docs/explanation/agentic-automation/deployment.md"
+  ]
  }
 ]
