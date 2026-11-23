@@ -1,0 +1,902 @@
+[
+ {
+  "path": "docs/agentic-automation/deployment.md",
+  "slug": "/agentic-automation/deployment"
+ },
+ {
+  "path": "docs/agentic-automation/designing-agents.md",
+  "slug": "/agentic-automation/designing-agents"
+ },
+ {
+  "path": "docs/agentic-automation/index.md",
+  "slug": "/agentic-automation"
+ },
+ {
+  "path": "docs/agentic-automation/the-framework.md",
+  "slug": "/agentic-automation/the-framework"
+ },
+ {
+  "path": "docs/agentic-automation/the-problem.md",
+  "slug": "/agentic-automation/the-problem"
+ },
+ {
+  "path": "docs/backend/docker/caddy-docker-site.md",
+  "slug": "/backend/docker/caddy-docker-site"
+ },
+ {
+  "path": "docs/backend/docker/docker-laravel-app.md",
+  "slug": "/backend/docker/docker-laravel-app"
+ },
+ {
+  "path": "docs/backend/docker/docker-php-app.md",
+  "slug": "/backend/docker/docker-php-app"
+ },
+ {
+  "path": "docs/backend/docker/flask-docker-app.md",
+  "slug": "/backend/docker/flask-docker-app"
+ },
+ {
+  "path": "docs/backend/docker/index.md",
+  "slug": "/backend/docker"
+ },
+ {
+  "path": "docs/backend/go/go-telegram-bot.md",
+  "slug": "/backend/go/go-telegram-bot"
+ },
+ {
+  "path": "docs/backend/go/go.md",
+  "slug": "/backend/go/go"
+ },
+ {
+  "path": "docs/backend/go/index.md",
+  "slug": "/backend/go"
+ },
+ {
+  "path": "docs/backend/index.md",
+  "slug": "/backend"
+ },
+ {
+  "path": "docs/backend/java.md",
+  "slug": "/backend/java"
+ },
+ {
+  "path": "docs/backend/node.js/express.js.md",
+  "slug": "/backend/node.js/express.js"
+ },
+ {
+  "path": "docs/backend/node.js/index.md",
+  "slug": "/backend/node.js"
+ },
+ {
+  "path": "docs/backend/node.js/node.js-discord-bot.md",
+  "slug": "/backend/node.js/node.js-discord-bot"
+ },
+ {
+  "path": "docs/backend/node.js/node.js-telegram-bot.md",
+  "slug": "/backend/node.js/node.js-telegram-bot"
+ },
+ {
+  "path": "docs/backend/node.js/slack-bot.md",
+  "slug": "/backend/node.js/slack-bot"
+ },
+ {
+  "path": "docs/backend/python/django.md",
+  "slug": "/backend/python/django"
+ },
+ {
+  "path": "docs/backend/python/flask.md",
+  "slug": "/backend/python/flask"
+ },
+ {
+  "path": "docs/backend/python/index.md",
+  "slug": "/backend/python"
+ },
+ {
+  "path": "docs/backend/python/python-discord-bot.md",
+  "slug": "/backend/python/python-discord-bot"
+ },
+ {
+  "path": "docs/backend/python/python-telegram-bot.md",
+  "slug": "/backend/python/python-telegram-bot"
+ },
+ {
+  "path": "docs/backend/python/python.md",
+  "slug": "/backend/python/python"
+ },
+ {
+  "path": "docs/backend/python/whatsapp-bot.md",
+  "slug": "/backend/python/whatsapp-bot"
+ },
+ {
+  "path": "docs/cli/index.md",
+  "slug": "/cli"
+ },
+ {
+  "path": "docs/cli/readme/commands/index.md",
+  "slug": "/cli/readme/commands"
+ },
+ {
+  "path": "docs/cli/readme/commands/login.md",
+  "slug": "/cli/readme/commands/login"
+ },
+ {
+  "path": "docs/cli/readme/commands/logout.md",
+  "slug": "/cli/readme/commands/logout"
+ },
+ {
+  "path": "docs/cli/readme/commands/proxy.md",
+  "slug": "/cli/readme/commands/proxy"
+ },
+ {
+  "path": "docs/cli/readme/commands/whoami.md",
+  "slug": "/cli/readme/commands/whoami"
+ },
+ {
+  "path": "docs/cli/readme/getting-started/index.md",
+  "slug": "/cli/readme/getting-started"
+ },
+ {
+  "path": "docs/cli/readme/getting-started/installation-and-usage.md",
+  "slug": "/cli/readme/getting-started/installation-and-usage"
+ },
+ {
+  "path": "docs/cli/readme/getting-started/prerequisites.md",
+  "slug": "/cli/readme/getting-started/prerequisites"
+ },
+ {
+  "path": "docs/cli/readme/getting-started/quick-start.md",
+  "slug": "/cli/readme/getting-started/quick-start"
+ },
+ {
+  "path": "docs/cli/readme/global-options.md",
+  "slug": "/cli/readme/global-options"
+ },
+ {
+  "path": "docs/database/index.md",
+  "slug": "/database"
+ },
+ {
+  "path": "docs/database/mongodb/django-+-mongodb.md",
+  "slug": "/database/mongodb/django-+-mongodb"
+ },
+ {
+  "path": "docs/database/mongodb/express-+-mongodb.md",
+  "slug": "/database/mongodb/express-+-mongodb"
+ },
+ {
+  "path": "docs/database/mongodb/flask-+-mongodb.md",
+  "slug": "/database/mongodb/flask-+-mongodb"
+ },
+ {
+  "path": "docs/database/mongodb/index.md",
+  "slug": "/database/mongodb"
+ },
+ {
+  "path": "docs/database/mysql/django-+-mysql.md",
+  "slug": "/database/mysql/django-+-mysql"
+ },
+ {
+  "path": "docs/database/mysql/flask-+-mysql.md",
+  "slug": "/database/mysql/flask-+-mysql"
+ },
+ {
+  "path": "docs/database/mysql/index.md",
+  "slug": "/database/mysql"
+ },
+ {
+  "path": "docs/database/mysql/java-+-mysql.md",
+  "slug": "/database/mysql/java-+-mysql"
+ },
+ {
+  "path": "docs/database/postgres.md",
+  "slug": "/database/postgres"
+ },
+ {
+  "path": "docs/database/redis.md",
+  "slug": "/database/redis"
+ },
+ {
+  "path": "docs/enterprise/aws.md",
+  "slug": "/enterprise/aws"
+ },
+ {
+  "path": "docs/enterprise/azure.md",
+  "slug": "/enterprise/azure"
+ },
+ {
+  "path": "docs/enterprise/gcp.md",
+  "slug": "/enterprise/gcp"
+ },
+ {
+  "path": "docs/enterprise/index.md",
+  "slug": "/enterprise"
+ },
+ {
+  "path": "docs/enterprise/vmware.md",
+  "slug": "/enterprise/vmware"
+ },
+ {
+  "path": "docs/frontend/angular.md",
+  "slug": "/frontend/angular"
+ },
+ {
+  "path": "docs/frontend/index.md",
+  "slug": "/frontend"
+ },
+ {
+  "path": "docs/frontend/next.js.md",
+  "slug": "/frontend/next.js"
+ },
+ {
+  "path": "docs/frontend/react.md",
+  "slug": "/frontend/react"
+ },
+ {
+  "path": "docs/frontend/static-html.md",
+  "slug": "/frontend/static-html"
+ },
+ {
+  "path": "docs/frontend/svelte.md",
+  "slug": "/frontend/svelte"
+ },
+ {
+  "path": "docs/frontend/vue.md",
+  "slug": "/frontend/vue"
+ },
+ {
+  "path": "docs/full-stack/flask-+-htmx.md",
+  "slug": "/full-stack/flask-+-htmx"
+ },
+ {
+  "path": "docs/full-stack/index.md",
+  "slug": "/full-stack"
+ },
+ {
+  "path": "docs/full-stack/mean-stack.md",
+  "slug": "/full-stack/mean-stack"
+ },
+ {
+  "path": "docs/full-stack/mern-stack.md",
+  "slug": "/full-stack/mern-stack"
+ },
+ {
+  "path": "docs/full-stack/next.js/index.md",
+  "slug": "/full-stack/next.js"
+ },
+ {
+  "path": "docs/full-stack/next.js/next.js-+-express.js.md",
+  "slug": "/full-stack/next.js/next.js-+-express.js"
+ },
+ {
+  "path": "docs/full-stack/next.js/next.js-+-mongodb.md",
+  "slug": "/full-stack/next.js/next.js-+-mongodb"
+ },
+ {
+  "path": "docs/full-stack/next.js/static-file-share-with-flask-and-caddy.md",
+  "slug": "/full-stack/next.js/static-file-share-with-flask-and-caddy"
+ },
+ {
+  "path": "docs/index.md",
+  "slug": "/"
+ },
+ {
+  "path": "docs/persistent-storage.md",
+  "slug": "/persistent-storage"
+ },
+ {
+  "path": "docs/platform/account/connect-version-control.md",
+  "slug": "/platform/account/connect-version-control"
+ },
+ {
+  "path": "docs/platform/account/how-do-i-add-a-payment-method.md",
+  "slug": "/platform/account/how-do-i-add-a-payment-method"
+ },
+ {
+  "path": "docs/platform/account/how-do-i-enable-2fa.md",
+  "slug": "/platform/account/how-do-i-enable-2fa"
+ },
+ {
+  "path": "docs/platform/account/how-do-i-reset-my-password.md",
+  "slug": "/platform/account/how-do-i-reset-my-password"
+ },
+ {
+  "path": "docs/platform/billing/how-do-i-change-my-billing-details.md",
+  "slug": "/platform/billing/how-do-i-change-my-billing-details"
+ },
+ {
+  "path": "docs/platform/billing/how-do-i-view-my-invoices.md",
+  "slug": "/platform/billing/how-do-i-view-my-invoices"
+ },
+ {
+  "path": "docs/platform/billing/how-does-the-pricing-work.md",
+  "slug": "/platform/billing/how-does-the-pricing-work"
+ },
+ {
+  "path": "docs/platform/capsules/health-checks.md",
+  "slug": "/platform/capsules/health-checks"
+ },
+ {
+  "path": "docs/platform/capsules/how-do-i-add-remove-stop-capsules.md",
+  "slug": "/platform/capsules/how-do-i-add-remove-stop-capsules"
+ },
+ {
+  "path": "docs/platform/capsules/how-to-add-a-custom-domain.md",
+  "slug": "/platform/capsules/how-to-add-a-custom-domain"
+ },
+ {
+  "path": "docs/platform/capsules/what-is-a-capsule.md",
+  "slug": "/platform/capsules/what-is-a-capsule"
+ },
+ {
+  "path": "docs/platform/index.md",
+  "slug": "/platform"
+ },
+ {
+  "path": "docs/platform/platform.md",
+  "slug": "/platform/platform"
+ },
+ {
+  "path": "docs/platform/regions/what-regions-does-code-capsules-support.md",
+  "slug": "/platform/regions/what-regions-does-code-capsules-support"
+ },
+ {
+  "path": "docs/platform/security/basic-auth.md",
+  "slug": "/platform/security/basic-auth"
+ },
+ {
+  "path": "docs/platform/spaces/how-do-i-add-remove-a-space.md",
+  "slug": "/platform/spaces/how-do-i-add-remove-a-space"
+ },
+ {
+  "path": "docs/platform/spaces/what-is-a-space.md",
+  "slug": "/platform/spaces/what-is-a-space"
+ },
+ {
+  "path": "docs/platform/teams/how-do-i-add-remove-teams.md",
+  "slug": "/platform/teams/how-do-i-add-remove-teams"
+ },
+ {
+  "path": "docs/platform/teams/how-do-i-add-team-members.md",
+  "slug": "/platform/teams/how-do-i-add-team-members"
+ },
+ {
+  "path": "docs/platform/teams/share-a-repo-with-a-team.md",
+  "slug": "/platform/teams/share-a-repo-with-a-team"
+ },
+ {
+  "path": "docs/platform/teams/what-is-a-team.md",
+  "slug": "/platform/teams/what-is-a-team"
+ },
+ {
+  "path": "docs/platform/what-is-code-capsules.md",
+  "slug": "/platform/what-is-code-capsules"
+ },
+ {
+  "path": "docs/products/agent-capsule/chat/agent-api-sample.mdx",
+  "slug": "/products/agent-capsule/chat/agent-api-sample"
+ },
+ {
+  "path": "docs/products/agent-capsule/chat/index.md",
+  "slug": "/products/agent-capsule/chat"
+ },
+ {
+  "path": "docs/products/agent-capsule/configure.md",
+  "slug": "/products/agent-capsule/configure"
+ },
+ {
+  "path": "docs/products/agent-capsule/deploy.md",
+  "slug": "/products/agent-capsule/deploy"
+ },
+ {
+  "path": "docs/products/agent-capsule/logs.md",
+  "slug": "/products/agent-capsule/logs"
+ },
+ {
+  "path": "docs/products/agent-capsule/monitor.md",
+  "slug": "/products/agent-capsule/monitor"
+ },
+ {
+  "path": "docs/products/agent-capsule/scale.md",
+  "slug": "/products/agent-capsule/scale"
+ },
+ {
+  "path": "docs/products/agent-capsule/templates.md",
+  "slug": "/products/agent-capsule/templates"
+ },
+ {
+  "path": "docs/products/alerting.md",
+  "slug": "/products/alerting"
+ },
+ {
+  "path": "docs/products/backend-capsule/add-procfile.md",
+  "slug": "/products/backend-capsule/add-procfile"
+ },
+ {
+  "path": "docs/products/backend-capsule/configure.md",
+  "slug": "/products/backend-capsule/configure"
+ },
+ {
+  "path": "docs/products/backend-capsule/deploy.md",
+  "slug": "/products/backend-capsule/deploy"
+ },
+ {
+  "path": "docs/products/backend-capsule/index.md",
+  "slug": "/products/backend-capsule"
+ },
+ {
+  "path": "docs/products/backend-capsule/logs.md",
+  "slug": "/products/backend-capsule/logs"
+ },
+ {
+  "path": "docs/products/backend-capsule/monitor.md",
+  "slug": "/products/backend-capsule/monitor"
+ },
+ {
+  "path": "docs/products/backend-capsule/scale.md",
+  "slug": "/products/backend-capsule/scale"
+ },
+ {
+  "path": "docs/products/backend-capsule/supported-runtimes.md",
+  "slug": "/products/backend-capsule/supported-runtimes"
+ },
+ {
+  "path": "docs/products/database-capsule/documentdb/backups.md",
+  "slug": "/products/database-capsule/documentdb/backups"
+ },
+ {
+  "path": "docs/products/database-capsule/documentdb/configure.md",
+  "slug": "/products/database-capsule/documentdb/configure"
+ },
+ {
+  "path": "docs/products/database-capsule/documentdb/connect-locally.md",
+  "slug": "/products/database-capsule/documentdb/connect-locally"
+ },
+ {
+  "path": "docs/products/database-capsule/documentdb/deploy.md",
+  "slug": "/products/database-capsule/documentdb/deploy"
+ },
+ {
+  "path": "docs/products/database-capsule/documentdb/logs.md",
+  "slug": "/products/database-capsule/documentdb/logs"
+ },
+ {
+  "path": "docs/products/database-capsule/documentdb/monitor.md",
+  "slug": "/products/database-capsule/documentdb/monitor"
+ },
+ {
+  "path": "docs/products/database-capsule/documentdb/scale.md",
+  "slug": "/products/database-capsule/documentdb/scale"
+ },
+ {
+  "path": "docs/products/database-capsule/index.md",
+  "slug": "/products/database-capsule"
+ },
+ {
+  "path": "docs/products/database-capsule/mongodb/backups.md",
+  "slug": "/products/database-capsule/mongodb/backups"
+ },
+ {
+  "path": "docs/products/database-capsule/mongodb/configure.md",
+  "slug": "/products/database-capsule/mongodb/configure"
+ },
+ {
+  "path": "docs/products/database-capsule/mongodb/deploy.md",
+  "slug": "/products/database-capsule/mongodb/deploy"
+ },
+ {
+  "path": "docs/products/database-capsule/mongodb/monitor.md",
+  "slug": "/products/database-capsule/mongodb/monitor"
+ },
+ {
+  "path": "docs/products/database-capsule/mongodb/scale.md",
+  "slug": "/products/database-capsule/mongodb/scale"
+ },
+ {
+  "path": "docs/products/database-capsule/mongodb/versions.md",
+  "slug": "/products/database-capsule/mongodb/versions"
+ },
+ {
+  "path": "docs/products/database-capsule/mongodb/versions/upgrades/7-0-to-8-0.md",
+  "slug": "/products/database-capsule/mongodb/versions/upgrades/7-0-to-8-0"
+ },
+ {
+  "path": "docs/products/database-capsule/mongodb/versions/upgrades/index.md",
+  "slug": "/products/database-capsule/mongodb/versions/upgrades"
+ },
+ {
+  "path": "docs/products/database-capsule/mysql/backups.md",
+  "slug": "/products/database-capsule/mysql/backups"
+ },
+ {
+  "path": "docs/products/database-capsule/mysql/configure.md",
+  "slug": "/products/database-capsule/mysql/configure"
+ },
+ {
+  "path": "docs/products/database-capsule/mysql/connect-locally.md",
+  "slug": "/products/database-capsule/mysql/connect-locally"
+ },
+ {
+  "path": "docs/products/database-capsule/mysql/deploy.md",
+  "slug": "/products/database-capsule/mysql/deploy"
+ },
+ {
+  "path": "docs/products/database-capsule/mysql/logs.md",
+  "slug": "/products/database-capsule/mysql/logs"
+ },
+ {
+  "path": "docs/products/database-capsule/mysql/monitor.md",
+  "slug": "/products/database-capsule/mysql/monitor"
+ },
+ {
+  "path": "docs/products/database-capsule/mysql/scale.md",
+  "slug": "/products/database-capsule/mysql/scale"
+ },
+ {
+  "path": "docs/products/database-capsule/mysql/schema-migrations.md",
+  "slug": "/products/database-capsule/mysql/schema-migrations"
+ },
+ {
+  "path": "docs/products/database-capsule/mysql/versions.md",
+  "slug": "/products/database-capsule/mysql/versions"
+ },
+ {
+  "path": "docs/products/database-capsule/mysql/versions/upgrades/5-7-to-8-0.md",
+  "slug": "/products/database-capsule/mysql/versions/upgrades/5-7-to-8-0"
+ },
+ {
+  "path": "docs/products/database-capsule/mysql/versions/upgrades/index.md",
+  "slug": "/products/database-capsule/mysql/versions/upgrades"
+ },
+ {
+  "path": "docs/products/database-capsule/postgresql/backups.md",
+  "slug": "/products/database-capsule/postgresql/backups"
+ },
+ {
+  "path": "docs/products/database-capsule/postgresql/configure.md",
+  "slug": "/products/database-capsule/postgresql/configure"
+ },
+ {
+  "path": "docs/products/database-capsule/postgresql/connect-locally.md",
+  "slug": "/products/database-capsule/postgresql/connect-locally"
+ },
+ {
+  "path": "docs/products/database-capsule/postgresql/deploy.md",
+  "slug": "/products/database-capsule/postgresql/deploy"
+ },
+ {
+  "path": "docs/products/database-capsule/postgresql/logs.md",
+  "slug": "/products/database-capsule/postgresql/logs"
+ },
+ {
+  "path": "docs/products/database-capsule/postgresql/monitor.md",
+  "slug": "/products/database-capsule/postgresql/monitor"
+ },
+ {
+  "path": "docs/products/database-capsule/postgresql/scale.md",
+  "slug": "/products/database-capsule/postgresql/scale"
+ },
+ {
+  "path": "docs/products/database-capsule/redis/configure.md",
+  "slug": "/products/database-capsule/redis/configure"
+ },
+ {
+  "path": "docs/products/database-capsule/redis/connect-locally.md",
+  "slug": "/products/database-capsule/redis/connect-locally"
+ },
+ {
+  "path": "docs/products/database-capsule/redis/deploy.md",
+  "slug": "/products/database-capsule/redis/deploy"
+ },
+ {
+  "path": "docs/products/database-capsule/redis/logs.md",
+  "slug": "/products/database-capsule/redis/logs"
+ },
+ {
+  "path": "docs/products/database-capsule/redis/monitor.md",
+  "slug": "/products/database-capsule/redis/monitor"
+ },
+ {
+  "path": "docs/products/database-capsule/redis/scale.md",
+  "slug": "/products/database-capsule/redis/scale"
+ },
+ {
+  "path": "docs/products/docker-capsule/configure.md",
+  "slug": "/products/docker-capsule/configure"
+ },
+ {
+  "path": "docs/products/docker-capsule/container-requirements.md",
+  "slug": "/products/docker-capsule/container-requirements"
+ },
+ {
+  "path": "docs/products/docker-capsule/deployments.md",
+  "slug": "/products/docker-capsule/deployments"
+ },
+ {
+  "path": "docs/products/docker-capsule/git/builds.md",
+  "slug": "/products/docker-capsule/git/builds"
+ },
+ {
+  "path": "docs/products/docker-capsule/git/deploy.md",
+  "slug": "/products/docker-capsule/git/deploy"
+ },
+ {
+  "path": "docs/products/docker-capsule/image/deploy.md",
+  "slug": "/products/docker-capsule/image/deploy"
+ },
+ {
+  "path": "docs/products/docker-capsule/image/updates.md",
+  "slug": "/products/docker-capsule/image/updates"
+ },
+ {
+  "path": "docs/products/docker-capsule/index.md",
+  "slug": "/products/docker-capsule"
+ },
+ {
+  "path": "docs/products/docker-capsule/logs.md",
+  "slug": "/products/docker-capsule/logs"
+ },
+ {
+  "path": "docs/products/docker-capsule/monitor.md",
+  "slug": "/products/docker-capsule/monitor"
+ },
+ {
+  "path": "docs/products/docker-capsule/scale.md",
+  "slug": "/products/docker-capsule/scale"
+ },
+ {
+  "path": "docs/products/enterprise-clusters/overview.md",
+  "slug": "/products/enterprise-clusters/overview"
+ },
+ {
+  "path": "docs/products/frontend-capsule/configure.md",
+  "slug": "/products/frontend-capsule/configure"
+ },
+ {
+  "path": "docs/products/frontend-capsule/container/deploy.md",
+  "slug": "/products/frontend-capsule/container/deploy"
+ },
+ {
+  "path": "docs/products/frontend-capsule/custom-domains.md",
+  "slug": "/products/frontend-capsule/custom-domains"
+ },
+ {
+  "path": "docs/products/frontend-capsule/deploy.md",
+  "slug": "/products/frontend-capsule/deploy"
+ },
+ {
+  "path": "docs/products/frontend-capsule/index.md",
+  "slug": "/products/frontend-capsule"
+ },
+ {
+  "path": "docs/products/frontend-capsule/logs.md",
+  "slug": "/products/frontend-capsule/logs"
+ },
+ {
+  "path": "docs/products/frontend-capsule/monitor.md",
+  "slug": "/products/frontend-capsule/monitor"
+ },
+ {
+  "path": "docs/products/frontend-capsule/scale.md",
+  "slug": "/products/frontend-capsule/scale"
+ },
+ {
+  "path": "docs/products/frontend-capsule/static/deploy.md",
+  "slug": "/products/frontend-capsule/static/deploy"
+ },
+ {
+  "path": "docs/products/frontend-capsule/static/plans.md",
+  "slug": "/products/frontend-capsule/static/plans"
+ },
+ {
+  "path": "docs/products/frontend-capsule/supported-runtimes.md",
+  "slug": "/products/frontend-capsule/supported-runtimes"
+ },
+ {
+  "path": "docs/products/index.md",
+  "slug": "'/products'"
+ },
+ {
+  "path": "docs/products/storage-capsule/backups.md",
+  "slug": "/products/storage-capsule/backups"
+ },
+ {
+  "path": "docs/products/storage-capsule/configure.md",
+  "slug": "/products/storage-capsule/configure"
+ },
+ {
+  "path": "docs/products/storage-capsule/deploy.md",
+  "slug": "/products/storage-capsule/deploy"
+ },
+ {
+  "path": "docs/products/storage-capsule/how-state-works.md",
+  "slug": "/products/storage-capsule/how-state-works"
+ },
+ {
+  "path": "docs/products/storage-capsule/logs.md",
+  "slug": "/products/storage-capsule/logs"
+ },
+ {
+  "path": "docs/products/storage-capsule/monitor.md",
+  "slug": "/products/storage-capsule/monitor"
+ },
+ {
+  "path": "docs/products/storage-capsule/scale.md",
+  "slug": "/products/storage-capsule/scale"
+ },
+ {
+  "path": "docs/products/wordpress-capsule/backups.md",
+  "slug": "/products/wordpress-capsule/backups"
+ },
+ {
+  "path": "docs/products/wordpress-capsule/caching.md",
+  "slug": "/products/wordpress-capsule/caching"
+ },
+ {
+  "path": "docs/products/wordpress-capsule/configure.md",
+  "slug": "/products/wordpress-capsule/configure"
+ },
+ {
+  "path": "docs/products/wordpress-capsule/cron.md",
+  "slug": "/products/wordpress-capsule/cron"
+ },
+ {
+  "path": "docs/products/wordpress-capsule/deploy.md",
+  "slug": "/products/wordpress-capsule/deploy"
+ },
+ {
+  "path": "docs/products/wordpress-capsule/logs.md",
+  "slug": "/products/wordpress-capsule/logs"
+ },
+ {
+  "path": "docs/products/wordpress-capsule/monitor.md",
+  "slug": "/products/wordpress-capsule/monitor"
+ },
+ {
+  "path": "docs/products/wordpress-capsule/performance.md",
+  "slug": "/products/wordpress-capsule/performance"
+ },
+ {
+  "path": "docs/products/wordpress-capsule/routing.md",
+  "slug": "/products/wordpress-capsule/routing"
+ },
+ {
+  "path": "docs/products/wordpress-capsule/scale.md",
+  "slug": "/products/wordpress-capsule/scale"
+ },
+ {
+  "path": "docs/products/wordpress-capsule/security.md",
+  "slug": "/products/wordpress-capsule/security"
+ },
+ {
+  "path": "docs/sandbox/environments.md",
+  "slug": "/sandbox/environments"
+ },
+ {
+  "path": "docs/sandbox/index.md",
+  "slug": "/sandbox"
+ },
+ {
+  "path": "docs/sandbox/python/api-reference.md",
+  "slug": "/sandbox/python/api-reference"
+ },
+ {
+  "path": "docs/sandbox/python/index.md",
+  "slug": "/sandbox/python"
+ },
+ {
+  "path": "docs/sandbox/quickstart.md",
+  "slug": "/sandbox/quickstart"
+ },
+ {
+  "path": "docs/sandbox/typescript/api-reference.md",
+  "slug": "/sandbox/typescript/api-reference"
+ },
+ {
+  "path": "docs/sandbox/typescript/index.md",
+  "slug": "/sandbox/typescript"
+ },
+ {
+  "path": "docs/tutorials/best-practices-for-structuring-mean-mern-mevn-projects.md",
+  "slug": "/tutorials/best-practices-for-structuring-mean-mern-mevn-projects"
+ },
+ {
+  "path": "docs/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx.md",
+  "slug": "/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx"
+ },
+ {
+  "path": "docs/tutorials/build-a-mern-job-board.md",
+  "slug": "/tutorials/build-a-mern-job-board"
+ },
+ {
+  "path": "docs/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules.md",
+  "slug": "/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules"
+ },
+ {
+  "path": "docs/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications.md",
+  "slug": "/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications"
+ },
+ {
+  "path": "docs/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker.md",
+  "slug": "/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker"
+ },
+ {
+  "path": "docs/tutorials/building-a-full-stack-application-with-express-and-htmx.md",
+  "slug": "/tutorials/building-a-full-stack-application-with-express-and-htmx"
+ },
+ {
+  "path": "docs/tutorials/building-a-full-stack-application-with-flask-and-htmx.md",
+  "slug": "/tutorials/building-a-full-stack-application-with-flask-and-htmx"
+ },
+ {
+  "path": "docs/tutorials/building-a-game-catalogue-api.md",
+  "slug": "/tutorials/building-a-game-catalogue-api"
+ },
+ {
+  "path": "docs/tutorials/building-a-web-file-store.md",
+  "slug": "/tutorials/building-a-web-file-store"
+ },
+ {
+  "path": "docs/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules.md",
+  "slug": "/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules"
+ },
+ {
+  "path": "docs/tutorials/create-and-host-an-api-with-flask.md",
+  "slug": "/tutorials/create-and-host-an-api-with-flask"
+ },
+ {
+  "path": "docs/tutorials/create-and-host-go-ai-telegram-bot.md",
+  "slug": "/tutorials/create-and-host-go-ai-telegram-bot"
+ },
+ {
+  "path": "docs/tutorials/deploy-emdash-on-code-capsules.md",
+  "slug": "/tutorials/deploy-emdash-on-code-capsules"
+ },
+ {
+  "path": "docs/tutorials/deploy-paperclip-ai-orchestration-on-code-capsules.md",
+  "slug": "/tutorials/deploy-paperclip-ai-orchestration-on-code-capsules"
+ },
+ {
+  "path": "docs/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial.md",
+  "slug": "/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial"
+ },
+ {
+  "path": "docs/tutorials/heroku-migration-guide.md",
+  "slug": "/tutorials/heroku-migration-guide"
+ },
+ {
+  "path": "docs/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules.md",
+  "slug": "/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules"
+ },
+ {
+  "path": "docs/tutorials/how-to-simply-host-a-production-wordpress-blog.md",
+  "slug": "/tutorials/how-to-simply-host-a-production-wordpress-blog"
+ },
+ {
+  "path": "docs/tutorials/index.md",
+  "slug": "/tutorials"
+ },
+ {
+  "path": "docs/tutorials/nuxt3-and-nitro.md",
+  "slug": "/tutorials/nuxt3-and-nitro"
+ },
+ {
+  "path": "docs/tutorials/optimizing-performance-in-mern-stack-tips-and-techniques.md",
+  "slug": "/tutorials/optimizing-performance-in-mern-stack-tips-and-techniques"
+ },
+ {
+  "path": "docs/tutorials/use-codecapsules-with-an-agent.md",
+  "slug": "/tutorials/use-codecapsules-with-an-agent"
+ },
+ {
+  "path": "docs/tutorials/video-guides.md",
+  "slug": "/tutorials/video-guides"
+ },
+ {
+  "path": "docs/tutorials/white-label-your-app-with-code-capsules.md",
+  "slug": "/tutorials/white-label-your-app-with-code-capsules"
+ },
+ {
+  "path": "docs/wordpress.md",
+  "slug": "/wordpress"
+ }
+]

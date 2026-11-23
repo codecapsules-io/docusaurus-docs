@@ -2,5 +2,6 @@
 > tmp-codecapsules-docu-bootstrap-p-lqk-mh@0.0.0 build
 > docusaurus build
 
-sh: docusaurus: command not found
-npm run build  0.09s user 0.09s system 51% cpu 0.352 total
+[INFO] [en] Creating an optimized production build...
+[SUCCESS] Generated static files in "build".
+[INFO] Use `npm run serve` command to test your build locally.
