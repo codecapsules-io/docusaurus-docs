@@ -7,13 +7,13 @@ const TIE_ORDER = ['how-to', 'reference', 'explanation', 'tutorial'];
 const FOLDER = {tutorial: 'tutorials', 'how-to': 'how-to', reference: 'reference', explanation: 'explanation'};
 
 const OVERRIDES = {
-  'docs/wordpress.md': 'wordpress-capsule/managed-wordpress.md',
-  'docs/persistent-storage.md': 'storage-capsule/persistent-storage.md',
+  'docs/wordpress.md': 'capsules/wordpress/managed-wordpress.md',
+  'docs/persistent-storage.md': 'capsules/storage/persistent-storage.md',
   'docs/platform/platform.md': 'platform/overview.md',
 };
 
 function tidy(rest) {
-  rest = rest.replace(/^products\//, '').replace(/(^|\/)readme\//, '$1').replace(/\/versions\/upgrades\//, '/upgrades/');
+  rest = rest.replace(/^products\//, '').replace(/^(agent|backend|database|docker|frontend|storage|wordpress)-capsule\//, 'capsules/$1/').replace(/(^|\/)readme\//, '$1').replace(/\/versions\/upgrades\//, '/upgrades/');
   return rest.startsWith('platform/') && rest.split('/').length >= 3 ? rest.slice('platform/'.length) : rest;
 }
 

@@ -26,7 +26,7 @@ On the **Plan & Deploy** screen, configure your capsule:
 
 Provisioning can take a few minutes. The capsule status on the **Details** tab shows **Creating** until the cluster is ready.
 
-See [Deploy](/how-to/database-capsule/mongodb/deploy/) for product documentation and framework guides.
+See [Deploy](/how-to/capsules/database/mongodb/deploy/) for product documentation and framework guides.
 
 ## View Connection Details
 

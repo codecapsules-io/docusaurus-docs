@@ -114,7 +114,7 @@ We'll create two application Capsules in this space: one for the staging site, a
 
 Next, you need a WordPress Capsule to serve as your staging environment.
 
-Follow the [WordPress Capsule deployment guide](/how-to/wordpress-capsule/deploy/) to set up:
+Follow the [WordPress Capsule deployment guide](/how-to/capsules/wordpress/deploy/) to set up:
 
 * A WordPress application Capsule running the latest WordPress version
 * A MySQL Database Capsule storing posts, users, and settings
@@ -191,7 +191,7 @@ Enter a post title and content. For this example, create a post titled `Welcome 
 
 ## Setting Up the WordPress Production Site
 
-Create a second WordPress Capsule for production using the same [WordPress Capsule deployment guide](/how-to/wordpress-capsule/deploy/). Use clear naming to distinguish environments:
+Create a second WordPress Capsule for production using the same [WordPress Capsule deployment guide](/how-to/capsules/wordpress/deploy/). Use clear naming to distinguish environments:
 
 * **Capsule name:** `Production WordPress`
 * **Database Capsule:** `Production WordPress Database`
@@ -226,8 +226,8 @@ Code Capsules provides infrastructure-level backups using automatic daily snapsh
 
 Configure and manage your backups with the following guides:
 
-* [**Database Capsule Backups**](/how-to/database-capsule/mysql/backups/)**:** Configure retention and restore database snapshots.
-* [**Storage Capsule Backups**](/how-to/storage-capsule/backups/)**:** Manage your file storage backup settings.
+* [**Database Capsule Backups**](/how-to/capsules/database/mysql/backups/)**:** Configure retention and restore database snapshots.
+* [**Storage Capsule Backups**](/how-to/capsules/storage/backups/)**:** Manage your file storage backup settings.
 
 Test backup restoration quarterly to verify that backups work when needed.
 
@@ -240,23 +240,23 @@ Code Capsules handles scaling by letting you allocate more resources to your Cap
 * Open your WordPress Capsule and navigate to the **Scale** tab.
 * Click **Edit**, select **Custom**, and use the slider to adjust the Capsule's allocated resources.
 
-You can also set up scaling rules to automatically adjust the site's capacity based on traffic. To learn more, visit our [WordPress scaling documentation](/how-to/wordpress-capsule/scale/).
+You can also set up scaling rules to automatically adjust the site's capacity based on traffic. To learn more, visit our [WordPress scaling documentation](/how-to/capsules/wordpress/scale/).
 
 ### Observe and Monitor Your Site
 
 Use the following Code Capsules capabilities to monitor your WordPress site.
 
-* [**Monitoring**](/how-to/wordpress-capsule/monitor/)**:** View real-time metrics for CPU, memory, and traffic. Identify performance trends and resource constraints.
-* [**Logs**](/how-to/wordpress-capsule/logs/)**:** Access application logs directly from the dashboard. Filter by severity, search for specific errors, and troubleshoot issues without server access.
+* [**Monitoring**](/how-to/capsules/wordpress/monitor/)**:** View real-time metrics for CPU, memory, and traffic. Identify performance trends and resource constraints.
+* [**Logs**](/how-to/capsules/wordpress/logs/)**:** Access application logs directly from the dashboard. Filter by severity, search for specific errors, and troubleshoot issues without server access.
 
 ![Screenshot](/gitbook-assets/tutorials/wordpress-blog/wordpress-capsule-logs-interface.png)
 
-* [**Access Logs**](/how-to/wordpress-capsule/logs/)**:** Track actions performed by WordPress users in the admin interface.
+* [**Access Logs**](/how-to/capsules/wordpress/logs/)**:** Track actions performed by WordPress users in the admin interface.
 
 ![Screenshot](/gitbook-assets/tutorials/wordpress-blog/wordpress-access-logs-view.png)
 
 * [**Alerting**](/how-to/alerting/)**:** Configure alerts for high CPU usage, error rates, and downtime. Receive notifications via email or webhooks before users report problems.
-* [**Metrics**](/how-to/wordpress-capsule/monitor/)**:** Check resource usage on the machine.
+* [**Metrics**](/how-to/capsules/wordpress/monitor/)**:** Check resource usage on the machine.
 
 ![Screenshot](/gitbook-assets/tutorials/wordpress-blog/wordpress-metrics-dashboard.png)
 

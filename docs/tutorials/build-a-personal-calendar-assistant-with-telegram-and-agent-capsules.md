@@ -61,7 +61,7 @@ Then, deploy the Agent Capsule:
 3. Connect your GitHub account and select the repository you just created.
 4. Click **Create Capsule**.
 
-For more detailed instructions, see the [Agent Capsule deployment guide](/how-to/agent-capsule/deploy/).
+For more detailed instructions, see the [Agent Capsule deployment guide](/how-to/capsules/agent/deploy/).
 
 #### Create a Telegram Bot
 
@@ -170,4 +170,4 @@ This same pattern can enable you to build interesting integrations like:
 
 The Agent Capsule architecture makes it easy to add new tools and capabilities without managing infrastructure. You can extend your bot by creating new tools that call external APIs, process data, and integrate with other services.
 
-If you're interested in learning more about building with Agent Capsules, check out the [Code Capsules documentation](/how-to/agent-capsule/deploy/).
+If you're interested in learning more about building with Agent Capsules, check out the [Code Capsules documentation](/how-to/capsules/agent/deploy/).

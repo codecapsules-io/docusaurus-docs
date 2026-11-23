@@ -1,0 +1,28 @@
+---
+slug: "/how-to/capsules/database/mysql/deploy"
+diataxis: how-to
+description: "Deploy a managed MySQL database on Code Capsules with a MySQL Capsule, then connect it to your backend app using a framework guide."
+title: "How to Deploy a MySQL Database"
+sidebar_label: "Deploy"
+---
+
+# Deploy Your MySQL Database
+
+MySQL Capsules provide a managed MySQL database for your applications on Code Capsules. When you create a capsule in the dashboard, it is presented as **MySQL**.
+
+## Create a MySQL Capsule
+
+1. Click **New Capsule** and select **MySQL**, your Team, and Space.
+2. On **Plan & Deploy**, select a **Version**. See [Versions](/reference/capsules/database/mysql/versions/) for supported options.
+3. Choose a **Plan** and configure **CPU**, **RAM**, **Storage**, and **Replicas** as needed.
+4. Enter a **Capsule Name** and click **Create Capsule**.
+
+![MySQL Capsule Plan & Deploy step with Version selector and Plan options](/gitbook-assets/products/database-capsule/deploy/mysql-deploy-plan.png)
+
+Capsule creation can take several minutes. See the [MySQL getting started guide](/how-to/database/mysql/) for connection and binding instructions.
+
+## Framework Guides
+
+- [Django + MySQL](/how-to/database/mysql/django-+-mysql/)
+- [Flask + MySQL](/how-to/database/mysql/flask-+-mysql/)
+- [Java + MySQL](/how-to/database/mysql/java-+-mysql/)

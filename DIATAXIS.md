@@ -81,7 +81,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/full-stack/next.js/next.js-+-express.js.md` | Deploy Next.js with Express.js |
 | `docs/how-to/full-stack/next.js/next.js-+-mongodb.md` | Deploy Next.js with MongoDB |
 | `docs/how-to/full-stack/next.js/static-file-share-with-flask-and-caddy.md` | Deploy a File-Sharing Site with Flask and Caddy |
-| `docs/how-to/storage-capsule/persistent-storage.md` | How to Use Persistent Storage |
+| `docs/how-to/capsules/storage/persistent-storage.md` | How to Use Persistent Storage |
 | `docs/how-to/account/connect-version-control.md` | Connect GitHub or GitLab |
 | `docs/how-to/account/how-do-i-add-a-payment-method.md` | How to Add a Payment Method |
 | `docs/how-to/account/how-do-i-enable-2fa.md` | How to Enable Two-Factor Authentication (2FA) |
@@ -96,94 +96,94 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/teams/how-do-i-add-remove-teams.md` | Add and Remove Teams |
 | `docs/how-to/teams/how-do-i-add-team-members.md` | Add Team Members to a Team |
 | `docs/how-to/teams/share-a-repo-with-a-team.md` | Share a Repo with a Team |
-| `docs/how-to/agent-capsule/chat/index.md` | Add a Chat Interface to an AI Agent |
-| `docs/how-to/agent-capsule/configure.md` | How to Configure an AI Agent |
-| `docs/how-to/agent-capsule/deploy.md` | How to Deploy an AI Agent |
-| `docs/how-to/agent-capsule/logs.md` | How to View Logs for an AI Agent |
-| `docs/how-to/agent-capsule/monitor.md` | How to Monitor an AI Agent |
-| `docs/how-to/agent-capsule/scale.md` | How to Scale an AI Agent |
-| `docs/how-to/agent-capsule/templates.md` | AI Agent Templates — Prebuilt Starting Points |
+| `docs/how-to/capsules/agent/chat/index.md` | Add a Chat Interface to an AI Agent |
+| `docs/how-to/capsules/agent/configure.md` | How to Configure an AI Agent |
+| `docs/how-to/capsules/agent/deploy.md` | How to Deploy an AI Agent |
+| `docs/how-to/capsules/agent/logs.md` | How to View Logs for an AI Agent |
+| `docs/how-to/capsules/agent/monitor.md` | How to Monitor an AI Agent |
+| `docs/how-to/capsules/agent/scale.md` | How to Scale an AI Agent |
+| `docs/how-to/capsules/agent/templates.md` | AI Agent Templates — Prebuilt Starting Points |
 | `docs/how-to/alerting.md` | How to Set Up Deployment Notifications |
-| `docs/how-to/backend-capsule/add-procfile.md` | Add a Procfile to a Backend Capsule |
-| `docs/how-to/backend-capsule/configure.md` | How to Configure a Backend Application |
-| `docs/how-to/backend-capsule/logs.md` | How to View Logs for a Backend Application |
-| `docs/how-to/backend-capsule/monitor.md` | How to Monitor a Backend Application |
-| `docs/how-to/backend-capsule/scale.md` | How to Scale a Backend Application |
-| `docs/how-to/database-capsule/documentdb/backups.md` | How to Back Up a DocumentDB Database |
-| `docs/how-to/database-capsule/documentdb/configure.md` | How to Configure a DocumentDB Database |
-| `docs/how-to/database-capsule/documentdb/connect-locally.md` | How to Connect to DocumentDB Locally |
-| `docs/how-to/database-capsule/documentdb/deploy.md` | How to Deploy a DocumentDB Database |
-| `docs/how-to/database-capsule/documentdb/logs.md` | How to View Logs for a DocumentDB Database |
-| `docs/how-to/database-capsule/documentdb/monitor.md` | How to Monitor a DocumentDB Database |
-| `docs/how-to/database-capsule/documentdb/scale.md` | How to Scale a DocumentDB Database |
-| `docs/how-to/database-capsule/mongodb/backups.md` | How to Back Up a MongoDB Database |
-| `docs/how-to/database-capsule/mongodb/configure.md` | How to Configure a MongoDB Database |
-| `docs/how-to/database-capsule/mongodb/deploy.md` | How to Deploy a MongoDB Database |
-| `docs/how-to/database-capsule/mongodb/monitor.md` | How to Monitor a MongoDB Database |
-| `docs/how-to/database-capsule/mongodb/scale.md` | How to Scale a MongoDB Database |
-| `docs/how-to/database-capsule/mongodb/upgrades/7-0-to-8-0.md` | How to Upgrade MongoDB 7.0 to 8.0 |
-| `docs/how-to/database-capsule/mysql/backups.md` | How to Back Up a MySQL Database |
-| `docs/how-to/database-capsule/mysql/configure.md` | How to Configure a MySQL Database |
-| `docs/how-to/database-capsule/mysql/connect-locally.md` | How to Connect to MySQL Locally |
-| `docs/how-to/database-capsule/mysql/deploy.md` | How to Deploy a MySQL Database |
-| `docs/how-to/database-capsule/mysql/logs.md` | How to View Logs for a MySQL Database |
-| `docs/how-to/database-capsule/mysql/monitor.md` | How to Monitor a MySQL Database |
-| `docs/how-to/database-capsule/mysql/scale.md` | How to Scale a MySQL Database |
-| `docs/how-to/database-capsule/mysql/schema-migrations.md` | How to Run Database Migrations |
-| `docs/how-to/database-capsule/mysql/upgrades/5-7-to-8-0.md` | How to Upgrade MySQL 5.7 to 8.0 |
-| `docs/how-to/database-capsule/postgresql/backups.md` | How to Back Up a PostgreSQL Database |
-| `docs/how-to/database-capsule/postgresql/configure.md` | How to Configure a PostgreSQL Database |
-| `docs/how-to/database-capsule/postgresql/connect-locally.md` | How to Connect to PostgreSQL Locally |
-| `docs/how-to/database-capsule/postgresql/deploy.md` | How to Deploy a PostgreSQL Database |
-| `docs/how-to/database-capsule/postgresql/logs.md` | How to View Logs for a PostgreSQL Database |
-| `docs/how-to/database-capsule/postgresql/monitor.md` | How to Monitor a PostgreSQL Database |
-| `docs/how-to/database-capsule/postgresql/scale.md` | How to Scale a PostgreSQL Database |
-| `docs/how-to/database-capsule/redis/configure.md` | How to Configure a Redis Database |
-| `docs/how-to/database-capsule/redis/connect-locally.md` | How to Connect to Redis Locally |
-| `docs/how-to/database-capsule/redis/deploy.md` | How to Deploy a Redis Database |
-| `docs/how-to/database-capsule/redis/logs.md` | How to View Logs for a Redis Database |
-| `docs/how-to/database-capsule/redis/monitor.md` | How to Monitor a Redis Database |
-| `docs/how-to/database-capsule/redis/scale.md` | How to Scale a Redis Database |
-| `docs/how-to/docker-capsule/configure.md` | How to Configure a Docker Container |
-| `docs/how-to/docker-capsule/deployments.md` | How to Manage Docker Container Deployments |
-| `docs/how-to/docker-capsule/git/builds.md` | How to Build Docker Images From Git |
-| `docs/how-to/docker-capsule/git/deploy.md` | How to Deploy a Dockerfile From Git |
-| `docs/how-to/docker-capsule/image/deploy.md` | How to Deploy an Existing Docker Image |
-| `docs/how-to/docker-capsule/image/updates.md` | How to Update a Deployed Docker Image |
-| `docs/how-to/docker-capsule/logs.md` | How to View Logs for a Docker Container |
-| `docs/how-to/docker-capsule/monitor.md` | How to Monitor a Docker Container |
-| `docs/how-to/docker-capsule/scale.md` | How to Scale a Docker Container |
-| `docs/how-to/frontend-capsule/configure.md` | How to Configure a Frontend App |
-| `docs/how-to/frontend-capsule/container/deploy.md` | How to Deploy a Container Frontend |
-| `docs/how-to/frontend-capsule/custom-domains.md` | How to Add a Custom Domain to a Frontend App |
-| `docs/how-to/frontend-capsule/logs.md` | How to View Logs for a Frontend App |
-| `docs/how-to/frontend-capsule/monitor.md` | How to Monitor a Frontend App |
-| `docs/how-to/frontend-capsule/scale.md` | How to Scale a Frontend App |
-| `docs/how-to/frontend-capsule/static/deploy.md` | How to Deploy a Static Frontend |
-| `docs/how-to/storage-capsule/backups.md` | How to Back Up a Persistent Storage |
-| `docs/how-to/storage-capsule/configure.md` | How to Configure a Persistent Storage |
-| `docs/how-to/storage-capsule/deploy.md` | How to Deploy a Persistent Storage |
-| `docs/how-to/storage-capsule/logs.md` | How to View Logs for a Persistent Storage |
-| `docs/how-to/storage-capsule/monitor.md` | How to Monitor a Persistent Storage |
-| `docs/how-to/storage-capsule/scale.md` | How to Scale a Persistent Storage |
-| `docs/how-to/wordpress-capsule/backups.md` | How to Back Up a WordPress Site |
-| `docs/how-to/wordpress-capsule/caching.md` | How to Enable WordPress Caching |
-| `docs/how-to/wordpress-capsule/configure.md` | How to Configure a WordPress Site |
-| `docs/how-to/wordpress-capsule/cron.md` | How to Schedule WordPress Cron Jobs |
-| `docs/how-to/wordpress-capsule/deploy.md` | How to Deploy a WordPress Site |
-| `docs/how-to/wordpress-capsule/logs.md` | How to View Logs for a WordPress Site |
-| `docs/how-to/wordpress-capsule/monitor.md` | How to Monitor a WordPress Site |
-| `docs/how-to/wordpress-capsule/performance.md` | How to Maximize WordPress Performance |
-| `docs/how-to/wordpress-capsule/routing.md` | How to Configure WordPress Routing |
-| `docs/how-to/wordpress-capsule/scale.md` | How to Scale a WordPress Site |
-| `docs/how-to/wordpress-capsule/security.md` | How to Secure a WordPress Site |
+| `docs/how-to/capsules/backend/add-procfile.md` | Add a Procfile to a Backend Capsule |
+| `docs/how-to/capsules/backend/configure.md` | How to Configure a Backend Application |
+| `docs/how-to/capsules/backend/logs.md` | How to View Logs for a Backend Application |
+| `docs/how-to/capsules/backend/monitor.md` | How to Monitor a Backend Application |
+| `docs/how-to/capsules/backend/scale.md` | How to Scale a Backend Application |
+| `docs/how-to/capsules/database/documentdb/backups.md` | How to Back Up a DocumentDB Database |
+| `docs/how-to/capsules/database/documentdb/configure.md` | How to Configure a DocumentDB Database |
+| `docs/how-to/capsules/database/documentdb/connect-locally.md` | How to Connect to DocumentDB Locally |
+| `docs/how-to/capsules/database/documentdb/deploy.md` | How to Deploy a DocumentDB Database |
+| `docs/how-to/capsules/database/documentdb/logs.md` | How to View Logs for a DocumentDB Database |
+| `docs/how-to/capsules/database/documentdb/monitor.md` | How to Monitor a DocumentDB Database |
+| `docs/how-to/capsules/database/documentdb/scale.md` | How to Scale a DocumentDB Database |
+| `docs/how-to/capsules/database/mongodb/backups.md` | How to Back Up a MongoDB Database |
+| `docs/how-to/capsules/database/mongodb/configure.md` | How to Configure a MongoDB Database |
+| `docs/how-to/capsules/database/mongodb/deploy.md` | How to Deploy a MongoDB Database |
+| `docs/how-to/capsules/database/mongodb/monitor.md` | How to Monitor a MongoDB Database |
+| `docs/how-to/capsules/database/mongodb/scale.md` | How to Scale a MongoDB Database |
+| `docs/how-to/capsules/database/mongodb/upgrades/7-0-to-8-0.md` | How to Upgrade MongoDB 7.0 to 8.0 |
+| `docs/how-to/capsules/database/mysql/backups.md` | How to Back Up a MySQL Database |
+| `docs/how-to/capsules/database/mysql/configure.md` | How to Configure a MySQL Database |
+| `docs/how-to/capsules/database/mysql/connect-locally.md` | How to Connect to MySQL Locally |
+| `docs/how-to/capsules/database/mysql/deploy.md` | How to Deploy a MySQL Database |
+| `docs/how-to/capsules/database/mysql/logs.md` | How to View Logs for a MySQL Database |
+| `docs/how-to/capsules/database/mysql/monitor.md` | How to Monitor a MySQL Database |
+| `docs/how-to/capsules/database/mysql/scale.md` | How to Scale a MySQL Database |
+| `docs/how-to/capsules/database/mysql/schema-migrations.md` | How to Run Database Migrations |
+| `docs/how-to/capsules/database/mysql/upgrades/5-7-to-8-0.md` | How to Upgrade MySQL 5.7 to 8.0 |
+| `docs/how-to/capsules/database/postgresql/backups.md` | How to Back Up a PostgreSQL Database |
+| `docs/how-to/capsules/database/postgresql/configure.md` | How to Configure a PostgreSQL Database |
+| `docs/how-to/capsules/database/postgresql/connect-locally.md` | How to Connect to PostgreSQL Locally |
+| `docs/how-to/capsules/database/postgresql/deploy.md` | How to Deploy a PostgreSQL Database |
+| `docs/how-to/capsules/database/postgresql/logs.md` | How to View Logs for a PostgreSQL Database |
+| `docs/how-to/capsules/database/postgresql/monitor.md` | How to Monitor a PostgreSQL Database |
+| `docs/how-to/capsules/database/postgresql/scale.md` | How to Scale a PostgreSQL Database |
+| `docs/how-to/capsules/database/redis/configure.md` | How to Configure a Redis Database |
+| `docs/how-to/capsules/database/redis/connect-locally.md` | How to Connect to Redis Locally |
+| `docs/how-to/capsules/database/redis/deploy.md` | How to Deploy a Redis Database |
+| `docs/how-to/capsules/database/redis/logs.md` | How to View Logs for a Redis Database |
+| `docs/how-to/capsules/database/redis/monitor.md` | How to Monitor a Redis Database |
+| `docs/how-to/capsules/database/redis/scale.md` | How to Scale a Redis Database |
+| `docs/how-to/capsules/docker/configure.md` | How to Configure a Docker Container |
+| `docs/how-to/capsules/docker/deployments.md` | How to Manage Docker Container Deployments |
+| `docs/how-to/capsules/docker/git/builds.md` | How to Build Docker Images From Git |
+| `docs/how-to/capsules/docker/git/deploy.md` | How to Deploy a Dockerfile From Git |
+| `docs/how-to/capsules/docker/image/deploy.md` | How to Deploy an Existing Docker Image |
+| `docs/how-to/capsules/docker/image/updates.md` | How to Update a Deployed Docker Image |
+| `docs/how-to/capsules/docker/logs.md` | How to View Logs for a Docker Container |
+| `docs/how-to/capsules/docker/monitor.md` | How to Monitor a Docker Container |
+| `docs/how-to/capsules/docker/scale.md` | How to Scale a Docker Container |
+| `docs/how-to/capsules/frontend/configure.md` | How to Configure a Frontend App |
+| `docs/how-to/capsules/frontend/container/deploy.md` | How to Deploy a Container Frontend |
+| `docs/how-to/capsules/frontend/custom-domains.md` | How to Add a Custom Domain to a Frontend App |
+| `docs/how-to/capsules/frontend/logs.md` | How to View Logs for a Frontend App |
+| `docs/how-to/capsules/frontend/monitor.md` | How to Monitor a Frontend App |
+| `docs/how-to/capsules/frontend/scale.md` | How to Scale a Frontend App |
+| `docs/how-to/capsules/frontend/static/deploy.md` | How to Deploy a Static Frontend |
+| `docs/how-to/capsules/storage/backups.md` | How to Back Up a Persistent Storage |
+| `docs/how-to/capsules/storage/configure.md` | How to Configure a Persistent Storage |
+| `docs/how-to/capsules/storage/deploy.md` | How to Deploy a Persistent Storage |
+| `docs/how-to/capsules/storage/logs.md` | How to View Logs for a Persistent Storage |
+| `docs/how-to/capsules/storage/monitor.md` | How to Monitor a Persistent Storage |
+| `docs/how-to/capsules/storage/scale.md` | How to Scale a Persistent Storage |
+| `docs/how-to/capsules/wordpress/backups.md` | How to Back Up a WordPress Site |
+| `docs/how-to/capsules/wordpress/caching.md` | How to Enable WordPress Caching |
+| `docs/how-to/capsules/wordpress/configure.md` | How to Configure a WordPress Site |
+| `docs/how-to/capsules/wordpress/cron.md` | How to Schedule WordPress Cron Jobs |
+| `docs/how-to/capsules/wordpress/deploy.md` | How to Deploy a WordPress Site |
+| `docs/how-to/capsules/wordpress/logs.md` | How to View Logs for a WordPress Site |
+| `docs/how-to/capsules/wordpress/monitor.md` | How to Monitor a WordPress Site |
+| `docs/how-to/capsules/wordpress/performance.md` | How to Maximize WordPress Performance |
+| `docs/how-to/capsules/wordpress/routing.md` | How to Configure WordPress Routing |
+| `docs/how-to/capsules/wordpress/scale.md` | How to Scale a WordPress Site |
+| `docs/how-to/capsules/wordpress/security.md` | How to Secure a WordPress Site |
 | `docs/how-to/guides/deploy-emdash-on-code-capsules.md` | Deploy an EmDash CMS Site |
 | `docs/how-to/guides/deploy-paperclip-ai-orchestration-on-code-capsules.md` | Deploy Paperclip on Code Capsules |
 | `docs/how-to/guides/heroku-migration-guide.md` | Migrate From Heroku to Code Capsules: 2026 Guide |
 | `docs/how-to/guides/nuxt3-and-nitro.md` | Deploy a Nuxt 3 App with Nitro |
 | `docs/how-to/guides/use-codecapsules-with-an-agent.md` | Deploy with an AI Coding Agent |
 | `docs/how-to/guides/white-label-your-app-with-code-capsules.md` | White-Label Your App |
-| `docs/how-to/wordpress-capsule/managed-wordpress.md` | Managed WordPress Hosting |
+| `docs/how-to/capsules/wordpress/managed-wordpress.md` | Managed WordPress Hosting |
 
 ## reference (20)
 
@@ -197,13 +197,13 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/reference/cli/global-options.md` | CLI Global Options Reference |
 | `docs/reference/billing/how-does-the-pricing-work.md` | How Does the Pricing Work? |
 | `docs/reference/regions/what-regions-does-code-capsules-support.md` | Available Regions and Locations |
-| `docs/reference/agent-capsule/chat/agent-api-sample.mdx` | Agent API (Sample) |
-| `docs/reference/backend-capsule/supported-runtimes.md` | Supported Backend Runtimes and Versions |
-| `docs/reference/database-capsule/mongodb/versions.md` | Supported MongoDB Versions |
-| `docs/reference/database-capsule/mysql/versions.md` | Supported MySQL Versions |
-| `docs/reference/docker-capsule/container-requirements.md` | Docker Container Runtime Requirements |
-| `docs/reference/frontend-capsule/static/plans.md` | Static Frontend Free and Paid Plans |
-| `docs/reference/frontend-capsule/supported-runtimes.md` | Supported Frontend Frameworks and Runtimes |
+| `docs/reference/capsules/agent/chat/agent-api-sample.mdx` | Agent API (Sample) |
+| `docs/reference/capsules/backend/supported-runtimes.md` | Supported Backend Runtimes and Versions |
+| `docs/reference/capsules/database/mongodb/versions.md` | Supported MongoDB Versions |
+| `docs/reference/capsules/database/mysql/versions.md` | Supported MySQL Versions |
+| `docs/reference/capsules/docker/container-requirements.md` | Docker Container Runtime Requirements |
+| `docs/reference/capsules/frontend/static/plans.md` | Static Frontend Free and Paid Plans |
+| `docs/reference/capsules/frontend/supported-runtimes.md` | Supported Frontend Frameworks and Runtimes |
 | `docs/reference/sandbox/environments.md` | Sandbox Environments & Flavors |
 | `docs/reference/sandbox/python/api-reference.md` | Python Sandbox SDK Methods & Types |
 | `docs/reference/sandbox/python/index.md` | Sandbox SDK for Python |
@@ -223,7 +223,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/explanation/spaces/what-is-a-space.md` | What Is a Space? |
 | `docs/explanation/teams/what-is-a-team.md` | What Is a Team? |
 | `docs/explanation/platform/what-is-code-capsules.md` | What Is Code Capsules? PaaS Overview |
-| `docs/explanation/storage-capsule/how-state-works.md` | How Persistent Storage State Works |
+| `docs/explanation/capsules/storage/how-state-works.md` | How Persistent Storage State Works |
 | `docs/explanation/guides/best-practices-for-structuring-mean-mern-mevn-projects.md` | MEAN/MERN/MEVN Project Structure |
 | `docs/explanation/guides/optimizing-performance-in-mern-stack-tips-and-techniques.md` | MERN Stack Performance Tips |
 
@@ -245,14 +245,14 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/full-stack/next.js/index.md` | Next.js Full-Stack Hosting |
 | `docs/index.md` | Get Started: Deploy Your First App |
 | `docs/how-to/platform/index.md` | Platform Guides — Accounts, Billing, Teams & Domains |
-| `docs/how-to/backend-capsule/deploy.md` | How to Deploy a Backend Application |
-| `docs/how-to/backend-capsule/index.md` | Backend Application Hosting |
-| `docs/how-to/database-capsule/index.md` | Managed Database Hosting |
-| `docs/how-to/database-capsule/mongodb/upgrades/index.md` | How to Upgrade MongoDB Versions |
-| `docs/how-to/database-capsule/mysql/upgrades/index.md` | How to Upgrade MySQL Versions |
-| `docs/how-to/docker-capsule/index.md` | Docker Container Hosting |
-| `docs/how-to/frontend-capsule/deploy.md` | Frontend Framework Deployment Guides |
-| `docs/how-to/frontend-capsule/index.md` | Frontend App Hosting |
+| `docs/how-to/capsules/backend/deploy.md` | How to Deploy a Backend Application |
+| `docs/how-to/capsules/backend/index.md` | Backend Application Hosting |
+| `docs/how-to/capsules/database/index.md` | Managed Database Hosting |
+| `docs/how-to/capsules/database/mongodb/upgrades/index.md` | How to Upgrade MongoDB Versions |
+| `docs/how-to/capsules/database/mysql/upgrades/index.md` | How to Upgrade MySQL Versions |
+| `docs/how-to/capsules/docker/index.md` | Docker Container Hosting |
+| `docs/how-to/capsules/frontend/deploy.md` | Frontend Framework Deployment Guides |
+| `docs/how-to/capsules/frontend/index.md` | Frontend App Hosting |
 | `docs/how-to/products/index.md` | App, Database & WordPress Hosting Products |
 | `docs/tutorials/index.md` | Deployment Tutorials & Step-by-Step Guides |
 | `docs/tutorials/video-guides.md` | Video Tutorials — Deploy Apps Step by Step |

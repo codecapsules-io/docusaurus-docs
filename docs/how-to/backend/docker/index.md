@@ -8,22 +8,22 @@ sidebar_label: "Docker"
 
 # Deploy Your Docker Containers
 
-Deploy containerized applications on Code Capsules using [Docker Capsules](/how-to/docker-capsule/). Docker Capsules build your application from a `Dockerfile` in your Git repository, or deploy an existing public container image, giving you full control over the runtime environment.
+Deploy containerized applications on Code Capsules using [Docker Capsules](/how-to/capsules/docker/). Docker Capsules build your application from a `Dockerfile` in your Git repository, or deploy an existing public container image, giving you full control over the runtime environment.
 
 ## Product documentation
 
 For detailed information on creating, configuring, and operating Docker Capsules:
 
-- [Docker Capsule overview](/how-to/docker-capsule/)
-- [Container requirements](/reference/docker-capsule/container-requirements/)
+- [Docker Capsule overview](/how-to/capsules/docker/)
+- [Container requirements](/reference/capsules/docker/container-requirements/)
 - From Git
-  - [Deploy](/how-to/docker-capsule/git/deploy/)
-  - [Builds & Auto-deploy](/how-to/docker-capsule/git/builds/)
+  - [Deploy](/how-to/capsules/docker/git/deploy/)
+  - [Builds & Auto-deploy](/how-to/capsules/docker/git/builds/)
 - From an existing image
-  - [Deploy](/how-to/docker-capsule/image/deploy/)
-  - [Image Updates](/how-to/docker-capsule/image/updates/)
-- [Deployments](/how-to/docker-capsule/deployments/)
-- [Configure](/how-to/docker-capsule/configure/)
+  - [Deploy](/how-to/capsules/docker/image/deploy/)
+  - [Image Updates](/how-to/capsules/docker/image/updates/)
+- [Deployments](/how-to/capsules/docker/deployments/)
+- [Configure](/how-to/capsules/docker/configure/)
 
 ## Deployment guides
 

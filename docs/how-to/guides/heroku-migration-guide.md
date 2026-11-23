@@ -231,7 +231,7 @@ If your database is only a few MB, however, you can connect to it directly and b
 pg_dump -Fc --no-acl --no-owner "$(curl -s https://api.heroku.com/apps/migrate-backend/config-vars -H "Authorization: Bearer $KEY" -H "Accept: application/vnd.heroku+json; version=3" | jq -r '.DATABASE_URL')" -f backup.dump
 ```
 
-Code Capsules keeps databases private rather than exposing a public URL. You connect through a proxy using [Code Capsules's CLI](/tutorials/cli/getting-started/quick-start/). For PostgreSQL-specific steps after opening a proxy tunnel—including `psql` and `pg_restore` examples—see [Connect Locally](/how-to/database-capsule/postgresql/connect-locally/). While you don't have to install the CLI permanently on your machine, you do need Node.js installed on your machine (or be able to run Node.js through Docker).
+Code Capsules keeps databases private rather than exposing a public URL. You connect through a proxy using [Code Capsules's CLI](/tutorials/cli/getting-started/quick-start/). For PostgreSQL-specific steps after opening a proxy tunnel—including `psql` and `pg_restore` examples—see [Connect Locally](/how-to/capsules/database/postgresql/connect-locally/). While you don't have to install the CLI permanently on your machine, you do need Node.js installed on your machine (or be able to run Node.js through Docker).
 
 We used the command below to run Node.js in a Docker container (to isolate the CLI dependencies from your local machine), log in to Code Capsules, create a proxy connection to the PostgreSQL database, and restore the database.
 
@@ -408,7 +408,7 @@ We've discussed how to move common system components to Code Capsules, but you m
 
   CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
   ```
-  Code Capsules builds Docker images from your Dockerfile in your repository. If you have a complex build, you can prebuild an image, publish it to a public registry such as Docker Hub, and [deploy the image directly](/how-to/docker-capsule/image/deploy/).
+  Code Capsules builds Docker images from your Dockerfile in your repository. If you have a complex build, you can prebuild an image, publish it to a public registry such as Docker Hub, and [deploy the image directly](/how-to/capsules/docker/image/deploy/).
 - **Running multiple applications in a Capsule**: If you want to run two different services in one Capsule, like a PHP and Ruby server, you need to use a custom Dockerfile that includes both frameworks.
 
 ## Your Migration Checklist

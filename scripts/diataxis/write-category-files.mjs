@@ -10,7 +10,7 @@ const LABELS = {
   mysql: 'MySQL',
   postgresql: 'PostgreSQL',
   documentdb: 'DocumentDB',
-  'wordpress-capsule': 'WordPress Capsule',
+  wordpress: 'WordPress',
   cli: 'CLI',
   'full-stack': 'Full-Stack',
   typescript: 'TypeScript',

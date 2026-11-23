@@ -12,8 +12,8 @@ test('newLocation: framework guide keeps its area under how-to', () => {
 
 test('newLocation: products/ prefix is dropped', () => {
   const r = newLocation('docs/products/backend-capsule/supported-runtimes.md', 'reference');
-  assert.equal(r.newPath, 'docs/reference/backend-capsule/supported-runtimes.md');
-  assert.equal(r.newSlug, '/reference/backend-capsule/supported-runtimes');
+  assert.equal(r.newPath, 'docs/reference/capsules/backend/supported-runtimes.md');
+  assert.equal(r.newSlug, '/reference/capsules/backend/supported-runtimes');
 });
 
 test('newLocation: non-tutorial from tutorials/ goes to guides/', () => {
@@ -39,8 +39,8 @@ test('newLocation: products/index.md goes to how-to/products/index.md', () => {
 });
 
 test('newLocation: root files are overridden', () => {
-  assert.equal(newLocation('docs/wordpress.md', 'how-to').newPath, 'docs/how-to/wordpress-capsule/managed-wordpress.md');
-  assert.equal(newLocation('docs/persistent-storage.md', 'how-to').newPath, 'docs/how-to/storage-capsule/persistent-storage.md');
+  assert.equal(newLocation('docs/wordpress.md', 'how-to').newPath, 'docs/how-to/capsules/wordpress/managed-wordpress.md');
+  assert.equal(newLocation('docs/persistent-storage.md', 'how-to').newPath, 'docs/how-to/capsules/storage/persistent-storage.md');
 });
 
 test('newLocation: the GitBook readme folder is dropped', () => {
@@ -52,13 +52,13 @@ test('newLocation: the GitBook readme folder is dropped', () => {
 test('newLocation: versions/upgrades collapses to upgrades, versions.md is untouched', () => {
   assert.equal(
     newLocation('docs/products/database-capsule/mongodb/versions/upgrades/7-0-to-8-0.md', 'how-to').newPath,
-    'docs/how-to/database-capsule/mongodb/upgrades/7-0-to-8-0.md',
+    'docs/how-to/capsules/database/mongodb/upgrades/7-0-to-8-0.md',
   );
   assert.equal(
     newLocation('docs/products/database-capsule/mysql/versions/upgrades/index.md', 'how-to').newSlug,
-    '/how-to/database-capsule/mysql/upgrades',
+    '/how-to/capsules/database/mysql/upgrades',
   );
-  assert.equal(newLocation('docs/products/database-capsule/mongodb/versions.md', 'reference').newPath, 'docs/reference/database-capsule/mongodb/versions.md');
+  assert.equal(newLocation('docs/products/database-capsule/mongodb/versions.md', 'reference').newPath, 'docs/reference/capsules/database/mongodb/versions.md');
 });
 
 test('newLocation: the platform/ wrapper is dropped for its areas, kept for the section hub and overview pages', () => {
@@ -67,6 +67,20 @@ test('newLocation: the platform/ wrapper is dropped for its areas, kept for the 
   assert.equal(newLocation('docs/platform/index.md', 'how-to').newPath, 'docs/how-to/platform/index.md');
   assert.equal(newLocation('docs/platform/platform.md', 'explanation').newPath, 'docs/explanation/platform/overview.md');
   assert.equal(newLocation('docs/platform/what-is-code-capsules.md', 'explanation').newPath, 'docs/explanation/platform/what-is-code-capsules.md');
+});
+
+test('newLocation: every capsule type moves under capsules/ without the -capsule suffix', () => {
+  for (const [type, folder] of [['agent', 'agent'], ['backend', 'backend'], ['database', 'database'], ['docker', 'docker'], ['frontend', 'frontend'], ['storage', 'storage'], ['wordpress', 'wordpress']]) {
+    assert.equal(
+      newLocation(`docs/products/${type}-capsule/configure.md`, 'how-to').newPath,
+      `docs/how-to/capsules/${folder}/configure.md`,
+    );
+  }
+  assert.equal(newLocation('docs/products/backend-capsule/index.md', 'how-to').newSlug, '/how-to/capsules/backend');
+});
+
+test('newLocation: platform capsule pages share the capsules/ folder', () => {
+  assert.equal(newLocation('docs/platform/capsules/health-checks.md', 'how-to').newPath, 'docs/how-to/capsules/health-checks.md');
 });
 
 test('newLocation: docs/index.md and release notes do not move', () => {

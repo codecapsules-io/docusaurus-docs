@@ -33,7 +33,7 @@ A highly available application keeps serving users when something goes wrong, su
 
 High availability needs two things:
 
-1. **More than one replica.** If one replica fails, another can serve its traffic. To add replicas, see [Horizontal scaling](/how-to/docker-capsule/scale/#horizontal-scaling).
+1. **More than one replica.** If one replica fails, another can serve its traffic. To add replicas, see [Horizontal scaling](/how-to/capsules/docker/scale/#horizontal-scaling).
 2. **A health check.** Code Capsules needs to know which replicas are working. Without a health check, traffic is still sent to a replica that has stopped responding, so some of your users get errors even though other replicas are fine.
 
 With both, when one replica fails its checks, Code Capsules stops sending it traffic, the other replicas serve your users, and the failing replica is restarted. Your users do not notice the failure.
@@ -44,7 +44,7 @@ We recommend a health check for every capsule that serves HTTP traffic. **Automa
 
 ## Where to set a health check
 
-Health checks are available for [Backend](/how-to/backend-capsule/configure/), [Docker](/how-to/docker-capsule/configure/), [Agent](/how-to/agent-capsule/configure/), and [WordPress](/how-to/wordpress-capsule/configure/) Capsules. Each Configure page shows where to set the health check for that capsule type.
+Health checks are available for [Backend](/how-to/capsules/backend/configure/), [Docker](/how-to/capsules/docker/configure/), [Agent](/how-to/capsules/agent/configure/), and [WordPress](/how-to/capsules/wordpress/configure/) Capsules. Each Configure page shows where to set the health check for that capsule type.
 
 ## Health check settings
 
@@ -138,7 +138,7 @@ If the database had stayed down for 5 minutes, the replica would have been resta
 
 ### Deployments
 
-How deployments use the health check depends on the [deployment strategy](/how-to/docker-capsule/deployments/#deployment-strategy):
+How deployments use the health check depends on the [deployment strategy](/how-to/capsules/docker/deployments/#deployment-strategy):
 
 | Strategy                     | What happens during a deployment                                                                                                                       |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |

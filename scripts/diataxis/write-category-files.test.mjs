@@ -10,11 +10,16 @@ test('categoryLabel: title-cases folder names', () => {
   assert.equal(categoryLabel('getting-started'), 'Getting Started');
 });
 
+test('categoryLabel: capsule type folders', () => {
+  assert.equal(categoryLabel('wordpress'), 'WordPress');
+  assert.equal(categoryLabel('agent'), 'Agent');
+  assert.equal(categoryLabel('capsules'), 'Capsules');
+});
+
 test('categoryLabel: overrides for acronyms and product names', () => {
   assert.equal(categoryLabel('node.js'), 'Node.js');
   assert.equal(categoryLabel('cli'), 'CLI');
   assert.equal(categoryLabel('mongodb'), 'MongoDB');
-  assert.equal(categoryLabel('wordpress-capsule'), 'WordPress Capsule');
   assert.equal(categoryLabel('full-stack'), 'Full-Stack');
 });
 
