@@ -15,7 +15,7 @@ Each sandbox is a Firecracker microVM: hardware-isolated, not a container. Boot 
 
 ## What's in this section
 
-- [Quick start](/tutorials/sandbox-quickstart/): install, set your API key, run your first command
+- [Quick start](/how-to/sandbox/quickstart/): install, set your API key, run your first command
 - [Environments](/reference/sandbox/environments/): available flavors and what's preinstalled
 - [TypeScript SDK](/reference/sandbox/typescript/overview/): `@codecapsules/sandbox` on npm
 - [Python SDK](/reference/sandbox/python/overview/): `codecapsules-sandbox` on PyPI

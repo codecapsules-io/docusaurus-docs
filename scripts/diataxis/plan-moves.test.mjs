@@ -92,12 +92,20 @@ test('resolveType: the CLI quick start is a how-to, not a tutorial', () => {
   assert.equal(resolveType('docs/cli/readme/getting-started/quick-start.md', labels), 'how-to');
 });
 
-test('newLocation: the CLI quick start sits with the CLI getting-started guides; the sandbox quickstart is flattened', () => {
+test('newLocation: the CLI quick start sits with the CLI getting-started guides', () => {
   assert.deepEqual(newLocation('docs/cli/readme/getting-started/quick-start.md', 'how-to'), {
     newPath: 'docs/how-to/cli/getting-started/quick-start.md',
     newSlug: '/how-to/cli/getting-started/quick-start',
   });
-  assert.equal(newLocation('docs/sandbox/quickstart.md', 'tutorial').newPath, 'docs/tutorials/sandbox-quickstart.md');
+});
+
+test('the Sandbox quick start is a how-to under how-to/sandbox/', () => {
+  const labels = new Map([['docs/sandbox/quickstart.md', 'tutorial']]);
+  assert.equal(resolveType('docs/sandbox/quickstart.md', labels), 'how-to');
+  assert.deepEqual(newLocation('docs/sandbox/quickstart.md', 'how-to'), {
+    newPath: 'docs/how-to/sandbox/quickstart.md',
+    newSlug: '/how-to/sandbox/quickstart',
+  });
 });
 
 test('newLocation: the Sandbox overview is overview.md so its folder stays a category', () => {
