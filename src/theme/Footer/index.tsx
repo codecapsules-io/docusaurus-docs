@@ -54,15 +54,15 @@ const footerSections = [
     links: [
       {
         label: 'Deploy a Python Telegram Bot',
-        href: '/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules/',
+        href: '/tutorials/telegram-bot-python/',
       },
       {
         label: 'Deploy a Node.js Telegram Bot',
-        href: '/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules/',
+        href: '/tutorials/telegram-bot-node/',
       },
       {
         label: 'Deploy a TypeScript Telegram Bot',
-        href: '/tutorials/create-and-host-go-ai-telegram-bot/',
+        href: '/tutorials/telegram-bot-go-ai/',
       },
     ],
   },

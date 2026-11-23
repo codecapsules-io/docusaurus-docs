@@ -1,6 +1,6 @@
 ---
 title: "Build a Monitoring Slackbot"
-slug: "/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications"
+slug: "/tutorials/monitoring-slackbot-node"
 diataxis: tutorial
 description: >-
   Create a bot that monitors the state of your applications and reports any

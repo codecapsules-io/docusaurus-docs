@@ -1,5 +1,5 @@
 ---
-slug: "/tutorials/building-a-game-catalogue-api"
+slug: "/tutorials/game-catalogue-api"
 diataxis: tutorial
 title: "Build a Game Catalogue API"
 description: "APIs are a common way to expose data and information on the internet. Many web services and apps run off multiple APIs in the background. Because APIs..."

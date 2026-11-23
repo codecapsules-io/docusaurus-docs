@@ -1,6 +1,6 @@
 ---
 title: "Telegram Calendar Assistant Tutorial"
-slug: "/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules"
+slug: "/tutorials/telegram-calendar-assistant"
 diataxis: tutorial
 description: >-
   Build an AI-powered calendar assistant that manages your Google Calendar

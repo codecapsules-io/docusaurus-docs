@@ -20,21 +20,21 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 |---|---|
 | `docs/how-to/cli/getting-started/quick-start.md` | CLI Quick Start Guide |
 | `docs/how-to/sandbox/quickstart.md` | Sandbox SDK Quick Start |
-| `docs/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx.md` | Generative Art App with Flask |
-| `docs/tutorials/build-a-mern-job-board.md` | Build a MERN Job Board |
-| `docs/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules.md` | Telegram Calendar Assistant Tutorial |
-| `docs/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications.md` | Build a Monitoring Slackbot |
-| `docs/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker.md` | PHP Book Recommendations App |
-| `docs/tutorials/building-a-full-stack-application-with-express-and-htmx.md` | Full Stack App with Express and HTMx |
-| `docs/tutorials/building-a-full-stack-application-with-flask-and-htmx.md` | Full Stack App with Flask and HTMx |
-| `docs/tutorials/building-a-game-catalogue-api.md` | Build a Game Catalogue API |
-| `docs/tutorials/building-a-web-file-store.md` | Build a Web File Store on Code Capsules |
-| `docs/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules.md` | Host a Node.js Telegram Bot |
-| `docs/tutorials/create-and-host-an-api-with-flask.md` | Create and Host an API with Flask |
-| `docs/tutorials/create-and-host-go-ai-telegram-bot.md` | Host a Go AI Telegram Bot |
-| `docs/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial.md` | Getting Started with MEAN Stack |
-| `docs/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules.md` | Host a Python Telegram Bot |
-| `docs/tutorials/how-to-simply-host-a-production-wordpress-blog.md` | Host a Production WordPress Blog |
+| `docs/tutorials/generative-art-flask.md` | Generative Art App with Flask |
+| `docs/tutorials/mern-job-board.md` | Build a MERN Job Board |
+| `docs/tutorials/telegram-calendar-assistant.md` | Telegram Calendar Assistant Tutorial |
+| `docs/tutorials/monitoring-slackbot-node.md` | Build a Monitoring Slackbot |
+| `docs/tutorials/book-recommendations-php.md` | PHP Book Recommendations App |
+| `docs/tutorials/full-stack-express-htmx.md` | Full Stack App with Express and HTMx |
+| `docs/tutorials/full-stack-flask-htmx.md` | Full Stack App with Flask and HTMx |
+| `docs/tutorials/game-catalogue-api.md` | Build a Game Catalogue API |
+| `docs/tutorials/web-file-store.md` | Build a Web File Store on Code Capsules |
+| `docs/tutorials/telegram-bot-node.md` | Host a Node.js Telegram Bot |
+| `docs/tutorials/flask-api.md` | Create and Host an API with Flask |
+| `docs/tutorials/telegram-bot-go-ai.md` | Host a Go AI Telegram Bot |
+| `docs/tutorials/mean-stack-app.md` | Getting Started with MEAN Stack |
+| `docs/tutorials/telegram-bot-python.md` | Host a Python Telegram Bot |
+| `docs/tutorials/wordpress-blog.md` | Host a Production WordPress Blog |
 
 ## how-to (144)
 

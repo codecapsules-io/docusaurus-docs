@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with MEAN Stack"
-slug: "/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial"
+slug: "/tutorials/mean-stack-app"
 diataxis: tutorial
 description: "Learn the MEAN stack step by step: build a full-stack app with MongoDB, Express, Angular and Node.js, then deploy it to Code Capsules."
 cover: /gitbook-assets/tutorials/mean-stack-cover-v2.jpg

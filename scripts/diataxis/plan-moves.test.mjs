@@ -24,9 +24,9 @@ test('newLocation: non-tutorial from tutorials/ goes to guides/', () => {
 });
 
 test('newLocation: tutorial from tutorials/ keeps its path', () => {
-  assert.deepEqual(newLocation('docs/tutorials/build-a-mern-job-board.md', 'tutorial'), {
-    newPath: 'docs/tutorials/build-a-mern-job-board.md',
-    newSlug: '/tutorials/build-a-mern-job-board',
+  assert.deepEqual(newLocation('docs/tutorials/video-guides.md', 'tutorial'), {
+    newPath: 'docs/tutorials/video-guides.md',
+    newSlug: '/tutorials/video-guides',
   });
 });
 
@@ -144,6 +144,32 @@ test('newLocation: index.md with real content becomes overview.md; a sole index 
   assert.equal(newLocation('docs/cli/readme/commands/index.md', 'reference').newPath, 'docs/reference/cli/commands/overview.md');
   assert.equal(newLocation('docs/sandbox/python/index.md', 'reference').newPath, 'docs/reference/sandbox/python/overview.md');
   assert.equal(newLocation('docs/products/agent-capsule/chat/index.md', 'how-to').newPath, 'docs/how-to/capsules/agent/chat.md');
+});
+
+test('newLocation: tutorials get short <thing>-<stack> names', () => {
+  const names = {
+    'build-a-generative-art-application-with-pillow-flask-and-htmx': 'generative-art-flask',
+    'build-a-mern-job-board': 'mern-job-board',
+    'build-a-personal-calendar-assistant-with-telegram-and-agent-capsules': 'telegram-calendar-assistant',
+    'build-a-slackbot-with-node.js-to-monitor-your-applications': 'monitoring-slackbot-node',
+    'building-a-book-recommendations-app-with-php-sqlite-and-docker': 'book-recommendations-php',
+    'building-a-full-stack-application-with-express-and-htmx': 'full-stack-express-htmx',
+    'building-a-full-stack-application-with-flask-and-htmx': 'full-stack-flask-htmx',
+    'building-a-game-catalogue-api': 'game-catalogue-api',
+    'building-a-web-file-store': 'web-file-store',
+    'create-and-host-a-telegram-bot-with-node.js-on-code-capsules': 'telegram-bot-node',
+    'how-to-create-and-host-a-telegram-bot-on-code-capsules': 'telegram-bot-python',
+    'create-and-host-go-ai-telegram-bot': 'telegram-bot-go-ai',
+    'create-and-host-an-api-with-flask': 'flask-api',
+    'getting-started-with-mean-stack-a-step-by-step-tutorial': 'mean-stack-app',
+    'how-to-simply-host-a-production-wordpress-blog': 'wordpress-blog',
+  };
+  for (const [old, name] of Object.entries(names)) {
+    assert.deepEqual(newLocation(`docs/tutorials/${old}.md`, 'tutorial'), {newPath: `docs/tutorials/${name}.md`, newSlug: `/tutorials/${name}`});
+  }
+  assert.equal(new Set(Object.values(names)).size, 15);
+  assert.equal(newLocation('docs/tutorials/video-guides.md', 'tutorial').newPath, 'docs/tutorials/video-guides.md');
+  assert.equal(newLocation('docs/tutorials/heroku-migration-guide.md', 'how-to').newPath, 'docs/how-to/guides/heroku-migration-guide.md');
 });
 
 test('newLocation: platform capsule pages share the capsules/ folder', () => {

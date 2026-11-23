@@ -1403,85 +1403,85 @@
   "oldPath": "docs/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx.md",
   "oldSlug": "/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx",
   "type": "tutorial",
-  "newPath": "docs/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx.md",
-  "newSlug": "/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx"
+  "newPath": "docs/tutorials/generative-art-flask.md",
+  "newSlug": "/tutorials/generative-art-flask"
  },
  {
   "oldPath": "docs/tutorials/build-a-mern-job-board.md",
   "oldSlug": "/tutorials/build-a-mern-job-board",
   "type": "tutorial",
-  "newPath": "docs/tutorials/build-a-mern-job-board.md",
-  "newSlug": "/tutorials/build-a-mern-job-board"
+  "newPath": "docs/tutorials/mern-job-board.md",
+  "newSlug": "/tutorials/mern-job-board"
  },
  {
   "oldPath": "docs/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules.md",
   "oldSlug": "/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules",
   "type": "tutorial",
-  "newPath": "docs/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules.md",
-  "newSlug": "/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules"
+  "newPath": "docs/tutorials/telegram-calendar-assistant.md",
+  "newSlug": "/tutorials/telegram-calendar-assistant"
  },
  {
   "oldPath": "docs/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications.md",
   "oldSlug": "/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications",
   "type": "tutorial",
-  "newPath": "docs/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications.md",
-  "newSlug": "/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications"
+  "newPath": "docs/tutorials/monitoring-slackbot-node.md",
+  "newSlug": "/tutorials/monitoring-slackbot-node"
  },
  {
   "oldPath": "docs/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker.md",
   "oldSlug": "/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker",
   "type": "tutorial",
-  "newPath": "docs/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker.md",
-  "newSlug": "/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker"
+  "newPath": "docs/tutorials/book-recommendations-php.md",
+  "newSlug": "/tutorials/book-recommendations-php"
  },
  {
   "oldPath": "docs/tutorials/building-a-full-stack-application-with-express-and-htmx.md",
   "oldSlug": "/tutorials/building-a-full-stack-application-with-express-and-htmx",
   "type": "tutorial",
-  "newPath": "docs/tutorials/building-a-full-stack-application-with-express-and-htmx.md",
-  "newSlug": "/tutorials/building-a-full-stack-application-with-express-and-htmx"
+  "newPath": "docs/tutorials/full-stack-express-htmx.md",
+  "newSlug": "/tutorials/full-stack-express-htmx"
  },
  {
   "oldPath": "docs/tutorials/building-a-full-stack-application-with-flask-and-htmx.md",
   "oldSlug": "/tutorials/building-a-full-stack-application-with-flask-and-htmx",
   "type": "tutorial",
-  "newPath": "docs/tutorials/building-a-full-stack-application-with-flask-and-htmx.md",
-  "newSlug": "/tutorials/building-a-full-stack-application-with-flask-and-htmx"
+  "newPath": "docs/tutorials/full-stack-flask-htmx.md",
+  "newSlug": "/tutorials/full-stack-flask-htmx"
  },
  {
   "oldPath": "docs/tutorials/building-a-game-catalogue-api.md",
   "oldSlug": "/tutorials/building-a-game-catalogue-api",
   "type": "tutorial",
-  "newPath": "docs/tutorials/building-a-game-catalogue-api.md",
-  "newSlug": "/tutorials/building-a-game-catalogue-api"
+  "newPath": "docs/tutorials/game-catalogue-api.md",
+  "newSlug": "/tutorials/game-catalogue-api"
  },
  {
   "oldPath": "docs/tutorials/building-a-web-file-store.md",
   "oldSlug": "/tutorials/building-a-web-file-store",
   "type": "tutorial",
-  "newPath": "docs/tutorials/building-a-web-file-store.md",
-  "newSlug": "/tutorials/building-a-web-file-store"
+  "newPath": "docs/tutorials/web-file-store.md",
+  "newSlug": "/tutorials/web-file-store"
  },
  {
   "oldPath": "docs/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules.md",
   "oldSlug": "/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules",
   "type": "tutorial",
-  "newPath": "docs/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules.md",
-  "newSlug": "/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules"
+  "newPath": "docs/tutorials/telegram-bot-node.md",
+  "newSlug": "/tutorials/telegram-bot-node"
  },
  {
   "oldPath": "docs/tutorials/create-and-host-an-api-with-flask.md",
   "oldSlug": "/tutorials/create-and-host-an-api-with-flask",
   "type": "tutorial",
-  "newPath": "docs/tutorials/create-and-host-an-api-with-flask.md",
-  "newSlug": "/tutorials/create-and-host-an-api-with-flask"
+  "newPath": "docs/tutorials/flask-api.md",
+  "newSlug": "/tutorials/flask-api"
  },
  {
   "oldPath": "docs/tutorials/create-and-host-go-ai-telegram-bot.md",
   "oldSlug": "/tutorials/create-and-host-go-ai-telegram-bot",
   "type": "tutorial",
-  "newPath": "docs/tutorials/create-and-host-go-ai-telegram-bot.md",
-  "newSlug": "/tutorials/create-and-host-go-ai-telegram-bot"
+  "newPath": "docs/tutorials/telegram-bot-go-ai.md",
+  "newSlug": "/tutorials/telegram-bot-go-ai"
  },
  {
   "oldPath": "docs/tutorials/deploy-emdash-on-code-capsules.md",
@@ -1501,8 +1501,8 @@
   "oldPath": "docs/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial.md",
   "oldSlug": "/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial",
   "type": "tutorial",
-  "newPath": "docs/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial.md",
-  "newSlug": "/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial"
+  "newPath": "docs/tutorials/mean-stack-app.md",
+  "newSlug": "/tutorials/mean-stack-app"
  },
  {
   "oldPath": "docs/tutorials/heroku-migration-guide.md",
@@ -1515,15 +1515,15 @@
   "oldPath": "docs/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules.md",
   "oldSlug": "/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules",
   "type": "tutorial",
-  "newPath": "docs/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules.md",
-  "newSlug": "/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules"
+  "newPath": "docs/tutorials/telegram-bot-python.md",
+  "newSlug": "/tutorials/telegram-bot-python"
  },
  {
   "oldPath": "docs/tutorials/how-to-simply-host-a-production-wordpress-blog.md",
   "oldSlug": "/tutorials/how-to-simply-host-a-production-wordpress-blog",
   "type": "tutorial",
-  "newPath": "docs/tutorials/how-to-simply-host-a-production-wordpress-blog.md",
-  "newSlug": "/tutorials/how-to-simply-host-a-production-wordpress-blog"
+  "newPath": "docs/tutorials/wordpress-blog.md",
+  "newSlug": "/tutorials/wordpress-blog"
  },
  {
   "oldPath": "docs/tutorials/index.md",

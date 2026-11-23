@@ -1,5 +1,5 @@
 ---
-slug: "/tutorials/create-and-host-an-api-with-flask"
+slug: "/tutorials/flask-api"
 diataxis: tutorial
 title: "Create and Host an API with Flask"
 description: >-

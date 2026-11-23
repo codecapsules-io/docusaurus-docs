@@ -40,6 +40,25 @@ const OVERVIEW_PAGES = new Set([
   'docs/sandbox/typescript/index.md',
 ]);
 
+// Tutorials are named <thing>-<stack>: no verbs, no filler words.
+const TUTORIAL_NAMES = {
+  'build-a-generative-art-application-with-pillow-flask-and-htmx': 'generative-art-flask',
+  'build-a-mern-job-board': 'mern-job-board',
+  'build-a-personal-calendar-assistant-with-telegram-and-agent-capsules': 'telegram-calendar-assistant',
+  'build-a-slackbot-with-node.js-to-monitor-your-applications': 'monitoring-slackbot-node',
+  'building-a-book-recommendations-app-with-php-sqlite-and-docker': 'book-recommendations-php',
+  'building-a-full-stack-application-with-express-and-htmx': 'full-stack-express-htmx',
+  'building-a-full-stack-application-with-flask-and-htmx': 'full-stack-flask-htmx',
+  'building-a-game-catalogue-api': 'game-catalogue-api',
+  'building-a-web-file-store': 'web-file-store',
+  'create-and-host-a-telegram-bot-with-node.js-on-code-capsules': 'telegram-bot-node',
+  'how-to-create-and-host-a-telegram-bot-on-code-capsules': 'telegram-bot-python',
+  'create-and-host-go-ai-telegram-bot': 'telegram-bot-go-ai',
+  'create-and-host-an-api-with-flask': 'flask-api',
+  'getting-started-with-mean-stack-a-step-by-step-tutorial': 'mean-stack-app',
+  'how-to-simply-host-a-production-wordpress-blog': 'wordpress-blog',
+};
+
 const OVERRIDES = {
   'docs/wordpress.md': 'capsules/wordpress/managed-wordpress.md',
   'docs/persistent-storage.md': 'capsules/storage/persistent-storage.md',
@@ -111,7 +130,8 @@ export function newLocation(oldPath, type) {
   else if (oldPath === 'docs/products/index.md') rest = 'products/index.md';
   else if (oldPath.startsWith('docs/tutorials/')) {
     const file = oldPath.slice('docs/tutorials/'.length);
-    rest = type === 'tutorial' ? null : `guides/${file}`;
+    const renamed = TUTORIAL_NAMES[file.replace(/\.md$/, '')];
+    rest = type === 'tutorial' ? (renamed ? `${renamed}.md` : null) : `guides/${file}`;
   } else rest = tidy(oldPath.slice('docs/'.length));
   if (OVERVIEW_PAGES.has(oldPath)) rest = rest.replace(/index\.md$/, 'overview.md');
   const newPath = rest === null ? oldPath : `docs/${FOLDER[type]}/${rest}`;

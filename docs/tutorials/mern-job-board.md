@@ -1,5 +1,5 @@
 ---
-slug: "/tutorials/build-a-mern-job-board"
+slug: "/tutorials/mern-job-board"
 diataxis: tutorial
 title: "Build a MERN Job Board"
 description: "Like other full-stack applications, a MERN (MongoDB, Express, React, Node.js) stack has the advantage of needing only one capsule to host both the..."
