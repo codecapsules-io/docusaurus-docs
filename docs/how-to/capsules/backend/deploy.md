@@ -12,26 +12,26 @@ Backend Capsules automatically detect your language, install dependencies, and b
 
 ## Python
 
-- [Python](/how-to/backend/python/python/)
-- [Django](/how-to/backend/python/django/)
-- [Flask](/how-to/backend/python/flask/)
+- [Python](/how-to/capsules/backend/guides/python/python/)
+- [Django](/how-to/capsules/backend/guides/python/django/)
+- [Flask](/how-to/capsules/backend/guides/python/flask/)
 
 ## Popular Languages and Frameworks
 
-- [Express.js](/how-to/backend/node.js/express.js/)
-- [Java](/how-to/backend/java/)
-- [Go](/how-to/backend/go/)
+- [Express.js](/how-to/capsules/backend/guides/node.js/express.js/)
+- [Java](/how-to/capsules/backend/guides/java/)
+- [Go](/how-to/capsules/backend/guides/go/)
 
 ## Docker
 
 Docker-based applications deploy as [Docker Capsules](/how-to/capsules/docker/), which build from your own `Dockerfile` rather than automatic language detection.
 
 - [Docker Capsule documentation](/how-to/capsules/docker/)
-- [Caddy Docker Site](/how-to/backend/docker/caddy-docker-site/)
-- [Docker Laravel App](/how-to/backend/docker/docker-laravel-app/)
-- [Docker PHP App](/how-to/backend/docker/docker-php-app/)
-- [Flask Docker App](/how-to/backend/docker/flask-docker-app/)
+- [Caddy Docker Site](/how-to/capsules/backend/guides/docker/caddy-docker-site/)
+- [Docker Laravel App](/how-to/capsules/backend/guides/docker/docker-laravel-app/)
+- [Docker PHP App](/how-to/capsules/backend/guides/docker/docker-php-app/)
+- [Flask Docker App](/how-to/capsules/backend/guides/docker/flask-docker-app/)
 
 ## Deployment Guides
 
-- [All Backend Deployment Guides](/how-to/backend/)
+- [All Backend Deployment Guides](/how-to/capsules/backend/guides/)

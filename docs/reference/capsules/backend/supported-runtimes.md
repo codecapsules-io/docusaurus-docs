@@ -187,11 +187,11 @@ These frameworks are commonly deployed on Backend Capsules. Framework versions c
 
 | Framework                | Language | Deployment guide                           |
 | ------------------------ | -------- | ------------------------------------------ |
-| Express.js               | Node.js  | [Express.js](/how-to/backend/node.js/express.js/) |
-| Django                   | Python   | [Django](/how-to/backend/python/django/)          |
-| Flask                    | Python   | [Flask](/how-to/backend/python/flask/)            |
-| Java (Spring and others) | Java     | [Java](/how-to/backend/java/)                     |
-| Go                       | Go       | [Go](/how-to/backend/go/go/)                      |
+| Express.js               | Node.js  | [Express.js](/how-to/capsules/backend/guides/node.js/express.js/) |
+| Django                   | Python   | [Django](/how-to/capsules/backend/guides/python/django/)          |
+| Flask                    | Python   | [Flask](/how-to/capsules/backend/guides/python/flask/)            |
+| Java (Spring and others) | Java     | [Java](/how-to/capsules/backend/guides/java/)                     |
+| Go                       | Go       | [Go](/how-to/capsules/backend/guides/go/go/)                      |
 
 ## Server-side JavaScript frameworks
 

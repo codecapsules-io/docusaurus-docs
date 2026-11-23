@@ -421,7 +421,7 @@ Check your terminal for any error logs if something doesn't work. Once you've ve
 
 We will now deploy the bot on Code Capsules and make it more efficient by using webhooks instead of polling.
 
-Follow [this quick guide](/how-to/backend/go/) to set up your Code Capsules account and create a new Capsule.
+Follow [this quick guide](/how-to/capsules/backend/guides/go/) to set up your Code Capsules account and create a new Capsule.
 
 Once it is up and running, navigate to the **Config** tab of your Capsule and add a `BOT_TOKEN` environment variable, giving it the value of your bot's access token. Similarly, add your `WEATHER_API_KEY` and `GEMINI_API_KEY`.
 

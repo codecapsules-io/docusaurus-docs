@@ -38,155 +38,155 @@
   "oldPath": "docs/backend/docker/caddy-docker-site.md",
   "oldSlug": "/backend/docker/caddy-docker-site",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/docker/caddy-docker-site.md",
-  "newSlug": "/how-to/backend/docker/caddy-docker-site"
+  "newPath": "docs/how-to/capsules/backend/guides/docker/caddy-docker-site.md",
+  "newSlug": "/how-to/capsules/backend/guides/docker/caddy-docker-site"
  },
  {
   "oldPath": "docs/backend/docker/docker-laravel-app.md",
   "oldSlug": "/backend/docker/docker-laravel-app",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/docker/docker-laravel-app.md",
-  "newSlug": "/how-to/backend/docker/docker-laravel-app"
+  "newPath": "docs/how-to/capsules/backend/guides/docker/docker-laravel-app.md",
+  "newSlug": "/how-to/capsules/backend/guides/docker/docker-laravel-app"
  },
  {
   "oldPath": "docs/backend/docker/docker-php-app.md",
   "oldSlug": "/backend/docker/docker-php-app",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/docker/docker-php-app.md",
-  "newSlug": "/how-to/backend/docker/docker-php-app"
+  "newPath": "docs/how-to/capsules/backend/guides/docker/docker-php-app.md",
+  "newSlug": "/how-to/capsules/backend/guides/docker/docker-php-app"
  },
  {
   "oldPath": "docs/backend/docker/flask-docker-app.md",
   "oldSlug": "/backend/docker/flask-docker-app",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/docker/flask-docker-app.md",
-  "newSlug": "/how-to/backend/docker/flask-docker-app"
+  "newPath": "docs/how-to/capsules/backend/guides/docker/flask-docker-app.md",
+  "newSlug": "/how-to/capsules/backend/guides/docker/flask-docker-app"
  },
  {
   "oldPath": "docs/backend/docker/index.md",
   "oldSlug": "/backend/docker",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/docker/index.md",
-  "newSlug": "/how-to/backend/docker"
+  "newPath": "docs/how-to/capsules/backend/guides/docker/index.md",
+  "newSlug": "/how-to/capsules/backend/guides/docker"
  },
  {
   "oldPath": "docs/backend/go/go-telegram-bot.md",
   "oldSlug": "/backend/go/go-telegram-bot",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/go/go-telegram-bot.md",
-  "newSlug": "/how-to/backend/go/go-telegram-bot"
+  "newPath": "docs/how-to/capsules/backend/guides/go/go-telegram-bot.md",
+  "newSlug": "/how-to/capsules/backend/guides/go/go-telegram-bot"
  },
  {
   "oldPath": "docs/backend/go/go.md",
   "oldSlug": "/backend/go/go",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/go/go.md",
-  "newSlug": "/how-to/backend/go/go"
+  "newPath": "docs/how-to/capsules/backend/guides/go/go.md",
+  "newSlug": "/how-to/capsules/backend/guides/go/go"
  },
  {
   "oldPath": "docs/backend/go/index.md",
   "oldSlug": "/backend/go",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/go/index.md",
-  "newSlug": "/how-to/backend/go"
+  "newPath": "docs/how-to/capsules/backend/guides/go/index.md",
+  "newSlug": "/how-to/capsules/backend/guides/go"
  },
  {
   "oldPath": "docs/backend/index.md",
   "oldSlug": "/backend",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/index.md",
-  "newSlug": "/how-to/backend"
+  "newPath": "docs/how-to/capsules/backend/guides/index.md",
+  "newSlug": "/how-to/capsules/backend/guides"
  },
  {
   "oldPath": "docs/backend/java.md",
   "oldSlug": "/backend/java",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/java.md",
-  "newSlug": "/how-to/backend/java"
+  "newPath": "docs/how-to/capsules/backend/guides/java.md",
+  "newSlug": "/how-to/capsules/backend/guides/java"
  },
  {
   "oldPath": "docs/backend/node.js/express.js.md",
   "oldSlug": "/backend/node.js/express.js",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/node.js/express.js.md",
-  "newSlug": "/how-to/backend/node.js/express.js"
+  "newPath": "docs/how-to/capsules/backend/guides/node.js/express.js.md",
+  "newSlug": "/how-to/capsules/backend/guides/node.js/express.js"
  },
  {
   "oldPath": "docs/backend/node.js/index.md",
   "oldSlug": "/backend/node.js",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/node.js/index.md",
-  "newSlug": "/how-to/backend/node.js"
+  "newPath": "docs/how-to/capsules/backend/guides/node.js/index.md",
+  "newSlug": "/how-to/capsules/backend/guides/node.js"
  },
  {
   "oldPath": "docs/backend/node.js/node.js-discord-bot.md",
   "oldSlug": "/backend/node.js/node.js-discord-bot",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/node.js/node.js-discord-bot.md",
-  "newSlug": "/how-to/backend/node.js/node.js-discord-bot"
+  "newPath": "docs/how-to/capsules/backend/guides/node.js/node.js-discord-bot.md",
+  "newSlug": "/how-to/capsules/backend/guides/node.js/node.js-discord-bot"
  },
  {
   "oldPath": "docs/backend/node.js/node.js-telegram-bot.md",
   "oldSlug": "/backend/node.js/node.js-telegram-bot",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/node.js/node.js-telegram-bot.md",
-  "newSlug": "/how-to/backend/node.js/node.js-telegram-bot"
+  "newPath": "docs/how-to/capsules/backend/guides/node.js/node.js-telegram-bot.md",
+  "newSlug": "/how-to/capsules/backend/guides/node.js/node.js-telegram-bot"
  },
  {
   "oldPath": "docs/backend/node.js/slack-bot.md",
   "oldSlug": "/backend/node.js/slack-bot",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/node.js/slack-bot.md",
-  "newSlug": "/how-to/backend/node.js/slack-bot"
+  "newPath": "docs/how-to/capsules/backend/guides/node.js/slack-bot.md",
+  "newSlug": "/how-to/capsules/backend/guides/node.js/slack-bot"
  },
  {
   "oldPath": "docs/backend/python/django.md",
   "oldSlug": "/backend/python/django",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/python/django.md",
-  "newSlug": "/how-to/backend/python/django"
+  "newPath": "docs/how-to/capsules/backend/guides/python/django.md",
+  "newSlug": "/how-to/capsules/backend/guides/python/django"
  },
  {
   "oldPath": "docs/backend/python/flask.md",
   "oldSlug": "/backend/python/flask",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/python/flask.md",
-  "newSlug": "/how-to/backend/python/flask"
+  "newPath": "docs/how-to/capsules/backend/guides/python/flask.md",
+  "newSlug": "/how-to/capsules/backend/guides/python/flask"
  },
  {
   "oldPath": "docs/backend/python/index.md",
   "oldSlug": "/backend/python",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/python/index.md",
-  "newSlug": "/how-to/backend/python"
+  "newPath": "docs/how-to/capsules/backend/guides/python/index.md",
+  "newSlug": "/how-to/capsules/backend/guides/python"
  },
  {
   "oldPath": "docs/backend/python/python-discord-bot.md",
   "oldSlug": "/backend/python/python-discord-bot",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/python/python-discord-bot.md",
-  "newSlug": "/how-to/backend/python/python-discord-bot"
+  "newPath": "docs/how-to/capsules/backend/guides/python/python-discord-bot.md",
+  "newSlug": "/how-to/capsules/backend/guides/python/python-discord-bot"
  },
  {
   "oldPath": "docs/backend/python/python-telegram-bot.md",
   "oldSlug": "/backend/python/python-telegram-bot",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/python/python-telegram-bot.md",
-  "newSlug": "/how-to/backend/python/python-telegram-bot"
+  "newPath": "docs/how-to/capsules/backend/guides/python/python-telegram-bot.md",
+  "newSlug": "/how-to/capsules/backend/guides/python/python-telegram-bot"
  },
  {
   "oldPath": "docs/backend/python/python.md",
   "oldSlug": "/backend/python/python",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/python/python.md",
-  "newSlug": "/how-to/backend/python/python"
+  "newPath": "docs/how-to/capsules/backend/guides/python/python.md",
+  "newSlug": "/how-to/capsules/backend/guides/python/python"
  },
  {
   "oldPath": "docs/backend/python/whatsapp-bot.md",
   "oldSlug": "/backend/python/whatsapp-bot",
   "type": "how-to",
-  "newPath": "docs/how-to/backend/python/whatsapp-bot.md",
-  "newSlug": "/how-to/backend/python/whatsapp-bot"
+  "newPath": "docs/how-to/capsules/backend/guides/python/whatsapp-bot.md",
+  "newSlug": "/how-to/capsules/backend/guides/python/whatsapp-bot"
  },
  {
   "oldPath": "docs/cli/index.md",

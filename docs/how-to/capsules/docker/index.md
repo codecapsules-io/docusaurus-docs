@@ -58,8 +58,8 @@ You can't switch between the two after the capsule is created. To use the other 
 
 Step-by-step tutorials for deploying Docker Capsules from Git:
 
-- [Flask Docker App](/how-to/backend/docker/flask-docker-app/)
-- [Docker PHP App](/how-to/backend/docker/docker-php-app/)
-- [Docker Laravel App](/how-to/backend/docker/docker-laravel-app/)
-- [Caddy Docker Site](/how-to/backend/docker/caddy-docker-site/)
-- [All Docker deployment guides](/how-to/backend/docker/)
+- [Flask Docker App](/how-to/capsules/backend/guides/docker/flask-docker-app/)
+- [Docker PHP App](/how-to/capsules/backend/guides/docker/docker-php-app/)
+- [Docker Laravel App](/how-to/capsules/backend/guides/docker/docker-laravel-app/)
+- [Caddy Docker Site](/how-to/capsules/backend/guides/docker/caddy-docker-site/)
+- [All Docker deployment guides](/how-to/capsules/backend/guides/docker/)

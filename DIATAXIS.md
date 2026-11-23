@@ -41,23 +41,23 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | Doc | Title |
 |---|---|
 | `docs/how-to/agentic-automation/deployment.md` | How to Deploy Business Automation Agents |
-| `docs/how-to/backend/docker/caddy-docker-site.md` | Deploy a Caddy Site with Docker |
-| `docs/how-to/backend/docker/docker-laravel-app.md` | Deploy a Laravel App with Docker |
-| `docs/how-to/backend/docker/docker-php-app.md` | Deploy a PHP App with Docker |
-| `docs/how-to/backend/docker/flask-docker-app.md` | Deploy a Flask App with Docker |
-| `docs/how-to/backend/go/go-telegram-bot.md` | Deploy a Go Telegram Bot from GitHub |
-| `docs/how-to/backend/go/go.md` | How to Deploy a Go Application |
-| `docs/how-to/backend/java.md` | How to Deploy a Java Application |
-| `docs/how-to/backend/node.js/express.js.md` | How to Deploy an Express.js Server |
-| `docs/how-to/backend/node.js/node.js-discord-bot.md` | Deploy a Node.js Discord Bot |
-| `docs/how-to/backend/node.js/node.js-telegram-bot.md` | Deploy a Node.js Telegram Bot from GitHub |
-| `docs/how-to/backend/node.js/slack-bot.md` | Deploy a Node.js Slack Bot |
-| `docs/how-to/backend/python/django.md` | How to Deploy a Django Application |
-| `docs/how-to/backend/python/flask.md` | How to Deploy a Flask Application |
-| `docs/how-to/backend/python/python-discord-bot.md` | Deploy a Python Discord Bot |
-| `docs/how-to/backend/python/python-telegram-bot.md` | Deploy a Python Telegram Bot from GitHub |
-| `docs/how-to/backend/python/python.md` | How to Deploy a Python Application |
-| `docs/how-to/backend/python/whatsapp-bot.md` | How to Host a WhatsApp Bot in Python |
+| `docs/how-to/capsules/backend/guides/docker/caddy-docker-site.md` | Deploy a Caddy Site with Docker |
+| `docs/how-to/capsules/backend/guides/docker/docker-laravel-app.md` | Deploy a Laravel App with Docker |
+| `docs/how-to/capsules/backend/guides/docker/docker-php-app.md` | Deploy a PHP App with Docker |
+| `docs/how-to/capsules/backend/guides/docker/flask-docker-app.md` | Deploy a Flask App with Docker |
+| `docs/how-to/capsules/backend/guides/go/go-telegram-bot.md` | Deploy a Go Telegram Bot from GitHub |
+| `docs/how-to/capsules/backend/guides/go/go.md` | How to Deploy a Go Application |
+| `docs/how-to/capsules/backend/guides/java.md` | How to Deploy a Java Application |
+| `docs/how-to/capsules/backend/guides/node.js/express.js.md` | How to Deploy an Express.js Server |
+| `docs/how-to/capsules/backend/guides/node.js/node.js-discord-bot.md` | Deploy a Node.js Discord Bot |
+| `docs/how-to/capsules/backend/guides/node.js/node.js-telegram-bot.md` | Deploy a Node.js Telegram Bot from GitHub |
+| `docs/how-to/capsules/backend/guides/node.js/slack-bot.md` | Deploy a Node.js Slack Bot |
+| `docs/how-to/capsules/backend/guides/python/django.md` | How to Deploy a Django Application |
+| `docs/how-to/capsules/backend/guides/python/flask.md` | How to Deploy a Flask Application |
+| `docs/how-to/capsules/backend/guides/python/python-discord-bot.md` | Deploy a Python Discord Bot |
+| `docs/how-to/capsules/backend/guides/python/python-telegram-bot.md` | Deploy a Python Telegram Bot from GitHub |
+| `docs/how-to/capsules/backend/guides/python/python.md` | How to Deploy a Python Application |
+| `docs/how-to/capsules/backend/guides/python/whatsapp-bot.md` | How to Host a WhatsApp Bot in Python |
 | `docs/how-to/cli/getting-started/installation-and-usage.md` | Install and Use the CLI |
 | `docs/how-to/database/mongodb/django-+-mongodb.md` | Deploy Django with MongoDB |
 | `docs/how-to/database/mongodb/express-+-mongodb.md` | Deploy Express with MongoDB |
@@ -231,11 +231,11 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 
 | Doc | Title |
 |---|---|
-| `docs/how-to/backend/docker/index.md` | How to Deploy Docker Containers |
-| `docs/how-to/backend/go/index.md` | Go Application Hosting |
-| `docs/how-to/backend/index.md` | Backend Application Hosting — Node.js, Python, Go & More |
-| `docs/how-to/backend/node.js/index.md` | Node.js Application Hosting |
-| `docs/how-to/backend/python/index.md` | Python Application Hosting |
+| `docs/how-to/capsules/backend/guides/docker/index.md` | How to Deploy Docker Containers |
+| `docs/how-to/capsules/backend/guides/go/index.md` | Go Application Hosting |
+| `docs/how-to/capsules/backend/guides/index.md` | Backend Application Hosting — Node.js, Python, Go & More |
+| `docs/how-to/capsules/backend/guides/node.js/index.md` | Node.js Application Hosting |
+| `docs/how-to/capsules/backend/guides/python/index.md` | Python Application Hosting |
 | `docs/reference/cli/index.md` | CLI Overview and Commands |
 | `docs/reference/cli/commands/index.md` | CLI Commands Reference |
 | `docs/how-to/cli/getting-started/index.md` | Getting Started With the CLI |

@@ -15,7 +15,7 @@ In this tutorial, we'll extend a boilerplate Express application on Code Capsule
 
 ### Getting Started
 
-Navigate to the [Express.js deployment guide](/how-to/backend/node.js/express.js/) and follow the instructions outlined there to deploy the boilerplate application. You will need to clone the forked repository to your local development environment to extend the functionality of the boilerplate application and make a Telegram bot.
+Navigate to the [Express.js deployment guide](/how-to/capsules/backend/guides/node.js/express.js/) and follow the instructions outlined there to deploy the boilerplate application. You will need to clone the forked repository to your local development environment to extend the functionality of the boilerplate application and make a Telegram bot.
 
 We need to install the `node_modules` for the boilerplate application, before we can run it locally. Navigate to the project's root folder in a terminal or command prompt window and run `npm install` there.
 

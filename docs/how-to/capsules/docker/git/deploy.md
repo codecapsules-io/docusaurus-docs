@@ -94,7 +94,7 @@ After the first build, manage how your capsule is rebuilt and updated:
 
 ## Example guides
 
-- [Flask Docker App](/how-to/backend/docker/flask-docker-app/)
-- [Docker PHP App](/how-to/backend/docker/docker-php-app/)
-- [Docker Laravel App](/how-to/backend/docker/docker-laravel-app/)
-- [Caddy Docker Site](/how-to/backend/docker/caddy-docker-site/)
+- [Flask Docker App](/how-to/capsules/backend/guides/docker/flask-docker-app/)
+- [Docker PHP App](/how-to/capsules/backend/guides/docker/docker-php-app/)
+- [Docker Laravel App](/how-to/capsules/backend/guides/docker/docker-laravel-app/)
+- [Caddy Docker Site](/how-to/capsules/backend/guides/docker/caddy-docker-site/)

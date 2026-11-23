@@ -79,8 +79,21 @@ test('newLocation: every capsule type moves under capsules/ without the -capsule
   assert.equal(newLocation('docs/products/backend-capsule/index.md', 'how-to').newSlug, '/how-to/capsules/backend');
 });
 
+test('newLocation: backend framework guides go under capsules/backend/guides/', () => {
+  assert.equal(newLocation('docs/backend/python/django.md', 'how-to').newPath, 'docs/how-to/capsules/backend/guides/python/django.md');
+  assert.equal(newLocation('docs/backend/java.md', 'how-to').newSlug, '/how-to/capsules/backend/guides/java');
+  assert.equal(newLocation('docs/backend/index.md', 'how-to').newSlug, '/how-to/capsules/backend/guides');
+  assert.equal(newLocation('docs/products/backend-capsule/index.md', 'how-to').newSlug, '/how-to/capsules/backend');
+});
+
 test('newLocation: platform capsule pages share the capsules/ folder', () => {
   assert.equal(newLocation('docs/platform/capsules/health-checks.md', 'how-to').newPath, 'docs/how-to/capsules/health-checks.md');
+});
+
+test('planMoves: backend guides hub and backend capsule hub do not collide', () => {
+  const labels = new Map([['docs/backend/index.md', 'hub'], ['docs/backend/java.md', 'how-to'], ['docs/products/backend-capsule/index.md', 'hub'], ['docs/products/backend-capsule/configure.md', 'how-to']]);
+  const moves = planMoves(labels, new Map());
+  assert.equal(new Set(moves.map((m) => m.newPath)).size, 4);
 });
 
 test('newLocation: docs/index.md and release notes do not move', () => {
