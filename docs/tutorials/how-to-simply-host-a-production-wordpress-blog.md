@@ -1,6 +1,7 @@
 ---
 title: "Host a Production WordPress Blog"
 slug: "/tutorials/how-to-simply-host-a-production-wordpress-blog"
+diataxis: tutorial
 description: "The Amazon Web Services (AWS) WordPress reference architecture has become a meme in DevOps circles. The 2018 best practices whitepaper recommends you..."
 cover: /gitbook-assets/tutorials/wordpress-hosting-cover-v2.jpg
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Full Stack App with Express and HTMx"
 slug: "/tutorials/building-a-full-stack-application-with-express-and-htmx"
+diataxis: tutorial
 description: "Build a full-stack app with Express and HTMX for dynamic, server-rendered pages without a heavy frontend framework, then deploy on Code Capsules."
 cover: /gitbook-assets/tutorials/express-htmx-cover-v2.jpg
 ---

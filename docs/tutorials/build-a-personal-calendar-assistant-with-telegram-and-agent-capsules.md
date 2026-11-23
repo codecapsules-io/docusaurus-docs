@@ -1,6 +1,7 @@
 ---
 title: "Telegram Calendar Assistant Tutorial"
 slug: "/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules"
+diataxis: tutorial
 description: >-
   Build an AI-powered calendar assistant that manages your Google Calendar
   through natural Telegram conversations, deployed on Code Capsules.

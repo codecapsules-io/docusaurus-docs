@@ -1,5 +1,6 @@
 ---
 slug: "/"
+diataxis: how-to
 description: "Code Capsules documentation: tutorials, references and example code for deploying apps, databases, containers and AI agents to production."
 cover: /gitbook-assets/get-started/generic-docs-banner.jpg
 coverY: 20

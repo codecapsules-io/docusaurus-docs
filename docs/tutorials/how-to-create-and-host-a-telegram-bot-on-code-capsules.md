@@ -1,6 +1,7 @@
 ---
 title: "Host a Python Telegram Bot"
 slug: "/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules"
+diataxis: tutorial
 description: "Build a Python Telegram bot that sends exchange-rate and weather data, then host it on Code Capsules. Full walkthrough from Bot API to live."
 cover: /gitbook-assets/tutorials/telegram-bot-cover-python-v2.jpg
 ---

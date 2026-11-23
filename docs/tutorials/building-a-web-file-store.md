@@ -1,5 +1,6 @@
 ---
 slug: "/tutorials/building-a-web-file-store"
+diataxis: tutorial
 title: "Build a Web File Store on Code Capsules"
 description: "Build and deploy your own online file store on Code Capsules, a self-hosted alternative to Dropbox or Google Drive you can access from any device."
 cover: /gitbook-assets/tutorials/file-store-cover-v2.jpg

@@ -1,6 +1,7 @@
 ---
 title: "PHP Book Recommendations App"
 slug: "/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker"
+diataxis: tutorial
 description: "Build a book recommendations web app with PHP, SQLite and Docker, then deploy it to Code Capsules. A step-by-step containerized tutorial."
 cover: /gitbook-assets/tutorials/php-book-app-cover-v2.jpg
 ---
