@@ -3,7 +3,7 @@ slug: "/tutorials/sandbox-quickstart"
 diataxis: tutorial
 title: "Sandbox SDK Quick Start"
 description: "Install the Sandbox SDK, set your API key, and run your first command in a Firecracker microVM."
-sidebar_label: "Quick start"
+sidebar_label: "Sandbox Quick Start"
 ---
 
 # Quick Start
