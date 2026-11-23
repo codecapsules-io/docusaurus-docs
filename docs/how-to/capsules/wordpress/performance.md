@@ -10,22 +10,7 @@ sidebar_label: "Performance"
 
 WordPress Capsules are pre-configured with sensible performance defaults. This guide explains how to tune them for your specific site size and traffic pattern.
 
----
-
-## How Requests Are Processed
-
-Understanding the request path helps you know where bottlenecks occur:
-
-```
-Browser → HTTPS → Platform load balancer → Nginx → PHP-FPM → WordPress → MySQL
-```
-
-- **Nginx** serves static files (CSS, JS, images) directly without involving PHP.
-- **Nginx page cache** serves cached HTML to anonymous visitors without involving PHP or MySQL.
-- **PHP-FPM** processes PHP requests using a pool of worker processes.
-- **OPcache** caches compiled PHP bytecode in memory so PHP files do not need to be parsed on every request.
-
-For most sites, the bottleneck is either **PHP worker count** (FPM pool exhausted) or **database queries** (slow or too many queries per page load).
+For the default settings and recommended worker configurations, see the [WordPress PHP settings reference](/reference/capsules/wordpress/performance/). To understand the request path and how workers and static files are handled, see [How WordPress requests are processed](/explanation/capsules/wordpress/performance/).
 
 ---
 
@@ -33,15 +18,7 @@ For most sites, the bottleneck is either **PHP worker count** (FPM pool exhauste
 
 OPcache is enabled by default. It compiles PHP files to bytecode once and stores them in memory, eliminating the file parsing overhead on subsequent requests. This typically reduces PHP processing time by 30–50% for WordPress.
 
-### Default settings
-
-| Setting | Default | Description |
-|---|---|---|
-| `opcache.memory_consumption` | `256` | Memory allocated for OPcache in MB |
-| `opcache.max_accelerated_files` | `20000` | Maximum number of PHP files cached |
-| `opcache.interned_strings_buffer` | `16` | Memory for interned strings in MB |
-| `opcache.validate_timestamps` | `1` | Check for file changes on every request |
-| `opcache.revalidate_freq` | `60` | How often (in seconds) to check for file changes |
+The default OPcache settings are in the [reference](/reference/capsules/wordpress/performance/#default-settings).
 
 ### Production optimisation — disable timestamp validation
 
@@ -78,56 +55,7 @@ max_children ≈ available_memory_for_php ÷ average_worker_memory
 
 A typical WordPress page uses 30–80MB per worker. A WooCommerce page with many plugins may use 100–150MB.
 
-### Worker configuration
-
-| Variable | Description |
-|---|---|
-| `WORDPRESS_FPM_CONF` | PHP-FPM pool overrides in ini format |
-
-**Recommended configuration by capsule size:**
-
-```ini
-# 512MB RAM — minimal
-[www]
-pm = dynamic
-pm.max_children = 3
-pm.start_servers = 1
-pm.min_spare_servers = 1
-pm.max_spare_servers = 2
-```
-
-```ini
-# 1GB RAM — small site
-[www]
-pm = dynamic
-pm.max_children = 5
-pm.start_servers = 2
-pm.min_spare_servers = 2
-pm.max_spare_servers = 3
-```
-
-```ini
-# 2GB RAM — medium site
-[www]
-pm = static
-pm.max_children = 8
-pm.max_requests = 500
-request_terminate_timeout = 60s
-```
-
-```ini
-# 4GB RAM — large site / WooCommerce
-[www]
-pm = static
-pm.max_children = 16
-pm.max_requests = 500
-request_terminate_timeout = 120s
-```
-
-### `static` vs `dynamic` process manager
-
-- **`pm = static`**: All workers are pre-allocated. No spawning overhead under load. Best for 2GB+ capsules with consistent traffic.
-- **`pm = dynamic`**: Workers are spawned and killed based on demand. More memory-efficient for low-traffic or bursty sites.
+For the worker variable and recommended configurations by capsule size, see [Worker configuration](/reference/capsules/wordpress/performance/#worker-configuration). To choose between `static` and `dynamic`, see [`static` vs `dynamic` process manager](/explanation/capsules/wordpress/performance/#static-vs-dynamic-process-manager).
 
 ### Detecting worker exhaustion
 
@@ -174,16 +102,6 @@ Common reasons to increase it:
 - WXR file imports
 - Plugin update operations
 - Large image regeneration batches
-
----
-
-## Static File Performance
-
-Nginx serves static files (CSS, JS, fonts, images) directly without involving PHP. Static files are cached in the visitor's browser for 30 days with an `immutable` cache directive — after the first load, they are never re-requested until the filename changes.
-
-This means **plugin and theme updates automatically bust the browser cache** because WordPress appends a version query string (e.g. `?ver=6.4.2`) to enqueued files.
-
-XML and text files (sitemaps, `robots.txt`) are cached for 1 hour to allow frequent regeneration by SEO plugins.
 
 ---
 

@@ -14,5 +14,13 @@
    "docs/reference/capsules/wordpress/caching.md",
    "docs/explanation/capsules/wordpress/caching.md"
   ]
+ },
+ {
+  "from": "docs/products/wordpress-capsule/performance.md",
+  "parts": [
+   "docs/how-to/capsules/wordpress/performance.md",
+   "docs/reference/capsules/wordpress/performance.md",
+   "docs/explanation/capsules/wordpress/performance.md"
+  ]
  }
 ]
