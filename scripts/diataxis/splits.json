@@ -29,5 +29,13 @@
    "docs/how-to/agentic-automation/deployment.md",
    "docs/explanation/agentic-automation/deployment.md"
   ]
+ },
+ {
+  "from": "docs/products/agent-capsule/templates.md",
+  "parts": [
+   "docs/how-to/capsules/agent/templates.md",
+   "docs/reference/capsules/agent/templates.md",
+   "docs/how-to/capsules/agent/add-a-tool.md"
+  ]
  }
 ]
