@@ -1,5 +1,6 @@
 ---
 slug: "/explanation/platform/overview"
+sidebar_position: 0
 diataxis: explanation
 title: "Platform Overview"
 description: "Teams, Spaces, and Capsules are the foundation of Code Capsules."

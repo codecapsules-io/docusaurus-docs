@@ -1,5 +1,6 @@
 ---
 slug: "/how-to/capsules/database/mongodb/upgrades/overview"
+sidebar_position: 0
 diataxis: how-to
 description: "Upgrade a Dedicated MongoDB Capsule on Code Capsules one major version at a time. Pick the guide that matches your current and target MongoDB version."
 title: "How to Upgrade MongoDB Versions"

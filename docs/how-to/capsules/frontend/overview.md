@@ -1,5 +1,6 @@
 ---
 slug: "/how-to/capsules/frontend/overview"
+sidebar_position: 0
 diataxis: how-to
 description: "Host static sites and single-page applications on Code Capsules. Choose Static hosting, with a free plan, or Container hosting for always-on serving with logs, metrics, and scaling."
 title: "Frontend App Hosting"

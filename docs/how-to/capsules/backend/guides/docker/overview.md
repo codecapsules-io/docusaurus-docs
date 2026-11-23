@@ -1,5 +1,6 @@
 ---
 slug: "/how-to/capsules/backend/guides/docker/overview"
+sidebar_position: 0
 diataxis: how-to
 description: "Deploy Docker-based applications on Code Capsules from custom Dockerfiles with auto-deployments from GitHub, or from existing container images."
 title: "How to Deploy Docker Containers"

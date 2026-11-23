@@ -1,5 +1,6 @@
 ---
 slug: "/how-to/capsules/backend/overview"
+sidebar_position: 0
 diataxis: how-to
 description: >-
   Deploy, configure, scale, and monitor server-side applications and APIs with
