@@ -92,6 +92,7 @@ This section contains all the information you need to deploy, configure, and man
 
 ## Agent
 
+- [Add a tool](/how-to/capsules/agent/add-a-tool)
 - [Chat](/how-to/capsules/agent/chat)
 - [Configure](/how-to/capsules/agent/configure)
 - [Deploy](/how-to/capsules/agent/deploy)

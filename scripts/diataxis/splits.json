@@ -37,5 +37,19 @@
    "docs/reference/capsules/agent/templates.md",
    "docs/how-to/capsules/agent/add-a-tool.md"
   ]
+ },
+ {
+  "from": "docs/tutorials/white-label-your-app-with-code-capsules.md",
+  "parts": [
+   "docs/how-to/guides/white-label-your-app-with-code-capsules.md",
+   "docs/explanation/guides/white-label-apps.md"
+  ]
+ },
+ {
+  "from": "docs/tutorials/nuxt3-and-nitro.md",
+  "parts": [
+   "docs/how-to/guides/nuxt3-and-nitro.md",
+   "docs/explanation/guides/nuxt3-and-nitro.md"
+  ]
  }
 ]
