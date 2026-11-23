@@ -1354,8 +1354,8 @@
   "oldPath": "docs/sandbox/index.md",
   "oldSlug": "/sandbox",
   "type": "explanation",
-  "newPath": "docs/explanation/sandbox/index.md",
-  "newSlug": "/explanation/sandbox"
+  "newPath": "docs/explanation/sandbox/overview.md",
+  "newSlug": "/explanation/sandbox/overview"
  },
  {
   "oldPath": "docs/sandbox/python/api-reference.md",

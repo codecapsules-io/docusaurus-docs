@@ -12,6 +12,7 @@ const OVERRIDES = {
   'docs/platform/platform.md': 'platform/overview.md',
   'docs/cli/readme/getting-started/quick-start.md': 'cli-quick-start.md',
   'docs/sandbox/quickstart.md': 'sandbox-quickstart.md',
+  'docs/sandbox/index.md': 'sandbox/overview.md',
 };
 
 function tidy(rest) {

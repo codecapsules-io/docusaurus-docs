@@ -102,6 +102,13 @@ test('newLocation: single-page tutorial folders are flattened into tutorials/', 
   assert.equal(newLocation('docs/sandbox/quickstart.md', 'tutorial').newPath, 'docs/tutorials/sandbox-quickstart.md');
 });
 
+test('newLocation: the Sandbox overview is overview.md so its folder stays a category', () => {
+  assert.deepEqual(newLocation('docs/sandbox/index.md', 'explanation'), {
+    newPath: 'docs/explanation/sandbox/overview.md',
+    newSlug: '/explanation/sandbox/overview',
+  });
+});
+
 test('newLocation: platform capsule pages share the capsules/ folder', () => {
   assert.equal(newLocation('docs/platform/capsules/health-checks.md', 'how-to').newPath, 'docs/how-to/capsules/health-checks.md');
 });

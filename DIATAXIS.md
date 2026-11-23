@@ -267,7 +267,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/explanation/enterprise/index.md` | Enterprise PaaS on Your Own Cloud |
 | `docs/explanation/enterprise/vmware.md` | Run a PaaS on VMware — Enterprise Deployment |
 | `docs/explanation/enterprise-clusters/overview.md` | Enterprise Clusters — Run the Platform on Your Own Cloud |
-| `docs/explanation/sandbox/index.md` | AI Agent Sandboxes: Firecracker microVMs |
+| `docs/explanation/sandbox/overview.md` | AI Agent Sandboxes: Firecracker microVMs |
 
 ## release-notes (9)
 

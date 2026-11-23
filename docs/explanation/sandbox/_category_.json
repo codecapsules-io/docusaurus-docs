@@ -1,8 +1,4 @@
 {
   "label": "Sandbox",
-  "key": "explanation/sandbox",
-  "link": {
-    "type": "doc",
-    "id": "explanation/sandbox/index"
-  }
+  "key": "explanation/sandbox"
 }
