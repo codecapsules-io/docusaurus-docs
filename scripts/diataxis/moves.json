@@ -255,8 +255,8 @@
   "oldPath": "docs/cli/readme/getting-started/quick-start.md",
   "oldSlug": "/cli/readme/getting-started/quick-start",
   "type": "tutorial",
-  "newPath": "docs/tutorials/cli/getting-started/quick-start.md",
-  "newSlug": "/tutorials/cli/getting-started/quick-start"
+  "newPath": "docs/tutorials/cli-quick-start.md",
+  "newSlug": "/tutorials/cli-quick-start"
  },
  {
   "oldPath": "docs/cli/readme/global-options.md",
@@ -1375,8 +1375,8 @@
   "oldPath": "docs/sandbox/quickstart.md",
   "oldSlug": "/sandbox/quickstart",
   "type": "tutorial",
-  "newPath": "docs/tutorials/sandbox/quickstart.md",
-  "newSlug": "/tutorials/sandbox/quickstart"
+  "newPath": "docs/tutorials/sandbox-quickstart.md",
+  "newSlug": "/tutorials/sandbox-quickstart"
  },
  {
   "oldPath": "docs/sandbox/typescript/api-reference.md",

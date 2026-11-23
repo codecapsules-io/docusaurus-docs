@@ -31,4 +31,4 @@ codecaps <command> <arguments> [options]
 
 ## Next Steps
 
-Now that you're ready to use the CLI, head over to the [quick start](/tutorials/cli/getting-started/quick-start/) section.
+Now that you're ready to use the CLI, head over to the [quick start](/tutorials/cli-quick-start/) section.

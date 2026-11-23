@@ -45,8 +45,7 @@ test('newLocation: root files are overridden', () => {
 
 test('newLocation: the GitBook readme folder is dropped', () => {
   assert.equal(newLocation('docs/cli/readme/commands/login.md', 'reference').newPath, 'docs/reference/cli/commands/login.md');
-  assert.equal(newLocation('docs/cli/readme/getting-started/quick-start.md', 'tutorial').newPath, 'docs/tutorials/cli/getting-started/quick-start.md');
-  assert.equal(newLocation('docs/cli/readme/global-options.md', 'reference').newSlug, '/reference/cli/global-options');
+    assert.equal(newLocation('docs/cli/readme/global-options.md', 'reference').newSlug, '/reference/cli/global-options');
 });
 
 test('newLocation: versions/upgrades collapses to upgrades, versions.md is untouched', () => {
@@ -93,6 +92,14 @@ test('newLocation: frontend and database guides go under capsules/<name>/guides/
   assert.equal(newLocation('docs/database/postgres.md', 'how-to').newSlug, '/how-to/capsules/database/guides/postgres');
   assert.equal(newLocation('docs/products/database-capsule/mongodb/deploy.md', 'how-to').newPath, 'docs/how-to/capsules/database/mongodb/deploy.md');
   assert.equal(newLocation('docs/full-stack/mern-stack.md', 'how-to').newPath, 'docs/how-to/full-stack/mern-stack.md');
+});
+
+test('newLocation: single-page tutorial folders are flattened into tutorials/', () => {
+  assert.deepEqual(newLocation('docs/cli/readme/getting-started/quick-start.md', 'tutorial'), {
+    newPath: 'docs/tutorials/cli-quick-start.md',
+    newSlug: '/tutorials/cli-quick-start',
+  });
+  assert.equal(newLocation('docs/sandbox/quickstart.md', 'tutorial').newPath, 'docs/tutorials/sandbox-quickstart.md');
 });
 
 test('newLocation: platform capsule pages share the capsules/ folder', () => {

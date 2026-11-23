@@ -18,8 +18,8 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 
 | Doc | Title |
 |---|---|
-| `docs/tutorials/cli/getting-started/quick-start.md` | CLI Quick Start Guide |
-| `docs/tutorials/sandbox/quickstart.md` | Sandbox SDK Quick Start |
+| `docs/tutorials/cli-quick-start.md` | CLI Quick Start Guide |
+| `docs/tutorials/sandbox-quickstart.md` | Sandbox SDK Quick Start |
 | `docs/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx.md` | Generative Art App with Flask |
 | `docs/tutorials/build-a-mern-job-board.md` | Build a MERN Job Board |
 | `docs/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules.md` | Telegram Calendar Assistant Tutorial |

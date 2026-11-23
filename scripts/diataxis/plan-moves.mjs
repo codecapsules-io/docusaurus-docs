@@ -10,6 +10,8 @@ const OVERRIDES = {
   'docs/wordpress.md': 'capsules/wordpress/managed-wordpress.md',
   'docs/persistent-storage.md': 'capsules/storage/persistent-storage.md',
   'docs/platform/platform.md': 'platform/overview.md',
+  'docs/cli/readme/getting-started/quick-start.md': 'cli-quick-start.md',
+  'docs/sandbox/quickstart.md': 'sandbox-quickstart.md',
 };
 
 function tidy(rest) {

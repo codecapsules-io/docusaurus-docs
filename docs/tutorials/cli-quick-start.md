@@ -1,5 +1,5 @@
 ---
-slug: "/tutorials/cli/getting-started/quick-start"
+slug: "/tutorials/cli-quick-start"
 diataxis: tutorial
 description: "To use the CLI, log in to your Code Capsules account."
 title: "CLI Quick Start Guide"
