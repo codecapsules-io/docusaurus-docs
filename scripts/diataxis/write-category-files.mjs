@@ -31,7 +31,7 @@ export async function writeCategoryFiles(root) {
       try {
         await fs.access(file);
       } catch {
-        await fs.writeFile(file, JSON.stringify({label: categoryLabel(e.name)}, null, 2) + '\n');
+        await fs.writeFile(file, JSON.stringify({label: categoryLabel(e.name), key: path.relative(path.join(root, 'docs'), sub).split(path.sep).join('/')}, null, 2) + '\n');
         written++;
       }
       await visit(sub);

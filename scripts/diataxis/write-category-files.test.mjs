@@ -25,8 +25,8 @@ test('writeCategoryFiles: writes one _category_.json per area folder, never in t
   await fs.writeFile(path.join(root, 'docs/reference/cli/_category_.json'), '{"label":"Mine"}');
   assert.equal(await writeCategoryFiles(root), 2);
   const read = async (p) => JSON.parse(await fs.readFile(path.join(root, p), 'utf8'));
-  assert.deepEqual(await read('docs/how-to/backend-capsule/_category_.json'), {label: 'Backend Capsule'});
-  assert.deepEqual(await read('docs/how-to/backend-capsule/logs/_category_.json'), {label: 'Logs'});
+  assert.deepEqual(await read('docs/how-to/backend-capsule/_category_.json'), {label: 'Backend Capsule', key: 'how-to/backend-capsule'});
+  assert.deepEqual(await read('docs/how-to/backend-capsule/logs/_category_.json'), {label: 'Logs', key: 'how-to/backend-capsule/logs'});
   assert.deepEqual(await read('docs/reference/cli/_category_.json'), {label: 'Mine'});
   await assert.rejects(fs.access(path.join(root, 'docs/how-to/_category_.json')));
   assert.equal(await writeCategoryFiles(root), 0);
