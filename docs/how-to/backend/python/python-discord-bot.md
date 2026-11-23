@@ -60,7 +60,7 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
+A [Capsule](/explanation/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 To create a new Capsule for your Space, follow the instructions below:
 
@@ -80,7 +80,7 @@ Once your application is live, you can view the build log by selecting the **Dep
 
 ## Add a `TOKEN` Environment Variable
 
-Once the build is complete, you have to add a `TOKEN` environment variable on the **Config** tab under the **Environment Variables** section. Assign it the value of the token you copied in step 7 of the [Register the Bot](/backend/python/python-discord-bot/#register-the-bot) section above.
+Once the build is complete, you have to add a `TOKEN` environment variable on the **Config** tab under the **Environment Variables** section. Assign it the value of the token you copied in step 7 of the [Register the Bot](/how-to/backend/python/python-discord-bot/#register-the-bot) section above.
 
 ![Token Environment Variable](/gitbook-assets/get-started/token-env-variable-1.png)
 
@@ -90,4 +90,4 @@ Confirm your changes by clicking on **Save**, then restart your Capsule by toggl
 
 The bot will be able to respond to messages after Code Capsules finishes building it. When this is done, you can send a message to any channel in the server you added it to, and the bot will echo it back.
 
-If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).
+If you'd like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/backend/).

@@ -41,7 +41,7 @@ Each build can produce up to 30 MB of files. If a build produces more than this,
 
 ### Monthly traffic
 
-Free capsules can serve 50 GB of traffic each calendar month. Traffic is the size of the files sent to visitors and includes requests to your [custom domains](/products/frontend-capsule/custom-domains/). Usage is updated once a day, so the meter on the **Details** tab can be up to a day behind.
+Free capsules can serve 50 GB of traffic each calendar month. Traffic is the size of the files sent to visitors and includes requests to your [custom domains](/how-to/frontend-capsule/custom-domains/). Usage is updated once a day, so the meter on the **Details** tab can be up to a day behind.
 
 When a site reaches its traffic allowance:
 
@@ -75,6 +75,6 @@ You can't move a Paid capsule back to Free. To use the Free plan again, create a
 
 ## Related
 
-- [Deploy with Static hosting](/products/frontend-capsule/static/deploy/)
-- [Container hosting](/products/frontend-capsule/container/deploy/): if you want runtime logs, metrics, or scaling
-- [How pricing works](/platform/billing/how-does-the-pricing-work/)
+- [Deploy with Static hosting](/how-to/frontend-capsule/static/deploy/)
+- [Container hosting](/how-to/frontend-capsule/container/deploy/): if you want runtime logs, metrics, or scaling
+- [How pricing works](/reference/platform/billing/how-does-the-pricing-work/)

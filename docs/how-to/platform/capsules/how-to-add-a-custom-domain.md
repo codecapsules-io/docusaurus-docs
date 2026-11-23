@@ -36,7 +36,7 @@ Click the **Add Custom Domain** link and enter your custom domain in the **Domai
 
 :::danger
 
-Ensure you enter only a **root domain**. Do not include a subdomain. A root domain contains only a domain name and top-level domain, for example, `example.com`. See the [notes on understanding URL structure](/platform/capsules/how-to-add-a-custom-domain/#understanding-url-structure) below.
+Ensure you enter only a **root domain**. Do not include a subdomain. A root domain contains only a domain name and top-level domain, for example, `example.com`. See the [notes on understanding URL structure](/how-to/platform/capsules/how-to-add-a-custom-domain/#understanding-url-structure) below.
 
 :::
 
@@ -49,7 +49,7 @@ Next, you need to create an **A record** with your domain registrar for the cust
 
 Log in to your domain registrar's dashboard and locate the DNS settings for your custom domain.
 
-Retrieve the static IP address you [previously copied and saved](/platform/capsules/how-to-add-a-custom-domain/#add-a-custom-domain) and add an A record pointing to it. Your A record entry may look something like this:
+Retrieve the static IP address you [previously copied and saved](/how-to/platform/capsules/how-to-add-a-custom-domain/#add-a-custom-domain) and add an A record pointing to it. Your A record entry may look something like this:
 
 | Record Type | Name | IPv4 Address          |
 | ----------- | ---- | --------------------- |
@@ -72,7 +72,7 @@ Changes to DNS records can take several hours to propagate.
 
 ## Add a Subdomain
 
-Before adding a subdomain, make sure your custom domain has an [A record](/platform/capsules/how-to-add-a-custom-domain/#create-an-a-record) pointing to your application on Code Capsules.
+Before adding a subdomain, make sure your custom domain has an [A record](/how-to/platform/capsules/how-to-add-a-custom-domain/#create-an-a-record) pointing to your application on Code Capsules.
 
 
 :::info
@@ -80,7 +80,7 @@ Before adding a subdomain, make sure your custom domain has an [A record](/platf
 **Note:**
 
 * Each application on Code Capsules supports a **maximum of five subdomains**.
-* **Wildcard subdomains are not supported.** You need to [create a separate CNAME record](/platform/capsules/how-to-add-a-custom-domain/#create-a-cname-record) for each subdomain you add.
+* **Wildcard subdomains are not supported.** You need to [create a separate CNAME record](/how-to/platform/capsules/how-to-add-a-custom-domain/#create-a-cname-record) for each subdomain you add.
 
 :::
 

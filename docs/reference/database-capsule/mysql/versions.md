@@ -12,7 +12,7 @@ Code Capsules MySQL Capsules run one of two supported major versions. This guide
 
 :::info
 
-This section is about **MySQL server version upgrades**. For application schema changes, see [Schema Migrations](/products/database-capsule/mysql/schema-migrations/).
+This section is about **MySQL server version upgrades**. For application schema changes, see [Schema Migrations](/how-to/database-capsule/mysql/schema-migrations/).
 
 :::
 
@@ -35,7 +35,7 @@ Connect to your MySQL Capsule and run:
 SELECT VERSION();
 ```
 
-If you connect from your local machine, see [Connect Locally](/products/database-capsule/mysql/connect-locally/) to open a secure tunnel and connect with the `mysql` client.
+If you connect from your local machine, see [Connect Locally](/how-to/database-capsule/mysql/connect-locally/) to open a secure tunnel and connect with the `mysql` client.
 
 ## Upgrade Paths
 
@@ -43,11 +43,11 @@ Major version upgrades must follow a single step at a time. You cannot downgrade
 
 | From | To  | Allowed                           | Guide                                                                        |
 | ---- | --- | --------------------------------- | ---------------------------------------------------------------------------- |
-| 5.7  | 8.0 | Yes                               | [5.7 to 8.0](/products/database-capsule/mysql/versions/upgrades/5-7-to-8-0/) |
+| 5.7  | 8.0 | Yes                               | [5.7 to 8.0](/how-to/database-capsule/mysql/versions/upgrades/5-7-to-8-0/) |
 | 8.0  | 5.7 | No — downgrades are not supported | —                                                                            |
 
 ## Upgrade Guides
 
-- [5.7 to 8.0](/products/database-capsule/mysql/versions/upgrades/5-7-to-8-0/)
+- [5.7 to 8.0](/how-to/database-capsule/mysql/versions/upgrades/5-7-to-8-0/)
 
-See [MySQL Versions](/products/database-capsule/mysql/versions/) for supported versions and general upgrade requirements.
+See [MySQL Versions](/reference/database-capsule/mysql/versions/) for supported versions and general upgrade requirements.

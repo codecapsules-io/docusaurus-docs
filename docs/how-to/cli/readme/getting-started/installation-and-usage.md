@@ -19,7 +19,7 @@ npm i -g @codecapsules/cli
 
 Once installed, the Code Capsules CLI follows the same standard format as most CLI applications:
 
-The CLI can be called by using `codecaps`. The first argument to the CLI should be the desired command you want to call (for example, `login`, `logout`, or `proxy`). Each command has a list of arguments and options that can be passed in, respective to the command. You can view the list of all commands and their requirements [here](/cli/readme/commands/).
+The CLI can be called by using `codecaps`. The first argument to the CLI should be the desired command you want to call (for example, `login`, `logout`, or `proxy`). Each command has a list of arguments and options that can be passed in, respective to the command. You can view the list of all commands and their requirements [here](/reference/cli/readme/commands/).
 
 ### Command Layout
 
@@ -31,4 +31,4 @@ codecaps <command> <arguments> [options]
 
 ## Next Steps
 
-Now that you're ready to use the CLI, head over to the [quick start](/cli/readme/getting-started/quick-start/) section.
+Now that you're ready to use the CLI, head over to the [quick start](/tutorials/cli/readme/getting-started/quick-start/) section.

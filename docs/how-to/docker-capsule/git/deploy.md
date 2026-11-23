@@ -10,7 +10,7 @@ sidebar_label: "Deploy"
 
 Deploy from a Git repository when you want Code Capsules to build your image for you. Code Capsules builds an image from the `Dockerfile` in your repository, runs it, and can rebuild automatically each time you push to your branch.
 
-To deploy an image you have already built and published instead, see [Deploy an existing image](/products/docker-capsule/image/deploy/).
+To deploy an image you have already built and published instead, see [Deploy an existing image](/how-to/docker-capsule/image/deploy/).
 
 ## Prerequisites
 
@@ -18,11 +18,11 @@ Before creating a capsule, make sure you have:
 
 - A [Code Capsules](https://www.codecapsules.io/) account with a Team and Space
 - A repository containing a working `Dockerfile` — see [Prepare your Dockerfile](#prepare-your-dockerfile)
-- Your version control account linked under [Connect Version Control](/platform/account/connect-version-control/)
+- Your version control account linked under [Connect Version Control](/how-to/platform/account/connect-version-control/)
 
 ## Prepare your Dockerfile
 
-Code Capsules builds your image from the `Dockerfile` in your repository. The resulting container must meet the [container requirements](/products/docker-capsule/container-requirements/): it must listen on `0.0.0.0` on the capsule's network port and start your application with `CMD` or `ENTRYPOINT`.
+Code Capsules builds your image from the `Dockerfile` in your repository. The resulting container must meet the [container requirements](/reference/docker-capsule/container-requirements/): it must listen on `0.0.0.0` on the capsule's network port and start your application with `CMD` or `ENTRYPOINT`.
 
 This Dockerfile works for a Node.js application:
 
@@ -41,7 +41,7 @@ EXPOSE ${PORT}
 CMD ["node", "server.js"]
 ```
 
-In your application code, read the port from the `PORT` environment variable. See [Use the PORT environment variable](/products/docker-capsule/container-requirements/#use-the-port-environment-variable) for examples in other languages.
+In your application code, read the port from the `PORT` environment variable. See [Use the PORT environment variable](/reference/docker-capsule/container-requirements/#use-the-port-environment-variable) for examples in other languages.
 
 ```javascript
 const port = process.env.PORT || 3000;
@@ -50,7 +50,7 @@ app.listen(port, '0.0.0.0', () => {
 });
 ```
 
-Everything your app needs must be declared in the Dockerfile. Unlike [Backend Capsules](/products/backend-capsule/), Docker Capsules do not detect your language or install dependencies for you.
+Everything your app needs must be declared in the Dockerfile. Unlike [Backend Capsules](/how-to/backend-capsule/), Docker Capsules do not detect your language or install dependencies for you.
 
 :::tip
 
@@ -58,7 +58,7 @@ Standard Docker practices work as usual. Use [multi-stage builds](https://docs.d
 
 :::
 
-By default, Code Capsules uses `/Dockerfile` at the repository root and `/` as the build context. If your Dockerfile is somewhere else, set the **Dockerfile location** when you create the capsule, or see [Configure](/products/docker-capsule/configure/#docker-file) for monorepo layouts.
+By default, Code Capsules uses `/Dockerfile` at the repository root and `/` as the build context. If your Dockerfile is somewhere else, set the **Dockerfile location** when you create the capsule, or see [Configure](/how-to/docker-capsule/configure/#docker-file) for monorepo layouts.
 
 ## Create the capsule
 
@@ -82,19 +82,19 @@ Code Capsules creates the capsule, links it to your repository, assigns a defaul
 ## Verify your capsule
 
 1. Open the **Details** tab and click the capsule URL.
-2. If the page does not load, check the [network port](/products/docker-capsule/configure/#network-port) and the [container requirements](/products/docker-capsule/container-requirements/).
-3. If the build fails, read the build log in the **Builds** tab — see [Troubleshooting builds](/products/docker-capsule/git/builds/#troubleshooting-builds).
+2. If the page does not load, check the [network port](/how-to/docker-capsule/configure/#network-port) and the [container requirements](/reference/docker-capsule/container-requirements/).
+3. If the build fails, read the build log in the **Builds** tab — see [Troubleshooting builds](/how-to/docker-capsule/git/builds/#troubleshooting-builds).
 
 ## Next steps
 
 After the first build, manage how your capsule is rebuilt and updated:
 
-- [Builds & Auto-deploy](/products/docker-capsule/git/builds/) — manual builds, auto-deploy on push, and changing the repository, branch, or Dockerfile path
-- [Deployments](/products/docker-capsule/deployments/) — deployment strategy, build history, and rollback
+- [Builds & Auto-deploy](/how-to/docker-capsule/git/builds/) — manual builds, auto-deploy on push, and changing the repository, branch, or Dockerfile path
+- [Deployments](/how-to/docker-capsule/deployments/) — deployment strategy, build history, and rollback
 
 ## Example guides
 
-- [Flask Docker App](/backend/docker/flask-docker-app/)
-- [Docker PHP App](/backend/docker/docker-php-app/)
-- [Docker Laravel App](/backend/docker/docker-laravel-app/)
-- [Caddy Docker Site](/backend/docker/caddy-docker-site/)
+- [Flask Docker App](/how-to/backend/docker/flask-docker-app/)
+- [Docker PHP App](/how-to/backend/docker/docker-php-app/)
+- [Docker Laravel App](/how-to/backend/docker/docker-laravel-app/)
+- [Caddy Docker Site](/how-to/backend/docker/caddy-docker-site/)

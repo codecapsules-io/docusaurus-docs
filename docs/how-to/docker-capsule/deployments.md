@@ -8,7 +8,7 @@ sidebar_label: "Deployments"
 
 # Manage, Roll Back, and Track Your Deployments
 
-Every Docker Capsule deploy creates a build, whether Code Capsules [builds your Dockerfile from Git](/products/docker-capsule/git/builds/) or [pulls an existing image](/products/docker-capsule/image/updates/). This page covers the deployment settings and build history that work the same way for both.
+Every Docker Capsule deploy creates a build, whether Code Capsules [builds your Dockerfile from Git](/how-to/docker-capsule/git/builds/) or [pulls an existing image](/how-to/docker-capsule/image/updates/). This page covers the deployment settings and build history that work the same way for both.
 
 ## Deploy tab
 
@@ -92,7 +92,7 @@ Rolling back uses an existing build — it does not trigger a new build or pull.
 
 ### Build or deploy fails
 
-- For a capsule deployed from Git, see [Troubleshooting builds](/products/docker-capsule/git/builds/#troubleshooting-builds).
-- For a capsule deployed from an existing image, see [Image deploy fails](/products/docker-capsule/image/updates/#image-deploy-fails).
+- For a capsule deployed from Git, see [Troubleshooting builds](/how-to/docker-capsule/git/builds/#troubleshooting-builds).
+- For a capsule deployed from an existing image, see [Image deploy fails](/how-to/docker-capsule/image/updates/#image-deploy-fails).
 
-If the deploy succeeds but your application does not work at runtime, see [Logs](/products/docker-capsule/logs/) and [Container requirements](/products/docker-capsule/container-requirements/).
+If the deploy succeeds but your application does not work at runtime, see [Logs](/how-to/docker-capsule/logs/) and [Container requirements](/reference/docker-capsule/container-requirements/).

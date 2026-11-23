@@ -16,7 +16,7 @@ To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/
 
 ## Create an Account with Code Capsules
 
-Before creating your WordPress capsule, you'll need a Team and a Space. You can follow these guides to learn how to create [Teams](/platform/teams/what-is-a-team/) and [Spaces](/platform/spaces/what-is-a-space/).
+Before creating your WordPress capsule, you'll need a Team and a Space. You can follow these guides to learn how to create [Teams](/explanation/platform/teams/what-is-a-team/) and [Spaces](/explanation/platform/spaces/what-is-a-space/).
 
 If you already have a Team and Space set up, log in to your Code Capsules account. On the dashboard, click the yellow `+` on the bottom left of the screen, then click **New Capsule**.
 
@@ -24,7 +24,7 @@ If you already have a Team and Space set up, log in to your Code Capsules accoun
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
+A [Capsule](/explanation/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 To create a WordPress Capsule, first choose **WordPress** as the Capsule type, as well as your Team, and Space.
 
@@ -61,7 +61,7 @@ To deploy WordPress from your version control repository:
 
 ![Choose repo](/gitbook-assets/get-started/wordpress-git-managed.png)
 
-You can read more about connecting your account to a version control provider in [this guide](/platform/account/connect-version-control/).
+You can read more about connecting your account to a version control provider in [this guide](/how-to/platform/account/connect-version-control/).
 
 ## Monitor Deployment
 
@@ -89,4 +89,4 @@ After installation, you'll see the WordPress admin dashboard and can begin custo
 
 ![Welcome to Wordpress](/gitbook-assets/get-started/wordpress-welcome.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/wordpress/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/wordpress-capsule/managed-wordpress/).

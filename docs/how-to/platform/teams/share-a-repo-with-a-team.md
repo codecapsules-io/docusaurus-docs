@@ -7,7 +7,7 @@ description: "If you've already linked your Code Capsules account to a version c
 
 # Share a Repo With a Team
 
-If you've already [linked your Code Capsules account to a version control provider](/platform/account/connect-version-control/), you can share access to your repos with your Teams.
+If you've already [linked your Code Capsules account to a version control provider](/how-to/platform/account/connect-version-control/), you can share access to your repos with your Teams.
 
 Click **Share repositories with Team**, toggle on the repos to share with your Team, then click **Share Repos**.
 

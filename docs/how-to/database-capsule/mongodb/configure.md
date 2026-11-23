@@ -56,4 +56,4 @@ You can upgrade to a newer supported version; downgrades are not supported.
 
 If your capsule uses the **latest** version option, MongoDB is automatically upgraded to the newest available version when it is released.
 
-See [Versions](/products/database-capsule/mongodb/versions/) for supported versions and upgrade paths.
+See [Versions](/reference/database-capsule/mongodb/versions/) for supported versions and upgrade paths.

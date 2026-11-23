@@ -215,7 +215,7 @@ WORDPRESS_CONFIG_EXTRA=define('WP_POST_REVISIONS', 5);
 
 ### Object cache
 
-Database query results can be cached in memory using a Redis object cache. See [Configure](/products/wordpress-capsule/configure/) for setup instructions.
+Database query results can be cached in memory using a Redis object cache. See [Configure](/how-to/wordpress-capsule/configure/) for setup instructions.
 
 ---
 

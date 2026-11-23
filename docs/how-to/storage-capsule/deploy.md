@@ -32,7 +32,7 @@ Select your payment method, then click **Create Capsule**.
 
 ### Bind the Storage Capsule to a Backend or Docker Capsule
 
-You need to bind the Storage Capsule to a [Backend](/products/backend-capsule/) or [Docker Capsule](/products/docker-capsule/) hosted on Code Capsules before you can connect to and use it.
+You need to bind the Storage Capsule to a [Backend](/how-to/backend-capsule/) or [Docker Capsule](/how-to/docker-capsule/) hosted on Code Capsules before you can connect to and use it.
 
 Navigate to the Backend or Docker Capsule and open the **Config** tab. Scroll down to the **Bind Data Capsule** section, where your recently created Storage Capsule is listed.
 

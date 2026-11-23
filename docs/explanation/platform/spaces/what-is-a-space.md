@@ -9,6 +9,6 @@ description: "A Space groups related Capsules on Code Capsules, keeping a projec
 
 ![Teams contain Spaces and Spaces contain Capsules](/gitbook-assets/platform/teamspacecapsule.png)
 
-[Teams](/platform/teams/what-is-a-team/), Spaces, and [Capsules](/platform/capsules/what-is-a-capsule/) form the foundation of [Code Capsules](https://www.codecapsules.io/).
+[Teams](/explanation/platform/teams/what-is-a-team/), Spaces, and [Capsules](/explanation/platform/capsules/what-is-a-capsule/) form the foundation of [Code Capsules](https://www.codecapsules.io/).
 
 A **Space** is an organizational tool for managing Capsules. Each Space can contain multiple Capsules, making it easier to structure and manage large or complex projects by grouping related Capsules together.

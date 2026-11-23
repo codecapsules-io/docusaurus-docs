@@ -45,6 +45,7 @@ export function buildResolver(moves) {
 
 const MD_LINK = /\]\(([^)\s]+)((?:\s+"[^"]*")?)\)/g;
 const ATTR = /\b(href|to|src)=("([^"]*)"|'([^']*)')/g;
+const PROP = /\b(href|to):(\s*)(['"])(\/[^'"]*)\3/g;
 const REF_DEF = /^(\[[^\]]+\]:\s*)(\S+)/;
 
 export function rewriteLinks(text, fromOldPath, resolve) {
@@ -71,6 +72,7 @@ export function rewriteLinks(text, fromOldPath, resolve) {
         return seg
           .replace(REF_DEF, (_, a, t) => a + fix(t))
           .replace(MD_LINK, (_, t, title) => `](${fix(t)}${title})`)
+          .replace(PROP, (_, name, ws, q, t) => `${name}:${ws}${q}${fix(t)}${q}`)
           .replace(ATTR, (_, name, quoted, dq, sq) => {
             const q = quoted[0];
             return `${name}=${q}${fix(dq ?? sq)}${q}`;
@@ -98,7 +100,7 @@ async function main() {
   let files = 0;
   let links = 0;
   const problems = [];
-  const targets = [path.join(root, 'docusaurus.config.ts')];
+  const targets = [];
   for (const [dir, exts] of scopes) {
     try {
       for await (const f of walk(path.join(root, dir), exts)) targets.push(f);

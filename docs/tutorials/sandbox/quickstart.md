@@ -133,6 +133,6 @@ with Sandbox.create() as sb:
 
 ## Next steps
 
-- [Environments](/sandbox/environments/): choose the right flavor for your workload
-- [TypeScript SDK reference](/sandbox/typescript/api-reference/)
-- [Python SDK reference](/sandbox/python/api-reference/)
+- [Environments](/reference/sandbox/environments/): choose the right flavor for your workload
+- [TypeScript SDK reference](/reference/sandbox/typescript/api-reference/)
+- [Python SDK reference](/reference/sandbox/python/api-reference/)

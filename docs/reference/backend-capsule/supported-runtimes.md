@@ -50,7 +50,7 @@ The table below lists each supported version line, the platform default when you
 
 :::info
 
-If your application requires a runtime or OS package not listed above, deploy with a [Docker Capsule](/products/docker-capsule/) and your own `Dockerfile`.
+If your application requires a runtime or OS package not listed above, deploy with a [Docker Capsule](/how-to/docker-capsule/) and your own `Dockerfile`.
 
 :::
 
@@ -102,7 +102,7 @@ You can also set `GOOGLE_PYTHON_VERSION` in the **Config** tab using the `major.
 
 ### Go
 
-Go does not support version pinning through project files. In the **Config** tab, add the `GOOGLE_GO_VERSION` environment variable. Use the `major.minor.x` pattern to receive the latest patch on that line (for example, `1.25.x`). See [Configure](/products/backend-capsule/configure/#set-environment-variables) for steps.
+Go does not support version pinning through project files. In the **Config** tab, add the `GOOGLE_GO_VERSION` environment variable. Use the `major.minor.x` pattern to receive the latest patch on that line (for example, `1.25.x`). See [Configure](/how-to/backend-capsule/configure/#set-environment-variables) for steps.
 
 Trigger a rebuild from the **Deploy** tab after saving the variable. The updated Go version applies on the next build.
 
@@ -112,7 +112,7 @@ The `go` directive in `go.mod` sets the minimum language version for your module
 
 ### Java
 
-Java does not support version pinning through project files. In the **Config** tab, add the `GOOGLE_RUNTIME_VERSION` environment variable and set it to the JDK feature version you need (for example, `21`). See [Configure](/products/backend-capsule/configure/#set-environment-variables) for steps.
+Java does not support version pinning through project files. In the **Config** tab, add the `GOOGLE_RUNTIME_VERSION` environment variable and set it to the JDK feature version you need (for example, `21`). See [Configure](/how-to/backend-capsule/configure/#set-environment-variables) for steps.
 
 Use a major version number only — not a patch release such as `21.0.11`. The platform resolves the latest patch on that JDK line at build time.
 
@@ -129,7 +129,7 @@ RUBY VERSION
    ruby 3.4.9p0
 ```
 
-**Without Bundler:** set `GOOGLE_RUNTIME_VERSION` in the **Config** tab to an exact patch version (for example, `3.4.9`). See [Configure](/products/backend-capsule/configure/#set-environment-variables) for steps.
+**Without Bundler:** set `GOOGLE_RUNTIME_VERSION` in the **Config** tab to an exact patch version (for example, `3.4.9`). See [Configure](/how-to/backend-capsule/configure/#set-environment-variables) for steps.
 
 If you use Bundler, `GOOGLE_RUNTIME_VERSION` cannot override the version in `Gemfile.lock`.
 
@@ -187,27 +187,27 @@ These frameworks are commonly deployed on Backend Capsules. Framework versions c
 
 | Framework                | Language | Deployment guide                           |
 | ------------------------ | -------- | ------------------------------------------ |
-| Express.js               | Node.js  | [Express.js](/backend/node.js/express.js/) |
-| Django                   | Python   | [Django](/backend/python/django/)          |
-| Flask                    | Python   | [Flask](/backend/python/flask/)            |
-| Java (Spring and others) | Java     | [Java](/backend/java/)                     |
-| Go                       | Go       | [Go](/backend/go/go/)                      |
+| Express.js               | Node.js  | [Express.js](/how-to/backend/node.js/express.js/) |
+| Django                   | Python   | [Django](/how-to/backend/python/django/)          |
+| Flask                    | Python   | [Flask](/how-to/backend/python/flask/)            |
+| Java (Spring and others) | Java     | [Java](/how-to/backend/java/)                     |
+| Go                       | Go       | [Go](/how-to/backend/go/go/)                      |
 
 ## Server-side JavaScript frameworks
 
-Applications that need a persistent Node.js server at runtime — including SSR and full-stack frameworks — belong on a **Backend Capsule** or a [Docker Capsule](/products/docker-capsule/), not a Frontend Capsule.
+Applications that need a persistent Node.js server at runtime — including SSR and full-stack frameworks — belong on a **Backend Capsule** or a [Docker Capsule](/how-to/docker-capsule/), not a Frontend Capsule.
 
 | Framework             | Capsule type    | Guide                                          |
 | --------------------- | --------------- | ---------------------------------------------- |
-| Next.js (with server) | Backend Capsule | [Next.js](/frontend/next.js/)                  |
-| Nuxt with Nitro       | Backend Capsule | [Nuxt3 and Nitro](/tutorials/nuxt3-and-nitro/) |
+| Next.js (with server) | Backend Capsule | [Next.js](/how-to/frontend/next.js/)                  |
+| Nuxt with Nitro       | Backend Capsule | [Nuxt3 and Nitro](/how-to/guides/nuxt3-and-nitro/) |
 
 ## Applications outside supported runtimes
 
-If you need a runtime, OS package, or build step not listed above, deploy with a [Docker Capsule](/products/docker-capsule/) and your own `Dockerfile`.
+If you need a runtime, OS package, or build step not listed above, deploy with a [Docker Capsule](/how-to/docker-capsule/) and your own `Dockerfile`.
 
 ## Related
 
-- [Build and Deploy](/products/backend-capsule/deploy/) — language and framework deployment guides
-- [Configure](/products/backend-capsule/configure/) — run command, port, and environment variables
-- [Add a Procfile](/products/backend-capsule/add-procfile/) — custom process definitions for Python and other apps
+- [Build and Deploy](/how-to/backend-capsule/deploy/) — language and framework deployment guides
+- [Configure](/how-to/backend-capsule/configure/) — run command, port, and environment variables
+- [Add a Procfile](/how-to/backend-capsule/add-procfile/) — custom process definitions for Python and other apps

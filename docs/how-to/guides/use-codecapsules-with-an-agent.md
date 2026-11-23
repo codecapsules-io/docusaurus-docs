@@ -29,7 +29,7 @@ We'll deploy the [demo-express-js](https://github.com/codecapsules-io/demo-expre
 Fork codecapsules-io/demo-express-js to my GitHub account and clone it.
 ```
 
-Then connect Code Capsules to GitHub and authorize access to the forked repository by following [Connect Version Control](/platform/account/connect-version-control/).
+Then connect Code Capsules to GitHub and authorize access to the forked repository by following [Connect Version Control](/how-to/platform/account/connect-version-control/).
 
 ## Install the Code Capsules Skill
 

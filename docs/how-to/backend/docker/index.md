@@ -8,26 +8,26 @@ sidebar_label: "Docker"
 
 # Deploy Your Docker Containers
 
-Deploy containerized applications on Code Capsules using [Docker Capsules](/products/docker-capsule/). Docker Capsules build your application from a `Dockerfile` in your Git repository, or deploy an existing public container image, giving you full control over the runtime environment.
+Deploy containerized applications on Code Capsules using [Docker Capsules](/how-to/docker-capsule/). Docker Capsules build your application from a `Dockerfile` in your Git repository, or deploy an existing public container image, giving you full control over the runtime environment.
 
 ## Product documentation
 
 For detailed information on creating, configuring, and operating Docker Capsules:
 
-- [Docker Capsule overview](/products/docker-capsule/)
-- [Container requirements](/products/docker-capsule/container-requirements/)
+- [Docker Capsule overview](/how-to/docker-capsule/)
+- [Container requirements](/reference/docker-capsule/container-requirements/)
 - From Git
-  - [Deploy](/products/docker-capsule/git/deploy/)
-  - [Builds & Auto-deploy](/products/docker-capsule/git/builds/)
+  - [Deploy](/how-to/docker-capsule/git/deploy/)
+  - [Builds & Auto-deploy](/how-to/docker-capsule/git/builds/)
 - From an existing image
-  - [Deploy](/products/docker-capsule/image/deploy/)
-  - [Image Updates](/products/docker-capsule/image/updates/)
-- [Deployments](/products/docker-capsule/deployments/)
-- [Configure](/products/docker-capsule/configure/)
+  - [Deploy](/how-to/docker-capsule/image/deploy/)
+  - [Image Updates](/how-to/docker-capsule/image/updates/)
+- [Deployments](/how-to/docker-capsule/deployments/)
+- [Configure](/how-to/docker-capsule/configure/)
 
 ## Deployment guides
 
-- [Flask Docker App](/backend/docker/flask-docker-app/)
-- [Docker PHP App](/backend/docker/docker-php-app/)
-- [Docker Laravel App](/backend/docker/docker-laravel-app/)
-- [Caddy Docker Site](/backend/docker/caddy-docker-site/)
+- [Flask Docker App](/how-to/backend/docker/flask-docker-app/)
+- [Docker PHP App](/how-to/backend/docker/docker-php-app/)
+- [Docker Laravel App](/how-to/backend/docker/docker-laravel-app/)
+- [Caddy Docker Site](/how-to/backend/docker/caddy-docker-site/)

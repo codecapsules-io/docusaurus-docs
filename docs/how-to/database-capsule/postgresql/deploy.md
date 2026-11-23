@@ -18,8 +18,8 @@ PostgreSQL Capsules provide a managed PostgreSQL database for your applications 
 
 ![PostgreSQL Capsule Plan & Deploy step](/gitbook-assets/products/database-capsule/deploy/postgresql-deploy-plan.png)
 
-Capsule creation can take several minutes. See the [PostgreSQL getting started guide](/database/postgres/) for connection and binding instructions.
+Capsule creation can take several minutes. See the [PostgreSQL getting started guide](/how-to/database/postgres/) for connection and binding instructions.
 
 ## Framework Guides
 
-- [PostgreSQL](/database/postgres/)
+- [PostgreSQL](/how-to/database/postgres/)

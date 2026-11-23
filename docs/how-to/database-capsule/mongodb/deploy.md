@@ -10,7 +10,7 @@ sidebar_label: "Deploy"
 
 MongoDB Capsules are managed clusters on MongoDB Atlas. This is the recommended way to run MongoDB on Code Capsules. When you create a capsule in the dashboard, it is presented as **MongoDB** and provisioned with your chosen cluster type, version, and capacity.
 
-For a self-hosted MongoDB-compatible alternative, see [DocumentDB](/products/database-capsule/documentdb/deploy/). DocumentDB is intended for existing workloads — new projects should use MongoDB Capsules.
+For a self-hosted MongoDB-compatible alternative, see [DocumentDB](/how-to/database-capsule/documentdb/deploy/). DocumentDB is intended for existing workloads — new projects should use MongoDB Capsules.
 
 ## Create a MongoDB Capsule
 
@@ -18,16 +18,16 @@ For a self-hosted MongoDB-compatible alternative, see [DocumentDB](/products/dat
 2. On **Plan & Deploy**, choose a **Cluster Type**:
    - **Dedicated** — dedicated CPU and RAM based on the instance size you select.
    - **Shared** — shared CPU and RAM at a lower cost. Can be upgraded to Dedicated later.
-3. Select a **Version**. See [Versions](/products/database-capsule/mongodb/versions/) for supported options.
+3. Select a **Version**. See [Versions](/reference/database-capsule/mongodb/versions/) for supported options.
 4. Choose a **Plan** and configure **Storage** and **Replicas** for Dedicated clusters.
 5. Enter a **Capsule Name** and click **Create Capsule**.
 
 ![MongoDB Capsule Plan & Deploy step with Cluster Type, Version, and Plan options](/gitbook-assets/products/database-capsule/deploy/mongodb-deploy-plan.png)
 
-Cluster creation can take several minutes. See the [MongoDB getting started guide](/database/mongodb/) for connection and binding instructions.
+Cluster creation can take several minutes. See the [MongoDB getting started guide](/how-to/database/mongodb/) for connection and binding instructions.
 
 ## Framework Guides
 
-- [Django + MongoDB](/database/mongodb/django-+-mongodb/)
-- [Express + MongoDB](/database/mongodb/express-+-mongodb/)
-- [Flask + MongoDB](/database/mongodb/flask-+-mongodb/)
+- [Django + MongoDB](/how-to/database/mongodb/django-+-mongodb/)
+- [Express + MongoDB](/how-to/database/mongodb/express-+-mongodb/)
+- [Flask + MongoDB](/how-to/database/mongodb/flask-+-mongodb/)

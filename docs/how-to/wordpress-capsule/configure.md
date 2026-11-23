@@ -48,7 +48,7 @@ A health check tells Code Capsules when your site is ready for traffic, and rest
 
 Saving redeploys the capsule. With the health check **Off**, Code Capsules only checks that port `80` accepts connections.
 
-See [Health checks](/platform/capsules/health-checks/) for each setting, how failing replicas are handled, and which endpoint to choose.
+See [Health checks](/how-to/platform/capsules/health-checks/) for each setting, how failing replicas are handled, and which endpoint to choose.
 
 ---
 
@@ -64,7 +64,7 @@ cc wp search-replace 'https://old-domain.com' 'https://new-domain.com' --all-tab
 
 You would need to proxy connect to the MySQL Database or run a search and replace plugin once the domain changes.
 
-See [Routing](/products/wordpress-capsule/routing/) for more on domain configuration.
+See [Routing](/how-to/wordpress-capsule/routing/) for more on domain configuration.
 
 ---
 
@@ -94,7 +94,7 @@ Multiple settings are separated by newlines.
 | `opcache.jit` | off | Set to `tracing` to enable PHP 8 JIT |
 | `opcache.jit_buffer_size` | — | Set to `64M` when enabling JIT |
 
-See [Performance](/products/wordpress-capsule/performance/) for a full tuning guide.
+See [Performance](/how-to/wordpress-capsule/performance/) for a full tuning guide.
 
 ---
 
@@ -147,7 +147,7 @@ max_children ≈ available_memory ÷ average_worker_memory
 | 2 GB | `static` | 8 | Medium site with consistent traffic |
 | 4 GB | `static` | 16 | WooCommerce or high-traffic content |
 
-See [Performance](/products/wordpress-capsule/performance/) for the full scaling guide.
+See [Performance](/how-to/wordpress-capsule/performance/) for the full scaling guide.
 
 ---
 
@@ -160,7 +160,7 @@ See [Performance](/products/wordpress-capsule/performance/) for the full scaling
 | `XMLRPC_ENABLED` | `false` | Enable XML-RPC endpoint (required for Jetpack and the WordPress mobile app) |
 | `NGINX_EXTRA_CONF` | — | Raw nginx directives injected into the server block |
 
-See [Security](/products/wordpress-capsule/security/) for the full security reference.
+See [Security](/how-to/wordpress-capsule/security/) for the full security reference.
 
 ---
 
@@ -171,7 +171,7 @@ See [Security](/products/wordpress-capsule/security/) for the full security refe
 | `CACHE_TTL_SECONDS` | unset (disabled) | Page cache TTL in seconds. Must be a positive integer. Unset to disable. |
 | `DEBUG_HEADERS` | `false` | Expose `X-Cache` header for cache diagnostics |
 
-See [Caching](/products/wordpress-capsule/caching/) for the full caching reference.
+See [Caching](/how-to/wordpress-capsule/caching/) for the full caching reference.
 
 ---
 
@@ -187,7 +187,7 @@ Also set in `WORDPRESS_CONFIG_EXTRA`:
 define('DISABLE_WP_CRON', true);
 ```
 
-See [Cron](/products/wordpress-capsule/cron/) for the full cron reference.
+See [Cron](/how-to/wordpress-capsule/cron/) for the full cron reference.
 
 ---
 

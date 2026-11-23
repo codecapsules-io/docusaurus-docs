@@ -62,4 +62,4 @@ _Note: any local port can be supplied using the `-P <port>` flag. If the flag is
 
 
 
-You can view the full list of available commands [here](/cli/readme/commands/).
+You can view the full list of available commands [here](/reference/cli/readme/commands/).

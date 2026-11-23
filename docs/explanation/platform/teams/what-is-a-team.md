@@ -9,7 +9,7 @@ description: "A Team on Code Capsules groups members and Spaces for shared acces
 
 ![Teams contain Spaces and Spaces contain Capsules](/gitbook-assets/platform/teamspacecapsule.png)
 
-Teams, [Spaces](/platform/spaces/what-is-a-space/), and [Capsules](/platform/capsules/what-is-a-capsule/) form the foundation of [Code Capsules](https://www.codecapsules.io/).
+Teams, [Spaces](/explanation/platform/spaces/what-is-a-space/), and [Capsules](/explanation/platform/capsules/what-is-a-capsule/) form the foundation of [Code Capsules](https://www.codecapsules.io/).
 
 A **Team** is a group of developers who share access to the same Spaces and Capsules for easy collaboration.
 

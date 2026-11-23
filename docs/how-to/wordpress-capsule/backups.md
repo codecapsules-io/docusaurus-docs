@@ -17,5 +17,5 @@ WordPress production sites require backups for both locations to ensure complete
 
 Code Capsules provides infrastructure-level backups through Database and Storage Capsules. Use our guides to set up backups for your WordPress site:
 
-- **[Database Capsule Backups:](/products/database-capsule/mysql/backups/)** Configure retention and test restoration.
-- **[Storage Capsule Backups:](/products/storage-capsule/backups/)** Manage file backup settings.
+- **[Database Capsule Backups:](/how-to/database-capsule/mysql/backups/)** Configure retention and test restoration.
+- **[Storage Capsule Backups:](/how-to/storage-capsule/backups/)** Manage file backup settings.

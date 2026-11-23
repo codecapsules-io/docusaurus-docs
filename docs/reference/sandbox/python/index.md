@@ -83,7 +83,7 @@ sb = Sandbox.create(
 
 ## SDK reference
 
-- [API Reference](/sandbox/python/api-reference/): `Sandbox`, `AsyncSandbox`, types, and exceptions
+- [API Reference](/reference/sandbox/python/api-reference/): `Sandbox`, `AsyncSandbox`, types, and exceptions
 
 ## Links
 

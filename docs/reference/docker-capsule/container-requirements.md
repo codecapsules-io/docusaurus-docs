@@ -8,13 +8,13 @@ sidebar_label: "Container Requirements"
 
 # Make Your Container Ready for Code Capsules
 
-Every Docker Capsule runs your application in a container, whether Code Capsules [builds it from a Dockerfile in your Git repository](/products/docker-capsule/git/deploy/) or you [deploy an existing image](/products/docker-capsule/image/deploy/). In both cases, the running container must meet the requirements on this page to receive traffic.
+Every Docker Capsule runs your application in a container, whether Code Capsules [builds it from a Dockerfile in your Git repository](/how-to/docker-capsule/git/deploy/) or you [deploy an existing image](/how-to/docker-capsule/image/deploy/). In both cases, the running container must meet the requirements on this page to receive traffic.
 
 ## Requirements
 
 For your capsule to work on Code Capsules:
 
-1. **Listen on the network port** — your application must listen on the port configured in the capsule's [Network port](/products/docker-capsule/configure/#network-port) setting (default `3000`).
+1. **Listen on the network port** — your application must listen on the port configured in the capsule's [Network port](/how-to/docker-capsule/configure/#network-port) setting (default `3000`).
 2. **Bind to all interfaces** — your app must listen on `0.0.0.0`, not `127.0.0.1` or `localhost`.
 3. **Start your application** — the image must define a `CMD` or `ENTRYPOINT` that starts your application when the capsule runs.
 
@@ -66,11 +66,11 @@ log.Fatal(http.ListenAndServe(":"+port, nil))
 
 ## Images that use a fixed port
 
-Many published images ignore `PORT` and always listen on a fixed port. For example, the official `nginx` image listens on port `80`. When you deploy an image like this, set the capsule's [Network port](/products/docker-capsule/configure/#network-port) to the port the image listens on.
+Many published images ignore `PORT` and always listen on a fixed port. For example, the official `nginx` image listens on port `80`. When you deploy an image like this, set the capsule's [Network port](/how-to/docker-capsule/configure/#network-port) to the port the image listens on.
 
 ## Persistent storage
 
-Files written inside the container are lost when the capsule restarts. To keep files, bind a [Storage Capsule](/products/storage-capsule/deploy/) and read the mount path from the `PERSISTENT_STORAGE_DIR` environment variable. See [Configure](/products/docker-capsule/configure/#storage-capsule) for how to bind a Storage Capsule.
+Files written inside the container are lost when the capsule restarts. To keep files, bind a [Storage Capsule](/how-to/storage-capsule/deploy/) and read the mount path from the `PERSISTENT_STORAGE_DIR` environment variable. See [Configure](/how-to/docker-capsule/configure/#storage-capsule) for how to bind a Storage Capsule.
 
 ## Common issues
 
@@ -88,10 +88,10 @@ app.run(host="0.0.0.0", port=3000)
 
 ### Port mismatch
 
-The port in a Dockerfile's `EXPOSE` directive is documentation only — it does not configure routing. The **Network port** in the [Config](/products/docker-capsule/configure/#network-port) tab must match the port your application actually listens on at runtime.
+The port in a Dockerfile's `EXPOSE` directive is documentation only — it does not configure routing. The **Network port** in the [Config](/how-to/docker-capsule/configure/#network-port) tab must match the port your application actually listens on at runtime.
 
 ### Hardcoded port in CMD
 
 Avoid hardcoding ports in your start command when possible. Use `$PORT` or read `process.env.PORT` / `os.environ["PORT"]` so the capsule configuration controls routing.
 
-If the capsule still does not respond, check the runtime output in [Logs](/products/docker-capsule/logs/).
+If the capsule still does not respond, check the runtime output in [Logs](/how-to/docker-capsule/logs/).

@@ -12,7 +12,7 @@ In this tutorial, we'll create a MySQL Data Capsule to provide persistent storag
 
 :::info
 
-Code Capsules supports MySQL **5.7** and **8.0**. See [MySQL Versions](/products/database-capsule/mysql/versions/) for upgrade paths and prerequisites.
+Code Capsules supports MySQL **5.7** and **8.0**. See [MySQL Versions](/reference/database-capsule/mysql/versions/) for upgrade paths and prerequisites.
 
 :::
 
@@ -78,4 +78,4 @@ con.connect(function(err) {
 
 ```
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/database/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/database/).

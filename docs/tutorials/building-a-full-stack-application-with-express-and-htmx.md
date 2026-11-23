@@ -406,6 +406,6 @@ Your remote repository will now be up-to-date with your local one.
 
 ### Deploy to Code Capsules
 
-The final step is to deploy our app. Log into your Code Capsules account and link your remote GitHub repository to Code Capsules. Create a persistent storage Data Capsule and a Backend Capsule and bind the two together to deploy the app. You can follow this [reference guide](/persistent-storage/) to see how to do so in greater detail.
+The final step is to deploy our app. Log into your Code Capsules account and link your remote GitHub repository to Code Capsules. Create a persistent storage Data Capsule and a Backend Capsule and bind the two together to deploy the app. You can follow this [reference guide](/how-to/storage-capsule/persistent-storage/) to see how to do so in greater detail.
 
 That’s it! Your “Book Recommendations” app should be live and fully functional now.\\

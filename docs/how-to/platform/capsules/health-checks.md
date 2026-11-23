@@ -33,7 +33,7 @@ A highly available application keeps serving users when something goes wrong, su
 
 High availability needs two things:
 
-1. **More than one replica.** If one replica fails, another can serve its traffic. To add replicas, see [Horizontal scaling](/products/docker-capsule/scale/#horizontal-scaling).
+1. **More than one replica.** If one replica fails, another can serve its traffic. To add replicas, see [Horizontal scaling](/how-to/docker-capsule/scale/#horizontal-scaling).
 2. **A health check.** Code Capsules needs to know which replicas are working. Without a health check, traffic is still sent to a replica that has stopped responding, so some of your users get errors even though other replicas are fine.
 
 With both, when one replica fails its checks, Code Capsules stops sending it traffic, the other replicas serve your users, and the failing replica is restarted. Your users do not notice the failure.
@@ -44,7 +44,7 @@ We recommend a health check for every capsule that serves HTTP traffic. **Automa
 
 ## Where to set a health check
 
-Health checks are available for [Backend](/products/backend-capsule/configure/), [Docker](/products/docker-capsule/configure/), [Agent](/products/agent-capsule/configure/), and [WordPress](/products/wordpress-capsule/configure/) Capsules. Each Configure page shows where to set the health check for that capsule type.
+Health checks are available for [Backend](/how-to/backend-capsule/configure/), [Docker](/how-to/docker-capsule/configure/), [Agent](/how-to/agent-capsule/configure/), and [WordPress](/how-to/wordpress-capsule/configure/) Capsules. Each Configure page shows where to set the health check for that capsule type.
 
 ## Health check settings
 
@@ -138,7 +138,7 @@ If the database had stayed down for 5 minutes, the replica would have been resta
 
 ### Deployments
 
-How deployments use the health check depends on the [deployment strategy](/products/docker-capsule/deployments/#deployment-strategy):
+How deployments use the health check depends on the [deployment strategy](/how-to/docker-capsule/deployments/#deployment-strategy):
 
 | Strategy                     | What happens during a deployment                                                                                                                       |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -193,7 +193,7 @@ A timeout of 15 seconds also makes the checks run every 15 seconds, so the repli
 ## Write a good health check endpoint
 
 - **Respond quickly.** Return a response well within the timeout. A slow endpoint fails checks even when your application is working.
-- **Keep it public.** Code Capsules sends the check directly to each replica, so [HTTP Basic authentication](/platform/security/basic-auth/) on your domains does not apply. Authentication in your own application does, so leave the endpoint unauthenticated.
+- **Keep it public.** Code Capsules sends the check directly to each replica, so [HTTP Basic authentication](/how-to/platform/security/basic-auth/) on your domains does not apply. Authentication in your own application does, so leave the endpoint unauthenticated.
 - **Accept any host name.** The check is sent to the replica's internal address, not your domain. Frameworks that only accept known host names, such as Django with `ALLOWED_HOSTS`, can reject it with a `400`.
 - **Check only what your application needs to serve requests.** If the endpoint also fails when a database is unreachable, every replica stops getting traffic until the database is back. That is the right choice only if your application cannot serve anything without it.
 

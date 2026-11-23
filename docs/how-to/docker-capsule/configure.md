@@ -8,9 +8,9 @@ sidebar_label: "Configure"
 
 # Configure Your Docker Container
 
-Configure a Docker Capsule in the **Config** tab. Settings here control how your capsule is built, how traffic reaches your application, and how the capsule connects to other services in your Space. Most settings apply to every Docker Capsule. Settings marked **Git deployments only** apply only to capsules [deployed from Git](/products/docker-capsule/git/deploy/).
+Configure a Docker Capsule in the **Config** tab. Settings here control how your capsule is built, how traffic reaches your application, and how the capsule connects to other services in your Space. Most settings apply to every Docker Capsule. Settings marked **Git deployments only** apply only to capsules [deployed from Git](/how-to/docker-capsule/git/deploy/).
 
-The capsule source and deployment strategy are managed in the **Deploy** tab — see [Deployments](/products/docker-capsule/deployments/).
+The capsule source and deployment strategy are managed in the **Deploy** tab — see [Deployments](/how-to/docker-capsule/deployments/).
 
 ## Capsule parameters
 
@@ -39,7 +39,7 @@ When you save a change in **Build**, Code Capsules rebuilds your code with the n
 
 :::
 
-Build settings are only shown for capsules [deployed from Git](/products/docker-capsule/git/deploy/). Capsules [deployed from an existing image](/products/docker-capsule/image/deploy/) are not built by Code Capsules.
+Build settings are only shown for capsules [deployed from Git](/how-to/docker-capsule/git/deploy/). Capsules [deployed from an existing image](/how-to/docker-capsule/image/deploy/) are not built by Code Capsules.
 
 #### Docker File
 
@@ -69,7 +69,7 @@ For monorepos, point the build context at the service directory and set the Dock
 
 :::warning[Changing runtime settings redeploys the capsule]
 
-When you save a change in **Runtime**, Code Capsules redeploys the capsule with the new settings, replacing its running replicas using your [deployment strategy](/products/docker-capsule/deployments/#deployment-strategy). It does not start a new build.
+When you save a change in **Runtime**, Code Capsules redeploys the capsule with the new settings, replacing its running replicas using your [deployment strategy](/how-to/docker-capsule/deployments/#deployment-strategy). It does not start a new build.
 
 :::
 
@@ -77,7 +77,7 @@ When you save a change in **Runtime**, Code Capsules redeploys the capsule with 
 
 The **Network Port** is the port your application listens on. Code Capsules routes HTTPS traffic to this port and configures ingress accordingly. The default is `3000`.
 
-Your application must listen on this port when the capsule runs. If you deploy an image that always listens on a fixed port, set the network port to match — see [Images that use a fixed port](/products/docker-capsule/container-requirements/#images-that-use-a-fixed-port). Code Capsules also injects a `PORT` environment variable set to this value, so your app can read the port at runtime. See [Container requirements](/products/docker-capsule/container-requirements/#use-the-port-environment-variable) for how to use `PORT` in your application.
+Your application must listen on this port when the capsule runs. If you deploy an image that always listens on a fixed port, set the network port to match — see [Images that use a fixed port](/reference/docker-capsule/container-requirements/#images-that-use-a-fixed-port). Code Capsules also injects a `PORT` environment variable set to this value, so your app can read the port at runtime. See [Container requirements](/reference/docker-capsule/container-requirements/#use-the-port-environment-variable) for how to use `PORT` in your application.
 
 #### Health check
 
@@ -88,7 +88,7 @@ A health check tells Code Capsules when your application is ready for traffic, a
 3. Enter the **Endpoint** your application responds to, for example `/health`. With **Manual**, also set **Timeout (seconds)** and **Time to First Check (seconds)**.
 4. Click **Save**, then confirm.
 
-See [Health checks](/platform/capsules/health-checks/) for each setting, how failing replicas are handled, and how to write a good endpoint.
+See [Health checks](/how-to/platform/capsules/health-checks/) for each setting, how failing replicas are handled, and how to write a good endpoint.
 
 ## Environment variables
 
@@ -114,7 +114,7 @@ To view sensitive values, click **show** in the top-right corner of the variable
 
 ### Database Capsule
 
-See the [Database Capsule](/products/database-capsule/) documentation for creating and managing database instances.
+See the [Database Capsule](/how-to/database-capsule/) documentation for creating and managing database instances.
 
 In the **Data capsules** section of the **Config** tab, click **View** next to a Database Capsule to see its connection details.
 
@@ -124,7 +124,7 @@ Click **+** next to the connection string to create a `DATABASE_URL` environment
 
 ### Storage Capsule
 
-A [Storage Capsule](/products/storage-capsule/deploy/) provides persistent file storage that survives capsule restarts and redeploys.
+A [Storage Capsule](/how-to/storage-capsule/deploy/) provides persistent file storage that survives capsule restarts and redeploys.
 
 In the **Data capsules** section, click **Bind** next to your Storage Capsule. Both capsules must be running to bind.
 

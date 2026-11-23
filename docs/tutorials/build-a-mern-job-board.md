@@ -15,11 +15,11 @@ In this tutorial, we’ll extend a boilerplate MERN application to make a job bo
 
 ### Getting Started
 
-Head over to the [MERN stack deployment guide](/full-stack/mern-stack/) and follow the steps outlined there to set up the boilerplate application. You will need to clone the forked repository to your local development environment to extend the functionality of the boilerplate application.
+Head over to the [MERN stack deployment guide](/how-to/full-stack/mern-stack/) and follow the steps outlined there to set up the boilerplate application. You will need to clone the forked repository to your local development environment to extend the functionality of the boilerplate application.
 
 Before we can view the application’s frontend, we need to install the `node_modules` for the backend and set a local `DATABASE_URL` environment variable similar to the one on Code Capsules.
 
-Navigate to the project’s root folder in a terminal or command prompt window and run `npm install` there. Reference this [MongoDB setup guide](/database/mongodb/) to copy the **Public Connection String** from your MongoDB Capsule **Details** tab.
+Navigate to the project’s root folder in a terminal or command prompt window and run `npm install` there. Reference this [MongoDB setup guide](/how-to/database/mongodb/) to copy the **Public Connection String** from your MongoDB Capsule **Details** tab.
 
 Set the local `DATABASE_URL` environment variable by following the steps below:
 

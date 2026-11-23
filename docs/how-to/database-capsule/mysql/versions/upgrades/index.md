@@ -10,6 +10,6 @@ sidebar_label: "Upgrades"
 
 Major version upgrades must be done one step at a time. Select the guide that matches your current and target versions:
 
-- [5.7 to 8.0](/products/database-capsule/mysql/versions/upgrades/5-7-to-8-0/) — upgrade from MySQL 5.7 to 8.0
+- [5.7 to 8.0](/how-to/database-capsule/mysql/versions/upgrades/5-7-to-8-0/) — upgrade from MySQL 5.7 to 8.0
 
-See [MySQL Versions](/products/database-capsule/mysql/versions/) for supported versions and general upgrade requirements.
+See [MySQL Versions](/reference/database-capsule/mysql/versions/) for supported versions and general upgrade requirements.

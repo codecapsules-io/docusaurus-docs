@@ -12,13 +12,13 @@ Frontend Capsules host static websites over HTTPS. You can deploy a plain HTML, 
 
 :::info
 
-**Static HTML sites.** If your repository already contains the files you want to serve — for example, `index.html`, CSS, and images — you do not need Node.js, `package.json`, or a version pin. Leave the **Build Command** empty and keep **Project Path** at `/` if your files are in the repository root. See the [Static HTML](/frontend/static-html/) guide and [Configure](/products/frontend-capsule/configure/) for capsule settings.
+**Static HTML sites.** If your repository already contains the files you want to serve — for example, `index.html`, CSS, and images — you do not need Node.js, `package.json`, or a version pin. Leave the **Build Command** empty and keep **Project Path** at `/` if your files are in the repository root. See the [Static HTML](/how-to/frontend/static-html/) guide and [Configure](/how-to/frontend-capsule/configure/) for capsule settings.
 
 :::
 
 :::info
 
-Frontend Capsules serve **static files** over HTTPS. They do not run a persistent application server. Frameworks that need server-side rendering or a Node.js process at runtime — such as Next.js with a server or Nuxt with Nitro — should be deployed as a [Backend Capsule](/products/backend-capsule/supported-runtimes/#server-side-javascript-frameworks) instead.
+Frontend Capsules serve **static files** over HTTPS. They do not run a persistent application server. Frameworks that need server-side rendering or a Node.js process at runtime — such as Next.js with a server or Nuxt with Nitro — should be deployed as a [Backend Capsule](/reference/backend-capsule/supported-runtimes/#server-side-javascript-frameworks) instead.
 
 :::
 
@@ -52,7 +52,7 @@ You can pin any exact Node.js release published on nodejs.org (for example, `v18
 
 :::info
 
-If your application requires a runtime or build toolchain not listed above, deploy with a [Docker Capsule](/products/docker-capsule/) and your own `Dockerfile`.
+If your application requires a runtime or build toolchain not listed above, deploy with a [Docker Capsule](/how-to/docker-capsule/) and your own `Dockerfile`.
 
 :::
 
@@ -105,18 +105,18 @@ Frontend Capsules work with plain static HTML sites or any npm-based toolchain t
 
 | Framework                    | Build command   | Output directory      | Guide                                 |
 | ---------------------------- | --------------- | --------------------- | ------------------------------------- |
-| **React** (Create React App) | `npm run build` | `build`               | [React](/frontend/react/)             |
-| **React** (Vite)             | `npm run build` | `dist`                | [React](/frontend/react/)             |
-| **Angular**                  | `npm run build` | `dist/<project-name>` | [Angular](/frontend/angular/)         |
-| **Vue** (Vite / Vue CLI)     | `npm run build` | `dist`                | [Vue](/frontend/vue/)                 |
-| **Svelte**                   | `npm run build` | `public`              | [Svelte](/frontend/svelte/)           |
-| **Static HTML**              | —               | `/` (repository root) | [Static HTML](/frontend/static-html/) |
+| **React** (Create React App) | `npm run build` | `build`               | [React](/how-to/frontend/react/)             |
+| **React** (Vite)             | `npm run build` | `dist`                | [React](/how-to/frontend/react/)             |
+| **Angular**                  | `npm run build` | `dist/<project-name>` | [Angular](/how-to/frontend/angular/)         |
+| **Vue** (Vite / Vue CLI)     | `npm run build` | `dist`                | [Vue](/how-to/frontend/vue/)                 |
+| **Svelte**                   | `npm run build` | `public`              | [Svelte](/how-to/frontend/svelte/)           |
+| **Static HTML**              | —               | `/` (repository root) | [Static HTML](/how-to/frontend/static-html/) |
 | **Astro** (static output)    | `npm run build` | `dist`                | —                                     |
 | **Gatsby**                   | `npm run build` | `public`              | —                                     |
 
 Framework **versions** are not pinned by the platform. They come from your `package.json` dependencies and lock file.
 
-If your framework is not listed, any build that outputs static HTML, CSS, and JavaScript into a folder will work — set the **Build Command** and **Build Output Directory** in the [Config](/products/frontend-capsule/configure/) tab to match your project.
+If your framework is not listed, any build that outputs static HTML, CSS, and JavaScript into a folder will work — set the **Build Command** and **Build Output Directory** in the [Config](/how-to/frontend-capsule/configure/) tab to match your project.
 
 ## Package managers
 
@@ -126,14 +126,14 @@ Code Capsules uses **npm** for Frontend Capsule builds. Include a `package-lock.
 
 | Use case                                               | Recommended approach                                                                 |
 | ------------------------------------------------------ | ------------------------------------------------------------------------------------ |
-| Next.js with server / SSR                              | [Backend Capsule](/frontend/next.js/)                                                |
-| Nuxt with Nitro server                                 | [Backend Capsule](/tutorials/nuxt3-and-nitro/)                                       |
-| Custom web server (Express, Fastify, etc.)             | [Backend Capsule](/products/backend-capsule/)                                        |
-| Non-Node build tools only (no `package.json`)          | [Static HTML](/frontend/static-html/) or [Docker Capsule](/products/docker-capsule/) |
-| PHP, Python, or other non-JavaScript static generators | [Docker Capsule](/products/docker-capsule/)                                          |
+| Next.js with server / SSR                              | [Backend Capsule](/how-to/frontend/next.js/)                                                |
+| Nuxt with Nitro server                                 | [Backend Capsule](/how-to/guides/nuxt3-and-nitro/)                                       |
+| Custom web server (Express, Fastify, etc.)             | [Backend Capsule](/how-to/backend-capsule/)                                        |
+| Non-Node build tools only (no `package.json`)          | [Static HTML](/how-to/frontend/static-html/) or [Docker Capsule](/how-to/docker-capsule/) |
+| PHP, Python, or other non-JavaScript static generators | [Docker Capsule](/how-to/docker-capsule/)                                          |
 
 ## Related
 
-- [Build and Deploy](/products/frontend-capsule/deploy/) — framework deployment guides
-- [Configure](/products/frontend-capsule/configure/) — build command, output path, and environment variables
-- [Custom Domains](/products/frontend-capsule/custom-domains/) — attach your own domain
+- [Build and Deploy](/how-to/frontend-capsule/deploy/) — framework deployment guides
+- [Configure](/how-to/frontend-capsule/configure/) — build command, output path, and environment variables
+- [Custom Domains](/how-to/frontend-capsule/custom-domains/) — attach your own domain

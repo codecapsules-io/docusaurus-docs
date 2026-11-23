@@ -26,7 +26,7 @@ To remove a Team, go to the **Details** tab in the Team dashboard and select **R
 
 :::warning
 
-You'll need to [remove all Spaces](/platform/spaces/how-do-i-add-remove-a-space/) from the Team before it can be deleted.
+You'll need to [remove all Spaces](/how-to/platform/spaces/how-do-i-add-remove-a-space/) from the Team before it can be deleted.
 
 :::
 

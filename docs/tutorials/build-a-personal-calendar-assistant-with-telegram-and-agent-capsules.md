@@ -44,7 +44,7 @@ The agents in this tutorial need a vector database. For simplicity, we use a Red
 
 **Note:** This setup is not recommended for production. Redis is designed for temporary information and caching. For production deployments, consider dedicated vector databases like [Pinecone](https://www.pinecone.io/), [Weaviate](https://weaviate.io/), or [Qdrant](https://qdrant.tech/).
 
-Follow the existing [guide to creating a Redis Capsule](/database/redis/).
+Follow the existing [guide to creating a Redis Capsule](/how-to/database/redis/).
 
 Once you've created the Redis Capsule, copy the connection string from the **Capsule Details** page.
 
@@ -61,7 +61,7 @@ Then, deploy the Agent Capsule:
 3. Connect your GitHub account and select the repository you just created.
 4. Click **Create Capsule**.
 
-For more detailed instructions, see the [Agent Capsule deployment guide](/products/agent-capsule/deploy/).
+For more detailed instructions, see the [Agent Capsule deployment guide](/how-to/agent-capsule/deploy/).
 
 #### Create a Telegram Bot
 
@@ -170,4 +170,4 @@ This same pattern can enable you to build interesting integrations like:
 
 The Agent Capsule architecture makes it easy to add new tools and capabilities without managing infrastructure. You can extend your bot by creating new tools that call external APIs, process data, and integrate with other services.
 
-If you're interested in learning more about building with Agent Capsules, check out the [Code Capsules documentation](/products/agent-capsule/deploy/).
+If you're interested in learning more about building with Agent Capsules, check out the [Code Capsules documentation](/how-to/agent-capsule/deploy/).

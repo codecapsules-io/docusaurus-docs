@@ -27,7 +27,7 @@ Click **show** in the **Connection Details** section to view database credential
 
 ## Connect from Your Local Machine
 
-Redis Capsules are not publicly accessible. To connect from your laptop—for example, to inspect keys or run Redis commands—open a secure tunnel with the Code Capsules CLI and connect with `redis-cli`. See [Connect Locally](/products/database-capsule/redis/connect-locally/) for the full workflow, client installation, and examples.
+Redis Capsules are not publicly accessible. To connect from your laptop—for example, to inspect keys or run Redis commands—open a secure tunnel with the Code Capsules CLI and connect with `redis-cli`. See [Connect Locally](/how-to/database-capsule/redis/connect-locally/) for the full workflow, client installation, and examples.
 
 ## Edit Capsule Name
 

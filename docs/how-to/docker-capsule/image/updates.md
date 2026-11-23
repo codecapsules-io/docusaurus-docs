@@ -8,9 +8,9 @@ sidebar_label: "Image Updates"
 
 # Keep Your Container Image Up to Date
 
-When your Docker Capsule is [deployed from an existing image](/products/docker-capsule/image/deploy/), Code Capsules pulls your image and runs it. There is no Dockerfile build on Code Capsules. This page covers how image deploys work and how to deploy a new version.
+When your Docker Capsule is [deployed from an existing image](/how-to/docker-capsule/image/deploy/), Code Capsules pulls your image and runs it. There is no Dockerfile build on Code Capsules. This page covers how image deploys work and how to deploy a new version.
 
-For deploy history, logs, and rollback, see [Deployments](/products/docker-capsule/deployments/).
+For deploy history, logs, and rollback, see [Deployments](/how-to/docker-capsule/deployments/).
 
 ## How image deploys work
 
@@ -67,4 +67,4 @@ Saving a different image starts a new deploy. To build from a Git repository ins
 - If you reference an image by digest, the same version is deployed each time. Change the image reference to deploy a different version.
 - Check that your new image was pushed to the same tag your capsule references.
 
-If the image deploys but your application does not respond, see [Logs](/products/docker-capsule/logs/) and [Container requirements](/products/docker-capsule/container-requirements/).
+If the image deploys but your application does not respond, see [Logs](/how-to/docker-capsule/logs/) and [Container requirements](/reference/docker-capsule/container-requirements/).

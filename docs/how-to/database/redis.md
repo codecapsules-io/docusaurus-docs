@@ -62,4 +62,4 @@ connection.connect();
 connection.quit();
 ```
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/database/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/database/).

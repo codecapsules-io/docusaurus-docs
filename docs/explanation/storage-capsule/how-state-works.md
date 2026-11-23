@@ -14,4 +14,4 @@ A Capsule can be thought of as a computational process that can be started and r
 
 Instead, to have the data persist, we recommend using an external database.
 
-Take a look at our guide to [setting up file persistence with a Data Capsule](/products/storage-capsule/deploy/) for more information.
+Take a look at our guide to [setting up file persistence with a Data Capsule](/how-to/storage-capsule/deploy/) for more information.

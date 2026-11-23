@@ -76,7 +76,7 @@ const sb = await Sandbox.create(
 
 ## SDK reference
 
-- [API Reference](/sandbox/typescript/api-reference/): `Sandbox` class, all methods, types, and error classes
+- [API Reference](/reference/sandbox/typescript/api-reference/): `Sandbox` class, all methods, types, and error classes
 
 ## Links
 

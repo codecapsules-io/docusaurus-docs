@@ -12,7 +12,7 @@ DocumentDB Capsules are configured from the **Details** tab. There is no **Confi
 
 :::info
 
-For new projects, Code Capsules recommends a [MongoDB Capsule](/products/database-capsule/mongodb/configure/) instead. MongoDB Capsules support additional configuration such as version selection on Dedicated clusters.
+For new projects, Code Capsules recommends a [MongoDB Capsule](/how-to/database-capsule/mongodb/configure/) instead. MongoDB Capsules support additional configuration such as version selection on Dedicated clusters.
 
 :::
 
@@ -41,7 +41,7 @@ Use the copy icon next to any value to copy it to your clipboard.
 
 ## Connect from your local machine
 
-DocumentDB Capsules are not publicly accessible. To connect from your laptop—for example, to run queries or check your server version—open a secure tunnel with the Code Capsules CLI and connect with `mongosh`. See [Connect Locally](/products/database-capsule/documentdb/connect-locally/) for the full workflow, client installation, and examples.
+DocumentDB Capsules are not publicly accessible. To connect from your laptop—for example, to run queries or check your server version—open a secure tunnel with the Code Capsules CLI and connect with `mongosh`. See [Connect Locally](/how-to/database-capsule/documentdb/connect-locally/) for the full workflow, client installation, and examples.
 
 ## Edit capsule name
 

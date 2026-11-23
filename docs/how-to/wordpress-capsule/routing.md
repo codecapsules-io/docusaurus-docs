@@ -75,7 +75,7 @@ XML and text files (`sitemap.xml`, `robots.txt`) are served with a 1-hour cache 
 
 ## Domain and Subdomain Routing
 
-WordPress Capsules support custom domains and subdomains. To configure a custom domain, see [How to Add a Custom Domain](/platform/capsules/how-to-add-a-custom-domain/).
+WordPress Capsules support custom domains and subdomains. To configure a custom domain, see [How to Add a Custom Domain](/how-to/platform/capsules/how-to-add-a-custom-domain/).
 
 WordPress must be told its own URL. This is configured automatically via the `APP_URL` environment variable, which is injected by the platform. You can verify the current value in the **Config** tab.
 
@@ -214,4 +214,4 @@ WordPress admin routes (`/wp-admin/`, `/wp-login.php`) are handled separately:
 - Rate limiting is applied at the stricter `protected_routes` level (30 req/min).
 - Admin PHP files are passed directly to PHP-FPM with no cache layer.
 
-See [Security](/products/wordpress-capsule/security/) for configuring IP restrictions on wp-admin.
+See [Security](/how-to/wordpress-capsule/security/) for configuring IP restrictions on wp-admin.

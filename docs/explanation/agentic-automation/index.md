@@ -62,10 +62,10 @@ Keeping agent logic in git and deploying through a standard CI/CD pipeline is th
 
 | Section | What you will learn |
 |---|---|
-| [The Problem](./the-problem) | Why existing automation approaches break as complexity grows |
-| [The Framework](./the-framework) | The orchestrator + agent architecture and how the pieces fit together |
-| [Designing Agents](./designing-agents) | How to think about agent boundaries, model selection, and the microservice philosophy |
-| [Deployment](./deployment) | Git-based deployment with Code Capsules — from a new agent to a running capsule |
+| [The Problem](/explanation/agentic-automation/the-problem) | Why existing automation approaches break as complexity grows |
+| [The Framework](/explanation/agentic-automation/the-framework) | The orchestrator + agent architecture and how the pieces fit together |
+| [Designing Agents](/explanation/agentic-automation/designing-agents) | How to think about agent boundaries, model selection, and the microservice philosophy |
+| [Deployment](/how-to/agentic-automation/deployment) | Git-based deployment with Code Capsules — from a new agent to a running capsule |
 
 ---
 

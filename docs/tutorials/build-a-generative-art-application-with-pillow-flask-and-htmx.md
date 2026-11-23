@@ -388,7 +388,7 @@ Your remote repository will now be up-to-date with your local one.
 
 ### Deploy to Code Capsules
 
-The final step is to deploy our app. Log into your Code Capsules account and link your remote GitHub repository to Code Capsules. Create a Backend Capsule and deploy the app there. You can follow this [deployment guide](/backend/python/flask/) to see how to do this in greater detail.
+The final step is to deploy our app. Log into your Code Capsules account and link your remote GitHub repository to Code Capsules. Create a Backend Capsule and deploy the app there. You can follow this [deployment guide](/how-to/backend/python/flask/) to see how to do this in greater detail.
 
 That’s it! Your “Generate Art” app should be live and fully functional now.
 

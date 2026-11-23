@@ -23,4 +23,4 @@ For example, to connect to GitHub, select your GitHub username and set the follo
 
 ![Install & authorize github](/gitbook-assets/platform/github-integration.png)
 
-Once version control is connected, you can [share repos with your Teams](/platform/teams/share-a-repo-with-a-team/).
+Once version control is connected, you can [share repos with your Teams](/how-to/platform/teams/share-a-repo-with-a-team/).

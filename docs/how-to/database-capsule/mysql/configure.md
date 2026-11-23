@@ -27,7 +27,7 @@ Click **show** in the **Connection Details** section to view database credential
 
 ## Connect from Your Local Machine
 
-MySQL Capsules are not publicly accessible. To connect from your laptop—for example, to run SQL or check your server version—open a secure tunnel with the Code Capsules CLI and connect with the `mysql` client. See [Connect Locally](/products/database-capsule/mysql/connect-locally/) for the full workflow, client installation, and examples.
+MySQL Capsules are not publicly accessible. To connect from your laptop—for example, to run SQL or check your server version—open a secure tunnel with the Code Capsules CLI and connect with the `mysql` client. See [Connect Locally](/how-to/database-capsule/mysql/connect-locally/) for the full workflow, client installation, and examples.
 
 ## Edit Capsule Name
 
@@ -61,4 +61,4 @@ In the **MySQL Configuration** section, you can select the MySQL server version 
 
 Supported major versions are **5.7** and **8.0**. Major version upgrades must be done one step at a time (for example, 5.7 to 8.0).
 
-See [MySQL Versions](/products/database-capsule/mysql/versions/) for supported versions and upgrade paths.
+See [MySQL Versions](/reference/database-capsule/mysql/versions/) for supported versions and upgrade paths.

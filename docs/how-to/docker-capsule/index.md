@@ -24,7 +24,7 @@ A Docker Capsule is a good fit when:
 
 You can deploy a Docker Capsule in one of two ways:
 
-|                   | [From Git](/products/docker-capsule/git/deploy/) | [From an existing image](/products/docker-capsule/image/deploy/) |
+|                   | [From Git](/how-to/docker-capsule/git/deploy/) | [From an existing image](/how-to/docker-capsule/image/deploy/) |
 | ----------------- | ------------------------------------------------ | ---------------------------------------------------------------- |
 | **You provide**   | A Git repository with a `Dockerfile`             | A public container image                                         |
 | **Who builds it** | Code Capsules builds the image                   | You build and publish the image                                  |
@@ -40,26 +40,26 @@ You can't switch between the two after the capsule is created. To use the other 
 
 ## Documentation
 
-- [Container requirements](/products/docker-capsule/container-requirements/) — what every container needs to run on Code Capsules
+- [Container requirements](/reference/docker-capsule/container-requirements/) — what every container needs to run on Code Capsules
 - **From Git**
-  - [Deploy](/products/docker-capsule/git/deploy/) — prepare a Dockerfile and create a capsule from your Git repository
-  - [Builds & Auto-deploy](/products/docker-capsule/git/builds/) — trigger builds, auto-deploy on push, and set the Dockerfile path and build context
+  - [Deploy](/how-to/docker-capsule/git/deploy/) — prepare a Dockerfile and create a capsule from your Git repository
+  - [Builds & Auto-deploy](/how-to/docker-capsule/git/builds/) — trigger builds, auto-deploy on push, and set the Dockerfile path and build context
 - **From an existing image**
-  - [Deploy](/products/docker-capsule/image/deploy/) — create a capsule from a public container image
-  - [Image Updates](/products/docker-capsule/image/updates/) — deploy a newer version of your image or change the image
-- [Deployments](/products/docker-capsule/deployments/) — change the source, set the deployment strategy, view build logs, and roll back
-- [Configure](/products/docker-capsule/configure/) — network port, environment variables, data capsules, and (for Git deployments) the Dockerfile path and build context
-- [Scale](/products/docker-capsule/scale/) — allocate CPU, memory, and replicas as traffic grows
-- [Monitor](/products/docker-capsule/monitor/) — view metrics and performance data
-- [Logs](/products/docker-capsule/logs/) — view runtime and access logs
-- [Notifications](/products/alerting/) — set up notifications for capsule events
+  - [Deploy](/how-to/docker-capsule/image/deploy/) — create a capsule from a public container image
+  - [Image Updates](/how-to/docker-capsule/image/updates/) — deploy a newer version of your image or change the image
+- [Deployments](/how-to/docker-capsule/deployments/) — change the source, set the deployment strategy, view build logs, and roll back
+- [Configure](/how-to/docker-capsule/configure/) — network port, environment variables, data capsules, and (for Git deployments) the Dockerfile path and build context
+- [Scale](/how-to/docker-capsule/scale/) — allocate CPU, memory, and replicas as traffic grows
+- [Monitor](/how-to/docker-capsule/monitor/) — view metrics and performance data
+- [Logs](/how-to/docker-capsule/logs/) — view runtime and access logs
+- [Notifications](/how-to/alerting/) — set up notifications for capsule events
 
 ## Guides
 
 Step-by-step tutorials for deploying Docker Capsules from Git:
 
-- [Flask Docker App](/backend/docker/flask-docker-app/)
-- [Docker PHP App](/backend/docker/docker-php-app/)
-- [Docker Laravel App](/backend/docker/docker-laravel-app/)
-- [Caddy Docker Site](/backend/docker/caddy-docker-site/)
-- [All Docker deployment guides](/backend/docker/)
+- [Flask Docker App](/how-to/backend/docker/flask-docker-app/)
+- [Docker PHP App](/how-to/backend/docker/docker-php-app/)
+- [Docker Laravel App](/how-to/backend/docker/docker-laravel-app/)
+- [Caddy Docker Site](/how-to/backend/docker/caddy-docker-site/)
+- [All Docker deployment guides](/how-to/backend/docker/)

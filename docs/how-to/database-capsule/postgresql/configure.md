@@ -27,7 +27,7 @@ Click **show** in the **Connection Details** section to view database credential
 
 ## Connect from Your Local Machine
 
-PostgreSQL Capsules are not publicly accessible. To connect from your laptop—for example, to run SQL or restore a backup—open a secure tunnel with the Code Capsules CLI and connect with `psql` or other PostgreSQL client tools. See [Connect Locally](/products/database-capsule/postgresql/connect-locally/) for the full workflow, client installation, and examples.
+PostgreSQL Capsules are not publicly accessible. To connect from your laptop—for example, to run SQL or restore a backup—open a secure tunnel with the Code Capsules CLI and connect with `psql` or other PostgreSQL client tools. See [Connect Locally](/how-to/database-capsule/postgresql/connect-locally/) for the full workflow, client installation, and examples.
 
 ## Edit Capsule Name
 

@@ -19,7 +19,7 @@ Sign in to GitHub, and fork the example application by clicking **Fork** at the 
 
 ## Create the Capsules
 
-A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
+A [Capsule](/explanation/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 Navigate to the Spaces tab and open the Space you'll be using.
 
@@ -65,4 +65,4 @@ After restarting the capsule, the application will now be ready to be viewed. Cl
 
 ![Deployed App](/gitbook-assets/get-started/flask-mysql-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/database/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/database/).

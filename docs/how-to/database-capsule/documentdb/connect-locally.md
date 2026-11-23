@@ -8,11 +8,11 @@ sidebar_label: "Connect Locally"
 
 # Connect to Your DocumentDB Database From Your Machine
 
-DocumentDB Capsules are private to your Space and require TLS. To run queries, inspect collections, or check your server version from your laptop, open a secure tunnel with the [Code Capsules CLI](/cli/) and connect with `mongosh`.
+DocumentDB Capsules are private to your Space and require TLS. To run queries, inspect collections, or check your server version from your laptop, open a secure tunnel with the [Code Capsules CLI](/reference/cli/) and connect with `mongosh`.
 
 :::info
 
-For new projects, Code Capsules recommends a [MongoDB Capsule](/products/database-capsule/mongodb/configure/) instead. MongoDB Capsules run on MongoDB Atlas and provide a public `mongodb+srv://` connection string for local access without a proxy.
+For new projects, Code Capsules recommends a [MongoDB Capsule](/how-to/database-capsule/mongodb/configure/) instead. MongoDB Capsules run on MongoDB Atlas and provide a public `mongodb+srv://` connection string for local access without a proxy.
 
 :::
 
@@ -26,7 +26,7 @@ Use a local connection when you need to:
 
 ## Prerequisites
 
-1. Install and log in to the [Code Capsules CLI](/cli/readme/getting-started/installation-and-usage/) (`codecaps login`).
+1. Install and log in to the [Code Capsules CLI](/how-to/cli/readme/getting-started/installation-and-usage/) (`codecaps login`).
 2. Install `mongosh` on your machine (see [Install mongosh](#install-mongosh) below).
 
 ## Open a Proxy Tunnel
@@ -40,7 +40,7 @@ codecaps proxy capsule -s <space-slug> -c <capsule-id> -P 27017
 
 3. Leave this terminal open. The tunnel stays active until you stop the process.
 
-See the [proxy command reference](/cli/readme/commands/proxy/) for full options.
+See the [proxy command reference](/reference/cli/readme/commands/proxy/) for full options.
 
 ## Get Credentials
 

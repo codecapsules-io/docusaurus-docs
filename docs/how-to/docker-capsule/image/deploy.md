@@ -10,7 +10,7 @@ sidebar_label: "Deploy"
 
 Deploy an existing image when you already build and publish your application as a container image. Code Capsules pulls the image and runs it. There is no Dockerfile build on Code Capsules.
 
-To have Code Capsules build your image from a Dockerfile instead, see [Deploy from Git](/products/docker-capsule/git/deploy/).
+To have Code Capsules build your image from a Dockerfile instead, see [Deploy from Git](/how-to/docker-capsule/git/deploy/).
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ Before creating a capsule, make sure you have:
 - A [Code Capsules](https://www.codecapsules.io/) account with a Team and Space
 - A public container image, for example on Docker Hub or GitHub Container Registry
 
-Your image must meet the [container requirements](/products/docker-capsule/container-requirements/): it must listen on the capsule's network port, bind to `0.0.0.0`, and start your application.
+Your image must meet the [container requirements](/reference/docker-capsule/container-requirements/): it must listen on the capsule's network port, bind to `0.0.0.0`, and start your application.
 
 ## Image references
 
@@ -65,19 +65,19 @@ Follow progress in the **Builds** tab, where each pull appears as an **Image imp
 
 :::tip
 
-Capsules listen on port `3000` by default. If your image serves on a different port, change the [network port](/products/docker-capsule/configure/#network-port) in the **Config** tab.
+Capsules listen on port `3000` by default. If your image serves on a different port, change the [network port](/how-to/docker-capsule/configure/#network-port) in the **Config** tab.
 
 :::
 
 ## Verify your capsule
 
 1. Open the **Details** tab and click the capsule URL.
-2. If the page does not load, check that the [network port](/products/docker-capsule/configure/#network-port) matches the port your image serves on.
-3. If the deploy fails, see [Image deploy fails](/products/docker-capsule/image/updates/#image-deploy-fails).
+2. If the page does not load, check that the [network port](/how-to/docker-capsule/configure/#network-port) matches the port your image serves on.
+3. If the deploy fails, see [Image deploy fails](/how-to/docker-capsule/image/updates/#image-deploy-fails).
 
 ## Next steps
 
 After the first deploy, manage which version of your image is running:
 
-- [Image Updates](/products/docker-capsule/image/updates/) — deploy a newer version of your tag, change the image, and fix failed image deploys
-- [Deployments](/products/docker-capsule/deployments/) — deployment strategy, deploy history, and rollback
+- [Image Updates](/how-to/docker-capsule/image/updates/) — deploy a newer version of your tag, change the image, and fix failed image deploys
+- [Deployments](/how-to/docker-capsule/deployments/) — deployment strategy, deploy history, and rollback

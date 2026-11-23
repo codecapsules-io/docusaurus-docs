@@ -29,6 +29,11 @@ test('rewrites JSX/HTML href, to and src attributes', () => {
   assert.equal(rw('<a className="card" href="/frontend/react">x</a>').text, '<a className="card" href="/how-to/frontend/react">x</a>');
 });
 
+test('rewrites object-property links in TS/JS (href: "/x")', () => {
+  assert.equal(rw("{ label: 'R', href: '/frontend/react/' },").text, "{ label: 'R', href: '/how-to/frontend/react/' },");
+  assert.equal(rw('{to: "/products/alerting"}').text, '{to: "/how-to/alerting"}');
+});
+
 test('leaves external links, anchors, assets and release notes alone', () => {
   const t = '[a](https://example.com/frontend/react) [b](#top) ![c](/gitbook-assets/a.png) [d](/release-notes/) [e](mailto:x@y.z)';
   const r = rw(t);

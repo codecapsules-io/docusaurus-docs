@@ -9,7 +9,7 @@ sidebar_label: "Next.js"
 # Host Your Next.js App in Minutes
 
 :::info[Static export or server rendering]
-A Next.js **static export** (`output: 'export'`, built with `next build` into the `out` folder) deploys on a [static Frontend Capsule](/products/frontend-capsule/static/deploy/), which is free for up to five sites. A **server-rendered** Next.js app needs a running server and deploys on a Backend Capsule, which is the setup this guide walks through.
+A Next.js **static export** (`output: 'export'`, built with `next build` into the `out` folder) deploys on a [static Frontend Capsule](/how-to/frontend-capsule/static/deploy/), which is free for up to five sites. A **server-rendered** Next.js app needs a running server and deploys on a Backend Capsule, which is the setup this guide walks through.
 :::
 
 Deploy a Next application and learn how to host backend code on Code Capsules.
@@ -37,7 +37,7 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
+A [Capsule](/explanation/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 To create a new Capsule for your Space, follow the instructions below:
 
@@ -59,4 +59,4 @@ Once the build is complete, a URL link will appear in the URL section in the **D
 
 ![Deployed Application](/gitbook-assets/get-started/next-app.png)
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/frontend/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/frontend/).

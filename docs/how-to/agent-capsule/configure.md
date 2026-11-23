@@ -50,7 +50,7 @@ Use the **Run Command** field to specify how to start your app. Leave this field
 
 :::info
 
-If using a [Code Capsules Agent Template](/products/agent-capsule/templates/), the production ready command is `npm run start:prod` by default.
+If using a [Code Capsules Agent Template](/how-to/agent-capsule/templates/), the production ready command is `npm run start:prod` by default.
 
 :::
 
@@ -75,7 +75,7 @@ A health check tells Code Capsules when your agent is ready for traffic, and res
 3. Enter the **Endpoint** your agent responds to, for example `/health`. With **Manual**, also set **Timeout (seconds)** and **Time to First Check (seconds)**.
 4. Click **Save**, then confirm.
 
-See [Health checks](/platform/capsules/health-checks/) for each setting, how failing replicas are handled, and how to write a good endpoint.
+See [Health checks](/how-to/platform/capsules/health-checks/) for each setting, how failing replicas are handled, and how to write a good endpoint.
 
 ## Set Agent Config
 

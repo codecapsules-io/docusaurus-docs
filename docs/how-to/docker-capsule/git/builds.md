@@ -8,9 +8,9 @@ sidebar_label: "Builds & Auto-deploy"
 
 # Build and Auto-Deploy Your Dockerfile From Git
 
-When your Docker Capsule is [deployed from Git](/products/docker-capsule/git/deploy/), Code Capsules builds a new image from your repository each time a build starts, then deploys it. This page covers how builds are triggered and configured.
+When your Docker Capsule is [deployed from Git](/how-to/docker-capsule/git/deploy/), Code Capsules builds a new image from your repository each time a build starts, then deploys it. This page covers how builds are triggered and configured.
 
-For build history, logs, and rollback, see [Deployments](/products/docker-capsule/deployments/).
+For build history, logs, and rollback, see [Deployments](/how-to/docker-capsule/deployments/).
 
 ## How builds work
 
@@ -56,7 +56,7 @@ To deploy an existing image instead, create a new Docker Capsule with **Containe
 
 ## Dockerfile path and build context
 
-Set the **Docker File** path and **Docker Build Context** in the **Build** part of the **Capsule Parameters** section in the **Config** tab. Changing either one starts a new build. See [Docker File](/products/docker-capsule/configure/#docker-file) and [Docker Build Context](/products/docker-capsule/configure/#docker-build-context) for examples, including monorepo layouts.
+Set the **Docker File** path and **Docker Build Context** in the **Build** part of the **Capsule Parameters** section in the **Config** tab. Changing either one starts a new build. See [Docker File](/how-to/docker-capsule/configure/#docker-file) and [Docker Build Context](/how-to/docker-capsule/configure/#docker-build-context) for examples, including monorepo layouts.
 
 ## Troubleshooting builds
 
@@ -68,12 +68,12 @@ Set the **Docker File** path and **Docker Build Context** in the **Build** part 
 ### Docker build errors
 
 - Read the full build log in the **Builds** tab.
-- Verify the [Docker File](/products/docker-capsule/configure/#docker-file) path and [Docker Build Context](/products/docker-capsule/configure/#docker-build-context) in the **Config** tab.
+- Verify the [Docker File](/how-to/docker-capsule/configure/#docker-file) path and [Docker Build Context](/how-to/docker-capsule/configure/#docker-build-context) in the **Config** tab.
 - Test locally: `docker build -f <dockerfile-path> <context-path>`
 
 ### Missing files in build context
 
-If your Dockerfile references files outside the configured build context, the build fails. Check the [Docker Build Context](/products/docker-capsule/configure/#docker-build-context) in the **Config** tab, or move the files inside the context.
+If your Dockerfile references files outside the configured build context, the build fails. Check the [Docker Build Context](/how-to/docker-capsule/configure/#docker-build-context) in the **Config** tab, or move the files inside the context.
 
 ### Auto-deploy not triggering
 
@@ -81,4 +81,4 @@ If your Dockerfile references files outside the configured build context, the bu
 - Confirm you pushed to the branch linked to the capsule, not a different branch.
 - Check that no other build is already running.
 
-If the build succeeds but your application does not work at runtime, see [Logs](/products/docker-capsule/logs/) and [Container requirements](/products/docker-capsule/container-requirements/).
+If the build succeeds but your application does not work at runtime, see [Logs](/how-to/docker-capsule/logs/) and [Container requirements](/reference/docker-capsule/container-requirements/).

@@ -27,6 +27,6 @@ The right-hand panel shows estimated monthly costs for your selected plan.
 
 :::tip
 
-For managed scaling, version upgrades, and Atlas-backed operations, consider migrating to a [MongoDB Capsule](/products/database-capsule/mongodb/scale/).
+For managed scaling, version upgrades, and Atlas-backed operations, consider migrating to a [MongoDB Capsule](/how-to/database-capsule/mongodb/scale/).
 
 :::

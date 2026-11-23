@@ -8,7 +8,7 @@ sidebar_label: "Connect Locally"
 
 # Connect to Your Redis Database From Your Machine
 
-Redis Capsules are private to your Space and cannot be reached through a public URL. To inspect keys, run commands, or debug cache behaviour from your laptop, open a secure tunnel with the [Code Capsules CLI](/cli/) and connect with `redis-cli`.
+Redis Capsules are private to your Space and cannot be reached through a public URL. To inspect keys, run commands, or debug cache behaviour from your laptop, open a secure tunnel with the [Code Capsules CLI](/reference/cli/) and connect with `redis-cli`.
 
 ## When to Use This
 
@@ -20,7 +20,7 @@ Use a local connection when you need to:
 
 ## Prerequisites
 
-1. Install and log in to the [Code Capsules CLI](/cli/readme/getting-started/installation-and-usage/) (`codecaps login`).
+1. Install and log in to the [Code Capsules CLI](/how-to/cli/readme/getting-started/installation-and-usage/) (`codecaps login`).
 2. Install `redis-cli` on your machine (see [Install redis-cli](#install-redis-cli) below).
 
 ## Open a Proxy Tunnel
@@ -34,7 +34,7 @@ codecaps proxy capsule -s <space-slug> -c <capsule-id> -P 6379
 
 3. Leave this terminal open. The tunnel stays active until you stop the process.
 
-See the [proxy command reference](/cli/readme/commands/proxy/) for full options.
+See the [proxy command reference](/reference/cli/readme/commands/proxy/) for full options.
 
 ## Get Credentials
 

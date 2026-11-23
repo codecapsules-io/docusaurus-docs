@@ -26,7 +26,7 @@ To remove a Space, go to the **Details** tab in the Space dashboard and select *
 
 :::warning
 
-You'll need to [remove all Capsules](/platform/capsules/how-do-i-add-remove-stop-capsules/) from the Space before it can be deleted.
+You'll need to [remove all Capsules](/how-to/platform/capsules/how-do-i-add-remove-stop-capsules/) from the Space before it can be deleted.
 
 :::
 

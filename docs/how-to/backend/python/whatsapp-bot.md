@@ -28,7 +28,7 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
+A [Capsule](/explanation/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 To create a new Capsule for your Space, follow the instructions below:
 
@@ -65,4 +65,4 @@ The Twilio Sandbox provides a development environment to access the WhatsApp API
 
 The bot will now be able to respond to your messages after sending the join code. Try it, and the bot should echo any message you send it.
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/backend/).

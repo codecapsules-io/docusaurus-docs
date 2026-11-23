@@ -32,7 +32,7 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 ## Create the Capsule
 
-A [Capsule](/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
+A [Capsule](/explanation/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 To create a new Capsule for your Space, follow the instructions below:
 
@@ -120,4 +120,4 @@ You need to invite the bot to the chosen channel so that it'll be able to post t
 
 The bot can now send messages to the channel every time it starts. You can restart the capsule to see this functionality in action, or alternatively, send a `/stats` message in the channel to get a report about the bot's status on Code Capsules.
 
-If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/backend/).
+If you’d like to deploy another application in a different language or framework, take a look at our other [deployment guides](/how-to/backend/).
