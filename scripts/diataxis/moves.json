@@ -1,0 +1,1640 @@
+[
+ {
+  "oldPath": "docs/agentic-automation/deployment.md",
+  "oldSlug": "/agentic-automation/deployment",
+  "type": "how-to",
+  "newPath": "docs/how-to/agentic-automation/deployment.md",
+  "newSlug": "/how-to/agentic-automation/deployment"
+ },
+ {
+  "oldPath": "docs/agentic-automation/designing-agents.md",
+  "oldSlug": "/agentic-automation/designing-agents",
+  "type": "explanation",
+  "newPath": "docs/explanation/agentic-automation/designing-agents.md",
+  "newSlug": "/explanation/agentic-automation/designing-agents"
+ },
+ {
+  "oldPath": "docs/agentic-automation/index.md",
+  "oldSlug": "/agentic-automation",
+  "type": "explanation",
+  "newPath": "docs/explanation/agentic-automation/index.md",
+  "newSlug": "/explanation/agentic-automation"
+ },
+ {
+  "oldPath": "docs/agentic-automation/the-framework.md",
+  "oldSlug": "/agentic-automation/the-framework",
+  "type": "explanation",
+  "newPath": "docs/explanation/agentic-automation/the-framework.md",
+  "newSlug": "/explanation/agentic-automation/the-framework"
+ },
+ {
+  "oldPath": "docs/agentic-automation/the-problem.md",
+  "oldSlug": "/agentic-automation/the-problem",
+  "type": "explanation",
+  "newPath": "docs/explanation/agentic-automation/the-problem.md",
+  "newSlug": "/explanation/agentic-automation/the-problem"
+ },
+ {
+  "oldPath": "docs/backend/docker/caddy-docker-site.md",
+  "oldSlug": "/backend/docker/caddy-docker-site",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/docker/caddy-docker-site.md",
+  "newSlug": "/how-to/backend/docker/caddy-docker-site"
+ },
+ {
+  "oldPath": "docs/backend/docker/docker-laravel-app.md",
+  "oldSlug": "/backend/docker/docker-laravel-app",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/docker/docker-laravel-app.md",
+  "newSlug": "/how-to/backend/docker/docker-laravel-app"
+ },
+ {
+  "oldPath": "docs/backend/docker/docker-php-app.md",
+  "oldSlug": "/backend/docker/docker-php-app",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/docker/docker-php-app.md",
+  "newSlug": "/how-to/backend/docker/docker-php-app"
+ },
+ {
+  "oldPath": "docs/backend/docker/flask-docker-app.md",
+  "oldSlug": "/backend/docker/flask-docker-app",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/docker/flask-docker-app.md",
+  "newSlug": "/how-to/backend/docker/flask-docker-app"
+ },
+ {
+  "oldPath": "docs/backend/docker/index.md",
+  "oldSlug": "/backend/docker",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/docker/index.md",
+  "newSlug": "/how-to/backend/docker"
+ },
+ {
+  "oldPath": "docs/backend/go/go-telegram-bot.md",
+  "oldSlug": "/backend/go/go-telegram-bot",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/go/go-telegram-bot.md",
+  "newSlug": "/how-to/backend/go/go-telegram-bot"
+ },
+ {
+  "oldPath": "docs/backend/go/go.md",
+  "oldSlug": "/backend/go/go",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/go/go.md",
+  "newSlug": "/how-to/backend/go/go"
+ },
+ {
+  "oldPath": "docs/backend/go/index.md",
+  "oldSlug": "/backend/go",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/go/index.md",
+  "newSlug": "/how-to/backend/go"
+ },
+ {
+  "oldPath": "docs/backend/index.md",
+  "oldSlug": "/backend",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/index.md",
+  "newSlug": "/how-to/backend"
+ },
+ {
+  "oldPath": "docs/backend/java.md",
+  "oldSlug": "/backend/java",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/java.md",
+  "newSlug": "/how-to/backend/java"
+ },
+ {
+  "oldPath": "docs/backend/node.js/express.js.md",
+  "oldSlug": "/backend/node.js/express.js",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/node.js/express.js.md",
+  "newSlug": "/how-to/backend/node.js/express.js"
+ },
+ {
+  "oldPath": "docs/backend/node.js/index.md",
+  "oldSlug": "/backend/node.js",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/node.js/index.md",
+  "newSlug": "/how-to/backend/node.js"
+ },
+ {
+  "oldPath": "docs/backend/node.js/node.js-discord-bot.md",
+  "oldSlug": "/backend/node.js/node.js-discord-bot",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/node.js/node.js-discord-bot.md",
+  "newSlug": "/how-to/backend/node.js/node.js-discord-bot"
+ },
+ {
+  "oldPath": "docs/backend/node.js/node.js-telegram-bot.md",
+  "oldSlug": "/backend/node.js/node.js-telegram-bot",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/node.js/node.js-telegram-bot.md",
+  "newSlug": "/how-to/backend/node.js/node.js-telegram-bot"
+ },
+ {
+  "oldPath": "docs/backend/node.js/slack-bot.md",
+  "oldSlug": "/backend/node.js/slack-bot",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/node.js/slack-bot.md",
+  "newSlug": "/how-to/backend/node.js/slack-bot"
+ },
+ {
+  "oldPath": "docs/backend/python/django.md",
+  "oldSlug": "/backend/python/django",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/python/django.md",
+  "newSlug": "/how-to/backend/python/django"
+ },
+ {
+  "oldPath": "docs/backend/python/flask.md",
+  "oldSlug": "/backend/python/flask",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/python/flask.md",
+  "newSlug": "/how-to/backend/python/flask"
+ },
+ {
+  "oldPath": "docs/backend/python/index.md",
+  "oldSlug": "/backend/python",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/python/index.md",
+  "newSlug": "/how-to/backend/python"
+ },
+ {
+  "oldPath": "docs/backend/python/python-discord-bot.md",
+  "oldSlug": "/backend/python/python-discord-bot",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/python/python-discord-bot.md",
+  "newSlug": "/how-to/backend/python/python-discord-bot"
+ },
+ {
+  "oldPath": "docs/backend/python/python-telegram-bot.md",
+  "oldSlug": "/backend/python/python-telegram-bot",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/python/python-telegram-bot.md",
+  "newSlug": "/how-to/backend/python/python-telegram-bot"
+ },
+ {
+  "oldPath": "docs/backend/python/python.md",
+  "oldSlug": "/backend/python/python",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/python/python.md",
+  "newSlug": "/how-to/backend/python/python"
+ },
+ {
+  "oldPath": "docs/backend/python/whatsapp-bot.md",
+  "oldSlug": "/backend/python/whatsapp-bot",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend/python/whatsapp-bot.md",
+  "newSlug": "/how-to/backend/python/whatsapp-bot"
+ },
+ {
+  "oldPath": "docs/cli/index.md",
+  "oldSlug": "/cli",
+  "type": "reference",
+  "newPath": "docs/reference/cli/index.md",
+  "newSlug": "/reference/cli"
+ },
+ {
+  "oldPath": "docs/cli/readme/commands/index.md",
+  "oldSlug": "/cli/readme/commands",
+  "type": "reference",
+  "newPath": "docs/reference/cli/readme/commands/index.md",
+  "newSlug": "/reference/cli/readme/commands"
+ },
+ {
+  "oldPath": "docs/cli/readme/commands/login.md",
+  "oldSlug": "/cli/readme/commands/login",
+  "type": "reference",
+  "newPath": "docs/reference/cli/readme/commands/login.md",
+  "newSlug": "/reference/cli/readme/commands/login"
+ },
+ {
+  "oldPath": "docs/cli/readme/commands/logout.md",
+  "oldSlug": "/cli/readme/commands/logout",
+  "type": "reference",
+  "newPath": "docs/reference/cli/readme/commands/logout.md",
+  "newSlug": "/reference/cli/readme/commands/logout"
+ },
+ {
+  "oldPath": "docs/cli/readme/commands/proxy.md",
+  "oldSlug": "/cli/readme/commands/proxy",
+  "type": "reference",
+  "newPath": "docs/reference/cli/readme/commands/proxy.md",
+  "newSlug": "/reference/cli/readme/commands/proxy"
+ },
+ {
+  "oldPath": "docs/cli/readme/commands/whoami.md",
+  "oldSlug": "/cli/readme/commands/whoami",
+  "type": "reference",
+  "newPath": "docs/reference/cli/readme/commands/whoami.md",
+  "newSlug": "/reference/cli/readme/commands/whoami"
+ },
+ {
+  "oldPath": "docs/cli/readme/getting-started/index.md",
+  "oldSlug": "/cli/readme/getting-started",
+  "type": "how-to",
+  "newPath": "docs/how-to/cli/readme/getting-started/index.md",
+  "newSlug": "/how-to/cli/readme/getting-started"
+ },
+ {
+  "oldPath": "docs/cli/readme/getting-started/installation-and-usage.md",
+  "oldSlug": "/cli/readme/getting-started/installation-and-usage",
+  "type": "how-to",
+  "newPath": "docs/how-to/cli/readme/getting-started/installation-and-usage.md",
+  "newSlug": "/how-to/cli/readme/getting-started/installation-and-usage"
+ },
+ {
+  "oldPath": "docs/cli/readme/getting-started/prerequisites.md",
+  "oldSlug": "/cli/readme/getting-started/prerequisites",
+  "type": "reference",
+  "newPath": "docs/reference/cli/readme/getting-started/prerequisites.md",
+  "newSlug": "/reference/cli/readme/getting-started/prerequisites"
+ },
+ {
+  "oldPath": "docs/cli/readme/getting-started/quick-start.md",
+  "oldSlug": "/cli/readme/getting-started/quick-start",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/cli/readme/getting-started/quick-start.md",
+  "newSlug": "/tutorials/cli/readme/getting-started/quick-start"
+ },
+ {
+  "oldPath": "docs/cli/readme/global-options.md",
+  "oldSlug": "/cli/readme/global-options",
+  "type": "reference",
+  "newPath": "docs/reference/cli/readme/global-options.md",
+  "newSlug": "/reference/cli/readme/global-options"
+ },
+ {
+  "oldPath": "docs/database/index.md",
+  "oldSlug": "/database",
+  "type": "how-to",
+  "newPath": "docs/how-to/database/index.md",
+  "newSlug": "/how-to/database"
+ },
+ {
+  "oldPath": "docs/database/mongodb/django-+-mongodb.md",
+  "oldSlug": "/database/mongodb/django-+-mongodb",
+  "type": "how-to",
+  "newPath": "docs/how-to/database/mongodb/django-+-mongodb.md",
+  "newSlug": "/how-to/database/mongodb/django-+-mongodb"
+ },
+ {
+  "oldPath": "docs/database/mongodb/express-+-mongodb.md",
+  "oldSlug": "/database/mongodb/express-+-mongodb",
+  "type": "how-to",
+  "newPath": "docs/how-to/database/mongodb/express-+-mongodb.md",
+  "newSlug": "/how-to/database/mongodb/express-+-mongodb"
+ },
+ {
+  "oldPath": "docs/database/mongodb/flask-+-mongodb.md",
+  "oldSlug": "/database/mongodb/flask-+-mongodb",
+  "type": "how-to",
+  "newPath": "docs/how-to/database/mongodb/flask-+-mongodb.md",
+  "newSlug": "/how-to/database/mongodb/flask-+-mongodb"
+ },
+ {
+  "oldPath": "docs/database/mongodb/index.md",
+  "oldSlug": "/database/mongodb",
+  "type": "how-to",
+  "newPath": "docs/how-to/database/mongodb/index.md",
+  "newSlug": "/how-to/database/mongodb"
+ },
+ {
+  "oldPath": "docs/database/mysql/django-+-mysql.md",
+  "oldSlug": "/database/mysql/django-+-mysql",
+  "type": "how-to",
+  "newPath": "docs/how-to/database/mysql/django-+-mysql.md",
+  "newSlug": "/how-to/database/mysql/django-+-mysql"
+ },
+ {
+  "oldPath": "docs/database/mysql/flask-+-mysql.md",
+  "oldSlug": "/database/mysql/flask-+-mysql",
+  "type": "how-to",
+  "newPath": "docs/how-to/database/mysql/flask-+-mysql.md",
+  "newSlug": "/how-to/database/mysql/flask-+-mysql"
+ },
+ {
+  "oldPath": "docs/database/mysql/index.md",
+  "oldSlug": "/database/mysql",
+  "type": "how-to",
+  "newPath": "docs/how-to/database/mysql/index.md",
+  "newSlug": "/how-to/database/mysql"
+ },
+ {
+  "oldPath": "docs/database/mysql/java-+-mysql.md",
+  "oldSlug": "/database/mysql/java-+-mysql",
+  "type": "how-to",
+  "newPath": "docs/how-to/database/mysql/java-+-mysql.md",
+  "newSlug": "/how-to/database/mysql/java-+-mysql"
+ },
+ {
+  "oldPath": "docs/database/postgres.md",
+  "oldSlug": "/database/postgres",
+  "type": "how-to",
+  "newPath": "docs/how-to/database/postgres.md",
+  "newSlug": "/how-to/database/postgres"
+ },
+ {
+  "oldPath": "docs/database/redis.md",
+  "oldSlug": "/database/redis",
+  "type": "how-to",
+  "newPath": "docs/how-to/database/redis.md",
+  "newSlug": "/how-to/database/redis"
+ },
+ {
+  "oldPath": "docs/enterprise/aws.md",
+  "oldSlug": "/enterprise/aws",
+  "type": "explanation",
+  "newPath": "docs/explanation/enterprise/aws.md",
+  "newSlug": "/explanation/enterprise/aws"
+ },
+ {
+  "oldPath": "docs/enterprise/azure.md",
+  "oldSlug": "/enterprise/azure",
+  "type": "explanation",
+  "newPath": "docs/explanation/enterprise/azure.md",
+  "newSlug": "/explanation/enterprise/azure"
+ },
+ {
+  "oldPath": "docs/enterprise/gcp.md",
+  "oldSlug": "/enterprise/gcp",
+  "type": "explanation",
+  "newPath": "docs/explanation/enterprise/gcp.md",
+  "newSlug": "/explanation/enterprise/gcp"
+ },
+ {
+  "oldPath": "docs/enterprise/index.md",
+  "oldSlug": "/enterprise",
+  "type": "explanation",
+  "newPath": "docs/explanation/enterprise/index.md",
+  "newSlug": "/explanation/enterprise"
+ },
+ {
+  "oldPath": "docs/enterprise/vmware.md",
+  "oldSlug": "/enterprise/vmware",
+  "type": "explanation",
+  "newPath": "docs/explanation/enterprise/vmware.md",
+  "newSlug": "/explanation/enterprise/vmware"
+ },
+ {
+  "oldPath": "docs/frontend/angular.md",
+  "oldSlug": "/frontend/angular",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend/angular.md",
+  "newSlug": "/how-to/frontend/angular"
+ },
+ {
+  "oldPath": "docs/frontend/index.md",
+  "oldSlug": "/frontend",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend/index.md",
+  "newSlug": "/how-to/frontend"
+ },
+ {
+  "oldPath": "docs/frontend/next.js.md",
+  "oldSlug": "/frontend/next.js",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend/next.js.md",
+  "newSlug": "/how-to/frontend/next.js"
+ },
+ {
+  "oldPath": "docs/frontend/react.md",
+  "oldSlug": "/frontend/react",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend/react.md",
+  "newSlug": "/how-to/frontend/react"
+ },
+ {
+  "oldPath": "docs/frontend/static-html.md",
+  "oldSlug": "/frontend/static-html",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend/static-html.md",
+  "newSlug": "/how-to/frontend/static-html"
+ },
+ {
+  "oldPath": "docs/frontend/svelte.md",
+  "oldSlug": "/frontend/svelte",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend/svelte.md",
+  "newSlug": "/how-to/frontend/svelte"
+ },
+ {
+  "oldPath": "docs/frontend/vue.md",
+  "oldSlug": "/frontend/vue",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend/vue.md",
+  "newSlug": "/how-to/frontend/vue"
+ },
+ {
+  "oldPath": "docs/full-stack/flask-+-htmx.md",
+  "oldSlug": "/full-stack/flask-+-htmx",
+  "type": "how-to",
+  "newPath": "docs/how-to/full-stack/flask-+-htmx.md",
+  "newSlug": "/how-to/full-stack/flask-+-htmx"
+ },
+ {
+  "oldPath": "docs/full-stack/index.md",
+  "oldSlug": "/full-stack",
+  "type": "how-to",
+  "newPath": "docs/how-to/full-stack/index.md",
+  "newSlug": "/how-to/full-stack"
+ },
+ {
+  "oldPath": "docs/full-stack/mean-stack.md",
+  "oldSlug": "/full-stack/mean-stack",
+  "type": "how-to",
+  "newPath": "docs/how-to/full-stack/mean-stack.md",
+  "newSlug": "/how-to/full-stack/mean-stack"
+ },
+ {
+  "oldPath": "docs/full-stack/mern-stack.md",
+  "oldSlug": "/full-stack/mern-stack",
+  "type": "how-to",
+  "newPath": "docs/how-to/full-stack/mern-stack.md",
+  "newSlug": "/how-to/full-stack/mern-stack"
+ },
+ {
+  "oldPath": "docs/full-stack/next.js/index.md",
+  "oldSlug": "/full-stack/next.js",
+  "type": "how-to",
+  "newPath": "docs/how-to/full-stack/next.js/index.md",
+  "newSlug": "/how-to/full-stack/next.js"
+ },
+ {
+  "oldPath": "docs/full-stack/next.js/next.js-+-express.js.md",
+  "oldSlug": "/full-stack/next.js/next.js-+-express.js",
+  "type": "how-to",
+  "newPath": "docs/how-to/full-stack/next.js/next.js-+-express.js.md",
+  "newSlug": "/how-to/full-stack/next.js/next.js-+-express.js"
+ },
+ {
+  "oldPath": "docs/full-stack/next.js/next.js-+-mongodb.md",
+  "oldSlug": "/full-stack/next.js/next.js-+-mongodb",
+  "type": "how-to",
+  "newPath": "docs/how-to/full-stack/next.js/next.js-+-mongodb.md",
+  "newSlug": "/how-to/full-stack/next.js/next.js-+-mongodb"
+ },
+ {
+  "oldPath": "docs/full-stack/next.js/static-file-share-with-flask-and-caddy.md",
+  "oldSlug": "/full-stack/next.js/static-file-share-with-flask-and-caddy",
+  "type": "how-to",
+  "newPath": "docs/how-to/full-stack/next.js/static-file-share-with-flask-and-caddy.md",
+  "newSlug": "/how-to/full-stack/next.js/static-file-share-with-flask-and-caddy"
+ },
+ {
+  "oldPath": "docs/index.md",
+  "oldSlug": "/",
+  "type": "how-to",
+  "newPath": "docs/index.md",
+  "newSlug": "/"
+ },
+ {
+  "oldPath": "docs/persistent-storage.md",
+  "oldSlug": "/persistent-storage",
+  "type": "how-to",
+  "newPath": "docs/how-to/storage-capsule/persistent-storage.md",
+  "newSlug": "/how-to/storage-capsule/persistent-storage"
+ },
+ {
+  "oldPath": "docs/platform/account/connect-version-control.md",
+  "oldSlug": "/platform/account/connect-version-control",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/account/connect-version-control.md",
+  "newSlug": "/how-to/platform/account/connect-version-control"
+ },
+ {
+  "oldPath": "docs/platform/account/how-do-i-add-a-payment-method.md",
+  "oldSlug": "/platform/account/how-do-i-add-a-payment-method",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/account/how-do-i-add-a-payment-method.md",
+  "newSlug": "/how-to/platform/account/how-do-i-add-a-payment-method"
+ },
+ {
+  "oldPath": "docs/platform/account/how-do-i-enable-2fa.md",
+  "oldSlug": "/platform/account/how-do-i-enable-2fa",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/account/how-do-i-enable-2fa.md",
+  "newSlug": "/how-to/platform/account/how-do-i-enable-2fa"
+ },
+ {
+  "oldPath": "docs/platform/account/how-do-i-reset-my-password.md",
+  "oldSlug": "/platform/account/how-do-i-reset-my-password",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/account/how-do-i-reset-my-password.md",
+  "newSlug": "/how-to/platform/account/how-do-i-reset-my-password"
+ },
+ {
+  "oldPath": "docs/platform/billing/how-do-i-change-my-billing-details.md",
+  "oldSlug": "/platform/billing/how-do-i-change-my-billing-details",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/billing/how-do-i-change-my-billing-details.md",
+  "newSlug": "/how-to/platform/billing/how-do-i-change-my-billing-details"
+ },
+ {
+  "oldPath": "docs/platform/billing/how-do-i-view-my-invoices.md",
+  "oldSlug": "/platform/billing/how-do-i-view-my-invoices",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/billing/how-do-i-view-my-invoices.md",
+  "newSlug": "/how-to/platform/billing/how-do-i-view-my-invoices"
+ },
+ {
+  "oldPath": "docs/platform/billing/how-does-the-pricing-work.md",
+  "oldSlug": "/platform/billing/how-does-the-pricing-work",
+  "type": "reference",
+  "newPath": "docs/reference/platform/billing/how-does-the-pricing-work.md",
+  "newSlug": "/reference/platform/billing/how-does-the-pricing-work"
+ },
+ {
+  "oldPath": "docs/platform/capsules/health-checks.md",
+  "oldSlug": "/platform/capsules/health-checks",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/capsules/health-checks.md",
+  "newSlug": "/how-to/platform/capsules/health-checks"
+ },
+ {
+  "oldPath": "docs/platform/capsules/how-do-i-add-remove-stop-capsules.md",
+  "oldSlug": "/platform/capsules/how-do-i-add-remove-stop-capsules",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/capsules/how-do-i-add-remove-stop-capsules.md",
+  "newSlug": "/how-to/platform/capsules/how-do-i-add-remove-stop-capsules"
+ },
+ {
+  "oldPath": "docs/platform/capsules/how-to-add-a-custom-domain.md",
+  "oldSlug": "/platform/capsules/how-to-add-a-custom-domain",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/capsules/how-to-add-a-custom-domain.md",
+  "newSlug": "/how-to/platform/capsules/how-to-add-a-custom-domain"
+ },
+ {
+  "oldPath": "docs/platform/capsules/what-is-a-capsule.md",
+  "oldSlug": "/platform/capsules/what-is-a-capsule",
+  "type": "explanation",
+  "newPath": "docs/explanation/platform/capsules/what-is-a-capsule.md",
+  "newSlug": "/explanation/platform/capsules/what-is-a-capsule"
+ },
+ {
+  "oldPath": "docs/platform/index.md",
+  "oldSlug": "/platform",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/index.md",
+  "newSlug": "/how-to/platform"
+ },
+ {
+  "oldPath": "docs/platform/platform.md",
+  "oldSlug": "/platform/platform",
+  "type": "explanation",
+  "newPath": "docs/explanation/platform/platform.md",
+  "newSlug": "/explanation/platform/platform"
+ },
+ {
+  "oldPath": "docs/platform/regions/what-regions-does-code-capsules-support.md",
+  "oldSlug": "/platform/regions/what-regions-does-code-capsules-support",
+  "type": "reference",
+  "newPath": "docs/reference/platform/regions/what-regions-does-code-capsules-support.md",
+  "newSlug": "/reference/platform/regions/what-regions-does-code-capsules-support"
+ },
+ {
+  "oldPath": "docs/platform/security/basic-auth.md",
+  "oldSlug": "/platform/security/basic-auth",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/security/basic-auth.md",
+  "newSlug": "/how-to/platform/security/basic-auth"
+ },
+ {
+  "oldPath": "docs/platform/spaces/how-do-i-add-remove-a-space.md",
+  "oldSlug": "/platform/spaces/how-do-i-add-remove-a-space",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/spaces/how-do-i-add-remove-a-space.md",
+  "newSlug": "/how-to/platform/spaces/how-do-i-add-remove-a-space"
+ },
+ {
+  "oldPath": "docs/platform/spaces/what-is-a-space.md",
+  "oldSlug": "/platform/spaces/what-is-a-space",
+  "type": "explanation",
+  "newPath": "docs/explanation/platform/spaces/what-is-a-space.md",
+  "newSlug": "/explanation/platform/spaces/what-is-a-space"
+ },
+ {
+  "oldPath": "docs/platform/teams/how-do-i-add-remove-teams.md",
+  "oldSlug": "/platform/teams/how-do-i-add-remove-teams",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/teams/how-do-i-add-remove-teams.md",
+  "newSlug": "/how-to/platform/teams/how-do-i-add-remove-teams"
+ },
+ {
+  "oldPath": "docs/platform/teams/how-do-i-add-team-members.md",
+  "oldSlug": "/platform/teams/how-do-i-add-team-members",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/teams/how-do-i-add-team-members.md",
+  "newSlug": "/how-to/platform/teams/how-do-i-add-team-members"
+ },
+ {
+  "oldPath": "docs/platform/teams/share-a-repo-with-a-team.md",
+  "oldSlug": "/platform/teams/share-a-repo-with-a-team",
+  "type": "how-to",
+  "newPath": "docs/how-to/platform/teams/share-a-repo-with-a-team.md",
+  "newSlug": "/how-to/platform/teams/share-a-repo-with-a-team"
+ },
+ {
+  "oldPath": "docs/platform/teams/what-is-a-team.md",
+  "oldSlug": "/platform/teams/what-is-a-team",
+  "type": "explanation",
+  "newPath": "docs/explanation/platform/teams/what-is-a-team.md",
+  "newSlug": "/explanation/platform/teams/what-is-a-team"
+ },
+ {
+  "oldPath": "docs/platform/what-is-code-capsules.md",
+  "oldSlug": "/platform/what-is-code-capsules",
+  "type": "explanation",
+  "newPath": "docs/explanation/platform/what-is-code-capsules.md",
+  "newSlug": "/explanation/platform/what-is-code-capsules"
+ },
+ {
+  "oldPath": "docs/products/agent-capsule/chat/agent-api-sample.mdx",
+  "oldSlug": "/products/agent-capsule/chat/agent-api-sample",
+  "type": "reference",
+  "newPath": "docs/reference/agent-capsule/chat/agent-api-sample.mdx",
+  "newSlug": "/reference/agent-capsule/chat/agent-api-sample"
+ },
+ {
+  "oldPath": "docs/products/agent-capsule/chat/index.md",
+  "oldSlug": "/products/agent-capsule/chat",
+  "type": "how-to",
+  "newPath": "docs/how-to/agent-capsule/chat/index.md",
+  "newSlug": "/how-to/agent-capsule/chat"
+ },
+ {
+  "oldPath": "docs/products/agent-capsule/configure.md",
+  "oldSlug": "/products/agent-capsule/configure",
+  "type": "how-to",
+  "newPath": "docs/how-to/agent-capsule/configure.md",
+  "newSlug": "/how-to/agent-capsule/configure"
+ },
+ {
+  "oldPath": "docs/products/agent-capsule/deploy.md",
+  "oldSlug": "/products/agent-capsule/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/agent-capsule/deploy.md",
+  "newSlug": "/how-to/agent-capsule/deploy"
+ },
+ {
+  "oldPath": "docs/products/agent-capsule/logs.md",
+  "oldSlug": "/products/agent-capsule/logs",
+  "type": "how-to",
+  "newPath": "docs/how-to/agent-capsule/logs.md",
+  "newSlug": "/how-to/agent-capsule/logs"
+ },
+ {
+  "oldPath": "docs/products/agent-capsule/monitor.md",
+  "oldSlug": "/products/agent-capsule/monitor",
+  "type": "how-to",
+  "newPath": "docs/how-to/agent-capsule/monitor.md",
+  "newSlug": "/how-to/agent-capsule/monitor"
+ },
+ {
+  "oldPath": "docs/products/agent-capsule/scale.md",
+  "oldSlug": "/products/agent-capsule/scale",
+  "type": "how-to",
+  "newPath": "docs/how-to/agent-capsule/scale.md",
+  "newSlug": "/how-to/agent-capsule/scale"
+ },
+ {
+  "oldPath": "docs/products/agent-capsule/templates.md",
+  "oldSlug": "/products/agent-capsule/templates",
+  "type": "how-to",
+  "newPath": "docs/how-to/agent-capsule/templates.md",
+  "newSlug": "/how-to/agent-capsule/templates"
+ },
+ {
+  "oldPath": "docs/products/alerting.md",
+  "oldSlug": "/products/alerting",
+  "type": "how-to",
+  "newPath": "docs/how-to/alerting.md",
+  "newSlug": "/how-to/alerting"
+ },
+ {
+  "oldPath": "docs/products/backend-capsule/add-procfile.md",
+  "oldSlug": "/products/backend-capsule/add-procfile",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend-capsule/add-procfile.md",
+  "newSlug": "/how-to/backend-capsule/add-procfile"
+ },
+ {
+  "oldPath": "docs/products/backend-capsule/configure.md",
+  "oldSlug": "/products/backend-capsule/configure",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend-capsule/configure.md",
+  "newSlug": "/how-to/backend-capsule/configure"
+ },
+ {
+  "oldPath": "docs/products/backend-capsule/deploy.md",
+  "oldSlug": "/products/backend-capsule/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend-capsule/deploy.md",
+  "newSlug": "/how-to/backend-capsule/deploy"
+ },
+ {
+  "oldPath": "docs/products/backend-capsule/index.md",
+  "oldSlug": "/products/backend-capsule",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend-capsule/index.md",
+  "newSlug": "/how-to/backend-capsule"
+ },
+ {
+  "oldPath": "docs/products/backend-capsule/logs.md",
+  "oldSlug": "/products/backend-capsule/logs",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend-capsule/logs.md",
+  "newSlug": "/how-to/backend-capsule/logs"
+ },
+ {
+  "oldPath": "docs/products/backend-capsule/monitor.md",
+  "oldSlug": "/products/backend-capsule/monitor",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend-capsule/monitor.md",
+  "newSlug": "/how-to/backend-capsule/monitor"
+ },
+ {
+  "oldPath": "docs/products/backend-capsule/scale.md",
+  "oldSlug": "/products/backend-capsule/scale",
+  "type": "how-to",
+  "newPath": "docs/how-to/backend-capsule/scale.md",
+  "newSlug": "/how-to/backend-capsule/scale"
+ },
+ {
+  "oldPath": "docs/products/backend-capsule/supported-runtimes.md",
+  "oldSlug": "/products/backend-capsule/supported-runtimes",
+  "type": "reference",
+  "newPath": "docs/reference/backend-capsule/supported-runtimes.md",
+  "newSlug": "/reference/backend-capsule/supported-runtimes"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/documentdb/backups.md",
+  "oldSlug": "/products/database-capsule/documentdb/backups",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/documentdb/backups.md",
+  "newSlug": "/how-to/database-capsule/documentdb/backups"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/documentdb/configure.md",
+  "oldSlug": "/products/database-capsule/documentdb/configure",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/documentdb/configure.md",
+  "newSlug": "/how-to/database-capsule/documentdb/configure"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/documentdb/connect-locally.md",
+  "oldSlug": "/products/database-capsule/documentdb/connect-locally",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/documentdb/connect-locally.md",
+  "newSlug": "/how-to/database-capsule/documentdb/connect-locally"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/documentdb/deploy.md",
+  "oldSlug": "/products/database-capsule/documentdb/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/documentdb/deploy.md",
+  "newSlug": "/how-to/database-capsule/documentdb/deploy"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/documentdb/logs.md",
+  "oldSlug": "/products/database-capsule/documentdb/logs",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/documentdb/logs.md",
+  "newSlug": "/how-to/database-capsule/documentdb/logs"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/documentdb/monitor.md",
+  "oldSlug": "/products/database-capsule/documentdb/monitor",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/documentdb/monitor.md",
+  "newSlug": "/how-to/database-capsule/documentdb/monitor"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/documentdb/scale.md",
+  "oldSlug": "/products/database-capsule/documentdb/scale",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/documentdb/scale.md",
+  "newSlug": "/how-to/database-capsule/documentdb/scale"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/index.md",
+  "oldSlug": "/products/database-capsule",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/index.md",
+  "newSlug": "/how-to/database-capsule"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mongodb/backups.md",
+  "oldSlug": "/products/database-capsule/mongodb/backups",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mongodb/backups.md",
+  "newSlug": "/how-to/database-capsule/mongodb/backups"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mongodb/configure.md",
+  "oldSlug": "/products/database-capsule/mongodb/configure",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mongodb/configure.md",
+  "newSlug": "/how-to/database-capsule/mongodb/configure"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mongodb/deploy.md",
+  "oldSlug": "/products/database-capsule/mongodb/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mongodb/deploy.md",
+  "newSlug": "/how-to/database-capsule/mongodb/deploy"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mongodb/monitor.md",
+  "oldSlug": "/products/database-capsule/mongodb/monitor",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mongodb/monitor.md",
+  "newSlug": "/how-to/database-capsule/mongodb/monitor"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mongodb/scale.md",
+  "oldSlug": "/products/database-capsule/mongodb/scale",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mongodb/scale.md",
+  "newSlug": "/how-to/database-capsule/mongodb/scale"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mongodb/versions.md",
+  "oldSlug": "/products/database-capsule/mongodb/versions",
+  "type": "reference",
+  "newPath": "docs/reference/database-capsule/mongodb/versions.md",
+  "newSlug": "/reference/database-capsule/mongodb/versions"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mongodb/versions/upgrades/7-0-to-8-0.md",
+  "oldSlug": "/products/database-capsule/mongodb/versions/upgrades/7-0-to-8-0",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mongodb/versions/upgrades/7-0-to-8-0.md",
+  "newSlug": "/how-to/database-capsule/mongodb/versions/upgrades/7-0-to-8-0"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mongodb/versions/upgrades/index.md",
+  "oldSlug": "/products/database-capsule/mongodb/versions/upgrades",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mongodb/versions/upgrades/index.md",
+  "newSlug": "/how-to/database-capsule/mongodb/versions/upgrades"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mysql/backups.md",
+  "oldSlug": "/products/database-capsule/mysql/backups",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mysql/backups.md",
+  "newSlug": "/how-to/database-capsule/mysql/backups"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mysql/configure.md",
+  "oldSlug": "/products/database-capsule/mysql/configure",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mysql/configure.md",
+  "newSlug": "/how-to/database-capsule/mysql/configure"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mysql/connect-locally.md",
+  "oldSlug": "/products/database-capsule/mysql/connect-locally",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mysql/connect-locally.md",
+  "newSlug": "/how-to/database-capsule/mysql/connect-locally"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mysql/deploy.md",
+  "oldSlug": "/products/database-capsule/mysql/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mysql/deploy.md",
+  "newSlug": "/how-to/database-capsule/mysql/deploy"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mysql/logs.md",
+  "oldSlug": "/products/database-capsule/mysql/logs",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mysql/logs.md",
+  "newSlug": "/how-to/database-capsule/mysql/logs"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mysql/monitor.md",
+  "oldSlug": "/products/database-capsule/mysql/monitor",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mysql/monitor.md",
+  "newSlug": "/how-to/database-capsule/mysql/monitor"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mysql/scale.md",
+  "oldSlug": "/products/database-capsule/mysql/scale",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mysql/scale.md",
+  "newSlug": "/how-to/database-capsule/mysql/scale"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mysql/schema-migrations.md",
+  "oldSlug": "/products/database-capsule/mysql/schema-migrations",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mysql/schema-migrations.md",
+  "newSlug": "/how-to/database-capsule/mysql/schema-migrations"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mysql/versions.md",
+  "oldSlug": "/products/database-capsule/mysql/versions",
+  "type": "reference",
+  "newPath": "docs/reference/database-capsule/mysql/versions.md",
+  "newSlug": "/reference/database-capsule/mysql/versions"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mysql/versions/upgrades/5-7-to-8-0.md",
+  "oldSlug": "/products/database-capsule/mysql/versions/upgrades/5-7-to-8-0",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mysql/versions/upgrades/5-7-to-8-0.md",
+  "newSlug": "/how-to/database-capsule/mysql/versions/upgrades/5-7-to-8-0"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/mysql/versions/upgrades/index.md",
+  "oldSlug": "/products/database-capsule/mysql/versions/upgrades",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/mysql/versions/upgrades/index.md",
+  "newSlug": "/how-to/database-capsule/mysql/versions/upgrades"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/postgresql/backups.md",
+  "oldSlug": "/products/database-capsule/postgresql/backups",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/postgresql/backups.md",
+  "newSlug": "/how-to/database-capsule/postgresql/backups"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/postgresql/configure.md",
+  "oldSlug": "/products/database-capsule/postgresql/configure",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/postgresql/configure.md",
+  "newSlug": "/how-to/database-capsule/postgresql/configure"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/postgresql/connect-locally.md",
+  "oldSlug": "/products/database-capsule/postgresql/connect-locally",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/postgresql/connect-locally.md",
+  "newSlug": "/how-to/database-capsule/postgresql/connect-locally"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/postgresql/deploy.md",
+  "oldSlug": "/products/database-capsule/postgresql/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/postgresql/deploy.md",
+  "newSlug": "/how-to/database-capsule/postgresql/deploy"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/postgresql/logs.md",
+  "oldSlug": "/products/database-capsule/postgresql/logs",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/postgresql/logs.md",
+  "newSlug": "/how-to/database-capsule/postgresql/logs"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/postgresql/monitor.md",
+  "oldSlug": "/products/database-capsule/postgresql/monitor",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/postgresql/monitor.md",
+  "newSlug": "/how-to/database-capsule/postgresql/monitor"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/postgresql/scale.md",
+  "oldSlug": "/products/database-capsule/postgresql/scale",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/postgresql/scale.md",
+  "newSlug": "/how-to/database-capsule/postgresql/scale"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/redis/configure.md",
+  "oldSlug": "/products/database-capsule/redis/configure",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/redis/configure.md",
+  "newSlug": "/how-to/database-capsule/redis/configure"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/redis/connect-locally.md",
+  "oldSlug": "/products/database-capsule/redis/connect-locally",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/redis/connect-locally.md",
+  "newSlug": "/how-to/database-capsule/redis/connect-locally"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/redis/deploy.md",
+  "oldSlug": "/products/database-capsule/redis/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/redis/deploy.md",
+  "newSlug": "/how-to/database-capsule/redis/deploy"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/redis/logs.md",
+  "oldSlug": "/products/database-capsule/redis/logs",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/redis/logs.md",
+  "newSlug": "/how-to/database-capsule/redis/logs"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/redis/monitor.md",
+  "oldSlug": "/products/database-capsule/redis/monitor",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/redis/monitor.md",
+  "newSlug": "/how-to/database-capsule/redis/monitor"
+ },
+ {
+  "oldPath": "docs/products/database-capsule/redis/scale.md",
+  "oldSlug": "/products/database-capsule/redis/scale",
+  "type": "how-to",
+  "newPath": "docs/how-to/database-capsule/redis/scale.md",
+  "newSlug": "/how-to/database-capsule/redis/scale"
+ },
+ {
+  "oldPath": "docs/products/docker-capsule/configure.md",
+  "oldSlug": "/products/docker-capsule/configure",
+  "type": "how-to",
+  "newPath": "docs/how-to/docker-capsule/configure.md",
+  "newSlug": "/how-to/docker-capsule/configure"
+ },
+ {
+  "oldPath": "docs/products/docker-capsule/container-requirements.md",
+  "oldSlug": "/products/docker-capsule/container-requirements",
+  "type": "reference",
+  "newPath": "docs/reference/docker-capsule/container-requirements.md",
+  "newSlug": "/reference/docker-capsule/container-requirements"
+ },
+ {
+  "oldPath": "docs/products/docker-capsule/deployments.md",
+  "oldSlug": "/products/docker-capsule/deployments",
+  "type": "how-to",
+  "newPath": "docs/how-to/docker-capsule/deployments.md",
+  "newSlug": "/how-to/docker-capsule/deployments"
+ },
+ {
+  "oldPath": "docs/products/docker-capsule/git/builds.md",
+  "oldSlug": "/products/docker-capsule/git/builds",
+  "type": "how-to",
+  "newPath": "docs/how-to/docker-capsule/git/builds.md",
+  "newSlug": "/how-to/docker-capsule/git/builds"
+ },
+ {
+  "oldPath": "docs/products/docker-capsule/git/deploy.md",
+  "oldSlug": "/products/docker-capsule/git/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/docker-capsule/git/deploy.md",
+  "newSlug": "/how-to/docker-capsule/git/deploy"
+ },
+ {
+  "oldPath": "docs/products/docker-capsule/image/deploy.md",
+  "oldSlug": "/products/docker-capsule/image/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/docker-capsule/image/deploy.md",
+  "newSlug": "/how-to/docker-capsule/image/deploy"
+ },
+ {
+  "oldPath": "docs/products/docker-capsule/image/updates.md",
+  "oldSlug": "/products/docker-capsule/image/updates",
+  "type": "how-to",
+  "newPath": "docs/how-to/docker-capsule/image/updates.md",
+  "newSlug": "/how-to/docker-capsule/image/updates"
+ },
+ {
+  "oldPath": "docs/products/docker-capsule/index.md",
+  "oldSlug": "/products/docker-capsule",
+  "type": "how-to",
+  "newPath": "docs/how-to/docker-capsule/index.md",
+  "newSlug": "/how-to/docker-capsule"
+ },
+ {
+  "oldPath": "docs/products/docker-capsule/logs.md",
+  "oldSlug": "/products/docker-capsule/logs",
+  "type": "how-to",
+  "newPath": "docs/how-to/docker-capsule/logs.md",
+  "newSlug": "/how-to/docker-capsule/logs"
+ },
+ {
+  "oldPath": "docs/products/docker-capsule/monitor.md",
+  "oldSlug": "/products/docker-capsule/monitor",
+  "type": "how-to",
+  "newPath": "docs/how-to/docker-capsule/monitor.md",
+  "newSlug": "/how-to/docker-capsule/monitor"
+ },
+ {
+  "oldPath": "docs/products/docker-capsule/scale.md",
+  "oldSlug": "/products/docker-capsule/scale",
+  "type": "how-to",
+  "newPath": "docs/how-to/docker-capsule/scale.md",
+  "newSlug": "/how-to/docker-capsule/scale"
+ },
+ {
+  "oldPath": "docs/products/enterprise-clusters/overview.md",
+  "oldSlug": "/products/enterprise-clusters/overview",
+  "type": "explanation",
+  "newPath": "docs/explanation/enterprise-clusters/overview.md",
+  "newSlug": "/explanation/enterprise-clusters/overview"
+ },
+ {
+  "oldPath": "docs/products/frontend-capsule/configure.md",
+  "oldSlug": "/products/frontend-capsule/configure",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend-capsule/configure.md",
+  "newSlug": "/how-to/frontend-capsule/configure"
+ },
+ {
+  "oldPath": "docs/products/frontend-capsule/container/deploy.md",
+  "oldSlug": "/products/frontend-capsule/container/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend-capsule/container/deploy.md",
+  "newSlug": "/how-to/frontend-capsule/container/deploy"
+ },
+ {
+  "oldPath": "docs/products/frontend-capsule/custom-domains.md",
+  "oldSlug": "/products/frontend-capsule/custom-domains",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend-capsule/custom-domains.md",
+  "newSlug": "/how-to/frontend-capsule/custom-domains"
+ },
+ {
+  "oldPath": "docs/products/frontend-capsule/deploy.md",
+  "oldSlug": "/products/frontend-capsule/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend-capsule/deploy.md",
+  "newSlug": "/how-to/frontend-capsule/deploy"
+ },
+ {
+  "oldPath": "docs/products/frontend-capsule/index.md",
+  "oldSlug": "/products/frontend-capsule",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend-capsule/index.md",
+  "newSlug": "/how-to/frontend-capsule"
+ },
+ {
+  "oldPath": "docs/products/frontend-capsule/logs.md",
+  "oldSlug": "/products/frontend-capsule/logs",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend-capsule/logs.md",
+  "newSlug": "/how-to/frontend-capsule/logs"
+ },
+ {
+  "oldPath": "docs/products/frontend-capsule/monitor.md",
+  "oldSlug": "/products/frontend-capsule/monitor",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend-capsule/monitor.md",
+  "newSlug": "/how-to/frontend-capsule/monitor"
+ },
+ {
+  "oldPath": "docs/products/frontend-capsule/scale.md",
+  "oldSlug": "/products/frontend-capsule/scale",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend-capsule/scale.md",
+  "newSlug": "/how-to/frontend-capsule/scale"
+ },
+ {
+  "oldPath": "docs/products/frontend-capsule/static/deploy.md",
+  "oldSlug": "/products/frontend-capsule/static/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/frontend-capsule/static/deploy.md",
+  "newSlug": "/how-to/frontend-capsule/static/deploy"
+ },
+ {
+  "oldPath": "docs/products/frontend-capsule/static/plans.md",
+  "oldSlug": "/products/frontend-capsule/static/plans",
+  "type": "reference",
+  "newPath": "docs/reference/frontend-capsule/static/plans.md",
+  "newSlug": "/reference/frontend-capsule/static/plans"
+ },
+ {
+  "oldPath": "docs/products/frontend-capsule/supported-runtimes.md",
+  "oldSlug": "/products/frontend-capsule/supported-runtimes",
+  "type": "reference",
+  "newPath": "docs/reference/frontend-capsule/supported-runtimes.md",
+  "newSlug": "/reference/frontend-capsule/supported-runtimes"
+ },
+ {
+  "oldPath": "docs/products/index.md",
+  "oldSlug": "/products",
+  "type": "how-to",
+  "newPath": "docs/how-to/products/index.md",
+  "newSlug": "/how-to/products"
+ },
+ {
+  "oldPath": "docs/products/storage-capsule/backups.md",
+  "oldSlug": "/products/storage-capsule/backups",
+  "type": "how-to",
+  "newPath": "docs/how-to/storage-capsule/backups.md",
+  "newSlug": "/how-to/storage-capsule/backups"
+ },
+ {
+  "oldPath": "docs/products/storage-capsule/configure.md",
+  "oldSlug": "/products/storage-capsule/configure",
+  "type": "how-to",
+  "newPath": "docs/how-to/storage-capsule/configure.md",
+  "newSlug": "/how-to/storage-capsule/configure"
+ },
+ {
+  "oldPath": "docs/products/storage-capsule/deploy.md",
+  "oldSlug": "/products/storage-capsule/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/storage-capsule/deploy.md",
+  "newSlug": "/how-to/storage-capsule/deploy"
+ },
+ {
+  "oldPath": "docs/products/storage-capsule/how-state-works.md",
+  "oldSlug": "/products/storage-capsule/how-state-works",
+  "type": "explanation",
+  "newPath": "docs/explanation/storage-capsule/how-state-works.md",
+  "newSlug": "/explanation/storage-capsule/how-state-works"
+ },
+ {
+  "oldPath": "docs/products/storage-capsule/logs.md",
+  "oldSlug": "/products/storage-capsule/logs",
+  "type": "how-to",
+  "newPath": "docs/how-to/storage-capsule/logs.md",
+  "newSlug": "/how-to/storage-capsule/logs"
+ },
+ {
+  "oldPath": "docs/products/storage-capsule/monitor.md",
+  "oldSlug": "/products/storage-capsule/monitor",
+  "type": "how-to",
+  "newPath": "docs/how-to/storage-capsule/monitor.md",
+  "newSlug": "/how-to/storage-capsule/monitor"
+ },
+ {
+  "oldPath": "docs/products/storage-capsule/scale.md",
+  "oldSlug": "/products/storage-capsule/scale",
+  "type": "how-to",
+  "newPath": "docs/how-to/storage-capsule/scale.md",
+  "newSlug": "/how-to/storage-capsule/scale"
+ },
+ {
+  "oldPath": "docs/products/wordpress-capsule/backups.md",
+  "oldSlug": "/products/wordpress-capsule/backups",
+  "type": "how-to",
+  "newPath": "docs/how-to/wordpress-capsule/backups.md",
+  "newSlug": "/how-to/wordpress-capsule/backups"
+ },
+ {
+  "oldPath": "docs/products/wordpress-capsule/caching.md",
+  "oldSlug": "/products/wordpress-capsule/caching",
+  "type": "how-to",
+  "newPath": "docs/how-to/wordpress-capsule/caching.md",
+  "newSlug": "/how-to/wordpress-capsule/caching"
+ },
+ {
+  "oldPath": "docs/products/wordpress-capsule/configure.md",
+  "oldSlug": "/products/wordpress-capsule/configure",
+  "type": "how-to",
+  "newPath": "docs/how-to/wordpress-capsule/configure.md",
+  "newSlug": "/how-to/wordpress-capsule/configure"
+ },
+ {
+  "oldPath": "docs/products/wordpress-capsule/cron.md",
+  "oldSlug": "/products/wordpress-capsule/cron",
+  "type": "how-to",
+  "newPath": "docs/how-to/wordpress-capsule/cron.md",
+  "newSlug": "/how-to/wordpress-capsule/cron"
+ },
+ {
+  "oldPath": "docs/products/wordpress-capsule/deploy.md",
+  "oldSlug": "/products/wordpress-capsule/deploy",
+  "type": "how-to",
+  "newPath": "docs/how-to/wordpress-capsule/deploy.md",
+  "newSlug": "/how-to/wordpress-capsule/deploy"
+ },
+ {
+  "oldPath": "docs/products/wordpress-capsule/logs.md",
+  "oldSlug": "/products/wordpress-capsule/logs",
+  "type": "how-to",
+  "newPath": "docs/how-to/wordpress-capsule/logs.md",
+  "newSlug": "/how-to/wordpress-capsule/logs"
+ },
+ {
+  "oldPath": "docs/products/wordpress-capsule/monitor.md",
+  "oldSlug": "/products/wordpress-capsule/monitor",
+  "type": "how-to",
+  "newPath": "docs/how-to/wordpress-capsule/monitor.md",
+  "newSlug": "/how-to/wordpress-capsule/monitor"
+ },
+ {
+  "oldPath": "docs/products/wordpress-capsule/performance.md",
+  "oldSlug": "/products/wordpress-capsule/performance",
+  "type": "how-to",
+  "newPath": "docs/how-to/wordpress-capsule/performance.md",
+  "newSlug": "/how-to/wordpress-capsule/performance"
+ },
+ {
+  "oldPath": "docs/products/wordpress-capsule/routing.md",
+  "oldSlug": "/products/wordpress-capsule/routing",
+  "type": "how-to",
+  "newPath": "docs/how-to/wordpress-capsule/routing.md",
+  "newSlug": "/how-to/wordpress-capsule/routing"
+ },
+ {
+  "oldPath": "docs/products/wordpress-capsule/scale.md",
+  "oldSlug": "/products/wordpress-capsule/scale",
+  "type": "how-to",
+  "newPath": "docs/how-to/wordpress-capsule/scale.md",
+  "newSlug": "/how-to/wordpress-capsule/scale"
+ },
+ {
+  "oldPath": "docs/products/wordpress-capsule/security.md",
+  "oldSlug": "/products/wordpress-capsule/security",
+  "type": "how-to",
+  "newPath": "docs/how-to/wordpress-capsule/security.md",
+  "newSlug": "/how-to/wordpress-capsule/security"
+ },
+ {
+  "oldPath": "docs/sandbox/environments.md",
+  "oldSlug": "/sandbox/environments",
+  "type": "reference",
+  "newPath": "docs/reference/sandbox/environments.md",
+  "newSlug": "/reference/sandbox/environments"
+ },
+ {
+  "oldPath": "docs/sandbox/index.md",
+  "oldSlug": "/sandbox",
+  "type": "explanation",
+  "newPath": "docs/explanation/sandbox/index.md",
+  "newSlug": "/explanation/sandbox"
+ },
+ {
+  "oldPath": "docs/sandbox/python/api-reference.md",
+  "oldSlug": "/sandbox/python/api-reference",
+  "type": "reference",
+  "newPath": "docs/reference/sandbox/python/api-reference.md",
+  "newSlug": "/reference/sandbox/python/api-reference"
+ },
+ {
+  "oldPath": "docs/sandbox/python/index.md",
+  "oldSlug": "/sandbox/python",
+  "type": "reference",
+  "newPath": "docs/reference/sandbox/python/index.md",
+  "newSlug": "/reference/sandbox/python"
+ },
+ {
+  "oldPath": "docs/sandbox/quickstart.md",
+  "oldSlug": "/sandbox/quickstart",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/sandbox/quickstart.md",
+  "newSlug": "/tutorials/sandbox/quickstart"
+ },
+ {
+  "oldPath": "docs/sandbox/typescript/api-reference.md",
+  "oldSlug": "/sandbox/typescript/api-reference",
+  "type": "reference",
+  "newPath": "docs/reference/sandbox/typescript/api-reference.md",
+  "newSlug": "/reference/sandbox/typescript/api-reference"
+ },
+ {
+  "oldPath": "docs/sandbox/typescript/index.md",
+  "oldSlug": "/sandbox/typescript",
+  "type": "reference",
+  "newPath": "docs/reference/sandbox/typescript/index.md",
+  "newSlug": "/reference/sandbox/typescript"
+ },
+ {
+  "oldPath": "docs/tutorials/best-practices-for-structuring-mean-mern-mevn-projects.md",
+  "oldSlug": "/tutorials/best-practices-for-structuring-mean-mern-mevn-projects",
+  "type": "explanation",
+  "newPath": "docs/explanation/guides/best-practices-for-structuring-mean-mern-mevn-projects.md",
+  "newSlug": "/explanation/guides/best-practices-for-structuring-mean-mern-mevn-projects"
+ },
+ {
+  "oldPath": "docs/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx.md",
+  "oldSlug": "/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx.md",
+  "newSlug": "/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx"
+ },
+ {
+  "oldPath": "docs/tutorials/build-a-mern-job-board.md",
+  "oldSlug": "/tutorials/build-a-mern-job-board",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/build-a-mern-job-board.md",
+  "newSlug": "/tutorials/build-a-mern-job-board"
+ },
+ {
+  "oldPath": "docs/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules.md",
+  "oldSlug": "/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules.md",
+  "newSlug": "/tutorials/build-a-personal-calendar-assistant-with-telegram-and-agent-capsules"
+ },
+ {
+  "oldPath": "docs/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications.md",
+  "oldSlug": "/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications.md",
+  "newSlug": "/tutorials/build-a-slackbot-with-node.js-to-monitor-your-applications"
+ },
+ {
+  "oldPath": "docs/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker.md",
+  "oldSlug": "/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker.md",
+  "newSlug": "/tutorials/building-a-book-recommendations-app-with-php-sqlite-and-docker"
+ },
+ {
+  "oldPath": "docs/tutorials/building-a-full-stack-application-with-express-and-htmx.md",
+  "oldSlug": "/tutorials/building-a-full-stack-application-with-express-and-htmx",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/building-a-full-stack-application-with-express-and-htmx.md",
+  "newSlug": "/tutorials/building-a-full-stack-application-with-express-and-htmx"
+ },
+ {
+  "oldPath": "docs/tutorials/building-a-full-stack-application-with-flask-and-htmx.md",
+  "oldSlug": "/tutorials/building-a-full-stack-application-with-flask-and-htmx",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/building-a-full-stack-application-with-flask-and-htmx.md",
+  "newSlug": "/tutorials/building-a-full-stack-application-with-flask-and-htmx"
+ },
+ {
+  "oldPath": "docs/tutorials/building-a-game-catalogue-api.md",
+  "oldSlug": "/tutorials/building-a-game-catalogue-api",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/building-a-game-catalogue-api.md",
+  "newSlug": "/tutorials/building-a-game-catalogue-api"
+ },
+ {
+  "oldPath": "docs/tutorials/building-a-web-file-store.md",
+  "oldSlug": "/tutorials/building-a-web-file-store",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/building-a-web-file-store.md",
+  "newSlug": "/tutorials/building-a-web-file-store"
+ },
+ {
+  "oldPath": "docs/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules.md",
+  "oldSlug": "/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules.md",
+  "newSlug": "/tutorials/create-and-host-a-telegram-bot-with-node.js-on-code-capsules"
+ },
+ {
+  "oldPath": "docs/tutorials/create-and-host-an-api-with-flask.md",
+  "oldSlug": "/tutorials/create-and-host-an-api-with-flask",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/create-and-host-an-api-with-flask.md",
+  "newSlug": "/tutorials/create-and-host-an-api-with-flask"
+ },
+ {
+  "oldPath": "docs/tutorials/create-and-host-go-ai-telegram-bot.md",
+  "oldSlug": "/tutorials/create-and-host-go-ai-telegram-bot",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/create-and-host-go-ai-telegram-bot.md",
+  "newSlug": "/tutorials/create-and-host-go-ai-telegram-bot"
+ },
+ {
+  "oldPath": "docs/tutorials/deploy-emdash-on-code-capsules.md",
+  "oldSlug": "/tutorials/deploy-emdash-on-code-capsules",
+  "type": "how-to",
+  "newPath": "docs/how-to/guides/deploy-emdash-on-code-capsules.md",
+  "newSlug": "/how-to/guides/deploy-emdash-on-code-capsules"
+ },
+ {
+  "oldPath": "docs/tutorials/deploy-paperclip-ai-orchestration-on-code-capsules.md",
+  "oldSlug": "/tutorials/deploy-paperclip-ai-orchestration-on-code-capsules",
+  "type": "how-to",
+  "newPath": "docs/how-to/guides/deploy-paperclip-ai-orchestration-on-code-capsules.md",
+  "newSlug": "/how-to/guides/deploy-paperclip-ai-orchestration-on-code-capsules"
+ },
+ {
+  "oldPath": "docs/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial.md",
+  "oldSlug": "/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial.md",
+  "newSlug": "/tutorials/getting-started-with-mean-stack-a-step-by-step-tutorial"
+ },
+ {
+  "oldPath": "docs/tutorials/heroku-migration-guide.md",
+  "oldSlug": "/tutorials/heroku-migration-guide",
+  "type": "how-to",
+  "newPath": "docs/how-to/guides/heroku-migration-guide.md",
+  "newSlug": "/how-to/guides/heroku-migration-guide"
+ },
+ {
+  "oldPath": "docs/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules.md",
+  "oldSlug": "/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules.md",
+  "newSlug": "/tutorials/how-to-create-and-host-a-telegram-bot-on-code-capsules"
+ },
+ {
+  "oldPath": "docs/tutorials/how-to-simply-host-a-production-wordpress-blog.md",
+  "oldSlug": "/tutorials/how-to-simply-host-a-production-wordpress-blog",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/how-to-simply-host-a-production-wordpress-blog.md",
+  "newSlug": "/tutorials/how-to-simply-host-a-production-wordpress-blog"
+ },
+ {
+  "oldPath": "docs/tutorials/index.md",
+  "oldSlug": "/tutorials",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/index.md",
+  "newSlug": "/tutorials"
+ },
+ {
+  "oldPath": "docs/tutorials/nuxt3-and-nitro.md",
+  "oldSlug": "/tutorials/nuxt3-and-nitro",
+  "type": "how-to",
+  "newPath": "docs/how-to/guides/nuxt3-and-nitro.md",
+  "newSlug": "/how-to/guides/nuxt3-and-nitro"
+ },
+ {
+  "oldPath": "docs/tutorials/optimizing-performance-in-mern-stack-tips-and-techniques.md",
+  "oldSlug": "/tutorials/optimizing-performance-in-mern-stack-tips-and-techniques",
+  "type": "explanation",
+  "newPath": "docs/explanation/guides/optimizing-performance-in-mern-stack-tips-and-techniques.md",
+  "newSlug": "/explanation/guides/optimizing-performance-in-mern-stack-tips-and-techniques"
+ },
+ {
+  "oldPath": "docs/tutorials/use-codecapsules-with-an-agent.md",
+  "oldSlug": "/tutorials/use-codecapsules-with-an-agent",
+  "type": "how-to",
+  "newPath": "docs/how-to/guides/use-codecapsules-with-an-agent.md",
+  "newSlug": "/how-to/guides/use-codecapsules-with-an-agent"
+ },
+ {
+  "oldPath": "docs/tutorials/video-guides.md",
+  "oldSlug": "/tutorials/video-guides",
+  "type": "tutorial",
+  "newPath": "docs/tutorials/video-guides.md",
+  "newSlug": "/tutorials/video-guides"
+ },
+ {
+  "oldPath": "docs/tutorials/white-label-your-app-with-code-capsules.md",
+  "oldSlug": "/tutorials/white-label-your-app-with-code-capsules",
+  "type": "how-to",
+  "newPath": "docs/how-to/guides/white-label-your-app-with-code-capsules.md",
+  "newSlug": "/how-to/guides/white-label-your-app-with-code-capsules"
+ },
+ {
+  "oldPath": "docs/wordpress.md",
+  "oldSlug": "/wordpress",
+  "type": "how-to",
+  "newPath": "docs/how-to/wordpress-capsule/managed-wordpress.md",
+  "newSlug": "/how-to/wordpress-capsule/managed-wordpress"
+ },
+ {
+  "oldPath": "release-notes/2025-08-01-2025-08.md",
+  "oldSlug": "2025-08",
+  "type": "release-notes",
+  "newPath": "release-notes/2025-08-01-2025-08.md",
+  "newSlug": null
+ },
+ {
+  "oldPath": "release-notes/2025-09-01-2025-09.md",
+  "oldSlug": "2025-09",
+  "type": "release-notes",
+  "newPath": "release-notes/2025-09-01-2025-09.md",
+  "newSlug": null
+ },
+ {
+  "oldPath": "release-notes/2025-10-01-2025-10.md",
+  "oldSlug": "2025-10",
+  "type": "release-notes",
+  "newPath": "release-notes/2025-10-01-2025-10.md",
+  "newSlug": null
+ },
+ {
+  "oldPath": "release-notes/2025-11-01-2025-11.md",
+  "oldSlug": "2025-11",
+  "type": "release-notes",
+  "newPath": "release-notes/2025-11-01-2025-11.md",
+  "newSlug": null
+ },
+ {
+  "oldPath": "release-notes/2025-12-01-2025-12.md",
+  "oldSlug": "2025-12",
+  "type": "release-notes",
+  "newPath": "release-notes/2025-12-01-2025-12.md",
+  "newSlug": null
+ },
+ {
+  "oldPath": "release-notes/2026-06-01-2026-06.md",
+  "oldSlug": "2026-06",
+  "type": "release-notes",
+  "newPath": "release-notes/2026-06-01-2026-06.md",
+  "newSlug": null
+ },
+ {
+  "oldPath": "release-notes/2026-09-01-2026-09.md",
+  "oldSlug": "2026-09",
+  "type": "release-notes",
+  "newPath": "release-notes/2026-09-01-2026-09.md",
+  "newSlug": null
+ },
+ {
+  "oldPath": "release-notes/2026-10-01-2026-10.md",
+  "oldSlug": "2026-10",
+  "type": "release-notes",
+  "newPath": "release-notes/2026-10-01-2026-10.md",
+  "newSlug": null
+ },
+ {
+  "oldPath": "release-notes/2026-11-09-2026-11.md",
+  "oldSlug": "2026-11",
+  "type": "release-notes",
+  "newPath": "release-notes/2026-11-09-2026-11.md",
+  "newSlug": null
+ }
+]
