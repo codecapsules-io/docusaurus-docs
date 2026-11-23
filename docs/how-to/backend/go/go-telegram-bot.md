@@ -51,7 +51,7 @@ Follow the prompts to choose your region and give your Space a name, then click 
 
 ## Create the Capsule
 
-A [Capsule](/explanation/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
+A [Capsule](/explanation/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 To create a new Capsule for your Space, follow the instructions below:
 

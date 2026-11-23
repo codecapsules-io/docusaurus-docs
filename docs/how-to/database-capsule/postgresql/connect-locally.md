@@ -21,7 +21,7 @@ Use a local connection when you need to:
 
 ## Prerequisites
 
-1. Install and log in to the [Code Capsules CLI](/how-to/cli/readme/getting-started/installation-and-usage/) (`codecaps login`).
+1. Install and log in to the [Code Capsules CLI](/how-to/cli/getting-started/installation-and-usage/) (`codecaps login`).
 2. Install PostgreSQL client tools on your machine (see [Install PostgreSQL client tools](#install-postgresql-client-tools) below).
 
 ## Open a Proxy Tunnel
@@ -35,7 +35,7 @@ codecaps proxy capsule -s <space-slug> -c <capsule-id> -P 5432
 
 3. Leave this terminal open. The tunnel stays active until you stop the process.
 
-See the [proxy command reference](/reference/cli/readme/commands/proxy/) for full options.
+See the [proxy command reference](/reference/cli/commands/proxy/) for full options.
 
 ## Get Credentials
 

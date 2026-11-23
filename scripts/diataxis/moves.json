@@ -199,71 +199,71 @@
   "oldPath": "docs/cli/readme/commands/index.md",
   "oldSlug": "/cli/readme/commands",
   "type": "reference",
-  "newPath": "docs/reference/cli/readme/commands/index.md",
-  "newSlug": "/reference/cli/readme/commands"
+  "newPath": "docs/reference/cli/commands/index.md",
+  "newSlug": "/reference/cli/commands"
  },
  {
   "oldPath": "docs/cli/readme/commands/login.md",
   "oldSlug": "/cli/readme/commands/login",
   "type": "reference",
-  "newPath": "docs/reference/cli/readme/commands/login.md",
-  "newSlug": "/reference/cli/readme/commands/login"
+  "newPath": "docs/reference/cli/commands/login.md",
+  "newSlug": "/reference/cli/commands/login"
  },
  {
   "oldPath": "docs/cli/readme/commands/logout.md",
   "oldSlug": "/cli/readme/commands/logout",
   "type": "reference",
-  "newPath": "docs/reference/cli/readme/commands/logout.md",
-  "newSlug": "/reference/cli/readme/commands/logout"
+  "newPath": "docs/reference/cli/commands/logout.md",
+  "newSlug": "/reference/cli/commands/logout"
  },
  {
   "oldPath": "docs/cli/readme/commands/proxy.md",
   "oldSlug": "/cli/readme/commands/proxy",
   "type": "reference",
-  "newPath": "docs/reference/cli/readme/commands/proxy.md",
-  "newSlug": "/reference/cli/readme/commands/proxy"
+  "newPath": "docs/reference/cli/commands/proxy.md",
+  "newSlug": "/reference/cli/commands/proxy"
  },
  {
   "oldPath": "docs/cli/readme/commands/whoami.md",
   "oldSlug": "/cli/readme/commands/whoami",
   "type": "reference",
-  "newPath": "docs/reference/cli/readme/commands/whoami.md",
-  "newSlug": "/reference/cli/readme/commands/whoami"
+  "newPath": "docs/reference/cli/commands/whoami.md",
+  "newSlug": "/reference/cli/commands/whoami"
  },
  {
   "oldPath": "docs/cli/readme/getting-started/index.md",
   "oldSlug": "/cli/readme/getting-started",
   "type": "how-to",
-  "newPath": "docs/how-to/cli/readme/getting-started/index.md",
-  "newSlug": "/how-to/cli/readme/getting-started"
+  "newPath": "docs/how-to/cli/getting-started/index.md",
+  "newSlug": "/how-to/cli/getting-started"
  },
  {
   "oldPath": "docs/cli/readme/getting-started/installation-and-usage.md",
   "oldSlug": "/cli/readme/getting-started/installation-and-usage",
   "type": "how-to",
-  "newPath": "docs/how-to/cli/readme/getting-started/installation-and-usage.md",
-  "newSlug": "/how-to/cli/readme/getting-started/installation-and-usage"
+  "newPath": "docs/how-to/cli/getting-started/installation-and-usage.md",
+  "newSlug": "/how-to/cli/getting-started/installation-and-usage"
  },
  {
   "oldPath": "docs/cli/readme/getting-started/prerequisites.md",
   "oldSlug": "/cli/readme/getting-started/prerequisites",
   "type": "reference",
-  "newPath": "docs/reference/cli/readme/getting-started/prerequisites.md",
-  "newSlug": "/reference/cli/readme/getting-started/prerequisites"
+  "newPath": "docs/reference/cli/getting-started/prerequisites.md",
+  "newSlug": "/reference/cli/getting-started/prerequisites"
  },
  {
   "oldPath": "docs/cli/readme/getting-started/quick-start.md",
   "oldSlug": "/cli/readme/getting-started/quick-start",
   "type": "tutorial",
-  "newPath": "docs/tutorials/cli/readme/getting-started/quick-start.md",
-  "newSlug": "/tutorials/cli/readme/getting-started/quick-start"
+  "newPath": "docs/tutorials/cli/getting-started/quick-start.md",
+  "newSlug": "/tutorials/cli/getting-started/quick-start"
  },
  {
   "oldPath": "docs/cli/readme/global-options.md",
   "oldSlug": "/cli/readme/global-options",
   "type": "reference",
-  "newPath": "docs/reference/cli/readme/global-options.md",
-  "newSlug": "/reference/cli/readme/global-options"
+  "newPath": "docs/reference/cli/global-options.md",
+  "newSlug": "/reference/cli/global-options"
  },
  {
   "oldPath": "docs/database/index.md",
@@ -500,78 +500,78 @@
   "oldPath": "docs/platform/account/connect-version-control.md",
   "oldSlug": "/platform/account/connect-version-control",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/account/connect-version-control.md",
-  "newSlug": "/how-to/platform/account/connect-version-control"
+  "newPath": "docs/how-to/account/connect-version-control.md",
+  "newSlug": "/how-to/account/connect-version-control"
  },
  {
   "oldPath": "docs/platform/account/how-do-i-add-a-payment-method.md",
   "oldSlug": "/platform/account/how-do-i-add-a-payment-method",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/account/how-do-i-add-a-payment-method.md",
-  "newSlug": "/how-to/platform/account/how-do-i-add-a-payment-method"
+  "newPath": "docs/how-to/account/how-do-i-add-a-payment-method.md",
+  "newSlug": "/how-to/account/how-do-i-add-a-payment-method"
  },
  {
   "oldPath": "docs/platform/account/how-do-i-enable-2fa.md",
   "oldSlug": "/platform/account/how-do-i-enable-2fa",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/account/how-do-i-enable-2fa.md",
-  "newSlug": "/how-to/platform/account/how-do-i-enable-2fa"
+  "newPath": "docs/how-to/account/how-do-i-enable-2fa.md",
+  "newSlug": "/how-to/account/how-do-i-enable-2fa"
  },
  {
   "oldPath": "docs/platform/account/how-do-i-reset-my-password.md",
   "oldSlug": "/platform/account/how-do-i-reset-my-password",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/account/how-do-i-reset-my-password.md",
-  "newSlug": "/how-to/platform/account/how-do-i-reset-my-password"
+  "newPath": "docs/how-to/account/how-do-i-reset-my-password.md",
+  "newSlug": "/how-to/account/how-do-i-reset-my-password"
  },
  {
   "oldPath": "docs/platform/billing/how-do-i-change-my-billing-details.md",
   "oldSlug": "/platform/billing/how-do-i-change-my-billing-details",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/billing/how-do-i-change-my-billing-details.md",
-  "newSlug": "/how-to/platform/billing/how-do-i-change-my-billing-details"
+  "newPath": "docs/how-to/billing/how-do-i-change-my-billing-details.md",
+  "newSlug": "/how-to/billing/how-do-i-change-my-billing-details"
  },
  {
   "oldPath": "docs/platform/billing/how-do-i-view-my-invoices.md",
   "oldSlug": "/platform/billing/how-do-i-view-my-invoices",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/billing/how-do-i-view-my-invoices.md",
-  "newSlug": "/how-to/platform/billing/how-do-i-view-my-invoices"
+  "newPath": "docs/how-to/billing/how-do-i-view-my-invoices.md",
+  "newSlug": "/how-to/billing/how-do-i-view-my-invoices"
  },
  {
   "oldPath": "docs/platform/billing/how-does-the-pricing-work.md",
   "oldSlug": "/platform/billing/how-does-the-pricing-work",
   "type": "reference",
-  "newPath": "docs/reference/platform/billing/how-does-the-pricing-work.md",
-  "newSlug": "/reference/platform/billing/how-does-the-pricing-work"
+  "newPath": "docs/reference/billing/how-does-the-pricing-work.md",
+  "newSlug": "/reference/billing/how-does-the-pricing-work"
  },
  {
   "oldPath": "docs/platform/capsules/health-checks.md",
   "oldSlug": "/platform/capsules/health-checks",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/capsules/health-checks.md",
-  "newSlug": "/how-to/platform/capsules/health-checks"
+  "newPath": "docs/how-to/capsules/health-checks.md",
+  "newSlug": "/how-to/capsules/health-checks"
  },
  {
   "oldPath": "docs/platform/capsules/how-do-i-add-remove-stop-capsules.md",
   "oldSlug": "/platform/capsules/how-do-i-add-remove-stop-capsules",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/capsules/how-do-i-add-remove-stop-capsules.md",
-  "newSlug": "/how-to/platform/capsules/how-do-i-add-remove-stop-capsules"
+  "newPath": "docs/how-to/capsules/how-do-i-add-remove-stop-capsules.md",
+  "newSlug": "/how-to/capsules/how-do-i-add-remove-stop-capsules"
  },
  {
   "oldPath": "docs/platform/capsules/how-to-add-a-custom-domain.md",
   "oldSlug": "/platform/capsules/how-to-add-a-custom-domain",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/capsules/how-to-add-a-custom-domain.md",
-  "newSlug": "/how-to/platform/capsules/how-to-add-a-custom-domain"
+  "newPath": "docs/how-to/capsules/how-to-add-a-custom-domain.md",
+  "newSlug": "/how-to/capsules/how-to-add-a-custom-domain"
  },
  {
   "oldPath": "docs/platform/capsules/what-is-a-capsule.md",
   "oldSlug": "/platform/capsules/what-is-a-capsule",
   "type": "explanation",
-  "newPath": "docs/explanation/platform/capsules/what-is-a-capsule.md",
-  "newSlug": "/explanation/platform/capsules/what-is-a-capsule"
+  "newPath": "docs/explanation/capsules/what-is-a-capsule.md",
+  "newSlug": "/explanation/capsules/what-is-a-capsule"
  },
  {
   "oldPath": "docs/platform/index.md",
@@ -584,64 +584,64 @@
   "oldPath": "docs/platform/platform.md",
   "oldSlug": "/platform/platform",
   "type": "explanation",
-  "newPath": "docs/explanation/platform/platform.md",
-  "newSlug": "/explanation/platform/platform"
+  "newPath": "docs/explanation/platform/overview.md",
+  "newSlug": "/explanation/platform/overview"
  },
  {
   "oldPath": "docs/platform/regions/what-regions-does-code-capsules-support.md",
   "oldSlug": "/platform/regions/what-regions-does-code-capsules-support",
   "type": "reference",
-  "newPath": "docs/reference/platform/regions/what-regions-does-code-capsules-support.md",
-  "newSlug": "/reference/platform/regions/what-regions-does-code-capsules-support"
+  "newPath": "docs/reference/regions/what-regions-does-code-capsules-support.md",
+  "newSlug": "/reference/regions/what-regions-does-code-capsules-support"
  },
  {
   "oldPath": "docs/platform/security/basic-auth.md",
   "oldSlug": "/platform/security/basic-auth",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/security/basic-auth.md",
-  "newSlug": "/how-to/platform/security/basic-auth"
+  "newPath": "docs/how-to/security/basic-auth.md",
+  "newSlug": "/how-to/security/basic-auth"
  },
  {
   "oldPath": "docs/platform/spaces/how-do-i-add-remove-a-space.md",
   "oldSlug": "/platform/spaces/how-do-i-add-remove-a-space",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/spaces/how-do-i-add-remove-a-space.md",
-  "newSlug": "/how-to/platform/spaces/how-do-i-add-remove-a-space"
+  "newPath": "docs/how-to/spaces/how-do-i-add-remove-a-space.md",
+  "newSlug": "/how-to/spaces/how-do-i-add-remove-a-space"
  },
  {
   "oldPath": "docs/platform/spaces/what-is-a-space.md",
   "oldSlug": "/platform/spaces/what-is-a-space",
   "type": "explanation",
-  "newPath": "docs/explanation/platform/spaces/what-is-a-space.md",
-  "newSlug": "/explanation/platform/spaces/what-is-a-space"
+  "newPath": "docs/explanation/spaces/what-is-a-space.md",
+  "newSlug": "/explanation/spaces/what-is-a-space"
  },
  {
   "oldPath": "docs/platform/teams/how-do-i-add-remove-teams.md",
   "oldSlug": "/platform/teams/how-do-i-add-remove-teams",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/teams/how-do-i-add-remove-teams.md",
-  "newSlug": "/how-to/platform/teams/how-do-i-add-remove-teams"
+  "newPath": "docs/how-to/teams/how-do-i-add-remove-teams.md",
+  "newSlug": "/how-to/teams/how-do-i-add-remove-teams"
  },
  {
   "oldPath": "docs/platform/teams/how-do-i-add-team-members.md",
   "oldSlug": "/platform/teams/how-do-i-add-team-members",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/teams/how-do-i-add-team-members.md",
-  "newSlug": "/how-to/platform/teams/how-do-i-add-team-members"
+  "newPath": "docs/how-to/teams/how-do-i-add-team-members.md",
+  "newSlug": "/how-to/teams/how-do-i-add-team-members"
  },
  {
   "oldPath": "docs/platform/teams/share-a-repo-with-a-team.md",
   "oldSlug": "/platform/teams/share-a-repo-with-a-team",
   "type": "how-to",
-  "newPath": "docs/how-to/platform/teams/share-a-repo-with-a-team.md",
-  "newSlug": "/how-to/platform/teams/share-a-repo-with-a-team"
+  "newPath": "docs/how-to/teams/share-a-repo-with-a-team.md",
+  "newSlug": "/how-to/teams/share-a-repo-with-a-team"
  },
  {
   "oldPath": "docs/platform/teams/what-is-a-team.md",
   "oldSlug": "/platform/teams/what-is-a-team",
   "type": "explanation",
-  "newPath": "docs/explanation/platform/teams/what-is-a-team.md",
-  "newSlug": "/explanation/platform/teams/what-is-a-team"
+  "newPath": "docs/explanation/teams/what-is-a-team.md",
+  "newSlug": "/explanation/teams/what-is-a-team"
  },
  {
   "oldPath": "docs/platform/what-is-code-capsules.md",
@@ -871,15 +871,15 @@
   "oldPath": "docs/products/database-capsule/mongodb/versions/upgrades/7-0-to-8-0.md",
   "oldSlug": "/products/database-capsule/mongodb/versions/upgrades/7-0-to-8-0",
   "type": "how-to",
-  "newPath": "docs/how-to/database-capsule/mongodb/versions/upgrades/7-0-to-8-0.md",
-  "newSlug": "/how-to/database-capsule/mongodb/versions/upgrades/7-0-to-8-0"
+  "newPath": "docs/how-to/database-capsule/mongodb/upgrades/7-0-to-8-0.md",
+  "newSlug": "/how-to/database-capsule/mongodb/upgrades/7-0-to-8-0"
  },
  {
   "oldPath": "docs/products/database-capsule/mongodb/versions/upgrades/index.md",
   "oldSlug": "/products/database-capsule/mongodb/versions/upgrades",
   "type": "how-to",
-  "newPath": "docs/how-to/database-capsule/mongodb/versions/upgrades/index.md",
-  "newSlug": "/how-to/database-capsule/mongodb/versions/upgrades"
+  "newPath": "docs/how-to/database-capsule/mongodb/upgrades/index.md",
+  "newSlug": "/how-to/database-capsule/mongodb/upgrades"
  },
  {
   "oldPath": "docs/products/database-capsule/mysql/backups.md",
@@ -948,15 +948,15 @@
   "oldPath": "docs/products/database-capsule/mysql/versions/upgrades/5-7-to-8-0.md",
   "oldSlug": "/products/database-capsule/mysql/versions/upgrades/5-7-to-8-0",
   "type": "how-to",
-  "newPath": "docs/how-to/database-capsule/mysql/versions/upgrades/5-7-to-8-0.md",
-  "newSlug": "/how-to/database-capsule/mysql/versions/upgrades/5-7-to-8-0"
+  "newPath": "docs/how-to/database-capsule/mysql/upgrades/5-7-to-8-0.md",
+  "newSlug": "/how-to/database-capsule/mysql/upgrades/5-7-to-8-0"
  },
  {
   "oldPath": "docs/products/database-capsule/mysql/versions/upgrades/index.md",
   "oldSlug": "/products/database-capsule/mysql/versions/upgrades",
   "type": "how-to",
-  "newPath": "docs/how-to/database-capsule/mysql/versions/upgrades/index.md",
-  "newSlug": "/how-to/database-capsule/mysql/versions/upgrades"
+  "newPath": "docs/how-to/database-capsule/mysql/upgrades/index.md",
+  "newSlug": "/how-to/database-capsule/mysql/upgrades"
  },
  {
   "oldPath": "docs/products/database-capsule/postgresql/backups.md",
@@ -1212,7 +1212,7 @@
  },
  {
   "oldPath": "docs/products/index.md",
-  "oldSlug": "/products",
+  "oldSlug": "'/products'",
   "type": "how-to",
   "newPath": "docs/how-to/products/index.md",
   "newSlug": "/how-to/products"
@@ -1576,63 +1576,63 @@
  },
  {
   "oldPath": "release-notes/2025-08-01-2025-08.md",
-  "oldSlug": "2025-08",
+  "oldSlug": null,
   "type": "release-notes",
   "newPath": "release-notes/2025-08-01-2025-08.md",
   "newSlug": null
  },
  {
   "oldPath": "release-notes/2025-09-01-2025-09.md",
-  "oldSlug": "2025-09",
+  "oldSlug": null,
   "type": "release-notes",
   "newPath": "release-notes/2025-09-01-2025-09.md",
   "newSlug": null
  },
  {
   "oldPath": "release-notes/2025-10-01-2025-10.md",
-  "oldSlug": "2025-10",
+  "oldSlug": null,
   "type": "release-notes",
   "newPath": "release-notes/2025-10-01-2025-10.md",
   "newSlug": null
  },
  {
   "oldPath": "release-notes/2025-11-01-2025-11.md",
-  "oldSlug": "2025-11",
+  "oldSlug": null,
   "type": "release-notes",
   "newPath": "release-notes/2025-11-01-2025-11.md",
   "newSlug": null
  },
  {
   "oldPath": "release-notes/2025-12-01-2025-12.md",
-  "oldSlug": "2025-12",
+  "oldSlug": null,
   "type": "release-notes",
   "newPath": "release-notes/2025-12-01-2025-12.md",
   "newSlug": null
  },
  {
   "oldPath": "release-notes/2026-06-01-2026-06.md",
-  "oldSlug": "2026-06",
+  "oldSlug": null,
   "type": "release-notes",
   "newPath": "release-notes/2026-06-01-2026-06.md",
   "newSlug": null
  },
  {
   "oldPath": "release-notes/2026-09-01-2026-09.md",
-  "oldSlug": "2026-09",
+  "oldSlug": null,
   "type": "release-notes",
   "newPath": "release-notes/2026-09-01-2026-09.md",
   "newSlug": null
  },
  {
   "oldPath": "release-notes/2026-10-01-2026-10.md",
-  "oldSlug": "2026-10",
+  "oldSlug": null,
   "type": "release-notes",
   "newPath": "release-notes/2026-10-01-2026-10.md",
   "newSlug": null
  },
  {
   "oldPath": "release-notes/2026-11-09-2026-11.md",
-  "oldSlug": "2026-11",
+  "oldSlug": null,
   "type": "release-notes",
   "newPath": "release-notes/2026-11-09-2026-11.md",
   "newSlug": null

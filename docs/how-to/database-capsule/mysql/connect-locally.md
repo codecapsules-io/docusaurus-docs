@@ -21,7 +21,7 @@ Use a local connection when you need to:
 
 ## Prerequisites
 
-1. Install and log in to the [Code Capsules CLI](/how-to/cli/readme/getting-started/installation-and-usage/) (`codecaps login`).
+1. Install and log in to the [Code Capsules CLI](/how-to/cli/getting-started/installation-and-usage/) (`codecaps login`).
 2. Install the `mysql` client on your machine (see [Install the mysql client](#install-the-mysql-client) below).
 
 ## Open a Proxy Tunnel
@@ -35,7 +35,7 @@ codecaps proxy capsule -s <space-slug> -c <capsule-id> -P 50001
 
 3. Leave this terminal open. The tunnel stays active until you stop the process.
 
-See the [proxy command reference](/reference/cli/readme/commands/proxy/) for full options.
+See the [proxy command reference](/reference/cli/commands/proxy/) for full options.
 
 ## Get Credentials
 
@@ -87,7 +87,7 @@ To pass the password on the command line (less secure, but useful in scripts):
 mysql -h 127.0.0.1 -P 50001 -u <username> -p'<password>' <database>
 ```
 
-This matches the [proxy command example](/reference/cli/readme/commands/proxy/): host and port point at the tunnel on your machine; username, password, and database come from Connection Details.
+This matches the [proxy command example](/reference/cli/commands/proxy/): host and port point at the tunnel on your machine; username, password, and database come from Connection Details.
 
 :::note
 

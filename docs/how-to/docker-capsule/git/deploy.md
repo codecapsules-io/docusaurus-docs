@@ -18,7 +18,7 @@ Before creating a capsule, make sure you have:
 
 - A [Code Capsules](https://www.codecapsules.io/) account with a Team and Space
 - A repository containing a working `Dockerfile` — see [Prepare your Dockerfile](#prepare-your-dockerfile)
-- Your version control account linked under [Connect Version Control](/how-to/platform/account/connect-version-control/)
+- Your version control account linked under [Connect Version Control](/how-to/account/connect-version-control/)
 
 ## Prepare your Dockerfile
 

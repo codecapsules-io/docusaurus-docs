@@ -18,7 +18,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 
 | Doc | Title |
 |---|---|
-| `docs/tutorials/cli/readme/getting-started/quick-start.md` | CLI Quick Start Guide |
+| `docs/tutorials/cli/getting-started/quick-start.md` | CLI Quick Start Guide |
 | `docs/tutorials/sandbox/quickstart.md` | Sandbox SDK Quick Start |
 | `docs/tutorials/build-a-generative-art-application-with-pillow-flask-and-htmx.md` | Generative Art App with Flask |
 | `docs/tutorials/build-a-mern-job-board.md` | Build a MERN Job Board |
@@ -58,7 +58,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/backend/python/python-telegram-bot.md` | Deploy a Python Telegram Bot from GitHub |
 | `docs/how-to/backend/python/python.md` | How to Deploy a Python Application |
 | `docs/how-to/backend/python/whatsapp-bot.md` | How to Host a WhatsApp Bot in Python |
-| `docs/how-to/cli/readme/getting-started/installation-and-usage.md` | Install and Use the CLI |
+| `docs/how-to/cli/getting-started/installation-and-usage.md` | Install and Use the CLI |
 | `docs/how-to/database/mongodb/django-+-mongodb.md` | Deploy Django with MongoDB |
 | `docs/how-to/database/mongodb/express-+-mongodb.md` | Deploy Express with MongoDB |
 | `docs/how-to/database/mongodb/flask-+-mongodb.md` | Deploy Flask with MongoDB |
@@ -82,20 +82,20 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/full-stack/next.js/next.js-+-mongodb.md` | Deploy Next.js with MongoDB |
 | `docs/how-to/full-stack/next.js/static-file-share-with-flask-and-caddy.md` | Deploy a File-Sharing Site with Flask and Caddy |
 | `docs/how-to/storage-capsule/persistent-storage.md` | How to Use Persistent Storage |
-| `docs/how-to/platform/account/connect-version-control.md` | Connect GitHub or GitLab |
-| `docs/how-to/platform/account/how-do-i-add-a-payment-method.md` | How to Add a Payment Method |
-| `docs/how-to/platform/account/how-do-i-enable-2fa.md` | How to Enable Two-Factor Authentication (2FA) |
-| `docs/how-to/platform/account/how-do-i-reset-my-password.md` | How to Reset Your Password |
-| `docs/how-to/platform/billing/how-do-i-change-my-billing-details.md` | How to Change Billing Details |
-| `docs/how-to/platform/billing/how-do-i-view-my-invoices.md` | How to View Your Invoices |
-| `docs/how-to/platform/capsules/health-checks.md` | How to Configure Health Checks |
-| `docs/how-to/platform/capsules/how-do-i-add-remove-stop-capsules.md` | How to Add, Remove, and Stop Hosted Apps |
-| `docs/how-to/platform/capsules/how-to-add-a-custom-domain.md` | Add a Custom Domain to a Capsule |
-| `docs/how-to/platform/security/basic-auth.md` | Add HTTP Basic Authentication |
-| `docs/how-to/platform/spaces/how-do-i-add-remove-a-space.md` | Add and Remove Spaces |
-| `docs/how-to/platform/teams/how-do-i-add-remove-teams.md` | Add and Remove Teams |
-| `docs/how-to/platform/teams/how-do-i-add-team-members.md` | Add Team Members to a Team |
-| `docs/how-to/platform/teams/share-a-repo-with-a-team.md` | Share a Repo with a Team |
+| `docs/how-to/account/connect-version-control.md` | Connect GitHub or GitLab |
+| `docs/how-to/account/how-do-i-add-a-payment-method.md` | How to Add a Payment Method |
+| `docs/how-to/account/how-do-i-enable-2fa.md` | How to Enable Two-Factor Authentication (2FA) |
+| `docs/how-to/account/how-do-i-reset-my-password.md` | How to Reset Your Password |
+| `docs/how-to/billing/how-do-i-change-my-billing-details.md` | How to Change Billing Details |
+| `docs/how-to/billing/how-do-i-view-my-invoices.md` | How to View Your Invoices |
+| `docs/how-to/capsules/health-checks.md` | How to Configure Health Checks |
+| `docs/how-to/capsules/how-do-i-add-remove-stop-capsules.md` | How to Add, Remove, and Stop Hosted Apps |
+| `docs/how-to/capsules/how-to-add-a-custom-domain.md` | Add a Custom Domain to a Capsule |
+| `docs/how-to/security/basic-auth.md` | Add HTTP Basic Authentication |
+| `docs/how-to/spaces/how-do-i-add-remove-a-space.md` | Add and Remove Spaces |
+| `docs/how-to/teams/how-do-i-add-remove-teams.md` | Add and Remove Teams |
+| `docs/how-to/teams/how-do-i-add-team-members.md` | Add Team Members to a Team |
+| `docs/how-to/teams/share-a-repo-with-a-team.md` | Share a Repo with a Team |
 | `docs/how-to/agent-capsule/chat/index.md` | Add a Chat Interface to an AI Agent |
 | `docs/how-to/agent-capsule/configure.md` | How to Configure an AI Agent |
 | `docs/how-to/agent-capsule/deploy.md` | How to Deploy an AI Agent |
@@ -121,7 +121,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/database-capsule/mongodb/deploy.md` | How to Deploy a MongoDB Database |
 | `docs/how-to/database-capsule/mongodb/monitor.md` | How to Monitor a MongoDB Database |
 | `docs/how-to/database-capsule/mongodb/scale.md` | How to Scale a MongoDB Database |
-| `docs/how-to/database-capsule/mongodb/versions/upgrades/7-0-to-8-0.md` | How to Upgrade MongoDB 7.0 to 8.0 |
+| `docs/how-to/database-capsule/mongodb/upgrades/7-0-to-8-0.md` | How to Upgrade MongoDB 7.0 to 8.0 |
 | `docs/how-to/database-capsule/mysql/backups.md` | How to Back Up a MySQL Database |
 | `docs/how-to/database-capsule/mysql/configure.md` | How to Configure a MySQL Database |
 | `docs/how-to/database-capsule/mysql/connect-locally.md` | How to Connect to MySQL Locally |
@@ -130,7 +130,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/database-capsule/mysql/monitor.md` | How to Monitor a MySQL Database |
 | `docs/how-to/database-capsule/mysql/scale.md` | How to Scale a MySQL Database |
 | `docs/how-to/database-capsule/mysql/schema-migrations.md` | How to Run Database Migrations |
-| `docs/how-to/database-capsule/mysql/versions/upgrades/5-7-to-8-0.md` | How to Upgrade MySQL 5.7 to 8.0 |
+| `docs/how-to/database-capsule/mysql/upgrades/5-7-to-8-0.md` | How to Upgrade MySQL 5.7 to 8.0 |
 | `docs/how-to/database-capsule/postgresql/backups.md` | How to Back Up a PostgreSQL Database |
 | `docs/how-to/database-capsule/postgresql/configure.md` | How to Configure a PostgreSQL Database |
 | `docs/how-to/database-capsule/postgresql/connect-locally.md` | How to Connect to PostgreSQL Locally |
@@ -189,14 +189,14 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 
 | Doc | Title |
 |---|---|
-| `docs/reference/cli/readme/commands/login.md` | Log In With the CLI (login command) |
-| `docs/reference/cli/readme/commands/logout.md` | Log Out With the CLI (logout command) |
-| `docs/reference/cli/readme/commands/proxy.md` | Proxy a Database Connection With the CLI |
-| `docs/reference/cli/readme/commands/whoami.md` | Check Your CLI Session (whoami command) |
-| `docs/reference/cli/readme/getting-started/prerequisites.md` | CLI Prerequisites & Requirements |
-| `docs/reference/cli/readme/global-options.md` | CLI Global Options Reference |
-| `docs/reference/platform/billing/how-does-the-pricing-work.md` | How Does the Pricing Work? |
-| `docs/reference/platform/regions/what-regions-does-code-capsules-support.md` | Available Regions and Locations |
+| `docs/reference/cli/commands/login.md` | Log In With the CLI (login command) |
+| `docs/reference/cli/commands/logout.md` | Log Out With the CLI (logout command) |
+| `docs/reference/cli/commands/proxy.md` | Proxy a Database Connection With the CLI |
+| `docs/reference/cli/commands/whoami.md` | Check Your CLI Session (whoami command) |
+| `docs/reference/cli/getting-started/prerequisites.md` | CLI Prerequisites & Requirements |
+| `docs/reference/cli/global-options.md` | CLI Global Options Reference |
+| `docs/reference/billing/how-does-the-pricing-work.md` | How Does the Pricing Work? |
+| `docs/reference/regions/what-regions-does-code-capsules-support.md` | Available Regions and Locations |
 | `docs/reference/agent-capsule/chat/agent-api-sample.mdx` | Agent API (Sample) |
 | `docs/reference/backend-capsule/supported-runtimes.md` | Supported Backend Runtimes and Versions |
 | `docs/reference/database-capsule/mongodb/versions.md` | Supported MongoDB Versions |
@@ -218,10 +218,10 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/explanation/agentic-automation/index.md` | Agentic Automation for Business Processes |
 | `docs/explanation/agentic-automation/the-framework.md` | The Agentic Automation Framework |
 | `docs/explanation/agentic-automation/the-problem.md` | Why Business Automation Fails at Scale |
-| `docs/explanation/platform/capsules/what-is-a-capsule.md` | Hosting Environments (Containers) Explained |
-| `docs/explanation/platform/platform.md` | Platform Overview |
-| `docs/explanation/platform/spaces/what-is-a-space.md` | What Is a Space? |
-| `docs/explanation/platform/teams/what-is-a-team.md` | What Is a Team? |
+| `docs/explanation/capsules/what-is-a-capsule.md` | Hosting Environments (Containers) Explained |
+| `docs/explanation/platform/overview.md` | Platform Overview |
+| `docs/explanation/spaces/what-is-a-space.md` | What Is a Space? |
+| `docs/explanation/teams/what-is-a-team.md` | What Is a Team? |
 | `docs/explanation/platform/what-is-code-capsules.md` | What Is Code Capsules? PaaS Overview |
 | `docs/explanation/storage-capsule/how-state-works.md` | How Persistent Storage State Works |
 | `docs/explanation/guides/best-practices-for-structuring-mean-mern-mevn-projects.md` | MEAN/MERN/MEVN Project Structure |
@@ -237,8 +237,8 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/backend/node.js/index.md` | Node.js Application Hosting |
 | `docs/how-to/backend/python/index.md` | Python Application Hosting |
 | `docs/reference/cli/index.md` | CLI Overview and Commands |
-| `docs/reference/cli/readme/commands/index.md` | CLI Commands Reference |
-| `docs/how-to/cli/readme/getting-started/index.md` | Getting Started With the CLI |
+| `docs/reference/cli/commands/index.md` | CLI Commands Reference |
+| `docs/how-to/cli/getting-started/index.md` | Getting Started With the CLI |
 | `docs/how-to/database/index.md` | Managed Database Hosting — MySQL, MongoDB, Postgres & Redis |
 | `docs/how-to/frontend/index.md` | Frontend & Static Site Hosting |
 | `docs/how-to/full-stack/index.md` | Full-Stack Application Hosting |
@@ -248,8 +248,8 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/backend-capsule/deploy.md` | How to Deploy a Backend Application |
 | `docs/how-to/backend-capsule/index.md` | Backend Application Hosting |
 | `docs/how-to/database-capsule/index.md` | Managed Database Hosting |
-| `docs/how-to/database-capsule/mongodb/versions/upgrades/index.md` | How to Upgrade MongoDB Versions |
-| `docs/how-to/database-capsule/mysql/versions/upgrades/index.md` | How to Upgrade MySQL Versions |
+| `docs/how-to/database-capsule/mongodb/upgrades/index.md` | How to Upgrade MongoDB Versions |
+| `docs/how-to/database-capsule/mysql/upgrades/index.md` | How to Upgrade MySQL Versions |
 | `docs/how-to/docker-capsule/index.md` | Docker Container Hosting |
 | `docs/how-to/frontend-capsule/deploy.md` | Frontend Framework Deployment Guides |
 | `docs/how-to/frontend-capsule/index.md` | Frontend App Hosting |

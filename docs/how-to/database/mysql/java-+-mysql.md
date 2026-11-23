@@ -19,7 +19,7 @@ Sign in to GitHub, and fork the example application by clicking **Fork** at the 
 
 ## Create the Capsules
 
-A [Capsule](/explanation/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
+A [Capsule](/explanation/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 Navigate to the Spaces tab and open the Space you'll be using.
 

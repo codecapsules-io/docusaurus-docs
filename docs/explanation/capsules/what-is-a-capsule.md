@@ -1,0 +1,26 @@
+---
+slug: "/explanation/capsules/what-is-a-capsule"
+diataxis: explanation
+description: "A Capsule is the deployable unit on Code Capsules: a container for your app, database, or storage. Learn how Capsules work."
+title: "Hosting Environments (Containers) Explained"
+sidebar_label: "What Is a Capsule?"
+---
+
+# What Is a Capsule?
+
+![Teams contain Spaces and Spaces contain Capsules](/gitbook-assets/platform/teamspacecapsule.png)
+
+[Teams](/explanation/teams/what-is-a-team/), [Spaces](/explanation/spaces/what-is-a-space/), and Capsules form the foundation of [Code Capsules](https://www.codecapsules.io/).
+
+**Capsules** provide the computational power to run your applications.
+
+While Teams and Spaces are organizational tools, Capsules are where the actual build and deployment happen. They connect to your GitHub repositories and host your applications. Capsules can run both frontend and backend applications.
+
+When a Capsule is created, it automatically builds and deploys. The exception is a Docker Capsule deployed from a container image, which you deploy by clicking **Pull & Deploy** on the **Deploy** tab — see [Deploy a Docker Capsule](/how-to/docker-capsule/image/deploy/). You can monitor the build process by:
+
+* Navigating to the **Logs** tab, or
+* Clicking **View build log** under the **Build and Deploy** tab
+
+When a Capsule is deployed, an HTTPS subdomain is generated for it. Find the subdomain in the **Config** tab. Click the subdomain to open the link in a new tab.
+
+Turn off a Capsule by toggling the switch at the top right of the **Capsule Details** view (next to **Live Website**).

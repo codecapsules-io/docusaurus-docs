@@ -50,7 +50,7 @@ Major version upgrades must follow a single step at a time. You cannot downgrade
 
 | From   | To      | Allowed                                      | Guide                                                                          |
 | ------ | ------- | -------------------------------------------- | ------------------------------------------------------------------------------ |
-| 7.0    | 8.0     | Yes                                          | [7.0 to 8.0](/how-to/database-capsule/mongodb/versions/upgrades/7-0-to-8-0/) |
+| 7.0    | 8.0     | Yes                                          | [7.0 to 8.0](/how-to/database-capsule/mongodb/upgrades/7-0-to-8-0/) |
 | 8.0    | latest  | Yes                                          | —                                                                              |
 | latest | —       | Auto-upgraded when new versions are released | —                                                                              |
 | Any    | Earlier | No — downgrades are not supported            | —                                                                              |
@@ -59,7 +59,7 @@ Major version upgrades must follow a single step at a time. You cannot downgrade
 
 1. **Take a backup.** Create a [manual backup](/how-to/database-capsule/mongodb/backups/) before changing the MongoDB version. Major upgrades are difficult to reverse.
 2. **Plan for brief disruption.** Code Capsules applies the new version on MongoDB Atlas while your capsule status shows **Updating**. Your applications may experience short connection interruptions during the rollout.
-3. **Follow the upgrade guide for your target version.** See [7.0 to 8.0](/how-to/database-capsule/mongodb/versions/upgrades/7-0-to-8-0/) when upgrading from MongoDB 7.0.
+3. **Follow the upgrade guide for your target version.** See [7.0 to 8.0](/how-to/database-capsule/mongodb/upgrades/7-0-to-8-0/) when upgrading from MongoDB 7.0.
 
 ## Change the MongoDB Version
 

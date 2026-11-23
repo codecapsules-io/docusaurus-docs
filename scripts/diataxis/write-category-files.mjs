@@ -12,7 +12,6 @@ const LABELS = {
   documentdb: 'DocumentDB',
   'wordpress-capsule': 'WordPress Capsule',
   cli: 'CLI',
-  readme: 'CLI Docs',
   'full-stack': 'Full-Stack',
   typescript: 'TypeScript',
 };

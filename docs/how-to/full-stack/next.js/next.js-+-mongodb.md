@@ -32,7 +32,7 @@ Follow the prompts, choosing your region and giving your Space a name, then clic
 
 ## Create the Capsule
 
-A [Capsule](/explanation/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
+A [Capsule](/explanation/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 Navigate to the **Capsules** tab. Once there, click the yellow `+` icon on the bottom left of the screen to add a new Capsule.
 

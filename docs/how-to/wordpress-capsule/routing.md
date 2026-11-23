@@ -75,7 +75,7 @@ XML and text files (`sitemap.xml`, `robots.txt`) are served with a 1-hour cache 
 
 ## Domain and Subdomain Routing
 
-WordPress Capsules support custom domains and subdomains. To configure a custom domain, see [How to Add a Custom Domain](/how-to/platform/capsules/how-to-add-a-custom-domain/).
+WordPress Capsules support custom domains and subdomains. To configure a custom domain, see [How to Add a Custom Domain](/how-to/capsules/how-to-add-a-custom-domain/).
 
 WordPress must be told its own URL. This is configured automatically via the `APP_URL` environment variable, which is injected by the platform. You can verify the current value in the **Config** tab.
 

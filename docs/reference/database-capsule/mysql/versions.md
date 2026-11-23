@@ -43,11 +43,11 @@ Major version upgrades must follow a single step at a time. You cannot downgrade
 
 | From | To  | Allowed                           | Guide                                                                        |
 | ---- | --- | --------------------------------- | ---------------------------------------------------------------------------- |
-| 5.7  | 8.0 | Yes                               | [5.7 to 8.0](/how-to/database-capsule/mysql/versions/upgrades/5-7-to-8-0/) |
+| 5.7  | 8.0 | Yes                               | [5.7 to 8.0](/how-to/database-capsule/mysql/upgrades/5-7-to-8-0/) |
 | 8.0  | 5.7 | No — downgrades are not supported | —                                                                            |
 
 ## Upgrade Guides
 
-- [5.7 to 8.0](/how-to/database-capsule/mysql/versions/upgrades/5-7-to-8-0/)
+- [5.7 to 8.0](/how-to/database-capsule/mysql/upgrades/5-7-to-8-0/)
 
 See [MySQL Versions](/reference/database-capsule/mysql/versions/) for supported versions and general upgrade requirements.

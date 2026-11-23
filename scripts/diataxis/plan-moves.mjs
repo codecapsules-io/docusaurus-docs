@@ -9,7 +9,13 @@ const FOLDER = {tutorial: 'tutorials', 'how-to': 'how-to', reference: 'reference
 const OVERRIDES = {
   'docs/wordpress.md': 'wordpress-capsule/managed-wordpress.md',
   'docs/persistent-storage.md': 'storage-capsule/persistent-storage.md',
+  'docs/platform/platform.md': 'platform/overview.md',
 };
+
+function tidy(rest) {
+  rest = rest.replace(/^products\//, '').replace(/(^|\/)readme\//, '$1').replace(/\/versions\/upgrades\//, '/upgrades/');
+  return rest.startsWith('platform/') && rest.split('/').length >= 3 ? rest.slice('platform/'.length) : rest;
+}
 
 export function loadLabels(diataxisMd) {
   const labels = new Map();
@@ -62,7 +68,7 @@ export function newLocation(oldPath, type) {
   else if (oldPath.startsWith('docs/tutorials/')) {
     const file = oldPath.slice('docs/tutorials/'.length);
     rest = type === 'tutorial' ? null : `guides/${file}`;
-  } else rest = oldPath.slice('docs/'.length).replace(/^products\//, '');
+  } else rest = tidy(oldPath.slice('docs/'.length));
   const newPath = rest === null ? oldPath : `docs/${FOLDER[type]}/${rest}`;
   return {newPath, newSlug: slugOf(newPath)};
 }

@@ -28,7 +28,7 @@ If you've just signed up for an account, you'll be directed to a welcome page on
 
 Alternatively, if you're signing in again, click on the **Spaces** tab.
 
-Code Capsules gives every account a Personal Team by default. A Team is an environment for you to manage your Spaces and Capsules. For a better understanding of Teams, Spaces, and Capsules, take a look at [our explanation](/explanation/platform/platform/).
+Code Capsules gives every account a Personal Team by default. A Team is an environment for you to manage your Spaces and Capsules. For a better understanding of Teams, Spaces, and Capsules, take a look at [our explanation](/explanation/platform/overview/).
 
 ## Create a Space for Your App
 

@@ -18,7 +18,7 @@ Before creating a capsule, make sure you have:
 
 - A [Code Capsules](https://www.codecapsules.io/) account with a Team and Space
 - A repository with a site that builds to a folder of static files, or that already contains your `index.html`
-- Your version control account linked under [Connect Version Control](/how-to/platform/account/connect-version-control/)
+- Your version control account linked under [Connect Version Control](/how-to/account/connect-version-control/)
 - For the **Paid** plan, a payment method on your Team. The **Free** plan doesn't need one.
 
 ## Prepare your project

@@ -48,7 +48,7 @@ A health check tells Code Capsules when your site is ready for traffic, and rest
 
 Saving redeploys the capsule. With the health check **Off**, Code Capsules only checks that port `80` accepts connections.
 
-See [Health checks](/how-to/platform/capsules/health-checks/) for each setting, how failing replicas are handled, and which endpoint to choose.
+See [Health checks](/how-to/capsules/health-checks/) for each setting, how failing replicas are handled, and which endpoint to choose.
 
 ---
 

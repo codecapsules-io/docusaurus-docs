@@ -77,4 +77,4 @@ You can't move a Paid capsule back to Free. To use the Free plan again, create a
 
 - [Deploy with Static hosting](/how-to/frontend-capsule/static/deploy/)
 - [Container hosting](/how-to/frontend-capsule/container/deploy/): if you want runtime logs, metrics, or scaling
-- [How pricing works](/reference/platform/billing/how-does-the-pricing-work/)
+- [How pricing works](/reference/billing/how-does-the-pricing-work/)

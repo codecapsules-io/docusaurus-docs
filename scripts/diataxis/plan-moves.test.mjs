@@ -43,6 +43,32 @@ test('newLocation: root files are overridden', () => {
   assert.equal(newLocation('docs/persistent-storage.md', 'how-to').newPath, 'docs/how-to/storage-capsule/persistent-storage.md');
 });
 
+test('newLocation: the GitBook readme folder is dropped', () => {
+  assert.equal(newLocation('docs/cli/readme/commands/login.md', 'reference').newPath, 'docs/reference/cli/commands/login.md');
+  assert.equal(newLocation('docs/cli/readme/getting-started/quick-start.md', 'tutorial').newPath, 'docs/tutorials/cli/getting-started/quick-start.md');
+  assert.equal(newLocation('docs/cli/readme/global-options.md', 'reference').newSlug, '/reference/cli/global-options');
+});
+
+test('newLocation: versions/upgrades collapses to upgrades, versions.md is untouched', () => {
+  assert.equal(
+    newLocation('docs/products/database-capsule/mongodb/versions/upgrades/7-0-to-8-0.md', 'how-to').newPath,
+    'docs/how-to/database-capsule/mongodb/upgrades/7-0-to-8-0.md',
+  );
+  assert.equal(
+    newLocation('docs/products/database-capsule/mysql/versions/upgrades/index.md', 'how-to').newSlug,
+    '/how-to/database-capsule/mysql/upgrades',
+  );
+  assert.equal(newLocation('docs/products/database-capsule/mongodb/versions.md', 'reference').newPath, 'docs/reference/database-capsule/mongodb/versions.md');
+});
+
+test('newLocation: the platform/ wrapper is dropped for its areas, kept for the section hub and overview pages', () => {
+  assert.equal(newLocation('docs/platform/teams/how-do-i-add-team-members.md', 'how-to').newPath, 'docs/how-to/teams/how-do-i-add-team-members.md');
+  assert.equal(newLocation('docs/platform/billing/how-does-the-pricing-work.md', 'reference').newPath, 'docs/reference/billing/how-does-the-pricing-work.md');
+  assert.equal(newLocation('docs/platform/index.md', 'how-to').newPath, 'docs/how-to/platform/index.md');
+  assert.equal(newLocation('docs/platform/platform.md', 'explanation').newPath, 'docs/explanation/platform/overview.md');
+  assert.equal(newLocation('docs/platform/what-is-code-capsules.md', 'explanation').newPath, 'docs/explanation/platform/what-is-code-capsules.md');
+});
+
 test('newLocation: docs/index.md and release notes do not move', () => {
   assert.deepEqual(newLocation('docs/index.md', 'how-to'), {newPath: 'docs/index.md', newSlug: '/'});
   assert.equal(newLocation('release-notes/2025-08-01-2025-08.md', 'release-notes').newPath, 'release-notes/2025-08-01-2025-08.md');

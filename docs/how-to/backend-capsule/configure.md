@@ -70,7 +70,7 @@ A health check tells Code Capsules when your app is ready for traffic, and resta
 3. Enter the **Endpoint** your app responds to, for example `/health`. With **Manual**, also set **Timeout (seconds)** and **Time to First Check (seconds)**.
 4. Click **Save**, then confirm.
 
-See [Health checks](/how-to/platform/capsules/health-checks/) for each setting, how failing replicas are handled, and how to write a good endpoint.
+See [Health checks](/how-to/capsules/health-checks/) for each setting, how failing replicas are handled, and how to write a good endpoint.
 
 ## Set Environment Variables
 

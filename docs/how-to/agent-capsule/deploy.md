@@ -16,7 +16,7 @@ To follow this guide, you'll need a [Code Capsules](https://www.codecapsules.io/
 
 ## Create an Account with Code Capsules
 
-Before creating your Agent Capsule, you'll need a Team and a Space. You can follow these guides to learn how to create [Teams](/explanation/platform/teams/what-is-a-team/) and [Spaces](/explanation/platform/spaces/what-is-a-space/).
+Before creating your Agent Capsule, you'll need a Team and a Space. You can follow these guides to learn how to create [Teams](/explanation/teams/what-is-a-team/) and [Spaces](/explanation/spaces/what-is-a-space/).
 
 If you already have a Team and Space set up, log in to your Code Capsules account. On the dashboard, click the yellow `+` on the bottom left of the screen then click "New Capsule".
 
@@ -24,7 +24,7 @@ If you already have a Team and Space set up, log in to your Code Capsules accoun
 
 ## Create the Capsule
 
-A [Capsule](/explanation/platform/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
+A [Capsule](/explanation/capsules/what-is-a-capsule/) provides the server for hosting an application on Code Capsules.
 
 To create an Agent Capsule first choose "AI Agent" as the Capsule type, as well as your Team, and Space.
 
