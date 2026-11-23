@@ -2,31 +2,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-const redirects = [
-  {from: ['/platform/readme'], to: '/release-notes/'},
-  {from: ['/readme'], to: '/'},
-  {from: ['/cli/readme'], to: '/cli/'},
-  {from: ['/products/database-capsule/overview'], to: '/products/database-capsule/'},
-  {from: ['/products/database-capsule/configure'], to: '/products/database-capsule/'},
-  {from: ['/products/database-capsule/mysql-versions'], to: '/products/database-capsule/mysql/versions'},
-  {from: ['/products/database-capsule/migrations'], to: '/products/database-capsule/mysql/schema-migrations'},
-  {from: ['/products/database-capsule/mysql/migrations'], to: '/products/database-capsule/mysql/schema-migrations'},
-  {from: ['/products/database-capsule/mysql/versions/migrations'], to: '/products/database-capsule/mysql/versions/upgrades'},
-  {from: ['/products/database-capsule/mysql/versions/migrations/5-7-to-8-0'], to: '/products/database-capsule/mysql/versions/upgrades/5-7-to-8-0'},
-  {from: ['/products/database-capsule/mysql/versions/migrations/8-0-to-8-4'], to: '/products/database-capsule/mysql/versions/upgrades'},
-  {from: ['/products/database-capsule/mysql/versions/upgrades/8-0-to-8-4'], to: '/products/database-capsule/mysql/versions/upgrades'},
-  {from: ['/products/database-capsule/scale'], to: '/products/database-capsule/'},
-  {from: ['/products/database-capsule/backups'], to: '/products/database-capsule/'},
-  {from: ['/products/database-capsule/monitor'], to: '/products/database-capsule/'},
-  {from: ['/products/database-capsule/logs'], to: '/products/database-capsule/'},
-  // CCM-62: consolidated 6 duplicate alerting pages into /products/alerting.
-  {from: ['/products/alerting-1'], to: '/products/alerting'},
-  {from: ['/products/agent-capsule/alerting'], to: '/products/alerting'},
-  {from: ['/products/backend-capsule/alerting'], to: '/products/alerting'},
-  {from: ['/products/storage-capsule/alerting'], to: '/products/alerting'},
-  {from: ['/products/wordpress-capsule/alerting'], to: '/products/alerting'},
-];
-
 const url = process.env.DOCUSAURUS_URL || 'http://localhost';
 const baseUrl = process.env.DOCUSAURUS_BASE_URL || '/';
 
@@ -214,12 +189,6 @@ const config: Config = {
         explicitSearchResultPath: true,
       },
     ],
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects,
-      },
-    ],
   ],
 
   themeConfig: {
@@ -238,19 +207,11 @@ const config: Config = {
         target: '_self',
       },
       items: [
-        {
-          to: '/',
-          position: 'left',
-          label: 'Get Started',
-          activeBaseRegex: '^(/|/frontend|/backend|/database|/full-stack|/persistent-storage|/wordpress)(/|$)',
-        },
-        {to: '/platform/', label: 'Platform', position: 'left'},
-        {to: '/products/', label: 'Products', position: 'left'},
-        {to: '/tutorials/', label: 'Tutorials', position: 'left'},
-        {to: '/agentic-automation/', label: 'Agentic Automation', position: 'left'},
-        {to: '/sandbox/', label: 'Sandbox', position: 'left'},
-        {to: '/enterprise/', label: 'Enterprise', position: 'left'},
-        {to: '/cli/', label: 'CLI', position: 'left'},
+        {to: '/', position: 'left', label: 'Get Started', activeBaseRegex: '^/$'},
+        {type: 'docSidebar', sidebarId: 'tutorials', label: 'Tutorials', position: 'left'},
+        {type: 'docSidebar', sidebarId: 'howTo', label: 'How-to guides', position: 'left'},
+        {type: 'docSidebar', sidebarId: 'reference', label: 'Reference', position: 'left'},
+        {type: 'docSidebar', sidebarId: 'explanation', label: 'Explanation', position: 'left'},
         {type: 'search', position: 'right'},
         {to: '/release-notes/', label: "What's new", position: 'right', className: 'navbar-internal'},
         {
