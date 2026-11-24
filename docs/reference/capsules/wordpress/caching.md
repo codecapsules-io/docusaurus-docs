@@ -8,8 +8,6 @@ sidebar_label: "Caching"
 
 # WordPress Cache Reference
 
-# Speed Up WordPress With Caching
-
 WordPress Capsules include a built-in **FastCGI full-page cache** that stores rendered HTML responses and serves them to subsequent anonymous visitors without hitting PHP or the database. This dramatically reduces response times and allows your site to handle traffic spikes that would otherwise overwhelm the PHP worker pool.
 
 The cache is **disabled by default**. Enable it by setting `CACHE_TTL_SECONDS`.
