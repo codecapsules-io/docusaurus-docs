@@ -12,10 +12,11 @@ function split(target) {
 
 // Returns the new target, null to leave the link alone, or undefined when an
 // internal link matches no doc.
-export function buildResolver(moves) {
+export function buildResolver(moves, extraSlugs = []) {
   const bySlug = new Map();
   const byNewSlug = new Set();
   const byPath = new Map();
+  for (const slug of extraSlugs) byNewSlug.add(slug);
   for (const m of moves) {
     if (m.oldSlug) bySlug.set(m.oldSlug, m.newSlug);
     if (m.newSlug) byNewSlug.add(m.newSlug);
@@ -101,7 +102,12 @@ async function* walk(dir, exts) {
 async function main() {
   const root = process.cwd();
   const moves = JSON.parse(await fs.readFile(path.join(root, 'scripts/diataxis/moves.json'), 'utf8'));
-  const resolve = buildResolver(moves);
+  const live = [];
+  for await (const f of walk(path.join(root, 'docs'), /\.mdx?$/)) {
+    const m = /^slug:\s*"?([^"\n]+)"?\s*$/m.exec(await fs.readFile(f, 'utf8'));
+    if (m) live.push(m[1]);
+  }
+  const resolve = buildResolver(moves, live);
   const oldOf = new Map(moves.map((m) => [m.newPath, m.oldPath]));
   const scopes = [['docs', /\.mdx?$/], ['release-notes', /\.mdx?$/], ['src', /\.(mdx?|tsx?|jsx?)$/], ['static', /\.html$/]];
   let files = 0;

@@ -96,7 +96,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/teams/how-do-i-add-remove-teams.md` | Add and Remove Teams |
 | `docs/how-to/teams/how-do-i-add-team-members.md` | Add Team Members to a Team |
 | `docs/how-to/teams/share-a-repo-with-a-team.md` | Share a Repo with a Team |
-| `docs/how-to/capsules/agent/chat.md` | Add a Chat Interface to an AI Agent |
+| `docs/reference/capsules/agent/chat-api.md` | Add a Chat Interface to an AI Agent |
 | `docs/how-to/capsules/agent/configure.md` | How to Configure an AI Agent |
 | `docs/how-to/capsules/agent/deploy.md` | How to Deploy an AI Agent |
 | `docs/how-to/capsules/agent/logs.md` | How to View Logs for an AI Agent |

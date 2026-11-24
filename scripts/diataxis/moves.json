@@ -660,9 +660,9 @@
  {
   "oldPath": "docs/products/agent-capsule/chat/index.md",
   "oldSlug": "/products/agent-capsule/chat",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/agent/chat.md",
-  "newSlug": "/how-to/capsules/agent/chat"
+  "type": "reference",
+  "newPath": "docs/reference/capsules/agent/chat-api.md",
+  "newSlug": "/reference/capsules/agent/chat-api"
  },
  {
   "oldPath": "docs/products/agent-capsule/configure.md",

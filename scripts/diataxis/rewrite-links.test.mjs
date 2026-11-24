@@ -65,6 +65,13 @@ test('reports an unresolved internal link and leaves the text unchanged', () => 
   assert.equal(r.text, '[a](./does-not-exist) and [b](/nope/nothing)');
 });
 
+test('links to pages that exist outside the move map (for example split pages) are left alone, not reported', () => {
+  const live = buildResolver(moves, ['/reference/capsules/health-checks', '/explanation/guides/x']);
+  const r = rewriteLinks('[a](/reference/capsules/health-checks/#check-interval) [b](/explanation/guides/x)', 'docs/other.md', live);
+  assert.equal(r.text, '[a](/reference/capsules/health-checks/#check-interval) [b](/explanation/guides/x)');
+  assert.deepEqual(r.unresolved, []);
+});
+
 test('is idempotent', () => {
   const once = rw('[a](/frontend/react/#x) [b](/)').text;
   assert.equal(rw(once).text, once);

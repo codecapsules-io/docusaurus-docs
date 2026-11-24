@@ -1,9 +1,9 @@
 ---
-slug: "/how-to/capsules/agent/chat"
-diataxis: how-to
+slug: "/reference/capsules/agent/chat-api"
+diataxis: reference
 description: "Code Capsules provides an integrated chat window for Agent Capsules. In order for this to be fully functional, there are a few endpoints which the API..."
-title: "Add a Chat Interface to an AI Agent"
-sidebar_label: "Chat"
+title: "Agent Chat API Requirements"
+sidebar_label: "Chat API"
 ---
 
 # Give Your AI Agent a Chat Interface

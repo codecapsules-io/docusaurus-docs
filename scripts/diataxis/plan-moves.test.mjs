@@ -121,7 +121,7 @@ test('newLocation: one-page folders and the loose alerting page are tidied', () 
   assert.equal(newLocation('docs/products/frontend-capsule/static/deploy.md', 'how-to').newPath, 'docs/how-to/capsules/frontend/deploy-static.md');
   assert.equal(newLocation('docs/products/frontend-capsule/static/plans.md', 'reference').newPath, 'docs/reference/capsules/frontend/static-plans.md');
   assert.equal(newLocation('docs/products/agent-capsule/chat/agent-api-sample.mdx', 'reference').newPath, 'docs/reference/capsules/agent/agent-api-sample.mdx');
-  assert.equal(newLocation('docs/products/agent-capsule/chat/index.md', 'how-to').newPath, 'docs/how-to/capsules/agent/chat.md');
+  assert.equal(newLocation('docs/products/agent-capsule/chat/index.md', 'reference').newPath, 'docs/reference/capsules/agent/chat-api.md');
 });
 
 test('resolveType: link-only hubs become type index', () => {
@@ -143,7 +143,7 @@ test('newLocation: index.md with real content becomes overview.md; a sole index 
   assert.equal(newLocation('docs/agentic-automation/index.md', 'explanation').newSlug, '/explanation/agentic-automation/overview');
   assert.equal(newLocation('docs/cli/readme/commands/index.md', 'reference').newPath, 'docs/reference/cli/commands/overview.md');
   assert.equal(newLocation('docs/sandbox/python/index.md', 'reference').newPath, 'docs/reference/sandbox/python/overview.md');
-  assert.equal(newLocation('docs/products/agent-capsule/chat/index.md', 'how-to').newPath, 'docs/how-to/capsules/agent/chat.md');
+  assert.equal(newLocation('docs/products/agent-capsule/chat/index.md', 'reference').newPath, 'docs/reference/capsules/agent/chat-api.md');
 });
 
 test('newLocation: tutorials get short <thing>-<stack> names', () => {
@@ -170,6 +170,11 @@ test('newLocation: tutorials get short <thing>-<stack> names', () => {
   assert.equal(new Set(Object.values(names)).size, 15);
   assert.equal(newLocation('docs/tutorials/video-guides.md', 'tutorial').newPath, 'docs/tutorials/video-guides.md');
   assert.equal(newLocation('docs/tutorials/heroku-migration-guide.md', 'how-to').newPath, 'docs/how-to/guides/heroku-migration-guide.md');
+});
+
+test('resolveType: the agent chat page is an API contract, so reference', () => {
+  const labels = new Map([['docs/products/agent-capsule/chat/index.md', 'how-to']]);
+  assert.equal(resolveType('docs/products/agent-capsule/chat/index.md', labels), 'reference');
 });
 
 test('newLocation: platform capsule pages share the capsules/ folder', () => {
