@@ -51,5 +51,22 @@
    "docs/how-to/guides/nuxt3-and-nitro.md",
    "docs/explanation/guides/nuxt3-and-nitro.md"
   ]
+ },
+ {
+  "from": "docs/products/wordpress-capsule/routing.md",
+  "parts": [
+   "docs/how-to/capsules/wordpress/routing.md",
+   "docs/explanation/capsules/wordpress/routing.md"
+  ],
+  "allow": [
+   "This page explains how HTTP traffic flows through a WordPress Capsule and how to customise routing for advanced use cases."
+  ]
+ },
+ {
+  "from": "docs/products/wordpress-capsule/cron.md",
+  "parts": [
+   "docs/how-to/capsules/wordpress/cron.md",
+   "docs/explanation/capsules/wordpress/cron.md"
+  ]
  }
 ]

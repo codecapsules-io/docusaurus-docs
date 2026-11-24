@@ -34,8 +34,8 @@ const lineSet = (text) =>
     .filter(Boolean);
 
 // Every non-empty line of the original must appear in one of the split parts.
-export function checkSplit(before, parts) {
-  const have = new Set(parts.flatMap(lineSet));
+export function checkSplit(before, parts, allow = []) {
+  const have = new Set([...parts.flatMap(lineSet), ...allow.map((l) => l.replace(/^#+\s*/, '').replace(/\s+/g, ' ').trim())]);
   return lineSet(before).filter((l) => !have.has(l));
 }
 
@@ -98,7 +98,7 @@ async function main() {
   for (const sp of splits) {
     const before = execFileSync('git', ['show', `${sha}:${sp.from}`], {cwd: root, encoding: 'utf8', maxBuffer: 1 << 26});
     const parts = sp.parts.map((p) => current.find((c) => c.path === p)?.text ?? '');
-    for (const line of checkSplit(before, parts)) errors.push(`${sp.from}: line lost in split: ${line.slice(0, 80)}`);
+    for (const line of checkSplit(before, parts, sp.allow ?? [])) errors.push(`${sp.from}: line lost in split: ${line.slice(0, 80)}`);
   }
 
   const newSlugs = new Set(moves.map((m) => m.newSlug));

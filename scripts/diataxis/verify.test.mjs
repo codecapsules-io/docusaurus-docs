@@ -59,3 +59,10 @@ test('checkSplit: reports an original line that no part contains', () => {
   const missing = checkSplit(before, [page('# T\n\nKeep me.\n')]);
   assert.deepEqual(missing, ['Lose me.']);
 });
+
+test('checkSplit: a line listed as deliberately rewritten is not reported', () => {
+  const before = page('# T\n\nOld intro that no longer fits.\n\nKeep me.\n');
+  const parts = [page('# T\n\nKeep me.\n')];
+  assert.deepEqual(checkSplit(before, parts, ['Old intro that no longer fits.']), []);
+  assert.deepEqual(checkSplit(before, parts), ['Old intro that no longer fits.']);
+});
