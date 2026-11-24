@@ -1,10 +1,9 @@
 ---
-slug: "/how-to/capsules/docker/overview"
-diataxis: how-to
-sidebar_position: 0
+slug: "/indexes/docker-capsule"
+diataxis: index
 description: "Run containerized apps on Code Capsules with a Docker Capsule, built from your own Dockerfile or deployed from an existing public container image."
 title: "Docker Container Hosting"
-sidebar_label: "Overview"
+sidebar_label: "Docker capsule"
 ---
 
 # Everything About Hosting Your Docker Container

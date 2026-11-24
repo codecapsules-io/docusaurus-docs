@@ -245,14 +245,14 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/indexes/nextjs-full-stack-guides.md` | Next.js Full-Stack Hosting |
 | `docs/index.md` | Get Started: Deploy Your First App |
 | `docs/indexes/platform.md` | Platform Guides — Accounts, Billing, Teams & Domains |
-| `docs/how-to/capsules/backend/deploy.md` | How to Deploy a Backend Application |
-| `docs/how-to/capsules/backend/overview.md` | Backend Application Hosting |
-| `docs/how-to/capsules/database/overview.md` | Managed Database Hosting |
+| `docs/indexes/backend-deploy.md` | How to Deploy a Backend Application |
+| `docs/indexes/backend-capsule.md` | Backend Application Hosting |
+| `docs/indexes/database-capsule.md` | Managed Database Hosting |
 | `docs/how-to/capsules/database/mongodb/upgrades/overview.md` | How to Upgrade MongoDB Versions |
 | `docs/how-to/capsules/database/mysql/upgrades/overview.md` | How to Upgrade MySQL Versions |
-| `docs/how-to/capsules/docker/overview.md` | Docker Container Hosting |
-| `docs/how-to/capsules/frontend/deploy.md` | Frontend Framework Deployment Guides |
-| `docs/how-to/capsules/frontend/overview.md` | Frontend App Hosting |
+| `docs/indexes/docker-capsule.md` | Docker Container Hosting |
+| `docs/indexes/frontend-deploy.md` | Frontend Framework Deployment Guides |
+| `docs/indexes/frontend-capsule.md` | Frontend App Hosting |
 | `docs/indexes/products.md` | App, Database & WordPress Hosting Products |
 | `docs/tutorials/index.md` | Deployment Tutorials & Step-by-Step Guides |
 | `docs/tutorials/video-guides.md` | Video Tutorials — Deploy Apps Step by Step |

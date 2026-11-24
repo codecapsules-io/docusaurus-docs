@@ -10,7 +10,7 @@ sidebar_label: "Deploy a Container Frontend"
 
 With Container hosting, Code Capsules builds your project and serves the output from a web server that runs in an always-on container. You get runtime logs, access logs, and metrics, and you can scale CPU, memory, and replicas as your traffic grows.
 
-Container hosting serves the same static files as [Static hosting](/how-to/capsules/frontend/deploy-static/). It doesn't run your own server code. If you need server-side rendering or API routes, use a [Backend Capsule](/how-to/capsules/backend/overview/) instead.
+Container hosting serves the same static files as [Static hosting](/how-to/capsules/frontend/deploy-static/). It doesn't run your own server code. If you need server-side rendering or API routes, use a [Backend Capsule](/indexes/backend-capsule/) instead.
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ Before creating a capsule, make sure you have:
 
 Your build must produce a folder that contains an `index.html` file, for example `dist` or `build`. See [Supported Runtimes](/reference/capsules/frontend/supported-runtimes/#supported-frameworks) for the build command and output folder for common frameworks.
 
-You don't need a `Dockerfile` or a web server in your project. Code Capsules builds your site and adds the web server for you. To run your own container image, use a [Docker Capsule](/how-to/capsules/docker/overview/) instead.
+You don't need a `Dockerfile` or a web server in your project. Code Capsules builds your site and adds the web server for you. To run your own container image, use a [Docker Capsule](/indexes/docker-capsule/) instead.
 
 ## Create the capsule
 
@@ -67,4 +67,4 @@ The web server in your container:
 - [Monitor](/how-to/capsules/frontend/monitor/) and [Logs](/how-to/capsules/frontend/logs/): watch performance and traffic
 - [Configure](/how-to/capsules/frontend/configure/): change build settings and environment variables
 - [Custom Domains](/how-to/capsules/frontend/custom-domains/): serve your site from your own domain
-- [Framework Guides](/how-to/capsules/frontend/deploy/): React, Angular, Vue, Svelte, and static HTML
+- [Framework Guides](/indexes/frontend-deploy/): React, Angular, Vue, Svelte, and static HTML

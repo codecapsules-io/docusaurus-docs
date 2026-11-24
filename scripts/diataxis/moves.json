@@ -730,16 +730,16 @@
  {
   "oldPath": "docs/products/backend-capsule/deploy.md",
   "oldSlug": "/products/backend-capsule/deploy",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/backend/deploy.md",
-  "newSlug": "/how-to/capsules/backend/deploy"
+  "type": "index",
+  "newPath": "docs/indexes/backend-deploy.md",
+  "newSlug": "/indexes/backend-deploy"
  },
  {
   "oldPath": "docs/products/backend-capsule/index.md",
   "oldSlug": "/products/backend-capsule",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/backend/overview.md",
-  "newSlug": "/how-to/capsules/backend/overview"
+  "type": "index",
+  "newPath": "docs/indexes/backend-capsule.md",
+  "newSlug": "/indexes/backend-capsule"
  },
  {
   "oldPath": "docs/products/backend-capsule/logs.md",
@@ -821,9 +821,9 @@
  {
   "oldPath": "docs/products/database-capsule/index.md",
   "oldSlug": "/products/database-capsule",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/database/overview.md",
-  "newSlug": "/how-to/capsules/database/overview"
+  "type": "index",
+  "newPath": "docs/indexes/database-capsule.md",
+  "newSlug": "/indexes/database-capsule"
  },
  {
   "oldPath": "docs/products/database-capsule/mongodb/backups.md",
@@ -1101,9 +1101,9 @@
  {
   "oldPath": "docs/products/docker-capsule/index.md",
   "oldSlug": "/products/docker-capsule",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/docker/overview.md",
-  "newSlug": "/how-to/capsules/docker/overview"
+  "type": "index",
+  "newPath": "docs/indexes/docker-capsule.md",
+  "newSlug": "/indexes/docker-capsule"
  },
  {
   "oldPath": "docs/products/docker-capsule/logs.md",
@@ -1157,16 +1157,16 @@
  {
   "oldPath": "docs/products/frontend-capsule/deploy.md",
   "oldSlug": "/products/frontend-capsule/deploy",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/frontend/deploy.md",
-  "newSlug": "/how-to/capsules/frontend/deploy"
+  "type": "index",
+  "newPath": "docs/indexes/frontend-deploy.md",
+  "newSlug": "/indexes/frontend-deploy"
  },
  {
   "oldPath": "docs/products/frontend-capsule/index.md",
   "oldSlug": "/products/frontend-capsule",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/frontend/overview.md",
-  "newSlug": "/how-to/capsules/frontend/overview"
+  "type": "index",
+  "newPath": "docs/indexes/frontend-capsule.md",
+  "newSlug": "/indexes/frontend-capsule"
  },
  {
   "oldPath": "docs/products/frontend-capsule/logs.md",

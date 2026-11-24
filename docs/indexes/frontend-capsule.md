@@ -1,10 +1,9 @@
 ---
-slug: "/how-to/capsules/frontend/overview"
-diataxis: how-to
-sidebar_position: 0
+slug: "/indexes/frontend-capsule"
+diataxis: index
 description: "Host static sites and single-page applications on Code Capsules. Choose Static hosting, with a free plan, or Container hosting for always-on serving with logs, metrics, and scaling."
 title: "Frontend App Hosting"
-sidebar_label: "Overview"
+sidebar_label: "Frontend capsule"
 ---
 
 # Everything About Hosting Your Frontend App
@@ -19,7 +18,7 @@ A Frontend Capsule is a good fit when:
 - You use a framework such as React, Angular, Vue, or Svelte that builds to a folder of static files
 - Your site doesn't need a server-side runtime, server-side rendering (SSR), or API routes
 
-If your app needs SSR or API routes, use a [Backend Capsule](/how-to/capsules/backend/overview/) instead. See [Supported Runtimes](/reference/capsules/frontend/supported-runtimes/#not-supported-on-frontend-capsules) for details.
+If your app needs SSR or API routes, use a [Backend Capsule](/indexes/backend-capsule/) instead. See [Supported Runtimes](/reference/capsules/frontend/supported-runtimes/#not-supported-on-frontend-capsules) for details.
 
 ## Choose how to host
 
@@ -55,7 +54,7 @@ Static hosting and the Free plan depend on your cluster. If the **Static** optio
   - [Free and Paid Plans](/reference/capsules/frontend/static-plans/): limits for each plan, what happens when you reach them, and how to upgrade
 - **Container**
   - [Deploy](/how-to/capsules/frontend/deploy-container/): create a container capsule from your Git repository
-- [Framework Guides](/how-to/capsules/frontend/deploy/): step-by-step guides for React, Angular, Vue, Svelte, and static HTML
+- [Framework Guides](/indexes/frontend-deploy/): step-by-step guides for React, Angular, Vue, Svelte, and static HTML
 - [Supported Runtimes](/reference/capsules/frontend/supported-runtimes/): frameworks, build settings, and Node.js pinning
 - [Configure](/how-to/capsules/frontend/configure/): build command, output folder, and environment variables
 - [Scale](/how-to/capsules/frontend/scale/): allocate resources to a container capsule, or upgrade a Free static capsule

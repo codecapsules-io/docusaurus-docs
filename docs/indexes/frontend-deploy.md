@@ -1,9 +1,9 @@
 ---
-slug: "/how-to/capsules/frontend/deploy"
-diataxis: how-to
+slug: "/indexes/frontend-deploy"
+diataxis: index
 description: "Step-by-step guides for deploying React, Angular, Vue, Next.js, Svelte, and static HTML sites on Code Capsules Frontend Capsules."
 title: "Frontend Framework Deployment Guides"
-sidebar_label: "Framework Guides"
+sidebar_label: "Frontend deploy guides"
 ---
 
 # Deploy Your Frontend App

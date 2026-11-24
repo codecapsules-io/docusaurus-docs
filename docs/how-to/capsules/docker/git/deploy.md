@@ -50,7 +50,7 @@ app.listen(port, '0.0.0.0', () => {
 });
 ```
 
-Everything your app needs must be declared in the Dockerfile. Unlike [Backend Capsules](/how-to/capsules/backend/overview/), Docker Capsules do not detect your language or install dependencies for you.
+Everything your app needs must be declared in the Dockerfile. Unlike [Backend Capsules](/indexes/backend-capsule/), Docker Capsules do not detect your language or install dependencies for you.
 
 :::tip
 

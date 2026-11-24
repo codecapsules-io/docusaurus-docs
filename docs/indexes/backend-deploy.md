@@ -1,9 +1,9 @@
 ---
-slug: "/how-to/capsules/backend/deploy"
-diataxis: how-to
+slug: "/indexes/backend-deploy"
+diataxis: index
 description: "Deploy server-side applications and APIs on Code Capsules with support for Python, Node.js, Go, Java, and Docker."
 title: "How to Deploy a Backend Application"
-sidebar_label: "Build and Deploy"
+sidebar_label: "Backend deploy guides"
 ---
 
 # Deploy Your Backend Application
@@ -24,9 +24,9 @@ Backend Capsules automatically detect your language, install dependencies, and b
 
 ## Docker
 
-Docker-based applications deploy as [Docker Capsules](/how-to/capsules/docker/overview/), which build from your own `Dockerfile` rather than automatic language detection.
+Docker-based applications deploy as [Docker Capsules](/indexes/docker-capsule/), which build from your own `Dockerfile` rather than automatic language detection.
 
-- [Docker Capsule documentation](/how-to/capsules/docker/overview/)
+- [Docker Capsule documentation](/indexes/docker-capsule/)
 - [Caddy Docker Site](/how-to/capsules/backend/guides/docker/caddy-docker-site/)
 - [Docker Laravel App](/how-to/capsules/backend/guides/docker/docker-laravel-app/)
 - [Docker PHP App](/how-to/capsules/backend/guides/docker/docker-php-app/)

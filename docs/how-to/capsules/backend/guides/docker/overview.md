@@ -9,13 +9,13 @@ sidebar_label: "Overview"
 
 # Deploy Your Docker Containers
 
-Deploy containerized applications on Code Capsules using [Docker Capsules](/how-to/capsules/docker/overview/). Docker Capsules build your application from a `Dockerfile` in your Git repository, or deploy an existing public container image, giving you full control over the runtime environment.
+Deploy containerized applications on Code Capsules using [Docker Capsules](/indexes/docker-capsule/). Docker Capsules build your application from a `Dockerfile` in your Git repository, or deploy an existing public container image, giving you full control over the runtime environment.
 
 ## Product documentation
 
 For detailed information on creating, configuring, and operating Docker Capsules:
 
-- [Docker Capsule overview](/how-to/capsules/docker/overview/)
+- [Docker Capsule overview](/indexes/docker-capsule/)
 - [Container requirements](/reference/capsules/docker/container-requirements/)
 - From Git
   - [Deploy](/how-to/capsules/docker/git/deploy/)

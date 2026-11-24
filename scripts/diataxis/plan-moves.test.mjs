@@ -70,13 +70,13 @@ test('newLocation: every capsule type moves under capsules/ without the -capsule
       `docs/how-to/capsules/${folder}/configure.md`,
     );
   }
-  assert.equal(newLocation('docs/products/backend-capsule/index.md', 'how-to').newSlug, '/how-to/capsules/backend/overview');
+  assert.equal(newLocation('docs/products/backend-capsule/configure.md', 'how-to').newSlug, '/how-to/capsules/backend/configure');
 });
 
 test('newLocation: backend framework guides go under capsules/backend/guides/', () => {
   assert.equal(newLocation('docs/backend/python/django.md', 'how-to').newPath, 'docs/how-to/capsules/backend/guides/python/django.md');
   assert.equal(newLocation('docs/backend/java.md', 'how-to').newSlug, '/how-to/capsules/backend/guides/java');
-  assert.equal(newLocation('docs/products/backend-capsule/index.md', 'how-to').newSlug, '/how-to/capsules/backend/overview');
+  assert.equal(newLocation('docs/products/backend-capsule/configure.md', 'how-to').newSlug, '/how-to/capsules/backend/configure');
 });
 
 test('newLocation: frontend and database guides go under capsules/<name>/guides/', () => {
@@ -138,7 +138,6 @@ test('newLocation: link-only hubs move to indexes/', () => {
 });
 
 test('newLocation: index.md with real content becomes overview.md; a sole index becomes <folder>.md', () => {
-  assert.equal(newLocation('docs/products/backend-capsule/index.md', 'how-to').newPath, 'docs/how-to/capsules/backend/overview.md');
   assert.equal(newLocation('docs/database/mongodb/index.md', 'how-to').newPath, 'docs/how-to/capsules/database/guides/mongodb/overview.md');
   assert.equal(newLocation('docs/agentic-automation/index.md', 'explanation').newSlug, '/explanation/agentic-automation/overview');
   assert.equal(newLocation('docs/cli/readme/commands/index.md', 'reference').newPath, 'docs/reference/cli/commands/overview.md');
@@ -175,6 +174,17 @@ test('newLocation: tutorials get short <thing>-<stack> names', () => {
 test('resolveType: the agent chat page is an API contract, so reference', () => {
   const labels = new Map([['docs/products/agent-capsule/chat/index.md', 'how-to']]);
   assert.equal(resolveType('docs/products/agent-capsule/chat/index.md', labels), 'reference');
+});
+
+test('newLocation: capsule overview and deploy link lists move to indexes/', () => {
+  assert.equal(newLocation('docs/products/backend-capsule/index.md', 'index').newPath, 'docs/indexes/backend-capsule.md');
+  assert.equal(newLocation('docs/products/database-capsule/index.md', 'index').newPath, 'docs/indexes/database-capsule.md');
+  assert.equal(newLocation('docs/products/docker-capsule/index.md', 'index').newPath, 'docs/indexes/docker-capsule.md');
+  assert.equal(newLocation('docs/products/frontend-capsule/index.md', 'index').newPath, 'docs/indexes/frontend-capsule.md');
+  assert.equal(newLocation('docs/products/backend-capsule/deploy.md', 'index').newPath, 'docs/indexes/backend-deploy.md');
+  assert.equal(newLocation('docs/products/frontend-capsule/deploy.md', 'index').newSlug, '/indexes/frontend-deploy');
+  const labels = new Map([['docs/products/backend-capsule/deploy.md', 'hub']]);
+  assert.equal(resolveType('docs/products/backend-capsule/deploy.md', labels), 'index');
 });
 
 test('newLocation: platform capsule pages share the capsules/ folder', () => {

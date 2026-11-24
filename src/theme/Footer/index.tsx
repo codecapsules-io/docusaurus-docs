@@ -23,9 +23,9 @@ const footerSections = [
   {
     title: 'Products',
     links: [
-      { label: 'Backend Capsule', href: '/how-to/capsules/backend/overview/' },
-      { label: 'Frontend Capsule', href: '/how-to/capsules/frontend/deploy/' },
-      { label: 'Database Capsule', href: '/how-to/capsules/database/overview/' },
+      { label: 'Backend Capsule', href: '/indexes/backend-capsule/' },
+      { label: 'Frontend Capsule', href: '/indexes/frontend-deploy/' },
+      { label: 'Database Capsule', href: '/indexes/database-capsule/' },
       {
         label: 'WordPress Capsule',
         href: '/how-to/capsules/wordpress/deploy/',

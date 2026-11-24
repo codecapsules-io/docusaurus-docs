@@ -73,4 +73,4 @@ To stop serving your site, turn the capsule off with the switch on the capsule d
 - [Free and Paid Plans](/reference/capsules/frontend/static-plans/): limits, monthly traffic, and upgrading
 - [Configure](/how-to/capsules/frontend/configure/): change build settings and environment variables
 - [Custom Domains](/how-to/capsules/frontend/custom-domains/): serve your site from your own domain
-- [Framework Guides](/how-to/capsules/frontend/deploy/): React, Angular, Vue, Svelte, and static HTML
+- [Framework Guides](/indexes/frontend-deploy/): React, Angular, Vue, Svelte, and static HTML

@@ -21,6 +21,12 @@ const INDEX_PAGES = {
   'docs/platform/index.md': 'platform.md',
   'docs/products/index.md': 'products.md',
   'docs/enterprise/index.md': 'enterprise.md',
+  'docs/products/backend-capsule/index.md': 'backend-capsule.md',
+  'docs/products/database-capsule/index.md': 'database-capsule.md',
+  'docs/products/docker-capsule/index.md': 'docker-capsule.md',
+  'docs/products/frontend-capsule/index.md': 'frontend-capsule.md',
+  'docs/products/backend-capsule/deploy.md': 'backend-deploy.md',
+  'docs/products/frontend-capsule/deploy.md': 'frontend-deploy.md',
 };
 
 // index.md pages with real content become ordinary pages named overview.md.
@@ -30,10 +36,6 @@ const OVERVIEW_PAGES = new Set([
   'docs/cli/readme/commands/index.md',
   'docs/database/mongodb/index.md',
   'docs/database/mysql/index.md',
-  'docs/products/backend-capsule/index.md',
-  'docs/products/database-capsule/index.md',
-  'docs/products/docker-capsule/index.md',
-  'docs/products/frontend-capsule/index.md',
   'docs/products/database-capsule/mongodb/versions/upgrades/index.md',
   'docs/products/database-capsule/mysql/versions/upgrades/index.md',
   'docs/sandbox/python/index.md',

@@ -26,22 +26,18 @@ This section contains all the information you need to deploy, configure, and man
 - [Custom Domains](/how-to/capsules/frontend/custom-domains)
 - [Deploy a Container Frontend](/how-to/capsules/frontend/deploy-container)
 - [Deploy a Static Frontend](/how-to/capsules/frontend/deploy-static)
-- [Framework Guides](/how-to/capsules/frontend/deploy)
 - **Guides**
 - [Logs](/how-to/capsules/frontend/logs)
 - [Monitor](/how-to/capsules/frontend/monitor)
-- [Overview](/how-to/capsules/frontend/overview)
 - [Scale](/how-to/capsules/frontend/scale)
 
 ## Backend
 
 - [Add a Procfile to a Backend Capsule](/how-to/capsules/backend/add-procfile)
 - [Configure](/how-to/capsules/backend/configure)
-- [Build and Deploy](/how-to/capsules/backend/deploy)
 - **Guides**
 - [Logs](/how-to/capsules/backend/logs)
 - [Monitor](/how-to/capsules/backend/monitor)
-- [Overview](/how-to/capsules/backend/overview)
 - [Scale](/how-to/capsules/backend/scale)
 
 ## Database
@@ -50,7 +46,6 @@ This section contains all the information you need to deploy, configure, and man
 - **Guides**
 - **MongoDB**
 - **MySQL**
-- [Overview](/how-to/capsules/database/overview)
 - **PostgreSQL**
 - **Redis**
 
@@ -62,7 +57,6 @@ This section contains all the information you need to deploy, configure, and man
 - **Image**
 - [Logs](/how-to/capsules/docker/logs)
 - [Monitor](/how-to/capsules/docker/monitor)
-- [Overview](/how-to/capsules/docker/overview)
 - [Scale](/how-to/capsules/docker/scale)
 
 ## Storage
