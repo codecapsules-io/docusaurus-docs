@@ -1,8 +1,8 @@
 ---
-slug: "/how-to/capsules/wordpress/security"
-diataxis: how-to
+slug: "/reference/capsules/wordpress/security"
+diataxis: reference
 description: "Built-in security features of the WordPress Capsule and how to configure them."
-title: "How to Secure a WordPress Site"
+title: "WordPress Security Configuration"
 sidebar_label: "Security"
 ---
 

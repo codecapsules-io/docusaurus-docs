@@ -94,7 +94,7 @@ export function loadLabels(diataxisMd) {
 export function resolveType(oldPath, labels) {
   if (oldPath === 'docs/index.md') return 'how-to';
   if (INDEX_PAGES[oldPath]) return 'index';
-  if (oldPath === 'docs/products/agent-capsule/chat/index.md') return 'reference';
+  if (['docs/products/agent-capsule/chat/index.md', 'docs/products/wordpress-capsule/security.md', 'docs/products/wordpress-capsule/configure.md'].includes(oldPath)) return 'reference';
   if (oldPath === 'docs/cli/readme/getting-started/quick-start.md' || oldPath === 'docs/sandbox/quickstart.md') return 'how-to';
   const label = labels.get(oldPath);
   if (label === 'release-notes') return 'release-notes';

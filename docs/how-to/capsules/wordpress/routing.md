@@ -214,4 +214,4 @@ WordPress admin routes (`/wp-admin/`, `/wp-login.php`) are handled separately:
 - Rate limiting is applied at the stricter `protected_routes` level (30 req/min).
 - Admin PHP files are passed directly to PHP-FPM with no cache layer.
 
-See [Security](/how-to/capsules/wordpress/security/) for configuring IP restrictions on wp-admin.
+See [Security](/reference/capsules/wordpress/security/) for configuring IP restrictions on wp-admin.

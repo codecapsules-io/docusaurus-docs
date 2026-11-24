@@ -1,8 +1,8 @@
 ---
-slug: "/how-to/capsules/wordpress/configure"
-diataxis: how-to
+slug: "/reference/capsules/wordpress/configure"
+diataxis: reference
 description: "Complete reference for configuring a WordPress Capsule — database connections, PHP settings, FPM workers, and all environment variables."
-title: "How to Configure a WordPress Site"
+title: "WordPress Configuration Reference"
 sidebar_label: "Configure"
 ---
 
@@ -160,7 +160,7 @@ See [Performance](/how-to/capsules/wordpress/performance/) for the full scaling 
 | `XMLRPC_ENABLED` | `false` | Enable XML-RPC endpoint (required for Jetpack and the WordPress mobile app) |
 | `NGINX_EXTRA_CONF` | — | Raw nginx directives injected into the server block |
 
-See [Security](/how-to/capsules/wordpress/security/) for the full security reference.
+See [Security](/reference/capsules/wordpress/security/) for the full security reference.
 
 ---
 

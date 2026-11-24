@@ -187,6 +187,14 @@ test('newLocation: capsule overview and deploy link lists move to indexes/', () 
   assert.equal(resolveType('docs/products/backend-capsule/deploy.md', labels), 'index');
 });
 
+test('resolveType: WordPress security and configure are settings references', () => {
+  const labels = new Map([['docs/products/wordpress-capsule/security.md', 'how-to'], ['docs/products/wordpress-capsule/configure.md', 'how-to']]);
+  assert.equal(resolveType('docs/products/wordpress-capsule/security.md', labels), 'reference');
+  assert.equal(resolveType('docs/products/wordpress-capsule/configure.md', labels), 'reference');
+  assert.equal(newLocation('docs/products/wordpress-capsule/security.md', 'reference').newPath, 'docs/reference/capsules/wordpress/security.md');
+  assert.equal(newLocation('docs/products/wordpress-capsule/configure.md', 'reference').newSlug, '/reference/capsules/wordpress/configure');
+});
+
 test('newLocation: platform capsule pages share the capsules/ folder', () => {
   assert.equal(newLocation('docs/platform/capsules/health-checks.md', 'how-to').newPath, 'docs/how-to/capsules/health-checks.md');
 });

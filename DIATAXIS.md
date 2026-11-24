@@ -168,7 +168,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/capsules/storage/scale.md` | How to Scale a Persistent Storage |
 | `docs/how-to/capsules/wordpress/backups.md` | How to Back Up a WordPress Site |
 | `docs/how-to/capsules/wordpress/caching.md` | How to Enable WordPress Caching |
-| `docs/how-to/capsules/wordpress/configure.md` | How to Configure a WordPress Site |
+| `docs/reference/capsules/wordpress/configure.md` | How to Configure a WordPress Site |
 | `docs/how-to/capsules/wordpress/cron.md` | How to Schedule WordPress Cron Jobs |
 | `docs/how-to/capsules/wordpress/deploy.md` | How to Deploy a WordPress Site |
 | `docs/how-to/capsules/wordpress/logs.md` | How to View Logs for a WordPress Site |
@@ -176,7 +176,7 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/capsules/wordpress/performance.md` | How to Maximize WordPress Performance |
 | `docs/how-to/capsules/wordpress/routing.md` | How to Configure WordPress Routing |
 | `docs/how-to/capsules/wordpress/scale.md` | How to Scale a WordPress Site |
-| `docs/how-to/capsules/wordpress/security.md` | How to Secure a WordPress Site |
+| `docs/reference/capsules/wordpress/security.md` | How to Secure a WordPress Site |
 | `docs/how-to/guides/deploy-emdash-on-code-capsules.md` | Deploy an EmDash CMS Site |
 | `docs/how-to/guides/deploy-paperclip-ai-orchestration-on-code-capsules.md` | Deploy Paperclip on Code Capsules |
 | `docs/how-to/guides/heroku-migration-guide.md` | Migrate From Heroku to Code Capsules: 2026 Guide |

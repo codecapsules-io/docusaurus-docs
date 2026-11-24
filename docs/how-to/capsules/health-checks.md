@@ -16,7 +16,7 @@ We recommend a health check for every capsule that serves HTTP traffic. **Automa
 
 ## Where to set a health check
 
-Health checks are available for [Backend](/how-to/capsules/backend/configure/), [Docker](/how-to/capsules/docker/configure/), [Agent](/how-to/capsules/agent/configure/), and [WordPress](/how-to/capsules/wordpress/configure/) Capsules. Each Configure page shows where to set the health check for that capsule type.
+Health checks are available for [Backend](/how-to/capsules/backend/configure/), [Docker](/how-to/capsules/docker/configure/), [Agent](/how-to/capsules/agent/configure/), and [WordPress](/reference/capsules/wordpress/configure/) Capsules. Each Configure page shows where to set the health check for that capsule type.
 
 ## Example configurations
 

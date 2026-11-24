@@ -73,7 +73,6 @@ This section contains all the information you need to deploy, configure, and man
 
 - [Backups](/how-to/capsules/wordpress/backups)
 - [Caching](/how-to/capsules/wordpress/caching)
-- [Configure](/how-to/capsules/wordpress/configure)
 - [Cron](/how-to/capsules/wordpress/cron)
 - [Deploy](/how-to/capsules/wordpress/deploy)
 - [Logs](/how-to/capsules/wordpress/logs)
@@ -82,7 +81,6 @@ This section contains all the information you need to deploy, configure, and man
 - [Performance](/how-to/capsules/wordpress/performance)
 - [Routing](/how-to/capsules/wordpress/routing)
 - [Scale](/how-to/capsules/wordpress/scale)
-- [Security](/how-to/capsules/wordpress/security)
 
 ## Agent
 

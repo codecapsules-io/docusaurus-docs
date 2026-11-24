@@ -1283,9 +1283,9 @@
  {
   "oldPath": "docs/products/wordpress-capsule/configure.md",
   "oldSlug": "/products/wordpress-capsule/configure",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/wordpress/configure.md",
-  "newSlug": "/how-to/capsules/wordpress/configure"
+  "type": "reference",
+  "newPath": "docs/reference/capsules/wordpress/configure.md",
+  "newSlug": "/reference/capsules/wordpress/configure"
  },
  {
   "oldPath": "docs/products/wordpress-capsule/cron.md",
@@ -1339,9 +1339,9 @@
  {
   "oldPath": "docs/products/wordpress-capsule/security.md",
   "oldSlug": "/products/wordpress-capsule/security",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/wordpress/security.md",
-  "newSlug": "/how-to/capsules/wordpress/security"
+  "type": "reference",
+  "newPath": "docs/reference/capsules/wordpress/security.md",
+  "newSlug": "/reference/capsules/wordpress/security"
  },
  {
   "oldPath": "docs/sandbox/environments.md",
