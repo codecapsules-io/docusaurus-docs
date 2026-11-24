@@ -171,7 +171,7 @@ See [Security](/reference/capsules/wordpress/security/) for the full security re
 | `CACHE_TTL_SECONDS` | unset (disabled) | Page cache TTL in seconds. Must be a positive integer. Unset to disable. |
 | `DEBUG_HEADERS` | `false` | Expose `X-Cache` header for cache diagnostics |
 
-See [Caching](/how-to/capsules/wordpress/caching/) for the full caching reference.
+See [Caching](/reference/capsules/wordpress/caching/) for the full caching reference.
 
 ---
 
@@ -187,7 +187,7 @@ Also set in `WORDPRESS_CONFIG_EXTRA`:
 define('DISABLE_WP_CRON', true);
 ```
 
-See [Cron](/how-to/capsules/wordpress/cron/) for the full cron reference.
+See [Cron](/reference/capsules/wordpress/cron/) for the full cron reference.
 
 ---
 

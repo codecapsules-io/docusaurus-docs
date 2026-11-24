@@ -40,4 +40,4 @@ Most plugins that use WP-Cron work correctly with this setup. The 5-minute trigg
 
 Some plugins allow configuring a custom cron interval. The minimum reliable interval on Code Capsules is **5 minutes**.
 
-To configure cron, see [How to schedule WordPress cron jobs](/how-to/capsules/wordpress/cron/).
+To configure cron, see [WordPress cron configuration](/reference/capsules/wordpress/cron/).

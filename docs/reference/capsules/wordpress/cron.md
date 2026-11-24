@@ -1,16 +1,14 @@
 ---
-slug: "/how-to/capsules/wordpress/cron"
-diataxis: how-to
-description: "How WordPress scheduled tasks work on Code Capsules and how to configure reliable cron execution."
-title: "How to Schedule WordPress Cron Jobs"
+slug: "/reference/capsules/wordpress/cron"
+diataxis: reference
+title: "WordPress Cron Configuration"
+description: "Recommended WP-Cron configuration for Code Capsules, how to allow public cron access, and the related environment variables."
 sidebar_label: "Cron"
 ---
 
-# Schedule Your WordPress Cron Jobs
+# WordPress Cron Configuration
 
-Set up reliable WordPress cron on Code Capsules. For why the platform replaces the HTTP-triggered cron and what it does by default, see [How WordPress cron works](/explanation/capsules/wordpress/cron/).
-
----
+Settings for WordPress cron on Code Capsules. To understand why the platform replaces the HTTP-triggered cron and what it does by default, see [How WordPress cron works](/explanation/capsules/wordpress/cron/).
 
 ## Recommended Configuration
 
@@ -29,8 +27,6 @@ DISABLE_PUBLIC_WP_CRON=true
 WORDPRESS_CONFIG_EXTRA=define('DISABLE_WP_CRON', true);
 ```
 
----
-
 ## Allowing Public Cron Access
 
 If you have a specific reason to allow external HTTP access to `wp-cron.php` (for example, a third-party cron trigger service), you can enable it:
@@ -44,8 +40,6 @@ Even when public access is enabled, the endpoint is still rate-limited to protec
 :::caution
 If you enable public cron access and also have a separate cron trigger, cron may run more frequently than intended. Monitor WordPress cron logs to confirm expected behaviour.
 :::
-
----
 
 ## Environment Variables Reference
 

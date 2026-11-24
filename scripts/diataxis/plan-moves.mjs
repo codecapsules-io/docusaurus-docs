@@ -27,6 +27,7 @@ const INDEX_PAGES = {
   'docs/products/frontend-capsule/index.md': 'frontend-capsule.md',
   'docs/products/backend-capsule/deploy.md': 'backend-deploy.md',
   'docs/products/frontend-capsule/deploy.md': 'frontend-deploy.md',
+  'docs/products/wordpress-capsule/backups.md': 'wordpress-backups.md',
 };
 
 // index.md pages with real content become ordinary pages named overview.md.
@@ -94,7 +95,7 @@ export function loadLabels(diataxisMd) {
 export function resolveType(oldPath, labels) {
   if (oldPath === 'docs/index.md') return 'how-to';
   if (INDEX_PAGES[oldPath]) return 'index';
-  if (['docs/products/agent-capsule/chat/index.md', 'docs/products/wordpress-capsule/security.md', 'docs/products/wordpress-capsule/configure.md'].includes(oldPath)) return 'reference';
+  if (['docs/products/agent-capsule/chat/index.md', 'docs/products/wordpress-capsule/security.md', 'docs/products/wordpress-capsule/configure.md', 'docs/products/wordpress-capsule/caching.md', 'docs/products/wordpress-capsule/cron.md'].includes(oldPath)) return 'reference';
   if (oldPath === 'docs/cli/readme/getting-started/quick-start.md' || oldPath === 'docs/sandbox/quickstart.md') return 'how-to';
   const label = labels.get(oldPath);
   if (label === 'release-notes') return 'release-notes';

@@ -163,7 +163,7 @@ To allow public access to `wp-cron.php` (not recommended):
 DISABLE_PUBLIC_WP_CRON=false
 ```
 
-See the [Cron guide](/how-to/capsules/wordpress/cron/) for the full setup.
+See the [Cron guide](/reference/capsules/wordpress/cron/) for the full setup.
 
 ---
 

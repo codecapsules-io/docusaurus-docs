@@ -1269,16 +1269,16 @@
  {
   "oldPath": "docs/products/wordpress-capsule/backups.md",
   "oldSlug": "/products/wordpress-capsule/backups",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/wordpress/backups.md",
-  "newSlug": "/how-to/capsules/wordpress/backups"
+  "type": "index",
+  "newPath": "docs/indexes/wordpress-backups.md",
+  "newSlug": "/indexes/wordpress-backups"
  },
  {
   "oldPath": "docs/products/wordpress-capsule/caching.md",
   "oldSlug": "/products/wordpress-capsule/caching",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/wordpress/caching.md",
-  "newSlug": "/how-to/capsules/wordpress/caching"
+  "type": "reference",
+  "newPath": "docs/reference/capsules/wordpress/caching.md",
+  "newSlug": "/reference/capsules/wordpress/caching"
  },
  {
   "oldPath": "docs/products/wordpress-capsule/configure.md",
@@ -1290,9 +1290,9 @@
  {
   "oldPath": "docs/products/wordpress-capsule/cron.md",
   "oldSlug": "/products/wordpress-capsule/cron",
-  "type": "how-to",
-  "newPath": "docs/how-to/capsules/wordpress/cron.md",
-  "newSlug": "/how-to/capsules/wordpress/cron"
+  "type": "reference",
+  "newPath": "docs/reference/capsules/wordpress/cron.md",
+  "newSlug": "/reference/capsules/wordpress/cron"
  },
  {
   "oldPath": "docs/products/wordpress-capsule/deploy.md",

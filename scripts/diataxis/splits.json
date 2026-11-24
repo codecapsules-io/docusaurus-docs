@@ -10,9 +10,11 @@
  {
   "from": "docs/products/wordpress-capsule/caching.md",
   "parts": [
-   "docs/how-to/capsules/wordpress/caching.md",
    "docs/reference/capsules/wordpress/caching.md",
    "docs/explanation/capsules/wordpress/caching.md"
+  ],
+  "allow": [
+   "Speed Up WordPress With Caching"
   ]
  },
  {
@@ -65,8 +67,11 @@
  {
   "from": "docs/products/wordpress-capsule/cron.md",
   "parts": [
-   "docs/how-to/capsules/wordpress/cron.md",
+   "docs/reference/capsules/wordpress/cron.md",
    "docs/explanation/capsules/wordpress/cron.md"
+  ],
+  "allow": [
+   "Schedule Your WordPress Cron Jobs"
   ]
  }
 ]

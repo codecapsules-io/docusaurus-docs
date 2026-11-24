@@ -195,6 +195,20 @@ test('resolveType: WordPress security and configure are settings references', ()
   assert.equal(newLocation('docs/products/wordpress-capsule/configure.md', 'reference').newSlug, '/reference/capsules/wordpress/configure');
 });
 
+test('WordPress caching and cron are references; backups is an index page', () => {
+  const labels = new Map([
+    ['docs/products/wordpress-capsule/caching.md', 'how-to'],
+    ['docs/products/wordpress-capsule/cron.md', 'how-to'],
+    ['docs/products/wordpress-capsule/backups.md', 'how-to'],
+  ]);
+  assert.equal(resolveType('docs/products/wordpress-capsule/caching.md', labels), 'reference');
+  assert.equal(resolveType('docs/products/wordpress-capsule/cron.md', labels), 'reference');
+  assert.equal(resolveType('docs/products/wordpress-capsule/backups.md', labels), 'index');
+  assert.equal(newLocation('docs/products/wordpress-capsule/caching.md', 'reference').newPath, 'docs/reference/capsules/wordpress/caching.md');
+  assert.equal(newLocation('docs/products/wordpress-capsule/cron.md', 'reference').newSlug, '/reference/capsules/wordpress/cron');
+  assert.equal(newLocation('docs/products/wordpress-capsule/backups.md', 'index').newPath, 'docs/indexes/wordpress-backups.md');
+});
+
 test('newLocation: platform capsule pages share the capsules/ folder', () => {
   assert.equal(newLocation('docs/platform/capsules/health-checks.md', 'how-to').newPath, 'docs/how-to/capsules/health-checks.md');
 });

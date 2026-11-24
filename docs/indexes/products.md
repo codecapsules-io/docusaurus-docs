@@ -71,9 +71,6 @@ This section contains all the information you need to deploy, configure, and man
 
 ## WordPress
 
-- [Backups](/how-to/capsules/wordpress/backups)
-- [Caching](/how-to/capsules/wordpress/caching)
-- [Cron](/how-to/capsules/wordpress/cron)
 - [Deploy](/how-to/capsules/wordpress/deploy)
 - [Logs](/how-to/capsules/wordpress/logs)
 - [Managed WordPress](/how-to/capsules/wordpress/managed-wordpress)

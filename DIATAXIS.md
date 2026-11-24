@@ -166,10 +166,10 @@ The first four types are the Diátaxis types. `hub`, `overview` and `release-not
 | `docs/how-to/capsules/storage/logs.md` | How to View Logs for a Persistent Storage |
 | `docs/how-to/capsules/storage/monitor.md` | How to Monitor a Persistent Storage |
 | `docs/how-to/capsules/storage/scale.md` | How to Scale a Persistent Storage |
-| `docs/how-to/capsules/wordpress/backups.md` | How to Back Up a WordPress Site |
-| `docs/how-to/capsules/wordpress/caching.md` | How to Enable WordPress Caching |
+| `docs/indexes/wordpress-backups.md` | How to Back Up a WordPress Site |
+| `docs/reference/capsules/wordpress/caching.md` | How to Enable WordPress Caching |
 | `docs/reference/capsules/wordpress/configure.md` | How to Configure a WordPress Site |
-| `docs/how-to/capsules/wordpress/cron.md` | How to Schedule WordPress Cron Jobs |
+| `docs/reference/capsules/wordpress/cron.md` | How to Schedule WordPress Cron Jobs |
 | `docs/how-to/capsules/wordpress/deploy.md` | How to Deploy a WordPress Site |
 | `docs/how-to/capsules/wordpress/logs.md` | How to View Logs for a WordPress Site |
 | `docs/how-to/capsules/wordpress/monitor.md` | How to Monitor a WordPress Site |

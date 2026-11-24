@@ -1,9 +1,9 @@
 ---
-slug: "/how-to/capsules/wordpress/backups"
-diataxis: how-to
+slug: "/indexes/wordpress-backups"
+diataxis: index
 description: "WordPress stores content in two locations:"
 title: "How to Back Up a WordPress Site"
-sidebar_label: "Backups"
+sidebar_label: "WordPress backups"
 ---
 
 # Back Up and Restore Your WordPress Site
